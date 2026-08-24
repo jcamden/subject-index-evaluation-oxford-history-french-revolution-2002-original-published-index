@@ -1,0 +1,6 @@
+*.pdf
+*.zip
+candidates/
+exports/
+staging/
+workers/
