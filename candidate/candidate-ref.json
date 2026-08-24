@@ -1,0 +1,39 @@
+{
+  "schema_version": "candidate-preparation-public-ref-v1",
+  "candidate_id": "oxford-history-french-revolution-2002-original-published-index",
+  "candidate_sha256": "1d43fe7fb158b352393c6e2f14843aae9ae23ccfca1f61c6783307432b0a9d09",
+  "file_origin": "delivered_pdf",
+  "source_identity": {
+    "sha256": "5f89aa2592218983c594278bfd86cc1e4b74be1dd6dd8aac5c2610a48fa34047",
+    "edition": "2002"
+  },
+  "page_map_sha256": "452602deebdae19f8e35c589f2ff2a7a0b9fc955d268b14f760391b0043e9653",
+  "chunk_manifest_sha256": "5fc5450386114fdeb19838f54d3f1662c3d6dec81d4729c73f4f7ec0cb341a6f",
+  "policy_identity": {
+    "profile": "subject-index-standard-policy-v1",
+    "sha256": "914a7d7042d3f2d2e6cb40686faca331e6a5b029060027bfa769cc8b512c2e9a",
+    "rubric_version": "subject-index-rubric-v4",
+    "audit_mode": "full"
+  },
+  "provenance": {
+    "candidate_bytes": {
+      "status": "verified"
+    },
+    "internal_pdf_completeness": {
+      "status": "verified"
+    },
+    "structural_continuity": {
+      "status": "verified"
+    },
+    "source_edition_compatibility": {
+      "status": "verified"
+    },
+    "locator_page_map_compatibility": {
+      "status": "verified"
+    },
+    "authoritative_copy_fidelity": {
+      "status": "not_independently_verified"
+    }
+  },
+  "benchmark_lock_status": "pending_final_benchmark"
+}

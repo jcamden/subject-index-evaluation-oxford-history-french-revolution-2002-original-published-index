@@ -1,0 +1,45 @@
+{
+  "schema_version": "candidate-preparation-public-report-v1",
+  "candidate_id": "oxford-history-french-revolution-2002-original-published-index",
+  "candidate_sha256": "1d43fe7fb158b352393c6e2f14843aae9ae23ccfca1f61c6783307432b0a9d09",
+  "source_sha256": "5f89aa2592218983c594278bfd86cc1e4b74be1dd6dd8aac5c2610a48fa34047",
+  "page_map_sha256": "452602deebdae19f8e35c589f2ff2a7a0b9fc955d268b14f760391b0043e9653",
+  "adapter_identity": {
+    "requested_id": "indexerlabs-two-column",
+    "id": "indexerlabs-two-column",
+    "version": "1.0.0",
+    "selection_reason": "explicit_adapter"
+  },
+  "aggregate_counts": {
+    "engine": "candidate-preparation-cli",
+    "engine_version": "1.0.0",
+    "record_count": 1904,
+    "main_heading_count": 1066,
+    "subheading_count": 838,
+    "complete_heading_path_count": 1904,
+    "displayed_locator_count": 4462,
+    "expanded_locator_assignment_count": 5338,
+    "cross_reference_count": 16,
+    "unresolved_locator_count": 0,
+    "editorial_corrections_applied": false,
+    "benchmark_content_used": false,
+    "candidate_pdf_pages": 25,
+    "reading_order_regions": 75,
+    "extracted_lines": 2238,
+    "normalization_exceptions": 0
+  },
+  "exception_count": 0,
+  "qa": {
+    "mode": "full",
+    "exact_set_gate_complete": true,
+    "candidate_reproduction_confirmed": true,
+    "editorial_quality_judgments_performed": false
+  },
+  "normalization": {
+    "editorial_corrections_applied": false,
+    "benchmark_content_used": false
+  },
+  "benchmark_lock_status": "pending_final_benchmark",
+  "private_artifacts_published": false,
+  "status": "ready_for_private_receipt"
+}

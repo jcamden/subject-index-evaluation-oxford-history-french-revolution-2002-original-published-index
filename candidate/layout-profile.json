@@ -1,0 +1,28 @@
+{
+  "schema_version": "candidate-preparation-public-layout-profile-v1",
+  "candidate_id": "oxford-history-french-revolution-2002-original-published-index",
+  "candidate_sha256": "1d43fe7fb158b352393c6e2f14843aae9ae23ccfca1f61c6783307432b0a9d09",
+  "adapter": {
+    "requested_id": "indexerlabs-two-column",
+    "id": "indexerlabs-two-column",
+    "version": "1.0.0",
+    "selection_reason": "explicit_adapter"
+  },
+  "pdf_summary": {
+    "page_count": 25,
+    "has_embedded_text": true
+  },
+  "layout_summary": {
+    "reading_order": "page_then_region_then_line",
+    "page_count": 25,
+    "region_count": 75,
+    "line_count": 2238,
+    "header_footer_lines": 49,
+    "continuation_lines": 285,
+    "index_column_count_histogram": {
+      "2": 25
+    }
+  },
+  "limitation_count": 1,
+  "content_included": false
+}
