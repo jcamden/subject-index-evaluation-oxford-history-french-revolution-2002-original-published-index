@@ -1,0 +1,65 @@
+{
+  "schema_version": "locator-audit-integration-public-v1",
+  "evaluation_id": "oxford-history-french-revolution-2002-indexerlabs-truncated",
+  "candidate_id": "oxford-history-french-revolution-2002-original-published-index",
+  "audit_kind": "locator_audit",
+  "status": "integrated_partial",
+  "stage_status": "in_progress",
+  "integrated_at": "2026-08-25T16:10:20Z",
+  "base_branch": "main",
+  "worker_base_commit": "430f5380fe3ced4bfadc569a32bbf39aa5c80f27",
+  "integrated_chunks": [
+    {
+      "chunk_id": "CHUNK-010",
+      "pull_request": 11,
+      "pull_request_url": "https://github.com/jcamden/subject-index-evaluation-oxford-history-french-revolution-2002-original-published-index/pull/11",
+      "head_branch": "locator-audit/chunk-010",
+      "head_commit": "428dc61ff23c2e14ae77b0814ddc3bfdae8a47ae",
+      "merge_commit": "51b88425f957b3cc1e9d4a90169ec598a27a15b4",
+      "public_proposal_path": "candidate/locator-audits/locator-audit.CHUNK-010.v1.json",
+      "public_proposal_sha256": "dc03eca223c12890653e29201a1b0131143d6dd3a1de5afd113015c8f096d67a",
+      "private_artifact_sha256": "dc03eca223c12890653e29201a1b0131143d6dd3a1de5afd113015c8f096d67a"
+    },
+    {
+      "chunk_id": "CHUNK-011",
+      "pull_request": 12,
+      "pull_request_url": "https://github.com/jcamden/subject-index-evaluation-oxford-history-french-revolution-2002-original-published-index/pull/12",
+      "head_branch": "locator-audit/chunk-011",
+      "head_commit": "fea81ca09f6ad61eefefe72597a45ff47e1aa559",
+      "merge_commit": "32f89f624d0e095864bb41bf4e05755ce5d027ba",
+      "public_proposal_path": "candidate/locator-audits/locator-audit.CHUNK-011.v1.json",
+      "public_proposal_sha256": "7de1fbc85177567f2a7fb51bfdf3d7fc73402bcbf7551c83d46211558bf357ca",
+      "private_artifact_sha256": "7de1fbc85177567f2a7fb51bfdf3d7fc73402bcbf7551c83d46211558bf357ca"
+    },
+    {
+      "chunk_id": "CHUNK-012",
+      "pull_request": 13,
+      "pull_request_url": "https://github.com/jcamden/subject-index-evaluation-oxford-history-french-revolution-2002-original-published-index/pull/13",
+      "head_branch": "locator-audit/chunk-012",
+      "head_commit": "a2b47342fd3b51ed998bb38a5415442234160b64",
+      "merge_commit": "fcc7b3f48f12f1958b6bb09dc95f97541c72f2bb",
+      "public_proposal_path": "candidate/locator-audits/locator-audit.CHUNK-012.v1.json",
+      "public_proposal_sha256": "ce35848a1385c0a44072614d9ad18568a69778cc451985a9e56d9968035c4820",
+      "private_artifact_sha256": "ce35848a1385c0a44072614d9ad18568a69778cc451985a9e56d9968035c4820"
+    }
+  ],
+  "missing_chunk_ids": [
+    "CHUNK-013",
+    "CHUNK-014",
+    "CHUNK-015",
+    "CHUNK-016",
+    "CHUNK-017"
+  ],
+  "coverage": {
+    "expected_assignments": 5338,
+    "accepted_assignments": 3662,
+    "duplicate_assignments": 0,
+    "foreign_assignments": 0
+  },
+  "benchmark_repository_modified": false,
+  "public_safety": {
+    "private_payloads_included": false,
+    "private_paths_included": false,
+    "result": "passed"
+  }
+}
