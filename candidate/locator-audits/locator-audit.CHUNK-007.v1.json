@@ -1,0 +1,3621 @@
+{
+  "schema_version": "locator-audit-v1",
+  "evaluation_id": "oxford-history-french-revolution-2002-indexerlabs-truncated",
+  "candidate_id": "oxford-history-french-revolution-2002-original-published-index",
+  "candidate_sha256": "1d43fe7fb158b352393c6e2f14843aae9ae23ccfca1f61c6783307432b0a9d09",
+  "chunk_id": "CHUNK-007",
+  "provenance": {
+    "source_sha256": "5f89aa2592218983c594278bfd86cc1e4b74be1dd6dd8aac5c2610a48fa34047",
+    "benchmark_sha256": "b925797fcab50b2008ad5974590e323f772e5ea7013efa84ce7606007439aeb3",
+    "benchmark_lock_sha256": "16e26f3d50da64fb211aba44940425ccbb20dcfa74e6e5202986b36cc9344ea8",
+    "policy_sha256": "914a7d7042d3f2d2e6cb40686faca331e6a5b029060027bfa769cc8b512c2e9a",
+    "page_map_sha256": "452602deebdae19f8e35c589f2ff2a7a0b9fc955d268b14f760391b0043e9653",
+    "chunk_manifest_sha256": "5fc5450386114fdeb19838f54d3f1662c3d6dec81d4729c73f4f7ec0cb341a6f",
+    "normalized_candidate_file_sha256": "7b29d7716339038848e2b1b0ec17220ae1867cb95941f0f06a84488cd486ed79",
+    "item_inventory_file_sha256": "3e9c2b20d49486398bd57bfa31f5d1da1743498b47d0b9e46e42f096b56b9934",
+    "locator_packet_file_sha256": "209aad79a77b204d38873a62111c3ed2783640be2cff0c1baef6ab5048f24988"
+  },
+  "expected_locator_ids": [
+    "LOC-72BCDEDF1FEE",
+    "LOC-F3B59544B8EC",
+    "LOC-6C8881305A62",
+    "LOC-CD6AD98ED624",
+    "LOC-3556C7E139CF",
+    "LOC-FCF1A152E105",
+    "LOC-B9488CD8A88E",
+    "LOC-0A8EF0F18ACE",
+    "LOC-922A4F56DF5A",
+    "LOC-4790091A8D45",
+    "LOC-6D41487E47D4",
+    "LOC-A21E256D63DD",
+    "LOC-2E78C77B9C22",
+    "LOC-FFF37F0A8995",
+    "LOC-D58BBA9C022F",
+    "LOC-DFC38DACDCA3",
+    "LOC-C745B10BA395",
+    "LOC-CD61183C3F23",
+    "LOC-0407AC591AD5",
+    "LOC-2908E3F5106C",
+    "LOC-4B7FA144F492",
+    "LOC-5775A6E2F8FC",
+    "LOC-32CAC5199A9F",
+    "LOC-2EF0791D0A58",
+    "LOC-EC9E9394E359",
+    "LOC-7C2FD6A03D44",
+    "LOC-CC680A29145D",
+    "LOC-BF199FEF55F2",
+    "LOC-1FDE33E382E1",
+    "LOC-7ABF57C89870",
+    "LOC-4D307B07856B",
+    "LOC-9266D4725124",
+    "LOC-0453A4C4E329",
+    "LOC-265DDC9DB155",
+    "LOC-D83282E48FE1",
+    "LOC-D9B256EFA554",
+    "LOC-C3A57FB6A382",
+    "LOC-CD2D11A07FF0",
+    "LOC-62C4846614FA",
+    "LOC-0D35F6DE7A7A",
+    "LOC-7B1135FF806C",
+    "LOC-D6677B98E16B",
+    "LOC-42F99B12F877",
+    "LOC-04D02FC7DCBA",
+    "LOC-3482EA32278A",
+    "LOC-CADD3785FAA2",
+    "LOC-6B1279289AF4",
+    "LOC-35F60931DE8F",
+    "LOC-9EB8B1946501",
+    "LOC-D599AEA529F3",
+    "LOC-A8922149436B",
+    "LOC-D5C2C6706E66",
+    "LOC-90AA16235E42",
+    "LOC-0909C67F76D4",
+    "LOC-C8ECC18DB050",
+    "LOC-7F3829862C04",
+    "LOC-720F794134A7",
+    "LOC-01E507F70C0A",
+    "LOC-D299F36C7F51",
+    "LOC-11C2A48001CC",
+    "LOC-C0E314812334",
+    "LOC-A69160FCA36C",
+    "LOC-FBD6EB2B85A2",
+    "LOC-4DC593608344",
+    "LOC-B59F94521497",
+    "LOC-841F67E9833D",
+    "LOC-9A17F7992C34",
+    "LOC-77D29E20442F",
+    "LOC-A2E049202F1F",
+    "LOC-1CEF8718CDED",
+    "LOC-20DB4CEDF1F4",
+    "LOC-A080D41DED13",
+    "LOC-9CE7A41A9194",
+    "LOC-66569A7D28C8",
+    "LOC-D32E575D9F6C",
+    "LOC-DD7BC959BE37",
+    "LOC-08BFC308345F",
+    "LOC-DA0E594C6D24",
+    "LOC-99EAEBA4F398",
+    "LOC-910A47DBC695",
+    "LOC-B04847B375CC",
+    "LOC-0824E8A48043",
+    "LOC-EAD2C69020E2",
+    "LOC-32543AC2DCB3",
+    "LOC-5164876A225D",
+    "LOC-489650F7B58E",
+    "LOC-98F8BF65E786",
+    "LOC-1EDDAC687FF5",
+    "LOC-3E46C0ACAA8A",
+    "LOC-0F2413A7A0BB",
+    "LOC-60F70AAF6AE2",
+    "LOC-73CBA27093FA",
+    "LOC-D7944B51030E",
+    "LOC-CFDB5DBBB661",
+    "LOC-82DB0133ED84",
+    "LOC-4BDF69F14DF6",
+    "LOC-8E186BBEE057",
+    "LOC-CEAC11F75D0B",
+    "LOC-684C1E3CC6B3",
+    "LOC-11056A479290",
+    "LOC-30D90623FC07",
+    "LOC-D0FA280D5F62",
+    "LOC-5220F28309C1",
+    "LOC-0D381C6D3C35",
+    "LOC-8F063CE12D6A",
+    "LOC-D01DEFD97B5E",
+    "LOC-87F4012CC058",
+    "LOC-5948217D3508",
+    "LOC-E73FF6DD3BEA",
+    "LOC-47371E79B0CA",
+    "LOC-5A1FFF6DF834",
+    "LOC-027D4BB3E859",
+    "LOC-548515C21CA8",
+    "LOC-A482A3627425",
+    "LOC-6BADDB680066",
+    "LOC-FD74CFD30683",
+    "LOC-E2BB800DA6B5",
+    "LOC-7F25B12869F9",
+    "LOC-0F15EBD4B200",
+    "LOC-1623F510AFA3",
+    "LOC-9A72322C223A",
+    "LOC-1EEEDFA30C75",
+    "LOC-6F531053DEFD",
+    "LOC-A202307F5E77",
+    "LOC-97458E0475A0",
+    "LOC-7171C5EB7A8E",
+    "LOC-87AD05674D3A",
+    "LOC-25B5310AA4A0",
+    "LOC-A40A32F4AA04",
+    "LOC-A1A977DDF26C",
+    "LOC-45008EA415AE",
+    "LOC-0A1029912FAD",
+    "LOC-DF9A4ABDD59F",
+    "LOC-2FF33FA8CEFD",
+    "LOC-FEC5F17611ED",
+    "LOC-9F813C1AA51F",
+    "LOC-B4AEA9A7FB22",
+    "LOC-F3F63E391CE1",
+    "LOC-9EBA9B633049",
+    "LOC-47C5A1B6B2A6",
+    "LOC-63D0D2609AE4",
+    "LOC-4A377717B5A9",
+    "LOC-40B9613DDBE7",
+    "LOC-67C9ADC94A7F",
+    "LOC-2CB10252894F",
+    "LOC-2ECDC7791502",
+    "LOC-A58FF844F7E1",
+    "LOC-839F3070DB8F",
+    "LOC-CE0EBFE71668",
+    "LOC-CA4EB17CB683",
+    "LOC-2DD469758F1D",
+    "LOC-91DF3D0AE42B",
+    "LOC-96FACF678CA2",
+    "LOC-599D7B45A8F8",
+    "LOC-D90FBF08827D",
+    "LOC-A36589B344EF",
+    "LOC-9D6A7E9FC998",
+    "LOC-94159789D408",
+    "LOC-42DA5796E087",
+    "LOC-052C9E18E2F3",
+    "LOC-84DDCB73FD7A",
+    "LOC-94179CE3E61D",
+    "LOC-53E8C2700114",
+    "LOC-1CCA2581B150",
+    "LOC-F01569F06FA7",
+    "LOC-1992C30F3A72",
+    "LOC-3273F5C00122",
+    "LOC-DEE8B3458220",
+    "LOC-9136E64028AC",
+    "LOC-97B7B2831301",
+    "LOC-3A8E5044C65D",
+    "LOC-0F5B4C147A6D",
+    "LOC-A45DB2841B2B",
+    "LOC-CCEB4292A000"
+  ],
+  "judgments": [
+    {
+      "locator_id": "LOC-72BCDEDF1FEE",
+      "path_id": "PATH-0E9B854C5942",
+      "complete_heading_path": [
+        "Aachen"
+      ],
+      "document_page": 171,
+      "source_page_label": "171",
+      "source_scope_status": "indexable",
+      "treatment_class": "incidental_example",
+      "judgment": "unsupported",
+      "evidence_summary": "Aachen appears only as the place where Gustavus III hoped to welcome Louis XVI, without independent treatment of the place.",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-171"
+      ],
+      "confidence": "high",
+      "error_codes": [
+        "SEL",
+        "LOC_POS"
+      ],
+      "severity": "minor"
+    },
+    {
+      "locator_id": "LOC-F3B59544B8EC",
+      "path_id": "PATH-58D429083EFA",
+      "complete_heading_path": [
+        "America"
+      ],
+      "document_page": 159,
+      "source_page_label": "159",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "judgment": "supported",
+      "evidence_summary": "The page materially treats America within the opening survey of European unrest, French policy toward American and Dutch causes, Joseph II's Habsburg reforms, and France's 1787 diplomatic retreat.",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-159"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-6C8881305A62",
+      "path_id": "PATH-6E3D08FE9B60",
+      "complete_heading_path": [
+        "annexation",
+        "Avignon"
+      ],
+      "document_page": 173,
+      "source_page_label": "173",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "judgment": "supported",
+      "evidence_summary": "The page materially treats annexation — Avignon within army-officer emigration, Avignon's annexation, and the Constituent Assembly's closing phase.",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-173"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-CD6AD98ED624",
+      "path_id": "PATH-A232628DCBF7",
+      "complete_heading_path": [
+        "army officers",
+        "emigration"
+      ],
+      "document_page": 173,
+      "source_page_label": "173",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "judgment": "supported",
+      "evidence_summary": "The page materially treats army officers — emigration within army-officer emigration, Avignon's annexation, and the Constituent Assembly's closing phase.",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-173"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-3556C7E139CF",
+      "path_id": "PATH-C4045F5BD846",
+      "complete_heading_path": [
+        "Artois, Count d' (brother of Louis XIV) (1757-1836)",
+        "in Koblenz"
+      ],
+      "document_page": 171,
+      "source_page_label": "171",
+      "source_scope_status": "indexable",
+      "treatment_class": "mixed",
+      "judgment": "partially_supported",
+      "evidence_summary": "The page materially treats the Count d'Artois's court at Koblenz, but the complete heading incorrectly identifies him as a brother of Louis XIV.",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-171"
+      ],
+      "confidence": "high",
+      "error_codes": [
+        "CON"
+      ],
+      "severity": "minor"
+    },
+    {
+      "locator_id": "LOC-FCF1A152E105",
+      "path_id": "PATH-AC950631E211",
+      "complete_heading_path": [
+        "assignats (bonds)"
+      ],
+      "document_page": 168,
+      "source_page_label": "168",
+      "source_scope_status": "indexable",
+      "treatment_class": "mixed",
+      "judgment": "partially_supported",
+      "evidence_summary": "The page materially treats assignats as a paper currency and predicts their monetary effects, but the heading's parenthetical description of them as bonds is imprecise for this treatment.",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-168"
+      ],
+      "confidence": "high",
+      "error_codes": [
+        "CON"
+      ],
+      "severity": "minor"
+    },
+    {
+      "locator_id": "LOC-B9488CD8A88E",
+      "path_id": "PATH-A7001B5A12CE",
+      "complete_heading_path": [
+        "atheism"
+      ],
+      "document_page": 168,
+      "source_page_label": "168",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "judgment": "supported",
+      "evidence_summary": "The page materially treats atheism within Burke's claims about expropriation, assignats, religion, philosophic conspiracy, and the renewed British reform debate.",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-168"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-0A8EF0F18ACE",
+      "path_id": "PATH-82980135C1F0",
+      "complete_heading_path": [
+        "Austria"
+      ],
+      "document_page": 165,
+      "source_page_label": "165",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "judgment": "supported",
+      "evidence_summary": "The page materially treats Austria within the Nootka crisis, Austrian troop-transit fears, and Poland's response to Russian, Prussian, and Austrian power.",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-165"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-922A4F56DF5A",
+      "path_id": "PATH-D7E2BEE62D67",
+      "complete_heading_path": [
+        "Austria",
+        "Belgium overrun by"
+      ],
+      "document_page": 164,
+      "source_page_label": "164",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "judgment": "supported",
+      "evidence_summary": "The page materially treats Austria — Belgium overrun by within Leopold's restoration campaign, the Reichenbach settlement, the Turkish war, France's renunciation of offensive war, and the Nootka dispute.",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-164"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-4790091A8D45",
+      "path_id": "PATH-277C922FFA02",
+      "complete_heading_path": [
+        "Austrian Netherlands"
+      ],
+      "document_page": 161,
+      "source_page_label": "161",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "judgment": "supported",
+      "evidence_summary": "The page materially treats Austrian Netherlands within British reactions, Genevan and Dutch political refugees, and mounting resistance in the Austrian Netherlands.",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-161"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-6D41487E47D4",
+      "path_id": "PATH-0C4B8A4B90D4",
+      "complete_heading_path": [
+        "Avignon",
+        "annexation"
+      ],
+      "document_page": 173,
+      "source_page_label": "173",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "judgment": "supported",
+      "evidence_summary": "The page materially treats Avignon — annexation within army-officer emigration, Avignon's annexation, and the Constituent Assembly's closing phase.",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-173"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-A21E256D63DD",
+      "path_id": "PATH-255CBC804638",
+      "complete_heading_path": [
+        "Bastille",
+        "storming of the"
+      ],
+      "document_page": 160,
+      "source_page_label": "160",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "judgment": "supported",
+      "evidence_summary": "The page materially treats Bastille — storming of the within France's diplomatic decline and the German, Italian, Swedish, and Russian responses to the fall of the Bastille.",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-160"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-2E78C77B9C22",
+      "path_id": "PATH-255CBC804638",
+      "complete_heading_path": [
+        "Bastille",
+        "storming of the"
+      ],
+      "document_page": 169,
+      "source_page_label": "169",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "judgment": "supported",
+      "evidence_summary": "The page materially treats Bastille — storming of the within Paine's Rights of Man, its rebuttal of Burke, its accounts of the Bastille and October Days, and its effect on British reform.",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-169"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-FFF37F0A8995",
+      "path_id": "PATH-10D5A09D1FE6",
+      "complete_heading_path": [
+        "Bavaria"
+      ],
+      "document_page": 168,
+      "source_page_label": "168",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "judgment": "supported",
+      "evidence_summary": "The page materially treats Bavaria within Burke's claims about expropriation, assignats, religion, philosophic conspiracy, and the renewed British reform debate.",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-168"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-D58BBA9C022F",
+      "path_id": "PATH-CCC8DE4629C8",
+      "complete_heading_path": [
+        "Belgium"
+      ],
+      "document_page": 162,
+      "source_page_label": "162",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "judgment": "supported",
+      "evidence_summary": "The page materially treats Belgium within Dutch refugees, the Brabant and Liège revolts, Joseph II's attack on provincial liberties, and the Van der Noot–Vonck armed movement.",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-162"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-DFC38DACDCA3",
+      "path_id": "PATH-CCC8DE4629C8",
+      "complete_heading_path": [
+        "Belgium"
+      ],
+      "document_page": 163,
+      "source_page_label": "163",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "judgment": "supported",
+      "evidence_summary": "The page materially treats Belgium within Belgian independence, the conflict between statists and Vonckists, and the succession from Joseph II to Leopold II.",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-163"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-C745B10BA395",
+      "path_id": "PATH-CCC8DE4629C8",
+      "complete_heading_path": [
+        "Belgium"
+      ],
+      "document_page": 164,
+      "source_page_label": "164",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "judgment": "supported",
+      "evidence_summary": "The page materially treats Belgium within Leopold's restoration campaign, the Reichenbach settlement, the Turkish war, France's renunciation of offensive war, and the Nootka dispute.",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-164"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-CD61183C3F23",
+      "path_id": "PATH-56668E3F0E0B",
+      "complete_heading_path": [
+        "Birmingham"
+      ],
+      "document_page": 170,
+      "source_page_label": "170",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "judgment": "supported",
+      "evidence_summary": "The page materially treats Birmingham within British radical organizations, the Birmingham anti-dissenter riot, translations of Burke, and German reactions.",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-170"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-0407AC591AD5",
+      "path_id": "PATH-448D8585F5FC",
+      "complete_heading_path": [
+        "Brabant Revolution"
+      ],
+      "document_page": 162,
+      "source_page_label": "162",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "judgment": "supported",
+      "evidence_summary": "The page materially treats Brabant Revolution within Dutch refugees, the Brabant and Liège revolts, Joseph II's attack on provincial liberties, and the Van der Noot–Vonck armed movement.",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-162"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-2908E3F5106C",
+      "path_id": "PATH-448D8585F5FC",
+      "complete_heading_path": [
+        "Brabant Revolution"
+      ],
+      "document_page": 163,
+      "source_page_label": "163",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "judgment": "supported",
+      "evidence_summary": "The page materially treats Brabant Revolution within Belgian independence, the conflict between statists and Vonckists, and the succession from Joseph II to Leopold II.",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-163"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-4B7FA144F492",
+      "path_id": "PATH-DFDD2C51D7FA",
+      "complete_heading_path": [
+        "Burke, Edmund (1729-97)"
+      ],
+      "document_page": 166,
+      "source_page_label": "166",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "judgment": "supported",
+      "evidence_summary": "The page materially treats Burke, Edmund (1729-97) within the Polish constitution and Catherine II's response, followed by Burke, British parliamentary reform, and the Revolution Society.",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-166"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-5775A6E2F8FC",
+      "path_id": "PATH-DFDD2C51D7FA",
+      "complete_heading_path": [
+        "Burke, Edmund (1729-97)"
+      ],
+      "document_page": 167,
+      "source_page_label": "167",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "judgment": "supported",
+      "evidence_summary": "The page materially treats Burke, Edmund (1729-97) within Price's sermon and Burke's defense of inherited institutions, monarchy, and property.",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-167"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-32CAC5199A9F",
+      "path_id": "PATH-DFDD2C51D7FA",
+      "complete_heading_path": [
+        "Burke, Edmund (1729-97)"
+      ],
+      "document_page": 168,
+      "source_page_label": "168",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "judgment": "supported",
+      "evidence_summary": "The page materially treats Burke, Edmund (1729-97) within Burke's claims about expropriation, assignats, religion, philosophic conspiracy, and the renewed British reform debate.",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-168"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-2EF0791D0A58",
+      "path_id": "PATH-DFDD2C51D7FA",
+      "complete_heading_path": [
+        "Burke, Edmund (1729-97)"
+      ],
+      "document_page": 169,
+      "source_page_label": "169",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "judgment": "supported",
+      "evidence_summary": "The page materially treats Burke, Edmund (1729-97) within Paine's Rights of Man, its rebuttal of Burke, its accounts of the Bastille and October Days, and its effect on British reform.",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-169"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-EC9E9394E359",
+      "path_id": "PATH-DFDD2C51D7FA",
+      "complete_heading_path": [
+        "Burke, Edmund (1729-97)"
+      ],
+      "document_page": 170,
+      "source_page_label": "170",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "judgment": "supported",
+      "evidence_summary": "The page materially treats Burke, Edmund (1729-97) within British radical organizations, the Birmingham anti-dissenter riot, translations of Burke, and German reactions.",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-170"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-7C2FD6A03D44",
+      "path_id": "PATH-DFDD2C51D7FA",
+      "complete_heading_path": [
+        "Burke, Edmund (1729-97)"
+      ],
+      "document_page": 171,
+      "source_page_label": "171",
+      "source_scope_status": "indexable",
+      "treatment_class": "absent",
+      "judgment": "unsupported",
+      "evidence_summary": "This page does not treat Burke; its opening continues a discussion of German rights before moving to émigrés and royal diplomacy.",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-171"
+      ],
+      "confidence": "high",
+      "error_codes": [
+        "LOC_POS"
+      ],
+      "severity": "minor"
+    },
+    {
+      "locator_id": "LOC-CC680A29145D",
+      "path_id": "PATH-66AE149141A5",
+      "complete_heading_path": [
+        "Catherine II, Empress of Russia (1729-96)"
+      ],
+      "document_page": 166,
+      "source_page_label": "166",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "judgment": "supported",
+      "evidence_summary": "The page materially treats Catherine II, Empress of Russia (1729-96) within the Polish constitution and Catherine II's response, followed by Burke, British parliamentary reform, and the Revolution Society.",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-166"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-BF199FEF55F2",
+      "path_id": "PATH-66AE149141A5",
+      "complete_heading_path": [
+        "Catherine II, Empress of Russia (1729-96)"
+      ],
+      "document_page": 171,
+      "source_page_label": "171",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "judgment": "supported",
+      "evidence_summary": "The page materially treats Catherine II, Empress of Russia (1729-96) within German rights and émigré centers, royal diplomacy after Pillnitz, and Spain's early censorship.",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-171"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-1FDE33E382E1",
+      "path_id": "PATH-66AE149141A5",
+      "complete_heading_path": [
+        "Catherine II, Empress of Russia (1729-96)"
+      ],
+      "document_page": 172,
+      "source_page_label": "172",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "judgment": "supported",
+      "evidence_summary": "The page materially treats Catherine II, Empress of Russia (1729-96) within Spanish, Swedish, and Russian censorship, Radischev, Varennes, and Clootz's delegation of political exiles.",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-172"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-7ABF57C89870",
+      "path_id": "PATH-B48C24D9A42B",
+      "complete_heading_path": [
+        "censorship"
+      ],
+      "document_page": 171,
+      "source_page_label": "171",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "judgment": "supported",
+      "evidence_summary": "The page materially treats censorship within German rights and émigré centers, royal diplomacy after Pillnitz, and Spain's early censorship.",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-171"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-4D307B07856B",
+      "path_id": "PATH-B48C24D9A42B",
+      "complete_heading_path": [
+        "censorship"
+      ],
+      "document_page": 172,
+      "source_page_label": "172",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "judgment": "supported",
+      "evidence_summary": "The page materially treats censorship within Spanish, Swedish, and Russian censorship, Radischev, Varennes, and Clootz's delegation of political exiles.",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-172"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-9266D4725124",
+      "path_id": "PATH-E96715D31BF4",
+      "complete_heading_path": [
+        "Clootz, Anacharsis (1755-94)"
+      ],
+      "document_page": 160,
+      "source_page_label": "160",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "judgment": "supported",
+      "evidence_summary": "The page materially treats Clootz, Anacharsis (1755-94) within France's diplomatic decline and the German, Italian, Swedish, and Russian responses to the fall of the Bastille.",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-160"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-0453A4C4E329",
+      "path_id": "PATH-E96715D31BF4",
+      "complete_heading_path": [
+        "Clootz, Anacharsis (1755-94)"
+      ],
+      "document_page": 172,
+      "source_page_label": "172",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "judgment": "supported",
+      "evidence_summary": "The page materially treats Clootz, Anacharsis (1755-94) within Spanish, Swedish, and Russian censorship, Radischev, Varennes, and Clootz's delegation of political exiles.",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-172"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-265DDC9DB155",
+      "path_id": "PATH-0CF45EFABA50",
+      "complete_heading_path": [
+        "cockades",
+        "national"
+      ],
+      "document_page": 163,
+      "source_page_label": "163",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "judgment": "supported",
+      "evidence_summary": "The page materially treats cockades — national within Belgian independence, the conflict between statists and Vonckists, and the succession from Joseph II to Leopold II.",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-163"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-D83282E48FE1",
+      "path_id": "PATH-DF64169074EF",
+      "complete_heading_path": [
+        "compensation"
+      ],
+      "document_page": 171,
+      "source_page_label": "171",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "judgment": "supported",
+      "evidence_summary": "The page materially treats compensation within German rights and émigré centers, royal diplomacy after Pillnitz, and Spain's early censorship.",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-171"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-D9B256EFA554",
+      "path_id": "PATH-DAB9453D1C0D",
+      "complete_heading_path": [
+        "Condé, Louis Joseph de Bourbon, Prince de (1736-1818)"
+      ],
+      "document_page": 171,
+      "source_page_label": "171",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "judgment": "supported",
+      "evidence_summary": "The page materially treats Condé, Louis Joseph de Bourbon, Prince de (1736-1818) within German rights and émigré centers, royal diplomacy after Pillnitz, and Spain's early censorship.",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-171"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-C3A57FB6A382",
+      "path_id": "PATH-F8AD4A50D08F",
+      "complete_heading_path": [
+        "Constituent Assembly",
+        "end of"
+      ],
+      "document_page": 173,
+      "source_page_label": "173",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "judgment": "supported",
+      "evidence_summary": "The page materially treats Constituent Assembly — end of within army-officer emigration, Avignon's annexation, and the Constituent Assembly's closing phase.",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-173"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-CD2D11A07FF0",
+      "path_id": "PATH-42D756224936",
+      "complete_heading_path": [
+        "corresponding societies"
+      ],
+      "document_page": 170,
+      "source_page_label": "170",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "judgment": "supported",
+      "evidence_summary": "The page materially treats corresponding societies within British radical organizations, the Birmingham anti-dissenter riot, translations of Burke, and German reactions.",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-170"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-62C4846614FA",
+      "path_id": "PATH-FB1138A91995",
+      "complete_heading_path": [
+        "Declaration of the Rights of Man and the Citizen"
+      ],
+      "document_page": 169,
+      "source_page_label": "169",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "judgment": "supported",
+      "evidence_summary": "The page materially treats Declaration of the Rights of Man and the Citizen within Paine's Rights of Man, its rebuttal of Burke, its accounts of the Bastille and October Days, and its effect on British reform.",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-169"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-0D35F6DE7A7A",
+      "path_id": "PATH-CE8BE3440B19",
+      "complete_heading_path": [
+        "despotism"
+      ],
+      "document_page": 167,
+      "source_page_label": "167",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "judgment": "supported",
+      "evidence_summary": "The page materially treats despotism within Price's sermon and Burke's defense of inherited institutions, monarchy, and property.",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-167"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-7B1135FF806C",
+      "path_id": "PATH-662501DEC436",
+      "complete_heading_path": [
+        "diplomacy"
+      ],
+      "document_page": 160,
+      "source_page_label": "160",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "judgment": "supported",
+      "evidence_summary": "The page materially treats diplomacy within France's diplomatic decline and the German, Italian, Swedish, and Russian responses to the fall of the Bastille.",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-160"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-D6677B98E16B",
+      "path_id": "PATH-C0700F116B5D",
+      "complete_heading_path": [
+        "Dutch patriots"
+      ],
+      "document_page": 161,
+      "source_page_label": "161",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "judgment": "supported",
+      "evidence_summary": "The page materially treats Dutch patriots within British reactions, Genevan and Dutch political refugees, and mounting resistance in the Austrian Netherlands.",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-161"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-42F99B12F877",
+      "path_id": "PATH-E5BB43AFD121",
+      "complete_heading_path": [
+        "Dutch Republic"
+      ],
+      "document_page": 159,
+      "source_page_label": "159",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "judgment": "supported",
+      "evidence_summary": "The page materially treats Dutch Republic within the opening survey of European unrest, French policy toward American and Dutch causes, Joseph II's Habsburg reforms, and France's 1787 diplomatic retreat.",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-159"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-04D02FC7DCBA",
+      "path_id": "PATH-E5BB43AFD121",
+      "complete_heading_path": [
+        "Dutch Republic"
+      ],
+      "document_page": 160,
+      "source_page_label": "160",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "judgment": "supported",
+      "evidence_summary": "The page materially treats Dutch Republic within France's diplomatic decline and the German, Italian, Swedish, and Russian responses to the fall of the Bastille.",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-160"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-3482EA32278A",
+      "path_id": "PATH-44205511CC30",
+      "complete_heading_path": [
+        "emigration",
+        "army officers"
+      ],
+      "document_page": 173,
+      "source_page_label": "173",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "judgment": "supported",
+      "evidence_summary": "The page materially treats emigration — army officers within army-officer emigration, Avignon's annexation, and the Constituent Assembly's closing phase.",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-173"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-CADD3785FAA2",
+      "path_id": "PATH-4FBE466770D4",
+      "complete_heading_path": [
+        "émigrés",
+        "in Spain"
+      ],
+      "document_page": 172,
+      "source_page_label": "172",
+      "source_scope_status": "indexable",
+      "treatment_class": "incidental_example",
+      "judgment": "unsupported",
+      "evidence_summary": "French émigrés in Spain appear only as witnesses used to illustrate the effectiveness of Spanish insulation, not as an independently treated subject.",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-172"
+      ],
+      "confidence": "high",
+      "error_codes": [
+        "SEL",
+        "LOC_POS"
+      ],
+      "severity": "minor"
+    },
+    {
+      "locator_id": "LOC-6B1279289AF4",
+      "path_id": "PATH-534C000D4104",
+      "complete_heading_path": [
+        "Enlightenment"
+      ],
+      "document_page": 168,
+      "source_page_label": "168",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "judgment": "supported",
+      "evidence_summary": "The page materially treats Enlightenment within Burke's claims about expropriation, assignats, religion, philosophic conspiracy, and the renewed British reform debate.",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-168"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-35F60931DE8F",
+      "path_id": "PATH-92736E2BFC2D",
+      "complete_heading_path": [
+        "Family Compact"
+      ],
+      "document_page": 164,
+      "source_page_label": "164",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "judgment": "supported",
+      "evidence_summary": "The page materially treats Family Compact within Leopold's restoration campaign, the Reichenbach settlement, the Turkish war, France's renunciation of offensive war, and the Nootka dispute.",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-164"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-9EB8B1946501",
+      "path_id": "PATH-C93E75E312C6",
+      "complete_heading_path": [
+        "Fersten, Hans Axel, Count von (1755-1810)"
+      ],
+      "document_page": 171,
+      "source_page_label": "171",
+      "source_scope_status": "indexable",
+      "treatment_class": "mixed",
+      "judgment": "partially_supported",
+      "evidence_summary": "The page materially identifies Count Fersen's role in organizing the flight to Varennes, but the candidate heading misspells his surname as ‘Fersten’.",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-171"
+      ],
+      "confidence": "high",
+      "error_codes": [
+        "CON"
+      ],
+      "severity": "minor"
+    },
+    {
+      "locator_id": "LOC-D599AEA529F3",
+      "path_id": "PATH-F762FAB09E3E",
+      "complete_heading_path": [
+        "feudalism",
+        "abolition of"
+      ],
+      "document_page": 170,
+      "source_page_label": "170",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "judgment": "supported",
+      "evidence_summary": "The page materially treats feudalism — abolition of within British radical organizations, the Birmingham anti-dissenter riot, translations of Burke, and German reactions.",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-170"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-A8922149436B",
+      "path_id": "PATH-F762FAB09E3E",
+      "complete_heading_path": [
+        "feudalism",
+        "abolition of"
+      ],
+      "document_page": 171,
+      "source_page_label": "171",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "judgment": "supported",
+      "evidence_summary": "The page materially treats feudalism — abolition of within German rights and émigré centers, royal diplomacy after Pillnitz, and Spain's early censorship.",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-171"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-D5C2C6706E66",
+      "path_id": "PATH-F0B2D2290C92",
+      "complete_heading_path": [
+        "Floridablanca, Franco Antonio, Count de (1728-1828)"
+      ],
+      "document_page": 171,
+      "source_page_label": "171",
+      "source_scope_status": "indexable",
+      "treatment_class": "mixed",
+      "judgment": "partially_supported",
+      "evidence_summary": "The page materially treats the minister Floridablanca's censorship policy, but the complete heading supplies an inaccurate personal name and life dates.",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-171"
+      ],
+      "confidence": "high",
+      "error_codes": [
+        "CON"
+      ],
+      "severity": "minor"
+    },
+    {
+      "locator_id": "LOC-90AA16235E42",
+      "path_id": "PATH-F0B2D2290C92",
+      "complete_heading_path": [
+        "Floridablanca, Franco Antonio, Count de (1728-1828)"
+      ],
+      "document_page": 172,
+      "source_page_label": "172",
+      "source_scope_status": "indexable",
+      "treatment_class": "mixed",
+      "judgment": "partially_supported",
+      "evidence_summary": "The page materially continues Floridablanca's anti-revolutionary controls, but the complete heading supplies an inaccurate personal name and life dates.",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-172"
+      ],
+      "confidence": "high",
+      "error_codes": [
+        "CON"
+      ],
+      "severity": "minor"
+    },
+    {
+      "locator_id": "LOC-0909C67F76D4",
+      "path_id": "PATH-C9D44ED81A45",
+      "complete_heading_path": [
+        "Fox, Charles James (1749-1806)"
+      ],
+      "document_page": 161,
+      "source_page_label": "161",
+      "source_scope_status": "indexable",
+      "treatment_class": "attribution_only",
+      "judgment": "unsupported",
+      "evidence_summary": "Fox appears only as the attributed source of an approving reaction to the Bastille, rather than as an independently treated subject.",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-161"
+      ],
+      "confidence": "high",
+      "error_codes": [
+        "SEL",
+        "LOC_POS"
+      ],
+      "severity": "minor"
+    },
+    {
+      "locator_id": "LOC-C8ECC18DB050",
+      "path_id": "PATH-CB80E779D72E",
+      "complete_heading_path": [
+        "franchisement"
+      ],
+      "document_page": 170,
+      "source_page_label": "170",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "judgment": "supported",
+      "evidence_summary": "The page materially treats franchisement within British radical organizations, the Birmingham anti-dissenter riot, translations of Burke, and German reactions.",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-170"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-7F3829862C04",
+      "path_id": "PATH-4B0680B68C25",
+      "complete_heading_path": [
+        "Frederick William II, king of Prussia (1744-97)"
+      ],
+      "document_page": 164,
+      "source_page_label": "164",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "judgment": "supported",
+      "evidence_summary": "The page materially treats Frederick William II, king of Prussia (1744-97) within Leopold's restoration campaign, the Reichenbach settlement, the Turkish war, France's renunciation of offensive war, and the Nootka dispute.",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-164"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-720F794134A7",
+      "path_id": "PATH-E99349CBB62A",
+      "complete_heading_path": [
+        "Friends of the Constitution"
+      ],
+      "document_page": 166,
+      "source_page_label": "166",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "judgment": "supported",
+      "evidence_summary": "The page materially treats Friends of the Constitution within the Polish constitution and Catherine II's response, followed by Burke, British parliamentary reform, and the Revolution Society.",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-166"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-01E507F70C0A",
+      "path_id": "PATH-A335227CEBF0",
+      "complete_heading_path": [
+        "Geneva"
+      ],
+      "document_page": 161,
+      "source_page_label": "161",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "judgment": "supported",
+      "evidence_summary": "The page materially treats Geneva within British reactions, Genevan and Dutch political refugees, and mounting resistance in the Austrian Netherlands.",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-161"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-D299F36C7F51",
+      "path_id": "PATH-D91EE6FF5294",
+      "complete_heading_path": [
+        "Gentz, Friedrich (1764-1832)"
+      ],
+      "document_page": 170,
+      "source_page_label": "170",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "judgment": "supported",
+      "evidence_summary": "The page materially treats Gentz, Friedrich (1764-1832) within British radical organizations, the Birmingham anti-dissenter riot, translations of Burke, and German reactions.",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-170"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-11C2A48001CC",
+      "path_id": "PATH-AC444CE6F16A",
+      "complete_heading_path": [
+        "Germany"
+      ],
+      "document_page": 170,
+      "source_page_label": "170",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "judgment": "supported",
+      "evidence_summary": "The page materially treats Germany within British radical organizations, the Birmingham anti-dissenter riot, translations of Burke, and German reactions.",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-170"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-C0E314812334",
+      "path_id": "PATH-AC444CE6F16A",
+      "complete_heading_path": [
+        "Germany"
+      ],
+      "document_page": 171,
+      "source_page_label": "171",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "judgment": "supported",
+      "evidence_summary": "The page materially treats Germany within German rights and émigré centers, royal diplomacy after Pillnitz, and Spain's early censorship.",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-171"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-A69160FCA36C",
+      "path_id": "PATH-97B2E3569678",
+      "complete_heading_path": [
+        "'God Save the King' anthem"
+      ],
+      "document_page": 170,
+      "source_page_label": "170",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "judgment": "supported",
+      "evidence_summary": "The page materially treats 'God Save the King' anthem within British radical organizations, the Birmingham anti-dissenter riot, translations of Burke, and German reactions.",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-170"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-FBD6EB2B85A2",
+      "path_id": "PATH-5A72BE786F4B",
+      "complete_heading_path": [
+        "Goethe, Wolfgang (1749-1832)"
+      ],
+      "document_page": 160,
+      "source_page_label": "160",
+      "source_scope_status": "indexable",
+      "treatment_class": "incidental_example",
+      "judgment": "unsupported",
+      "evidence_summary": "Goethe is only one of two writers briefly listed as sceptical observers who nevertheless followed the news.",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-160"
+      ],
+      "confidence": "high",
+      "error_codes": [
+        "SEL",
+        "LOC_POS"
+      ],
+      "severity": "minor"
+    },
+    {
+      "locator_id": "LOC-4DC593608344",
+      "path_id": "PATH-2E7601952A69",
+      "complete_heading_path": [
+        "grain",
+        "shortages"
+      ],
+      "document_page": 162,
+      "source_page_label": "162",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "judgment": "supported",
+      "evidence_summary": "The page materially treats grain — shortages within Dutch refugees, the Brabant and Liège revolts, Joseph II's attack on provincial liberties, and the Van der Noot–Vonck armed movement.",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-162"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-B59F94521497",
+      "path_id": "PATH-96D386AD2C52",
+      "complete_heading_path": [
+        "Great Britain",
+        "parliamentary reform"
+      ],
+      "document_page": 166,
+      "source_page_label": "166",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "judgment": "supported",
+      "evidence_summary": "The page materially treats Great Britain — parliamentary reform within the Polish constitution and Catherine II's response, followed by Burke, British parliamentary reform, and the Revolution Society.",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-166"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-841F67E9833D",
+      "path_id": "PATH-96D386AD2C52",
+      "complete_heading_path": [
+        "Great Britain",
+        "parliamentary reform"
+      ],
+      "document_page": 167,
+      "source_page_label": "167",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "judgment": "supported",
+      "evidence_summary": "The page materially treats Great Britain — parliamentary reform within Price's sermon and Burke's defense of inherited institutions, monarchy, and property.",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-167"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-9A17F7992C34",
+      "path_id": "PATH-96D386AD2C52",
+      "complete_heading_path": [
+        "Great Britain",
+        "parliamentary reform"
+      ],
+      "document_page": 168,
+      "source_page_label": "168",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "judgment": "supported",
+      "evidence_summary": "The page materially treats Great Britain — parliamentary reform within Burke's claims about expropriation, assignats, religion, philosophic conspiracy, and the renewed British reform debate.",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-168"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-77D29E20442F",
+      "path_id": "PATH-96D386AD2C52",
+      "complete_heading_path": [
+        "Great Britain",
+        "parliamentary reform"
+      ],
+      "document_page": 169,
+      "source_page_label": "169",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "judgment": "supported",
+      "evidence_summary": "The page materially treats Great Britain — parliamentary reform within Paine's Rights of Man, its rebuttal of Burke, its accounts of the Bastille and October Days, and its effect on British reform.",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-169"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-A2E049202F1F",
+      "path_id": "PATH-6B9793D840D3",
+      "complete_heading_path": [
+        "Great Britain",
+        "reaction to the Revolution"
+      ],
+      "document_page": 161,
+      "source_page_label": "161",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "judgment": "supported",
+      "evidence_summary": "The page materially treats Great Britain — reaction to the Revolution within British reactions, Genevan and Dutch political refugees, and mounting resistance in the Austrian Netherlands.",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-161"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-1CEF8718CDED",
+      "path_id": "PATH-FA22180A7D32",
+      "complete_heading_path": [
+        "Great Britain",
+        "Spain"
+      ],
+      "document_page": 164,
+      "source_page_label": "164",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "judgment": "supported",
+      "evidence_summary": "The page materially treats Great Britain — Spain within Leopold's restoration campaign, the Reichenbach settlement, the Turkish war, France's renunciation of offensive war, and the Nootka dispute.",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-164"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-20DB4CEDF1F4",
+      "path_id": "PATH-FA22180A7D32",
+      "complete_heading_path": [
+        "Great Britain",
+        "Spain"
+      ],
+      "document_page": 165,
+      "source_page_label": "165",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "judgment": "supported",
+      "evidence_summary": "The page materially treats Great Britain — Spain within the Nootka crisis, Austrian troop-transit fears, and Poland's response to Russian, Prussian, and Austrian power.",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-165"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-A080D41DED13",
+      "path_id": "PATH-E915303BD7C5",
+      "complete_heading_path": [
+        "Gustavus III, king of Sweden (1746-92)"
+      ],
+      "document_page": 171,
+      "source_page_label": "171",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "judgment": "supported",
+      "evidence_summary": "The page materially treats Gustavus III, king of Sweden (1746-92) within German rights and émigré centers, royal diplomacy after Pillnitz, and Spain's early censorship.",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-171"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-9CE7A41A9194",
+      "path_id": "PATH-100553F20CA5",
+      "complete_heading_path": [
+        "Habsburgs"
+      ],
+      "document_page": 159,
+      "source_page_label": "159",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "judgment": "supported",
+      "evidence_summary": "The page materially treats Habsburgs within the opening survey of European unrest, French policy toward American and Dutch causes, Joseph II's Habsburg reforms, and France's 1787 diplomatic retreat.",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-159"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-66569A7D28C8",
+      "path_id": "PATH-FBF255F4E551",
+      "complete_heading_path": [
+        "Hardy, Thomas (1752-1832)"
+      ],
+      "document_page": 170,
+      "source_page_label": "170",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "judgment": "supported",
+      "evidence_summary": "The page materially treats Hardy, Thomas (1752-1832) within British radical organizations, the Birmingham anti-dissenter riot, translations of Burke, and German reactions.",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-170"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-D32E575D9F6C",
+      "path_id": "PATH-1CC1EE4E4B23",
+      "complete_heading_path": [
+        "Herder, Johann-Gottfried (1744-1803)"
+      ],
+      "document_page": 160,
+      "source_page_label": "160",
+      "source_scope_status": "indexable",
+      "treatment_class": "incidental_example",
+      "judgment": "unsupported",
+      "evidence_summary": "Herder is one of several German intellectuals listed as welcoming events in France, without independent treatment.",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-160"
+      ],
+      "confidence": "high",
+      "error_codes": [
+        "SEL",
+        "LOC_POS"
+      ],
+      "severity": "minor"
+    },
+    {
+      "locator_id": "LOC-DD7BC959BE37",
+      "path_id": "PATH-B43DC0EDB66E",
+      "complete_heading_path": [
+        "Hölderin, Friedrich (1770-1843)"
+      ],
+      "document_page": 160,
+      "source_page_label": "160",
+      "source_scope_status": "indexable",
+      "treatment_class": "incidental_example",
+      "judgment": "unsupported",
+      "evidence_summary": "Hölderlin is only one of several poets listed as welcoming the Revolution, and the candidate heading also misspells his surname.",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-160"
+      ],
+      "confidence": "high",
+      "error_codes": [
+        "SEL",
+        "CON",
+        "LOC_POS"
+      ],
+      "severity": "minor"
+    },
+    {
+      "locator_id": "LOC-08BFC308345F",
+      "path_id": "PATH-4D2A446021AA",
+      "complete_heading_path": [
+        "Hungary"
+      ],
+      "document_page": 159,
+      "source_page_label": "159",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "judgment": "supported",
+      "evidence_summary": "The page materially treats Hungary within the opening survey of European unrest, French policy toward American and Dutch causes, Joseph II's Habsburg reforms, and France's 1787 diplomatic retreat.",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-159"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-DA0E594C6D24",
+      "path_id": "PATH-4D2A446021AA",
+      "complete_heading_path": [
+        "Hungary"
+      ],
+      "document_page": 164,
+      "source_page_label": "164",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "judgment": "supported",
+      "evidence_summary": "The page materially treats Hungary within Leopold's restoration campaign, the Reichenbach settlement, the Turkish war, France's renunciation of offensive war, and the Nootka dispute.",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-164"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-99EAEBA4F398",
+      "path_id": "PATH-3C16555789F9",
+      "complete_heading_path": [
+        "Ireland"
+      ],
+      "document_page": 159,
+      "source_page_label": "159",
+      "source_scope_status": "indexable",
+      "treatment_class": "passing_mention",
+      "judgment": "unsupported",
+      "evidence_summary": "Ireland appears only in a brief opening comparison as another country that had defied British authority, without independent treatment.",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-159"
+      ],
+      "confidence": "high",
+      "error_codes": [
+        "SEL",
+        "LOC_POS"
+      ],
+      "severity": "minor"
+    },
+    {
+      "locator_id": "LOC-910A47DBC695",
+      "path_id": "PATH-85B3558E52BD",
+      "complete_heading_path": [
+        "Italy"
+      ],
+      "document_page": 160,
+      "source_page_label": "160",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "judgment": "supported",
+      "evidence_summary": "The page materially treats Italy within France's diplomatic decline and the German, Italian, Swedish, and Russian responses to the fall of the Bastille.",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-160"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-B04847B375CC",
+      "path_id": "PATH-043CAAD78926",
+      "complete_heading_path": [
+        "Jacobins",
+        "exchanges with English societies"
+      ],
+      "document_page": 170,
+      "source_page_label": "170",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "judgment": "supported",
+      "evidence_summary": "The page materially treats Jacobins — exchanges with English societies within British radical organizations, the Birmingham anti-dissenter riot, translations of Burke, and German reactions.",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-170"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-0824E8A48043",
+      "path_id": "PATH-82A8FB36E55A",
+      "complete_heading_path": [
+        "Joseph II, Emperor of Austria (1741-99)"
+      ],
+      "document_page": 159,
+      "source_page_label": "159",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "judgment": "supported",
+      "evidence_summary": "The page materially treats Joseph II, Emperor of Austria (1741-99) within the opening survey of European unrest, French policy toward American and Dutch causes, Joseph II's Habsburg reforms, and France's 1787 diplomatic retreat.",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-159"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-EAD2C69020E2",
+      "path_id": "PATH-82A8FB36E55A",
+      "complete_heading_path": [
+        "Joseph II, Emperor of Austria (1741-99)"
+      ],
+      "document_page": 161,
+      "source_page_label": "161",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "judgment": "supported",
+      "evidence_summary": "The page materially treats Joseph II, Emperor of Austria (1741-99) within British reactions, Genevan and Dutch political refugees, and mounting resistance in the Austrian Netherlands.",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-161"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-32543AC2DCB3",
+      "path_id": "PATH-82A8FB36E55A",
+      "complete_heading_path": [
+        "Joseph II, Emperor of Austria (1741-99)"
+      ],
+      "document_page": 162,
+      "source_page_label": "162",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "judgment": "supported",
+      "evidence_summary": "The page materially treats Joseph II, Emperor of Austria (1741-99) within Dutch refugees, the Brabant and Liège revolts, Joseph II's attack on provincial liberties, and the Van der Noot–Vonck armed movement.",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-162"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-5164876A225D",
+      "path_id": "PATH-82A8FB36E55A",
+      "complete_heading_path": [
+        "Joseph II, Emperor of Austria (1741-99)"
+      ],
+      "document_page": 163,
+      "source_page_label": "163",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "judgment": "supported",
+      "evidence_summary": "The page materially treats Joseph II, Emperor of Austria (1741-99) within Belgian independence, the conflict between statists and Vonckists, and the succession from Joseph II to Leopold II.",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-163"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-489650F7B58E",
+      "path_id": "PATH-82A8FB36E55A",
+      "complete_heading_path": [
+        "Joseph II, Emperor of Austria (1741-99)"
+      ],
+      "document_page": 164,
+      "source_page_label": "164",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "judgment": "supported",
+      "evidence_summary": "The page materially treats Joseph II, Emperor of Austria (1741-99) within Leopold's restoration campaign, the Reichenbach settlement, the Turkish war, France's renunciation of offensive war, and the Nootka dispute.",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-164"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-98F8BF65E786",
+      "path_id": "PATH-9890A7E60069",
+      "complete_heading_path": [
+        "Joyous Entry"
+      ],
+      "document_page": 162,
+      "source_page_label": "162",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "judgment": "supported",
+      "evidence_summary": "The page materially treats Joyous Entry within Dutch refugees, the Brabant and Liège revolts, Joseph II's attack on provincial liberties, and the Van der Noot–Vonck armed movement.",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-162"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-1EDDAC687FF5",
+      "path_id": "PATH-9890A7E60069",
+      "complete_heading_path": [
+        "Joyous Entry"
+      ],
+      "document_page": 163,
+      "source_page_label": "163",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "judgment": "supported",
+      "evidence_summary": "The page materially treats Joyous Entry within Belgian independence, the conflict between statists and Vonckists, and the succession from Joseph II to Leopold II.",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-163"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-3E46C0ACAA8A",
+      "path_id": "PATH-3AA9D396B9ED",
+      "complete_heading_path": [
+        "Kant, Immanuel (1724-1804)"
+      ],
+      "document_page": 160,
+      "source_page_label": "160",
+      "source_scope_status": "indexable",
+      "treatment_class": "incidental_example",
+      "judgment": "unsupported",
+      "evidence_summary": "Kant is one of several German intellectuals listed as welcoming events in France, without independent treatment.",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-160"
+      ],
+      "confidence": "high",
+      "error_codes": [
+        "SEL",
+        "LOC_POS"
+      ],
+      "severity": "minor"
+    },
+    {
+      "locator_id": "LOC-0F2413A7A0BB",
+      "path_id": "PATH-831DDA3CF6EC",
+      "complete_heading_path": [
+        "Kellgren, Johan Henrik (1735-1820)"
+      ],
+      "document_page": 160,
+      "source_page_label": "160",
+      "source_scope_status": "indexable",
+      "treatment_class": "attribution_only",
+      "judgment": "unsupported",
+      "evidence_summary": "Kellgren appears only as the attributed source of an enthusiastic reaction used to illustrate Swedish opinion.",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-160"
+      ],
+      "confidence": "high",
+      "error_codes": [
+        "SEL",
+        "LOC_POS"
+      ],
+      "severity": "minor"
+    },
+    {
+      "locator_id": "LOC-60F70AAF6AE2",
+      "path_id": "PATH-9E7FE182ABCC",
+      "complete_heading_path": [
+        "Klopstock, Friedrich (1724-1803)"
+      ],
+      "document_page": 160,
+      "source_page_label": "160",
+      "source_scope_status": "indexable",
+      "treatment_class": "incidental_example",
+      "judgment": "unsupported",
+      "evidence_summary": "Klopstock is one of several German writers listed as welcoming the Revolution, without independent treatment.",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-160"
+      ],
+      "confidence": "high",
+      "error_codes": [
+        "SEL",
+        "LOC_POS"
+      ],
+      "severity": "minor"
+    },
+    {
+      "locator_id": "LOC-73CBA27093FA",
+      "path_id": "PATH-D34685FCD637",
+      "complete_heading_path": [
+        "Koblenz"
+      ],
+      "document_page": 171,
+      "source_page_label": "171",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "judgment": "supported",
+      "evidence_summary": "The page materially treats Koblenz within German rights and émigré centers, royal diplomacy after Pillnitz, and Spain's early censorship.",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-171"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-D7944B51030E",
+      "path_id": "PATH-EF31D9628D64",
+      "complete_heading_path": [
+        "Leopold II, Emperor of Austria (1747–92)"
+      ],
+      "document_page": 163,
+      "source_page_label": "163",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "judgment": "supported",
+      "evidence_summary": "The page materially treats Leopold II, Emperor of Austria (1747–92) within Belgian independence, the conflict between statists and Vonckists, and the succession from Joseph II to Leopold II.",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-163"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-CFDB5DBBB661",
+      "path_id": "PATH-EF31D9628D64",
+      "complete_heading_path": [
+        "Leopold II, Emperor of Austria (1747–92)"
+      ],
+      "document_page": 164,
+      "source_page_label": "164",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "judgment": "supported",
+      "evidence_summary": "The page materially treats Leopold II, Emperor of Austria (1747–92) within Leopold's restoration campaign, the Reichenbach settlement, the Turkish war, France's renunciation of offensive war, and the Nootka dispute.",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-164"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-82DB0133ED84",
+      "path_id": "PATH-EF31D9628D64",
+      "complete_heading_path": [
+        "Leopold II, Emperor of Austria (1747–92)"
+      ],
+      "document_page": 165,
+      "source_page_label": "165",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "judgment": "supported",
+      "evidence_summary": "The page materially treats Leopold II, Emperor of Austria (1747–92) within the Nootka crisis, Austrian troop-transit fears, and Poland's response to Russian, Prussian, and Austrian power.",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-165"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-4BDF69F14DF6",
+      "path_id": "PATH-EF31D9628D64",
+      "complete_heading_path": [
+        "Leopold II, Emperor of Austria (1747–92)"
+      ],
+      "document_page": 171,
+      "source_page_label": "171",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "judgment": "supported",
+      "evidence_summary": "The page materially treats Leopold II, Emperor of Austria (1747–92) within German rights and émigré centers, royal diplomacy after Pillnitz, and Spain's early censorship.",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-171"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-8E186BBEE057",
+      "path_id": "PATH-23E79C486535",
+      "complete_heading_path": [
+        "Li2ge, principality of"
+      ],
+      "document_page": 161,
+      "source_page_label": "161",
+      "source_scope_status": "indexable",
+      "treatment_class": "mixed",
+      "judgment": "partially_supported",
+      "evidence_summary": "The page materially treats the principality of Liège as a destination for Dutch political refugees, but the candidate heading corrupts the place name as ‘Li2ge’.",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-161"
+      ],
+      "confidence": "high",
+      "error_codes": [
+        "CON"
+      ],
+      "severity": "minor"
+    },
+    {
+      "locator_id": "LOC-CEAC11F75D0B",
+      "path_id": "PATH-23E79C486535",
+      "complete_heading_path": [
+        "Li2ge, principality of"
+      ],
+      "document_page": 162,
+      "source_page_label": "162",
+      "source_scope_status": "indexable",
+      "treatment_class": "mixed",
+      "judgment": "partially_supported",
+      "evidence_summary": "The page materially treats the Liège revolution and its armed exiles, but the candidate heading corrupts the place name as ‘Li2ge’.",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-162"
+      ],
+      "confidence": "high",
+      "error_codes": [
+        "CON"
+      ],
+      "severity": "minor"
+    },
+    {
+      "locator_id": "LOC-684C1E3CC6B3",
+      "path_id": "PATH-23E79C486535",
+      "complete_heading_path": [
+        "Li2ge, principality of"
+      ],
+      "document_page": 164,
+      "source_page_label": "164",
+      "source_scope_status": "indexable",
+      "treatment_class": "mixed",
+      "judgment": "partially_supported",
+      "evidence_summary": "The page materially treats the Prussian evacuation and Austrian restoration of Liège, but the candidate heading corrupts the place name as ‘Li2ge’.",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-164"
+      ],
+      "confidence": "high",
+      "error_codes": [
+        "CON"
+      ],
+      "severity": "minor"
+    },
+    {
+      "locator_id": "LOC-11056A479290",
+      "path_id": "PATH-152AB8EAB458",
+      "complete_heading_path": [
+        "London Corresponding Society"
+      ],
+      "document_page": 170,
+      "source_page_label": "170",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "judgment": "supported",
+      "evidence_summary": "The page materially treats London Corresponding Society within British radical organizations, the Birmingham anti-dissenter riot, translations of Burke, and German reactions.",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-170"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-30D90623FC07",
+      "path_id": "PATH-81B2DF9F6E75",
+      "complete_heading_path": [
+        "Louis XVI, king (1754-93)",
+        "acceptance of the constitution"
+      ],
+      "document_page": 171,
+      "source_page_label": "171",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "judgment": "supported",
+      "evidence_summary": "The page materially treats Louis XVI, king (1754-93) — acceptance of the constitution within German rights and émigré centers, royal diplomacy after Pillnitz, and Spain's early censorship.",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-171"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-D0FA280D5F62",
+      "path_id": "PATH-9C6D2A8D9F73",
+      "complete_heading_path": [
+        "Maria Antoinette, queen (1755-93)"
+      ],
+      "document_page": 165,
+      "source_page_label": "165",
+      "source_scope_status": "indexable",
+      "treatment_class": "passing_mention",
+      "judgment": "unsupported",
+      "evidence_summary": "Marie-Antoinette appears only in a brief aside about dreams of an international plot, and the candidate heading also alters her given name.",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-165"
+      ],
+      "confidence": "high",
+      "error_codes": [
+        "SEL",
+        "CON",
+        "LOC_POS"
+      ],
+      "severity": "minor"
+    },
+    {
+      "locator_id": "LOC-5220F28309C1",
+      "path_id": "PATH-D8A95F5744F4",
+      "complete_heading_path": [
+        "monarchy"
+      ],
+      "document_page": 167,
+      "source_page_label": "167",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "judgment": "supported",
+      "evidence_summary": "The page materially treats monarchy within Price's sermon and Burke's defense of inherited institutions, monarchy, and property.",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-167"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-0D381C6D3C35",
+      "path_id": "PATH-D8A95F5744F4",
+      "complete_heading_path": [
+        "monarchy"
+      ],
+      "document_page": 169,
+      "source_page_label": "169",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "judgment": "supported",
+      "evidence_summary": "The page materially treats monarchy within Paine's Rights of Man, its rebuttal of Burke, its accounts of the Bastille and October Days, and its effect on British reform.",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-169"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-8F063CE12D6A",
+      "path_id": "PATH-60EC308B63C5",
+      "complete_heading_path": [
+        "National Assembly",
+        "abolition of feudalism"
+      ],
+      "document_page": 170,
+      "source_page_label": "170",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "judgment": "supported",
+      "evidence_summary": "The page materially treats National Assembly — abolition of feudalism within British radical organizations, the Birmingham anti-dissenter riot, translations of Burke, and German reactions.",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-170"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-D01DEFD97B5E",
+      "path_id": "PATH-60EC308B63C5",
+      "complete_heading_path": [
+        "National Assembly",
+        "abolition of feudalism"
+      ],
+      "document_page": 171,
+      "source_page_label": "171",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "judgment": "supported",
+      "evidence_summary": "The page materially treats National Assembly — abolition of feudalism within German rights and émigré centers, royal diplomacy after Pillnitz, and Spain's early censorship.",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-171"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-87F4012CC058",
+      "path_id": "PATH-EFC5B5720B32",
+      "complete_heading_path": [
+        "National Assembly",
+        "diplomatic questions"
+      ],
+      "document_page": 165,
+      "source_page_label": "165",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "judgment": "supported",
+      "evidence_summary": "The page materially treats National Assembly — diplomatic questions within the Nootka crisis, Austrian troop-transit fears, and Poland's response to Russian, Prussian, and Austrian power.",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-165"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-5948217D3508",
+      "path_id": "PATH-563F6B5BEDCD",
+      "complete_heading_path": [
+        "National Assembly",
+        "Dutch exiles"
+      ],
+      "document_page": 161,
+      "source_page_label": "161",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "judgment": "supported",
+      "evidence_summary": "The page materially treats National Assembly — Dutch exiles within British reactions, Genevan and Dutch political refugees, and mounting resistance in the Austrian Netherlands.",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-161"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-E73FF6DD3BEA",
+      "path_id": "PATH-9B1BD876AC00",
+      "complete_heading_path": [
+        "National Assembly",
+        "petitioned by international political exiles"
+      ],
+      "document_page": 172,
+      "source_page_label": "172",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "judgment": "supported",
+      "evidence_summary": "The page materially treats National Assembly — petitioned by international political exiles within Spanish, Swedish, and Russian censorship, Radischev, Varennes, and Clootz's delegation of political exiles.",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-172"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-47371E79B0CA",
+      "path_id": "PATH-084DB077D033",
+      "complete_heading_path": [
+        "National Assembly",
+        "renunciation of offensive warfare"
+      ],
+      "document_page": 164,
+      "source_page_label": "164",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "judgment": "supported",
+      "evidence_summary": "The page materially treats National Assembly — renunciation of offensive warfare within Leopold's restoration campaign, the Reichenbach settlement, the Turkish war, France's renunciation of offensive war, and the Nootka dispute.",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-164"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-5A1FFF6DF834",
+      "path_id": "PATH-76209E7774C0",
+      "complete_heading_path": [
+        "Nootka Sound"
+      ],
+      "document_page": 164,
+      "source_page_label": "164",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "judgment": "supported",
+      "evidence_summary": "The page materially treats Nootka Sound within Leopold's restoration campaign, the Reichenbach settlement, the Turkish war, France's renunciation of offensive war, and the Nootka dispute.",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-164"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-027D4BB3E859",
+      "path_id": "PATH-76209E7774C0",
+      "complete_heading_path": [
+        "Nootka Sound"
+      ],
+      "document_page": 165,
+      "source_page_label": "165",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "judgment": "supported",
+      "evidence_summary": "The page materially treats Nootka Sound within the Nootka crisis, Austrian troop-transit fears, and Poland's response to Russian, Prussian, and Austrian power.",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-165"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-548515C21CA8",
+      "path_id": "PATH-020B5DE179B8",
+      "complete_heading_path": [
+        "October Days"
+      ],
+      "document_page": 166,
+      "source_page_label": "166",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "judgment": "supported",
+      "evidence_summary": "The page materially treats October Days within the Polish constitution and Catherine II's response, followed by Burke, British parliamentary reform, and the Revolution Society.",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-166"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-A482A3627425",
+      "path_id": "PATH-020B5DE179B8",
+      "complete_heading_path": [
+        "October Days"
+      ],
+      "document_page": 167,
+      "source_page_label": "167",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "judgment": "supported",
+      "evidence_summary": "The page materially treats October Days within Price's sermon and Burke's defense of inherited institutions, monarchy, and property.",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-167"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-6BADDB680066",
+      "path_id": "PATH-020B5DE179B8",
+      "complete_heading_path": [
+        "October Days"
+      ],
+      "document_page": 169,
+      "source_page_label": "169",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "judgment": "supported",
+      "evidence_summary": "The page materially treats October Days within Paine's Rights of Man, its rebuttal of Burke, its accounts of the Bastille and October Days, and its effect on British reform.",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-169"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-FD74CFD30683",
+      "path_id": "PATH-1ACC17B09F21",
+      "complete_heading_path": [
+        "Paine, Thomas (1737-1809)"
+      ],
+      "document_page": 169,
+      "source_page_label": "169",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "judgment": "supported",
+      "evidence_summary": "The page materially treats Paine, Thomas (1737-1809) within Paine's Rights of Man, its rebuttal of Burke, its accounts of the Bastille and October Days, and its effect on British reform.",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-169"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-E2BB800DA6B5",
+      "path_id": "PATH-1ACC17B09F21",
+      "complete_heading_path": [
+        "Paine, Thomas (1737-1809)"
+      ],
+      "document_page": 170,
+      "source_page_label": "170",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "judgment": "supported",
+      "evidence_summary": "The page materially treats Paine, Thomas (1737-1809) within British radical organizations, the Birmingham anti-dissenter riot, translations of Burke, and German reactions.",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-170"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-7F25B12869F9",
+      "path_id": "PATH-2BFCFED9D789",
+      "complete_heading_path": [
+        "paper money"
+      ],
+      "document_page": 168,
+      "source_page_label": "168",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "judgment": "supported",
+      "evidence_summary": "The page materially treats paper money within Burke's claims about expropriation, assignats, religion, philosophic conspiracy, and the renewed British reform debate.",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-168"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-0F15EBD4B200",
+      "path_id": "PATH-B1F6C3CECB78",
+      "complete_heading_path": [
+        "Peace of Westphalia (1648)"
+      ],
+      "document_page": 171,
+      "source_page_label": "171",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "judgment": "supported",
+      "evidence_summary": "The page materially treats Peace of Westphalia (1648) within German rights and émigré centers, royal diplomacy after Pillnitz, and Spain's early censorship.",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-171"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-1623F510AFA3",
+      "path_id": "PATH-1F187639AA01",
+      "complete_heading_path": [
+        "Pétion, Jerôme (1756-94)"
+      ],
+      "document_page": 170,
+      "source_page_label": "170",
+      "source_scope_status": "indexable",
+      "treatment_class": "passing_mention",
+      "judgment": "unsupported",
+      "evidence_summary": "Pétion appears only as Paine's guest at a Revolution Society meeting, without independent treatment.",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-170"
+      ],
+      "confidence": "high",
+      "error_codes": [
+        "SEL",
+        "LOC_POS"
+      ],
+      "severity": "minor"
+    },
+    {
+      "locator_id": "LOC-9A72322C223A",
+      "path_id": "PATH-A86F3B89E4C1",
+      "complete_heading_path": [
+        "philosophy"
+      ],
+      "document_page": 168,
+      "source_page_label": "168",
+      "source_scope_status": "indexable",
+      "treatment_class": "mixed",
+      "judgment": "partially_supported",
+      "evidence_summary": "The page treats Burke's allegation of a conspiracy by Enlightenment thinkers, but the unqualified heading ‘philosophy’ is broader than that specific discussion.",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-168"
+      ],
+      "confidence": "high",
+      "error_codes": [
+        "HED"
+      ],
+      "severity": "minor"
+    },
+    {
+      "locator_id": "LOC-1EEEDFA30C75",
+      "path_id": "PATH-9016BE36D2B2",
+      "complete_heading_path": [
+        "Pillnitz, Declaration of"
+      ],
+      "document_page": 171,
+      "source_page_label": "171",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "judgment": "supported",
+      "evidence_summary": "The page materially treats Pillnitz, Declaration of within German rights and émigré centers, royal diplomacy after Pillnitz, and Spain's early censorship.",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-171"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-6F531053DEFD",
+      "path_id": "PATH-0D042406A09F",
+      "complete_heading_path": [
+        "Pitt, William (1759-1805)"
+      ],
+      "document_page": 168,
+      "source_page_label": "168",
+      "source_scope_status": "indexable",
+      "treatment_class": "passing_mention",
+      "judgment": "unsupported",
+      "evidence_summary": "Pitt appears only in a brief reference to his electoral victory, without independent treatment on this page.",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-168"
+      ],
+      "confidence": "high",
+      "error_codes": [
+        "SEL",
+        "LOC_POS"
+      ],
+      "severity": "minor"
+    },
+    {
+      "locator_id": "LOC-A202307F5E77",
+      "path_id": "PATH-A102C716B7A5",
+      "complete_heading_path": [
+        "Poland"
+      ],
+      "document_page": 165,
+      "source_page_label": "165",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "judgment": "supported",
+      "evidence_summary": "The page materially treats Poland within the Nootka crisis, Austrian troop-transit fears, and Poland's response to Russian, Prussian, and Austrian power.",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-165"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-97458E0475A0",
+      "path_id": "PATH-A102C716B7A5",
+      "complete_heading_path": [
+        "Poland"
+      ],
+      "document_page": 166,
+      "source_page_label": "166",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "judgment": "supported",
+      "evidence_summary": "The page materially treats Poland within the Polish constitution and Catherine II's response, followed by Burke, British parliamentary reform, and the Revolution Society.",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-166"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-7171C5EB7A8E",
+      "path_id": "PATH-A102C716B7A5",
+      "complete_heading_path": [
+        "Poland"
+      ],
+      "document_page": 171,
+      "source_page_label": "171",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "judgment": "supported",
+      "evidence_summary": "The page materially treats Poland within German rights and émigré centers, royal diplomacy after Pillnitz, and Spain's early censorship.",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-171"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-87AD05674D3A",
+      "path_id": "PATH-CB12DA1E4C41",
+      "complete_heading_path": [
+        "Price, Dr Richard (1723-91)"
+      ],
+      "document_page": 166,
+      "source_page_label": "166",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "judgment": "supported",
+      "evidence_summary": "The page materially treats Price, Dr Richard (1723-91) within the Polish constitution and Catherine II's response, followed by Burke, British parliamentary reform, and the Revolution Society.",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-166"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-25B5310AA4A0",
+      "path_id": "PATH-CB12DA1E4C41",
+      "complete_heading_path": [
+        "Price, Dr Richard (1723-91)"
+      ],
+      "document_page": 167,
+      "source_page_label": "167",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "judgment": "supported",
+      "evidence_summary": "The page materially treats Price, Dr Richard (1723-91) within Price's sermon and Burke's defense of inherited institutions, monarchy, and property.",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-167"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-A40A32F4AA04",
+      "path_id": "PATH-405BEADBB750",
+      "complete_heading_path": [
+        "Priestley, Joseph (1733-1804)"
+      ],
+      "document_page": 170,
+      "source_page_label": "170",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "judgment": "supported",
+      "evidence_summary": "The page materially treats Priestley, Joseph (1733-1804) within British radical organizations, the Birmingham anti-dissenter riot, translations of Burke, and German reactions.",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-170"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-A1A977DDF26C",
+      "path_id": "PATH-BE7BAC3E98D0",
+      "complete_heading_path": [
+        "Pro Aris et Focis"
+      ],
+      "document_page": 162,
+      "source_page_label": "162",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "judgment": "supported",
+      "evidence_summary": "The page materially treats Pro Aris et Focis within Dutch refugees, the Brabant and Liège revolts, Joseph II's attack on provincial liberties, and the Van der Noot–Vonck armed movement.",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-162"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-45008EA415AE",
+      "path_id": "PATH-28EBC1FD413E",
+      "complete_heading_path": [
+        "Provence, Count de (Louis XVIII) (1755-1824)"
+      ],
+      "document_page": 171,
+      "source_page_label": "171",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "judgment": "supported",
+      "evidence_summary": "The page materially treats Provence, Count de (Louis XVIII) (1755-1824) within German rights and émigré centers, royal diplomacy after Pillnitz, and Spain's early censorship.",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-171"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-0A1029912FAD",
+      "path_id": "PATH-E6D80FA73D7D",
+      "complete_heading_path": [
+        "Prussia"
+      ],
+      "document_page": 160,
+      "source_page_label": "160",
+      "source_scope_status": "indexable",
+      "treatment_class": "passing_mention",
+      "judgment": "unsupported",
+      "evidence_summary": "Prussia appears only as Clootz's nationality on this page; Prussian policy or conditions are not treated.",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-160"
+      ],
+      "confidence": "high",
+      "error_codes": [
+        "SEL",
+        "LOC_POS"
+      ],
+      "severity": "minor"
+    },
+    {
+      "locator_id": "LOC-DF9A4ABDD59F",
+      "path_id": "PATH-E6D80FA73D7D",
+      "complete_heading_path": [
+        "Prussia"
+      ],
+      "document_page": 164,
+      "source_page_label": "164",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "judgment": "supported",
+      "evidence_summary": "The page materially treats Prussia within Leopold's restoration campaign, the Reichenbach settlement, the Turkish war, France's renunciation of offensive war, and the Nootka dispute.",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-164"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-2FF33FA8CEFD",
+      "path_id": "PATH-E6D80FA73D7D",
+      "complete_heading_path": [
+        "Prussia"
+      ],
+      "document_page": 165,
+      "source_page_label": "165",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "judgment": "supported",
+      "evidence_summary": "The page materially treats Prussia within the Nootka crisis, Austrian troop-transit fears, and Poland's response to Russian, Prussian, and Austrian power.",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-165"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-FEC5F17611ED",
+      "path_id": "PATH-A6F0DC4A363A",
+      "complete_heading_path": [
+        "Prussian troops"
+      ],
+      "document_page": 159,
+      "source_page_label": "159",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "judgment": "supported",
+      "evidence_summary": "The page materially treats Prussian troops within the opening survey of European unrest, French policy toward American and Dutch causes, Joseph II's Habsburg reforms, and France's 1787 diplomatic retreat.",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-159"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-9F813C1AA51F",
+      "path_id": "PATH-98EF6E7D8928",
+      "complete_heading_path": [
+        "Radischev, Alexander (1749-1802)"
+      ],
+      "document_page": 172,
+      "source_page_label": "172",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "judgment": "supported",
+      "evidence_summary": "The page materially treats Radischev, Alexander (1749-1802) within Spanish, Swedish, and Russian censorship, Radischev, Varennes, and Clootz's delegation of political exiles.",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-172"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-B4AEA9A7FB22",
+      "path_id": "PATH-4A4D826834E1",
+      "complete_heading_path": [
+        "refugees"
+      ],
+      "document_page": 161,
+      "source_page_label": "161",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "judgment": "supported",
+      "evidence_summary": "The page materially treats refugees within British reactions, Genevan and Dutch political refugees, and mounting resistance in the Austrian Netherlands.",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-161"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-F3F63E391CE1",
+      "path_id": "PATH-4A4D826834E1",
+      "complete_heading_path": [
+        "refugees"
+      ],
+      "document_page": 162,
+      "source_page_label": "162",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "judgment": "supported",
+      "evidence_summary": "The page materially treats refugees within Dutch refugees, the Brabant and Liège revolts, Joseph II's attack on provincial liberties, and the Van der Noot–Vonck armed movement.",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-162"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-9EBA9B633049",
+      "path_id": "PATH-0A5D5785D893",
+      "complete_heading_path": [
+        "Reichenbach, Convention of (1790)"
+      ],
+      "document_page": 164,
+      "source_page_label": "164",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "judgment": "supported",
+      "evidence_summary": "The page materially treats Reichenbach, Convention of (1790) within Leopold's restoration campaign, the Reichenbach settlement, the Turkish war, France's renunciation of offensive war, and the Nootka dispute.",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-164"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-47C5A1B6B2A6",
+      "path_id": "PATH-A8C133198E74",
+      "complete_heading_path": [
+        "Revolution Society"
+      ],
+      "document_page": 170,
+      "source_page_label": "170",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "judgment": "supported",
+      "evidence_summary": "The page materially treats Revolution Society within British radical organizations, the Birmingham anti-dissenter riot, translations of Burke, and German reactions.",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-170"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-63D0D2609AE4",
+      "path_id": "PATH-FDB57A937F7A",
+      "complete_heading_path": [
+        "Russia"
+      ],
+      "document_page": 160,
+      "source_page_label": "160",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "judgment": "supported",
+      "evidence_summary": "The page materially treats Russia within France's diplomatic decline and the German, Italian, Swedish, and Russian responses to the fall of the Bastille.",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-160"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-4A377717B5A9",
+      "path_id": "PATH-FDB57A937F7A",
+      "complete_heading_path": [
+        "Russia"
+      ],
+      "document_page": 165,
+      "source_page_label": "165",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "judgment": "supported",
+      "evidence_summary": "The page materially treats Russia within the Nootka crisis, Austrian troop-transit fears, and Poland's response to Russian, Prussian, and Austrian power.",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-165"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-40B9613DDBE7",
+      "path_id": "PATH-FDB57A937F7A",
+      "complete_heading_path": [
+        "Russia"
+      ],
+      "document_page": 166,
+      "source_page_label": "166",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "judgment": "supported",
+      "evidence_summary": "The page materially treats Russia within the Polish constitution and Catherine II's response, followed by Burke, British parliamentary reform, and the Revolution Society.",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-166"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-67C9ADC94A7F",
+      "path_id": "PATH-FDB57A937F7A",
+      "complete_heading_path": [
+        "Russia"
+      ],
+      "document_page": 172,
+      "source_page_label": "172",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "judgment": "supported",
+      "evidence_summary": "The page materially treats Russia within Spanish, Swedish, and Russian censorship, Radischev, Varennes, and Clootz's delegation of political exiles.",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-172"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-2CB10252894F",
+      "path_id": "PATH-1890DC0E8AD3",
+      "complete_heading_path": [
+        "Schiller, Friedrich (1759-1805)"
+      ],
+      "document_page": 160,
+      "source_page_label": "160",
+      "source_scope_status": "indexable",
+      "treatment_class": "incidental_example",
+      "judgment": "unsupported",
+      "evidence_summary": "Schiller is only one of two writers briefly listed as sceptical observers who nevertheless followed the news.",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-160"
+      ],
+      "confidence": "high",
+      "error_codes": [
+        "SEL",
+        "LOC_POS"
+      ],
+      "severity": "minor"
+    },
+    {
+      "locator_id": "LOC-2ECDC7791502",
+      "path_id": "PATH-814A1E8F3AB6",
+      "complete_heading_path": [
+        "Sheffield Constitutional Society"
+      ],
+      "document_page": 170,
+      "source_page_label": "170",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "judgment": "supported",
+      "evidence_summary": "The page materially treats Sheffield Constitutional Society within British radical organizations, the Birmingham anti-dissenter riot, translations of Burke, and German reactions.",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-170"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-A58FF844F7E1",
+      "path_id": "PATH-2B4083238575",
+      "complete_heading_path": [
+        "Spain"
+      ],
+      "document_page": 164,
+      "source_page_label": "164",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "judgment": "supported",
+      "evidence_summary": "The page materially treats Spain within Leopold's restoration campaign, the Reichenbach settlement, the Turkish war, France's renunciation of offensive war, and the Nootka dispute.",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-164"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-839F3070DB8F",
+      "path_id": "PATH-2B4083238575",
+      "complete_heading_path": [
+        "Spain"
+      ],
+      "document_page": 165,
+      "source_page_label": "165",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "judgment": "supported",
+      "evidence_summary": "The page materially treats Spain within the Nootka crisis, Austrian troop-transit fears, and Poland's response to Russian, Prussian, and Austrian power.",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-165"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-CE0EBFE71668",
+      "path_id": "PATH-2B4083238575",
+      "complete_heading_path": [
+        "Spain"
+      ],
+      "document_page": 171,
+      "source_page_label": "171",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "judgment": "supported",
+      "evidence_summary": "The page materially treats Spain within German rights and émigré centers, royal diplomacy after Pillnitz, and Spain's early censorship.",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-171"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-CA4EB17CB683",
+      "path_id": "PATH-2B4083238575",
+      "complete_heading_path": [
+        "Spain"
+      ],
+      "document_page": 172,
+      "source_page_label": "172",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "judgment": "supported",
+      "evidence_summary": "The page materially treats Spain within Spanish, Swedish, and Russian censorship, Radischev, Varennes, and Clootz's delegation of political exiles.",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-172"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-2DD469758F1D",
+      "path_id": "PATH-EBD0682751E7",
+      "complete_heading_path": [
+        "Strogonov, Paul Alexandrovich, Count (1772-1817)"
+      ],
+      "document_page": 161,
+      "source_page_label": "161",
+      "source_scope_status": "indexable",
+      "treatment_class": "attribution_only",
+      "judgment": "unsupported",
+      "evidence_summary": "Count Stroganov appears only as the attributed source of a brief Russian reaction, and the candidate heading misspells his surname.",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-161"
+      ],
+      "confidence": "high",
+      "error_codes": [
+        "SEL",
+        "CON",
+        "LOC_POS"
+      ],
+      "severity": "minor"
+    },
+    {
+      "locator_id": "LOC-91DF3D0AE42B",
+      "path_id": "PATH-66BD63E8B564",
+      "complete_heading_path": [
+        "Sweden"
+      ],
+      "document_page": 160,
+      "source_page_label": "160",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "judgment": "supported",
+      "evidence_summary": "The page materially treats Sweden within France's diplomatic decline and the German, Italian, Swedish, and Russian responses to the fall of the Bastille.",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-160"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-96FACF678CA2",
+      "path_id": "PATH-66BD63E8B564",
+      "complete_heading_path": [
+        "Sweden"
+      ],
+      "document_page": 165,
+      "source_page_label": "165",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "judgment": "supported",
+      "evidence_summary": "The page materially treats Sweden within the Nootka crisis, Austrian troop-transit fears, and Poland's response to Russian, Prussian, and Austrian power.",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-165"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-599D7B45A8F8",
+      "path_id": "PATH-66BD63E8B564",
+      "complete_heading_path": [
+        "Sweden"
+      ],
+      "document_page": 171,
+      "source_page_label": "171",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "judgment": "supported",
+      "evidence_summary": "The page materially treats Sweden within German rights and émigré centers, royal diplomacy after Pillnitz, and Spain's early censorship.",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-171"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-D90FBF08827D",
+      "path_id": "PATH-66BD63E8B564",
+      "complete_heading_path": [
+        "Sweden"
+      ],
+      "document_page": 172,
+      "source_page_label": "172",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "judgment": "supported",
+      "evidence_summary": "The page materially treats Sweden within Spanish, Swedish, and Russian censorship, Radischev, Varennes, and Clootz's delegation of political exiles.",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-172"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-A36589B344EF",
+      "path_id": "PATH-3B36AD2B9C84",
+      "complete_heading_path": [
+        "Switzerland"
+      ],
+      "document_page": 161,
+      "source_page_label": "161",
+      "source_scope_status": "indexable",
+      "treatment_class": "mixed",
+      "judgment": "partially_supported",
+      "evidence_summary": "The page materially treats Genevan democrats and their exile, but it does not treat Switzerland as a whole; the complete heading is overbroad.",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-161"
+      ],
+      "confidence": "high",
+      "error_codes": [
+        "HED"
+      ],
+      "severity": "minor"
+    },
+    {
+      "locator_id": "LOC-9D6A7E9FC998",
+      "path_id": "PATH-CC03D52ED5BD",
+      "complete_heading_path": [
+        "Tone, Theobald Wolfe (1763-98)"
+      ],
+      "document_page": 169,
+      "source_page_label": "169",
+      "source_scope_status": "indexable",
+      "treatment_class": "attribution_only",
+      "judgment": "unsupported",
+      "evidence_summary": "Wolfe Tone appears only as the attributed source for a brief report about the reception of Rights of Man in Belfast.",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-169"
+      ],
+      "confidence": "high",
+      "error_codes": [
+        "SEL",
+        "LOC_POS"
+      ],
+      "severity": "minor"
+    },
+    {
+      "locator_id": "LOC-94159789D408",
+      "path_id": "PATH-4A4C8FE9F881",
+      "complete_heading_path": [
+        "Turkish war"
+      ],
+      "document_page": 164,
+      "source_page_label": "164",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "judgment": "supported",
+      "evidence_summary": "The page materially treats Turkish war within Leopold's restoration campaign, the Reichenbach settlement, the Turkish war, France's renunciation of offensive war, and the Nootka dispute.",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-164"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-42DA5796E087",
+      "path_id": "PATH-4A4C8FE9F881",
+      "complete_heading_path": [
+        "Turkish war"
+      ],
+      "document_page": 165,
+      "source_page_label": "165",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "judgment": "supported",
+      "evidence_summary": "The page materially treats Turkish war within the Nootka crisis, Austrian troop-transit fears, and Poland's response to Russian, Prussian, and Austrian power.",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-165"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-052C9E18E2F3",
+      "path_id": "PATH-4A4C8FE9F881",
+      "complete_heading_path": [
+        "Turkish war"
+      ],
+      "document_page": 166,
+      "source_page_label": "166",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "judgment": "supported",
+      "evidence_summary": "The page materially treats Turkish war within the Polish constitution and Catherine II's response, followed by Burke, British parliamentary reform, and the Revolution Society.",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-166"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-84DDCB73FD7A",
+      "path_id": "PATH-52A20F066DD9",
+      "complete_heading_path": [
+        "Van der Noot, Heintje (1731-1827)"
+      ],
+      "document_page": 162,
+      "source_page_label": "162",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "judgment": "supported",
+      "evidence_summary": "The page materially treats Van der Noot, Heintje (1731-1827) within Dutch refugees, the Brabant and Liège revolts, Joseph II's attack on provincial liberties, and the Van der Noot–Vonck armed movement.",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-162"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-94179CE3E61D",
+      "path_id": "PATH-52A20F066DD9",
+      "complete_heading_path": [
+        "Van der Noot, Heintje (1731-1827)"
+      ],
+      "document_page": 163,
+      "source_page_label": "163",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "judgment": "supported",
+      "evidence_summary": "The page materially treats Van der Noot, Heintje (1731-1827) within Belgian independence, the conflict between statists and Vonckists, and the succession from Joseph II to Leopold II.",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-163"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-53E8C2700114",
+      "path_id": "PATH-52A20F066DD9",
+      "complete_heading_path": [
+        "Van der Noot, Heintje (1731-1827)"
+      ],
+      "document_page": 164,
+      "source_page_label": "164",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "judgment": "supported",
+      "evidence_summary": "The page materially treats Van der Noot, Heintje (1731-1827) within Leopold's restoration campaign, the Reichenbach settlement, the Turkish war, France's renunciation of offensive war, and the Nootka dispute.",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-164"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-1CCA2581B150",
+      "path_id": "PATH-7BF94AD9C1A8",
+      "complete_heading_path": [
+        "Vancouver Island"
+      ],
+      "document_page": 164,
+      "source_page_label": "164",
+      "source_scope_status": "indexable",
+      "treatment_class": "incidental_example",
+      "judgment": "unsupported",
+      "evidence_summary": "Vancouver Island appears only as the geographic reference point for the Nootka Sound incident, without independent treatment.",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-164"
+      ],
+      "confidence": "high",
+      "error_codes": [
+        "SEL",
+        "LOC_POS"
+      ],
+      "severity": "minor"
+    },
+    {
+      "locator_id": "LOC-F01569F06FA7",
+      "path_id": "PATH-CD8E5EB11DCC",
+      "complete_heading_path": [
+        "Vergennes, Charles Gravier, Count de (1717-87)"
+      ],
+      "document_page": 159,
+      "source_page_label": "159",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "judgment": "supported",
+      "evidence_summary": "The page materially treats Vergennes, Charles Gravier, Count de (1717-87) within the opening survey of European unrest, French policy toward American and Dutch causes, Joseph II's Habsburg reforms, and France's 1787 diplomatic retreat.",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-159"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-1992C30F3A72",
+      "path_id": "PATH-4438A3E83623",
+      "complete_heading_path": [
+        "Vonck, Jan-Frans (1743-92)"
+      ],
+      "document_page": 162,
+      "source_page_label": "162",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "judgment": "supported",
+      "evidence_summary": "The page materially treats Vonck, Jan-Frans (1743-92) within Dutch refugees, the Brabant and Liège revolts, Joseph II's attack on provincial liberties, and the Van der Noot–Vonck armed movement.",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-162"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-3273F5C00122",
+      "path_id": "PATH-4438A3E83623",
+      "complete_heading_path": [
+        "Vonck, Jan-Frans (1743-92)"
+      ],
+      "document_page": 163,
+      "source_page_label": "163",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "judgment": "supported",
+      "evidence_summary": "The page materially treats Vonck, Jan-Frans (1743-92) within Belgian independence, the conflict between statists and Vonckists, and the succession from Joseph II to Leopold II.",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-163"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-DEE8B3458220",
+      "path_id": "PATH-4438A3E83623",
+      "complete_heading_path": [
+        "Vonck, Jan-Frans (1743-92)"
+      ],
+      "document_page": 164,
+      "source_page_label": "164",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "judgment": "supported",
+      "evidence_summary": "The page materially treats Vonck, Jan-Frans (1743-92) within Leopold's restoration campaign, the Reichenbach settlement, the Turkish war, France's renunciation of offensive war, and the Nootka dispute.",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-164"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-9136E64028AC",
+      "path_id": "PATH-6E96191E0AA2",
+      "complete_heading_path": [
+        "Whigs"
+      ],
+      "document_page": 161,
+      "source_page_label": "161",
+      "source_scope_status": "indexable",
+      "treatment_class": "mixed",
+      "judgment": "partially_supported",
+      "evidence_summary": "The page gives the approving reaction of Fox as leader of the Whig opposition, but does not independently characterize the Whigs more broadly.",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-161"
+      ],
+      "confidence": "high",
+      "error_codes": [
+        "HED"
+      ],
+      "severity": "minor"
+    },
+    {
+      "locator_id": "LOC-97B7B2831301",
+      "path_id": "PATH-6E96191E0AA2",
+      "complete_heading_path": [
+        "Whigs"
+      ],
+      "document_page": 166,
+      "source_page_label": "166",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "judgment": "supported",
+      "evidence_summary": "The page materially treats Whigs within the Polish constitution and Catherine II's response, followed by Burke, British parliamentary reform, and the Revolution Society.",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-166"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-3A8E5044C65D",
+      "path_id": "PATH-6E96191E0AA2",
+      "complete_heading_path": [
+        "Whigs"
+      ],
+      "document_page": 167,
+      "source_page_label": "167",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "judgment": "supported",
+      "evidence_summary": "The page materially treats Whigs within Price's sermon and Burke's defense of inherited institutions, monarchy, and property.",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-167"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-0F5B4C147A6D",
+      "path_id": "PATH-BFC131975B0D",
+      "complete_heading_path": [
+        "Wieland, Christoff-Martin (1733-1813)"
+      ],
+      "document_page": 160,
+      "source_page_label": "160",
+      "source_scope_status": "indexable",
+      "treatment_class": "incidental_example",
+      "judgment": "unsupported",
+      "evidence_summary": "Wieland is one of several German writers listed as welcoming the Revolution, without independent treatment.",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-160"
+      ],
+      "confidence": "high",
+      "error_codes": [
+        "SEL",
+        "LOC_POS"
+      ],
+      "severity": "minor"
+    },
+    {
+      "locator_id": "LOC-A45DB2841B2B",
+      "path_id": "PATH-6DA4943E5CF7",
+      "complete_heading_path": [
+        "William V, Stadtholder of Orange (1748-1806)"
+      ],
+      "document_page": 159,
+      "source_page_label": "159",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "judgment": "supported",
+      "evidence_summary": "The page materially treats William V, Stadtholder of Orange (1748-1806) within the opening survey of European unrest, French policy toward American and Dutch causes, Joseph II's Habsburg reforms, and France's 1787 diplomatic retreat.",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-159"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-CCEB4292A000",
+      "path_id": "PATH-6DA4943E5CF7",
+      "complete_heading_path": [
+        "William V, Stadtholder of Orange (1748-1806)"
+      ],
+      "document_page": 162,
+      "source_page_label": "162",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "judgment": "supported",
+      "evidence_summary": "The page materially treats William V, Stadtholder of Orange (1748-1806) within Dutch refugees, the Brabant and Liège revolts, Joseph II's attack on provincial liberties, and the Van der Noot–Vonck armed movement.",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-162"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    }
+  ],
+  "completion": {
+    "expected": 174,
+    "judged": 174,
+    "unique": true,
+    "complete": true
+  }
+}
