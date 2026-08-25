@@ -1,0 +1,5086 @@
+{
+  "candidate_id": "oxford-history-french-revolution-2002-original-published-index",
+  "candidate_sha256": "1d43fe7fb158b352393c6e2f14843aae9ae23ccfca1f61c6783307432b0a9d09",
+  "chunk_id": "CHUNK-002",
+  "completion": {
+    "complete": true,
+    "expected": 244,
+    "judged": 244,
+    "unique": true
+  },
+  "evaluation_id": "oxford-history-french-revolution-2002-indexerlabs-truncated",
+  "expected_locator_ids": [
+    "LOC-9BE36BCA9141",
+    "LOC-805906690BC8",
+    "LOC-F10AA513CDA9",
+    "LOC-5EB7543BB39E",
+    "LOC-5282BC190F75",
+    "LOC-3EB70059D6FE",
+    "LOC-A9F3F91393FD",
+    "LOC-F24ED66F17EC",
+    "LOC-852F0032A2C9",
+    "LOC-71F468A6DB2B",
+    "LOC-FF6684F9C331",
+    "LOC-CD4E2891F958",
+    "LOC-54FA46EA72FA",
+    "LOC-EDE94A56F03E",
+    "LOC-1BD74C854851",
+    "LOC-396240D70686",
+    "LOC-068714414480",
+    "LOC-E37987A762E0",
+    "LOC-7FA4FFC7EF21",
+    "LOC-6E7A70C1FE0F",
+    "LOC-8543A335CB88",
+    "LOC-1127A55EC700",
+    "LOC-3002F6030E64",
+    "LOC-315EBFA3D886",
+    "LOC-0368D028BE10",
+    "LOC-25D1CE1E9CAE",
+    "LOC-86F7D571D156",
+    "LOC-A1A1DE62B444",
+    "LOC-2E4A7140EAE7",
+    "LOC-B98FBFD23F44",
+    "LOC-0D7AB8E48A55",
+    "LOC-BA4AA97F32AA",
+    "LOC-29B32CD908E9",
+    "LOC-3773DC26A347",
+    "LOC-D4BF43252273",
+    "LOC-388F2AC92AC0",
+    "LOC-BC0920F5BCF0",
+    "LOC-71D51774EA51",
+    "LOC-5B4789767260",
+    "LOC-E616DC6F2F4B",
+    "LOC-53EF4348E868",
+    "LOC-75182DE0798E",
+    "LOC-48B78E749E06",
+    "LOC-99E521EFDAB0",
+    "LOC-49A402C6C577",
+    "LOC-7E628A9B0BB3",
+    "LOC-8CD598646C35",
+    "LOC-4ACA70E4E669",
+    "LOC-3864CF64750B",
+    "LOC-761529C3010D",
+    "LOC-FED86DD10306",
+    "LOC-98D4AC2348C4",
+    "LOC-374A44D74BE6",
+    "LOC-B9AA1646757B",
+    "LOC-23578C7AB710",
+    "LOC-AD291139160C",
+    "LOC-C1455299E46E",
+    "LOC-2E0DE1B813FF",
+    "LOC-0B5AE6EEE5A4",
+    "LOC-410B96ABBE5B",
+    "LOC-3E65BA828FB0",
+    "LOC-147776FF25E8",
+    "LOC-FF3C3B919914",
+    "LOC-920F8D6FA328",
+    "LOC-BEC85B4B19BE",
+    "LOC-6D736E82541A",
+    "LOC-9F0A46A69828",
+    "LOC-4957E01A6959",
+    "LOC-AC146AFDE445",
+    "LOC-3216AADD1F19",
+    "LOC-377F0287ADAE",
+    "LOC-0951F366DED3",
+    "LOC-BCA0F94C3309",
+    "LOC-75CD5E42CBEF",
+    "LOC-5B335B4ACFB4",
+    "LOC-5AED077F0BFB",
+    "LOC-DDBFCC237895",
+    "LOC-D7963D3362AC",
+    "LOC-5242FC932E5B",
+    "LOC-A7EFB1DD64A2",
+    "LOC-24C85F3BD638",
+    "LOC-A2AECBBDD056",
+    "LOC-C9C2E28A4E8B",
+    "LOC-110FD99677AC",
+    "LOC-6898B198FB31",
+    "LOC-218BBA5FE761",
+    "LOC-2B325465F38F",
+    "LOC-56A9234A2400",
+    "LOC-A76C26F2C270",
+    "LOC-C023CF2D3B87",
+    "LOC-B1821360A5A8",
+    "LOC-EE5639336039",
+    "LOC-658271F1B8D7",
+    "LOC-A96A09943513",
+    "LOC-4BE45B4C290D",
+    "LOC-0BA38FEF895B",
+    "LOC-E765B65A49DE",
+    "LOC-226B04C4A0B7",
+    "LOC-6B580CFFCEF2",
+    "LOC-C915DAD1CEBF",
+    "LOC-C2F6E99823BF",
+    "LOC-D78E1CB4A1E8",
+    "LOC-DD20ED6197EC",
+    "LOC-245612D1EF1C",
+    "LOC-8B5F5921407E",
+    "LOC-61DD62DC4E80",
+    "LOC-7F639AE76CA6",
+    "LOC-616C2BB48B25",
+    "LOC-C7BDD10BCEBA",
+    "LOC-D4214FBCDBA9",
+    "LOC-6B14A4C65016",
+    "LOC-B0C52F6288F0",
+    "LOC-98B1FA942366",
+    "LOC-92A224970511",
+    "LOC-BC73487DCA23",
+    "LOC-621F0C15C2CC",
+    "LOC-B9E45C63C30E",
+    "LOC-326C026EBD5F",
+    "LOC-1FDFABE6D7EC",
+    "LOC-33BE4AF2E435",
+    "LOC-A53D6BD32BEB",
+    "LOC-064E74EE09A5",
+    "LOC-F534317B79A3",
+    "LOC-FEBC57B6D516",
+    "LOC-4C9C314191A5",
+    "LOC-8C45C3F9C73D",
+    "LOC-02C2634369DE",
+    "LOC-F88BCAD9F9DD",
+    "LOC-5BCB0D75C8C6",
+    "LOC-88E18908ECAF",
+    "LOC-96DB26BEBB63",
+    "LOC-ABF7E0E30A97",
+    "LOC-351B554D9282",
+    "LOC-596CE6E12BDE",
+    "LOC-9E8401B8A2B2",
+    "LOC-1453D5ECDD71",
+    "LOC-36A6BBD97639",
+    "LOC-0FF21B44C95E",
+    "LOC-36AB8467FE97",
+    "LOC-17B00B2FADC8",
+    "LOC-5D356DED543F",
+    "LOC-E5B300240161",
+    "LOC-FAC2807AAC71",
+    "LOC-13BA12F1EDDE",
+    "LOC-CD13A6D043A8",
+    "LOC-075C2B6A8785",
+    "LOC-E67825E14CB5",
+    "LOC-411FB0087C02",
+    "LOC-58D41C384D15",
+    "LOC-6EA3DBCB47A4",
+    "LOC-465EFAD1E9DF",
+    "LOC-1F27F2570580",
+    "LOC-9F8660D29C85",
+    "LOC-F332F88AC651",
+    "LOC-F711322DD9A5",
+    "LOC-1ACE0FC5DF5B",
+    "LOC-B18D9ABC2641",
+    "LOC-1BDF36D46C09",
+    "LOC-73A03EE735A5",
+    "LOC-BAE4F13E7689",
+    "LOC-4FC0F45D8CA6",
+    "LOC-CD17EA065528",
+    "LOC-88A9960A96DC",
+    "LOC-4D905D42723B",
+    "LOC-1F766B697A25",
+    "LOC-A2B93BB74ACE",
+    "LOC-C3C8DB682269",
+    "LOC-60E629DB0030",
+    "LOC-C7DC1A88AC2A",
+    "LOC-10CB3E8E93CB",
+    "LOC-A37117287E75",
+    "LOC-CF0F48EF1EDF",
+    "LOC-102CA1DA92FF",
+    "LOC-4D5C6EDBDBA7",
+    "LOC-8AE38C070AD7",
+    "LOC-F106A1BBD25A",
+    "LOC-92103E4E47D8",
+    "LOC-55DE08D634F0",
+    "LOC-6196D1C190C2",
+    "LOC-0B0C37ABC4E2",
+    "LOC-748AF9C14381",
+    "LOC-622B61A24230",
+    "LOC-3D6841FEEF28",
+    "LOC-5B2179534E3A",
+    "LOC-4648F863DA95",
+    "LOC-47A9EE2FB50E",
+    "LOC-0A67F95670FC",
+    "LOC-94182CB64B3D",
+    "LOC-B2E8B3975FA2",
+    "LOC-9C37D867B827",
+    "LOC-8BD3ED410A1E",
+    "LOC-129B802E0EEC",
+    "LOC-5BF372F10678",
+    "LOC-713BB0BC5325",
+    "LOC-7E9FE0CB8EF7",
+    "LOC-03965E612F0F",
+    "LOC-999C9168EAEC",
+    "LOC-234CE2E60001",
+    "LOC-B999040EEA8A",
+    "LOC-593289175AC2",
+    "LOC-826BD96574D9",
+    "LOC-8FB0047D8E7E",
+    "LOC-B162270491D2",
+    "LOC-2741DCB3BF83",
+    "LOC-61E98C565ACD",
+    "LOC-A90B87FD513C",
+    "LOC-BF167B7E76CC",
+    "LOC-AA140853BF17",
+    "LOC-C0965917F9DA",
+    "LOC-29772114A5B2",
+    "LOC-8247BD941F7C",
+    "LOC-59C7C770CA9B",
+    "LOC-03E5FF6CEE73",
+    "LOC-9AE049C3AD05",
+    "LOC-B0096256C691",
+    "LOC-0191C1407980",
+    "LOC-908B20FBC76A",
+    "LOC-825EDE104C7F",
+    "LOC-DA0C2ED841CF",
+    "LOC-D09C86480144",
+    "LOC-D50737E5CA61",
+    "LOC-74D7D3B41DE8",
+    "LOC-B655A1257D4D",
+    "LOC-540A2107942E",
+    "LOC-45C48E419630",
+    "LOC-CF67B3E55D35",
+    "LOC-1EAF81687184",
+    "LOC-8D353C96EF21",
+    "LOC-6C8B4AA385D3",
+    "LOC-65F7CA1F0ECC",
+    "LOC-D03DD7D829E2",
+    "LOC-3B1074E1EB16",
+    "LOC-3641F450C453",
+    "LOC-06C420D4D5BF",
+    "LOC-5C719452F6FC",
+    "LOC-AF3E773CAF87",
+    "LOC-189B9E5143B4",
+    "LOC-C435A691E805",
+    "LOC-CF8D08C3FC5A",
+    "LOC-ED27C3FBED2A",
+    "LOC-FE8BC6D04FB6",
+    "LOC-61C2EC8FE9AE",
+    "LOC-9C1E7A9D37F3",
+    "LOC-E9235B474D50"
+  ],
+  "judgments": [
+    {
+      "complete_heading_path": [
+        "Académie française"
+      ],
+      "confidence": "high",
+      "document_page": 47,
+      "error_codes": [
+        "LOC_POS",
+        "SEL"
+      ],
+      "evidence_ids": [
+        "EVID-9BE36BCA9141"
+      ],
+      "evidence_summary": "The page examines print affordability, shared reading institutions, literary societies, and the rise of provincial academies. The heading appears only as an isolated illustration, setting, or member of a wider subject and lacks independent substantive treatment on this page.",
+      "judgment": "unsupported",
+      "locator_id": "LOC-9BE36BCA9141",
+      "path_id": "PATH-31F3416D7872",
+      "severity": "minor",
+      "source_page_label": "47",
+      "source_scope_status": "indexable",
+      "treatment_class": "incidental_example"
+    },
+    {
+      "complete_heading_path": [
+        "Académie française"
+      ],
+      "confidence": "high",
+      "document_page": 49,
+      "error_codes": [
+        "LOC_POS"
+      ],
+      "evidence_ids": [
+        "EVID-805906690BC8"
+      ],
+      "evidence_summary": "The page details classical and Catholic schooling, natural science and Newtonian methods, and Enlightenment rational criticism. The complete heading path is not materially present on the mapped page.",
+      "judgment": "unsupported",
+      "locator_id": "LOC-805906690BC8",
+      "path_id": "PATH-31F3416D7872",
+      "severity": "minor",
+      "source_page_label": "49",
+      "source_scope_status": "indexable",
+      "treatment_class": "absent"
+    },
+    {
+      "complete_heading_path": [
+        "Académie française"
+      ],
+      "confidence": "high",
+      "document_page": 50,
+      "error_codes": [
+        "LOC_POS",
+        "SEL"
+      ],
+      "evidence_ids": [
+        "EVID-F10AA513CDA9"
+      ],
+      "evidence_summary": "The page develops Voltaire's English influences and campaigns and introduces Montesquieu's comparative political thought. The heading appears only as an isolated illustration, setting, or member of a wider subject and lacks independent substantive treatment on this page.",
+      "judgment": "unsupported",
+      "locator_id": "LOC-F10AA513CDA9",
+      "path_id": "PATH-31F3416D7872",
+      "severity": "minor",
+      "source_page_label": "50",
+      "source_scope_status": "indexable",
+      "treatment_class": "incidental_example"
+    },
+    {
+      "complete_heading_path": [
+        "Academies"
+      ],
+      "confidence": "high",
+      "document_page": 47,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-5EB7543BB39E"
+      ],
+      "evidence_summary": "The page examines print affordability, shared reading institutions, literary societies, and the rise of provincial academies. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-5EB7543BB39E",
+      "path_id": "PATH-1FC9D09241F1",
+      "severity": "none",
+      "source_page_label": "47",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Academies"
+      ],
+      "confidence": "high",
+      "document_page": 48,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-5282BC190F75"
+      ],
+      "evidence_summary": "The page analyzes academic growth and exclusivity, the social composition of readers, and post-Jesuit educational upheaval. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-5282BC190F75",
+      "path_id": "PATH-1FC9D09241F1",
+      "severity": "none",
+      "source_page_label": "48",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Adams, John (1735-1826)"
+      ],
+      "confidence": "high",
+      "document_page": 63,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-3EB70059D6FE"
+      ],
+      "evidence_summary": "The page explains French intervention in America and the transmission and resonance of American liberty through Raynal, Adams, documents, and Franklin. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-3EB70059D6FE",
+      "path_id": "PATH-8F5776996022",
+      "severity": "none",
+      "source_page_label": "63",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "administrative reform"
+      ],
+      "confidence": "high",
+      "document_page": 61,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-A9F3F91393FD"
+      ],
+      "evidence_summary": "The page analyzes enlightened yet unaccountable intendants and proposals for provincial representative administration. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-A9F3F91393FD",
+      "path_id": "PATH-6FFB906697D9",
+      "severity": "none",
+      "source_page_label": "61",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "administrative reform"
+      ],
+      "confidence": "high",
+      "document_page": 62,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-F24ED66F17EC"
+      ],
+      "evidence_summary": "The page develops Necker's rise, reforms, public-opinion strategy, resignation, and published defense of his record. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-F24ED66F17EC",
+      "path_id": "PATH-6FFB906697D9",
+      "severity": "none",
+      "source_page_label": "62",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Alembert, Jean Le Ronde d' (1717-83)"
+      ],
+      "confidence": "high",
+      "document_page": 51,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-852F0032A2C9"
+      ],
+      "evidence_summary": "The page completes Montesquieu's case for balanced powers and explains the collaborative Encyclopedie project and its censorship. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-852F0032A2C9",
+      "path_id": "PATH-5DD25E1D70F2",
+      "severity": "none",
+      "source_page_label": "51",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Alfieri, Vittorio (1749-1803)"
+      ],
+      "confidence": "high",
+      "document_page": 44,
+      "error_codes": [
+        "LOC_POS",
+        "SEL"
+      ],
+      "evidence_ids": [
+        "EVID-71F468A6DB2B"
+      ],
+      "evidence_summary": "The page traces Versailles-centered French cultural prestige, the spread of French among European elites, and the first national-cultural backlash. The named person functions only as an attributed or illustrative voice and is not independently treated on this page.",
+      "judgment": "unsupported",
+      "locator_id": "LOC-71F468A6DB2B",
+      "path_id": "PATH-270D693E1772",
+      "severity": "minor",
+      "source_page_label": "44",
+      "source_scope_status": "indexable",
+      "treatment_class": "attribution_only"
+    },
+    {
+      "complete_heading_path": [
+        "American War of Independence"
+      ],
+      "confidence": "high",
+      "document_page": 63,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-FF6684F9C331"
+      ],
+      "evidence_summary": "The page explains French intervention in America and the transmission and resonance of American liberty through Raynal, Adams, documents, and Franklin. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-FF6684F9C331",
+      "path_id": "PATH-EB45E2F5A72B",
+      "severity": "none",
+      "source_page_label": "63",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "anti-clericalism"
+      ],
+      "confidence": "high",
+      "document_page": 53,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-CD4E2891F958"
+      ],
+      "evidence_summary": "The page develops Rousseau's political and religious thought and the Church's response to philosophic irreligion. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-CD4E2891F958",
+      "path_id": "PATH-085850AB249C",
+      "severity": "none",
+      "source_page_label": "53",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Aristotle"
+      ],
+      "confidence": "high",
+      "document_page": 49,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-54FA46EA72FA"
+      ],
+      "evidence_summary": "The page details classical and Catholic schooling, natural science and Newtonian methods, and Enlightenment rational criticism. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-54FA46EA72FA",
+      "path_id": "PATH-E1071C04CC5E",
+      "severity": "none",
+      "source_page_label": "49",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "army",
+        "War of Independence veterans"
+      ],
+      "confidence": "high",
+      "document_page": 64,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-EDE94A56F03E"
+      ],
+      "evidence_summary": "The page connects the Order of Cincinnati controversy, American regeneration, scientific wonders, Mesmerism, and early freemasonry to a desire for change. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-EDE94A56F03E",
+      "path_id": "PATH-E561A4D4B454",
+      "severity": "none",
+      "source_page_label": "64",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Austria"
+      ],
+      "confidence": "high",
+      "document_page": 57,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-1BD74C854851"
+      ],
+      "evidence_summary": "The page links the Seven Years War to public inquest and explains Quesnay and Physiocratic economic reform. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-1BD74C854851",
+      "path_id": "PATH-82980135C1F0",
+      "severity": "none",
+      "source_page_label": "57",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Austria"
+      ],
+      "confidence": "high",
+      "document_page": 60,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-396240D70686"
+      ],
+      "evidence_summary": "The page treats royal sexual satire, the Diamond Necklace affair, restored parlements, and the opening analysis of intendants. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-396240D70686",
+      "path_id": "PATH-82980135C1F0",
+      "severity": "none",
+      "source_page_label": "60",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Bacon, Francis (1561-1626)"
+      ],
+      "confidence": "high",
+      "document_page": 50,
+      "error_codes": [
+        "LOC_POS",
+        "SEL"
+      ],
+      "evidence_ids": [
+        "EVID-068714414480"
+      ],
+      "evidence_summary": "The page develops Voltaire's English influences and campaigns and introduces Montesquieu's comparative political thought. The name receives only a passing identification within another subject's treatment, without independent analysis.",
+      "judgment": "unsupported",
+      "locator_id": "LOC-068714414480",
+      "path_id": "PATH-E67B9967AC33",
+      "severity": "minor",
+      "source_page_label": "50",
+      "source_scope_status": "indexable",
+      "treatment_class": "passing_mention"
+    },
+    {
+      "complete_heading_path": [
+        "Bastille"
+      ],
+      "confidence": "high",
+      "document_page": 45,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-E37987A762E0"
+      ],
+      "evidence_summary": "The page explains the expanding periodical press, censorship limits, oppositional journalism, and publication beyond French jurisdiction. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-E37987A762E0",
+      "path_id": "PATH-E283461C207B",
+      "severity": "none",
+      "source_page_label": "45",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Bavaria"
+      ],
+      "confidence": "medium",
+      "document_page": 65,
+      "error_codes": [
+        "HED"
+      ],
+      "evidence_ids": [
+        "EVID-7FA4FFC7EF21"
+      ],
+      "evidence_summary": "The page analyzes masonic hierarchy, equality, philanthropy, conspiracy fears, and the limits of pre-revolutionary credulity. The page materially discusses the Bavarian Illuminati episode, but the generic place heading is broader than the supported event.",
+      "judgment": "partially_supported",
+      "locator_id": "LOC-7FA4FFC7EF21",
+      "path_id": "PATH-10D5A09D1FE6",
+      "severity": "minor",
+      "source_page_label": "65",
+      "source_scope_status": "indexable",
+      "treatment_class": "mixed"
+    },
+    {
+      "complete_heading_path": [
+        "Bayeux"
+      ],
+      "confidence": "high",
+      "document_page": 47,
+      "error_codes": [
+        "LOC_POS",
+        "SEL"
+      ],
+      "evidence_ids": [
+        "EVID-6E7A70C1FE0F"
+      ],
+      "evidence_summary": "The page examines print affordability, shared reading institutions, literary societies, and the rise of provincial academies. The heading appears only as an isolated illustration, setting, or member of a wider subject and lacks independent substantive treatment on this page.",
+      "judgment": "unsupported",
+      "locator_id": "LOC-6E7A70C1FE0F",
+      "path_id": "PATH-3050AFF4E283",
+      "severity": "minor",
+      "source_page_label": "47",
+      "source_scope_status": "indexable",
+      "treatment_class": "incidental_example"
+    },
+    {
+      "complete_heading_path": [
+        "Beccaria, Cesare, Marchese di (1738-94)"
+      ],
+      "confidence": "high",
+      "document_page": 55,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-8543A335CB88"
+      ],
+      "evidence_summary": "The page treats the Calas and Sirven campaigns, penal cruelty, torture, public execution, and Beccaria-inspired reform. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-8543A335CB88",
+      "path_id": "PATH-E9636D8F04D4",
+      "severity": "none",
+      "source_page_label": "55",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Belgium"
+      ],
+      "confidence": "high",
+      "document_page": 45,
+      "error_codes": [
+        "LOC_POS",
+        "SEL"
+      ],
+      "evidence_ids": [
+        "EVID-1127A55EC700"
+      ],
+      "evidence_summary": "The page explains the expanding periodical press, censorship limits, oppositional journalism, and publication beyond French jurisdiction. The heading appears only as an isolated illustration, setting, or member of a wider subject and lacks independent substantive treatment on this page.",
+      "judgment": "unsupported",
+      "locator_id": "LOC-1127A55EC700",
+      "path_id": "PATH-CCC8DE4629C8",
+      "severity": "minor",
+      "source_page_label": "45",
+      "source_scope_status": "indexable",
+      "treatment_class": "incidental_example"
+    },
+    {
+      "complete_heading_path": [
+        "Besançon"
+      ],
+      "confidence": "high",
+      "document_page": 61,
+      "error_codes": [
+        "LOC_POS",
+        "SEL"
+      ],
+      "evidence_ids": [
+        "EVID-3002F6030E64"
+      ],
+      "evidence_summary": "The page analyzes enlightened yet unaccountable intendants and proposals for provincial representative administration. The heading appears only as an isolated illustration, setting, or member of a wider subject and lacks independent substantive treatment on this page.",
+      "judgment": "unsupported",
+      "locator_id": "LOC-3002F6030E64",
+      "path_id": "PATH-F02E15765BC6",
+      "severity": "minor",
+      "source_page_label": "61",
+      "source_scope_status": "indexable",
+      "treatment_class": "incidental_example"
+    },
+    {
+      "complete_heading_path": [
+        "bishops",
+        "pre-Revolution"
+      ],
+      "confidence": "medium",
+      "document_page": 54,
+      "error_codes": [
+        "SUB"
+      ],
+      "evidence_ids": [
+        "EVID-315EBFA3D886"
+      ],
+      "evidence_summary": "The page analyzes Jansenist conflict, changing Catholic piety, monastic decline, and movement toward Protestant toleration. The page gives a material but brief statement about bishops' opposition to intolerance; the broad temporal subheading overstates its scope.",
+      "judgment": "partially_supported",
+      "locator_id": "LOC-315EBFA3D886",
+      "path_id": "PATH-757E66C35E4B",
+      "severity": "minor",
+      "source_page_label": "54",
+      "source_scope_status": "indexable",
+      "treatment_class": "mixed"
+    },
+    {
+      "complete_heading_path": [
+        "book publication"
+      ],
+      "confidence": "high",
+      "document_page": 46,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-0368D028BE10"
+      ],
+      "evidence_summary": "The page quantifies press growth and explains book licensing, condemnation, and foreign import controls. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-0368D028BE10",
+      "path_id": "PATH-53560BAF819E",
+      "severity": "none",
+      "source_page_label": "46",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "bourgeoisie",
+        "reading"
+      ],
+      "confidence": "high",
+      "document_page": 48,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-25D1CE1E9CAE"
+      ],
+      "evidence_summary": "The page analyzes academic growth and exclusivity, the social composition of readers, and post-Jesuit educational upheaval. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-25D1CE1E9CAE",
+      "path_id": "PATH-399C5B46FE8A",
+      "severity": "none",
+      "source_page_label": "48",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "bread",
+        "riots"
+      ],
+      "confidence": "high",
+      "document_page": 58,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-86F7D571D156"
+      ],
+      "evidence_summary": "The page examines grain liberalization, crop failure, bread riots, the famine-pact charge, and a broader crisis of confidence. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-86F7D571D156",
+      "path_id": "PATH-32C45640D9AB",
+      "severity": "none",
+      "source_page_label": "58",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Brissot, Jacques-Pierre (1754-93)"
+      ],
+      "confidence": "high",
+      "document_page": 64,
+      "error_codes": [
+        "LOC_POS",
+        "SEL"
+      ],
+      "evidence_ids": [
+        "EVID-A1A1DE62B444"
+      ],
+      "evidence_summary": "The page connects the Order of Cincinnati controversy, American regeneration, scientific wonders, Mesmerism, and early freemasonry to a desire for change. The named person functions only as an attributed or illustrative voice and is not independently treated on this page.",
+      "judgment": "unsupported",
+      "locator_id": "LOC-A1A1DE62B444",
+      "path_id": "PATH-E88130753519",
+      "severity": "minor",
+      "source_page_label": "64",
+      "source_scope_status": "indexable",
+      "treatment_class": "attribution_only"
+    },
+    {
+      "complete_heading_path": [
+        "Brittany"
+      ],
+      "confidence": "medium",
+      "document_page": 61,
+      "error_codes": [
+        "HED"
+      ],
+      "evidence_ids": [
+        "EVID-2E4A7140EAE7"
+      ],
+      "evidence_summary": "The page analyzes enlightened yet unaccountable intendants and proposals for provincial representative administration. The page records clashes between Brittany's estates and intendant, but the generic place heading is broader than that narrow administrative context.",
+      "judgment": "partially_supported",
+      "locator_id": "LOC-2E4A7140EAE7",
+      "path_id": "PATH-9FBD8438AF5E",
+      "severity": "minor",
+      "source_page_label": "61",
+      "source_scope_status": "indexable",
+      "treatment_class": "mixed"
+    },
+    {
+      "complete_heading_path": [
+        "Calas, Jean (d. 1762)"
+      ],
+      "confidence": "high",
+      "document_page": 54,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-B98FBFD23F44"
+      ],
+      "evidence_summary": "The page analyzes Jansenist conflict, changing Catholic piety, monastic decline, and movement toward Protestant toleration. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-B98FBFD23F44",
+      "path_id": "PATH-9D22F2857381",
+      "severity": "none",
+      "source_page_label": "54",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Calas, Jean (d. 1762)"
+      ],
+      "confidence": "high",
+      "document_page": 55,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-0D7AB8E48A55"
+      ],
+      "evidence_summary": "The page treats the Calas and Sirven campaigns, penal cruelty, torture, public execution, and Beccaria-inspired reform. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-0D7AB8E48A55",
+      "path_id": "PATH-9D22F2857381",
+      "severity": "none",
+      "source_page_label": "55",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Calas, Jean (d. 1762)"
+      ],
+      "confidence": "high",
+      "document_page": 56,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-BA4AA97F32AA"
+      ],
+      "evidence_summary": "The page explains judicial publicity, the changing authority of public opinion, pamphlet wars, printed remonstrances, and collapsing censorship. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-BA4AA97F32AA",
+      "path_id": "PATH-9D22F2857381",
+      "severity": "none",
+      "source_page_label": "56",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Calas, Jean (d. 1762)"
+      ],
+      "confidence": "high",
+      "document_page": 59,
+      "error_codes": [
+        "LOC_POS",
+        "SEL"
+      ],
+      "evidence_ids": [
+        "EVID-29B32CD908E9"
+      ],
+      "evidence_summary": "The page analyzes late-Louis XV court scandal, Maupeou's parlement reforms, despotism, Estates-General calls, and accession hopes. The heading appears only as an isolated illustration, setting, or member of a wider subject and lacks independent substantive treatment on this page.",
+      "judgment": "unsupported",
+      "locator_id": "LOC-29B32CD908E9",
+      "path_id": "PATH-9D22F2857381",
+      "severity": "minor",
+      "source_page_label": "59",
+      "source_scope_status": "indexable",
+      "treatment_class": "incidental_example"
+    },
+    {
+      "complete_heading_path": [
+        "Catherine II, Empress of Russia (1729-96)"
+      ],
+      "confidence": "high",
+      "document_page": 44,
+      "error_codes": [
+        "LOC_POS",
+        "SEL"
+      ],
+      "evidence_ids": [
+        "EVID-3773DC26A347"
+      ],
+      "evidence_summary": "The page traces Versailles-centered French cultural prestige, the spread of French among European elites, and the first national-cultural backlash. The heading appears only as an isolated illustration, setting, or member of a wider subject and lacks independent substantive treatment on this page.",
+      "judgment": "unsupported",
+      "locator_id": "LOC-3773DC26A347",
+      "path_id": "PATH-66AE149141A5",
+      "severity": "minor",
+      "source_page_label": "44",
+      "source_scope_status": "indexable",
+      "treatment_class": "incidental_example"
+    },
+    {
+      "complete_heading_path": [
+        "Catholic Church",
+        "criticism of"
+      ],
+      "confidence": "medium",
+      "document_page": 51,
+      "error_codes": [
+        "CON"
+      ],
+      "evidence_ids": [
+        "EVID-D4BF43252273"
+      ],
+      "evidence_summary": "The page completes Montesquieu's case for balanced powers and explains the collaborative Encyclopedie project and its censorship. The page materially presents Church-philosophe conflict and persecution, but direct criticism of the Church is only implicit at this point.",
+      "judgment": "partially_supported",
+      "locator_id": "LOC-D4BF43252273",
+      "path_id": "PATH-852239A7FEEC",
+      "severity": "minor",
+      "source_page_label": "51",
+      "source_scope_status": "indexable",
+      "treatment_class": "mixed"
+    },
+    {
+      "complete_heading_path": [
+        "Catholic Church",
+        "criticism of"
+      ],
+      "confidence": "high",
+      "document_page": 52,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-388F2AC92AC0"
+      ],
+      "evidence_summary": "The page analyzes Encyclopedie reception, Diderot's radicalism, Enlightenment progress, and Rousseau's critique of it. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-388F2AC92AC0",
+      "path_id": "PATH-852239A7FEEC",
+      "severity": "none",
+      "source_page_label": "52",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Catholic Church",
+        "criticism of"
+      ],
+      "confidence": "high",
+      "document_page": 53,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-BC0920F5BCF0"
+      ],
+      "evidence_summary": "The page develops Rousseau's political and religious thought and the Church's response to philosophic irreligion. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-BC0920F5BCF0",
+      "path_id": "PATH-852239A7FEEC",
+      "severity": "none",
+      "source_page_label": "53",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Catholic Church",
+        "criticism of"
+      ],
+      "confidence": "high",
+      "document_page": 54,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-71D51774EA51"
+      ],
+      "evidence_summary": "The page analyzes Jansenist conflict, changing Catholic piety, monastic decline, and movement toward Protestant toleration. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-71D51774EA51",
+      "path_id": "PATH-852239A7FEEC",
+      "severity": "none",
+      "source_page_label": "54",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Catholicism"
+      ],
+      "confidence": "high",
+      "document_page": 49,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-5B4789767260"
+      ],
+      "evidence_summary": "The page details classical and Catholic schooling, natural science and Newtonian methods, and Enlightenment rational criticism. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-5B4789767260",
+      "path_id": "PATH-BC864D68B409",
+      "severity": "none",
+      "source_page_label": "49",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "censorship"
+      ],
+      "confidence": "high",
+      "document_page": 45,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-E616DC6F2F4B"
+      ],
+      "evidence_summary": "The page explains the expanding periodical press, censorship limits, oppositional journalism, and publication beyond French jurisdiction. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-E616DC6F2F4B",
+      "path_id": "PATH-B48C24D9A42B",
+      "severity": "none",
+      "source_page_label": "45",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "censorship"
+      ],
+      "confidence": "high",
+      "document_page": 46,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-53EF4348E868"
+      ],
+      "evidence_summary": "The page quantifies press growth and explains book licensing, condemnation, and foreign import controls. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-53EF4348E868",
+      "path_id": "PATH-B48C24D9A42B",
+      "severity": "none",
+      "source_page_label": "46",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "censorship"
+      ],
+      "confidence": "high",
+      "document_page": 56,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-75182DE0798E"
+      ],
+      "evidence_summary": "The page explains judicial publicity, the changing authority of public opinion, pamphlet wars, printed remonstrances, and collapsing censorship. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-75182DE0798E",
+      "path_id": "PATH-B48C24D9A42B",
+      "severity": "none",
+      "source_page_label": "56",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "clergy",
+        "reading"
+      ],
+      "confidence": "high",
+      "document_page": 48,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-48B78E749E06"
+      ],
+      "evidence_summary": "The page analyzes academic growth and exclusivity, the social composition of readers, and post-Jesuit educational upheaval. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-48B78E749E06",
+      "path_id": "PATH-87824B45DD36",
+      "severity": "none",
+      "source_page_label": "48",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Cleves"
+      ],
+      "confidence": "high",
+      "document_page": 45,
+      "error_codes": [
+        "LOC_POS",
+        "SEL"
+      ],
+      "evidence_ids": [
+        "EVID-99E521EFDAB0"
+      ],
+      "evidence_summary": "The page explains the expanding periodical press, censorship limits, oppositional journalism, and publication beyond French jurisdiction. The heading appears only as an isolated illustration, setting, or member of a wider subject and lacks independent substantive treatment on this page.",
+      "judgment": "unsupported",
+      "locator_id": "LOC-99E521EFDAB0",
+      "path_id": "PATH-4B370C127043",
+      "severity": "minor",
+      "source_page_label": "45",
+      "source_scope_status": "indexable",
+      "treatment_class": "incidental_example"
+    },
+    {
+      "complete_heading_path": [
+        "colonies"
+      ],
+      "confidence": "high",
+      "document_page": 63,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-49A402C6C577"
+      ],
+      "evidence_summary": "The page explains French intervention in America and the transmission and resonance of American liberty through Raynal, Adams, documents, and Franklin. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-49A402C6C577",
+      "path_id": "PATH-0EFFD2119095",
+      "severity": "none",
+      "source_page_label": "63",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "convents"
+      ],
+      "confidence": "high",
+      "document_page": 54,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-7E628A9B0BB3"
+      ],
+      "evidence_summary": "The page analyzes Jansenist conflict, changing Catholic piety, monastic decline, and movement toward Protestant toleration. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-7E628A9B0BB3",
+      "path_id": "PATH-A8E5811B35A3",
+      "severity": "none",
+      "source_page_label": "54",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Corsica"
+      ],
+      "confidence": "high",
+      "document_page": 58,
+      "error_codes": [
+        "LOC_POS",
+        "SEL"
+      ],
+      "evidence_ids": [
+        "EVID-8CD598646C35"
+      ],
+      "evidence_summary": "The page examines grain liberalization, crop failure, bread riots, the famine-pact charge, and a broader crisis of confidence. The heading appears only as an isolated illustration, setting, or member of a wider subject and lacks independent substantive treatment on this page.",
+      "judgment": "unsupported",
+      "locator_id": "LOC-8CD598646C35",
+      "path_id": "PATH-6D9691ADA287",
+      "severity": "minor",
+      "source_page_label": "58",
+      "source_scope_status": "indexable",
+      "treatment_class": "incidental_example"
+    },
+    {
+      "complete_heading_path": [
+        "Crevecoeur, Saint John de (1735-1812)"
+      ],
+      "confidence": "high",
+      "document_page": 64,
+      "error_codes": [
+        "LOC_POS",
+        "SEL"
+      ],
+      "evidence_ids": [
+        "EVID-4ACA70E4E669"
+      ],
+      "evidence_summary": "The page connects the Order of Cincinnati controversy, American regeneration, scientific wonders, Mesmerism, and early freemasonry to a desire for change. The named person functions only as an attributed or illustrative voice and is not independently treated on this page.",
+      "judgment": "unsupported",
+      "locator_id": "LOC-4ACA70E4E669",
+      "path_id": "PATH-5B9B09B294D4",
+      "severity": "minor",
+      "source_page_label": "64",
+      "source_scope_status": "indexable",
+      "treatment_class": "attribution_only"
+    },
+    {
+      "complete_heading_path": [
+        "criminal law"
+      ],
+      "confidence": "high",
+      "document_page": 55,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-3864CF64750B"
+      ],
+      "evidence_summary": "The page treats the Calas and Sirven campaigns, penal cruelty, torture, public execution, and Beccaria-inspired reform. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-3864CF64750B",
+      "path_id": "PATH-4F5ED8073088",
+      "severity": "none",
+      "source_page_label": "55",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Damiens, Robert François (1714-57)"
+      ],
+      "confidence": "high",
+      "document_page": 55,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-761529C3010D"
+      ],
+      "evidence_summary": "The page treats the Calas and Sirven campaigns, penal cruelty, torture, public execution, and Beccaria-inspired reform. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-761529C3010D",
+      "path_id": "PATH-FC0F3278E6C7",
+      "severity": "none",
+      "source_page_label": "55",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Declaration of Independence"
+      ],
+      "confidence": "high",
+      "document_page": 63,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-FED86DD10306"
+      ],
+      "evidence_summary": "The page explains French intervention in America and the transmission and resonance of American liberty through Raynal, Adams, documents, and Franklin. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-FED86DD10306",
+      "path_id": "PATH-2AD68725FC94",
+      "severity": "none",
+      "source_page_label": "63",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "despotism"
+      ],
+      "confidence": "high",
+      "document_page": 51,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-98D4AC2348C4"
+      ],
+      "evidence_summary": "The page completes Montesquieu's case for balanced powers and explains the collaborative Encyclopedie project and its censorship. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-98D4AC2348C4",
+      "path_id": "PATH-CE8BE3440B19",
+      "severity": "none",
+      "source_page_label": "51",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "despotism"
+      ],
+      "confidence": "high",
+      "document_page": 57,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-374A44D74BE6"
+      ],
+      "evidence_summary": "The page links the Seven Years War to public inquest and explains Quesnay and Physiocratic economic reform. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-374A44D74BE6",
+      "path_id": "PATH-CE8BE3440B19",
+      "severity": "none",
+      "source_page_label": "57",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "despotism"
+      ],
+      "confidence": "high",
+      "document_page": 59,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-B9AA1646757B"
+      ],
+      "evidence_summary": "The page analyzes late-Louis XV court scandal, Maupeou's parlement reforms, despotism, Estates-General calls, and accession hopes. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-B9AA1646757B",
+      "path_id": "PATH-CE8BE3440B19",
+      "severity": "none",
+      "source_page_label": "59",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "despotism"
+      ],
+      "confidence": "high",
+      "document_page": 60,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-23578C7AB710"
+      ],
+      "evidence_summary": "The page treats royal sexual satire, the Diamond Necklace affair, restored parlements, and the opening analysis of intendants. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-23578C7AB710",
+      "path_id": "PATH-CE8BE3440B19",
+      "severity": "none",
+      "source_page_label": "60",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "despotism"
+      ],
+      "confidence": "high",
+      "document_page": 63,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-AD291139160C"
+      ],
+      "evidence_summary": "The page explains French intervention in America and the transmission and resonance of American liberty through Raynal, Adams, documents, and Franklin. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-AD291139160C",
+      "path_id": "PATH-CE8BE3440B19",
+      "severity": "none",
+      "source_page_label": "63",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Diderot, Denis (1713-84)"
+      ],
+      "confidence": "high",
+      "document_page": 51,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-C1455299E46E"
+      ],
+      "evidence_summary": "The page completes Montesquieu's case for balanced powers and explains the collaborative Encyclopedie project and its censorship. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-C1455299E46E",
+      "path_id": "PATH-36307D4C9900",
+      "severity": "none",
+      "source_page_label": "51",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Diderot, Denis (1713-84)"
+      ],
+      "confidence": "high",
+      "document_page": 52,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-2E0DE1B813FF"
+      ],
+      "evidence_summary": "The page analyzes Encyclopedie reception, Diderot's radicalism, Enlightenment progress, and Rousseau's critique of it. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-2E0DE1B813FF",
+      "path_id": "PATH-36307D4C9900",
+      "severity": "none",
+      "source_page_label": "52",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Diderot, Denis (1713-84)"
+      ],
+      "confidence": "high",
+      "document_page": 59,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-0B5AE6EEE5A4"
+      ],
+      "evidence_summary": "The page analyzes late-Louis XV court scandal, Maupeou's parlement reforms, despotism, Estates-General calls, and accession hopes. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-0B5AE6EEE5A4",
+      "path_id": "PATH-36307D4C9900",
+      "severity": "none",
+      "source_page_label": "59",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Du Barry, Jeanne Bécu, Countess (1743-94)"
+      ],
+      "confidence": "high",
+      "document_page": 59,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-410B96ABBE5B"
+      ],
+      "evidence_summary": "The page analyzes late-Louis XV court scandal, Maupeou's parlement reforms, despotism, Estates-General calls, and accession hopes. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-410B96ABBE5B",
+      "path_id": "PATH-FF015EE5C838",
+      "severity": "none",
+      "source_page_label": "59",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Dupont de Nemours, Pierre Samuel (1739-1817)"
+      ],
+      "confidence": "high",
+      "document_page": 57,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-3E65BA828FB0"
+      ],
+      "evidence_summary": "The page links the Seven Years War to public inquest and explains Quesnay and Physiocratic economic reform. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-3E65BA828FB0",
+      "path_id": "PATH-CC508A591322",
+      "severity": "none",
+      "source_page_label": "57",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Dupont de Nemours, Pierre Samuel (1739-1817)"
+      ],
+      "confidence": "high",
+      "document_page": 61,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-147776FF25E8"
+      ],
+      "evidence_summary": "The page analyzes enlightened yet unaccountable intendants and proposals for provincial representative administration. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-147776FF25E8",
+      "path_id": "PATH-CC508A591322",
+      "severity": "none",
+      "source_page_label": "61",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Dutch Republic"
+      ],
+      "confidence": "medium",
+      "document_page": 45,
+      "error_codes": [
+        "HED"
+      ],
+      "evidence_ids": [
+        "EVID-FF3C3B919914"
+      ],
+      "evidence_summary": "The page explains the expanding periodical press, censorship limits, oppositional journalism, and publication beyond French jurisdiction. The Dutch setting materially enables cross-border French-language journalism, but the generic country heading is broader than the specific press treatment.",
+      "judgment": "partially_supported",
+      "locator_id": "LOC-FF3C3B919914",
+      "path_id": "PATH-E5BB43AFD121",
+      "severity": "minor",
+      "source_page_label": "45",
+      "source_scope_status": "indexable",
+      "treatment_class": "mixed"
+    },
+    {
+      "complete_heading_path": [
+        "Economists"
+      ],
+      "confidence": "high",
+      "document_page": 57,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-920F8D6FA328"
+      ],
+      "evidence_summary": "The page links the Seven Years War to public inquest and explains Quesnay and Physiocratic economic reform. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-920F8D6FA328",
+      "path_id": "PATH-2600FC06B5E9",
+      "severity": "none",
+      "source_page_label": "57",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "economy",
+        "reform of"
+      ],
+      "confidence": "high",
+      "document_page": 62,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-BEC85B4B19BE"
+      ],
+      "evidence_summary": "The page develops Necker's rise, reforms, public-opinion strategy, resignation, and published defense of his record. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-BEC85B4B19BE",
+      "path_id": "PATH-1029EC203552",
+      "severity": "none",
+      "source_page_label": "62",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Edict of Nantes (1685)"
+      ],
+      "confidence": "high",
+      "document_page": 54,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-6D736E82541A"
+      ],
+      "evidence_summary": "The page analyzes Jansenist conflict, changing Catholic piety, monastic decline, and movement toward Protestant toleration. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-6D736E82541A",
+      "path_id": "PATH-4CFEE0508879",
+      "severity": "none",
+      "source_page_label": "54",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "education"
+      ],
+      "confidence": "high",
+      "document_page": 48,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-9F0A46A69828"
+      ],
+      "evidence_summary": "The page analyzes academic growth and exclusivity, the social composition of readers, and post-Jesuit educational upheaval. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-9F0A46A69828",
+      "path_id": "PATH-966AC8EAE02E",
+      "severity": "none",
+      "source_page_label": "48",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "education"
+      ],
+      "confidence": "high",
+      "document_page": 49,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-4957E01A6959"
+      ],
+      "evidence_summary": "The page details classical and Catholic schooling, natural science and Newtonian methods, and Enlightenment rational criticism. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-4957E01A6959",
+      "path_id": "PATH-966AC8EAE02E",
+      "severity": "none",
+      "source_page_label": "49",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Encyclopédie"
+      ],
+      "confidence": "high",
+      "document_page": 48,
+      "error_codes": [
+        "LOC_POS",
+        "SEL"
+      ],
+      "evidence_ids": [
+        "EVID-AC146AFDE445"
+      ],
+      "evidence_summary": "The page analyzes academic growth and exclusivity, the social composition of readers, and post-Jesuit educational upheaval. The heading appears only as an isolated illustration, setting, or member of a wider subject and lacks independent substantive treatment on this page.",
+      "judgment": "unsupported",
+      "locator_id": "LOC-AC146AFDE445",
+      "path_id": "PATH-7AB23AB81734",
+      "severity": "minor",
+      "source_page_label": "48",
+      "source_scope_status": "indexable",
+      "treatment_class": "incidental_example"
+    },
+    {
+      "complete_heading_path": [
+        "Encyclopédie"
+      ],
+      "confidence": "high",
+      "document_page": 51,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-3216AADD1F19"
+      ],
+      "evidence_summary": "The page completes Montesquieu's case for balanced powers and explains the collaborative Encyclopedie project and its censorship. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-3216AADD1F19",
+      "path_id": "PATH-7AB23AB81734",
+      "severity": "none",
+      "source_page_label": "51",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Encyclopédie"
+      ],
+      "confidence": "high",
+      "document_page": 52,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-377F0287ADAE"
+      ],
+      "evidence_summary": "The page analyzes Encyclopedie reception, Diderot's radicalism, Enlightenment progress, and Rousseau's critique of it. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-377F0287ADAE",
+      "path_id": "PATH-7AB23AB81734",
+      "severity": "none",
+      "source_page_label": "52",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Encyclopédie"
+      ],
+      "confidence": "high",
+      "document_page": 56,
+      "error_codes": [
+        "LOC_POS",
+        "SEL"
+      ],
+      "evidence_ids": [
+        "EVID-0951F366DED3"
+      ],
+      "evidence_summary": "The page explains judicial publicity, the changing authority of public opinion, pamphlet wars, printed remonstrances, and collapsing censorship. The heading appears only as an isolated illustration, setting, or member of a wider subject and lacks independent substantive treatment on this page.",
+      "judgment": "unsupported",
+      "locator_id": "LOC-0951F366DED3",
+      "path_id": "PATH-7AB23AB81734",
+      "severity": "minor",
+      "source_page_label": "56",
+      "source_scope_status": "indexable",
+      "treatment_class": "incidental_example"
+    },
+    {
+      "complete_heading_path": [
+        "Encyclopédie"
+      ],
+      "confidence": "high",
+      "document_page": 57,
+      "error_codes": [
+        "LOC_POS",
+        "SEL"
+      ],
+      "evidence_ids": [
+        "EVID-BCA0F94C3309"
+      ],
+      "evidence_summary": "The page links the Seven Years War to public inquest and explains Quesnay and Physiocratic economic reform. The heading appears only as an isolated illustration, setting, or member of a wider subject and lacks independent substantive treatment on this page.",
+      "judgment": "unsupported",
+      "locator_id": "LOC-BCA0F94C3309",
+      "path_id": "PATH-7AB23AB81734",
+      "severity": "minor",
+      "source_page_label": "57",
+      "source_scope_status": "indexable",
+      "treatment_class": "incidental_example"
+    },
+    {
+      "complete_heading_path": [
+        "Enlightenment"
+      ],
+      "confidence": "high",
+      "document_page": 49,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-75CD5E42CBEF"
+      ],
+      "evidence_summary": "The page details classical and Catholic schooling, natural science and Newtonian methods, and Enlightenment rational criticism. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-75CD5E42CBEF",
+      "path_id": "PATH-534C000D4104",
+      "severity": "none",
+      "source_page_label": "49",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Enlightenment"
+      ],
+      "confidence": "high",
+      "document_page": 50,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-5B335B4ACFB4"
+      ],
+      "evidence_summary": "The page develops Voltaire's English influences and campaigns and introduces Montesquieu's comparative political thought. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-5B335B4ACFB4",
+      "path_id": "PATH-534C000D4104",
+      "severity": "none",
+      "source_page_label": "50",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Enlightenment"
+      ],
+      "confidence": "high",
+      "document_page": 52,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-5AED077F0BFB"
+      ],
+      "evidence_summary": "The page analyzes Encyclopedie reception, Diderot's radicalism, Enlightenment progress, and Rousseau's critique of it. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-5AED077F0BFB",
+      "path_id": "PATH-534C000D4104",
+      "severity": "none",
+      "source_page_label": "52",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "essay competitions"
+      ],
+      "confidence": "high",
+      "document_page": 47,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-DDBFCC237895"
+      ],
+      "evidence_summary": "The page examines print affordability, shared reading institutions, literary societies, and the rise of provincial academies. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-DDBFCC237895",
+      "path_id": "PATH-4ABA1882572A",
+      "severity": "none",
+      "source_page_label": "47",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "essay competitions"
+      ],
+      "confidence": "high",
+      "document_page": 48,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-D7963D3362AC"
+      ],
+      "evidence_summary": "The page analyzes academic growth and exclusivity, the social composition of readers, and post-Jesuit educational upheaval. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-D7963D3362AC",
+      "path_id": "PATH-4ABA1882572A",
+      "severity": "none",
+      "source_page_label": "48",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "essay competitions"
+      ],
+      "confidence": "high",
+      "document_page": 52,
+      "error_codes": [
+        "LOC_POS",
+        "SEL"
+      ],
+      "evidence_ids": [
+        "EVID-5242FC932E5B"
+      ],
+      "evidence_summary": "The page analyzes Encyclopedie reception, Diderot's radicalism, Enlightenment progress, and Rousseau's critique of it. The heading appears only as an isolated illustration, setting, or member of a wider subject and lacks independent substantive treatment on this page.",
+      "judgment": "unsupported",
+      "locator_id": "LOC-5242FC932E5B",
+      "path_id": "PATH-4ABA1882572A",
+      "severity": "minor",
+      "source_page_label": "52",
+      "source_scope_status": "indexable",
+      "treatment_class": "incidental_example"
+    },
+    {
+      "complete_heading_path": [
+        "Estates-General",
+        "calls for"
+      ],
+      "confidence": "high",
+      "document_page": 59,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-A7EFB1DD64A2"
+      ],
+      "evidence_summary": "The page analyzes late-Louis XV court scandal, Maupeou's parlement reforms, despotism, Estates-General calls, and accession hopes. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-A7EFB1DD64A2",
+      "path_id": "PATH-8D0E49285790",
+      "severity": "none",
+      "source_page_label": "59",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "famine pact"
+      ],
+      "confidence": "high",
+      "document_page": 58,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-24C85F3BD638"
+      ],
+      "evidence_summary": "The page examines grain liberalization, crop failure, bread riots, the famine-pact charge, and a broader crisis of confidence. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-24C85F3BD638",
+      "path_id": "PATH-47F8CC76387E",
+      "severity": "none",
+      "source_page_label": "58",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "famine pact"
+      ],
+      "confidence": "high",
+      "document_page": 59,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-A2AECBBDD056"
+      ],
+      "evidence_summary": "The page analyzes late-Louis XV court scandal, Maupeou's parlement reforms, despotism, Estates-General calls, and accession hopes. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-A2AECBBDD056",
+      "path_id": "PATH-47F8CC76387E",
+      "severity": "none",
+      "source_page_label": "59",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "'Flour War' of 1775"
+      ],
+      "confidence": "high",
+      "document_page": 62,
+      "error_codes": [
+        "LOC_POS",
+        "SEL"
+      ],
+      "evidence_ids": [
+        "EVID-C9C2E28A4E8B"
+      ],
+      "evidence_summary": "The page develops Necker's rise, reforms, public-opinion strategy, resignation, and published defense of his record. The heading appears only as an isolated illustration, setting, or member of a wider subject and lacks independent substantive treatment on this page.",
+      "judgment": "unsupported",
+      "locator_id": "LOC-C9C2E28A4E8B",
+      "path_id": "PATH-12F0C77D7159",
+      "severity": "minor",
+      "source_page_label": "62",
+      "source_scope_status": "indexable",
+      "treatment_class": "incidental_example"
+    },
+    {
+      "complete_heading_path": [
+        "Franklin, Benjamin (1706-90)"
+      ],
+      "confidence": "high",
+      "document_page": 63,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-110FD99677AC"
+      ],
+      "evidence_summary": "The page explains French intervention in America and the transmission and resonance of American liberty through Raynal, Adams, documents, and Franklin. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-110FD99677AC",
+      "path_id": "PATH-74AD42E5EFD6",
+      "severity": "none",
+      "source_page_label": "63",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Franklin, Benjamin (1706-90)"
+      ],
+      "confidence": "high",
+      "document_page": 64,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-6898B198FB31"
+      ],
+      "evidence_summary": "The page connects the Order of Cincinnati controversy, American regeneration, scientific wonders, Mesmerism, and early freemasonry to a desire for change. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-6898B198FB31",
+      "path_id": "PATH-74AD42E5EFD6",
+      "severity": "none",
+      "source_page_label": "64",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Franklin, Benjamin (1706-90)"
+      ],
+      "confidence": "high",
+      "document_page": 65,
+      "error_codes": [
+        "LOC_POS",
+        "SEL"
+      ],
+      "evidence_ids": [
+        "EVID-218BBA5FE761"
+      ],
+      "evidence_summary": "The page analyzes masonic hierarchy, equality, philanthropy, conspiracy fears, and the limits of pre-revolutionary credulity. The heading appears only as an isolated illustration, setting, or member of a wider subject and lacks independent substantive treatment on this page.",
+      "judgment": "unsupported",
+      "locator_id": "LOC-218BBA5FE761",
+      "path_id": "PATH-74AD42E5EFD6",
+      "severity": "minor",
+      "source_page_label": "65",
+      "source_scope_status": "indexable",
+      "treatment_class": "incidental_example"
+    },
+    {
+      "complete_heading_path": [
+        "free trade"
+      ],
+      "confidence": "high",
+      "document_page": 57,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-2B325465F38F"
+      ],
+      "evidence_summary": "The page links the Seven Years War to public inquest and explains Quesnay and Physiocratic economic reform. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-2B325465F38F",
+      "path_id": "PATH-C2C53BEFDBDE",
+      "severity": "none",
+      "source_page_label": "57",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "free trade"
+      ],
+      "confidence": "high",
+      "document_page": 58,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-56A9234A2400"
+      ],
+      "evidence_summary": "The page examines grain liberalization, crop failure, bread riots, the famine-pact charge, and a broader crisis of confidence. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-56A9234A2400",
+      "path_id": "PATH-C2C53BEFDBDE",
+      "severity": "none",
+      "source_page_label": "58",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Freemasonry"
+      ],
+      "confidence": "high",
+      "document_page": 64,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-A76C26F2C270"
+      ],
+      "evidence_summary": "The page connects the Order of Cincinnati controversy, American regeneration, scientific wonders, Mesmerism, and early freemasonry to a desire for change. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-A76C26F2C270",
+      "path_id": "PATH-284EEEDF8A09",
+      "severity": "none",
+      "source_page_label": "64",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Freemasonry"
+      ],
+      "confidence": "high",
+      "document_page": 65,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-C023CF2D3B87"
+      ],
+      "evidence_summary": "The page analyzes masonic hierarchy, equality, philanthropy, conspiracy fears, and the limits of pre-revolutionary credulity. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-C023CF2D3B87",
+      "path_id": "PATH-284EEEDF8A09",
+      "severity": "none",
+      "source_page_label": "65",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "French language"
+      ],
+      "confidence": "high",
+      "document_page": 44,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-B1821360A5A8"
+      ],
+      "evidence_summary": "The page traces Versailles-centered French cultural prestige, the spread of French among European elites, and the first national-cultural backlash. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-B1821360A5A8",
+      "path_id": "PATH-3C390B87FCD3",
+      "severity": "none",
+      "source_page_label": "44",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "grain",
+        "trade"
+      ],
+      "confidence": "high",
+      "document_page": 58,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-EE5639336039"
+      ],
+      "evidence_summary": "The page examines grain liberalization, crop failure, bread riots, the famine-pact charge, and a broader crisis of confidence. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-EE5639336039",
+      "path_id": "PATH-D72DF66BCE2F",
+      "severity": "none",
+      "source_page_label": "58",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "harvest failures",
+        "free internal market"
+      ],
+      "confidence": "high",
+      "document_page": 58,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-658271F1B8D7"
+      ],
+      "evidence_summary": "The page examines grain liberalization, crop failure, bread riots, the famine-pact charge, and a broader crisis of confidence. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-658271F1B8D7",
+      "path_id": "PATH-DCB4B9AD5F2D",
+      "severity": "none",
+      "source_page_label": "58",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Herder, Johann-Gottfried (1744-1803)"
+      ],
+      "confidence": "high",
+      "document_page": 44,
+      "error_codes": [
+        "LOC_POS",
+        "SEL"
+      ],
+      "evidence_ids": [
+        "EVID-A96A09943513"
+      ],
+      "evidence_summary": "The page traces Versailles-centered French cultural prestige, the spread of French among European elites, and the first national-cultural backlash. The named person functions only as an attributed or illustrative voice and is not independently treated on this page.",
+      "judgment": "unsupported",
+      "locator_id": "LOC-A96A09943513",
+      "path_id": "PATH-1CC1EE4E4B23",
+      "severity": "minor",
+      "source_page_label": "44",
+      "source_scope_status": "indexable",
+      "treatment_class": "attribution_only"
+    },
+    {
+      "complete_heading_path": [
+        "hot-air balloons"
+      ],
+      "confidence": "high",
+      "document_page": 64,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-4BE45B4C290D"
+      ],
+      "evidence_summary": "The page connects the Order of Cincinnati controversy, American regeneration, scientific wonders, Mesmerism, and early freemasonry to a desire for change. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-4BE45B4C290D",
+      "path_id": "PATH-BB8328CC5CCF",
+      "severity": "none",
+      "source_page_label": "64",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Huguenot refugees"
+      ],
+      "confidence": "high",
+      "document_page": 45,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-0BA38FEF895B"
+      ],
+      "evidence_summary": "The page explains the expanding periodical press, censorship limits, oppositional journalism, and publication beyond French jurisdiction. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-0BA38FEF895B",
+      "path_id": "PATH-8BC80301CBEA",
+      "severity": "none",
+      "source_page_label": "45",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "humanism"
+      ],
+      "confidence": "high",
+      "document_page": 49,
+      "error_codes": [
+        "LOC_POS",
+        "CON"
+      ],
+      "evidence_ids": [
+        "EVID-E765B65A49DE"
+      ],
+      "evidence_summary": "The page details classical and Catholic schooling, natural science and Newtonian methods, and Enlightenment rational criticism. The wording concerns humanity and practical usefulness, not humanism as the indexed concept.",
+      "judgment": "unsupported",
+      "locator_id": "LOC-E765B65A49DE",
+      "path_id": "PATH-E1C9B66A8FA3",
+      "severity": "minor",
+      "source_page_label": "49",
+      "source_scope_status": "indexable",
+      "treatment_class": "absent"
+    },
+    {
+      "complete_heading_path": [
+        "imports of books"
+      ],
+      "confidence": "high",
+      "document_page": 46,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-226B04C4A0B7"
+      ],
+      "evidence_summary": "The page quantifies press growth and explains book licensing, condemnation, and foreign import controls. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-226B04C4A0B7",
+      "path_id": "PATH-03C1C9CB91F7",
+      "severity": "none",
+      "source_page_label": "46",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "imports of books"
+      ],
+      "confidence": "high",
+      "document_page": 47,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-6B580CFFCEF2"
+      ],
+      "evidence_summary": "The page examines print affordability, shared reading institutions, literary societies, and the rise of provincial academies. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-6B580CFFCEF2",
+      "path_id": "PATH-03C1C9CB91F7",
+      "severity": "none",
+      "source_page_label": "47",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "intendants"
+      ],
+      "confidence": "high",
+      "document_page": 60,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-C915DAD1CEBF"
+      ],
+      "evidence_summary": "The page treats royal sexual satire, the Diamond Necklace affair, restored parlements, and the opening analysis of intendants. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-C915DAD1CEBF",
+      "path_id": "PATH-30E850E1F5C7",
+      "severity": "none",
+      "source_page_label": "60",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "intendants"
+      ],
+      "confidence": "high",
+      "document_page": 61,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-C2F6E99823BF"
+      ],
+      "evidence_summary": "The page analyzes enlightened yet unaccountable intendants and proposals for provincial representative administration. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-C2F6E99823BF",
+      "path_id": "PATH-30E850E1F5C7",
+      "severity": "none",
+      "source_page_label": "61",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Jansenism"
+      ],
+      "confidence": "high",
+      "document_page": 53,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-D78E1CB4A1E8"
+      ],
+      "evidence_summary": "The page develops Rousseau's political and religious thought and the Church's response to philosophic irreligion. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-D78E1CB4A1E8",
+      "path_id": "PATH-6912A2C95082",
+      "severity": "none",
+      "source_page_label": "53",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Jansenism"
+      ],
+      "confidence": "high",
+      "document_page": 54,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-DD20ED6197EC"
+      ],
+      "evidence_summary": "The page analyzes Jansenist conflict, changing Catholic piety, monastic decline, and movement toward Protestant toleration. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-DD20ED6197EC",
+      "path_id": "PATH-6912A2C95082",
+      "severity": "none",
+      "source_page_label": "54",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Jansenism"
+      ],
+      "confidence": "high",
+      "document_page": 56,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-245612D1EF1C"
+      ],
+      "evidence_summary": "The page explains judicial publicity, the changing authority of public opinion, pamphlet wars, printed remonstrances, and collapsing censorship. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-245612D1EF1C",
+      "path_id": "PATH-6912A2C95082",
+      "severity": "none",
+      "source_page_label": "56",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Jesuits"
+      ],
+      "confidence": "high",
+      "document_page": 48,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-8B5F5921407E"
+      ],
+      "evidence_summary": "The page analyzes academic growth and exclusivity, the social composition of readers, and post-Jesuit educational upheaval. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-8B5F5921407E",
+      "path_id": "PATH-AB9A0D45745E",
+      "severity": "none",
+      "source_page_label": "48",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Jesuits"
+      ],
+      "confidence": "high",
+      "document_page": 54,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-61DD62DC4E80"
+      ],
+      "evidence_summary": "The page analyzes Jansenist conflict, changing Catholic piety, monastic decline, and movement toward Protestant toleration. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-61DD62DC4E80",
+      "path_id": "PATH-AB9A0D45745E",
+      "severity": "none",
+      "source_page_label": "54",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Jesuits"
+      ],
+      "confidence": "high",
+      "document_page": 56,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-7F639AE76CA6"
+      ],
+      "evidence_summary": "The page explains judicial publicity, the changing authority of public opinion, pamphlet wars, printed remonstrances, and collapsing censorship. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-7F639AE76CA6",
+      "path_id": "PATH-AB9A0D45745E",
+      "severity": "none",
+      "source_page_label": "56",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Joseph II, Emperor of Austria (1741-99)"
+      ],
+      "confidence": "high",
+      "document_page": 60,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-616C2BB48B25"
+      ],
+      "evidence_summary": "The page treats royal sexual satire, the Diamond Necklace affair, restored parlements, and the opening analysis of intendants. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-616C2BB48B25",
+      "path_id": "PATH-82A8FB36E55A",
+      "severity": "none",
+      "source_page_label": "60",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "journal subscription"
+      ],
+      "confidence": "high",
+      "document_page": 47,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-C7BDD10BCEBA"
+      ],
+      "evidence_summary": "The page examines print affordability, shared reading institutions, literary societies, and the rise of provincial academies. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-C7BDD10BCEBA",
+      "path_id": "PATH-5C9ECEE531C4",
+      "severity": "none",
+      "source_page_label": "47",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "journalism"
+      ],
+      "confidence": "high",
+      "document_page": 45,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-D4214FBCDBA9"
+      ],
+      "evidence_summary": "The page explains the expanding periodical press, censorship limits, oppositional journalism, and publication beyond French jurisdiction. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-D4214FBCDBA9",
+      "path_id": "PATH-98113ED43C16",
+      "severity": "none",
+      "source_page_label": "45",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "journalism"
+      ],
+      "confidence": "high",
+      "document_page": 46,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-6B14A4C65016"
+      ],
+      "evidence_summary": "The page quantifies press growth and explains book licensing, condemnation, and foreign import controls. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-6B14A4C65016",
+      "path_id": "PATH-98113ED43C16",
+      "severity": "none",
+      "source_page_label": "46",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "journalism"
+      ],
+      "confidence": "high",
+      "document_page": 54,
+      "error_codes": [
+        "LOC_POS"
+      ],
+      "evidence_ids": [
+        "EVID-B0C52F6288F0"
+      ],
+      "evidence_summary": "The page analyzes Jansenist conflict, changing Catholic piety, monastic decline, and movement toward Protestant toleration. The complete heading path is not materially present on the mapped page.",
+      "judgment": "unsupported",
+      "locator_id": "LOC-B0C52F6288F0",
+      "path_id": "PATH-98113ED43C16",
+      "severity": "minor",
+      "source_page_label": "54",
+      "source_scope_status": "indexable",
+      "treatment_class": "absent"
+    },
+    {
+      "complete_heading_path": [
+        "judiciary"
+      ],
+      "confidence": "high",
+      "document_page": 55,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-98B1FA942366"
+      ],
+      "evidence_summary": "The page treats the Calas and Sirven campaigns, penal cruelty, torture, public execution, and Beccaria-inspired reform. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-98B1FA942366",
+      "path_id": "PATH-B73A0B404A97",
+      "severity": "none",
+      "source_page_label": "55",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "judiciary"
+      ],
+      "confidence": "high",
+      "document_page": 56,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-92A224970511"
+      ],
+      "evidence_summary": "The page explains judicial publicity, the changing authority of public opinion, pamphlet wars, printed remonstrances, and collapsing censorship. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-92A224970511",
+      "path_id": "PATH-B73A0B404A97",
+      "severity": "none",
+      "source_page_label": "56",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "La Barre, Jean François, Chevalier de (1747-66)"
+      ],
+      "confidence": "high",
+      "document_page": 55,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-BC73487DCA23"
+      ],
+      "evidence_summary": "The page treats the Calas and Sirven campaigns, penal cruelty, torture, public execution, and Beccaria-inspired reform. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-BC73487DCA23",
+      "path_id": "PATH-40EC13A8CB1B",
+      "severity": "none",
+      "source_page_label": "55",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "La Barre, Jean François, Chevalier de (1747-66)"
+      ],
+      "confidence": "high",
+      "document_page": 59,
+      "error_codes": [
+        "LOC_POS",
+        "SEL"
+      ],
+      "evidence_ids": [
+        "EVID-621F0C15C2CC"
+      ],
+      "evidence_summary": "The page analyzes late-Louis XV court scandal, Maupeou's parlement reforms, despotism, Estates-General calls, and accession hopes. The heading appears only as an isolated illustration, setting, or member of a wider subject and lacks independent substantive treatment on this page.",
+      "judgment": "unsupported",
+      "locator_id": "LOC-621F0C15C2CC",
+      "path_id": "PATH-40EC13A8CB1B",
+      "severity": "minor",
+      "source_page_label": "59",
+      "source_scope_status": "indexable",
+      "treatment_class": "incidental_example"
+    },
+    {
+      "complete_heading_path": [
+        "Lafayette, Marie-Joseph Paul Yves Roche Gilbert du Motier, Marquis de (1757–1834)"
+      ],
+      "confidence": "high",
+      "document_page": 64,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-B9E45C63C30E"
+      ],
+      "evidence_summary": "The page connects the Order of Cincinnati controversy, American regeneration, scientific wonders, Mesmerism, and early freemasonry to a desire for change. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-B9E45C63C30E",
+      "path_id": "PATH-D7CE643AC3CC",
+      "severity": "none",
+      "source_page_label": "64",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "landowners"
+      ],
+      "confidence": "high",
+      "document_page": 61,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-326C026EBD5F"
+      ],
+      "evidence_summary": "The page analyzes enlightened yet unaccountable intendants and proposals for provincial representative administration. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-326C026EBD5F",
+      "path_id": "PATH-32ADF0789EB4",
+      "severity": "none",
+      "source_page_label": "61",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Languedoc"
+      ],
+      "confidence": "high",
+      "document_page": 54,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-1FDFABE6D7EC"
+      ],
+      "evidence_summary": "The page analyzes Jansenist conflict, changing Catholic piety, monastic decline, and movement toward Protestant toleration. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-1FDFABE6D7EC",
+      "path_id": "PATH-7C0293B2BD4C",
+      "severity": "none",
+      "source_page_label": "54",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Languedoc"
+      ],
+      "confidence": "high",
+      "document_page": 55,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-33BE4AF2E435"
+      ],
+      "evidence_summary": "The page treats the Calas and Sirven campaigns, penal cruelty, torture, public execution, and Beccaria-inspired reform. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-33BE4AF2E435",
+      "path_id": "PATH-7C0293B2BD4C",
+      "severity": "none",
+      "source_page_label": "55",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Latin classical education"
+      ],
+      "confidence": "high",
+      "document_page": 49,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-A53D6BD32BEB"
+      ],
+      "evidence_summary": "The page details classical and Catholic schooling, natural science and Newtonian methods, and Enlightenment rational criticism. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-A53D6BD32BEB",
+      "path_id": "PATH-F7AD566AD392",
+      "severity": "none",
+      "source_page_label": "49",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Le Mercier de la Rivi2re, Pierre Paul (1720–92)"
+      ],
+      "confidence": "high",
+      "document_page": 57,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-064E74EE09A5"
+      ],
+      "evidence_summary": "The page links the Seven Years War to public inquest and explains Quesnay and Physiocratic economic reform. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-064E74EE09A5",
+      "path_id": "PATH-D0B7294DE13F",
+      "severity": "none",
+      "source_page_label": "57",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "libraries"
+      ],
+      "confidence": "high",
+      "document_page": 47,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-F534317B79A3"
+      ],
+      "evidence_summary": "The page examines print affordability, shared reading institutions, literary societies, and the rise of provincial academies. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-F534317B79A3",
+      "path_id": "PATH-DF8FABED889D",
+      "severity": "none",
+      "source_page_label": "47",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Linguet, Simon Nicholas Henri (1736–94)"
+      ],
+      "confidence": "high",
+      "document_page": 45,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-FEBC57B6D516"
+      ],
+      "evidence_summary": "The page explains the expanding periodical press, censorship limits, oppositional journalism, and publication beyond French jurisdiction. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-FEBC57B6D516",
+      "path_id": "PATH-6D998F55609D",
+      "severity": "none",
+      "source_page_label": "45",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Lisbon earthquake (1755)"
+      ],
+      "confidence": "high",
+      "document_page": 52,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-4C9C314191A5"
+      ],
+      "evidence_summary": "The page analyzes Encyclopedie reception, Diderot's radicalism, Enlightenment progress, and Rousseau's critique of it. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-4C9C314191A5",
+      "path_id": "PATH-DBA85AFBD6B2",
+      "severity": "none",
+      "source_page_label": "52",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "literary societies"
+      ],
+      "confidence": "high",
+      "document_page": 47,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-8C45C3F9C73D"
+      ],
+      "evidence_summary": "The page examines print affordability, shared reading institutions, literary societies, and the rise of provincial academies. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-8C45C3F9C73D",
+      "path_id": "PATH-CAF9FF2CC8D8",
+      "severity": "none",
+      "source_page_label": "47",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Locke, John (1632–1704)"
+      ],
+      "confidence": "high",
+      "document_page": 50,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-02C2634369DE"
+      ],
+      "evidence_summary": "The page develops Voltaire's English influences and campaigns and introduces Montesquieu's comparative political thought. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-02C2634369DE",
+      "path_id": "PATH-F336E47D2D6C",
+      "severity": "none",
+      "source_page_label": "50",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Lorraine"
+      ],
+      "confidence": "high",
+      "document_page": 58,
+      "error_codes": [
+        "LOC_POS",
+        "SEL"
+      ],
+      "evidence_ids": [
+        "EVID-F88BCAD9F9DD"
+      ],
+      "evidence_summary": "The page examines grain liberalization, crop failure, bread riots, the famine-pact charge, and a broader crisis of confidence. The heading appears only as an isolated illustration, setting, or member of a wider subject and lacks independent substantive treatment on this page.",
+      "judgment": "unsupported",
+      "locator_id": "LOC-F88BCAD9F9DD",
+      "path_id": "PATH-CADB7ABC4EFD",
+      "severity": "minor",
+      "source_page_label": "58",
+      "source_scope_status": "indexable",
+      "treatment_class": "incidental_example"
+    },
+    {
+      "complete_heading_path": [
+        "Louis XIV, king (1638-1715)"
+      ],
+      "confidence": "high",
+      "document_page": 44,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-5BCB0D75C8C6"
+      ],
+      "evidence_summary": "The page traces Versailles-centered French cultural prestige, the spread of French among European elites, and the first national-cultural backlash. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-5BCB0D75C8C6",
+      "path_id": "PATH-F25346E78436",
+      "severity": "none",
+      "source_page_label": "44",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Louis XV, king (1710-74)"
+      ],
+      "confidence": "high",
+      "document_page": 59,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-88E18908ECAF"
+      ],
+      "evidence_summary": "The page analyzes late-Louis XV court scandal, Maupeou's parlement reforms, despotism, Estates-General calls, and accession hopes. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-88E18908ECAF",
+      "path_id": "PATH-260A8FCCFFB6",
+      "severity": "none",
+      "source_page_label": "59",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Louis XVI, king (1754-93)"
+      ],
+      "confidence": "high",
+      "document_page": 62,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-96DB26BEBB63"
+      ],
+      "evidence_summary": "The page develops Necker's rise, reforms, public-opinion strategy, resignation, and published defense of his record. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-96DB26BEBB63",
+      "path_id": "PATH-A59E7997BCE4",
+      "severity": "none",
+      "source_page_label": "62",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Louis XVI, king (1754-93)",
+        "accession"
+      ],
+      "confidence": "high",
+      "document_page": 58,
+      "error_codes": [
+        "LOC_POS",
+        "SUB"
+      ],
+      "evidence_ids": [
+        "EVID-ABF7E0E30A97"
+      ],
+      "evidence_summary": "The page examines grain liberalization, crop failure, bread riots, the famine-pact charge, and a broader crisis of confidence. The page contains related material but does not support the narrower relationship asserted by the complete heading path.",
+      "judgment": "unsupported",
+      "locator_id": "LOC-ABF7E0E30A97",
+      "path_id": "PATH-0F8023F8D9B3",
+      "severity": "minor",
+      "source_page_label": "58",
+      "source_scope_status": "indexable",
+      "treatment_class": "mixed"
+    },
+    {
+      "complete_heading_path": [
+        "Louis XVI, king (1754-93)",
+        "accession"
+      ],
+      "confidence": "high",
+      "document_page": 59,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-351B554D9282"
+      ],
+      "evidence_summary": "The page analyzes late-Louis XV court scandal, Maupeou's parlement reforms, despotism, Estates-General calls, and accession hopes. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-351B554D9282",
+      "path_id": "PATH-0F8023F8D9B3",
+      "severity": "none",
+      "source_page_label": "59",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Louis XVI, king (1754-93)",
+        "accession"
+      ],
+      "confidence": "high",
+      "document_page": 60,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-596CE6E12BDE"
+      ],
+      "evidence_summary": "The page treats royal sexual satire, the Diamond Necklace affair, restored parlements, and the opening analysis of intendants. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-596CE6E12BDE",
+      "path_id": "PATH-0F8023F8D9B3",
+      "severity": "none",
+      "source_page_label": "60",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "magistrates"
+      ],
+      "confidence": "high",
+      "document_page": 46,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-9E8401B8A2B2"
+      ],
+      "evidence_summary": "The page quantifies press growth and explains book licensing, condemnation, and foreign import controls. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-9E8401B8A2B2",
+      "path_id": "PATH-9DAD25BDADC6",
+      "severity": "none",
+      "source_page_label": "46",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "magistrates"
+      ],
+      "confidence": "high",
+      "document_page": 60,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-1453D5ECDD71"
+      ],
+      "evidence_summary": "The page treats royal sexual satire, the Diamond Necklace affair, restored parlements, and the opening analysis of intendants. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-1453D5ECDD71",
+      "path_id": "PATH-9DAD25BDADC6",
+      "severity": "none",
+      "source_page_label": "60",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "magistrates"
+      ],
+      "confidence": "high",
+      "document_page": 61,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-36A6BBD97639"
+      ],
+      "evidence_summary": "The page analyzes enlightened yet unaccountable intendants and proposals for provincial representative administration. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-36A6BBD97639",
+      "path_id": "PATH-9DAD25BDADC6",
+      "severity": "none",
+      "source_page_label": "61",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Malesherbes, Chrétien-Guillaume Lamoignon de (1721-94)"
+      ],
+      "confidence": "high",
+      "document_page": 51,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-0FF21B44C95E"
+      ],
+      "evidence_summary": "The page completes Montesquieu's case for balanced powers and explains the collaborative Encyclopedie project and its censorship. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-0FF21B44C95E",
+      "path_id": "PATH-51E5B7A90710",
+      "severity": "none",
+      "source_page_label": "51",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Maria Antoinette, queen (1755-93)",
+        "diamond necklace affair"
+      ],
+      "confidence": "high",
+      "document_page": 60,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-36AB8467FE97"
+      ],
+      "evidence_summary": "The page treats royal sexual satire, the Diamond Necklace affair, restored parlements, and the opening analysis of intendants. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-36AB8467FE97",
+      "path_id": "PATH-96C2CC5F29A1",
+      "severity": "none",
+      "source_page_label": "60",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Maria Theresia, Empress of Austria (1717-80)"
+      ],
+      "confidence": "high",
+      "document_page": 44,
+      "error_codes": [
+        "LOC_POS",
+        "SEL"
+      ],
+      "evidence_ids": [
+        "EVID-17B00B2FADC8"
+      ],
+      "evidence_summary": "The page traces Versailles-centered French cultural prestige, the spread of French among European elites, and the first national-cultural backlash. The heading appears only as an isolated illustration, setting, or member of a wider subject and lacks independent substantive treatment on this page.",
+      "judgment": "unsupported",
+      "locator_id": "LOC-17B00B2FADC8",
+      "path_id": "PATH-B307444F4ADC",
+      "severity": "minor",
+      "source_page_label": "44",
+      "source_scope_status": "indexable",
+      "treatment_class": "incidental_example"
+    },
+    {
+      "complete_heading_path": [
+        "Maupeou, René Nicolas de (1714-92)"
+      ],
+      "confidence": "high",
+      "document_page": 56,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-5D356DED543F"
+      ],
+      "evidence_summary": "The page explains judicial publicity, the changing authority of public opinion, pamphlet wars, printed remonstrances, and collapsing censorship. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-5D356DED543F",
+      "path_id": "PATH-298E580668B4",
+      "severity": "none",
+      "source_page_label": "56",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Maupeou, René Nicolas de (1714-92)"
+      ],
+      "confidence": "high",
+      "document_page": 59,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-E5B300240161"
+      ],
+      "evidence_summary": "The page analyzes late-Louis XV court scandal, Maupeou's parlement reforms, despotism, Estates-General calls, and accession hopes. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-E5B300240161",
+      "path_id": "PATH-298E580668B4",
+      "severity": "none",
+      "source_page_label": "59",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Maupeou, René Nicolas de (1714-92)"
+      ],
+      "confidence": "high",
+      "document_page": 60,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-FAC2807AAC71"
+      ],
+      "evidence_summary": "The page treats royal sexual satire, the Diamond Necklace affair, restored parlements, and the opening analysis of intendants. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-FAC2807AAC71",
+      "path_id": "PATH-298E580668B4",
+      "severity": "none",
+      "source_page_label": "60",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Maurepas, Jean Frédéric Phélypeaux, Count de (1701-81)"
+      ],
+      "confidence": "high",
+      "document_page": 63,
+      "error_codes": [
+        "LOC_POS",
+        "SEL"
+      ],
+      "evidence_ids": [
+        "EVID-13BA12F1EDDE"
+      ],
+      "evidence_summary": "The page explains French intervention in America and the transmission and resonance of American liberty through Raynal, Adams, documents, and Franklin. The name receives only a passing identification within another subject's treatment, without independent analysis.",
+      "judgment": "unsupported",
+      "locator_id": "LOC-13BA12F1EDDE",
+      "path_id": "PATH-780026ABB41B",
+      "severity": "minor",
+      "source_page_label": "63",
+      "source_scope_status": "indexable",
+      "treatment_class": "passing_mention"
+    },
+    {
+      "complete_heading_path": [
+        "merchants"
+      ],
+      "confidence": "high",
+      "document_page": 48,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-CD13A6D043A8"
+      ],
+      "evidence_summary": "The page analyzes academic growth and exclusivity, the social composition of readers, and post-Jesuit educational upheaval. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-CD13A6D043A8",
+      "path_id": "PATH-1D2165141BAF",
+      "severity": "none",
+      "source_page_label": "48",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Mesmerism"
+      ],
+      "confidence": "high",
+      "document_page": 64,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-075C2B6A8785"
+      ],
+      "evidence_summary": "The page connects the Order of Cincinnati controversy, American regeneration, scientific wonders, Mesmerism, and early freemasonry to a desire for change. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-075C2B6A8785",
+      "path_id": "PATH-231E681902F3",
+      "severity": "none",
+      "source_page_label": "64",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Mirabeau, Honoré Gabriel Riquetti, Count de (1749-91)",
+        "attack on hereditary order of chivalry"
+      ],
+      "confidence": "high",
+      "document_page": 64,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-E67825E14CB5"
+      ],
+      "evidence_summary": "The page connects the Order of Cincinnati controversy, American regeneration, scientific wonders, Mesmerism, and early freemasonry to a desire for change. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-E67825E14CB5",
+      "path_id": "PATH-DFEFB7F39AE8",
+      "severity": "none",
+      "source_page_label": "64",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Mirabeau, Honoré Gabriel Riquetti, Count de (1749-91)",
+        "economy"
+      ],
+      "confidence": "high",
+      "document_page": 57,
+      "error_codes": [
+        "LOC_POS",
+        "SEL"
+      ],
+      "evidence_ids": [
+        "EVID-411FB0087C02"
+      ],
+      "evidence_summary": "The page links the Seven Years War to public inquest and explains Quesnay and Physiocratic economic reform. The name receives only a passing identification within another subject's treatment, without independent analysis.",
+      "judgment": "unsupported",
+      "locator_id": "LOC-411FB0087C02",
+      "path_id": "PATH-CA99F1176E5B",
+      "severity": "minor",
+      "source_page_label": "57",
+      "source_scope_status": "indexable",
+      "treatment_class": "passing_mention"
+    },
+    {
+      "complete_heading_path": [
+        "monarchy"
+      ],
+      "confidence": "high",
+      "document_page": 59,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-58D41C384D15"
+      ],
+      "evidence_summary": "The page analyzes late-Louis XV court scandal, Maupeou's parlement reforms, despotism, Estates-General calls, and accession hopes. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-58D41C384D15",
+      "path_id": "PATH-D8A95F5744F4",
+      "severity": "none",
+      "source_page_label": "59",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "monasteries"
+      ],
+      "confidence": "high",
+      "document_page": 54,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-6EA3DBCB47A4"
+      ],
+      "evidence_summary": "The page analyzes Jansenist conflict, changing Catholic piety, monastic decline, and movement toward Protestant toleration. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-6EA3DBCB47A4",
+      "path_id": "PATH-5ED2D1679D7B",
+      "severity": "none",
+      "source_page_label": "54",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Montesquieu, Charles Louis de Secondat, Baron de (1689-1755)"
+      ],
+      "confidence": "high",
+      "document_page": 50,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-465EFAD1E9DF"
+      ],
+      "evidence_summary": "The page develops Voltaire's English influences and campaigns and introduces Montesquieu's comparative political thought. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-465EFAD1E9DF",
+      "path_id": "PATH-63A8D4E3D5C6",
+      "severity": "none",
+      "source_page_label": "50",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Montesquieu, Charles Louis de Secondat, Baron de (1689-1755)"
+      ],
+      "confidence": "high",
+      "document_page": 51,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-1F27F2570580"
+      ],
+      "evidence_summary": "The page completes Montesquieu's case for balanced powers and explains the collaborative Encyclopedie project and its censorship. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-1F27F2570580",
+      "path_id": "PATH-63A8D4E3D5C6",
+      "severity": "none",
+      "source_page_label": "51",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Montesquieu, Charles Louis de Secondat, Baron de (1689-1755)"
+      ],
+      "confidence": "high",
+      "document_page": 59,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-9F8660D29C85"
+      ],
+      "evidence_summary": "The page analyzes late-Louis XV court scandal, Maupeou's parlement reforms, despotism, Estates-General calls, and accession hopes. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-9F8660D29C85",
+      "path_id": "PATH-63A8D4E3D5C6",
+      "severity": "none",
+      "source_page_label": "59",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Mounier, Jean-Joseph (1758-1806)"
+      ],
+      "confidence": "high",
+      "document_page": 64,
+      "error_codes": [
+        "LOC_POS",
+        "SEL"
+      ],
+      "evidence_ids": [
+        "EVID-F332F88AC651"
+      ],
+      "evidence_summary": "The page connects the Order of Cincinnati controversy, American regeneration, scientific wonders, Mesmerism, and early freemasonry to a desire for change. The named person functions only as an attributed or illustrative voice and is not independently treated on this page.",
+      "judgment": "unsupported",
+      "locator_id": "LOC-F332F88AC651",
+      "path_id": "PATH-048D2A20C0A8",
+      "severity": "minor",
+      "source_page_label": "64",
+      "source_scope_status": "indexable",
+      "treatment_class": "attribution_only"
+    },
+    {
+      "complete_heading_path": [
+        "Nantes"
+      ],
+      "confidence": "high",
+      "document_page": 47,
+      "error_codes": [
+        "LOC_POS",
+        "SEL"
+      ],
+      "evidence_ids": [
+        "EVID-F711322DD9A5"
+      ],
+      "evidence_summary": "The page examines print affordability, shared reading institutions, literary societies, and the rise of provincial academies. The heading appears only as an isolated illustration, setting, or member of a wider subject and lacks independent substantive treatment on this page.",
+      "judgment": "unsupported",
+      "locator_id": "LOC-F711322DD9A5",
+      "path_id": "PATH-421C2D6ED3A4",
+      "severity": "minor",
+      "source_page_label": "47",
+      "source_scope_status": "indexable",
+      "treatment_class": "incidental_example"
+    },
+    {
+      "complete_heading_path": [
+        "natural sciences"
+      ],
+      "confidence": "high",
+      "document_page": 49,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-1ACE0FC5DF5B"
+      ],
+      "evidence_summary": "The page details classical and Catholic schooling, natural science and Newtonian methods, and Enlightenment rational criticism. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-1ACE0FC5DF5B",
+      "path_id": "PATH-99575BF4FAEA",
+      "severity": "none",
+      "source_page_label": "49",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Necker, Jacques (1732-1804)"
+      ],
+      "confidence": "high",
+      "document_page": 55,
+      "error_codes": [
+        "LOC_POS",
+        "SEL"
+      ],
+      "evidence_ids": [
+        "EVID-B18D9ABC2641"
+      ],
+      "evidence_summary": "The page treats the Calas and Sirven campaigns, penal cruelty, torture, public execution, and Beccaria-inspired reform. The heading appears only as an isolated illustration, setting, or member of a wider subject and lacks independent substantive treatment on this page.",
+      "judgment": "unsupported",
+      "locator_id": "LOC-B18D9ABC2641",
+      "path_id": "PATH-B8C37207EB22",
+      "severity": "minor",
+      "source_page_label": "55",
+      "source_scope_status": "indexable",
+      "treatment_class": "incidental_example"
+    },
+    {
+      "complete_heading_path": [
+        "Necker, Jacques (1732-1804)"
+      ],
+      "confidence": "high",
+      "document_page": 61,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-1BDF36D46C09"
+      ],
+      "evidence_summary": "The page analyzes enlightened yet unaccountable intendants and proposals for provincial representative administration. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-1BDF36D46C09",
+      "path_id": "PATH-B8C37207EB22",
+      "severity": "none",
+      "source_page_label": "61",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Necker, Jacques (1732-1804)"
+      ],
+      "confidence": "high",
+      "document_page": 62,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-73A03EE735A5"
+      ],
+      "evidence_summary": "The page develops Necker's rise, reforms, public-opinion strategy, resignation, and published defense of his record. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-73A03EE735A5",
+      "path_id": "PATH-B8C37207EB22",
+      "severity": "none",
+      "source_page_label": "62",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Neuchâtel"
+      ],
+      "confidence": "high",
+      "document_page": 46,
+      "error_codes": [
+        "LOC_POS",
+        "SEL"
+      ],
+      "evidence_ids": [
+        "EVID-BAE4F13E7689"
+      ],
+      "evidence_summary": "The page quantifies press growth and explains book licensing, condemnation, and foreign import controls. The heading appears only as an isolated illustration, setting, or member of a wider subject and lacks independent substantive treatment on this page.",
+      "judgment": "unsupported",
+      "locator_id": "LOC-BAE4F13E7689",
+      "path_id": "PATH-FF36F7453B39",
+      "severity": "minor",
+      "source_page_label": "46",
+      "source_scope_status": "indexable",
+      "treatment_class": "incidental_example"
+    },
+    {
+      "complete_heading_path": [
+        "newspapers"
+      ],
+      "confidence": "high",
+      "document_page": 46,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-4FC0F45D8CA6"
+      ],
+      "evidence_summary": "The page quantifies press growth and explains book licensing, condemnation, and foreign import controls. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-4FC0F45D8CA6",
+      "path_id": "PATH-9EAB8C601B1B",
+      "severity": "none",
+      "source_page_label": "46",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Newton, Isaac (1642-1727)"
+      ],
+      "confidence": "high",
+      "document_page": 49,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-CD17EA065528"
+      ],
+      "evidence_summary": "The page details classical and Catholic schooling, natural science and Newtonian methods, and Enlightenment rational criticism. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-CD17EA065528",
+      "path_id": "PATH-BB1F28D5ADE3",
+      "severity": "none",
+      "source_page_label": "49",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Newton, Isaac (1642-1727)"
+      ],
+      "confidence": "high",
+      "document_page": 50,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-88A9960A96DC"
+      ],
+      "evidence_summary": "The page develops Voltaire's English influences and campaigns and introduces Montesquieu's comparative political thought. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-88A9960A96DC",
+      "path_id": "PATH-BB1F28D5ADE3",
+      "severity": "none",
+      "source_page_label": "50",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "nobility",
+        "reading"
+      ],
+      "confidence": "high",
+      "document_page": 48,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-4D905D42723B"
+      ],
+      "evidence_summary": "The page analyzes academic growth and exclusivity, the social composition of readers, and post-Jesuit educational upheaval. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-4D905D42723B",
+      "path_id": "PATH-5635DD8B7D43",
+      "severity": "none",
+      "source_page_label": "48",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Paine, Thomas (1737-1809)"
+      ],
+      "confidence": "high",
+      "document_page": 63,
+      "error_codes": [
+        "LOC_POS",
+        "SEL"
+      ],
+      "evidence_ids": [
+        "EVID-1F766B697A25"
+      ],
+      "evidence_summary": "The page explains French intervention in America and the transmission and resonance of American liberty through Raynal, Adams, documents, and Franklin. The named person functions only as an attributed or illustrative voice and is not independently treated on this page.",
+      "judgment": "unsupported",
+      "locator_id": "LOC-1F766B697A25",
+      "path_id": "PATH-1ACC17B09F21",
+      "severity": "minor",
+      "source_page_label": "63",
+      "source_scope_status": "indexable",
+      "treatment_class": "attribution_only"
+    },
+    {
+      "complete_heading_path": [
+        "parlement de Paris",
+        "Diamond Necklace affair"
+      ],
+      "confidence": "high",
+      "document_page": 60,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-A2B93BB74ACE"
+      ],
+      "evidence_summary": "The page treats royal sexual satire, the Diamond Necklace affair, restored parlements, and the opening analysis of intendants. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-A2B93BB74ACE",
+      "path_id": "PATH-6DB960A48E50",
+      "severity": "none",
+      "source_page_label": "60",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "parlement de Paris",
+        "religious intolerance of"
+      ],
+      "confidence": "high",
+      "document_page": 53,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-C3C8DB682269"
+      ],
+      "evidence_summary": "The page develops Rousseau's political and religious thought and the Church's response to philosophic irreligion. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-C3C8DB682269",
+      "path_id": "PATH-39BCFCD34F56",
+      "severity": "none",
+      "source_page_label": "53",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "parlement de Paris",
+        "religious intolerance of"
+      ],
+      "confidence": "high",
+      "document_page": 54,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-60E629DB0030"
+      ],
+      "evidence_summary": "The page analyzes Jansenist conflict, changing Catholic piety, monastic decline, and movement toward Protestant toleration. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-60E629DB0030",
+      "path_id": "PATH-39BCFCD34F56",
+      "severity": "none",
+      "source_page_label": "54",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "parlements, provincial",
+        "Maupeou's reforms"
+      ],
+      "confidence": "high",
+      "document_page": 56,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-C7DC1A88AC2A"
+      ],
+      "evidence_summary": "The page explains judicial publicity, the changing authority of public opinion, pamphlet wars, printed remonstrances, and collapsing censorship. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-C7DC1A88AC2A",
+      "path_id": "PATH-6E593C9D7D2B",
+      "severity": "none",
+      "source_page_label": "56",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "parlements, provincial",
+        "Maupeou's reforms"
+      ],
+      "confidence": "high",
+      "document_page": 57,
+      "error_codes": [
+        "LOC_POS",
+        "SUB"
+      ],
+      "evidence_ids": [
+        "EVID-10CB3E8E93CB"
+      ],
+      "evidence_summary": "The page links the Seven Years War to public inquest and explains Quesnay and Physiocratic economic reform. The page contains related material but does not support the narrower relationship asserted by the complete heading path.",
+      "judgment": "unsupported",
+      "locator_id": "LOC-10CB3E8E93CB",
+      "path_id": "PATH-6E593C9D7D2B",
+      "severity": "minor",
+      "source_page_label": "57",
+      "source_scope_status": "indexable",
+      "treatment_class": "mixed"
+    },
+    {
+      "complete_heading_path": [
+        "parlements, provincial",
+        "Maupeou's reforms"
+      ],
+      "confidence": "high",
+      "document_page": 59,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-A37117287E75"
+      ],
+      "evidence_summary": "The page analyzes late-Louis XV court scandal, Maupeou's parlement reforms, despotism, Estates-General calls, and accession hopes. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-A37117287E75",
+      "path_id": "PATH-6E593C9D7D2B",
+      "severity": "none",
+      "source_page_label": "59",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "parlements, provincial",
+        "restoration of"
+      ],
+      "confidence": "high",
+      "document_page": 60,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-CF0F48EF1EDF"
+      ],
+      "evidence_summary": "The page treats royal sexual satire, the Diamond Necklace affair, restored parlements, and the opening analysis of intendants. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-CF0F48EF1EDF",
+      "path_id": "PATH-55C2766D8E78",
+      "severity": "none",
+      "source_page_label": "60",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "pays d'états"
+      ],
+      "confidence": "high",
+      "document_page": 61,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-102CA1DA92FF"
+      ],
+      "evidence_summary": "The page analyzes enlightened yet unaccountable intendants and proposals for provincial representative administration. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-102CA1DA92FF",
+      "path_id": "PATH-4F493F8048F1",
+      "severity": "none",
+      "source_page_label": "61",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "petty crime"
+      ],
+      "confidence": "high",
+      "document_page": 55,
+      "error_codes": [
+        "LOC_POS",
+        "SEL"
+      ],
+      "evidence_ids": [
+        "EVID-4D5C6EDBDBA7"
+      ],
+      "evidence_summary": "The page treats the Calas and Sirven campaigns, penal cruelty, torture, public execution, and Beccaria-inspired reform. The heading appears only as an isolated illustration, setting, or member of a wider subject and lacks independent substantive treatment on this page.",
+      "judgment": "unsupported",
+      "locator_id": "LOC-4D5C6EDBDBA7",
+      "path_id": "PATH-77162DD94164",
+      "severity": "minor",
+      "source_page_label": "55",
+      "source_scope_status": "indexable",
+      "treatment_class": "incidental_example"
+    },
+    {
+      "complete_heading_path": [
+        "philosophy"
+      ],
+      "confidence": "high",
+      "document_page": 49,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-8AE38C070AD7"
+      ],
+      "evidence_summary": "The page details classical and Catholic schooling, natural science and Newtonian methods, and Enlightenment rational criticism. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-8AE38C070AD7",
+      "path_id": "PATH-A86F3B89E4C1",
+      "severity": "none",
+      "source_page_label": "49",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "philosophy"
+      ],
+      "confidence": "high",
+      "document_page": 52,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-F106A1BBD25A"
+      ],
+      "evidence_summary": "The page analyzes Encyclopedie reception, Diderot's radicalism, Enlightenment progress, and Rousseau's critique of it. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-F106A1BBD25A",
+      "path_id": "PATH-A86F3B89E4C1",
+      "severity": "none",
+      "source_page_label": "52",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "philosophy"
+      ],
+      "confidence": "high",
+      "document_page": 53,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-92103E4E47D8"
+      ],
+      "evidence_summary": "The page develops Rousseau's political and religious thought and the Church's response to philosophic irreligion. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-92103E4E47D8",
+      "path_id": "PATH-A86F3B89E4C1",
+      "severity": "none",
+      "source_page_label": "53",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "philosophy"
+      ],
+      "confidence": "high",
+      "document_page": 56,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-55DE08D634F0"
+      ],
+      "evidence_summary": "The page explains judicial publicity, the changing authority of public opinion, pamphlet wars, printed remonstrances, and collapsing censorship. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-55DE08D634F0",
+      "path_id": "PATH-A86F3B89E4C1",
+      "severity": "none",
+      "source_page_label": "56",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "physics"
+      ],
+      "confidence": "high",
+      "document_page": 49,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-6196D1C190C2"
+      ],
+      "evidence_summary": "The page details classical and Catholic schooling, natural science and Newtonian methods, and Enlightenment rational criticism. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-6196D1C190C2",
+      "path_id": "PATH-338235923A54",
+      "severity": "none",
+      "source_page_label": "49",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Physiocracy"
+      ],
+      "confidence": "high",
+      "document_page": 57,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-0B0C37ABC4E2"
+      ],
+      "evidence_summary": "The page links the Seven Years War to public inquest and explains Quesnay and Physiocratic economic reform. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-0B0C37ABC4E2",
+      "path_id": "PATH-27E988B16E16",
+      "severity": "none",
+      "source_page_label": "57",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Physiocracy"
+      ],
+      "confidence": "high",
+      "document_page": 58,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-748AF9C14381"
+      ],
+      "evidence_summary": "The page examines grain liberalization, crop failure, bread riots, the famine-pact charge, and a broader crisis of confidence. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-748AF9C14381",
+      "path_id": "PATH-27E988B16E16",
+      "severity": "none",
+      "source_page_label": "58",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Physiocracy"
+      ],
+      "confidence": "high",
+      "document_page": 60,
+      "error_codes": [
+        "LOC_POS",
+        "SEL"
+      ],
+      "evidence_ids": [
+        "EVID-622B61A24230"
+      ],
+      "evidence_summary": "The page treats royal sexual satire, the Diamond Necklace affair, restored parlements, and the opening analysis of intendants. The heading appears only as an isolated illustration, setting, or member of a wider subject and lacks independent substantive treatment on this page.",
+      "judgment": "unsupported",
+      "locator_id": "LOC-622B61A24230",
+      "path_id": "PATH-27E988B16E16",
+      "severity": "minor",
+      "source_page_label": "60",
+      "source_scope_status": "indexable",
+      "treatment_class": "incidental_example"
+    },
+    {
+      "complete_heading_path": [
+        "Physiocracy"
+      ],
+      "confidence": "high",
+      "document_page": 61,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-3D6841FEEF28"
+      ],
+      "evidence_summary": "The page analyzes enlightened yet unaccountable intendants and proposals for provincial representative administration. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-3D6841FEEF28",
+      "path_id": "PATH-27E988B16E16",
+      "severity": "none",
+      "source_page_label": "61",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "political philosophy"
+      ],
+      "confidence": "high",
+      "document_page": 50,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-5B2179534E3A"
+      ],
+      "evidence_summary": "The page develops Voltaire's English influences and campaigns and introduces Montesquieu's comparative political thought. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-5B2179534E3A",
+      "path_id": "PATH-A39AF670DA29",
+      "severity": "none",
+      "source_page_label": "50",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "political philosophy"
+      ],
+      "confidence": "high",
+      "document_page": 51,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-4648F863DA95"
+      ],
+      "evidence_summary": "The page completes Montesquieu's case for balanced powers and explains the collaborative Encyclopedie project and its censorship. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-4648F863DA95",
+      "path_id": "PATH-A39AF670DA29",
+      "severity": "none",
+      "source_page_label": "51",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "political philosophy"
+      ],
+      "confidence": "high",
+      "document_page": 53,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-47A9EE2FB50E"
+      ],
+      "evidence_summary": "The page develops Rousseau's political and religious thought and the Church's response to philosophic irreligion. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-47A9EE2FB50E",
+      "path_id": "PATH-A39AF670DA29",
+      "severity": "none",
+      "source_page_label": "53",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "political radicalism"
+      ],
+      "confidence": "medium",
+      "document_page": 51,
+      "error_codes": [
+        "STA"
+      ],
+      "evidence_ids": [
+        "EVID-0A67F95670FC"
+      ],
+      "evidence_summary": "The page completes Montesquieu's case for balanced powers and explains the collaborative Encyclopedie project and its censorship. The page presents critical ambitions and opponents' accusations of sedition, but the unqualified radicalism label overstates the author's stance.",
+      "judgment": "partially_supported",
+      "locator_id": "LOC-0A67F95670FC",
+      "path_id": "PATH-113F263E9FE5",
+      "severity": "minor",
+      "source_page_label": "51",
+      "source_scope_status": "indexable",
+      "treatment_class": "mixed"
+    },
+    {
+      "complete_heading_path": [
+        "political radicalism"
+      ],
+      "confidence": "high",
+      "document_page": 52,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-94182CB64B3D"
+      ],
+      "evidence_summary": "The page analyzes Encyclopedie reception, Diderot's radicalism, Enlightenment progress, and Rousseau's critique of it. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-94182CB64B3D",
+      "path_id": "PATH-113F263E9FE5",
+      "severity": "none",
+      "source_page_label": "52",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "political radicalism"
+      ],
+      "confidence": "medium",
+      "document_page": 56,
+      "error_codes": [
+        "CON"
+      ],
+      "evidence_ids": [
+        "EVID-B2E8B3975FA2"
+      ],
+      "evidence_summary": "The page explains judicial publicity, the changing authority of public opinion, pamphlet wars, printed remonstrances, and collapsing censorship. The page materially shows politicized debate and anxiety about revolution, but the unqualified radicalism path is broader than the treatment.",
+      "judgment": "partially_supported",
+      "locator_id": "LOC-B2E8B3975FA2",
+      "path_id": "PATH-113F263E9FE5",
+      "severity": "minor",
+      "source_page_label": "56",
+      "source_scope_status": "indexable",
+      "treatment_class": "mixed"
+    },
+    {
+      "complete_heading_path": [
+        "political unrest"
+      ],
+      "confidence": "high",
+      "document_page": 58,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-9C37D867B827"
+      ],
+      "evidence_summary": "The page examines grain liberalization, crop failure, bread riots, the famine-pact charge, and a broader crisis of confidence. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-9C37D867B827",
+      "path_id": "PATH-125DAE6600A5",
+      "severity": "none",
+      "source_page_label": "58",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "political unrest"
+      ],
+      "confidence": "high",
+      "document_page": 59,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-8BD3ED410A1E"
+      ],
+      "evidence_summary": "The page analyzes late-Louis XV court scandal, Maupeou's parlement reforms, despotism, Estates-General calls, and accession hopes. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-8BD3ED410A1E",
+      "path_id": "PATH-125DAE6600A5",
+      "severity": "none",
+      "source_page_label": "59",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "political unrest"
+      ],
+      "confidence": "high",
+      "document_page": 60,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-129B802E0EEC"
+      ],
+      "evidence_summary": "The page treats royal sexual satire, the Diamond Necklace affair, restored parlements, and the opening analysis of intendants. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-129B802E0EEC",
+      "path_id": "PATH-125DAE6600A5",
+      "severity": "none",
+      "source_page_label": "60",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "political unrest"
+      ],
+      "confidence": "high",
+      "document_page": 61,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-5BF372F10678"
+      ],
+      "evidence_summary": "The page analyzes enlightened yet unaccountable intendants and proposals for provincial representative administration. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-5BF372F10678",
+      "path_id": "PATH-125DAE6600A5",
+      "severity": "none",
+      "source_page_label": "61",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "political unrest"
+      ],
+      "confidence": "high",
+      "document_page": 62,
+      "error_codes": [
+        "LOC_POS"
+      ],
+      "evidence_ids": [
+        "EVID-713BB0BC5325"
+      ],
+      "evidence_summary": "The page develops Necker's rise, reforms, public-opinion strategy, resignation, and published defense of his record. The complete heading path is not materially present on the mapped page.",
+      "judgment": "unsupported",
+      "locator_id": "LOC-713BB0BC5325",
+      "path_id": "PATH-125DAE6600A5",
+      "severity": "minor",
+      "source_page_label": "62",
+      "source_scope_status": "indexable",
+      "treatment_class": "absent"
+    },
+    {
+      "complete_heading_path": [
+        "political unrest"
+      ],
+      "confidence": "high",
+      "document_page": 63,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-7E9FE0CB8EF7"
+      ],
+      "evidence_summary": "The page explains French intervention in America and the transmission and resonance of American liberty through Raynal, Adams, documents, and Franklin. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-7E9FE0CB8EF7",
+      "path_id": "PATH-125DAE6600A5",
+      "severity": "none",
+      "source_page_label": "63",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "political unrest"
+      ],
+      "confidence": "high",
+      "document_page": 64,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-03965E612F0F"
+      ],
+      "evidence_summary": "The page connects the Order of Cincinnati controversy, American regeneration, scientific wonders, Mesmerism, and early freemasonry to a desire for change. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-03965E612F0F",
+      "path_id": "PATH-125DAE6600A5",
+      "severity": "none",
+      "source_page_label": "64",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "political unrest"
+      ],
+      "confidence": "medium",
+      "document_page": 65,
+      "error_codes": [
+        "CON"
+      ],
+      "evidence_ids": [
+        "EVID-999C9168EAEC"
+      ],
+      "evidence_summary": "The page analyzes masonic hierarchy, equality, philanthropy, conspiracy fears, and the limits of pre-revolutionary credulity. The page supports conspiracy fears and pre-revolutionary credulity, but it does not directly narrate political unrest.",
+      "judgment": "partially_supported",
+      "locator_id": "LOC-999C9168EAEC",
+      "path_id": "PATH-125DAE6600A5",
+      "severity": "minor",
+      "source_page_label": "65",
+      "source_scope_status": "indexable",
+      "treatment_class": "mixed"
+    },
+    {
+      "complete_heading_path": [
+        "prices",
+        "before the Revolution"
+      ],
+      "confidence": "high",
+      "document_page": 58,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-234CE2E60001"
+      ],
+      "evidence_summary": "The page examines grain liberalization, crop failure, bread riots, the famine-pact charge, and a broader crisis of confidence. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-234CE2E60001",
+      "path_id": "PATH-A53869D0C837",
+      "severity": "none",
+      "source_page_label": "58",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Protestants"
+      ],
+      "confidence": "high",
+      "document_page": 54,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-B999040EEA8A"
+      ],
+      "evidence_summary": "The page analyzes Jansenist conflict, changing Catholic piety, monastic decline, and movement toward Protestant toleration. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-B999040EEA8A",
+      "path_id": "PATH-BA1CD5878D25",
+      "severity": "none",
+      "source_page_label": "54",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Protestants"
+      ],
+      "confidence": "high",
+      "document_page": 55,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-593289175AC2"
+      ],
+      "evidence_summary": "The page treats the Calas and Sirven campaigns, penal cruelty, torture, public execution, and Beccaria-inspired reform. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-593289175AC2",
+      "path_id": "PATH-BA1CD5878D25",
+      "severity": "none",
+      "source_page_label": "55",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Protestants",
+        "journalism"
+      ],
+      "confidence": "high",
+      "document_page": 45,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-826BD96574D9"
+      ],
+      "evidence_summary": "The page explains the expanding periodical press, censorship limits, oppositional journalism, and publication beyond French jurisdiction. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-826BD96574D9",
+      "path_id": "PATH-EF749A6970F5",
+      "severity": "none",
+      "source_page_label": "45",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "public office",
+        "venality"
+      ],
+      "confidence": "high",
+      "document_page": 62,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-8FB0047D8E7E"
+      ],
+      "evidence_summary": "The page develops Necker's rise, reforms, public-opinion strategy, resignation, and published defense of his record. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-8FB0047D8E7E",
+      "path_id": "PATH-8083609B3800",
+      "severity": "none",
+      "source_page_label": "62",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "public opinion"
+      ],
+      "confidence": "high",
+      "document_page": 56,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-B162270491D2"
+      ],
+      "evidence_summary": "The page explains judicial publicity, the changing authority of public opinion, pamphlet wars, printed remonstrances, and collapsing censorship. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-B162270491D2",
+      "path_id": "PATH-130B8ACBF32F",
+      "severity": "none",
+      "source_page_label": "56",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "public opinion"
+      ],
+      "confidence": "high",
+      "document_page": 62,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-2741DCB3BF83"
+      ],
+      "evidence_summary": "The page develops Necker's rise, reforms, public-opinion strategy, resignation, and published defense of his record. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-2741DCB3BF83",
+      "path_id": "PATH-130B8ACBF32F",
+      "severity": "none",
+      "source_page_label": "62",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "punishment"
+      ],
+      "confidence": "high",
+      "document_page": 55,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-61E98C565ACD"
+      ],
+      "evidence_summary": "The page treats the Calas and Sirven campaigns, penal cruelty, torture, public execution, and Beccaria-inspired reform. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-61E98C565ACD",
+      "path_id": "PATH-52728EE1BA71",
+      "severity": "none",
+      "source_page_label": "55",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Quesnay, François (1694-1774)"
+      ],
+      "confidence": "high",
+      "document_page": 57,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-A90B87FD513C"
+      ],
+      "evidence_summary": "The page links the Seven Years War to public inquest and explains Quesnay and Physiocratic economic reform. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-A90B87FD513C",
+      "path_id": "PATH-73C425F9E1CA",
+      "severity": "none",
+      "source_page_label": "57",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Raynal, Guillaume Thomas (1713-96)"
+      ],
+      "confidence": "high",
+      "document_page": 63,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-BF167B7E76CC"
+      ],
+      "evidence_summary": "The page explains French intervention in America and the transmission and resonance of American liberty through Raynal, Adams, documents, and Franklin. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-BF167B7E76CC",
+      "path_id": "PATH-B2DD171E4F7F",
+      "severity": "none",
+      "source_page_label": "63",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "religion",
+        "Rousseau's criticism of"
+      ],
+      "confidence": "high",
+      "document_page": 53,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-AA140853BF17"
+      ],
+      "evidence_summary": "The page develops Rousseau's political and religious thought and the Church's response to philosophic irreligion. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-AA140853BF17",
+      "path_id": "PATH-A80D9C1AD35D",
+      "severity": "none",
+      "source_page_label": "53",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "remonstrances"
+      ],
+      "confidence": "high",
+      "document_page": 56,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-C0965917F9DA"
+      ],
+      "evidence_summary": "The page explains judicial publicity, the changing authority of public opinion, pamphlet wars, printed remonstrances, and collapsing censorship. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-C0965917F9DA",
+      "path_id": "PATH-441265595FC7",
+      "severity": "none",
+      "source_page_label": "56",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "remonstrances"
+      ],
+      "confidence": "high",
+      "document_page": 63,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-29772114A5B2"
+      ],
+      "evidence_summary": "The page explains French intervention in America and the transmission and resonance of American liberty through Raynal, Adams, documents, and Franklin. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-29772114A5B2",
+      "path_id": "PATH-441265595FC7",
+      "severity": "none",
+      "source_page_label": "63",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "republicanism"
+      ],
+      "confidence": "high",
+      "document_page": 63,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-8247BD941F7C"
+      ],
+      "evidence_summary": "The page explains French intervention in America and the transmission and resonance of American liberty through Raynal, Adams, documents, and Franklin. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-8247BD941F7C",
+      "path_id": "PATH-80DFB5C37007",
+      "severity": "none",
+      "source_page_label": "63",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "republicanism"
+      ],
+      "confidence": "high",
+      "document_page": 64,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-59C7C770CA9B"
+      ],
+      "evidence_summary": "The page connects the Order of Cincinnati controversy, American regeneration, scientific wonders, Mesmerism, and early freemasonry to a desire for change. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-59C7C770CA9B",
+      "path_id": "PATH-80DFB5C37007",
+      "severity": "none",
+      "source_page_label": "64",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "riots",
+        "bread"
+      ],
+      "confidence": "high",
+      "document_page": 58,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-03E5FF6CEE73"
+      ],
+      "evidence_summary": "The page examines grain liberalization, crop failure, bread riots, the famine-pact charge, and a broader crisis of confidence. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-03E5FF6CEE73",
+      "path_id": "PATH-AA2F7D0CF43E",
+      "severity": "none",
+      "source_page_label": "58",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Rohan, Édouard, Cardinal de (1734-1803)"
+      ],
+      "confidence": "high",
+      "document_page": 60,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-9AE049C3AD05"
+      ],
+      "evidence_summary": "The page treats royal sexual satire, the Diamond Necklace affair, restored parlements, and the opening analysis of intendants. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-9AE049C3AD05",
+      "path_id": "PATH-64F3DAA5CE70",
+      "severity": "none",
+      "source_page_label": "60",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Rousseau, Jean-Jacques (1712-78)"
+      ],
+      "confidence": "high",
+      "document_page": 48,
+      "error_codes": [
+        "LOC_POS",
+        "SEL"
+      ],
+      "evidence_ids": [
+        "EVID-B0096256C691"
+      ],
+      "evidence_summary": "The page analyzes academic growth and exclusivity, the social composition of readers, and post-Jesuit educational upheaval. The heading appears only as an isolated illustration, setting, or member of a wider subject and lacks independent substantive treatment on this page.",
+      "judgment": "unsupported",
+      "locator_id": "LOC-B0096256C691",
+      "path_id": "PATH-251FBD6FB4CE",
+      "severity": "minor",
+      "source_page_label": "48",
+      "source_scope_status": "indexable",
+      "treatment_class": "incidental_example"
+    },
+    {
+      "complete_heading_path": [
+        "Rousseau, Jean-Jacques (1712-78)"
+      ],
+      "confidence": "high",
+      "document_page": 52,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-0191C1407980"
+      ],
+      "evidence_summary": "The page analyzes Encyclopedie reception, Diderot's radicalism, Enlightenment progress, and Rousseau's critique of it. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-0191C1407980",
+      "path_id": "PATH-251FBD6FB4CE",
+      "severity": "none",
+      "source_page_label": "52",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Rousseau, Jean-Jacques (1712-78)"
+      ],
+      "confidence": "high",
+      "document_page": 53,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-908B20FBC76A"
+      ],
+      "evidence_summary": "The page develops Rousseau's political and religious thought and the Church's response to philosophic irreligion. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-908B20FBC76A",
+      "path_id": "PATH-251FBD6FB4CE",
+      "severity": "none",
+      "source_page_label": "53",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Rousseau, Jean-Jacques (1712-78)"
+      ],
+      "confidence": "high",
+      "document_page": 56,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-825EDE104C7F"
+      ],
+      "evidence_summary": "The page explains judicial publicity, the changing authority of public opinion, pamphlet wars, printed remonstrances, and collapsing censorship. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-825EDE104C7F",
+      "path_id": "PATH-251FBD6FB4CE",
+      "severity": "none",
+      "source_page_label": "56",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Schönbrunn"
+      ],
+      "confidence": "high",
+      "document_page": 44,
+      "error_codes": [
+        "LOC_POS",
+        "SEL"
+      ],
+      "evidence_ids": [
+        "EVID-DA0C2ED841CF"
+      ],
+      "evidence_summary": "The page traces Versailles-centered French cultural prestige, the spread of French among European elites, and the first national-cultural backlash. The heading appears only as an isolated illustration, setting, or member of a wider subject and lacks independent substantive treatment on this page.",
+      "judgment": "unsupported",
+      "locator_id": "LOC-DA0C2ED841CF",
+      "path_id": "PATH-845393952CAF",
+      "severity": "minor",
+      "source_page_label": "44",
+      "source_scope_status": "indexable",
+      "treatment_class": "incidental_example"
+    },
+    {
+      "complete_heading_path": [
+        "science"
+      ],
+      "confidence": "high",
+      "document_page": 49,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-D09C86480144"
+      ],
+      "evidence_summary": "The page details classical and Catholic schooling, natural science and Newtonian methods, and Enlightenment rational criticism. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-D09C86480144",
+      "path_id": "PATH-AA37AA69FE86",
+      "severity": "none",
+      "source_page_label": "49",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "science"
+      ],
+      "confidence": "high",
+      "document_page": 64,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-D50737E5CA61"
+      ],
+      "evidence_summary": "The page connects the Order of Cincinnati controversy, American regeneration, scientific wonders, Mesmerism, and early freemasonry to a desire for change. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-D50737E5CA61",
+      "path_id": "PATH-AA37AA69FE86",
+      "severity": "none",
+      "source_page_label": "64",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Seven Years War"
+      ],
+      "confidence": "high",
+      "document_page": 57,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-74D7D3B41DE8"
+      ],
+      "evidence_summary": "The page links the Seven Years War to public inquest and explains Quesnay and Physiocratic economic reform. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-74D7D3B41DE8",
+      "path_id": "PATH-BABFBFAC8946",
+      "severity": "none",
+      "source_page_label": "57",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Seven Years War"
+      ],
+      "confidence": "high",
+      "document_page": 58,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-B655A1257D4D"
+      ],
+      "evidence_summary": "The page examines grain liberalization, crop failure, bread riots, the famine-pact charge, and a broader crisis of confidence. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-B655A1257D4D",
+      "path_id": "PATH-BABFBFAC8946",
+      "severity": "none",
+      "source_page_label": "58",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Seven Years War"
+      ],
+      "confidence": "high",
+      "document_page": 63,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-540A2107942E"
+      ],
+      "evidence_summary": "The page explains French intervention in America and the transmission and resonance of American liberty through Raynal, Adams, documents, and Franklin. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-540A2107942E",
+      "path_id": "PATH-BABFBFAC8946",
+      "severity": "none",
+      "source_page_label": "63",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "subscription libraries"
+      ],
+      "confidence": "high",
+      "document_page": 47,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-45C48E419630"
+      ],
+      "evidence_summary": "The page examines print affordability, shared reading institutions, literary societies, and the rise of provincial academies. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-45C48E419630",
+      "path_id": "PATH-C756FF7911DA",
+      "severity": "none",
+      "source_page_label": "47",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "taxation"
+      ],
+      "confidence": "high",
+      "document_page": 57,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-CF67B3E55D35"
+      ],
+      "evidence_summary": "The page links the Seven Years War to public inquest and explains Quesnay and Physiocratic economic reform. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-CF67B3E55D35",
+      "path_id": "PATH-2D6FF629E618",
+      "severity": "none",
+      "source_page_label": "57",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "taxation",
+        "reform"
+      ],
+      "confidence": "high",
+      "document_page": 62,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-1EAF81687184"
+      ],
+      "evidence_summary": "The page develops Necker's rise, reforms, public-opinion strategy, resignation, and published defense of his record. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-1EAF81687184",
+      "path_id": "PATH-E20165C17266",
+      "severity": "none",
+      "source_page_label": "62",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Terray, Joseph-Marie, Abbé (1715-78)"
+      ],
+      "confidence": "high",
+      "document_page": 58,
+      "error_codes": [
+        "LOC_POS"
+      ],
+      "evidence_ids": [
+        "EVID-8D353C96EF21"
+      ],
+      "evidence_summary": "The page examines grain liberalization, crop failure, bread riots, the famine-pact charge, and a broader crisis of confidence. The complete heading path is not materially present on the mapped page.",
+      "judgment": "unsupported",
+      "locator_id": "LOC-8D353C96EF21",
+      "path_id": "PATH-FB443FD4FC02",
+      "severity": "minor",
+      "source_page_label": "58",
+      "source_scope_status": "indexable",
+      "treatment_class": "absent"
+    },
+    {
+      "complete_heading_path": [
+        "torture"
+      ],
+      "confidence": "high",
+      "document_page": 55,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-6C8B4AA385D3"
+      ],
+      "evidence_summary": "The page treats the Calas and Sirven campaigns, penal cruelty, torture, public execution, and Beccaria-inspired reform. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-6C8B4AA385D3",
+      "path_id": "PATH-27EEC6B32BAC",
+      "severity": "none",
+      "source_page_label": "55",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Turgot, Anne Robert Jacques, Baron de L'Aulne (1727-81)"
+      ],
+      "confidence": "high",
+      "document_page": 60,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-65F7CA1F0ECC"
+      ],
+      "evidence_summary": "The page treats royal sexual satire, the Diamond Necklace affair, restored parlements, and the opening analysis of intendants. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-65F7CA1F0ECC",
+      "path_id": "PATH-572F212E76F2",
+      "severity": "none",
+      "source_page_label": "60",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Turgot, Anne Robert Jacques, Baron de L'Aulne (1727-81)"
+      ],
+      "confidence": "high",
+      "document_page": 61,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-D03DD7D829E2"
+      ],
+      "evidence_summary": "The page analyzes enlightened yet unaccountable intendants and proposals for provincial representative administration. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-D03DD7D829E2",
+      "path_id": "PATH-572F212E76F2",
+      "severity": "none",
+      "source_page_label": "61",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Unigenitus"
+      ],
+      "confidence": "high",
+      "document_page": 53,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-3B1074E1EB16"
+      ],
+      "evidence_summary": "The page develops Rousseau's political and religious thought and the Church's response to philosophic irreligion. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-3B1074E1EB16",
+      "path_id": "PATH-5F2310E29B41",
+      "severity": "none",
+      "source_page_label": "53",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Unigenitus"
+      ],
+      "confidence": "high",
+      "document_page": 54,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-3641F450C453"
+      ],
+      "evidence_summary": "The page analyzes Jansenist conflict, changing Catholic piety, monastic decline, and movement toward Protestant toleration. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-3641F450C453",
+      "path_id": "PATH-5F2310E29B41",
+      "severity": "none",
+      "source_page_label": "54",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Vergennes, Charles Gravier, Count de (1717-87)"
+      ],
+      "confidence": "high",
+      "document_page": 63,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-06C420D4D5BF"
+      ],
+      "evidence_summary": "The page explains French intervention in America and the transmission and resonance of American liberty through Raynal, Adams, documents, and Franklin. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-06C420D4D5BF",
+      "path_id": "PATH-CD8E5EB11DCC",
+      "severity": "none",
+      "source_page_label": "63",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Versailles"
+      ],
+      "confidence": "high",
+      "document_page": 44,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-5C719452F6FC"
+      ],
+      "evidence_summary": "The page traces Versailles-centered French cultural prestige, the spread of French among European elites, and the first national-cultural backlash. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-5C719452F6FC",
+      "path_id": "PATH-E71E65842D4E",
+      "severity": "none",
+      "source_page_label": "44",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Voltaire, François Marie Arouet (1694-1778)"
+      ],
+      "confidence": "high",
+      "document_page": 49,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-AF3E773CAF87"
+      ],
+      "evidence_summary": "The page details classical and Catholic schooling, natural science and Newtonian methods, and Enlightenment rational criticism. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-AF3E773CAF87",
+      "path_id": "PATH-D264C948106B",
+      "severity": "none",
+      "source_page_label": "49",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Voltaire, François Marie Arouet (1694-1778)"
+      ],
+      "confidence": "high",
+      "document_page": 50,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-189B9E5143B4"
+      ],
+      "evidence_summary": "The page develops Voltaire's English influences and campaigns and introduces Montesquieu's comparative political thought. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-189B9E5143B4",
+      "path_id": "PATH-D264C948106B",
+      "severity": "none",
+      "source_page_label": "50",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Voltaire, François Marie Arouet (1694-1778)"
+      ],
+      "confidence": "high",
+      "document_page": 55,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-C435A691E805"
+      ],
+      "evidence_summary": "The page treats the Calas and Sirven campaigns, penal cruelty, torture, public execution, and Beccaria-inspired reform. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-C435A691E805",
+      "path_id": "PATH-D264C948106B",
+      "severity": "none",
+      "source_page_label": "55",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Voltaire, François Marie Arouet (1694-1778)"
+      ],
+      "confidence": "high",
+      "document_page": 56,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-CF8D08C3FC5A"
+      ],
+      "evidence_summary": "The page explains judicial publicity, the changing authority of public opinion, pamphlet wars, printed remonstrances, and collapsing censorship. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-CF8D08C3FC5A",
+      "path_id": "PATH-D264C948106B",
+      "severity": "none",
+      "source_page_label": "56",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Voltaire, François Marie Arouet (1694-1778)"
+      ],
+      "confidence": "high",
+      "document_page": 65,
+      "error_codes": [
+        "LOC_POS",
+        "SEL"
+      ],
+      "evidence_ids": [
+        "EVID-ED27C3FBED2A"
+      ],
+      "evidence_summary": "The page analyzes masonic hierarchy, equality, philanthropy, conspiracy fears, and the limits of pre-revolutionary credulity. The heading appears only as an isolated illustration, setting, or member of a wider subject and lacks independent substantive treatment on this page.",
+      "judgment": "unsupported",
+      "locator_id": "LOC-ED27C3FBED2A",
+      "path_id": "PATH-D264C948106B",
+      "severity": "minor",
+      "source_page_label": "65",
+      "source_scope_status": "indexable",
+      "treatment_class": "incidental_example"
+    },
+    {
+      "complete_heading_path": [
+        "Walpole, Horace (1717-97)"
+      ],
+      "confidence": "high",
+      "document_page": 54,
+      "error_codes": [
+        "LOC_POS",
+        "SEL"
+      ],
+      "evidence_ids": [
+        "EVID-FE8BC6D04FB6"
+      ],
+      "evidence_summary": "The page analyzes Jansenist conflict, changing Catholic piety, monastic decline, and movement toward Protestant toleration. The named person functions only as an attributed or illustrative voice and is not independently treated on this page.",
+      "judgment": "unsupported",
+      "locator_id": "LOC-FE8BC6D04FB6",
+      "path_id": "PATH-369E238A2AD0",
+      "severity": "minor",
+      "source_page_label": "54",
+      "source_scope_status": "indexable",
+      "treatment_class": "attribution_only"
+    },
+    {
+      "complete_heading_path": [
+        "writers"
+      ],
+      "confidence": "high",
+      "document_page": 51,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-61C2EC8FE9AE"
+      ],
+      "evidence_summary": "The page completes Montesquieu's case for balanced powers and explains the collaborative Encyclopedie project and its censorship. The complete heading path is substantively supported in that discussion.",
+      "judgment": "supported",
+      "locator_id": "LOC-61C2EC8FE9AE",
+      "path_id": "PATH-9C387115B4E3",
+      "severity": "none",
+      "source_page_label": "51",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "writers"
+      ],
+      "confidence": "medium",
+      "document_page": 52,
+      "error_codes": [
+        "HED"
+      ],
+      "evidence_ids": [
+        "EVID-9C1E7A9D37F3"
+      ],
+      "evidence_summary": "The page analyzes Encyclopedie reception, Diderot's radicalism, Enlightenment progress, and Rousseau's critique of it. Writers are materially present through individual careers and works, but the undivided generic heading is broader than the specific treatment.",
+      "judgment": "partially_supported",
+      "locator_id": "LOC-9C1E7A9D37F3",
+      "path_id": "PATH-9C387115B4E3",
+      "severity": "minor",
+      "source_page_label": "52",
+      "source_scope_status": "indexable",
+      "treatment_class": "mixed"
+    },
+    {
+      "complete_heading_path": [
+        "writers"
+      ],
+      "confidence": "medium",
+      "document_page": 53,
+      "error_codes": [
+        "HED"
+      ],
+      "evidence_ids": [
+        "EVID-E9235B474D50"
+      ],
+      "evidence_summary": "The page develops Rousseau's political and religious thought and the Church's response to philosophic irreligion. Writers are materially present through individual careers and works, but the undivided generic heading is broader than the specific treatment.",
+      "judgment": "partially_supported",
+      "locator_id": "LOC-E9235B474D50",
+      "path_id": "PATH-9C387115B4E3",
+      "severity": "minor",
+      "source_page_label": "53",
+      "source_scope_status": "indexable",
+      "treatment_class": "mixed"
+    }
+  ],
+  "provenance": {
+    "benchmark_lock_sha256": "16e26f3d50da64fb211aba44940425ccbb20dcfa74e6e5202986b36cc9344ea8",
+    "benchmark_sha256": "b925797fcab50b2008ad5974590e323f772e5ea7013efa84ce7606007439aeb3",
+    "chunk_manifest_sha256": "5fc5450386114fdeb19838f54d3f1662c3d6dec81d4729c73f4f7ec0cb341a6f",
+    "item_inventory_file_sha256": "3e9c2b20d49486398bd57bfa31f5d1da1743498b47d0b9e46e42f096b56b9934",
+    "locator_packet_file_sha256": "bc73b46eb7ff944c79691e7f64f6c36c2f1aeb6579c88464a02c2922781281a9",
+    "normalized_candidate_file_sha256": "7b29d7716339038848e2b1b0ec17220ae1867cb95941f0f06a84488cd486ed79",
+    "page_map_sha256": "452602deebdae19f8e35c589f2ff2a7a0b9fc955d268b14f760391b0043e9653",
+    "policy_sha256": "914a7d7042d3f2d2e6cb40686faca331e6a5b029060027bfa769cc8b512c2e9a",
+    "source_sha256": "5f89aa2592218983c594278bfd86cc1e4b74be1dd6dd8aac5c2610a48fa34047"
+  },
+  "schema_version": "locator-audit-v1"
+}

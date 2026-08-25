@@ -1,0 +1,3967 @@
+{
+  "candidate_id": "oxford-history-french-revolution-2002-original-published-index",
+  "candidate_sha256": "1d43fe7fb158b352393c6e2f14843aae9ae23ccfca1f61c6783307432b0a9d09",
+  "chunk_id": "CHUNK-003",
+  "completion": {
+    "complete": true,
+    "expected": 192,
+    "judged": 192,
+    "unique": true
+  },
+  "evaluation_id": "oxford-history-french-revolution-2002-indexerlabs-truncated",
+  "expected_locator_ids": [
+    "LOC-9633626E76F6",
+    "LOC-D9EE368BD3BB",
+    "LOC-08F9A0DD93D5",
+    "LOC-4F781732748D",
+    "LOC-EA7536F0EAEA",
+    "LOC-58609CC49D2A",
+    "LOC-90CBDAB9A754",
+    "LOC-C57E6FC5E6C7",
+    "LOC-F2F22AD0F6EB",
+    "LOC-63305A05B044",
+    "LOC-613D0F7555FE",
+    "LOC-30205289871A",
+    "LOC-36C1D8DC1883",
+    "LOC-ADE1A23B5364",
+    "LOC-B291AEE9B47D",
+    "LOC-F3DC7C002EFA",
+    "LOC-33AABF2E330E",
+    "LOC-DD75DE9F1400",
+    "LOC-8EB0DA81557A",
+    "LOC-1E91C223C27E",
+    "LOC-EF1C84C23BFF",
+    "LOC-0A3777CEF8BB",
+    "LOC-BEE922E7048C",
+    "LOC-84EC5769AB8F",
+    "LOC-AC86415B094A",
+    "LOC-AB36E9C25297",
+    "LOC-7FCD2B3ABD13",
+    "LOC-104E718F7A28",
+    "LOC-22F7FDD32F4C",
+    "LOC-9DAF0F18621C",
+    "LOC-6AFCD937D989",
+    "LOC-BECA20F8AC6D",
+    "LOC-3C437F893362",
+    "LOC-95B0FEAEEEC1",
+    "LOC-1B79E64CDE18",
+    "LOC-5DA97C276978",
+    "LOC-A6BFBCDA36CC",
+    "LOC-F36EA8F224AC",
+    "LOC-15CF6A4B3584",
+    "LOC-6924373DBD37",
+    "LOC-C70F48AEE43E",
+    "LOC-70D8D0DDD833",
+    "LOC-234395BA670D",
+    "LOC-CE9A25FC38B8",
+    "LOC-E4BA44B3FDB4",
+    "LOC-4ADB169522A9",
+    "LOC-79FFC8D41663",
+    "LOC-93F49061D84D",
+    "LOC-42706BDA4974",
+    "LOC-8A2E2EFFAB3A",
+    "LOC-2BBD410D5A55",
+    "LOC-6C423655DC7D",
+    "LOC-1DCA15D0F269",
+    "LOC-A648D0B2A952",
+    "LOC-3D3C0448BE45",
+    "LOC-BBBBAF250BCF",
+    "LOC-F501AAE74510",
+    "LOC-F6F7B3AA8B64",
+    "LOC-5F9FF475B76D",
+    "LOC-F585615B670C",
+    "LOC-B848D58FDC1C",
+    "LOC-C03FCA017B3B",
+    "LOC-9836BA1A458F",
+    "LOC-97D43FA73ECB",
+    "LOC-805779F99527",
+    "LOC-345C3E0EAF1D",
+    "LOC-F35AC181CE1D",
+    "LOC-9CB874DD72D7",
+    "LOC-D9864D7C4913",
+    "LOC-EDC85F0BAD18",
+    "LOC-10E205739DD1",
+    "LOC-8359195EA379",
+    "LOC-6B1059E69952",
+    "LOC-B2819CCD6AE2",
+    "LOC-6755A0004CE0",
+    "LOC-E904308C6AAC",
+    "LOC-7E87DA7442FF",
+    "LOC-281B2E3D584F",
+    "LOC-F9EA75328E5F",
+    "LOC-5EC9D795B13A",
+    "LOC-C8354338E36B",
+    "LOC-76F8919711F8",
+    "LOC-E20104F22C54",
+    "LOC-E5046B50034C",
+    "LOC-C6F1E9C4A418",
+    "LOC-84DABE4FE364",
+    "LOC-8EDA8C2ACD9F",
+    "LOC-7B899833E761",
+    "LOC-5F15586E26AB",
+    "LOC-8529FB361619",
+    "LOC-96D01DCD4FFE",
+    "LOC-B33FE3156C9A",
+    "LOC-AAFA758A4202",
+    "LOC-CCE843E0BE0E",
+    "LOC-58C4FFA441A1",
+    "LOC-692435A20888",
+    "LOC-AB4B2ABA9189",
+    "LOC-C1B4477C108F",
+    "LOC-41F2A1882177",
+    "LOC-F072CF4DFD73",
+    "LOC-D1B0344785EC",
+    "LOC-B347C8B85DF8",
+    "LOC-76FAED5C8CA6",
+    "LOC-2AFA8C70F955",
+    "LOC-3E4C6F7CB5D9",
+    "LOC-F24E44839925",
+    "LOC-A94256FAFC04",
+    "LOC-C43DAB94F6E0",
+    "LOC-D6BE3366206C",
+    "LOC-7BBC79E6FAED",
+    "LOC-485F88273B2D",
+    "LOC-3762CBF7FF95",
+    "LOC-7B8586D9A1BD",
+    "LOC-113AC49DFC69",
+    "LOC-1AD5A1528BE2",
+    "LOC-2721DD0AAF5D",
+    "LOC-FAA0F68B3822",
+    "LOC-1C3832D5A948",
+    "LOC-998DBB8E8813",
+    "LOC-FF70E4F387F7",
+    "LOC-EF5F32AA34BD",
+    "LOC-B605A3551CA7",
+    "LOC-0223A74763D1",
+    "LOC-C35BB1A63FD5",
+    "LOC-1FAD4979FB8A",
+    "LOC-7463AEF7141F",
+    "LOC-984991A08512",
+    "LOC-964CF5043A53",
+    "LOC-97E5F288E613",
+    "LOC-9479FA72893F",
+    "LOC-5B84812A8924",
+    "LOC-B9C9C383AB0B",
+    "LOC-50875A4D83E6",
+    "LOC-FBE3A4B1DEC8",
+    "LOC-58277DBF784C",
+    "LOC-D84EC6B7230F",
+    "LOC-06E51766167B",
+    "LOC-96A63DB618E7",
+    "LOC-22F2F26E50BA",
+    "LOC-71A034E1A395",
+    "LOC-068A974A6606",
+    "LOC-457AC7475BD1",
+    "LOC-03C209B387C4",
+    "LOC-BCE74DE81196",
+    "LOC-7F5197814492",
+    "LOC-7D2A725E2BD3",
+    "LOC-06E017A6B3CC",
+    "LOC-F2264584EB1B",
+    "LOC-521A406D39E6",
+    "LOC-0A7EFDE383BE",
+    "LOC-3A2FE727A857",
+    "LOC-02E9739CFC2A",
+    "LOC-9ADD2154AAAE",
+    "LOC-CD44843AF8F5",
+    "LOC-D832F9D17C0E",
+    "LOC-6C3C54AB3EDA",
+    "LOC-D4752110FAEB",
+    "LOC-405327BD6F93",
+    "LOC-B58F3042015E",
+    "LOC-D52FBE41BFC1",
+    "LOC-15E12162210E",
+    "LOC-F5CD5911E1AA",
+    "LOC-8A4E4591E10B",
+    "LOC-01D2C282E0AB",
+    "LOC-C234DC9FC392",
+    "LOC-0BC270C3C84A",
+    "LOC-27AD0FEC526B",
+    "LOC-367A7DA5B78F",
+    "LOC-5DBF84C74C0A",
+    "LOC-C6B9212DF6F8",
+    "LOC-588EF7E954CF",
+    "LOC-26EA563174EF",
+    "LOC-19AAA13389C7",
+    "LOC-11FB62DFD313",
+    "LOC-589196FE7E9F",
+    "LOC-84CC83D264E1",
+    "LOC-9DCBD43AC339",
+    "LOC-9F52632DB304",
+    "LOC-737CF29845C4",
+    "LOC-FD4D52860375",
+    "LOC-7151F1F9FE25",
+    "LOC-D043448D2A39",
+    "LOC-C54992A2119E",
+    "LOC-C0DFED8C7FAC",
+    "LOC-A8A3C07ECA24",
+    "LOC-4714A6C1F538",
+    "LOC-B8AF675D1ACE",
+    "LOC-92E81314DB4F",
+    "LOC-A155AA6D15DD",
+    "LOC-94BD9399B66A",
+    "LOC-52ECB2EA5A5B",
+    "LOC-9EB02C4F6B09"
+  ],
+  "judgments": [
+    {
+      "complete_heading_path": [
+        "absolute monarchy"
+      ],
+      "confidence": "high",
+      "document_page": 75,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-075"
+      ],
+      "evidence_summary": "The page materially treats absolute monarchy within its account of the Assembly's constitutional consequences, public opposition, Brienne's reform agenda, and foreign-policy pressures.",
+      "judgment": "supported",
+      "locator_id": "LOC-9633626E76F6",
+      "path_id": "PATH-C02718BDC628",
+      "severity": "none",
+      "source_page_label": "75",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "absolute monarchy"
+      ],
+      "confidence": "high",
+      "document_page": 82,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-082"
+      ],
+      "evidence_summary": "The page materially treats absolute monarchy within its account of the May judicial reforms, arrests, the Plenary Court, and the monarchy's attempt to suppress obstruction.",
+      "judgment": "supported",
+      "locator_id": "LOC-D9EE368BD3BB",
+      "path_id": "PATH-C02718BDC628",
+      "severity": "none",
+      "source_page_label": "82",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "administrative reform"
+      ],
+      "confidence": "high",
+      "document_page": 76,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-076"
+      ],
+      "evidence_summary": "The page materially treats administrative reform within its account of parlementary resistance to the government's grain, corvee, stamp-duty, territorial-tax, and provincial-assembly measures.",
+      "judgment": "supported",
+      "locator_id": "LOC-08F9A0DD93D5",
+      "path_id": "PATH-6FFB906697D9",
+      "severity": "none",
+      "source_page_label": "76",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "American War of Independence"
+      ],
+      "confidence": "high",
+      "document_page": 66,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-066"
+      ],
+      "evidence_summary": "The page materially treats American War of Independence within its account of France's entry into the American war, Turgot's warning, Vergennes's role, and the fiscal consequences.",
+      "judgment": "supported",
+      "locator_id": "LOC-4F781732748D",
+      "path_id": "PATH-EB45E2F5A72B",
+      "severity": "none",
+      "source_page_label": "66",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "American War of Independence"
+      ],
+      "confidence": "high",
+      "document_page": 67,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-067"
+      ],
+      "evidence_summary": "The page materially treats American War of Independence within its account of Necker's loan-financed war policy, public-credit strategy, fiscal report, resignation, and ministerial succession.",
+      "judgment": "supported",
+      "locator_id": "LOC-EA7536F0EAEA",
+      "path_id": "PATH-EB45E2F5A72B",
+      "severity": "none",
+      "source_page_label": "67",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "anticipations"
+      ],
+      "confidence": "high",
+      "document_page": 84,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-084"
+      ],
+      "evidence_summary": "The page materially treats anticipations within its account of Brienne's and Lamoignon's failing programme, budget problems, anticipated revenues, and the July hailstorm.",
+      "judgment": "supported",
+      "locator_id": "LOC-58609CC49D2A",
+      "path_id": "PATH-F78F2C8BFAE8",
+      "severity": "none",
+      "source_page_label": "84",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "anticipations"
+      ],
+      "confidence": "high",
+      "document_page": 85,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-085"
+      ],
+      "evidence_summary": "The page materially treats anticipations within its account of the suspension of payments, market panic, Brienne's resignation, and Necker's recall.",
+      "judgment": "supported",
+      "locator_id": "LOC-90CBDAB9A754",
+      "path_id": "PATH-F78F2C8BFAE8",
+      "severity": "none",
+      "source_page_label": "85",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "army",
+        "Brienne's reforms"
+      ],
+      "confidence": "high",
+      "document_page": 83,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-083"
+      ],
+      "evidence_summary": "The page materially treats army > Brienne's reforms within its account of provincial resistance, riots, court defiance, military unrest, and calls for the Estates-General.",
+      "judgment": "supported",
+      "locator_id": "LOC-C57E6FC5E6C7",
+      "path_id": "PATH-6288E3F0429C",
+      "severity": "none",
+      "source_page_label": "83",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Artois, Count d' (brother of Louis XIV) (1757-1836)"
+      ],
+      "confidence": "high",
+      "document_page": 74,
+      "error_codes": [
+        "CON"
+      ],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-074"
+      ],
+      "evidence_summary": "The page substantively presents the Count d'Artois's call for the Estates-General, but the heading incorrectly identifies him as Louis XIV's brother.",
+      "judgment": "partially_supported",
+      "locator_id": "LOC-F2F22AD0F6EB",
+      "path_id": "PATH-4942886FBC12",
+      "severity": "minor",
+      "source_page_label": "74",
+      "source_scope_status": "indexable",
+      "treatment_class": "mixed"
+    },
+    {
+      "complete_heading_path": [
+        "Assembly of Notables"
+      ],
+      "confidence": "high",
+      "document_page": 70,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-070"
+      ],
+      "evidence_summary": "The page materially treats Assembly of Notables within its account of Calonne's attempt to obtain national endorsement from an Assembly of Notables for reform and borrowing.",
+      "judgment": "supported",
+      "locator_id": "LOC-63305A05B044",
+      "path_id": "PATH-7DBCBDCF0B3F",
+      "severity": "none",
+      "source_page_label": "70",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Assembly of Notables"
+      ],
+      "confidence": "high",
+      "document_page": 71,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-071"
+      ],
+      "evidence_summary": "The page materially treats Assembly of Notables within its account of opposition within the Notables, Calonne's rivalry with Necker, and disputes over taxation and representation.",
+      "judgment": "supported",
+      "locator_id": "LOC-613D0F7555FE",
+      "path_id": "PATH-7DBCBDCF0B3F",
+      "severity": "none",
+      "source_page_label": "71",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Assembly of Notables"
+      ],
+      "confidence": "high",
+      "document_page": 72,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-072"
+      ],
+      "evidence_summary": "The page materially treats Assembly of Notables within its account of the Notables' resistance, clerical taxation, public controversy, and demands for fuller accounts.",
+      "judgment": "supported",
+      "locator_id": "LOC-30205289871A",
+      "path_id": "PATH-7DBCBDCF0B3F",
+      "severity": "none",
+      "source_page_label": "72",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Assembly of Notables"
+      ],
+      "confidence": "high",
+      "document_page": 73,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-073"
+      ],
+      "evidence_summary": "The page materially treats Assembly of Notables within its account of Calonne's public campaign and dismissal, ministerial succession, and Necker's estrangement from the king.",
+      "judgment": "supported",
+      "locator_id": "LOC-36C1D8DC1883",
+      "path_id": "PATH-7DBCBDCF0B3F",
+      "severity": "none",
+      "source_page_label": "73",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Assembly of Notables"
+      ],
+      "confidence": "high",
+      "document_page": 74,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-074"
+      ],
+      "evidence_summary": "The page materially treats Assembly of Notables within its account of Brienne's handling of the Notables and the intensifying demand for an Estates-General.",
+      "judgment": "supported",
+      "locator_id": "LOC-ADE1A23B5364",
+      "path_id": "PATH-7DBCBDCF0B3F",
+      "severity": "none",
+      "source_page_label": "74",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Assembly of Notables"
+      ],
+      "confidence": "high",
+      "document_page": 75,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-075"
+      ],
+      "evidence_summary": "The page materially treats Assembly of Notables within its account of the Assembly's constitutional consequences, public opposition, Brienne's reform agenda, and foreign-policy pressures.",
+      "judgment": "supported",
+      "locator_id": "LOC-B291AEE9B47D",
+      "path_id": "PATH-7DBCBDCF0B3F",
+      "severity": "none",
+      "source_page_label": "75",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "bankruptcy"
+      ],
+      "confidence": "high",
+      "document_page": 85,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-085"
+      ],
+      "evidence_summary": "The page materially treats bankruptcy within its account of the suspension of payments, market panic, Brienne's resignation, and Necker's recall.",
+      "judgment": "supported",
+      "locator_id": "LOC-F3DC7C002EFA",
+      "path_id": "PATH-B6B019D9FE07",
+      "severity": "none",
+      "source_page_label": "85",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Bastille"
+      ],
+      "confidence": "high",
+      "document_page": 83,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-083"
+      ],
+      "evidence_summary": "The page materially treats Bastille within its account of provincial resistance, riots, court defiance, military unrest, and calls for the Estates-General.",
+      "judgment": "supported",
+      "locator_id": "LOC-33AABF2E330E",
+      "path_id": "PATH-E283461C207B",
+      "severity": "none",
+      "source_page_label": "83",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "bishops",
+        "pre-Revolution"
+      ],
+      "confidence": "high",
+      "document_page": 72,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-072"
+      ],
+      "evidence_summary": "The page materially treats bishops > pre-Revolution within its account of the Notables' resistance, clerical taxation, public controversy, and demands for fuller accounts.",
+      "judgment": "supported",
+      "locator_id": "LOC-DD75DE9F1400",
+      "path_id": "PATH-757E66C35E4B",
+      "severity": "none",
+      "source_page_label": "72",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "book publication"
+      ],
+      "confidence": "medium",
+      "document_page": 77,
+      "error_codes": [
+        "HED"
+      ],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-077"
+      ],
+      "evidence_summary": "The page describes suppression of unauthorized publications and action against booksellers, supporting only a narrower censorship aspect of the broad heading.",
+      "judgment": "partially_supported",
+      "locator_id": "LOC-8EB0DA81557A",
+      "path_id": "PATH-53560BAF819E",
+      "severity": "minor",
+      "source_page_label": "77",
+      "source_scope_status": "indexable",
+      "treatment_class": "mixed"
+    },
+    {
+      "complete_heading_path": [
+        "British empire"
+      ],
+      "confidence": "high",
+      "document_page": 66,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-066"
+      ],
+      "evidence_summary": "The page materially treats British empire within its account of France's entry into the American war, Turgot's warning, Vergennes's role, and the fiscal consequences.",
+      "judgment": "supported",
+      "locator_id": "LOC-1E91C223C27E",
+      "path_id": "PATH-681E9EB96C3E",
+      "severity": "none",
+      "source_page_label": "66",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Brittany"
+      ],
+      "confidence": "high",
+      "document_page": 83,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-083"
+      ],
+      "evidence_summary": "The page materially treats Brittany within its account of provincial resistance, riots, court defiance, military unrest, and calls for the Estates-General.",
+      "judgment": "supported",
+      "locator_id": "LOC-EF1C84C23BFF",
+      "path_id": "PATH-9FBD8438AF5E",
+      "severity": "none",
+      "source_page_label": "83",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Calonne, Charles Alexandre de (1734-1802)"
+      ],
+      "confidence": "high",
+      "document_page": 67,
+      "error_codes": [
+        "LOC_POS"
+      ],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-067"
+      ],
+      "evidence_summary": "The page remains focused on Necker and Joly de Fleury; Calonne's substantive treatment begins on the following page.",
+      "judgment": "unsupported",
+      "locator_id": "LOC-0A3777CEF8BB",
+      "path_id": "PATH-F5597A3AA659",
+      "severity": "minor",
+      "source_page_label": "67",
+      "source_scope_status": "indexable",
+      "treatment_class": "absent"
+    },
+    {
+      "complete_heading_path": [
+        "Calonne, Charles Alexandre de (1734-1802)"
+      ],
+      "confidence": "high",
+      "document_page": 68,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-068"
+      ],
+      "evidence_summary": "The page materially treats Calonne, Charles Alexandre de (1734-1802) within its account of Calonne's borrowing record and development of a comprehensive fiscal reform programme.",
+      "judgment": "supported",
+      "locator_id": "LOC-BEE922E7048C",
+      "path_id": "PATH-F5597A3AA659",
+      "severity": "none",
+      "source_page_label": "68",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Calonne, Charles Alexandre de (1734-1802)"
+      ],
+      "confidence": "high",
+      "document_page": 69,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-069"
+      ],
+      "evidence_summary": "The page materially treats Calonne, Charles Alexandre de (1734-1802) within its account of Calonne's tax, administrative, agrarian, and trade reforms and the debt pressures behind them.",
+      "judgment": "supported",
+      "locator_id": "LOC-84EC5769AB8F",
+      "path_id": "PATH-F5597A3AA659",
+      "severity": "none",
+      "source_page_label": "69",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Calonne, Charles Alexandre de (1734-1802)"
+      ],
+      "confidence": "high",
+      "document_page": 70,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-070"
+      ],
+      "evidence_summary": "The page materially treats Calonne, Charles Alexandre de (1734-1802) within its account of Calonne's attempt to obtain national endorsement from an Assembly of Notables for reform and borrowing.",
+      "judgment": "supported",
+      "locator_id": "LOC-AC86415B094A",
+      "path_id": "PATH-F5597A3AA659",
+      "severity": "none",
+      "source_page_label": "70",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Calonne, Charles Alexandre de (1734-1802)"
+      ],
+      "confidence": "high",
+      "document_page": 71,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-071"
+      ],
+      "evidence_summary": "The page materially treats Calonne, Charles Alexandre de (1734-1802) within its account of opposition within the Notables, Calonne's rivalry with Necker, and disputes over taxation and representation.",
+      "judgment": "supported",
+      "locator_id": "LOC-AB36E9C25297",
+      "path_id": "PATH-F5597A3AA659",
+      "severity": "none",
+      "source_page_label": "71",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Calonne, Charles Alexandre de (1734-1802)"
+      ],
+      "confidence": "high",
+      "document_page": 72,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-072"
+      ],
+      "evidence_summary": "The page materially treats Calonne, Charles Alexandre de (1734-1802) within its account of the Notables' resistance, clerical taxation, public controversy, and demands for fuller accounts.",
+      "judgment": "supported",
+      "locator_id": "LOC-7FCD2B3ABD13",
+      "path_id": "PATH-F5597A3AA659",
+      "severity": "none",
+      "source_page_label": "72",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Calonne, Charles Alexandre de (1734-1802)"
+      ],
+      "confidence": "high",
+      "document_page": 73,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-073"
+      ],
+      "evidence_summary": "The page materially treats Calonne, Charles Alexandre de (1734-1802) within its account of Calonne's public campaign and dismissal, ministerial succession, and Necker's estrangement from the king.",
+      "judgment": "supported",
+      "locator_id": "LOC-104E718F7A28",
+      "path_id": "PATH-F5597A3AA659",
+      "severity": "none",
+      "source_page_label": "73",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Calonne, Charles Alexandre de (1734-1802)"
+      ],
+      "confidence": "high",
+      "document_page": 74,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-074"
+      ],
+      "evidence_summary": "The page materially treats Calonne, Charles Alexandre de (1734-1802) within its account of Brienne's handling of the Notables and the intensifying demand for an Estates-General.",
+      "judgment": "supported",
+      "locator_id": "LOC-22F7FDD32F4C",
+      "path_id": "PATH-F5597A3AA659",
+      "severity": "none",
+      "source_page_label": "74",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Calonne, Charles Alexandre de (1734-1802)"
+      ],
+      "confidence": "high",
+      "document_page": 75,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-075"
+      ],
+      "evidence_summary": "The page materially treats Calonne, Charles Alexandre de (1734-1802) within its account of the Assembly's constitutional consequences, public opposition, Brienne's reform agenda, and foreign-policy pressures.",
+      "judgment": "supported",
+      "locator_id": "LOC-9DAF0F18621C",
+      "path_id": "PATH-F5597A3AA659",
+      "severity": "none",
+      "source_page_label": "75",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Calonne, Charles Alexandre de (1734-1802)"
+      ],
+      "confidence": "high",
+      "document_page": 77,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-077"
+      ],
+      "evidence_summary": "The page materially treats Calonne, Charles Alexandre de (1734-1802) within its account of forced registration, judicial resistance, repression in Paris, and the Dutch crisis.",
+      "judgment": "supported",
+      "locator_id": "LOC-6AFCD937D989",
+      "path_id": "PATH-F5597A3AA659",
+      "severity": "none",
+      "source_page_label": "77",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Catholic Church",
+        "self-taxation"
+      ],
+      "confidence": "high",
+      "document_page": 72,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-072"
+      ],
+      "evidence_summary": "The page materially treats Catholic Church > self-taxation within its account of the Notables' resistance, clerical taxation, public controversy, and demands for fuller accounts.",
+      "judgment": "supported",
+      "locator_id": "LOC-BECA20F8AC6D",
+      "path_id": "PATH-CFA83F737210",
+      "severity": "none",
+      "source_page_label": "72",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "clergy",
+        "parish"
+      ],
+      "confidence": "high",
+      "document_page": 73,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-073"
+      ],
+      "evidence_summary": "The page materially treats clergy > parish within its account of Calonne's public campaign and dismissal, ministerial succession, and Necker's estrangement from the king.",
+      "judgment": "supported",
+      "locator_id": "LOC-3C437F893362",
+      "path_id": "PATH-D0C59788488A",
+      "severity": "none",
+      "source_page_label": "73",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "clergy",
+        "protests"
+      ],
+      "confidence": "high",
+      "document_page": 83,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-083"
+      ],
+      "evidence_summary": "The page materially treats clergy > protests within its account of provincial resistance, riots, court defiance, military unrest, and calls for the Estates-General.",
+      "judgment": "supported",
+      "locator_id": "LOC-95B0FEAEEEC1",
+      "path_id": "PATH-AEA97CF869A7",
+      "severity": "none",
+      "source_page_label": "83",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Compte rendu"
+      ],
+      "confidence": "high",
+      "document_page": 67,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-067"
+      ],
+      "evidence_summary": "The page materially treats Compte rendu within its account of Necker's loan-financed war policy, public-credit strategy, fiscal report, resignation, and ministerial succession.",
+      "judgment": "supported",
+      "locator_id": "LOC-1B79E64CDE18",
+      "path_id": "PATH-23DB147EB166",
+      "severity": "none",
+      "source_page_label": "67",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Compte rendu"
+      ],
+      "confidence": "high",
+      "document_page": 71,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-071"
+      ],
+      "evidence_summary": "The page materially treats Compte rendu within its account of opposition within the Notables, Calonne's rivalry with Necker, and disputes over taxation and representation.",
+      "judgment": "supported",
+      "locator_id": "LOC-5DA97C276978",
+      "path_id": "PATH-23DB147EB166",
+      "severity": "none",
+      "source_page_label": "71",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Compte rendu"
+      ],
+      "confidence": "high",
+      "document_page": 72,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-072"
+      ],
+      "evidence_summary": "The page materially treats Compte rendu within its account of the Notables' resistance, clerical taxation, public controversy, and demands for fuller accounts.",
+      "judgment": "supported",
+      "locator_id": "LOC-A6BFBCDA36CC",
+      "path_id": "PATH-23DB147EB166",
+      "severity": "none",
+      "source_page_label": "72",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Compte rendu"
+      ],
+      "confidence": "high",
+      "document_page": 73,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-073"
+      ],
+      "evidence_summary": "The page materially treats Compte rendu within its account of Calonne's public campaign and dismissal, ministerial succession, and Necker's estrangement from the king.",
+      "judgment": "supported",
+      "locator_id": "LOC-F36EA8F224AC",
+      "path_id": "PATH-23DB147EB166",
+      "severity": "none",
+      "source_page_label": "73",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Compte rendu"
+      ],
+      "confidence": "high",
+      "document_page": 82,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-082"
+      ],
+      "evidence_summary": "The page materially treats Compte rendu within its account of the May judicial reforms, arrests, the Plenary Court, and the monarchy's attempt to suppress obstruction.",
+      "judgment": "supported",
+      "locator_id": "LOC-15CF6A4B3584",
+      "path_id": "PATH-23DB147EB166",
+      "severity": "none",
+      "source_page_label": "82",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Compte rendu"
+      ],
+      "confidence": "high",
+      "document_page": 84,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-084"
+      ],
+      "evidence_summary": "The page materially treats Compte rendu within its account of Brienne's and Lamoignon's failing programme, budget problems, anticipated revenues, and the July hailstorm.",
+      "judgment": "supported",
+      "locator_id": "LOC-6924373DBD37",
+      "path_id": "PATH-23DB147EB166",
+      "severity": "none",
+      "source_page_label": "84",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "corvée"
+      ],
+      "confidence": "high",
+      "document_page": 69,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-069"
+      ],
+      "evidence_summary": "The page materially treats corvée within its account of Calonne's tax, administrative, agrarian, and trade reforms and the debt pressures behind them.",
+      "judgment": "supported",
+      "locator_id": "LOC-C70F48AEE43E",
+      "path_id": "PATH-245341D6552E",
+      "severity": "none",
+      "source_page_label": "69",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "corvée"
+      ],
+      "confidence": "high",
+      "document_page": 76,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-076"
+      ],
+      "evidence_summary": "The page materially treats corvée within its account of parlementary resistance to the government's grain, corvee, stamp-duty, territorial-tax, and provincial-assembly measures.",
+      "judgment": "supported",
+      "locator_id": "LOC-70D8D0DDD833",
+      "path_id": "PATH-245341D6552E",
+      "severity": "none",
+      "source_page_label": "76",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "criminal law"
+      ],
+      "confidence": "high",
+      "document_page": 82,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-082"
+      ],
+      "evidence_summary": "The page materially treats criminal law within its account of the May judicial reforms, arrests, the Plenary Court, and the monarchy's attempt to suppress obstruction.",
+      "judgment": "supported",
+      "locator_id": "LOC-234395BA670D",
+      "path_id": "PATH-4F5ED8073088",
+      "severity": "none",
+      "source_page_label": "82",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Dauphiné"
+      ],
+      "confidence": "high",
+      "document_page": 83,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-083"
+      ],
+      "evidence_summary": "The page materially treats Dauphiné within its account of provincial resistance, riots, court defiance, military unrest, and calls for the Estates-General.",
+      "judgment": "supported",
+      "locator_id": "LOC-CE9A25FC38B8",
+      "path_id": "PATH-4A5F1130A3BF",
+      "severity": "none",
+      "source_page_label": "83",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "despotism"
+      ],
+      "confidence": "high",
+      "document_page": 80,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-080"
+      ],
+      "evidence_summary": "The page materially treats despotism within its account of the parlement's resistance after the Royal Session, exiles, civil-rights registration, and denunciations of despotism.",
+      "judgment": "supported",
+      "locator_id": "LOC-E4BA44B3FDB4",
+      "path_id": "PATH-CE8BE3440B19",
+      "severity": "none",
+      "source_page_label": "80",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Dupont de Nemours, Pierre Samuel (1739-1817)"
+      ],
+      "confidence": "high",
+      "document_page": 69,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-069"
+      ],
+      "evidence_summary": "The page materially treats Dupont de Nemours, Pierre Samuel (1739-1817) within its account of Calonne's tax, administrative, agrarian, and trade reforms and the debt pressures behind them.",
+      "judgment": "supported",
+      "locator_id": "LOC-4ADB169522A9",
+      "path_id": "PATH-CC508A591322",
+      "severity": "none",
+      "source_page_label": "69",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Dutch Republic"
+      ],
+      "confidence": "high",
+      "document_page": 75,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-075"
+      ],
+      "evidence_summary": "The page materially treats Dutch Republic within its account of the Assembly's constitutional consequences, public opposition, Brienne's reform agenda, and foreign-policy pressures.",
+      "judgment": "supported",
+      "locator_id": "LOC-79FFC8D41663",
+      "path_id": "PATH-E5BB43AFD121",
+      "severity": "none",
+      "source_page_label": "75",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Dutch Republic"
+      ],
+      "confidence": "high",
+      "document_page": 77,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-077"
+      ],
+      "evidence_summary": "The page materially treats Dutch Republic within its account of forced registration, judicial resistance, repression in Paris, and the Dutch crisis.",
+      "judgment": "supported",
+      "locator_id": "LOC-93F49061D84D",
+      "path_id": "PATH-E5BB43AFD121",
+      "severity": "none",
+      "source_page_label": "77",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Dutch Republic"
+      ],
+      "confidence": "high",
+      "document_page": 79,
+      "error_codes": [
+        "LOC_POS"
+      ],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-079"
+      ],
+      "evidence_summary": "The page concerns Brienne's loan plan and the Royal Session; it does not treat the Dutch Republic.",
+      "judgment": "unsupported",
+      "locator_id": "LOC-42706BDA4974",
+      "path_id": "PATH-E5BB43AFD121",
+      "severity": "minor",
+      "source_page_label": "79",
+      "source_scope_status": "indexable",
+      "treatment_class": "absent"
+    },
+    {
+      "complete_heading_path": [
+        "Duval d’Esprémesnil, Jean Jacques (1746-94)"
+      ],
+      "confidence": "high",
+      "document_page": 79,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-079"
+      ],
+      "evidence_summary": "The page materially treats Duval d’Esprémesnil, Jean Jacques (1746-94) within its account of Brienne's five-year loan plan and the contentious Royal Session used to secure registration.",
+      "judgment": "supported",
+      "locator_id": "LOC-8A2E2EFFAB3A",
+      "path_id": "PATH-8DDBD40E5A9B",
+      "severity": "none",
+      "source_page_label": "79",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Duval d’Esprémesnil, Jean Jacques (1746-94)"
+      ],
+      "confidence": "high",
+      "document_page": 81,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-081"
+      ],
+      "evidence_summary": "The page materially treats Duval d’Esprémesnil, Jean Jacques (1746-94) within its account of the courts' constitutional remonstrances and continuing resistance to Brienne's programme.",
+      "judgment": "supported",
+      "locator_id": "LOC-2BBD410D5A55",
+      "path_id": "PATH-8DDBD40E5A9B",
+      "severity": "none",
+      "source_page_label": "81",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Duval d’Esprémesnil, Jean Jacques (1746-94)"
+      ],
+      "confidence": "high",
+      "document_page": 82,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-082"
+      ],
+      "evidence_summary": "The page materially treats Duval d’Esprémesnil, Jean Jacques (1746-94) within its account of the May judicial reforms, arrests, the Plenary Court, and the monarchy's attempt to suppress obstruction.",
+      "judgment": "supported",
+      "locator_id": "LOC-6C423655DC7D",
+      "path_id": "PATH-8DDBD40E5A9B",
+      "severity": "none",
+      "source_page_label": "82",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "economy",
+        "reform of"
+      ],
+      "confidence": "high",
+      "document_page": 68,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-068"
+      ],
+      "evidence_summary": "The page materially treats economy > reform of within its account of Calonne's borrowing record and development of a comprehensive fiscal reform programme.",
+      "judgment": "supported",
+      "locator_id": "LOC-1DCA15D0F269",
+      "path_id": "PATH-1029EC203552",
+      "severity": "none",
+      "source_page_label": "68",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "economy",
+        "reform of"
+      ],
+      "confidence": "high",
+      "document_page": 69,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-069"
+      ],
+      "evidence_summary": "The page materially treats economy > reform of within its account of Calonne's tax, administrative, agrarian, and trade reforms and the debt pressures behind them.",
+      "judgment": "supported",
+      "locator_id": "LOC-A648D0B2A952",
+      "path_id": "PATH-1029EC203552",
+      "severity": "none",
+      "source_page_label": "69",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "economy",
+        "reform of"
+      ],
+      "confidence": "high",
+      "document_page": 70,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-070"
+      ],
+      "evidence_summary": "The page materially treats economy > reform of within its account of Calonne's attempt to obtain national endorsement from an Assembly of Notables for reform and borrowing.",
+      "judgment": "supported",
+      "locator_id": "LOC-3D3C0448BE45",
+      "path_id": "PATH-1029EC203552",
+      "severity": "none",
+      "source_page_label": "70",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "economy",
+        "reform of"
+      ],
+      "confidence": "high",
+      "document_page": 71,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-071"
+      ],
+      "evidence_summary": "The page materially treats economy > reform of within its account of opposition within the Notables, Calonne's rivalry with Necker, and disputes over taxation and representation.",
+      "judgment": "supported",
+      "locator_id": "LOC-BBBBAF250BCF",
+      "path_id": "PATH-1029EC203552",
+      "severity": "none",
+      "source_page_label": "71",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "economy",
+        "reform of"
+      ],
+      "confidence": "high",
+      "document_page": 82,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-082"
+      ],
+      "evidence_summary": "The page materially treats economy > reform of within its account of the May judicial reforms, arrests, the Plenary Court, and the monarchy's attempt to suppress obstruction.",
+      "judgment": "supported",
+      "locator_id": "LOC-F501AAE74510",
+      "path_id": "PATH-1029EC203552",
+      "severity": "none",
+      "source_page_label": "82",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Estates-General",
+        "calls for"
+      ],
+      "confidence": "high",
+      "document_page": 70,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-070"
+      ],
+      "evidence_summary": "The page materially treats Estates-General > calls for within its account of Calonne's attempt to obtain national endorsement from an Assembly of Notables for reform and borrowing.",
+      "judgment": "supported",
+      "locator_id": "LOC-F6F7B3AA8B64",
+      "path_id": "PATH-8D0E49285790",
+      "severity": "none",
+      "source_page_label": "70",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Estates-General",
+        "calls for"
+      ],
+      "confidence": "high",
+      "document_page": 74,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-074"
+      ],
+      "evidence_summary": "The page materially treats Estates-General > calls for within its account of Brienne's handling of the Notables and the intensifying demand for an Estates-General.",
+      "judgment": "supported",
+      "locator_id": "LOC-5F9FF475B76D",
+      "path_id": "PATH-8D0E49285790",
+      "severity": "none",
+      "source_page_label": "74",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Estates-General",
+        "calls for"
+      ],
+      "confidence": "high",
+      "document_page": 76,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-076"
+      ],
+      "evidence_summary": "The page materially treats Estates-General > calls for within its account of parlementary resistance to the government's grain, corvee, stamp-duty, territorial-tax, and provincial-assembly measures.",
+      "judgment": "supported",
+      "locator_id": "LOC-F585615B670C",
+      "path_id": "PATH-8D0E49285790",
+      "severity": "none",
+      "source_page_label": "76",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Estates-General",
+        "calls for"
+      ],
+      "confidence": "high",
+      "document_page": 79,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-079"
+      ],
+      "evidence_summary": "The page materially treats Estates-General > calls for within its account of Brienne's five-year loan plan and the contentious Royal Session used to secure registration.",
+      "judgment": "supported",
+      "locator_id": "LOC-B848D58FDC1C",
+      "path_id": "PATH-8D0E49285790",
+      "severity": "none",
+      "source_page_label": "79",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Estates-General",
+        "calls for"
+      ],
+      "confidence": "high",
+      "document_page": 80,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-080"
+      ],
+      "evidence_summary": "The page materially treats Estates-General > calls for within its account of the parlement's resistance after the Royal Session, exiles, civil-rights registration, and denunciations of despotism.",
+      "judgment": "supported",
+      "locator_id": "LOC-C03FCA017B3B",
+      "path_id": "PATH-8D0E49285790",
+      "severity": "none",
+      "source_page_label": "80",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Estates-General",
+        "calls for"
+      ],
+      "confidence": "high",
+      "document_page": 83,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-083"
+      ],
+      "evidence_summary": "The page materially treats Estates-General > calls for within its account of provincial resistance, riots, court defiance, military unrest, and calls for the Estates-General.",
+      "judgment": "supported",
+      "locator_id": "LOC-9836BA1A458F",
+      "path_id": "PATH-8D0E49285790",
+      "severity": "none",
+      "source_page_label": "83",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "financiers"
+      ],
+      "confidence": "high",
+      "document_page": 79,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-079"
+      ],
+      "evidence_summary": "The page materially treats financiers within its account of Brienne's five-year loan plan and the contentious Royal Session used to secure registration.",
+      "judgment": "supported",
+      "locator_id": "LOC-97D43FA73ECB",
+      "path_id": "PATH-08B4289C8F3F",
+      "severity": "none",
+      "source_page_label": "79",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "free trade"
+      ],
+      "confidence": "high",
+      "document_page": 69,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-069"
+      ],
+      "evidence_summary": "The page materially treats free trade within its account of Calonne's tax, administrative, agrarian, and trade reforms and the debt pressures behind them.",
+      "judgment": "supported",
+      "locator_id": "LOC-805779F99527",
+      "path_id": "PATH-C2C53BEFDBDE",
+      "severity": "none",
+      "source_page_label": "69",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "free trade"
+      ],
+      "confidence": "high",
+      "document_page": 76,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-076"
+      ],
+      "evidence_summary": "The page materially treats free trade within its account of parlementary resistance to the government's grain, corvee, stamp-duty, territorial-tax, and provincial-assembly measures.",
+      "judgment": "supported",
+      "locator_id": "LOC-345C3E0EAF1D",
+      "path_id": "PATH-C2C53BEFDBDE",
+      "severity": "none",
+      "source_page_label": "76",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Fréteau, Emmanuel Marie Michel Philippe (1745-94)"
+      ],
+      "confidence": "high",
+      "document_page": 80,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-080"
+      ],
+      "evidence_summary": "The page materially treats Fréteau, Emmanuel Marie Michel Philippe (1745-94) within its account of the parlement's resistance after the Royal Session, exiles, civil-rights registration, and denunciations of despotism.",
+      "judgment": "supported",
+      "locator_id": "LOC-F35AC181CE1D",
+      "path_id": "PATH-3C92B63372B9",
+      "severity": "none",
+      "source_page_label": "80",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "grain",
+        "trade"
+      ],
+      "confidence": "high",
+      "document_page": 69,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-069"
+      ],
+      "evidence_summary": "The page materially treats grain > trade within its account of Calonne's tax, administrative, agrarian, and trade reforms and the debt pressures behind them.",
+      "judgment": "supported",
+      "locator_id": "LOC-9CB874DD72D7",
+      "path_id": "PATH-D72DF66BCE2F",
+      "severity": "none",
+      "source_page_label": "69",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Great Britain",
+        "trade"
+      ],
+      "confidence": "high",
+      "document_page": 69,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-069"
+      ],
+      "evidence_summary": "The page materially treats Great Britain > trade within its account of Calonne's tax, administrative, agrarian, and trade reforms and the debt pressures behind them.",
+      "judgment": "supported",
+      "locator_id": "LOC-D9864D7C4913",
+      "path_id": "PATH-FE4B41118B10",
+      "severity": "none",
+      "source_page_label": "69",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "harvest failures",
+        "hail storm"
+      ],
+      "confidence": "high",
+      "document_page": 84,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-084"
+      ],
+      "evidence_summary": "The page materially treats harvest failures > hail storm within its account of Brienne's and Lamoignon's failing programme, budget problems, anticipated revenues, and the July hailstorm.",
+      "judgment": "supported",
+      "locator_id": "LOC-EDC85F0BAD18",
+      "path_id": "PATH-86BB1DC63671",
+      "severity": "none",
+      "source_page_label": "84",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "intendants"
+      ],
+      "confidence": "high",
+      "document_page": 67,
+      "error_codes": [
+        "LOC_POS"
+      ],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-067"
+      ],
+      "evidence_summary": "The page discusses Necker's fiscal administration but does not mention or materially treat intendants.",
+      "judgment": "unsupported",
+      "locator_id": "LOC-10E205739DD1",
+      "path_id": "PATH-30E850E1F5C7",
+      "severity": "minor",
+      "source_page_label": "67",
+      "source_scope_status": "indexable",
+      "treatment_class": "absent"
+    },
+    {
+      "complete_heading_path": [
+        "intendants"
+      ],
+      "confidence": "high",
+      "document_page": 72,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-072"
+      ],
+      "evidence_summary": "The page materially treats intendants within its account of the Notables' resistance, clerical taxation, public controversy, and demands for fuller accounts.",
+      "judgment": "supported",
+      "locator_id": "LOC-8359195EA379",
+      "path_id": "PATH-30E850E1F5C7",
+      "severity": "none",
+      "source_page_label": "72",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Joly de Fleury, Jean François (1718-1802)"
+      ],
+      "confidence": "high",
+      "document_page": 67,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-067"
+      ],
+      "evidence_summary": "The page materially treats Joly de Fleury, Jean François (1718-1802) within its account of Necker's loan-financed war policy, public-credit strategy, fiscal report, resignation, and ministerial succession.",
+      "judgment": "supported",
+      "locator_id": "LOC-6B1059E69952",
+      "path_id": "PATH-7AF06C521742",
+      "severity": "none",
+      "source_page_label": "67",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "judiciary"
+      ],
+      "confidence": "high",
+      "document_page": 82,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-082"
+      ],
+      "evidence_summary": "The page materially treats judiciary within its account of the May judicial reforms, arrests, the Plenary Court, and the monarchy's attempt to suppress obstruction.",
+      "judgment": "supported",
+      "locator_id": "LOC-B2819CCD6AE2",
+      "path_id": "PATH-B73A0B404A97",
+      "severity": "none",
+      "source_page_label": "82",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Lafayette, Marie-Joseph Paul Yves Roche Gilbert du Motier, Marquis de (1757–1834)"
+      ],
+      "confidence": "medium",
+      "document_page": 70,
+      "error_codes": [
+        "SEL",
+        "LOC_POS"
+      ],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-070"
+      ],
+      "evidence_summary": "Lafayette appears only as one illustrative member in the Assembly's composition, without substantive treatment of him.",
+      "judgment": "unsupported",
+      "locator_id": "LOC-6755A0004CE0",
+      "path_id": "PATH-D7CE643AC3CC",
+      "severity": "minor",
+      "source_page_label": "70",
+      "source_scope_status": "indexable",
+      "treatment_class": "incidental_example"
+    },
+    {
+      "complete_heading_path": [
+        "Lafayette, Marie-Joseph Paul Yves Roche Gilbert du Motier, Marquis de (1757–1834)"
+      ],
+      "confidence": "high",
+      "document_page": 72,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-072"
+      ],
+      "evidence_summary": "The page materially treats Lafayette, Marie-Joseph Paul Yves Roche Gilbert du Motier, Marquis de (1757–1834) within its account of the Notables' resistance, clerical taxation, public controversy, and demands for fuller accounts.",
+      "judgment": "supported",
+      "locator_id": "LOC-E904308C6AAC",
+      "path_id": "PATH-D7CE643AC3CC",
+      "severity": "none",
+      "source_page_label": "72",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Lafayette, Marie-Joseph Paul Yves Roche Gilbert du Motier, Marquis de (1757–1834)"
+      ],
+      "confidence": "high",
+      "document_page": 74,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-074"
+      ],
+      "evidence_summary": "The page materially treats Lafayette, Marie-Joseph Paul Yves Roche Gilbert du Motier, Marquis de (1757–1834) within its account of Brienne's handling of the Notables and the intensifying demand for an Estates-General.",
+      "judgment": "supported",
+      "locator_id": "LOC-7E87DA7442FF",
+      "path_id": "PATH-D7CE643AC3CC",
+      "severity": "none",
+      "source_page_label": "74",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Lamoignon, Chr2tien Fran3ois de (1735–1832)"
+      ],
+      "confidence": "high",
+      "document_page": 73,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-073"
+      ],
+      "evidence_summary": "The page materially treats Lamoignon, Chr2tien Fran3ois de (1735–1832) within its account of Calonne's public campaign and dismissal, ministerial succession, and Necker's estrangement from the king.",
+      "judgment": "supported",
+      "locator_id": "LOC-281B2E3D584F",
+      "path_id": "PATH-69F2A871B0D7",
+      "severity": "none",
+      "source_page_label": "73",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Lamoignon, Chr2tien Fran3ois de (1735–1832)"
+      ],
+      "confidence": "high",
+      "document_page": 78,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-078"
+      ],
+      "evidence_summary": "The page materially treats Lamoignon, Chr2tien Fran3ois de (1735–1832) within its account of the compromise with the parlements, continuing fiscal opposition, and plans for retrenchment and new borrowing.",
+      "judgment": "supported",
+      "locator_id": "LOC-F9EA75328E5F",
+      "path_id": "PATH-69F2A871B0D7",
+      "severity": "none",
+      "source_page_label": "78",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Lamoignon, Chr2tien Fran3ois de (1735–1832)"
+      ],
+      "confidence": "high",
+      "document_page": 82,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-082"
+      ],
+      "evidence_summary": "The page materially treats Lamoignon, Chr2tien Fran3ois de (1735–1832) within its account of the May judicial reforms, arrests, the Plenary Court, and the monarchy's attempt to suppress obstruction.",
+      "judgment": "supported",
+      "locator_id": "LOC-5EC9D795B13A",
+      "path_id": "PATH-69F2A871B0D7",
+      "severity": "none",
+      "source_page_label": "82",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Lamoignon, Chr2tien Fran3ois de (1735–1832)"
+      ],
+      "confidence": "high",
+      "document_page": 83,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-083"
+      ],
+      "evidence_summary": "The page materially treats Lamoignon, Chr2tien Fran3ois de (1735–1832) within its account of provincial resistance, riots, court defiance, military unrest, and calls for the Estates-General.",
+      "judgment": "supported",
+      "locator_id": "LOC-C8354338E36B",
+      "path_id": "PATH-69F2A871B0D7",
+      "severity": "none",
+      "source_page_label": "83",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Lamoignon, Chr2tien Fran3ois de (1735–1832)"
+      ],
+      "confidence": "high",
+      "document_page": 84,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-084"
+      ],
+      "evidence_summary": "The page materially treats Lamoignon, Chr2tien Fran3ois de (1735–1832) within its account of Brienne's and Lamoignon's failing programme, budget problems, anticipated revenues, and the July hailstorm.",
+      "judgment": "supported",
+      "locator_id": "LOC-76F8919711F8",
+      "path_id": "PATH-69F2A871B0D7",
+      "severity": "none",
+      "source_page_label": "84",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Lamoignon, Chr2tien Fran3ois de (1735–1832)"
+      ],
+      "confidence": "high",
+      "document_page": 85,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-085"
+      ],
+      "evidence_summary": "The page materially treats Lamoignon, Chr2tien Fran3ois de (1735–1832) within its account of the suspension of payments, market panic, Brienne's resignation, and Necker's recall.",
+      "judgment": "supported",
+      "locator_id": "LOC-E20104F22C54",
+      "path_id": "PATH-69F2A871B0D7",
+      "severity": "none",
+      "source_page_label": "85",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Leblanc de Castillon, Jean Fran3ois Andr2 (d.1719)"
+      ],
+      "confidence": "high",
+      "document_page": 72,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-072"
+      ],
+      "evidence_summary": "The page materially treats Leblanc de Castillon, Jean Fran3ois Andr2 (d.1719) within its account of the Notables' resistance, clerical taxation, public controversy, and demands for fuller accounts.",
+      "judgment": "supported",
+      "locator_id": "LOC-E5046B50034C",
+      "path_id": "PATH-6F44DE485426",
+      "severity": "none",
+      "source_page_label": "72",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "lettres de cachet"
+      ],
+      "confidence": "high",
+      "document_page": 80,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-080"
+      ],
+      "evidence_summary": "The page materially treats lettres de cachet within its account of the parlement's resistance after the Royal Session, exiles, civil-rights registration, and denunciations of despotism.",
+      "judgment": "supported",
+      "locator_id": "LOC-C6F1E9C4A418",
+      "path_id": "PATH-4735A51EDBD3",
+      "severity": "none",
+      "source_page_label": "80",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "lettres de cachet"
+      ],
+      "confidence": "high",
+      "document_page": 83,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-083"
+      ],
+      "evidence_summary": "The page materially treats lettres de cachet within its account of provincial resistance, riots, court defiance, military unrest, and calls for the Estates-General.",
+      "judgment": "supported",
+      "locator_id": "LOC-84DABE4FE364",
+      "path_id": "PATH-4735A51EDBD3",
+      "severity": "none",
+      "source_page_label": "83",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "lit de justice session"
+      ],
+      "confidence": "high",
+      "document_page": 76,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-076"
+      ],
+      "evidence_summary": "The page materially treats lit de justice session within its account of parlementary resistance to the government's grain, corvee, stamp-duty, territorial-tax, and provincial-assembly measures.",
+      "judgment": "supported",
+      "locator_id": "LOC-8EDA8C2ACD9F",
+      "path_id": "PATH-E7759256863E",
+      "severity": "none",
+      "source_page_label": "76",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "lit de justice session"
+      ],
+      "confidence": "high",
+      "document_page": 77,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-077"
+      ],
+      "evidence_summary": "The page materially treats lit de justice session within its account of forced registration, judicial resistance, repression in Paris, and the Dutch crisis.",
+      "judgment": "supported",
+      "locator_id": "LOC-7B899833E761",
+      "path_id": "PATH-E7759256863E",
+      "severity": "none",
+      "source_page_label": "77",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "lit de justice session"
+      ],
+      "confidence": "high",
+      "document_page": 82,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-082"
+      ],
+      "evidence_summary": "The page materially treats lit de justice session within its account of the May judicial reforms, arrests, the Plenary Court, and the monarchy's attempt to suppress obstruction.",
+      "judgment": "supported",
+      "locator_id": "LOC-5F15586E26AB",
+      "path_id": "PATH-E7759256863E",
+      "severity": "none",
+      "source_page_label": "82",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "loan edicts"
+      ],
+      "confidence": "high",
+      "document_page": 78,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-078"
+      ],
+      "evidence_summary": "The page materially treats loan edicts within its account of the compromise with the parlements, continuing fiscal opposition, and plans for retrenchment and new borrowing.",
+      "judgment": "supported",
+      "locator_id": "LOC-8529FB361619",
+      "path_id": "PATH-2FF498F1085B",
+      "severity": "none",
+      "source_page_label": "78",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "loans"
+      ],
+      "confidence": "high",
+      "document_page": 67,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-067"
+      ],
+      "evidence_summary": "The page materially treats loans within its account of Necker's loan-financed war policy, public-credit strategy, fiscal report, resignation, and ministerial succession.",
+      "judgment": "supported",
+      "locator_id": "LOC-96D01DCD4FFE",
+      "path_id": "PATH-2A613543A71B",
+      "severity": "none",
+      "source_page_label": "67",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "loans"
+      ],
+      "confidence": "high",
+      "document_page": 68,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-068"
+      ],
+      "evidence_summary": "The page materially treats loans within its account of Calonne's borrowing record and development of a comprehensive fiscal reform programme.",
+      "judgment": "supported",
+      "locator_id": "LOC-B33FE3156C9A",
+      "path_id": "PATH-2A613543A71B",
+      "severity": "none",
+      "source_page_label": "68",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "loans"
+      ],
+      "confidence": "high",
+      "document_page": 69,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-069"
+      ],
+      "evidence_summary": "The page materially treats loans within its account of Calonne's tax, administrative, agrarian, and trade reforms and the debt pressures behind them.",
+      "judgment": "supported",
+      "locator_id": "LOC-AAFA758A4202",
+      "path_id": "PATH-2A613543A71B",
+      "severity": "none",
+      "source_page_label": "69",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "loans"
+      ],
+      "confidence": "high",
+      "document_page": 70,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-070"
+      ],
+      "evidence_summary": "The page materially treats loans within its account of Calonne's attempt to obtain national endorsement from an Assembly of Notables for reform and borrowing.",
+      "judgment": "supported",
+      "locator_id": "LOC-CCE843E0BE0E",
+      "path_id": "PATH-2A613543A71B",
+      "severity": "none",
+      "source_page_label": "70",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "loans"
+      ],
+      "confidence": "high",
+      "document_page": 75,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-075"
+      ],
+      "evidence_summary": "The page materially treats loans within its account of the Assembly's constitutional consequences, public opposition, Brienne's reform agenda, and foreign-policy pressures.",
+      "judgment": "supported",
+      "locator_id": "LOC-58C4FFA441A1",
+      "path_id": "PATH-2A613543A71B",
+      "severity": "none",
+      "source_page_label": "75",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Loménie de Brienne, Étienne Charles, archbishop of Toulouse (1727-4)"
+      ],
+      "confidence": "high",
+      "document_page": 71,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-071"
+      ],
+      "evidence_summary": "The page materially treats Loménie de Brienne, Étienne Charles, archbishop of Toulouse (1727-4) within its account of opposition within the Notables, Calonne's rivalry with Necker, and disputes over taxation and representation.",
+      "judgment": "supported",
+      "locator_id": "LOC-692435A20888",
+      "path_id": "PATH-A5E9E1CAC7E9",
+      "severity": "none",
+      "source_page_label": "71",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Loménie de Brienne, Étienne Charles, archbishop of Toulouse (1727-4)"
+      ],
+      "confidence": "high",
+      "document_page": 73,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-073"
+      ],
+      "evidence_summary": "The page materially treats Loménie de Brienne, Étienne Charles, archbishop of Toulouse (1727-4) within its account of Calonne's public campaign and dismissal, ministerial succession, and Necker's estrangement from the king.",
+      "judgment": "supported",
+      "locator_id": "LOC-AB4B2ABA9189",
+      "path_id": "PATH-A5E9E1CAC7E9",
+      "severity": "none",
+      "source_page_label": "73",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Loménie de Brienne, Étienne Charles, archbishop of Toulouse (1727-4)"
+      ],
+      "confidence": "high",
+      "document_page": 74,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-074"
+      ],
+      "evidence_summary": "The page materially treats Loménie de Brienne, Étienne Charles, archbishop of Toulouse (1727-4) within its account of Brienne's handling of the Notables and the intensifying demand for an Estates-General.",
+      "judgment": "supported",
+      "locator_id": "LOC-C1B4477C108F",
+      "path_id": "PATH-A5E9E1CAC7E9",
+      "severity": "none",
+      "source_page_label": "74",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Loménie de Brienne, Étienne Charles, archbishop of Toulouse (1727-4)"
+      ],
+      "confidence": "high",
+      "document_page": 75,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-075"
+      ],
+      "evidence_summary": "The page materially treats Loménie de Brienne, Étienne Charles, archbishop of Toulouse (1727-4) within its account of the Assembly's constitutional consequences, public opposition, Brienne's reform agenda, and foreign-policy pressures.",
+      "judgment": "supported",
+      "locator_id": "LOC-41F2A1882177",
+      "path_id": "PATH-A5E9E1CAC7E9",
+      "severity": "none",
+      "source_page_label": "75",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Loménie de Brienne, Étienne Charles, archbishop of Toulouse (1727-4)"
+      ],
+      "confidence": "high",
+      "document_page": 79,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-079"
+      ],
+      "evidence_summary": "The page materially treats Loménie de Brienne, Étienne Charles, archbishop of Toulouse (1727-4) within its account of Brienne's five-year loan plan and the contentious Royal Session used to secure registration.",
+      "judgment": "supported",
+      "locator_id": "LOC-F072CF4DFD73",
+      "path_id": "PATH-A5E9E1CAC7E9",
+      "severity": "none",
+      "source_page_label": "79",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Loménie de Brienne, Étienne Charles, archbishop of Toulouse (1727-4)"
+      ],
+      "confidence": "high",
+      "document_page": 81,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-081"
+      ],
+      "evidence_summary": "The page materially treats Loménie de Brienne, Étienne Charles, archbishop of Toulouse (1727-4) within its account of the courts' constitutional remonstrances and continuing resistance to Brienne's programme.",
+      "judgment": "supported",
+      "locator_id": "LOC-D1B0344785EC",
+      "path_id": "PATH-A5E9E1CAC7E9",
+      "severity": "none",
+      "source_page_label": "81",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Loménie de Brienne, Étienne Charles, archbishop of Toulouse (1727-4)"
+      ],
+      "confidence": "high",
+      "document_page": 82,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-082"
+      ],
+      "evidence_summary": "The page materially treats Loménie de Brienne, Étienne Charles, archbishop of Toulouse (1727-4) within its account of the May judicial reforms, arrests, the Plenary Court, and the monarchy's attempt to suppress obstruction.",
+      "judgment": "supported",
+      "locator_id": "LOC-B347C8B85DF8",
+      "path_id": "PATH-A5E9E1CAC7E9",
+      "severity": "none",
+      "source_page_label": "82",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Loménie de Brienne, Étienne Charles, archbishop of Toulouse (1727-4)"
+      ],
+      "confidence": "high",
+      "document_page": 83,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-083"
+      ],
+      "evidence_summary": "The page materially treats Loménie de Brienne, Étienne Charles, archbishop of Toulouse (1727-4) within its account of provincial resistance, riots, court defiance, military unrest, and calls for the Estates-General.",
+      "judgment": "supported",
+      "locator_id": "LOC-76FAED5C8CA6",
+      "path_id": "PATH-A5E9E1CAC7E9",
+      "severity": "none",
+      "source_page_label": "83",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Loménie de Brienne, Étienne Charles, archbishop of Toulouse (1727-4)"
+      ],
+      "confidence": "high",
+      "document_page": 84,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-084"
+      ],
+      "evidence_summary": "The page materially treats Loménie de Brienne, Étienne Charles, archbishop of Toulouse (1727-4) within its account of Brienne's and Lamoignon's failing programme, budget problems, anticipated revenues, and the July hailstorm.",
+      "judgment": "supported",
+      "locator_id": "LOC-2AFA8C70F955",
+      "path_id": "PATH-A5E9E1CAC7E9",
+      "severity": "none",
+      "source_page_label": "84",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Loménie de Brienne, Étienne Charles, archbishop of Toulouse (1727-4)"
+      ],
+      "confidence": "high",
+      "document_page": 85,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-085"
+      ],
+      "evidence_summary": "The page materially treats Loménie de Brienne, Étienne Charles, archbishop of Toulouse (1727-4) within its account of the suspension of payments, market panic, Brienne's resignation, and Necker's recall.",
+      "judgment": "supported",
+      "locator_id": "LOC-3E4C6F7CB5D9",
+      "path_id": "PATH-A5E9E1CAC7E9",
+      "severity": "none",
+      "source_page_label": "85",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Louis XVI, king (1754-93)",
+        "bankruptcy"
+      ],
+      "confidence": "high",
+      "document_page": 85,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-085"
+      ],
+      "evidence_summary": "The page materially treats Louis XVI, king (1754-93) > bankruptcy within its account of the suspension of payments, market panic, Brienne's resignation, and Necker's recall.",
+      "judgment": "supported",
+      "locator_id": "LOC-F24E44839925",
+      "path_id": "PATH-D50DA9BE638B",
+      "severity": "none",
+      "source_page_label": "85",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Louis XVI, king (1754-93)",
+        "loans"
+      ],
+      "confidence": "high",
+      "document_page": 70,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-070"
+      ],
+      "evidence_summary": "The page materially treats Louis XVI, king (1754-93) > loans within its account of Calonne's attempt to obtain national endorsement from an Assembly of Notables for reform and borrowing.",
+      "judgment": "supported",
+      "locator_id": "LOC-A94256FAFC04",
+      "path_id": "PATH-57051C686C0E",
+      "severity": "none",
+      "source_page_label": "70",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Louis XVI, king (1754-93)",
+        "loans"
+      ],
+      "confidence": "high",
+      "document_page": 73,
+      "error_codes": [
+        "LOC_POS"
+      ],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-073"
+      ],
+      "evidence_summary": "The page concerns ministerial dismissals and succession but does not substantively relate Louis XVI to loans.",
+      "judgment": "unsupported",
+      "locator_id": "LOC-C43DAB94F6E0",
+      "path_id": "PATH-57051C686C0E",
+      "severity": "minor",
+      "source_page_label": "73",
+      "source_scope_status": "indexable",
+      "treatment_class": "absent"
+    },
+    {
+      "complete_heading_path": [
+        "Louis XVI, king (1754-93)",
+        "loans"
+      ],
+      "confidence": "high",
+      "document_page": 74,
+      "error_codes": [
+        "LOC_POS"
+      ],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-074"
+      ],
+      "evidence_summary": "The page describes royal concern over credit and Brienne's appointment but does not substantively relate Louis XVI to loans.",
+      "judgment": "unsupported",
+      "locator_id": "LOC-D6BE3366206C",
+      "path_id": "PATH-57051C686C0E",
+      "severity": "minor",
+      "source_page_label": "74",
+      "source_scope_status": "indexable",
+      "treatment_class": "absent"
+    },
+    {
+      "complete_heading_path": [
+        "Louis XVI, king (1754-93)",
+        "loans"
+      ],
+      "confidence": "high",
+      "document_page": 76,
+      "error_codes": [
+        "LOC_POS"
+      ],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-076"
+      ],
+      "evidence_summary": "The page treats tax edicts and their registration, not borrowing or loans attributed to Louis XVI.",
+      "judgment": "unsupported",
+      "locator_id": "LOC-7BBC79E6FAED",
+      "path_id": "PATH-57051C686C0E",
+      "severity": "minor",
+      "source_page_label": "76",
+      "source_scope_status": "indexable",
+      "treatment_class": "absent"
+    },
+    {
+      "complete_heading_path": [
+        "Louis XVI, king (1754-93)",
+        "loans"
+      ],
+      "confidence": "high",
+      "document_page": 79,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-079"
+      ],
+      "evidence_summary": "The page materially treats Louis XVI, king (1754-93) > loans within its account of Brienne's five-year loan plan and the contentious Royal Session used to secure registration.",
+      "judgment": "supported",
+      "locator_id": "LOC-485F88273B2D",
+      "path_id": "PATH-57051C686C0E",
+      "severity": "none",
+      "source_page_label": "79",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Louis XVI, king (1754-93)",
+        "loans"
+      ],
+      "confidence": "high",
+      "document_page": 80,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-080"
+      ],
+      "evidence_summary": "The page materially treats Louis XVI, king (1754-93) > loans within its account of the parlement's resistance after the Royal Session, exiles, civil-rights registration, and denunciations of despotism.",
+      "judgment": "supported",
+      "locator_id": "LOC-3762CBF7FF95",
+      "path_id": "PATH-57051C686C0E",
+      "severity": "none",
+      "source_page_label": "80",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "magistrates"
+      ],
+      "confidence": "high",
+      "document_page": 76,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-076"
+      ],
+      "evidence_summary": "The page materially treats magistrates within its account of parlementary resistance to the government's grain, corvee, stamp-duty, territorial-tax, and provincial-assembly measures.",
+      "judgment": "supported",
+      "locator_id": "LOC-7B8586D9A1BD",
+      "path_id": "PATH-9DAD25BDADC6",
+      "severity": "none",
+      "source_page_label": "76",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "magistrates"
+      ],
+      "confidence": "high",
+      "document_page": 77,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-077"
+      ],
+      "evidence_summary": "The page materially treats magistrates within its account of forced registration, judicial resistance, repression in Paris, and the Dutch crisis.",
+      "judgment": "supported",
+      "locator_id": "LOC-113AC49DFC69",
+      "path_id": "PATH-9DAD25BDADC6",
+      "severity": "none",
+      "source_page_label": "77",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "magistrates"
+      ],
+      "confidence": "high",
+      "document_page": 81,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-081"
+      ],
+      "evidence_summary": "The page materially treats magistrates within its account of the courts' constitutional remonstrances and continuing resistance to Brienne's programme.",
+      "judgment": "supported",
+      "locator_id": "LOC-1AD5A1528BE2",
+      "path_id": "PATH-9DAD25BDADC6",
+      "severity": "none",
+      "source_page_label": "81",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "magistrates"
+      ],
+      "confidence": "high",
+      "document_page": 82,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-082"
+      ],
+      "evidence_summary": "The page materially treats magistrates within its account of the May judicial reforms, arrests, the Plenary Court, and the monarchy's attempt to suppress obstruction.",
+      "judgment": "supported",
+      "locator_id": "LOC-2721DD0AAF5D",
+      "path_id": "PATH-9DAD25BDADC6",
+      "severity": "none",
+      "source_page_label": "82",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Maupeou, René Nicolas de (1714-92)"
+      ],
+      "confidence": "high",
+      "document_page": 84,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-084"
+      ],
+      "evidence_summary": "The page materially treats Maupeou, René Nicolas de (1714-92) within its account of Brienne's and Lamoignon's failing programme, budget problems, anticipated revenues, and the July hailstorm.",
+      "judgment": "supported",
+      "locator_id": "LOC-FAA0F68B3822",
+      "path_id": "PATH-298E580668B4",
+      "severity": "none",
+      "source_page_label": "84",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Maurepas, Jean Frédéric Phélypeaux, Count de (1701-81)"
+      ],
+      "confidence": "high",
+      "document_page": 67,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-067"
+      ],
+      "evidence_summary": "The page materially treats Maurepas, Jean Frédéric Phélypeaux, Count de (1701-81) within its account of Necker's loan-financed war policy, public-credit strategy, fiscal report, resignation, and ministerial succession.",
+      "judgment": "supported",
+      "locator_id": "LOC-1C3832D5A948",
+      "path_id": "PATH-780026ABB41B",
+      "severity": "none",
+      "source_page_label": "67",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Mirabeau, Honoré Gabriel Riquetti, Count de (1749-91)",
+        "attack on Calonne"
+      ],
+      "confidence": "high",
+      "document_page": 72,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-072"
+      ],
+      "evidence_summary": "The page materially treats Mirabeau, Honoré Gabriel Riquetti, Count de (1749-91) > attack on Calonne within its account of the Notables' resistance, clerical taxation, public controversy, and demands for fuller accounts.",
+      "judgment": "supported",
+      "locator_id": "LOC-998DBB8E8813",
+      "path_id": "PATH-D632DF4989D7",
+      "severity": "none",
+      "source_page_label": "72",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Miromesnil, Armand Thomas Hue de (1723-96)"
+      ],
+      "confidence": "high",
+      "document_page": 73,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-073"
+      ],
+      "evidence_summary": "The page materially treats Miromesnil, Armand Thomas Hue de (1723-96) within its account of Calonne's public campaign and dismissal, ministerial succession, and Necker's estrangement from the king.",
+      "judgment": "supported",
+      "locator_id": "LOC-FF70E4F387F7",
+      "path_id": "PATH-0921298B4D28",
+      "severity": "none",
+      "source_page_label": "73",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "monarchy",
+        "absolute"
+      ],
+      "confidence": "high",
+      "document_page": 75,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-075"
+      ],
+      "evidence_summary": "The page materially treats monarchy > absolute within its account of the Assembly's constitutional consequences, public opposition, Brienne's reform agenda, and foreign-policy pressures.",
+      "judgment": "supported",
+      "locator_id": "LOC-EF5F32AA34BD",
+      "path_id": "PATH-87F80B92E24A",
+      "severity": "none",
+      "source_page_label": "75",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "monarchy",
+        "absolute"
+      ],
+      "confidence": "high",
+      "document_page": 82,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-082"
+      ],
+      "evidence_summary": "The page materially treats monarchy > absolute within its account of the May judicial reforms, arrests, the Plenary Court, and the monarchy's attempt to suppress obstruction.",
+      "judgment": "supported",
+      "locator_id": "LOC-B605A3551CA7",
+      "path_id": "PATH-87F80B92E24A",
+      "severity": "none",
+      "source_page_label": "82",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Montmorin, Armand Marc, Count de (1745-92)"
+      ],
+      "confidence": "high",
+      "document_page": 78,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-078"
+      ],
+      "evidence_summary": "The page materially treats Montmorin, Armand Marc, Count de (1745-92) within its account of the compromise with the parlements, continuing fiscal opposition, and plans for retrenchment and new borrowing.",
+      "judgment": "supported",
+      "locator_id": "LOC-0223A74763D1",
+      "path_id": "PATH-83E96B2B4A78",
+      "severity": "none",
+      "source_page_label": "78",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Necker, Jacques (1732-1804)",
+        "Calonne reform"
+      ],
+      "confidence": "high",
+      "document_page": 71,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-071"
+      ],
+      "evidence_summary": "The page materially treats Necker, Jacques (1732-1804) > Calonne reform within its account of opposition within the Notables, Calonne's rivalry with Necker, and disputes over taxation and representation.",
+      "judgment": "supported",
+      "locator_id": "LOC-C35BB1A63FD5",
+      "path_id": "PATH-782EAEB2E055",
+      "severity": "none",
+      "source_page_label": "71",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Necker, Jacques (1732-1804)",
+        "loans raised by"
+      ],
+      "confidence": "high",
+      "document_page": 66,
+      "error_codes": [
+        "LOC_POS"
+      ],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-066"
+      ],
+      "evidence_summary": "The page introduces Necker's appointment but does not yet state that he raised loans; that fiscal action begins on the following page.",
+      "judgment": "unsupported",
+      "locator_id": "LOC-1FAD4979FB8A",
+      "path_id": "PATH-749370EF568D",
+      "severity": "minor",
+      "source_page_label": "66",
+      "source_scope_status": "indexable",
+      "treatment_class": "absent"
+    },
+    {
+      "complete_heading_path": [
+        "Necker, Jacques (1732-1804)",
+        "loans raised by"
+      ],
+      "confidence": "high",
+      "document_page": 67,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-067"
+      ],
+      "evidence_summary": "The page materially treats Necker, Jacques (1732-1804) > loans raised by within its account of Necker's loan-financed war policy, public-credit strategy, fiscal report, resignation, and ministerial succession.",
+      "judgment": "supported",
+      "locator_id": "LOC-7463AEF7141F",
+      "path_id": "PATH-749370EF568D",
+      "severity": "none",
+      "source_page_label": "67",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Necker, Jacques (1732-1804)",
+        "recall of"
+      ],
+      "confidence": "high",
+      "document_page": 85,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-085"
+      ],
+      "evidence_summary": "The page materially treats Necker, Jacques (1732-1804) > recall of within its account of the suspension of payments, market panic, Brienne's resignation, and Necker's recall.",
+      "judgment": "supported",
+      "locator_id": "LOC-984991A08512",
+      "path_id": "PATH-6578724D47B8",
+      "severity": "none",
+      "source_page_label": "85",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Necker, Jacques (1732-1804)",
+        "unpopularity with Louis"
+      ],
+      "confidence": "high",
+      "document_page": 73,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-073"
+      ],
+      "evidence_summary": "The page materially treats Necker, Jacques (1732-1804) > unpopularity with Louis within its account of Calonne's public campaign and dismissal, ministerial succession, and Necker's estrangement from the king.",
+      "judgment": "supported",
+      "locator_id": "LOC-964CF5043A53",
+      "path_id": "PATH-65942D919C82",
+      "severity": "none",
+      "source_page_label": "73",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Necker, Jacques (1732-1804)",
+        "vindication of record"
+      ],
+      "confidence": "high",
+      "document_page": 68,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-068"
+      ],
+      "evidence_summary": "The page materially treats Necker, Jacques (1732-1804) > vindication of record within its account of Calonne's borrowing record and development of a comprehensive fiscal reform programme.",
+      "judgment": "supported",
+      "locator_id": "LOC-97E5F288E613",
+      "path_id": "PATH-9CF0D0BDE413",
+      "severity": "none",
+      "source_page_label": "68",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Orléans, Louis Philippe Joseph, Duke d' (1747-93)"
+      ],
+      "confidence": "high",
+      "document_page": 80,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-080"
+      ],
+      "evidence_summary": "The page materially treats Orléans, Louis Philippe Joseph, Duke d' (1747-93) within its account of the parlement's resistance after the Royal Session, exiles, civil-rights registration, and denunciations of despotism.",
+      "judgment": "supported",
+      "locator_id": "LOC-9479FA72893F",
+      "path_id": "PATH-DED3EDE9926B",
+      "severity": "none",
+      "source_page_label": "80",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "pamphleteering"
+      ],
+      "confidence": "high",
+      "document_page": 72,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-072"
+      ],
+      "evidence_summary": "The page materially treats pamphleteering within its account of the Notables' resistance, clerical taxation, public controversy, and demands for fuller accounts.",
+      "judgment": "supported",
+      "locator_id": "LOC-5B84812A8924",
+      "path_id": "PATH-56D7447AB323",
+      "severity": "none",
+      "source_page_label": "72",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "pamphleteering"
+      ],
+      "confidence": "high",
+      "document_page": 76,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-076"
+      ],
+      "evidence_summary": "The page materially treats pamphleteering within its account of parlementary resistance to the government's grain, corvee, stamp-duty, territorial-tax, and provincial-assembly measures.",
+      "judgment": "supported",
+      "locator_id": "LOC-B9C9C383AB0B",
+      "path_id": "PATH-56D7447AB323",
+      "severity": "none",
+      "source_page_label": "76",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "pamphleteering"
+      ],
+      "confidence": "high",
+      "document_page": 78,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-078"
+      ],
+      "evidence_summary": "The page materially treats pamphleteering within its account of the compromise with the parlements, continuing fiscal opposition, and plans for retrenchment and new borrowing.",
+      "judgment": "supported",
+      "locator_id": "LOC-50875A4D83E6",
+      "path_id": "PATH-56D7447AB323",
+      "severity": "none",
+      "source_page_label": "78",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "pamphleteering"
+      ],
+      "confidence": "high",
+      "document_page": 79,
+      "error_codes": [
+        "LOC_POS"
+      ],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-079"
+      ],
+      "evidence_summary": "The page concerns loans and the Royal Session and contains no substantive treatment of pamphleteering.",
+      "judgment": "unsupported",
+      "locator_id": "LOC-FBE3A4B1DEC8",
+      "path_id": "PATH-56D7447AB323",
+      "severity": "minor",
+      "source_page_label": "79",
+      "source_scope_status": "indexable",
+      "treatment_class": "absent"
+    },
+    {
+      "complete_heading_path": [
+        "Paris basin"
+      ],
+      "confidence": "high",
+      "document_page": 84,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-084"
+      ],
+      "evidence_summary": "The page materially treats Paris basin within its account of Brienne's and Lamoignon's failing programme, budget problems, anticipated revenues, and the July hailstorm.",
+      "judgment": "supported",
+      "locator_id": "LOC-58277DBF784C",
+      "path_id": "PATH-B892093C3EFD",
+      "severity": "none",
+      "source_page_label": "84",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "parish priests (curé)"
+      ],
+      "confidence": "high",
+      "document_page": 73,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-073"
+      ],
+      "evidence_summary": "The page materially treats parish priests (curé) within its account of Calonne's public campaign and dismissal, ministerial succession, and Necker's estrangement from the king.",
+      "judgment": "supported",
+      "locator_id": "LOC-D84EC6B7230F",
+      "path_id": "PATH-F69C3FE6ACD3",
+      "severity": "none",
+      "source_page_label": "73",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "parlement de Paris",
+        "forced registration of tax edicts"
+      ],
+      "confidence": "high",
+      "document_page": 76,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-076"
+      ],
+      "evidence_summary": "The page materially treats parlement de Paris > forced registration of tax edicts within its account of parlementary resistance to the government's grain, corvee, stamp-duty, territorial-tax, and provincial-assembly measures.",
+      "judgment": "supported",
+      "locator_id": "LOC-06E51766167B",
+      "path_id": "PATH-7C7B94FB2798",
+      "severity": "none",
+      "source_page_label": "76",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "parlement de Paris",
+        "forced registration of tax edicts"
+      ],
+      "confidence": "high",
+      "document_page": 77,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-077"
+      ],
+      "evidence_summary": "The page materially treats parlement de Paris > forced registration of tax edicts within its account of forced registration, judicial resistance, repression in Paris, and the Dutch crisis.",
+      "judgment": "supported",
+      "locator_id": "LOC-96A63DB618E7",
+      "path_id": "PATH-7C7B94FB2798",
+      "severity": "none",
+      "source_page_label": "77",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "parlement de Paris",
+        "forced registration of tax edicts"
+      ],
+      "confidence": "medium",
+      "document_page": 78,
+      "error_codes": [
+        "LOC_POS"
+      ],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-078"
+      ],
+      "evidence_summary": "The page discusses a negotiated return and registration compromise, not a new forced registration by the Paris parlement.",
+      "judgment": "partially_supported",
+      "locator_id": "LOC-22F2F26E50BA",
+      "path_id": "PATH-7C7B94FB2798",
+      "severity": "minor",
+      "source_page_label": "78",
+      "source_scope_status": "indexable",
+      "treatment_class": "mixed"
+    },
+    {
+      "complete_heading_path": [
+        "parlement de Paris",
+        "forced registration of tax edicts"
+      ],
+      "confidence": "high",
+      "document_page": 79,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-079"
+      ],
+      "evidence_summary": "The page materially treats parlement de Paris > forced registration of tax edicts within its account of Brienne's five-year loan plan and the contentious Royal Session used to secure registration.",
+      "judgment": "supported",
+      "locator_id": "LOC-71A034E1A395",
+      "path_id": "PATH-7C7B94FB2798",
+      "severity": "none",
+      "source_page_label": "79",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "parlement de Paris",
+        "forced registration of tax edicts"
+      ],
+      "confidence": "high",
+      "document_page": 80,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-080"
+      ],
+      "evidence_summary": "The page materially treats parlement de Paris > forced registration of tax edicts within its account of the parlement's resistance after the Royal Session, exiles, civil-rights registration, and denunciations of despotism.",
+      "judgment": "supported",
+      "locator_id": "LOC-068A974A6606",
+      "path_id": "PATH-7C7B94FB2798",
+      "severity": "none",
+      "source_page_label": "80",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "parlement de Paris",
+        "forced registration of tax edicts"
+      ],
+      "confidence": "high",
+      "document_page": 81,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-081"
+      ],
+      "evidence_summary": "The page materially treats parlement de Paris > forced registration of tax edicts within its account of the courts' constitutional remonstrances and continuing resistance to Brienne's programme.",
+      "judgment": "supported",
+      "locator_id": "LOC-457AC7475BD1",
+      "path_id": "PATH-7C7B94FB2798",
+      "severity": "none",
+      "source_page_label": "81",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "parlement de Paris",
+        "war loans"
+      ],
+      "confidence": "high",
+      "document_page": 67,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-067"
+      ],
+      "evidence_summary": "The page materially treats parlement de Paris > war loans within its account of Necker's loan-financed war policy, public-credit strategy, fiscal report, resignation, and ministerial succession.",
+      "judgment": "supported",
+      "locator_id": "LOC-03C209B387C4",
+      "path_id": "PATH-444AA17D724C",
+      "severity": "none",
+      "source_page_label": "67",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "parlement de Paris",
+        "war loans"
+      ],
+      "confidence": "high",
+      "document_page": 68,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-068"
+      ],
+      "evidence_summary": "The page materially treats parlement de Paris > war loans within its account of Calonne's borrowing record and development of a comprehensive fiscal reform programme.",
+      "judgment": "supported",
+      "locator_id": "LOC-BCE74DE81196",
+      "path_id": "PATH-444AA17D724C",
+      "severity": "none",
+      "source_page_label": "68",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "parlements, provincial",
+        "crys against despotism"
+      ],
+      "confidence": "high",
+      "document_page": 80,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-080"
+      ],
+      "evidence_summary": "The page materially treats parlements, provincial > crys against despotism within its account of the parlement's resistance after the Royal Session, exiles, civil-rights registration, and denunciations of despotism.",
+      "judgment": "supported",
+      "locator_id": "LOC-7F5197814492",
+      "path_id": "PATH-97D92C43EDC0",
+      "severity": "none",
+      "source_page_label": "80",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "parlements, provincial",
+        "forced registration of tax edicts"
+      ],
+      "confidence": "medium",
+      "document_page": 78,
+      "error_codes": [
+        "LOC_POS"
+      ],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-078"
+      ],
+      "evidence_summary": "Provincial parlements support their exiled colleagues, but this page does not describe their forced registration of tax edicts.",
+      "judgment": "partially_supported",
+      "locator_id": "LOC-7D2A725E2BD3",
+      "path_id": "PATH-98AC97EDD72A",
+      "severity": "minor",
+      "source_page_label": "78",
+      "source_scope_status": "indexable",
+      "treatment_class": "mixed"
+    },
+    {
+      "complete_heading_path": [
+        "parlements, provincial",
+        "reduction of power"
+      ],
+      "confidence": "high",
+      "document_page": 82,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-082"
+      ],
+      "evidence_summary": "The page materially treats parlements, provincial > reduction of power within its account of the May judicial reforms, arrests, the Plenary Court, and the monarchy's attempt to suppress obstruction.",
+      "judgment": "supported",
+      "locator_id": "LOC-06E017A6B3CC",
+      "path_id": "PATH-0DBDC3B05C38",
+      "severity": "none",
+      "source_page_label": "82",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Pau"
+      ],
+      "confidence": "high",
+      "document_page": 83,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-083"
+      ],
+      "evidence_summary": "The page materially treats Pau within its account of provincial resistance, riots, court defiance, military unrest, and calls for the Estates-General.",
+      "judgment": "supported",
+      "locator_id": "LOC-F2264584EB1B",
+      "path_id": "PATH-D39B30B60422",
+      "severity": "none",
+      "source_page_label": "83",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "pays d'états"
+      ],
+      "confidence": "high",
+      "document_page": 70,
+      "error_codes": [
+        "SEL",
+        "LOC_POS"
+      ],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-070"
+      ],
+      "evidence_summary": "The pays d'etats appear only as a membership category in the Assembly's composition, not as a substantively treated institution.",
+      "judgment": "unsupported",
+      "locator_id": "LOC-521A406D39E6",
+      "path_id": "PATH-4F493F8048F1",
+      "severity": "minor",
+      "source_page_label": "70",
+      "source_scope_status": "indexable",
+      "treatment_class": "incidental_example"
+    },
+    {
+      "complete_heading_path": [
+        "pays d'états"
+      ],
+      "confidence": "high",
+      "document_page": 80,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-080"
+      ],
+      "evidence_summary": "The page materially treats pays d'états within its account of the parlement's resistance after the Royal Session, exiles, civil-rights registration, and denunciations of despotism.",
+      "judgment": "supported",
+      "locator_id": "LOC-0A7EFDE383BE",
+      "path_id": "PATH-4F493F8048F1",
+      "severity": "none",
+      "source_page_label": "80",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "pays d'états"
+      ],
+      "confidence": "high",
+      "document_page": 81,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-081"
+      ],
+      "evidence_summary": "The page materially treats pays d'états within its account of the courts' constitutional remonstrances and continuing resistance to Brienne's programme.",
+      "judgment": "supported",
+      "locator_id": "LOC-3A2FE727A857",
+      "path_id": "PATH-4F493F8048F1",
+      "severity": "none",
+      "source_page_label": "81",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Physiocracy"
+      ],
+      "confidence": "high",
+      "document_page": 69,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-069"
+      ],
+      "evidence_summary": "The page materially treats Physiocracy within its account of Calonne's tax, administrative, agrarian, and trade reforms and the debt pressures behind them.",
+      "judgment": "supported",
+      "locator_id": "LOC-02E9739CFC2A",
+      "path_id": "PATH-27E988B16E16",
+      "severity": "none",
+      "source_page_label": "69",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Plenary Court"
+      ],
+      "confidence": "high",
+      "document_page": 82,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-082"
+      ],
+      "evidence_summary": "The page materially treats Plenary Court within its account of the May judicial reforms, arrests, the Plenary Court, and the monarchy's attempt to suppress obstruction.",
+      "judgment": "supported",
+      "locator_id": "LOC-9ADD2154AAAE",
+      "path_id": "PATH-6DE240E34C6C",
+      "severity": "none",
+      "source_page_label": "82",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Protestants",
+        "civil rights"
+      ],
+      "confidence": "high",
+      "document_page": 79,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-079"
+      ],
+      "evidence_summary": "The page materially treats Protestants > civil rights within its account of Brienne's five-year loan plan and the contentious Royal Session used to secure registration.",
+      "judgment": "supported",
+      "locator_id": "LOC-CD44843AF8F5",
+      "path_id": "PATH-DBC42E36C39F",
+      "severity": "none",
+      "source_page_label": "79",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Protestants",
+        "civil rights"
+      ],
+      "confidence": "high",
+      "document_page": 80,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-080"
+      ],
+      "evidence_summary": "The page materially treats Protestants > civil rights within its account of the parlement's resistance after the Royal Session, exiles, civil-rights registration, and denunciations of despotism.",
+      "judgment": "supported",
+      "locator_id": "LOC-D832F9D17C0E",
+      "path_id": "PATH-DBC42E36C39F",
+      "severity": "none",
+      "source_page_label": "80",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Prussian troops"
+      ],
+      "confidence": "high",
+      "document_page": 77,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-077"
+      ],
+      "evidence_summary": "The page materially treats Prussian troops within its account of forced registration, judicial resistance, repression in Paris, and the Dutch crisis.",
+      "judgment": "supported",
+      "locator_id": "LOC-6C3C54AB3EDA",
+      "path_id": "PATH-A6F0DC4A363A",
+      "severity": "none",
+      "source_page_label": "77",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "public opinion"
+      ],
+      "confidence": "high",
+      "document_page": 67,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-067"
+      ],
+      "evidence_summary": "The page materially treats public opinion within its account of Necker's loan-financed war policy, public-credit strategy, fiscal report, resignation, and ministerial succession.",
+      "judgment": "supported",
+      "locator_id": "LOC-D4752110FAEB",
+      "path_id": "PATH-130B8ACBF32F",
+      "severity": "none",
+      "source_page_label": "67",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "public opinion",
+        "financial reforms"
+      ],
+      "confidence": "high",
+      "document_page": 82,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-082"
+      ],
+      "evidence_summary": "The page materially treats public opinion > financial reforms within its account of the May judicial reforms, arrests, the Plenary Court, and the monarchy's attempt to suppress obstruction.",
+      "judgment": "supported",
+      "locator_id": "LOC-405327BD6F93",
+      "path_id": "PATH-597B10BA70A2",
+      "severity": "none",
+      "source_page_label": "82",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "public opinion",
+        "to forced tax edicts"
+      ],
+      "confidence": "medium",
+      "document_page": 75,
+      "error_codes": [
+        "LOC_POS"
+      ],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-075"
+      ],
+      "evidence_summary": "The page establishes broad public resistance and expected parliamentary opposition, but reaction to forced tax edicts is not yet specifically described.",
+      "judgment": "partially_supported",
+      "locator_id": "LOC-B58F3042015E",
+      "path_id": "PATH-6BAA56FCBA71",
+      "severity": "minor",
+      "source_page_label": "75",
+      "source_scope_status": "indexable",
+      "treatment_class": "mixed"
+    },
+    {
+      "complete_heading_path": [
+        "public opinion",
+        "to forced tax edicts"
+      ],
+      "confidence": "high",
+      "document_page": 78,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-078"
+      ],
+      "evidence_summary": "The page materially treats public opinion > to forced tax edicts within its account of the compromise with the parlements, continuing fiscal opposition, and plans for retrenchment and new borrowing.",
+      "judgment": "supported",
+      "locator_id": "LOC-D52FBE41BFC1",
+      "path_id": "PATH-6BAA56FCBA71",
+      "severity": "none",
+      "source_page_label": "78",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "remonstrances"
+      ],
+      "confidence": "high",
+      "document_page": 70,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-070"
+      ],
+      "evidence_summary": "The page materially treats remonstrances within its account of Calonne's attempt to obtain national endorsement from an Assembly of Notables for reform and borrowing.",
+      "judgment": "supported",
+      "locator_id": "LOC-15E12162210E",
+      "path_id": "PATH-441265595FC7",
+      "severity": "none",
+      "source_page_label": "70",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "remonstrances"
+      ],
+      "confidence": "high",
+      "document_page": 81,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-081"
+      ],
+      "evidence_summary": "The page materially treats remonstrances within its account of the courts' constitutional remonstrances and continuing resistance to Brienne's programme.",
+      "judgment": "supported",
+      "locator_id": "LOC-F5CD5911E1AA",
+      "path_id": "PATH-441265595FC7",
+      "severity": "none",
+      "source_page_label": "81",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Rennes"
+      ],
+      "confidence": "high",
+      "document_page": 83,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-083"
+      ],
+      "evidence_summary": "The page materially treats Rennes within its account of provincial resistance, riots, court defiance, military unrest, and calls for the Estates-General.",
+      "judgment": "supported",
+      "locator_id": "LOC-8A4E4591E10B",
+      "path_id": "PATH-D4DE0760B63B",
+      "severity": "none",
+      "source_page_label": "83",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "riots",
+        "over Brienne's reforms"
+      ],
+      "confidence": "high",
+      "document_page": 83,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-083"
+      ],
+      "evidence_summary": "The page materially treats riots > over Brienne's reforms within its account of provincial resistance, riots, court defiance, military unrest, and calls for the Estates-General.",
+      "judgment": "supported",
+      "locator_id": "LOC-01D2C282E0AB",
+      "path_id": "PATH-7F1F371DD955",
+      "severity": "none",
+      "source_page_label": "83",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Seven Years War"
+      ],
+      "confidence": "high",
+      "document_page": 66,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-066"
+      ],
+      "evidence_summary": "The page materially treats Seven Years War within its account of France's entry into the American war, Turgot's warning, Vergennes's role, and the fiscal consequences.",
+      "judgment": "supported",
+      "locator_id": "LOC-C234DC9FC392",
+      "path_id": "PATH-BABFBFAC8946",
+      "severity": "none",
+      "source_page_label": "66",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "stamp duty"
+      ],
+      "confidence": "high",
+      "document_page": 76,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-076"
+      ],
+      "evidence_summary": "The page materially treats stamp duty within its account of parlementary resistance to the government's grain, corvee, stamp-duty, territorial-tax, and provincial-assembly measures.",
+      "judgment": "supported",
+      "locator_id": "LOC-0BC270C3C84A",
+      "path_id": "PATH-467827C38DD1",
+      "severity": "none",
+      "source_page_label": "76",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "stamp duty"
+      ],
+      "confidence": "high",
+      "document_page": 78,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-078"
+      ],
+      "evidence_summary": "The page materially treats stamp duty within its account of the compromise with the parlements, continuing fiscal opposition, and plans for retrenchment and new borrowing.",
+      "judgment": "supported",
+      "locator_id": "LOC-27AD0FEC526B",
+      "path_id": "PATH-467827C38DD1",
+      "severity": "none",
+      "source_page_label": "78",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "stock market"
+      ],
+      "confidence": "medium",
+      "document_page": 84,
+      "error_codes": [
+        "LOC_POS"
+      ],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-084"
+      ],
+      "evidence_summary": "The page says financial markets were nervous but does not yet describe the stock-market panic that occurs on the following page.",
+      "judgment": "partially_supported",
+      "locator_id": "LOC-367A7DA5B78F",
+      "path_id": "PATH-4B4BA049B28D",
+      "severity": "minor",
+      "source_page_label": "84",
+      "source_scope_status": "indexable",
+      "treatment_class": "mixed"
+    },
+    {
+      "complete_heading_path": [
+        "stock market"
+      ],
+      "confidence": "high",
+      "document_page": 85,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-085"
+      ],
+      "evidence_summary": "The page materially treats stock market within its account of the suspension of payments, market panic, Brienne's resignation, and Necker's recall.",
+      "judgment": "supported",
+      "locator_id": "LOC-5DBF84C74C0A",
+      "path_id": "PATH-4B4BA049B28D",
+      "severity": "none",
+      "source_page_label": "85",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Talleyrand, Charles-Maurice de (1754-1838)"
+      ],
+      "confidence": "high",
+      "document_page": 71,
+      "error_codes": [
+        "SEL",
+        "LOC_POS"
+      ],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-071"
+      ],
+      "evidence_summary": "The page uses a brief attributed observation from Talleyrand but does not develop him as a subject.",
+      "judgment": "unsupported",
+      "locator_id": "LOC-C6B9212DF6F8",
+      "path_id": "PATH-83BD1E22F8EE",
+      "severity": "minor",
+      "source_page_label": "71",
+      "source_scope_status": "indexable",
+      "treatment_class": "attribution_only"
+    },
+    {
+      "complete_heading_path": [
+        "taxation",
+        "Calonne's plan for reform of"
+      ],
+      "confidence": "high",
+      "document_page": 68,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-068"
+      ],
+      "evidence_summary": "The page materially treats taxation > Calonne's plan for reform of within its account of Calonne's borrowing record and development of a comprehensive fiscal reform programme.",
+      "judgment": "supported",
+      "locator_id": "LOC-588EF7E954CF",
+      "path_id": "PATH-A342151B863D",
+      "severity": "none",
+      "source_page_label": "68",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "taxation",
+        "Calonne's plan for reform of"
+      ],
+      "confidence": "high",
+      "document_page": 69,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-069"
+      ],
+      "evidence_summary": "The page materially treats taxation > Calonne's plan for reform of within its account of Calonne's tax, administrative, agrarian, and trade reforms and the debt pressures behind them.",
+      "judgment": "supported",
+      "locator_id": "LOC-26EA563174EF",
+      "path_id": "PATH-A342151B863D",
+      "severity": "none",
+      "source_page_label": "69",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "taxation",
+        "Calonne's plan for reform of"
+      ],
+      "confidence": "high",
+      "document_page": 70,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-070"
+      ],
+      "evidence_summary": "The page materially treats taxation > Calonne's plan for reform of within its account of Calonne's attempt to obtain national endorsement from an Assembly of Notables for reform and borrowing.",
+      "judgment": "supported",
+      "locator_id": "LOC-19AAA13389C7",
+      "path_id": "PATH-A342151B863D",
+      "severity": "none",
+      "source_page_label": "70",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "taxation",
+        "Calonne's plan for reform of"
+      ],
+      "confidence": "high",
+      "document_page": 71,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-071"
+      ],
+      "evidence_summary": "The page materially treats taxation > Calonne's plan for reform of within its account of opposition within the Notables, Calonne's rivalry with Necker, and disputes over taxation and representation.",
+      "judgment": "supported",
+      "locator_id": "LOC-11FB62DFD313",
+      "path_id": "PATH-A342151B863D",
+      "severity": "none",
+      "source_page_label": "71",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "trade"
+      ],
+      "confidence": "high",
+      "document_page": 69,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-069"
+      ],
+      "evidence_summary": "The page materially treats trade within its account of Calonne's tax, administrative, agrarian, and trade reforms and the debt pressures behind them.",
+      "judgment": "supported",
+      "locator_id": "LOC-589196FE7E9F",
+      "path_id": "PATH-9889EF9BC0CC",
+      "severity": "none",
+      "source_page_label": "69",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Turgot, Anne Robert Jacques, Baron de L'Aulne (1727-81)"
+      ],
+      "confidence": "high",
+      "document_page": 66,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-066"
+      ],
+      "evidence_summary": "The page materially treats Turgot, Anne Robert Jacques, Baron de L'Aulne (1727-81) within its account of France's entry into the American war, Turgot's warning, Vergennes's role, and the fiscal consequences.",
+      "judgment": "supported",
+      "locator_id": "LOC-84CC83D264E1",
+      "path_id": "PATH-572F212E76F2",
+      "severity": "none",
+      "source_page_label": "66",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Vergennes, Charles Gravier, Count de (1717-87)"
+      ],
+      "confidence": "high",
+      "document_page": 66,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-066"
+      ],
+      "evidence_summary": "The page materially treats Vergennes, Charles Gravier, Count de (1717-87) within its account of France's entry into the American war, Turgot's warning, Vergennes's role, and the fiscal consequences.",
+      "judgment": "supported",
+      "locator_id": "LOC-9DCBD43AC339",
+      "path_id": "PATH-CD8E5EB11DCC",
+      "severity": "none",
+      "source_page_label": "66",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Vergennes, Charles Gravier, Count de (1717-87)"
+      ],
+      "confidence": "high",
+      "document_page": 67,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-067"
+      ],
+      "evidence_summary": "The page materially treats Vergennes, Charles Gravier, Count de (1717-87) within its account of Necker's loan-financed war policy, public-credit strategy, fiscal report, resignation, and ministerial succession.",
+      "judgment": "supported",
+      "locator_id": "LOC-9F52632DB304",
+      "path_id": "PATH-CD8E5EB11DCC",
+      "severity": "none",
+      "source_page_label": "67",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Vergennes, Charles Gravier, Count de (1717-87)"
+      ],
+      "confidence": "high",
+      "document_page": 68,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-068"
+      ],
+      "evidence_summary": "The page materially treats Vergennes, Charles Gravier, Count de (1717-87) within its account of Calonne's borrowing record and development of a comprehensive fiscal reform programme.",
+      "judgment": "supported",
+      "locator_id": "LOC-737CF29845C4",
+      "path_id": "PATH-CD8E5EB11DCC",
+      "severity": "none",
+      "source_page_label": "68",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Vergennes, Charles Gravier, Count de (1717-87)"
+      ],
+      "confidence": "high",
+      "document_page": 69,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-069"
+      ],
+      "evidence_summary": "The page materially treats Vergennes, Charles Gravier, Count de (1717-87) within its account of Calonne's tax, administrative, agrarian, and trade reforms and the debt pressures behind them.",
+      "judgment": "supported",
+      "locator_id": "LOC-FD4D52860375",
+      "path_id": "PATH-CD8E5EB11DCC",
+      "severity": "none",
+      "source_page_label": "69",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Vergennes, Charles Gravier, Count de (1717-87)"
+      ],
+      "confidence": "high",
+      "document_page": 70,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-070"
+      ],
+      "evidence_summary": "The page materially treats Vergennes, Charles Gravier, Count de (1717-87) within its account of Calonne's attempt to obtain national endorsement from an Assembly of Notables for reform and borrowing.",
+      "judgment": "supported",
+      "locator_id": "LOC-7151F1F9FE25",
+      "path_id": "PATH-CD8E5EB11DCC",
+      "severity": "none",
+      "source_page_label": "70",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Vergennes, Charles Gravier, Count de (1717-87)"
+      ],
+      "confidence": "high",
+      "document_page": 71,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-071"
+      ],
+      "evidence_summary": "The page materially treats Vergennes, Charles Gravier, Count de (1717-87) within its account of opposition within the Notables, Calonne's rivalry with Necker, and disputes over taxation and representation.",
+      "judgment": "supported",
+      "locator_id": "LOC-D043448D2A39",
+      "path_id": "PATH-CD8E5EB11DCC",
+      "severity": "none",
+      "source_page_label": "71",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Vergennes, Charles Gravier, Count de (1717-87)"
+      ],
+      "confidence": "high",
+      "document_page": 78,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-078"
+      ],
+      "evidence_summary": "The page materially treats Vergennes, Charles Gravier, Count de (1717-87) within its account of the compromise with the parlements, continuing fiscal opposition, and plans for retrenchment and new borrowing.",
+      "judgment": "supported",
+      "locator_id": "LOC-C54992A2119E",
+      "path_id": "PATH-CD8E5EB11DCC",
+      "severity": "none",
+      "source_page_label": "78",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "vingtième"
+      ],
+      "confidence": "high",
+      "document_page": 68,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-068"
+      ],
+      "evidence_summary": "The page materially treats vingtième within its account of Calonne's borrowing record and development of a comprehensive fiscal reform programme.",
+      "judgment": "supported",
+      "locator_id": "LOC-C0DFED8C7FAC",
+      "path_id": "PATH-41C637F203C5",
+      "severity": "none",
+      "source_page_label": "68",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "vingtième"
+      ],
+      "confidence": "high",
+      "document_page": 69,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-069"
+      ],
+      "evidence_summary": "The page materially treats vingtième within its account of Calonne's tax, administrative, agrarian, and trade reforms and the debt pressures behind them.",
+      "judgment": "supported",
+      "locator_id": "LOC-A8A3C07ECA24",
+      "path_id": "PATH-41C637F203C5",
+      "severity": "none",
+      "source_page_label": "69",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "vingtième"
+      ],
+      "confidence": "high",
+      "document_page": 71,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-071"
+      ],
+      "evidence_summary": "The page materially treats vingtième within its account of opposition within the Notables, Calonne's rivalry with Necker, and disputes over taxation and representation.",
+      "judgment": "supported",
+      "locator_id": "LOC-4714A6C1F538",
+      "path_id": "PATH-41C637F203C5",
+      "severity": "none",
+      "source_page_label": "71",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "vingtième"
+      ],
+      "confidence": "high",
+      "document_page": 75,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-075"
+      ],
+      "evidence_summary": "The page materially treats vingtième within its account of the Assembly's constitutional consequences, public opposition, Brienne's reform agenda, and foreign-policy pressures.",
+      "judgment": "supported",
+      "locator_id": "LOC-B8AF675D1ACE",
+      "path_id": "PATH-41C637F203C5",
+      "severity": "none",
+      "source_page_label": "75",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "vingtième"
+      ],
+      "confidence": "high",
+      "document_page": 78,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-078"
+      ],
+      "evidence_summary": "The page materially treats vingtième within its account of the compromise with the parlements, continuing fiscal opposition, and plans for retrenchment and new borrowing.",
+      "judgment": "supported",
+      "locator_id": "LOC-92E81314DB4F",
+      "path_id": "PATH-41C637F203C5",
+      "severity": "none",
+      "source_page_label": "78",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "vingtième"
+      ],
+      "confidence": "high",
+      "document_page": 80,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-080"
+      ],
+      "evidence_summary": "The page materially treats vingtième within its account of the parlement's resistance after the Royal Session, exiles, civil-rights registration, and denunciations of despotism.",
+      "judgment": "supported",
+      "locator_id": "LOC-A155AA6D15DD",
+      "path_id": "PATH-41C637F203C5",
+      "severity": "none",
+      "source_page_label": "80",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Washington, George (1732-99)"
+      ],
+      "confidence": "high",
+      "document_page": 72,
+      "error_codes": [
+        "SEL",
+        "LOC_POS"
+      ],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-072"
+      ],
+      "evidence_summary": "Washington appears only as the recipient of Lafayette's retrospective letter and is not treated as a subject.",
+      "judgment": "unsupported",
+      "locator_id": "LOC-94BD9399B66A",
+      "path_id": "PATH-A9696B929132",
+      "severity": "minor",
+      "source_page_label": "72",
+      "source_scope_status": "indexable",
+      "treatment_class": "passing_mention"
+    },
+    {
+      "complete_heading_path": [
+        "William V, Stadtholder of Orange (1748-1806)"
+      ],
+      "confidence": "high",
+      "document_page": 75,
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-075"
+      ],
+      "evidence_summary": "The page materially treats William V, Stadtholder of Orange (1748-1806) within its account of the Assembly's constitutional consequences, public opposition, Brienne's reform agenda, and foreign-policy pressures.",
+      "judgment": "supported",
+      "locator_id": "LOC-52ECB2EA5A5B",
+      "path_id": "PATH-6DA4943E5CF7",
+      "severity": "none",
+      "source_page_label": "75",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive"
+    },
+    {
+      "complete_heading_path": [
+        "Young, Arthur"
+      ],
+      "confidence": "high",
+      "document_page": 77,
+      "error_codes": [
+        "SEL",
+        "LOC_POS"
+      ],
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-077"
+      ],
+      "evidence_summary": "Arthur Young appears solely as the attributed author of an observational quotation; the page does not substantively treat him.",
+      "judgment": "unsupported",
+      "locator_id": "LOC-9EB02C4F6B09",
+      "path_id": "PATH-3E67415FF147",
+      "severity": "minor",
+      "source_page_label": "77",
+      "source_scope_status": "indexable",
+      "treatment_class": "attribution_only"
+    }
+  ],
+  "provenance": {
+    "benchmark_lock_sha256": "16e26f3d50da64fb211aba44940425ccbb20dcfa74e6e5202986b36cc9344ea8",
+    "benchmark_sha256": "b925797fcab50b2008ad5974590e323f772e5ea7013efa84ce7606007439aeb3",
+    "chunk_manifest_sha256": "5fc5450386114fdeb19838f54d3f1662c3d6dec81d4729c73f4f7ec0cb341a6f",
+    "item_inventory_file_sha256": "3e9c2b20d49486398bd57bfa31f5d1da1743498b47d0b9e46e42f096b56b9934",
+    "locator_packet_file_sha256": "427a4754784e4d45560837cd2172bb125c16ce80b8d007e526f4562f5ebf8b2c",
+    "normalized_candidate_file_sha256": "7b29d7716339038848e2b1b0ec17220ae1867cb95941f0f06a84488cd486ed79",
+    "page_map_sha256": "452602deebdae19f8e35c589f2ff2a7a0b9fc955d268b14f760391b0043e9653",
+    "policy_sha256": "914a7d7042d3f2d2e6cb40686faca331e6a5b029060027bfa769cc8b512c2e9a",
+    "source_sha256": "5f89aa2592218983c594278bfd86cc1e4b74be1dd6dd8aac5c2610a48fa34047"
+  },
+  "schema_version": "locator-audit-v1"
+}
