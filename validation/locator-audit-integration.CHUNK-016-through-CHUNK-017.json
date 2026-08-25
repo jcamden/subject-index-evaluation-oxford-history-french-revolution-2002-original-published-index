@@ -1,0 +1,48 @@
+{
+  "schema_version": "locator-audit-integration-public-v1",
+  "evaluation_id": "oxford-history-french-revolution-2002-indexerlabs-truncated",
+  "candidate_id": "oxford-history-french-revolution-2002-original-published-index",
+  "audit_kind": "locator_audit",
+  "status": "integrated_complete",
+  "stage_status": "completed",
+  "integrated_at": "2026-08-25T18:54:10Z",
+  "base_branch": "main",
+  "worker_base_commit": "430f5380fe3ced4bfadc569a32bbf39aa5c80f27",
+  "integrated_chunks": [
+    {
+      "chunk_id": "CHUNK-016",
+      "pull_request": 18,
+      "pull_request_url": "https://github.com/jcamden/subject-index-evaluation-oxford-history-french-revolution-2002-original-published-index/pull/18",
+      "head_branch": "locator-audit/chunk-016",
+      "head_commit": "d93c191078d6796728afb71a932c61a6ea5c8c51",
+      "merge_commit": "df71478118050927f645a089cc8a693853b4f64d",
+      "public_proposal_path": "candidate/locator-audits/locator-audit.CHUNK-016.v1.json",
+      "public_proposal_sha256": "a74b21d11abecd12041e92e3172b3cfc7980071ca4f5a7e1d5016666be24baa9",
+      "private_artifact_sha256": "a74b21d11abecd12041e92e3172b3cfc7980071ca4f5a7e1d5016666be24baa9"
+    },
+    {
+      "chunk_id": "CHUNK-017",
+      "pull_request": 17,
+      "pull_request_url": "https://github.com/jcamden/subject-index-evaluation-oxford-history-french-revolution-2002-original-published-index/pull/17",
+      "head_branch": "locator-audit/chunk-017",
+      "head_commit": "24bb47c72a3ba4f62197c366c79820e88c81931d",
+      "merge_commit": "2aa6c716d8e6d3a96f604b7fc97687c96fbbc455",
+      "public_proposal_path": "candidate/locator-audits/locator-audit.CHUNK-017.v1.json",
+      "public_proposal_sha256": "32f48b0c04aa00aaaa377ca21b4a5f0052404e55643bdc6b61a1ffc94487e19c",
+      "private_artifact_sha256": "32f48b0c04aa00aaaa377ca21b4a5f0052404e55643bdc6b61a1ffc94487e19c"
+    }
+  ],
+  "missing_chunk_ids": [],
+  "coverage": {
+    "expected_assignments": 5338,
+    "accepted_assignments": 5338,
+    "duplicate_assignments": 0,
+    "foreign_assignments": 0
+  },
+  "benchmark_repository_modified": false,
+  "public_safety": {
+    "private_payloads_included": false,
+    "private_paths_included": false,
+    "result": "passed"
+  }
+}
