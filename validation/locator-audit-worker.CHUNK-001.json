@@ -1,0 +1,84 @@
+{
+  "schema_version": "locator-audit-worker-report-v1",
+  "report_sha256": "73f5b7fe9c24a39abf948a4c52b9b87e7ee2f7212e90e94e9e93f9a87a5b4236",
+  "audit_kind": "locator_audit",
+  "evaluation_id": "oxford-history-french-revolution-2002-indexerlabs-truncated",
+  "candidate_id": "oxford-history-french-revolution-2002-original-published-index",
+  "chunk_id": "CHUNK-001",
+  "source_unit_label": "1. France under Louis XVI",
+  "immutable_base_commit": "026697ecb56847a4df0c5d6272b5c2b249672d7f",
+  "identities": {
+    "source_sha256": "5f89aa2592218983c594278bfd86cc1e4b74be1dd6dd8aac5c2610a48fa34047",
+    "candidate_sha256": "1d43fe7fb158b352393c6e2f14843aae9ae23ccfca1f61c6783307432b0a9d09",
+    "benchmark_version": 3,
+    "benchmark_sha256": "b925797fcab50b2008ad5974590e323f772e5ea7013efa84ce7606007439aeb3",
+    "benchmark_file_sha256": "34a399cda8ca9f1b07b9fa0ddad36ac4f5073ef12d8b12df42fb023818508b27",
+    "benchmark_lock_sha256": "16e26f3d50da64fb211aba44940425ccbb20dcfa74e6e5202986b36cc9344ea8",
+    "policy_sha256": "914a7d7042d3f2d2e6cb40686faca331e6a5b029060027bfa769cc8b512c2e9a",
+    "policy_file_sha256": "bfb5ec9ab45b6719b8a36fa09f50dfb8d8c18b3f209bd153501173182695ac62",
+    "page_map_sha256": "452602deebdae19f8e35c589f2ff2a7a0b9fc955d268b14f760391b0043e9653",
+    "page_map_file_sha256": "dbc3ac1a4a7ea04403639dd9f41cdf79eebf1b8486d4ff65f799d05730fc8b0d",
+    "chunk_manifest_sha256": "5fc5450386114fdeb19838f54d3f1662c3d6dec81d4729c73f4f7ec0cb341a6f",
+    "chunk_manifest_file_sha256": "5287f421e1e7be03444c2681beb1e1d63d5d103a96ab770565e32411956ce396",
+    "normalized_candidate_file_sha256": "7b29d7716339038848e2b1b0ec17220ae1867cb95941f0f06a84488cd486ed79",
+    "item_inventory_file_sha256": "3e9c2b20d49486398bd57bfa31f5d1da1743498b47d0b9e46e42f096b56b9934",
+    "source_chunk_file_sha256": "d07984346063e4466b5d5dc6f68e3d20ba3e9fd1adf87a83c88d1bb13782e967",
+    "source_sidecar_file_sha256": "d5aea1f2d3936b3c491351c83dab8132bc59ee2915a878ba93e59b35d2fd43a1",
+    "locator_packet_file_sha256": "15b1df8e2c41ff96890ac5e3588ebbbc621237818fcc78bc07c0ad8546c05212"
+  },
+  "owned_document_page_ranges": [
+    [
+      1,
+      43
+    ]
+  ],
+  "denominators": {
+    "packet_assignments": 442,
+    "judged_assignments": 442,
+    "unique_assignments": 442
+  },
+  "judgment_counts": {
+    "partially_supported": 13,
+    "supported": 408,
+    "uninspectable": 0,
+    "unsupported": 21
+  },
+  "severity_counts": {
+    "cosmetic": 0,
+    "critical": 0,
+    "major": 0,
+    "minor": 34,
+    "none": 408
+  },
+  "error_code_counts": {
+    "CON": 5,
+    "LOC_POS": 34,
+    "SEL": 11
+  },
+  "completion": {
+    "status": "complete",
+    "all_assignments_accounted": true,
+    "foreign_assignments": 0,
+    "duplicate_assignments": 0
+  },
+  "private_artifact_sha256": "cb726446dc3a28ae3ca7006a8ce4c9b722c8e8fe907dccf5a11226160c303bab",
+  "reconnection_status": {
+    "source": "verified_by_sha256",
+    "candidate": "verified_by_sha256",
+    "source_chunk": "verified_by_sha256",
+    "source_sidecar": "verified_by_sha256"
+  },
+  "limitations": [
+    {
+      "code": "uninspectable",
+      "count": 0
+    }
+  ],
+  "public_safety": {
+    "schema_validation": "passed",
+    "path_allowlist": "passed",
+    "forbidden_key_scan": "passed",
+    "secret_and_path_scan": "passed",
+    "result": "passed"
+  }
+}
