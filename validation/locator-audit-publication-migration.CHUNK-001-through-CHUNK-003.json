@@ -1,0 +1,53 @@
+{
+  "schema_version": "locator-audit-publication-migration-public-v1",
+  "evaluation_id": "oxford-history-french-revolution-2002-indexerlabs-truncated",
+  "candidate_id": "oxford-history-french-revolution-2002-original-published-index",
+  "audit_kind": "locator_audit",
+  "transition": {
+    "from": "aggregate_only",
+    "to": "public_evaluation_artifacts"
+  },
+  "migrated_at": "2026-08-25T12:30:27Z",
+  "canonical_publication_commit": "12a9c045749336c485efc9bef260136910bfed58",
+  "skill_contract_commit": "5a7a0f4603cfe8df8fae8ecdf3596388b3eb8464",
+  "chunks": [
+    {
+      "chunk_id": "CHUNK-001",
+      "canonical_path": "candidate/locator-audits/locator-audit.CHUNK-001.v1.json",
+      "canonical_sha256": "d66591194f56481dc978bd768ca48f85c6840692ded12f873d9917a6ed6892a3",
+      "legacy_private_sha256": "cb726446dc3a28ae3ca7006a8ce4c9b722c8e8fe907dccf5a11226160c303bab",
+      "judgment_count": 442
+    },
+    {
+      "chunk_id": "CHUNK-002",
+      "canonical_path": "candidate/locator-audits/locator-audit.CHUNK-002.v1.json",
+      "canonical_sha256": "b187e66b0e3129de46973e0fa50d5ce81e90ab4ff1992ce1ca2d2cf0cb96674e",
+      "legacy_private_sha256": "117da385bc48e2bdf9166c229f3f21d45c07dc942ad265cd1b8677c17c936bc1",
+      "judgment_count": 244
+    },
+    {
+      "chunk_id": "CHUNK-003",
+      "canonical_path": "candidate/locator-audits/locator-audit.CHUNK-003.v1.json",
+      "canonical_sha256": "f846efe0db7fc515a8f5f7f5fcad92fdb2f0c66cd0d52712f07c3a928f756186",
+      "legacy_private_sha256": "d1dc80f6e7f7cdede3314ef1fc975c865cb6a45af5755408d4f4c3a1c8ca53aa",
+      "judgment_count": 192
+    }
+  ],
+  "validation": {
+    "semantic_fields_preserved": true,
+    "strict_public_allowlist": "passed",
+    "legacy_receipts_preserved": true,
+    "legacy_pull_request_evidence_preserved": true,
+    "legacy_recovery_bytes_preserved": true,
+    "accepted_assignments": 878,
+    "duplicate_assignments": 0,
+    "foreign_assignments": 0
+  },
+  "public_safety": {
+    "source_pdfs_included": false,
+    "source_chunks_included": false,
+    "raw_quotations_included": false,
+    "private_paths_included": false,
+    "result": "passed"
+  }
+}
