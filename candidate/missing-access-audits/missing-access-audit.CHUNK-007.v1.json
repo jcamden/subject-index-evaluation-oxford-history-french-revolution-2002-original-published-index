@@ -1,0 +1,5334 @@
+{
+  "schema_version": "missing-access-audit-v1",
+  "evaluation_id": "oxford-history-french-revolution-2002-indexerlabs-truncated",
+  "benchmark_sha256": "b925797fcab50b2008ad5974590e323f772e5ea7013efa84ce7606007439aeb3",
+  "candidate_sha256": "1d43fe7fb158b352393c6e2f14843aae9ae23ccfca1f61c6783307432b0a9d09",
+  "chunk_id": "CHUNK-007",
+  "missing_access_ownership_sha256": "d116605b26c5b12531853c3e9a6f1b2bf49180ad549551c3b1f12b9152ce4809",
+  "provenance": {
+    "source_sha256": "5f89aa2592218983c594278bfd86cc1e4b74be1dd6dd8aac5c2610a48fa34047",
+    "benchmark_file_sha256": "34a399cda8ca9f1b07b9fa0ddad36ac4f5073ef12d8b12df42fb023818508b27",
+    "benchmark_lock_sha256": "16e26f3d50da64fb211aba44940425ccbb20dcfa74e6e5202986b36cc9344ea8",
+    "policy_sha256": "914a7d7042d3f2d2e6cb40686faca331e6a5b029060027bfa769cc8b512c2e9a",
+    "page_map_sha256": "452602deebdae19f8e35c589f2ff2a7a0b9fc955d268b14f760391b0043e9653",
+    "chunk_manifest_sha256": "5fc5450386114fdeb19838f54d3f1662c3d6dec81d4729c73f4f7ec0cb341a6f",
+    "normalized_candidate_file_sha256": "7b29d7716339038848e2b1b0ec17220ae1867cb95941f0f06a84488cd486ed79",
+    "item_inventory_file_sha256": "3e9c2b20d49486398bd57bfa31f5d1da1743498b47d0b9e46e42f096b56b9934",
+    "missing_access_ownership_sha256": "d116605b26c5b12531853c3e9a6f1b2bf49180ad549551c3b1f12b9152ce4809",
+    "locator_audit_set_sha256": "f840e60dbee9e50f08c11dd0c4c314f5a84d4c7006d188c1c74eff4ad2b3a1f4"
+  },
+  "expected_subject_ids": [
+    "SUBJ-033162B6FE3D",
+    "SUBJ-0B4202108EF8",
+    "SUBJ-0C6ED66FEFDA",
+    "SUBJ-117E475F3A49",
+    "SUBJ-120DFE62BCE8",
+    "SUBJ-1866BE569CCB",
+    "SUBJ-239317129A85",
+    "SUBJ-27A42E0D6BFC",
+    "SUBJ-2B33232A5CAB",
+    "SUBJ-2B34BDE4AEC3",
+    "SUBJ-2B9A6E773BA7",
+    "SUBJ-33255E30F13D",
+    "SUBJ-3A079E90BC4C",
+    "SUBJ-3C08182FE07C",
+    "SUBJ-3E39BC650D56",
+    "SUBJ-500829B491E2",
+    "SUBJ-535EE5EA3C98",
+    "SUBJ-59704A89DC09",
+    "SUBJ-66D9F55CEE66",
+    "SUBJ-68A74EF1F846",
+    "SUBJ-6AE1514813E6",
+    "SUBJ-6D258BB86487",
+    "SUBJ-6D53877CB4B9",
+    "SUBJ-6D5AB9581B8F",
+    "SUBJ-78830C16A72A",
+    "SUBJ-81574B45F9DA",
+    "SUBJ-85D1D73F9909",
+    "SUBJ-860E8231099C",
+    "SUBJ-8C256029A9B7",
+    "SUBJ-8EB14BCD5F20",
+    "SUBJ-8EB418BD0B69",
+    "SUBJ-920CDB6B52F7",
+    "SUBJ-94E13DCE336F",
+    "SUBJ-9CC88CADE007",
+    "SUBJ-9FDE6DAB64C8",
+    "SUBJ-A513146CACAF",
+    "SUBJ-B058F52EB86F",
+    "SUBJ-B3361A88EC5F",
+    "SUBJ-BFD96E101903",
+    "SUBJ-C1E2782B867D",
+    "SUBJ-C6F3C427C89B",
+    "SUBJ-CB4AC85E0D26",
+    "SUBJ-D35E8AB6FAE2",
+    "SUBJ-D59F0BE16D19",
+    "SUBJ-E738A1D7D6F6",
+    "SUBJ-F65ECC5BD7ED",
+    "SUBJ-F6FA2285C425",
+    "SUBJ-F80219EBE645",
+    "SUBJ-F813578DDB86"
+  ],
+  "expected_reader_task_ids": [
+    "TASK-0CAFB1EF89FA",
+    "TASK-0E5A96A33C6C",
+    "TASK-240E4B8FD891",
+    "TASK-3872BDFDA986",
+    "TASK-5ACBC6913233",
+    "TASK-6AC029FEAE28",
+    "TASK-7DA92BC3F1E8",
+    "TASK-8088CF03CD84",
+    "TASK-AA59F9ED7091",
+    "TASK-B17E89C1606D",
+    "TASK-C7A212FFD11C",
+    "TASK-D2928A650549",
+    "TASK-D7537DE30464",
+    "TASK-E10786936718"
+  ],
+  "expected_treatment_ids": [
+    "TREAT-0136984DB2A5",
+    "TREAT-06AB60C5C3A1",
+    "TREAT-0AF2DB55A753",
+    "TREAT-0AF4132D5A5F",
+    "TREAT-0B4E787575BA",
+    "TREAT-0C04EEDA5722",
+    "TREAT-0C3954B64164",
+    "TREAT-0F92E95005D3",
+    "TREAT-11C0FC4A82BC",
+    "TREAT-12163B32F72E",
+    "TREAT-16E23B3B4D34",
+    "TREAT-17FAC76F4828",
+    "TREAT-1AB1A841FB27",
+    "TREAT-1F1AA0222173",
+    "TREAT-20F4C89E36F5",
+    "TREAT-23610B504732",
+    "TREAT-237BB6777C95",
+    "TREAT-27682056C3B0",
+    "TREAT-2A0535FD54F8",
+    "TREAT-2A5C665D0FA5",
+    "TREAT-2D54C9A13A20",
+    "TREAT-31A8546C2752",
+    "TREAT-3573902FBE4D",
+    "TREAT-39A04F86A198",
+    "TREAT-40449E58B7DC",
+    "TREAT-40461EF5AA20",
+    "TREAT-41B41CEB2841",
+    "TREAT-41CFC95AA830",
+    "TREAT-4258EA864FC8",
+    "TREAT-437BBEA85B2D",
+    "TREAT-467E18206659",
+    "TREAT-4B7F80687933",
+    "TREAT-53482B6117BA",
+    "TREAT-56CB3D743995",
+    "TREAT-5EAF74FB7699",
+    "TREAT-632A1E05071F",
+    "TREAT-6F494C185C1E",
+    "TREAT-72EFCC4C5BBC",
+    "TREAT-74D04913EFC6",
+    "TREAT-764E2DEDA607",
+    "TREAT-7725E71BDB27",
+    "TREAT-7C97349D8E7F",
+    "TREAT-7D53FD0CDF97",
+    "TREAT-80EFB0A98F2F",
+    "TREAT-836E5ABE2EE5",
+    "TREAT-859DCBCDCA0F",
+    "TREAT-86161EB1E60A",
+    "TREAT-870CF05F796F",
+    "TREAT-8877639E0465",
+    "TREAT-9532BE8B9C04",
+    "TREAT-9545DAC4DB8A",
+    "TREAT-9E1D0A82599F",
+    "TREAT-A437F7C7A5BE",
+    "TREAT-A4AB4E3E0DD6",
+    "TREAT-A7628A85705F",
+    "TREAT-A804EF3A20A8",
+    "TREAT-A87220C6CE5F",
+    "TREAT-A988A5AAABA6",
+    "TREAT-AADAA13A788C",
+    "TREAT-AB4E73B13DF3",
+    "TREAT-AB9541765295",
+    "TREAT-AE30C49A2339",
+    "TREAT-B42F2C4FE934",
+    "TREAT-BA0CA392EB28",
+    "TREAT-BD43DED05DC2",
+    "TREAT-C3170E20A1CE",
+    "TREAT-C3F3094AB801",
+    "TREAT-C43B927A12A1",
+    "TREAT-CAA2577A38E7",
+    "TREAT-D21925A44954",
+    "TREAT-DA55CE806C9E",
+    "TREAT-DE9B2C33C7AD",
+    "TREAT-DE9C5A4AC06B",
+    "TREAT-E0CFD6CE00CD",
+    "TREAT-E24B963A48F3",
+    "TREAT-E3196250D3E9",
+    "TREAT-E486DD7635B1",
+    "TREAT-E4ED37C2E0D1",
+    "TREAT-E5C079BEF0BE",
+    "TREAT-E6F00C94D3F4",
+    "TREAT-F2BCF4713174",
+    "TREAT-F5FE4E66D200",
+    "TREAT-F62462DAE74A",
+    "TREAT-F704087BCF84",
+    "TREAT-F779BC8F43CD"
+  ],
+  "subject_judgments": [
+    {
+      "subject_id": "SUBJ-033162B6FE3D",
+      "priority": "major",
+      "coverage": "complete",
+      "direct_access": true,
+      "cross_reference_access": false,
+      "realistic_first_lookup_success": "yes",
+      "stance_preserved": "yes",
+      "severity": "none",
+      "confidence": "high",
+      "evidence_ids": [
+        "EVID-913E492E1E24",
+        "EVID-9EB7C2068FEB"
+      ],
+      "matched_path_ids": [
+        "PATH-448D8585F5FC"
+      ],
+      "expected_document_pages": [
+        162,
+        163
+      ],
+      "found_document_pages": [
+        162,
+        163
+      ],
+      "missed_document_pages": [],
+      "locator_recall": {
+        "expected": 2,
+        "found": 2,
+        "missed": 0,
+        "rate": 1.0
+      },
+      "treatment_recall": {
+        "principal": {
+          "expected_document_pages": [
+            162,
+            163
+          ],
+          "found_document_pages": [
+            162,
+            163
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "supporting": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "synthesis_or_conclusion": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        }
+      },
+      "missing_routes": [
+        {
+          "route_type": "cross_reference",
+          "reason_code": "no_valid_cross_reference_route",
+          "evidence_ids": [
+            "EVID-913E492E1E24",
+            "EVID-9EB7C2068FEB"
+          ]
+        }
+      ],
+      "missed_treatments": [],
+      "uncertainty": {
+        "status": "none"
+      },
+      "error_codes": []
+    },
+    {
+      "subject_id": "SUBJ-0B4202108EF8",
+      "priority": "major",
+      "coverage": "partial",
+      "direct_access": true,
+      "cross_reference_access": false,
+      "realistic_first_lookup_success": "partly",
+      "stance_preserved": "partly",
+      "severity": "minor",
+      "confidence": "high",
+      "evidence_ids": [
+        "EVID-66C9784C9CA0",
+        "EVID-FB29D8E2B477"
+      ],
+      "matched_path_ids": [
+        "PATH-23E79C486535"
+      ],
+      "expected_document_pages": [
+        162,
+        164
+      ],
+      "found_document_pages": [
+        162,
+        164
+      ],
+      "missed_document_pages": [],
+      "locator_recall": {
+        "expected": 2,
+        "found": 2,
+        "missed": 0,
+        "rate": 1.0
+      },
+      "treatment_recall": {
+        "principal": {
+          "expected_document_pages": [
+            162
+          ],
+          "found_document_pages": [
+            162
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "supporting": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "synthesis_or_conclusion": {
+          "expected_document_pages": [
+            164
+          ],
+          "found_document_pages": [
+            164
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        }
+      },
+      "missing_routes": [
+        {
+          "route_type": "cross_reference",
+          "reason_code": "no_valid_cross_reference_route",
+          "evidence_ids": [
+            "EVID-66C9784C9CA0",
+            "EVID-FB29D8E2B477"
+          ]
+        }
+      ],
+      "missed_treatments": [],
+      "uncertainty": {
+        "status": "none"
+      },
+      "error_codes": [
+        "COV",
+        "STA"
+      ]
+    },
+    {
+      "subject_id": "SUBJ-0C6ED66FEFDA",
+      "priority": "major",
+      "coverage": "complete",
+      "direct_access": true,
+      "cross_reference_access": false,
+      "realistic_first_lookup_success": "yes",
+      "stance_preserved": "yes",
+      "severity": "none",
+      "confidence": "high",
+      "evidence_ids": [
+        "EVID-ADBC037BF784",
+        "EVID-C76357E07429"
+      ],
+      "matched_path_ids": [
+        "PATH-CCC8DE4629C8",
+        "PATH-D7E2BEE62D67",
+        "PATH-EF31D9628D64"
+      ],
+      "expected_document_pages": [
+        163,
+        164
+      ],
+      "found_document_pages": [
+        163,
+        164
+      ],
+      "missed_document_pages": [],
+      "locator_recall": {
+        "expected": 2,
+        "found": 2,
+        "missed": 0,
+        "rate": 1.0
+      },
+      "treatment_recall": {
+        "principal": {
+          "expected_document_pages": [
+            163,
+            164
+          ],
+          "found_document_pages": [
+            163,
+            164
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "supporting": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "synthesis_or_conclusion": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        }
+      },
+      "missing_routes": [
+        {
+          "route_type": "cross_reference",
+          "reason_code": "no_valid_cross_reference_route",
+          "evidence_ids": [
+            "EVID-ADBC037BF784",
+            "EVID-C76357E07429"
+          ]
+        }
+      ],
+      "missed_treatments": [],
+      "uncertainty": {
+        "status": "none"
+      },
+      "error_codes": []
+    },
+    {
+      "subject_id": "SUBJ-117E475F3A49",
+      "priority": "major",
+      "coverage": "partial",
+      "direct_access": true,
+      "cross_reference_access": false,
+      "realistic_first_lookup_success": "partly",
+      "stance_preserved": "partly",
+      "severity": "minor",
+      "confidence": "high",
+      "evidence_ids": [
+        "EVID-1B91B19AC1A3",
+        "EVID-A8A9434EAFC5",
+        "EVID-CED40288E21F"
+      ],
+      "matched_path_ids": [
+        "PATH-020B5DE179B8",
+        "PATH-AC444CE6F16A",
+        "PATH-DFDD2C51D7FA"
+      ],
+      "expected_document_pages": [
+        166,
+        170,
+        172
+      ],
+      "found_document_pages": [
+        166,
+        170
+      ],
+      "missed_document_pages": [
+        172
+      ],
+      "locator_recall": {
+        "expected": 3,
+        "found": 2,
+        "missed": 1,
+        "rate": 0.6666666666666666
+      },
+      "treatment_recall": {
+        "principal": {
+          "expected_document_pages": [
+            166
+          ],
+          "found_document_pages": [
+            166
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "supporting": {
+          "expected_document_pages": [
+            170
+          ],
+          "found_document_pages": [
+            170
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "synthesis_or_conclusion": {
+          "expected_document_pages": [
+            172
+          ],
+          "found_document_pages": [],
+          "missed_document_pages": [
+            172
+          ],
+          "uninspectable_document_pages": []
+        }
+      },
+      "missing_routes": [
+        {
+          "route_type": "cross_reference",
+          "reason_code": "no_valid_cross_reference_route",
+          "evidence_ids": [
+            "EVID-1B91B19AC1A3",
+            "EVID-A8A9434EAFC5",
+            "EVID-CED40288E21F"
+          ]
+        }
+      ],
+      "missed_treatments": [
+        {
+          "document_page": 172,
+          "locator_class": "synthesis_or_conclusion",
+          "reason_code": "no_supported_candidate_route_to_treatment",
+          "evidence_ids": [
+            "EVID-A8A9434EAFC5"
+          ]
+        }
+      ],
+      "uncertainty": {
+        "status": "none"
+      },
+      "error_codes": [
+        "COV",
+        "STA"
+      ]
+    },
+    {
+      "subject_id": "SUBJ-120DFE62BCE8",
+      "priority": "major",
+      "coverage": "complete",
+      "direct_access": true,
+      "cross_reference_access": false,
+      "realistic_first_lookup_success": "yes",
+      "stance_preserved": "yes",
+      "severity": "none",
+      "confidence": "high",
+      "evidence_ids": [
+        "EVID-35A773442BDD",
+        "EVID-4A110EA73F22"
+      ],
+      "matched_path_ids": [
+        "PATH-2B4083238575",
+        "PATH-B48C24D9A42B",
+        "PATH-F0B2D2290C92"
+      ],
+      "expected_document_pages": [
+        171,
+        172
+      ],
+      "found_document_pages": [
+        171,
+        172
+      ],
+      "missed_document_pages": [],
+      "locator_recall": {
+        "expected": 2,
+        "found": 2,
+        "missed": 0,
+        "rate": 1.0
+      },
+      "treatment_recall": {
+        "principal": {
+          "expected_document_pages": [
+            171
+          ],
+          "found_document_pages": [
+            171
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "supporting": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "synthesis_or_conclusion": {
+          "expected_document_pages": [
+            172
+          ],
+          "found_document_pages": [
+            172
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        }
+      },
+      "missing_routes": [
+        {
+          "route_type": "cross_reference",
+          "reason_code": "no_valid_cross_reference_route",
+          "evidence_ids": [
+            "EVID-35A773442BDD",
+            "EVID-4A110EA73F22"
+          ]
+        }
+      ],
+      "missed_treatments": [],
+      "uncertainty": {
+        "status": "none"
+      },
+      "error_codes": []
+    },
+    {
+      "subject_id": "SUBJ-1866BE569CCB",
+      "priority": "major",
+      "coverage": "complete",
+      "direct_access": true,
+      "cross_reference_access": false,
+      "realistic_first_lookup_success": "yes",
+      "stance_preserved": "yes",
+      "severity": "none",
+      "confidence": "high",
+      "evidence_ids": [
+        "EVID-1D43AD75A64E",
+        "EVID-F37C58653BF8"
+      ],
+      "matched_path_ids": [
+        "PATH-CCC8DE4629C8",
+        "PATH-D7E2BEE62D67"
+      ],
+      "expected_document_pages": [
+        163,
+        164
+      ],
+      "found_document_pages": [
+        163,
+        164
+      ],
+      "missed_document_pages": [],
+      "locator_recall": {
+        "expected": 2,
+        "found": 2,
+        "missed": 0,
+        "rate": 1.0
+      },
+      "treatment_recall": {
+        "principal": {
+          "expected_document_pages": [
+            163
+          ],
+          "found_document_pages": [
+            163
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "supporting": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "synthesis_or_conclusion": {
+          "expected_document_pages": [
+            164
+          ],
+          "found_document_pages": [
+            164
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        }
+      },
+      "missing_routes": [
+        {
+          "route_type": "cross_reference",
+          "reason_code": "no_valid_cross_reference_route",
+          "evidence_ids": [
+            "EVID-1D43AD75A64E",
+            "EVID-F37C58653BF8"
+          ]
+        }
+      ],
+      "missed_treatments": [],
+      "uncertainty": {
+        "status": "none"
+      },
+      "error_codes": []
+    },
+    {
+      "subject_id": "SUBJ-239317129A85",
+      "priority": "major",
+      "coverage": "complete",
+      "direct_access": true,
+      "cross_reference_access": false,
+      "realistic_first_lookup_success": "yes",
+      "stance_preserved": "yes",
+      "severity": "none",
+      "confidence": "high",
+      "evidence_ids": [
+        "EVID-86DC3F498E72"
+      ],
+      "matched_path_ids": [
+        "PATH-405BEADBB750",
+        "PATH-56668E3F0E0B",
+        "PATH-97B2E3569678"
+      ],
+      "expected_document_pages": [
+        170
+      ],
+      "found_document_pages": [
+        170
+      ],
+      "missed_document_pages": [],
+      "locator_recall": {
+        "expected": 1,
+        "found": 1,
+        "missed": 0,
+        "rate": 1.0
+      },
+      "treatment_recall": {
+        "principal": {
+          "expected_document_pages": [
+            170
+          ],
+          "found_document_pages": [
+            170
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "supporting": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "synthesis_or_conclusion": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        }
+      },
+      "missing_routes": [
+        {
+          "route_type": "cross_reference",
+          "reason_code": "no_valid_cross_reference_route",
+          "evidence_ids": [
+            "EVID-86DC3F498E72"
+          ]
+        }
+      ],
+      "missed_treatments": [],
+      "uncertainty": {
+        "status": "none"
+      },
+      "error_codes": []
+    },
+    {
+      "subject_id": "SUBJ-27A42E0D6BFC",
+      "priority": "major",
+      "coverage": "complete",
+      "direct_access": true,
+      "cross_reference_access": false,
+      "realistic_first_lookup_success": "yes",
+      "stance_preserved": "yes",
+      "severity": "none",
+      "confidence": "high",
+      "evidence_ids": [
+        "EVID-65A169F573DA",
+        "EVID-935DA029E8E9"
+      ],
+      "matched_path_ids": [
+        "PATH-AC444CE6F16A",
+        "PATH-D91EE6FF5294",
+        "PATH-DFDD2C51D7FA"
+      ],
+      "expected_document_pages": [
+        170,
+        171
+      ],
+      "found_document_pages": [
+        170,
+        171
+      ],
+      "missed_document_pages": [],
+      "locator_recall": {
+        "expected": 2,
+        "found": 2,
+        "missed": 0,
+        "rate": 1.0
+      },
+      "treatment_recall": {
+        "principal": {
+          "expected_document_pages": [
+            170
+          ],
+          "found_document_pages": [
+            170
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "supporting": {
+          "expected_document_pages": [
+            171
+          ],
+          "found_document_pages": [
+            171
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "synthesis_or_conclusion": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        }
+      },
+      "missing_routes": [
+        {
+          "route_type": "cross_reference",
+          "reason_code": "no_valid_cross_reference_route",
+          "evidence_ids": [
+            "EVID-65A169F573DA",
+            "EVID-935DA029E8E9"
+          ]
+        }
+      ],
+      "missed_treatments": [],
+      "uncertainty": {
+        "status": "none"
+      },
+      "error_codes": []
+    },
+    {
+      "subject_id": "SUBJ-2B33232A5CAB",
+      "priority": "major",
+      "coverage": "complete",
+      "direct_access": true,
+      "cross_reference_access": false,
+      "realistic_first_lookup_success": "yes",
+      "stance_preserved": "yes",
+      "severity": "none",
+      "confidence": "high",
+      "evidence_ids": [
+        "EVID-32A052E039B3"
+      ],
+      "matched_path_ids": [
+        "PATH-44205511CC30",
+        "PATH-A232628DCBF7"
+      ],
+      "expected_document_pages": [
+        173
+      ],
+      "found_document_pages": [
+        173
+      ],
+      "missed_document_pages": [],
+      "locator_recall": {
+        "expected": 1,
+        "found": 1,
+        "missed": 0,
+        "rate": 1.0
+      },
+      "treatment_recall": {
+        "principal": {
+          "expected_document_pages": [
+            173
+          ],
+          "found_document_pages": [
+            173
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "supporting": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "synthesis_or_conclusion": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        }
+      },
+      "missing_routes": [
+        {
+          "route_type": "cross_reference",
+          "reason_code": "no_valid_cross_reference_route",
+          "evidence_ids": [
+            "EVID-32A052E039B3"
+          ]
+        }
+      ],
+      "missed_treatments": [],
+      "uncertainty": {
+        "status": "none"
+      },
+      "error_codes": []
+    },
+    {
+      "subject_id": "SUBJ-2B34BDE4AEC3",
+      "priority": "major",
+      "coverage": "complete",
+      "direct_access": true,
+      "cross_reference_access": false,
+      "realistic_first_lookup_success": "yes",
+      "stance_preserved": "yes",
+      "severity": "none",
+      "confidence": "high",
+      "evidence_ids": [
+        "EVID-4AC201CE1175",
+        "EVID-DC09D568C4CF"
+      ],
+      "matched_path_ids": [
+        "PATH-66AE149141A5",
+        "PATH-A102C716B7A5",
+        "PATH-FDB57A937F7A"
+      ],
+      "expected_document_pages": [
+        166,
+        171
+      ],
+      "found_document_pages": [
+        166,
+        171
+      ],
+      "missed_document_pages": [],
+      "locator_recall": {
+        "expected": 2,
+        "found": 2,
+        "missed": 0,
+        "rate": 1.0
+      },
+      "treatment_recall": {
+        "principal": {
+          "expected_document_pages": [
+            171
+          ],
+          "found_document_pages": [
+            171
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "supporting": {
+          "expected_document_pages": [
+            166
+          ],
+          "found_document_pages": [
+            166
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "synthesis_or_conclusion": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        }
+      },
+      "missing_routes": [
+        {
+          "route_type": "cross_reference",
+          "reason_code": "no_valid_cross_reference_route",
+          "evidence_ids": [
+            "EVID-4AC201CE1175",
+            "EVID-DC09D568C4CF"
+          ]
+        }
+      ],
+      "missed_treatments": [],
+      "uncertainty": {
+        "status": "none"
+      },
+      "error_codes": []
+    },
+    {
+      "subject_id": "SUBJ-2B9A6E773BA7",
+      "priority": "major",
+      "coverage": "partial",
+      "direct_access": true,
+      "cross_reference_access": false,
+      "realistic_first_lookup_success": "partly",
+      "stance_preserved": "partly",
+      "severity": "minor",
+      "confidence": "high",
+      "evidence_ids": [
+        "EVID-AD22F3CE7248",
+        "EVID-D6825C7CC4D3"
+      ],
+      "matched_path_ids": [
+        "PATH-9B1BD876AC00"
+      ],
+      "expected_document_pages": [
+        172,
+        173
+      ],
+      "found_document_pages": [
+        172
+      ],
+      "missed_document_pages": [
+        173
+      ],
+      "locator_recall": {
+        "expected": 2,
+        "found": 1,
+        "missed": 1,
+        "rate": 0.5
+      },
+      "treatment_recall": {
+        "principal": {
+          "expected_document_pages": [
+            172,
+            173
+          ],
+          "found_document_pages": [
+            172
+          ],
+          "missed_document_pages": [
+            173
+          ],
+          "uninspectable_document_pages": []
+        },
+        "supporting": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "synthesis_or_conclusion": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        }
+      },
+      "missing_routes": [
+        {
+          "route_type": "cross_reference",
+          "reason_code": "no_valid_cross_reference_route",
+          "evidence_ids": [
+            "EVID-AD22F3CE7248",
+            "EVID-D6825C7CC4D3"
+          ]
+        }
+      ],
+      "missed_treatments": [
+        {
+          "document_page": 173,
+          "locator_class": "principal",
+          "reason_code": "no_supported_candidate_route_to_treatment",
+          "evidence_ids": [
+            "EVID-AD22F3CE7248"
+          ]
+        }
+      ],
+      "uncertainty": {
+        "status": "none"
+      },
+      "error_codes": [
+        "COV",
+        "STA"
+      ]
+    },
+    {
+      "subject_id": "SUBJ-33255E30F13D",
+      "priority": "major",
+      "coverage": "complete",
+      "direct_access": true,
+      "cross_reference_access": false,
+      "realistic_first_lookup_success": "yes",
+      "stance_preserved": "yes",
+      "severity": "none",
+      "confidence": "high",
+      "evidence_ids": [
+        "EVID-B30F4100BF85"
+      ],
+      "matched_path_ids": [
+        "PATH-6B9793D840D3"
+      ],
+      "expected_document_pages": [
+        161
+      ],
+      "found_document_pages": [
+        161
+      ],
+      "missed_document_pages": [],
+      "locator_recall": {
+        "expected": 1,
+        "found": 1,
+        "missed": 0,
+        "rate": 1.0
+      },
+      "treatment_recall": {
+        "principal": {
+          "expected_document_pages": [
+            161
+          ],
+          "found_document_pages": [
+            161
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "supporting": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "synthesis_or_conclusion": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        }
+      },
+      "missing_routes": [
+        {
+          "route_type": "cross_reference",
+          "reason_code": "no_valid_cross_reference_route",
+          "evidence_ids": [
+            "EVID-B30F4100BF85"
+          ]
+        }
+      ],
+      "missed_treatments": [],
+      "uncertainty": {
+        "status": "none"
+      },
+      "error_codes": []
+    },
+    {
+      "subject_id": "SUBJ-3A079E90BC4C",
+      "priority": "major",
+      "coverage": "partial",
+      "direct_access": true,
+      "cross_reference_access": false,
+      "realistic_first_lookup_success": "partly",
+      "stance_preserved": "partly",
+      "severity": "minor",
+      "confidence": "high",
+      "evidence_ids": [
+        "EVID-2B9769FD0E15",
+        "EVID-727CA181B84D"
+      ],
+      "matched_path_ids": [
+        "PATH-28EBC1FD413E",
+        "PATH-44205511CC30",
+        "PATH-A232628DCBF7",
+        "PATH-C4045F5BD846",
+        "PATH-D34685FCD637",
+        "PATH-DAB9453D1C0D"
+      ],
+      "expected_document_pages": [
+        171,
+        173
+      ],
+      "found_document_pages": [
+        171,
+        173
+      ],
+      "missed_document_pages": [],
+      "locator_recall": {
+        "expected": 2,
+        "found": 2,
+        "missed": 0,
+        "rate": 1.0
+      },
+      "treatment_recall": {
+        "principal": {
+          "expected_document_pages": [
+            171
+          ],
+          "found_document_pages": [
+            171
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "supporting": {
+          "expected_document_pages": [
+            173
+          ],
+          "found_document_pages": [
+            173
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "synthesis_or_conclusion": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        }
+      },
+      "missing_routes": [
+        {
+          "route_type": "cross_reference",
+          "reason_code": "no_valid_cross_reference_route",
+          "evidence_ids": [
+            "EVID-2B9769FD0E15",
+            "EVID-727CA181B84D"
+          ]
+        }
+      ],
+      "missed_treatments": [],
+      "uncertainty": {
+        "status": "none"
+      },
+      "error_codes": [
+        "COV",
+        "STA"
+      ]
+    },
+    {
+      "subject_id": "SUBJ-3C08182FE07C",
+      "priority": "major",
+      "coverage": "complete",
+      "direct_access": true,
+      "cross_reference_access": false,
+      "realistic_first_lookup_success": "yes",
+      "stance_preserved": "yes",
+      "severity": "none",
+      "confidence": "high",
+      "evidence_ids": [
+        "EVID-212DE69A64A3",
+        "EVID-420B7406C6AC"
+      ],
+      "matched_path_ids": [
+        "PATH-96D386AD2C52",
+        "PATH-CB12DA1E4C41"
+      ],
+      "expected_document_pages": [
+        166,
+        167
+      ],
+      "found_document_pages": [
+        166,
+        167
+      ],
+      "missed_document_pages": [],
+      "locator_recall": {
+        "expected": 2,
+        "found": 2,
+        "missed": 0,
+        "rate": 1.0
+      },
+      "treatment_recall": {
+        "principal": {
+          "expected_document_pages": [
+            166,
+            167
+          ],
+          "found_document_pages": [
+            166,
+            167
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "supporting": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "synthesis_or_conclusion": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        }
+      },
+      "missing_routes": [
+        {
+          "route_type": "cross_reference",
+          "reason_code": "no_valid_cross_reference_route",
+          "evidence_ids": [
+            "EVID-212DE69A64A3",
+            "EVID-420B7406C6AC"
+          ]
+        }
+      ],
+      "missed_treatments": [],
+      "uncertainty": {
+        "status": "none"
+      },
+      "error_codes": []
+    },
+    {
+      "subject_id": "SUBJ-3E39BC650D56",
+      "priority": "optional",
+      "coverage": "complete",
+      "direct_access": true,
+      "cross_reference_access": false,
+      "realistic_first_lookup_success": "yes",
+      "stance_preserved": "yes",
+      "severity": "none",
+      "confidence": "high",
+      "evidence_ids": [
+        "EVID-CB080A3AF430"
+      ],
+      "matched_path_ids": [
+        "PATH-448D8585F5FC",
+        "PATH-BE7BAC3E98D0"
+      ],
+      "expected_document_pages": [
+        162
+      ],
+      "found_document_pages": [
+        162
+      ],
+      "missed_document_pages": [],
+      "locator_recall": {
+        "expected": 1,
+        "found": 1,
+        "missed": 0,
+        "rate": 1.0
+      },
+      "treatment_recall": {
+        "principal": {
+          "expected_document_pages": [
+            162
+          ],
+          "found_document_pages": [
+            162
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "supporting": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "synthesis_or_conclusion": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        }
+      },
+      "missing_routes": [
+        {
+          "route_type": "cross_reference",
+          "reason_code": "no_valid_cross_reference_route",
+          "evidence_ids": [
+            "EVID-CB080A3AF430"
+          ]
+        }
+      ],
+      "missed_treatments": [],
+      "uncertainty": {
+        "status": "none"
+      },
+      "error_codes": []
+    },
+    {
+      "subject_id": "SUBJ-500829B491E2",
+      "priority": "optional",
+      "coverage": "complete",
+      "direct_access": true,
+      "cross_reference_access": false,
+      "realistic_first_lookup_success": "yes",
+      "stance_preserved": "yes",
+      "severity": "none",
+      "confidence": "high",
+      "evidence_ids": [
+        "EVID-E5B15E3203A8"
+      ],
+      "matched_path_ids": [
+        "PATH-E915303BD7C5"
+      ],
+      "expected_document_pages": [
+        171
+      ],
+      "found_document_pages": [
+        171
+      ],
+      "missed_document_pages": [],
+      "locator_recall": {
+        "expected": 1,
+        "found": 1,
+        "missed": 0,
+        "rate": 1.0
+      },
+      "treatment_recall": {
+        "principal": {
+          "expected_document_pages": [
+            171
+          ],
+          "found_document_pages": [
+            171
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "supporting": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "synthesis_or_conclusion": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        }
+      },
+      "missing_routes": [
+        {
+          "route_type": "cross_reference",
+          "reason_code": "no_valid_cross_reference_route",
+          "evidence_ids": [
+            "EVID-E5B15E3203A8"
+          ]
+        }
+      ],
+      "missed_treatments": [],
+      "uncertainty": {
+        "status": "none"
+      },
+      "error_codes": []
+    },
+    {
+      "subject_id": "SUBJ-535EE5EA3C98",
+      "priority": "major",
+      "coverage": "complete",
+      "direct_access": true,
+      "cross_reference_access": false,
+      "realistic_first_lookup_success": "yes",
+      "stance_preserved": "yes",
+      "severity": "none",
+      "confidence": "high",
+      "evidence_ids": [
+        "EVID-F6B9927BB647"
+      ],
+      "matched_path_ids": [
+        "PATH-10D5A09D1FE6",
+        "PATH-534C000D4104",
+        "PATH-A7001B5A12CE",
+        "PATH-A86F3B89E4C1",
+        "PATH-DFDD2C51D7FA"
+      ],
+      "expected_document_pages": [
+        168
+      ],
+      "found_document_pages": [
+        168
+      ],
+      "missed_document_pages": [],
+      "locator_recall": {
+        "expected": 1,
+        "found": 1,
+        "missed": 0,
+        "rate": 1.0
+      },
+      "treatment_recall": {
+        "principal": {
+          "expected_document_pages": [
+            168
+          ],
+          "found_document_pages": [
+            168
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "supporting": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "synthesis_or_conclusion": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        }
+      },
+      "missing_routes": [
+        {
+          "route_type": "cross_reference",
+          "reason_code": "no_valid_cross_reference_route",
+          "evidence_ids": [
+            "EVID-F6B9927BB647"
+          ]
+        }
+      ],
+      "missed_treatments": [],
+      "uncertainty": {
+        "status": "none"
+      },
+      "error_codes": []
+    },
+    {
+      "subject_id": "SUBJ-59704A89DC09",
+      "priority": "optional",
+      "coverage": "complete",
+      "direct_access": true,
+      "cross_reference_access": false,
+      "realistic_first_lookup_success": "yes",
+      "stance_preserved": "yes",
+      "severity": "none",
+      "confidence": "high",
+      "evidence_ids": [
+        "EVID-25CD381253ED"
+      ],
+      "matched_path_ids": [
+        "PATH-0C4B8A4B90D4",
+        "PATH-6E3D08FE9B60",
+        "PATH-F8AD4A50D08F"
+      ],
+      "expected_document_pages": [
+        173
+      ],
+      "found_document_pages": [
+        173
+      ],
+      "missed_document_pages": [],
+      "locator_recall": {
+        "expected": 1,
+        "found": 1,
+        "missed": 0,
+        "rate": 1.0
+      },
+      "treatment_recall": {
+        "principal": {
+          "expected_document_pages": [
+            173
+          ],
+          "found_document_pages": [
+            173
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "supporting": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "synthesis_or_conclusion": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        }
+      },
+      "missing_routes": [
+        {
+          "route_type": "cross_reference",
+          "reason_code": "no_valid_cross_reference_route",
+          "evidence_ids": [
+            "EVID-25CD381253ED"
+          ]
+        }
+      ],
+      "missed_treatments": [],
+      "uncertainty": {
+        "status": "none"
+      },
+      "error_codes": []
+    },
+    {
+      "subject_id": "SUBJ-66D9F55CEE66",
+      "priority": "major",
+      "coverage": "complete",
+      "direct_access": true,
+      "cross_reference_access": false,
+      "realistic_first_lookup_success": "yes",
+      "stance_preserved": "yes",
+      "severity": "none",
+      "confidence": "high",
+      "evidence_ids": [
+        "EVID-3918A8FE7826",
+        "EVID-4D46C7EF27E7"
+      ],
+      "matched_path_ids": [
+        "PATH-100553F20CA5",
+        "PATH-82A8FB36E55A"
+      ],
+      "expected_document_pages": [
+        159,
+        162
+      ],
+      "found_document_pages": [
+        159,
+        162
+      ],
+      "missed_document_pages": [],
+      "locator_recall": {
+        "expected": 2,
+        "found": 2,
+        "missed": 0,
+        "rate": 1.0
+      },
+      "treatment_recall": {
+        "principal": {
+          "expected_document_pages": [
+            162
+          ],
+          "found_document_pages": [
+            162
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "supporting": {
+          "expected_document_pages": [
+            159
+          ],
+          "found_document_pages": [
+            159
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "synthesis_or_conclusion": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        }
+      },
+      "missing_routes": [
+        {
+          "route_type": "cross_reference",
+          "reason_code": "no_valid_cross_reference_route",
+          "evidence_ids": [
+            "EVID-3918A8FE7826",
+            "EVID-4D46C7EF27E7"
+          ]
+        }
+      ],
+      "missed_treatments": [],
+      "uncertainty": {
+        "status": "none"
+      },
+      "error_codes": []
+    },
+    {
+      "subject_id": "SUBJ-68A74EF1F846",
+      "priority": "major",
+      "coverage": "complete",
+      "direct_access": true,
+      "cross_reference_access": false,
+      "realistic_first_lookup_success": "yes",
+      "stance_preserved": "yes",
+      "severity": "none",
+      "confidence": "high",
+      "evidence_ids": [
+        "EVID-72B30E1A4792"
+      ],
+      "matched_path_ids": [
+        "PATH-60EC308B63C5",
+        "PATH-AC444CE6F16A",
+        "PATH-B1F6C3CECB78",
+        "PATH-DF64169074EF",
+        "PATH-F762FAB09E3E"
+      ],
+      "expected_document_pages": [
+        171
+      ],
+      "found_document_pages": [
+        171
+      ],
+      "missed_document_pages": [],
+      "locator_recall": {
+        "expected": 1,
+        "found": 1,
+        "missed": 0,
+        "rate": 1.0
+      },
+      "treatment_recall": {
+        "principal": {
+          "expected_document_pages": [
+            171
+          ],
+          "found_document_pages": [
+            171
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "supporting": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "synthesis_or_conclusion": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        }
+      },
+      "missing_routes": [
+        {
+          "route_type": "cross_reference",
+          "reason_code": "no_valid_cross_reference_route",
+          "evidence_ids": [
+            "EVID-72B30E1A4792"
+          ]
+        }
+      ],
+      "missed_treatments": [],
+      "uncertainty": {
+        "status": "none"
+      },
+      "error_codes": []
+    },
+    {
+      "subject_id": "SUBJ-6AE1514813E6",
+      "priority": "major",
+      "coverage": "complete",
+      "direct_access": true,
+      "cross_reference_access": false,
+      "realistic_first_lookup_success": "yes",
+      "stance_preserved": "yes",
+      "severity": "none",
+      "confidence": "high",
+      "evidence_ids": [
+        "EVID-34F414248282"
+      ],
+      "matched_path_ids": [
+        "PATH-81B2DF9F6E75",
+        "PATH-9016BE36D2B2",
+        "PATH-EF31D9628D64"
+      ],
+      "expected_document_pages": [
+        171
+      ],
+      "found_document_pages": [
+        171
+      ],
+      "missed_document_pages": [],
+      "locator_recall": {
+        "expected": 1,
+        "found": 1,
+        "missed": 0,
+        "rate": 1.0
+      },
+      "treatment_recall": {
+        "principal": {
+          "expected_document_pages": [
+            171
+          ],
+          "found_document_pages": [
+            171
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "supporting": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "synthesis_or_conclusion": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        }
+      },
+      "missing_routes": [
+        {
+          "route_type": "cross_reference",
+          "reason_code": "no_valid_cross_reference_route",
+          "evidence_ids": [
+            "EVID-34F414248282"
+          ]
+        }
+      ],
+      "missed_treatments": [],
+      "uncertainty": {
+        "status": "none"
+      },
+      "error_codes": []
+    },
+    {
+      "subject_id": "SUBJ-6D258BB86487",
+      "priority": "major",
+      "coverage": "complete",
+      "direct_access": true,
+      "cross_reference_access": false,
+      "realistic_first_lookup_success": "yes",
+      "stance_preserved": "yes",
+      "severity": "none",
+      "confidence": "high",
+      "evidence_ids": [
+        "EVID-4DA457673562",
+        "EVID-96DACB14650F",
+        "EVID-E46673E081F7"
+      ],
+      "matched_path_ids": [
+        "PATH-1ACC17B09F21",
+        "PATH-96D386AD2C52",
+        "PATH-DFDD2C51D7FA",
+        "PATH-FB1138A91995"
+      ],
+      "expected_document_pages": [
+        168,
+        169,
+        170
+      ],
+      "found_document_pages": [
+        168,
+        169,
+        170
+      ],
+      "missed_document_pages": [],
+      "locator_recall": {
+        "expected": 3,
+        "found": 3,
+        "missed": 0,
+        "rate": 1.0
+      },
+      "treatment_recall": {
+        "principal": {
+          "expected_document_pages": [
+            169
+          ],
+          "found_document_pages": [
+            169
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "supporting": {
+          "expected_document_pages": [
+            168
+          ],
+          "found_document_pages": [
+            168
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "synthesis_or_conclusion": {
+          "expected_document_pages": [
+            170
+          ],
+          "found_document_pages": [
+            170
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        }
+      },
+      "missing_routes": [
+        {
+          "route_type": "cross_reference",
+          "reason_code": "no_valid_cross_reference_route",
+          "evidence_ids": [
+            "EVID-4DA457673562",
+            "EVID-96DACB14650F",
+            "EVID-E46673E081F7"
+          ]
+        }
+      ],
+      "missed_treatments": [],
+      "uncertainty": {
+        "status": "none"
+      },
+      "error_codes": []
+    },
+    {
+      "subject_id": "SUBJ-6D53877CB4B9",
+      "priority": "major",
+      "coverage": "complete",
+      "direct_access": true,
+      "cross_reference_access": false,
+      "realistic_first_lookup_success": "yes",
+      "stance_preserved": "yes",
+      "severity": "none",
+      "confidence": "high",
+      "evidence_ids": [
+        "EVID-45D9BC90FAB5",
+        "EVID-6FDFB2E181F6"
+      ],
+      "matched_path_ids": [
+        "PATH-66AE149141A5",
+        "PATH-A102C716B7A5",
+        "PATH-FDB57A937F7A"
+      ],
+      "expected_document_pages": [
+        165,
+        166
+      ],
+      "found_document_pages": [
+        165,
+        166
+      ],
+      "missed_document_pages": [],
+      "locator_recall": {
+        "expected": 2,
+        "found": 2,
+        "missed": 0,
+        "rate": 1.0
+      },
+      "treatment_recall": {
+        "principal": {
+          "expected_document_pages": [
+            165
+          ],
+          "found_document_pages": [
+            165
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "supporting": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "synthesis_or_conclusion": {
+          "expected_document_pages": [
+            166
+          ],
+          "found_document_pages": [
+            166
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        }
+      },
+      "missing_routes": [
+        {
+          "route_type": "cross_reference",
+          "reason_code": "no_valid_cross_reference_route",
+          "evidence_ids": [
+            "EVID-45D9BC90FAB5",
+            "EVID-6FDFB2E181F6"
+          ]
+        }
+      ],
+      "missed_treatments": [],
+      "uncertainty": {
+        "status": "none"
+      },
+      "error_codes": []
+    },
+    {
+      "subject_id": "SUBJ-6D5AB9581B8F",
+      "priority": "major",
+      "coverage": "missing",
+      "direct_access": false,
+      "cross_reference_access": false,
+      "realistic_first_lookup_success": "no",
+      "stance_preserved": "no",
+      "severity": "major",
+      "confidence": "high",
+      "evidence_ids": [
+        "EVID-246BAB9AF253",
+        "EVID-351713124858",
+        "EVID-9E6BE717960F",
+        "EVID-D23644FD6513",
+        "EVID-E6CFF6881636",
+        "EVID-E7F288499185"
+      ],
+      "matched_path_ids": [
+        "PATH-101A7277E7B6",
+        "PATH-171FA61CF29F",
+        "PATH-1CC9A66DB49E",
+        "PATH-24C8A4308193",
+        "PATH-284EEEDF8A09",
+        "PATH-2EF7A392647A",
+        "PATH-32212E731B94",
+        "PATH-3A70DFD9F047",
+        "PATH-3D5252725A4A",
+        "PATH-4A4D826834E1",
+        "PATH-570D475AFFE8",
+        "PATH-578CD6F939E6",
+        "PATH-5C6535B9E8AE",
+        "PATH-5CC9DD23F2A2",
+        "PATH-8DA8B88A5B29",
+        "PATH-9B1BD876AC00",
+        "PATH-A24D25DB2BC7",
+        "PATH-A335227CEBF0",
+        "PATH-C0700F116B5D",
+        "PATH-CC03D52ED5BD",
+        "PATH-E5BB43AFD121",
+        "PATH-E96715D31BF4"
+      ],
+      "expected_document_pages": [
+        161,
+        172,
+        210,
+        211,
+        213,
+        218
+      ],
+      "found_document_pages": [
+        161,
+        172,
+        210,
+        211,
+        213,
+        218
+      ],
+      "missed_document_pages": [],
+      "locator_recall": {
+        "expected": 6,
+        "found": 6,
+        "missed": 0,
+        "rate": 1.0
+      },
+      "treatment_recall": {
+        "principal": {
+          "expected_document_pages": [
+            161
+          ],
+          "found_document_pages": [
+            161
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "supporting": {
+          "expected_document_pages": [
+            172,
+            210,
+            211,
+            213
+          ],
+          "found_document_pages": [
+            172,
+            210,
+            211,
+            213
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "synthesis_or_conclusion": {
+          "expected_document_pages": [
+            218
+          ],
+          "found_document_pages": [
+            218
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        }
+      },
+      "missing_routes": [
+        {
+          "route_type": "direct",
+          "reason_code": "no_valid_direct_route",
+          "evidence_ids": [
+            "EVID-246BAB9AF253",
+            "EVID-351713124858",
+            "EVID-9E6BE717960F",
+            "EVID-D23644FD6513",
+            "EVID-E6CFF6881636",
+            "EVID-E7F288499185"
+          ]
+        },
+        {
+          "route_type": "cross_reference",
+          "reason_code": "no_valid_cross_reference_route",
+          "evidence_ids": [
+            "EVID-246BAB9AF253",
+            "EVID-351713124858",
+            "EVID-9E6BE717960F",
+            "EVID-D23644FD6513",
+            "EVID-E6CFF6881636",
+            "EVID-E7F288499185"
+          ]
+        }
+      ],
+      "missed_treatments": [],
+      "uncertainty": {
+        "status": "none"
+      },
+      "error_codes": [
+        "COV",
+        "STA"
+      ]
+    },
+    {
+      "subject_id": "SUBJ-78830C16A72A",
+      "priority": "major",
+      "coverage": "partial",
+      "direct_access": true,
+      "cross_reference_access": false,
+      "realistic_first_lookup_success": "partly",
+      "stance_preserved": "partly",
+      "severity": "minor",
+      "confidence": "high",
+      "evidence_ids": [
+        "EVID-909E3EF54953",
+        "EVID-B4D05553C3D9"
+      ],
+      "matched_path_ids": [
+        "PATH-043CAAD78926",
+        "PATH-152AB8EAB458",
+        "PATH-1ACC17B09F21",
+        "PATH-42D756224936",
+        "PATH-814A1E8F3AB6",
+        "PATH-96D386AD2C52"
+      ],
+      "expected_document_pages": [
+        169,
+        170
+      ],
+      "found_document_pages": [
+        169,
+        170
+      ],
+      "missed_document_pages": [],
+      "locator_recall": {
+        "expected": 2,
+        "found": 2,
+        "missed": 0,
+        "rate": 1.0
+      },
+      "treatment_recall": {
+        "principal": {
+          "expected_document_pages": [
+            170
+          ],
+          "found_document_pages": [
+            170
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "supporting": {
+          "expected_document_pages": [
+            169
+          ],
+          "found_document_pages": [
+            169
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "synthesis_or_conclusion": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        }
+      },
+      "missing_routes": [
+        {
+          "route_type": "cross_reference",
+          "reason_code": "no_valid_cross_reference_route",
+          "evidence_ids": [
+            "EVID-909E3EF54953",
+            "EVID-B4D05553C3D9"
+          ]
+        }
+      ],
+      "missed_treatments": [],
+      "uncertainty": {
+        "status": "none"
+      },
+      "error_codes": [
+        "COV",
+        "STA"
+      ]
+    },
+    {
+      "subject_id": "SUBJ-81574B45F9DA",
+      "priority": "major",
+      "coverage": "complete",
+      "direct_access": true,
+      "cross_reference_access": false,
+      "realistic_first_lookup_success": "yes",
+      "stance_preserved": "yes",
+      "severity": "none",
+      "confidence": "high",
+      "evidence_ids": [
+        "EVID-A3CCEE8B31FE"
+      ],
+      "matched_path_ids": [
+        "PATH-66AE149141A5",
+        "PATH-A102C716B7A5",
+        "PATH-E99349CBB62A"
+      ],
+      "expected_document_pages": [
+        166
+      ],
+      "found_document_pages": [
+        166
+      ],
+      "missed_document_pages": [],
+      "locator_recall": {
+        "expected": 1,
+        "found": 1,
+        "missed": 0,
+        "rate": 1.0
+      },
+      "treatment_recall": {
+        "principal": {
+          "expected_document_pages": [
+            166
+          ],
+          "found_document_pages": [
+            166
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "supporting": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "synthesis_or_conclusion": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        }
+      },
+      "missing_routes": [
+        {
+          "route_type": "cross_reference",
+          "reason_code": "no_valid_cross_reference_route",
+          "evidence_ids": [
+            "EVID-A3CCEE8B31FE"
+          ]
+        }
+      ],
+      "missed_treatments": [],
+      "uncertainty": {
+        "status": "none"
+      },
+      "error_codes": []
+    },
+    {
+      "subject_id": "SUBJ-85D1D73F9909",
+      "priority": "major",
+      "coverage": "complete",
+      "direct_access": true,
+      "cross_reference_access": false,
+      "realistic_first_lookup_success": "yes",
+      "stance_preserved": "yes",
+      "severity": "none",
+      "confidence": "high",
+      "evidence_ids": [
+        "EVID-C4B626D54F70",
+        "EVID-D8F12B77C471"
+      ],
+      "matched_path_ids": [
+        "PATH-2B4083238575",
+        "PATH-66BD63E8B564",
+        "PATH-B48C24D9A42B",
+        "PATH-FDB57A937F7A"
+      ],
+      "expected_document_pages": [
+        171,
+        172
+      ],
+      "found_document_pages": [
+        171,
+        172
+      ],
+      "missed_document_pages": [],
+      "locator_recall": {
+        "expected": 2,
+        "found": 2,
+        "missed": 0,
+        "rate": 1.0
+      },
+      "treatment_recall": {
+        "principal": {
+          "expected_document_pages": [
+            172
+          ],
+          "found_document_pages": [
+            172
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "supporting": {
+          "expected_document_pages": [
+            171
+          ],
+          "found_document_pages": [
+            171
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "synthesis_or_conclusion": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        }
+      },
+      "missing_routes": [
+        {
+          "route_type": "cross_reference",
+          "reason_code": "no_valid_cross_reference_route",
+          "evidence_ids": [
+            "EVID-C4B626D54F70",
+            "EVID-D8F12B77C471"
+          ]
+        }
+      ],
+      "missed_treatments": [],
+      "uncertainty": {
+        "status": "none"
+      },
+      "error_codes": []
+    },
+    {
+      "subject_id": "SUBJ-860E8231099C",
+      "priority": "essential",
+      "coverage": "partial",
+      "direct_access": true,
+      "cross_reference_access": false,
+      "realistic_first_lookup_success": "partly",
+      "stance_preserved": "partly",
+      "severity": "major",
+      "confidence": "high",
+      "evidence_ids": [
+        "EVID-3128B0A4E05C",
+        "EVID-50095884387B",
+        "EVID-86B76B23F53B",
+        "EVID-B484DAF4199A"
+      ],
+      "matched_path_ids": [
+        "PATH-9B1BD876AC00",
+        "PATH-E96715D31BF4"
+      ],
+      "expected_document_pages": [
+        160,
+        172,
+        173,
+        417
+      ],
+      "found_document_pages": [
+        160,
+        172
+      ],
+      "missed_document_pages": [
+        173,
+        417
+      ],
+      "locator_recall": {
+        "expected": 4,
+        "found": 2,
+        "missed": 2,
+        "rate": 0.5
+      },
+      "treatment_recall": {
+        "principal": {
+          "expected_document_pages": [
+            172,
+            417
+          ],
+          "found_document_pages": [
+            172
+          ],
+          "missed_document_pages": [
+            417
+          ],
+          "uninspectable_document_pages": []
+        },
+        "supporting": {
+          "expected_document_pages": [
+            160
+          ],
+          "found_document_pages": [
+            160
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "synthesis_or_conclusion": {
+          "expected_document_pages": [
+            173
+          ],
+          "found_document_pages": [],
+          "missed_document_pages": [
+            173
+          ],
+          "uninspectable_document_pages": []
+        }
+      },
+      "missing_routes": [
+        {
+          "route_type": "cross_reference",
+          "reason_code": "no_valid_cross_reference_route",
+          "evidence_ids": [
+            "EVID-3128B0A4E05C",
+            "EVID-50095884387B",
+            "EVID-86B76B23F53B",
+            "EVID-B484DAF4199A"
+          ]
+        }
+      ],
+      "missed_treatments": [
+        {
+          "document_page": 173,
+          "locator_class": "synthesis_or_conclusion",
+          "reason_code": "no_supported_candidate_route_to_treatment",
+          "evidence_ids": [
+            "EVID-86B76B23F53B"
+          ]
+        },
+        {
+          "document_page": 417,
+          "locator_class": "principal",
+          "reason_code": "no_supported_candidate_route_to_treatment",
+          "evidence_ids": [
+            "EVID-B484DAF4199A"
+          ]
+        }
+      ],
+      "uncertainty": {
+        "status": "none"
+      },
+      "error_codes": [
+        "COV",
+        "STA"
+      ]
+    },
+    {
+      "subject_id": "SUBJ-8C256029A9B7",
+      "priority": "major",
+      "coverage": "complete",
+      "direct_access": true,
+      "cross_reference_access": false,
+      "realistic_first_lookup_success": "yes",
+      "stance_preserved": "yes",
+      "severity": "none",
+      "confidence": "high",
+      "evidence_ids": [
+        "EVID-6D21AC84AD36",
+        "EVID-ACB658502AD1"
+      ],
+      "matched_path_ids": [
+        "PATH-4438A3E83623",
+        "PATH-CCC8DE4629C8"
+      ],
+      "expected_document_pages": [
+        163,
+        164
+      ],
+      "found_document_pages": [
+        163,
+        164
+      ],
+      "missed_document_pages": [],
+      "locator_recall": {
+        "expected": 2,
+        "found": 2,
+        "missed": 0,
+        "rate": 1.0
+      },
+      "treatment_recall": {
+        "principal": {
+          "expected_document_pages": [
+            163
+          ],
+          "found_document_pages": [
+            163
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "supporting": {
+          "expected_document_pages": [
+            164
+          ],
+          "found_document_pages": [
+            164
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "synthesis_or_conclusion": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        }
+      },
+      "missing_routes": [
+        {
+          "route_type": "cross_reference",
+          "reason_code": "no_valid_cross_reference_route",
+          "evidence_ids": [
+            "EVID-6D21AC84AD36",
+            "EVID-ACB658502AD1"
+          ]
+        }
+      ],
+      "missed_treatments": [],
+      "uncertainty": {
+        "status": "none"
+      },
+      "error_codes": []
+    },
+    {
+      "subject_id": "SUBJ-8EB14BCD5F20",
+      "priority": "major",
+      "coverage": "complete",
+      "direct_access": true,
+      "cross_reference_access": false,
+      "realistic_first_lookup_success": "yes",
+      "stance_preserved": "yes",
+      "severity": "none",
+      "confidence": "high",
+      "evidence_ids": [
+        "EVID-7F913B5D8273",
+        "EVID-9E40FC926E1B"
+      ],
+      "matched_path_ids": [
+        "PATH-A102C716B7A5"
+      ],
+      "expected_document_pages": [
+        165,
+        166
+      ],
+      "found_document_pages": [
+        165,
+        166
+      ],
+      "missed_document_pages": [],
+      "locator_recall": {
+        "expected": 2,
+        "found": 2,
+        "missed": 0,
+        "rate": 1.0
+      },
+      "treatment_recall": {
+        "principal": {
+          "expected_document_pages": [
+            165
+          ],
+          "found_document_pages": [
+            165
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "supporting": {
+          "expected_document_pages": [
+            166
+          ],
+          "found_document_pages": [
+            166
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "synthesis_or_conclusion": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        }
+      },
+      "missing_routes": [
+        {
+          "route_type": "cross_reference",
+          "reason_code": "no_valid_cross_reference_route",
+          "evidence_ids": [
+            "EVID-7F913B5D8273",
+            "EVID-9E40FC926E1B"
+          ]
+        }
+      ],
+      "missed_treatments": [],
+      "uncertainty": {
+        "status": "none"
+      },
+      "error_codes": []
+    },
+    {
+      "subject_id": "SUBJ-8EB418BD0B69",
+      "priority": "major",
+      "coverage": "complete",
+      "direct_access": true,
+      "cross_reference_access": false,
+      "realistic_first_lookup_success": "yes",
+      "stance_preserved": "yes",
+      "severity": "none",
+      "confidence": "high",
+      "evidence_ids": [
+        "EVID-CCF2B7873758"
+      ],
+      "matched_path_ids": [
+        "PATH-448D8585F5FC",
+        "PATH-52A20F066DD9"
+      ],
+      "expected_document_pages": [
+        163
+      ],
+      "found_document_pages": [
+        163
+      ],
+      "missed_document_pages": [],
+      "locator_recall": {
+        "expected": 1,
+        "found": 1,
+        "missed": 0,
+        "rate": 1.0
+      },
+      "treatment_recall": {
+        "principal": {
+          "expected_document_pages": [
+            163
+          ],
+          "found_document_pages": [
+            163
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "supporting": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "synthesis_or_conclusion": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        }
+      },
+      "missing_routes": [
+        {
+          "route_type": "cross_reference",
+          "reason_code": "no_valid_cross_reference_route",
+          "evidence_ids": [
+            "EVID-CCF2B7873758"
+          ]
+        }
+      ],
+      "missed_treatments": [],
+      "uncertainty": {
+        "status": "none"
+      },
+      "error_codes": []
+    },
+    {
+      "subject_id": "SUBJ-920CDB6B52F7",
+      "priority": "major",
+      "coverage": "complete",
+      "direct_access": true,
+      "cross_reference_access": false,
+      "realistic_first_lookup_success": "yes",
+      "stance_preserved": "yes",
+      "severity": "none",
+      "confidence": "high",
+      "evidence_ids": [
+        "EVID-F498537CBF39"
+      ],
+      "matched_path_ids": [
+        "PATH-2BFCFED9D789",
+        "PATH-AC950631E211",
+        "PATH-DFDD2C51D7FA"
+      ],
+      "expected_document_pages": [
+        168
+      ],
+      "found_document_pages": [
+        168
+      ],
+      "missed_document_pages": [],
+      "locator_recall": {
+        "expected": 1,
+        "found": 1,
+        "missed": 0,
+        "rate": 1.0
+      },
+      "treatment_recall": {
+        "principal": {
+          "expected_document_pages": [
+            168
+          ],
+          "found_document_pages": [
+            168
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "supporting": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "synthesis_or_conclusion": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        }
+      },
+      "missing_routes": [
+        {
+          "route_type": "cross_reference",
+          "reason_code": "no_valid_cross_reference_route",
+          "evidence_ids": [
+            "EVID-F498537CBF39"
+          ]
+        }
+      ],
+      "missed_treatments": [],
+      "uncertainty": {
+        "status": "none"
+      },
+      "error_codes": []
+    },
+    {
+      "subject_id": "SUBJ-94E13DCE336F",
+      "priority": "major",
+      "coverage": "missing",
+      "direct_access": false,
+      "cross_reference_access": false,
+      "realistic_first_lookup_success": "no",
+      "stance_preserved": "no",
+      "severity": "major",
+      "confidence": "high",
+      "evidence_ids": [
+        "EVID-B9AD3BD8375D"
+      ],
+      "matched_path_ids": [
+        "PATH-EFC5B5720B32"
+      ],
+      "expected_document_pages": [
+        165
+      ],
+      "found_document_pages": [
+        165
+      ],
+      "missed_document_pages": [],
+      "locator_recall": {
+        "expected": 1,
+        "found": 1,
+        "missed": 0,
+        "rate": 1.0
+      },
+      "treatment_recall": {
+        "principal": {
+          "expected_document_pages": [
+            165
+          ],
+          "found_document_pages": [
+            165
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "supporting": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "synthesis_or_conclusion": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        }
+      },
+      "missing_routes": [
+        {
+          "route_type": "direct",
+          "reason_code": "no_valid_direct_route",
+          "evidence_ids": [
+            "EVID-B9AD3BD8375D"
+          ]
+        },
+        {
+          "route_type": "cross_reference",
+          "reason_code": "no_valid_cross_reference_route",
+          "evidence_ids": [
+            "EVID-B9AD3BD8375D"
+          ]
+        }
+      ],
+      "missed_treatments": [],
+      "uncertainty": {
+        "status": "none"
+      },
+      "error_codes": [
+        "COV",
+        "STA"
+      ]
+    },
+    {
+      "subject_id": "SUBJ-9CC88CADE007",
+      "priority": "major",
+      "coverage": "missing",
+      "direct_access": false,
+      "cross_reference_access": false,
+      "realistic_first_lookup_success": "no",
+      "stance_preserved": "no",
+      "severity": "major",
+      "confidence": "high",
+      "evidence_ids": [
+        "EVID-CBE505DED8CE"
+      ],
+      "matched_path_ids": [
+        "PATH-82980135C1F0",
+        "PATH-E6D80FA73D7D",
+        "PATH-EFC5B5720B32"
+      ],
+      "expected_document_pages": [
+        165
+      ],
+      "found_document_pages": [
+        165
+      ],
+      "missed_document_pages": [],
+      "locator_recall": {
+        "expected": 1,
+        "found": 1,
+        "missed": 0,
+        "rate": 1.0
+      },
+      "treatment_recall": {
+        "principal": {
+          "expected_document_pages": [
+            165
+          ],
+          "found_document_pages": [
+            165
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "supporting": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "synthesis_or_conclusion": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        }
+      },
+      "missing_routes": [
+        {
+          "route_type": "direct",
+          "reason_code": "no_valid_direct_route",
+          "evidence_ids": [
+            "EVID-CBE505DED8CE"
+          ]
+        },
+        {
+          "route_type": "cross_reference",
+          "reason_code": "no_valid_cross_reference_route",
+          "evidence_ids": [
+            "EVID-CBE505DED8CE"
+          ]
+        }
+      ],
+      "missed_treatments": [],
+      "uncertainty": {
+        "status": "none"
+      },
+      "error_codes": [
+        "COV",
+        "STA"
+      ]
+    },
+    {
+      "subject_id": "SUBJ-9FDE6DAB64C8",
+      "priority": "major",
+      "coverage": "complete",
+      "direct_access": true,
+      "cross_reference_access": false,
+      "realistic_first_lookup_success": "yes",
+      "stance_preserved": "yes",
+      "severity": "none",
+      "confidence": "high",
+      "evidence_ids": [
+        "EVID-C500FEE65001"
+      ],
+      "matched_path_ids": [
+        "PATH-A102C716B7A5",
+        "PATH-E99349CBB62A"
+      ],
+      "expected_document_pages": [
+        166
+      ],
+      "found_document_pages": [
+        166
+      ],
+      "missed_document_pages": [],
+      "locator_recall": {
+        "expected": 1,
+        "found": 1,
+        "missed": 0,
+        "rate": 1.0
+      },
+      "treatment_recall": {
+        "principal": {
+          "expected_document_pages": [
+            166
+          ],
+          "found_document_pages": [
+            166
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "supporting": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "synthesis_or_conclusion": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        }
+      },
+      "missing_routes": [
+        {
+          "route_type": "cross_reference",
+          "reason_code": "no_valid_cross_reference_route",
+          "evidence_ids": [
+            "EVID-C500FEE65001"
+          ]
+        }
+      ],
+      "missed_treatments": [],
+      "uncertainty": {
+        "status": "none"
+      },
+      "error_codes": []
+    },
+    {
+      "subject_id": "SUBJ-A513146CACAF",
+      "priority": "major",
+      "coverage": "complete",
+      "direct_access": true,
+      "cross_reference_access": false,
+      "realistic_first_lookup_success": "yes",
+      "stance_preserved": "yes",
+      "severity": "none",
+      "confidence": "high",
+      "evidence_ids": [
+        "EVID-A4105869D20B",
+        "EVID-B9BE8BB34A8D"
+      ],
+      "matched_path_ids": [
+        "PATH-1ACC17B09F21",
+        "PATH-FB1138A91995"
+      ],
+      "expected_document_pages": [
+        169,
+        170
+      ],
+      "found_document_pages": [
+        169,
+        170
+      ],
+      "missed_document_pages": [],
+      "locator_recall": {
+        "expected": 2,
+        "found": 2,
+        "missed": 0,
+        "rate": 1.0
+      },
+      "treatment_recall": {
+        "principal": {
+          "expected_document_pages": [
+            169
+          ],
+          "found_document_pages": [
+            169
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "supporting": {
+          "expected_document_pages": [
+            170
+          ],
+          "found_document_pages": [
+            170
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "synthesis_or_conclusion": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        }
+      },
+      "missing_routes": [
+        {
+          "route_type": "cross_reference",
+          "reason_code": "no_valid_cross_reference_route",
+          "evidence_ids": [
+            "EVID-A4105869D20B",
+            "EVID-B9BE8BB34A8D"
+          ]
+        }
+      ],
+      "missed_treatments": [],
+      "uncertainty": {
+        "status": "none"
+      },
+      "error_codes": []
+    },
+    {
+      "subject_id": "SUBJ-B058F52EB86F",
+      "priority": "major",
+      "coverage": "complete",
+      "direct_access": true,
+      "cross_reference_access": false,
+      "realistic_first_lookup_success": "yes",
+      "stance_preserved": "yes",
+      "severity": "none",
+      "confidence": "high",
+      "evidence_ids": [
+        "EVID-B7B2299698B0"
+      ],
+      "matched_path_ids": [
+        "PATH-084DB077D033"
+      ],
+      "expected_document_pages": [
+        164
+      ],
+      "found_document_pages": [
+        164
+      ],
+      "missed_document_pages": [],
+      "locator_recall": {
+        "expected": 1,
+        "found": 1,
+        "missed": 0,
+        "rate": 1.0
+      },
+      "treatment_recall": {
+        "principal": {
+          "expected_document_pages": [
+            164
+          ],
+          "found_document_pages": [
+            164
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "supporting": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "synthesis_or_conclusion": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        }
+      },
+      "missing_routes": [
+        {
+          "route_type": "cross_reference",
+          "reason_code": "no_valid_cross_reference_route",
+          "evidence_ids": [
+            "EVID-B7B2299698B0"
+          ]
+        }
+      ],
+      "missed_treatments": [],
+      "uncertainty": {
+        "status": "none"
+      },
+      "error_codes": []
+    },
+    {
+      "subject_id": "SUBJ-B3361A88EC5F",
+      "priority": "major",
+      "coverage": "complete",
+      "direct_access": true,
+      "cross_reference_access": false,
+      "realistic_first_lookup_success": "yes",
+      "stance_preserved": "yes",
+      "severity": "none",
+      "confidence": "high",
+      "evidence_ids": [
+        "EVID-2085871F0075",
+        "EVID-7951E7C34C57"
+      ],
+      "matched_path_ids": [
+        "PATH-DFDD2C51D7FA"
+      ],
+      "expected_document_pages": [
+        167,
+        168
+      ],
+      "found_document_pages": [
+        167,
+        168
+      ],
+      "missed_document_pages": [],
+      "locator_recall": {
+        "expected": 2,
+        "found": 2,
+        "missed": 0,
+        "rate": 1.0
+      },
+      "treatment_recall": {
+        "principal": {
+          "expected_document_pages": [
+            167
+          ],
+          "found_document_pages": [
+            167
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "supporting": {
+          "expected_document_pages": [
+            168
+          ],
+          "found_document_pages": [
+            168
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "synthesis_or_conclusion": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        }
+      },
+      "missing_routes": [
+        {
+          "route_type": "cross_reference",
+          "reason_code": "no_valid_cross_reference_route",
+          "evidence_ids": [
+            "EVID-2085871F0075",
+            "EVID-7951E7C34C57"
+          ]
+        }
+      ],
+      "missed_treatments": [],
+      "uncertainty": {
+        "status": "none"
+      },
+      "error_codes": []
+    },
+    {
+      "subject_id": "SUBJ-BFD96E101903",
+      "priority": "major",
+      "coverage": "complete",
+      "direct_access": true,
+      "cross_reference_access": false,
+      "realistic_first_lookup_success": "yes",
+      "stance_preserved": "yes",
+      "severity": "none",
+      "confidence": "high",
+      "evidence_ids": [
+        "EVID-C570D54C2E09"
+      ],
+      "matched_path_ids": [
+        "PATH-0A5D5785D893",
+        "PATH-D7E2BEE62D67",
+        "PATH-E6D80FA73D7D",
+        "PATH-EF31D9628D64"
+      ],
+      "expected_document_pages": [
+        164
+      ],
+      "found_document_pages": [
+        164
+      ],
+      "missed_document_pages": [],
+      "locator_recall": {
+        "expected": 1,
+        "found": 1,
+        "missed": 0,
+        "rate": 1.0
+      },
+      "treatment_recall": {
+        "principal": {
+          "expected_document_pages": [
+            164
+          ],
+          "found_document_pages": [
+            164
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "supporting": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "synthesis_or_conclusion": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        }
+      },
+      "missing_routes": [
+        {
+          "route_type": "cross_reference",
+          "reason_code": "no_valid_cross_reference_route",
+          "evidence_ids": [
+            "EVID-C570D54C2E09"
+          ]
+        }
+      ],
+      "missed_treatments": [],
+      "uncertainty": {
+        "status": "none"
+      },
+      "error_codes": []
+    },
+    {
+      "subject_id": "SUBJ-C1E2782B867D",
+      "priority": "optional",
+      "coverage": "complete",
+      "direct_access": true,
+      "cross_reference_access": false,
+      "realistic_first_lookup_success": "yes",
+      "stance_preserved": "yes",
+      "severity": "none",
+      "confidence": "high",
+      "evidence_ids": [
+        "EVID-3657E9D22B41"
+      ],
+      "matched_path_ids": [
+        "PATH-98EF6E7D8928",
+        "PATH-B48C24D9A42B",
+        "PATH-FDB57A937F7A"
+      ],
+      "expected_document_pages": [
+        172
+      ],
+      "found_document_pages": [
+        172
+      ],
+      "missed_document_pages": [],
+      "locator_recall": {
+        "expected": 1,
+        "found": 1,
+        "missed": 0,
+        "rate": 1.0
+      },
+      "treatment_recall": {
+        "principal": {
+          "expected_document_pages": [
+            172
+          ],
+          "found_document_pages": [
+            172
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "supporting": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "synthesis_or_conclusion": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        }
+      },
+      "missing_routes": [
+        {
+          "route_type": "cross_reference",
+          "reason_code": "no_valid_cross_reference_route",
+          "evidence_ids": [
+            "EVID-3657E9D22B41"
+          ]
+        }
+      ],
+      "missed_treatments": [],
+      "uncertainty": {
+        "status": "none"
+      },
+      "error_codes": []
+    },
+    {
+      "subject_id": "SUBJ-C6F3C427C89B",
+      "priority": "major",
+      "coverage": "complete",
+      "direct_access": true,
+      "cross_reference_access": false,
+      "realistic_first_lookup_success": "yes",
+      "stance_preserved": "yes",
+      "severity": "none",
+      "confidence": "high",
+      "evidence_ids": [
+        "EVID-9E802B68F873",
+        "EVID-FCC1EEE656DF"
+      ],
+      "matched_path_ids": [
+        "PATH-2B4083238575",
+        "PATH-76209E7774C0",
+        "PATH-92736E2BFC2D",
+        "PATH-FA22180A7D32"
+      ],
+      "expected_document_pages": [
+        164,
+        165
+      ],
+      "found_document_pages": [
+        164,
+        165
+      ],
+      "missed_document_pages": [],
+      "locator_recall": {
+        "expected": 2,
+        "found": 2,
+        "missed": 0,
+        "rate": 1.0
+      },
+      "treatment_recall": {
+        "principal": {
+          "expected_document_pages": [
+            164
+          ],
+          "found_document_pages": [
+            164
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "supporting": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "synthesis_or_conclusion": {
+          "expected_document_pages": [
+            165
+          ],
+          "found_document_pages": [
+            165
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        }
+      },
+      "missing_routes": [
+        {
+          "route_type": "cross_reference",
+          "reason_code": "no_valid_cross_reference_route",
+          "evidence_ids": [
+            "EVID-9E802B68F873",
+            "EVID-FCC1EEE656DF"
+          ]
+        }
+      ],
+      "missed_treatments": [],
+      "uncertainty": {
+        "status": "none"
+      },
+      "error_codes": []
+    },
+    {
+      "subject_id": "SUBJ-CB4AC85E0D26",
+      "priority": "major",
+      "coverage": "partial",
+      "direct_access": true,
+      "cross_reference_access": true,
+      "realistic_first_lookup_success": "partly",
+      "stance_preserved": "partly",
+      "severity": "minor",
+      "confidence": "high",
+      "evidence_ids": [
+        "EVID-12391A1D9056",
+        "EVID-97AED4B80718",
+        "EVID-EDDC65014FFF"
+      ],
+      "matched_path_ids": [
+        "PATH-0A5D5785D893",
+        "PATH-662501DEC436",
+        "PATH-CCC8DE4629C8",
+        "PATH-D7E2BEE62D67",
+        "PATH-E5BB43AFD121",
+        "PATH-EF31D9628D64"
+      ],
+      "expected_document_pages": [
+        159,
+        160,
+        164
+      ],
+      "found_document_pages": [
+        159,
+        160,
+        164
+      ],
+      "missed_document_pages": [],
+      "locator_recall": {
+        "expected": 3,
+        "found": 3,
+        "missed": 0,
+        "rate": 1.0
+      },
+      "treatment_recall": {
+        "principal": {
+          "expected_document_pages": [
+            159,
+            160
+          ],
+          "found_document_pages": [
+            159,
+            160
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "supporting": {
+          "expected_document_pages": [
+            164
+          ],
+          "found_document_pages": [
+            164
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "synthesis_or_conclusion": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        }
+      },
+      "missing_routes": [],
+      "missed_treatments": [],
+      "uncertainty": {
+        "status": "none"
+      },
+      "error_codes": [
+        "COV",
+        "STA"
+      ]
+    },
+    {
+      "subject_id": "SUBJ-D35E8AB6FAE2",
+      "priority": "major",
+      "coverage": "partial",
+      "direct_access": true,
+      "cross_reference_access": false,
+      "realistic_first_lookup_success": "partly",
+      "stance_preserved": "partly",
+      "severity": "minor",
+      "confidence": "high",
+      "evidence_ids": [
+        "EVID-3890D8C75F11",
+        "EVID-537C992991D6"
+      ],
+      "matched_path_ids": [
+        "PATH-255CBC804638",
+        "PATH-4A4D826834E1",
+        "PATH-6B9793D840D3",
+        "PATH-A335227CEBF0",
+        "PATH-C0700F116B5D"
+      ],
+      "expected_document_pages": [
+        160,
+        161
+      ],
+      "found_document_pages": [
+        160,
+        161
+      ],
+      "missed_document_pages": [],
+      "locator_recall": {
+        "expected": 2,
+        "found": 2,
+        "missed": 0,
+        "rate": 1.0
+      },
+      "treatment_recall": {
+        "principal": {
+          "expected_document_pages": [
+            160
+          ],
+          "found_document_pages": [
+            160
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "supporting": {
+          "expected_document_pages": [
+            161
+          ],
+          "found_document_pages": [
+            161
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "synthesis_or_conclusion": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        }
+      },
+      "missing_routes": [
+        {
+          "route_type": "cross_reference",
+          "reason_code": "no_valid_cross_reference_route",
+          "evidence_ids": [
+            "EVID-3890D8C75F11",
+            "EVID-537C992991D6"
+          ]
+        }
+      ],
+      "missed_treatments": [],
+      "uncertainty": {
+        "status": "none"
+      },
+      "error_codes": [
+        "COV",
+        "STA"
+      ]
+    },
+    {
+      "subject_id": "SUBJ-D59F0BE16D19",
+      "priority": "major",
+      "coverage": "missing",
+      "direct_access": false,
+      "cross_reference_access": false,
+      "realistic_first_lookup_success": "no",
+      "stance_preserved": "no",
+      "severity": "major",
+      "confidence": "high",
+      "evidence_ids": [
+        "EVID-4BE396E23053"
+      ],
+      "matched_path_ids": [],
+      "expected_document_pages": [
+        160
+      ],
+      "found_document_pages": [],
+      "missed_document_pages": [
+        160
+      ],
+      "locator_recall": {
+        "expected": 1,
+        "found": 0,
+        "missed": 1,
+        "rate": 0.0
+      },
+      "treatment_recall": {
+        "principal": {
+          "expected_document_pages": [
+            160
+          ],
+          "found_document_pages": [],
+          "missed_document_pages": [
+            160
+          ],
+          "uninspectable_document_pages": []
+        },
+        "supporting": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "synthesis_or_conclusion": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        }
+      },
+      "missing_routes": [
+        {
+          "route_type": "direct",
+          "reason_code": "no_valid_direct_route",
+          "evidence_ids": [
+            "EVID-4BE396E23053"
+          ]
+        },
+        {
+          "route_type": "cross_reference",
+          "reason_code": "no_valid_cross_reference_route",
+          "evidence_ids": [
+            "EVID-4BE396E23053"
+          ]
+        }
+      ],
+      "missed_treatments": [
+        {
+          "document_page": 160,
+          "locator_class": "principal",
+          "reason_code": "no_supported_candidate_route_to_treatment",
+          "evidence_ids": [
+            "EVID-4BE396E23053"
+          ]
+        }
+      ],
+      "uncertainty": {
+        "status": "none"
+      },
+      "error_codes": [
+        "COV",
+        "STA"
+      ]
+    },
+    {
+      "subject_id": "SUBJ-E738A1D7D6F6",
+      "priority": "major",
+      "coverage": "missing",
+      "direct_access": false,
+      "cross_reference_access": false,
+      "realistic_first_lookup_success": "no",
+      "stance_preserved": "no",
+      "severity": "major",
+      "confidence": "high",
+      "evidence_ids": [
+        "EVID-872AE988B761"
+      ],
+      "matched_path_ids": [
+        "PATH-100553F20CA5",
+        "PATH-4D2A446021AA",
+        "PATH-58D429083EFA",
+        "PATH-82A8FB36E55A",
+        "PATH-A6F0DC4A363A",
+        "PATH-E5BB43AFD121"
+      ],
+      "expected_document_pages": [
+        159
+      ],
+      "found_document_pages": [
+        159
+      ],
+      "missed_document_pages": [],
+      "locator_recall": {
+        "expected": 1,
+        "found": 1,
+        "missed": 0,
+        "rate": 1.0
+      },
+      "treatment_recall": {
+        "principal": {
+          "expected_document_pages": [
+            159
+          ],
+          "found_document_pages": [
+            159
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "supporting": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "synthesis_or_conclusion": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        }
+      },
+      "missing_routes": [
+        {
+          "route_type": "direct",
+          "reason_code": "no_valid_direct_route",
+          "evidence_ids": [
+            "EVID-872AE988B761"
+          ]
+        },
+        {
+          "route_type": "cross_reference",
+          "reason_code": "no_valid_cross_reference_route",
+          "evidence_ids": [
+            "EVID-872AE988B761"
+          ]
+        }
+      ],
+      "missed_treatments": [],
+      "uncertainty": {
+        "status": "none"
+      },
+      "error_codes": [
+        "COV",
+        "STA"
+      ]
+    },
+    {
+      "subject_id": "SUBJ-F65ECC5BD7ED",
+      "priority": "major",
+      "coverage": "partial",
+      "direct_access": true,
+      "cross_reference_access": false,
+      "realistic_first_lookup_success": "partly",
+      "stance_preserved": "partly",
+      "severity": "minor",
+      "confidence": "high",
+      "evidence_ids": [
+        "EVID-733CB0D5B372",
+        "EVID-BFD88894BBB8"
+      ],
+      "matched_path_ids": [
+        "PATH-4A4D826834E1",
+        "PATH-563F6B5BEDCD",
+        "PATH-C0700F116B5D"
+      ],
+      "expected_document_pages": [
+        161,
+        162
+      ],
+      "found_document_pages": [
+        161,
+        162
+      ],
+      "missed_document_pages": [],
+      "locator_recall": {
+        "expected": 2,
+        "found": 2,
+        "missed": 0,
+        "rate": 1.0
+      },
+      "treatment_recall": {
+        "principal": {
+          "expected_document_pages": [
+            161
+          ],
+          "found_document_pages": [
+            161
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "supporting": {
+          "expected_document_pages": [
+            162
+          ],
+          "found_document_pages": [
+            162
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "synthesis_or_conclusion": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        }
+      },
+      "missing_routes": [
+        {
+          "route_type": "cross_reference",
+          "reason_code": "no_valid_cross_reference_route",
+          "evidence_ids": [
+            "EVID-733CB0D5B372",
+            "EVID-BFD88894BBB8"
+          ]
+        }
+      ],
+      "missed_treatments": [],
+      "uncertainty": {
+        "status": "none"
+      },
+      "error_codes": [
+        "COV",
+        "STA"
+      ]
+    },
+    {
+      "subject_id": "SUBJ-F6FA2285C425",
+      "priority": "optional",
+      "coverage": "complete",
+      "direct_access": true,
+      "cross_reference_access": false,
+      "realistic_first_lookup_success": "yes",
+      "stance_preserved": "yes",
+      "severity": "none",
+      "confidence": "high",
+      "evidence_ids": [
+        "EVID-0CF1388B6E76"
+      ],
+      "matched_path_ids": [
+        "PATH-4A4D826834E1",
+        "PATH-A335227CEBF0"
+      ],
+      "expected_document_pages": [
+        161
+      ],
+      "found_document_pages": [
+        161
+      ],
+      "missed_document_pages": [],
+      "locator_recall": {
+        "expected": 1,
+        "found": 1,
+        "missed": 0,
+        "rate": 1.0
+      },
+      "treatment_recall": {
+        "principal": {
+          "expected_document_pages": [
+            161
+          ],
+          "found_document_pages": [
+            161
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "supporting": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "synthesis_or_conclusion": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        }
+      },
+      "missing_routes": [
+        {
+          "route_type": "cross_reference",
+          "reason_code": "no_valid_cross_reference_route",
+          "evidence_ids": [
+            "EVID-0CF1388B6E76"
+          ]
+        }
+      ],
+      "missed_treatments": [],
+      "uncertainty": {
+        "status": "none"
+      },
+      "error_codes": []
+    },
+    {
+      "subject_id": "SUBJ-F80219EBE645",
+      "priority": "major",
+      "coverage": "complete",
+      "direct_access": true,
+      "cross_reference_access": true,
+      "realistic_first_lookup_success": "yes",
+      "stance_preserved": "yes",
+      "severity": "none",
+      "confidence": "high",
+      "evidence_ids": [
+        "EVID-6F7BD5638EB7",
+        "EVID-7DAFA00F3071"
+      ],
+      "matched_path_ids": [
+        "PATH-2BFCFED9D789",
+        "PATH-AC950631E211",
+        "PATH-DFDD2C51D7FA"
+      ],
+      "expected_document_pages": [
+        167,
+        168
+      ],
+      "found_document_pages": [
+        167,
+        168
+      ],
+      "missed_document_pages": [],
+      "locator_recall": {
+        "expected": 2,
+        "found": 2,
+        "missed": 0,
+        "rate": 1.0
+      },
+      "treatment_recall": {
+        "principal": {
+          "expected_document_pages": [
+            167,
+            168
+          ],
+          "found_document_pages": [
+            167,
+            168
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "supporting": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "synthesis_or_conclusion": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        }
+      },
+      "missing_routes": [],
+      "missed_treatments": [],
+      "uncertainty": {
+        "status": "none"
+      },
+      "error_codes": []
+    },
+    {
+      "subject_id": "SUBJ-F813578DDB86",
+      "priority": "major",
+      "coverage": "missing",
+      "direct_access": false,
+      "cross_reference_access": false,
+      "realistic_first_lookup_success": "no",
+      "stance_preserved": "no",
+      "severity": "major",
+      "confidence": "high",
+      "evidence_ids": [
+        "EVID-8813E56B4AFA"
+      ],
+      "matched_path_ids": [],
+      "expected_document_pages": [
+        172
+      ],
+      "found_document_pages": [],
+      "missed_document_pages": [
+        172
+      ],
+      "locator_recall": {
+        "expected": 1,
+        "found": 0,
+        "missed": 1,
+        "rate": 0.0
+      },
+      "treatment_recall": {
+        "principal": {
+          "expected_document_pages": [
+            172
+          ],
+          "found_document_pages": [],
+          "missed_document_pages": [
+            172
+          ],
+          "uninspectable_document_pages": []
+        },
+        "supporting": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "synthesis_or_conclusion": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        }
+      },
+      "missing_routes": [
+        {
+          "route_type": "direct",
+          "reason_code": "no_valid_direct_route",
+          "evidence_ids": [
+            "EVID-8813E56B4AFA"
+          ]
+        },
+        {
+          "route_type": "cross_reference",
+          "reason_code": "no_valid_cross_reference_route",
+          "evidence_ids": [
+            "EVID-8813E56B4AFA"
+          ]
+        }
+      ],
+      "missed_treatments": [
+        {
+          "document_page": 172,
+          "locator_class": "principal",
+          "reason_code": "no_supported_candidate_route_to_treatment",
+          "evidence_ids": [
+            "EVID-8813E56B4AFA"
+          ]
+        }
+      ],
+      "uncertainty": {
+        "status": "none"
+      },
+      "error_codes": [
+        "COV",
+        "STA"
+      ]
+    }
+  ],
+  "reader_task_results": [
+    {
+      "task_id": "TASK-0CAFB1EF89FA",
+      "subject_ids": [
+        "SUBJ-535EE5EA3C98",
+        "SUBJ-920CDB6B52F7",
+        "SUBJ-B3361A88EC5F",
+        "SUBJ-F80219EBE645"
+      ],
+      "result": "succeeds",
+      "access_mode": "direct",
+      "matched_path_ids": [
+        "PATH-10D5A09D1FE6",
+        "PATH-2BFCFED9D789",
+        "PATH-534C000D4104",
+        "PATH-A7001B5A12CE",
+        "PATH-AC950631E211",
+        "PATH-DFDD2C51D7FA"
+      ],
+      "severity": "none",
+      "confidence": "high",
+      "evidence_ids": [
+        "EVID-2085871F0075",
+        "EVID-6F7BD5638EB7",
+        "EVID-7951E7C34C57",
+        "EVID-7DAFA00F3071",
+        "EVID-F498537CBF39",
+        "EVID-F6B9927BB647"
+      ]
+    },
+    {
+      "task_id": "TASK-0E5A96A33C6C",
+      "subject_ids": [
+        "SUBJ-120DFE62BCE8",
+        "SUBJ-85D1D73F9909",
+        "SUBJ-C1E2782B867D"
+      ],
+      "result": "succeeds",
+      "access_mode": "direct",
+      "matched_path_ids": [
+        "PATH-2B4083238575",
+        "PATH-66BD63E8B564",
+        "PATH-98EF6E7D8928",
+        "PATH-B48C24D9A42B",
+        "PATH-F0B2D2290C92",
+        "PATH-FDB57A937F7A"
+      ],
+      "severity": "none",
+      "confidence": "high",
+      "evidence_ids": [
+        "EVID-35A773442BDD",
+        "EVID-3657E9D22B41",
+        "EVID-4A110EA73F22",
+        "EVID-C4B626D54F70",
+        "EVID-D8F12B77C471"
+      ]
+    },
+    {
+      "task_id": "TASK-240E4B8FD891",
+      "subject_ids": [
+        "SUBJ-2B34BDE4AEC3",
+        "SUBJ-6D53877CB4B9",
+        "SUBJ-81574B45F9DA",
+        "SUBJ-8EB14BCD5F20",
+        "SUBJ-9FDE6DAB64C8"
+      ],
+      "result": "succeeds",
+      "access_mode": "direct",
+      "matched_path_ids": [
+        "PATH-66AE149141A5",
+        "PATH-A102C716B7A5",
+        "PATH-E99349CBB62A",
+        "PATH-FDB57A937F7A"
+      ],
+      "severity": "none",
+      "confidence": "high",
+      "evidence_ids": [
+        "EVID-45D9BC90FAB5",
+        "EVID-4AC201CE1175",
+        "EVID-6FDFB2E181F6",
+        "EVID-7F913B5D8273",
+        "EVID-9E40FC926E1B",
+        "EVID-A3CCEE8B31FE",
+        "EVID-C500FEE65001",
+        "EVID-DC09D568C4CF"
+      ]
+    },
+    {
+      "task_id": "TASK-3872BDFDA986",
+      "subject_ids": [
+        "SUBJ-239317129A85",
+        "SUBJ-3C08182FE07C",
+        "SUBJ-6D258BB86487",
+        "SUBJ-78830C16A72A",
+        "SUBJ-A513146CACAF"
+      ],
+      "result": "succeeds",
+      "access_mode": "direct",
+      "matched_path_ids": [
+        "PATH-043CAAD78926",
+        "PATH-152AB8EAB458",
+        "PATH-1ACC17B09F21",
+        "PATH-42D756224936",
+        "PATH-56668E3F0E0B",
+        "PATH-814A1E8F3AB6",
+        "PATH-96D386AD2C52",
+        "PATH-CB12DA1E4C41",
+        "PATH-DFDD2C51D7FA"
+      ],
+      "severity": "none",
+      "confidence": "high",
+      "evidence_ids": [
+        "EVID-212DE69A64A3",
+        "EVID-420B7406C6AC",
+        "EVID-4DA457673562",
+        "EVID-86DC3F498E72",
+        "EVID-909E3EF54953",
+        "EVID-96DACB14650F",
+        "EVID-A4105869D20B",
+        "EVID-B4D05553C3D9",
+        "EVID-B9BE8BB34A8D",
+        "EVID-E46673E081F7"
+      ]
+    },
+    {
+      "task_id": "TASK-5ACBC6913233",
+      "subject_ids": [
+        "SUBJ-2B33232A5CAB",
+        "SUBJ-2B34BDE4AEC3",
+        "SUBJ-3A079E90BC4C",
+        "SUBJ-500829B491E2",
+        "SUBJ-6AE1514813E6",
+        "SUBJ-9CC88CADE007"
+      ],
+      "result": "succeeds",
+      "access_mode": "direct",
+      "matched_path_ids": [
+        "PATH-28EBC1FD413E",
+        "PATH-44205511CC30",
+        "PATH-66AE149141A5",
+        "PATH-81B2DF9F6E75",
+        "PATH-9016BE36D2B2",
+        "PATH-A232628DCBF7",
+        "PATH-C4045F5BD846",
+        "PATH-D34685FCD637",
+        "PATH-DAB9453D1C0D",
+        "PATH-E915303BD7C5",
+        "PATH-EF31D9628D64"
+      ],
+      "severity": "none",
+      "confidence": "high",
+      "evidence_ids": [
+        "EVID-2B9769FD0E15",
+        "EVID-32A052E039B3",
+        "EVID-34F414248282",
+        "EVID-4AC201CE1175",
+        "EVID-727CA181B84D",
+        "EVID-CBE505DED8CE",
+        "EVID-DC09D568C4CF",
+        "EVID-E5B15E3203A8"
+      ]
+    },
+    {
+      "task_id": "TASK-6AC029FEAE28",
+      "subject_ids": [
+        "SUBJ-033162B6FE3D",
+        "SUBJ-0B4202108EF8",
+        "SUBJ-1866BE569CCB",
+        "SUBJ-3E39BC650D56",
+        "SUBJ-66D9F55CEE66"
+      ],
+      "result": "partially_succeeds",
+      "access_mode": "direct",
+      "matched_path_ids": [
+        "PATH-23E79C486535",
+        "PATH-448D8585F5FC",
+        "PATH-82A8FB36E55A",
+        "PATH-BE7BAC3E98D0",
+        "PATH-CCC8DE4629C8"
+      ],
+      "severity": "minor",
+      "confidence": "high",
+      "evidence_ids": [
+        "EVID-1D43AD75A64E",
+        "EVID-3918A8FE7826",
+        "EVID-4D46C7EF27E7",
+        "EVID-66C9784C9CA0",
+        "EVID-913E492E1E24",
+        "EVID-9EB7C2068FEB",
+        "EVID-CB080A3AF430",
+        "EVID-F37C58653BF8",
+        "EVID-FB29D8E2B477"
+      ]
+    },
+    {
+      "task_id": "TASK-7DA92BC3F1E8",
+      "subject_ids": [
+        "SUBJ-27A42E0D6BFC",
+        "SUBJ-68A74EF1F846",
+        "SUBJ-D59F0BE16D19"
+      ],
+      "result": "partially_succeeds",
+      "access_mode": "direct",
+      "matched_path_ids": [
+        "PATH-60EC308B63C5",
+        "PATH-AC444CE6F16A",
+        "PATH-B1F6C3CECB78",
+        "PATH-D91EE6FF5294",
+        "PATH-DFDD2C51D7FA",
+        "PATH-F762FAB09E3E"
+      ],
+      "severity": "minor",
+      "confidence": "high",
+      "evidence_ids": [
+        "EVID-4BE396E23053",
+        "EVID-65A169F573DA",
+        "EVID-72B30E1A4792",
+        "EVID-935DA029E8E9"
+      ]
+    },
+    {
+      "task_id": "TASK-8088CF03CD84",
+      "subject_ids": [
+        "SUBJ-117E475F3A49",
+        "SUBJ-33255E30F13D",
+        "SUBJ-D35E8AB6FAE2",
+        "SUBJ-D59F0BE16D19",
+        "SUBJ-F813578DDB86"
+      ],
+      "result": "partially_succeeds",
+      "access_mode": "direct",
+      "matched_path_ids": [
+        "PATH-020B5DE179B8",
+        "PATH-255CBC804638",
+        "PATH-6B9793D840D3",
+        "PATH-AC444CE6F16A",
+        "PATH-DFDD2C51D7FA"
+      ],
+      "severity": "minor",
+      "confidence": "high",
+      "evidence_ids": [
+        "EVID-1B91B19AC1A3",
+        "EVID-3890D8C75F11",
+        "EVID-4BE396E23053",
+        "EVID-537C992991D6",
+        "EVID-8813E56B4AFA",
+        "EVID-A8A9434EAFC5",
+        "EVID-B30F4100BF85",
+        "EVID-CED40288E21F"
+      ]
+    },
+    {
+      "task_id": "TASK-AA59F9ED7091",
+      "subject_ids": [
+        "SUBJ-CB4AC85E0D26",
+        "SUBJ-D35E8AB6FAE2",
+        "SUBJ-E738A1D7D6F6"
+      ],
+      "result": "partially_succeeds",
+      "access_mode": "direct",
+      "matched_path_ids": [
+        "PATH-100553F20CA5",
+        "PATH-255CBC804638",
+        "PATH-58D429083EFA",
+        "PATH-662501DEC436",
+        "PATH-E5BB43AFD121"
+      ],
+      "severity": "minor",
+      "confidence": "high",
+      "evidence_ids": [
+        "EVID-12391A1D9056",
+        "EVID-3890D8C75F11",
+        "EVID-537C992991D6",
+        "EVID-872AE988B761",
+        "EVID-97AED4B80718",
+        "EVID-EDDC65014FFF"
+      ]
+    },
+    {
+      "task_id": "TASK-B17E89C1606D",
+      "subject_ids": [
+        "SUBJ-0C6ED66FEFDA",
+        "SUBJ-8C256029A9B7",
+        "SUBJ-8EB418BD0B69",
+        "SUBJ-BFD96E101903"
+      ],
+      "result": "succeeds",
+      "access_mode": "direct",
+      "matched_path_ids": [
+        "PATH-0A5D5785D893",
+        "PATH-4438A3E83623",
+        "PATH-52A20F066DD9",
+        "PATH-CCC8DE4629C8",
+        "PATH-EF31D9628D64"
+      ],
+      "severity": "none",
+      "confidence": "high",
+      "evidence_ids": [
+        "EVID-6D21AC84AD36",
+        "EVID-ACB658502AD1",
+        "EVID-ADBC037BF784",
+        "EVID-C570D54C2E09",
+        "EVID-C76357E07429",
+        "EVID-CCF2B7873758"
+      ]
+    },
+    {
+      "task_id": "TASK-C7A212FFD11C",
+      "subject_ids": [
+        "SUBJ-94E13DCE336F",
+        "SUBJ-B058F52EB86F",
+        "SUBJ-C6F3C427C89B",
+        "SUBJ-CB4AC85E0D26"
+      ],
+      "result": "succeeds",
+      "access_mode": "direct",
+      "matched_path_ids": [
+        "PATH-084DB077D033",
+        "PATH-662501DEC436",
+        "PATH-76209E7774C0",
+        "PATH-92736E2BFC2D",
+        "PATH-E5BB43AFD121",
+        "PATH-EFC5B5720B32"
+      ],
+      "severity": "none",
+      "confidence": "high",
+      "evidence_ids": [
+        "EVID-12391A1D9056",
+        "EVID-97AED4B80718",
+        "EVID-9E802B68F873",
+        "EVID-B7B2299698B0",
+        "EVID-B9AD3BD8375D",
+        "EVID-EDDC65014FFF",
+        "EVID-FCC1EEE656DF"
+      ]
+    },
+    {
+      "task_id": "TASK-D2928A650549",
+      "subject_ids": [
+        "SUBJ-6D5AB9581B8F"
+      ],
+      "result": "fails",
+      "access_mode": "none",
+      "matched_path_ids": [],
+      "severity": "major",
+      "confidence": "high",
+      "evidence_ids": [
+        "EVID-246BAB9AF253",
+        "EVID-351713124858",
+        "EVID-9E6BE717960F",
+        "EVID-D23644FD6513",
+        "EVID-E6CFF6881636",
+        "EVID-E7F288499185"
+      ]
+    },
+    {
+      "task_id": "TASK-D7537DE30464",
+      "subject_ids": [
+        "SUBJ-6D5AB9581B8F",
+        "SUBJ-DD09DEA98E41",
+        "SUBJ-E35A64A359EE",
+        "SUBJ-E6DEF490C212",
+        "SUBJ-E81DCEED5E62"
+      ],
+      "result": "partially_succeeds",
+      "access_mode": "direct",
+      "matched_path_ids": [
+        "PATH-08864053021C",
+        "PATH-101A7277E7B6",
+        "PATH-171FA61CF29F",
+        "PATH-1CC9A66DB49E",
+        "PATH-284EEEDF8A09",
+        "PATH-3A70DFD9F047",
+        "PATH-578CD6F939E6",
+        "PATH-5C6535B9E8AE",
+        "PATH-8DA8B88A5B29"
+      ],
+      "severity": "minor",
+      "confidence": "high",
+      "evidence_ids": [
+        "EVID-09891EE5D4B4",
+        "EVID-246BAB9AF253",
+        "EVID-2ACC6A98DFFA",
+        "EVID-351713124858",
+        "EVID-77DD24207F55",
+        "EVID-81EF692CCF5A",
+        "EVID-8BF0166036D8",
+        "EVID-9E6BE717960F",
+        "EVID-AA534722E553",
+        "EVID-B768ADE9B619",
+        "EVID-B7C3253D4D8A",
+        "EVID-D23644FD6513",
+        "EVID-DEA8298FFA70",
+        "EVID-E6CFF6881636",
+        "EVID-E7F288499185"
+      ]
+    },
+    {
+      "task_id": "TASK-E10786936718",
+      "subject_ids": [
+        "SUBJ-2B33232A5CAB",
+        "SUBJ-2B9A6E773BA7",
+        "SUBJ-34CA7BB7B259",
+        "SUBJ-59704A89DC09",
+        "SUBJ-6D5AB9581B8F",
+        "SUBJ-860E8231099C",
+        "SUBJ-F65ECC5BD7ED",
+        "SUBJ-F6FA2285C425",
+        "SUBJ-F813578DDB86"
+      ],
+      "result": "partially_succeeds",
+      "access_mode": "direct",
+      "matched_path_ids": [
+        "PATH-0C4B8A4B90D4",
+        "PATH-44205511CC30",
+        "PATH-4A4D826834E1",
+        "PATH-563F6B5BEDCD",
+        "PATH-6E3D08FE9B60",
+        "PATH-9B1BD876AC00",
+        "PATH-A232628DCBF7",
+        "PATH-A335227CEBF0",
+        "PATH-C0700F116B5D",
+        "PATH-E96715D31BF4"
+      ],
+      "severity": "minor",
+      "confidence": "high",
+      "evidence_ids": [
+        "EVID-00613E3B4D58",
+        "EVID-0CF1388B6E76",
+        "EVID-246BAB9AF253",
+        "EVID-25CD381253ED",
+        "EVID-3128B0A4E05C",
+        "EVID-32A052E039B3",
+        "EVID-351713124858",
+        "EVID-4E931D70D919",
+        "EVID-50095884387B",
+        "EVID-6BD7A3E66B96",
+        "EVID-733CB0D5B372",
+        "EVID-7DF7D7385060",
+        "EVID-86B76B23F53B",
+        "EVID-8813E56B4AFA",
+        "EVID-9E6BE717960F",
+        "EVID-AD22F3CE7248",
+        "EVID-B484DAF4199A",
+        "EVID-BFD88894BBB8",
+        "EVID-D23644FD6513",
+        "EVID-D6825C7CC4D3",
+        "EVID-E3DC1B541445",
+        "EVID-E6CFF6881636",
+        "EVID-E7F288499185",
+        "EVID-F598F2B1A9C3"
+      ]
+    }
+  ],
+  "treatment_judgments": [
+    {
+      "treatment_id": "TREAT-0136984DB2A5",
+      "subject_id": "SUBJ-860E8231099C",
+      "document_page": 173,
+      "locator_class": "synthesis_or_conclusion",
+      "status": "missed",
+      "evidence_ids": [
+        "EVID-86B76B23F53B"
+      ]
+    },
+    {
+      "treatment_id": "TREAT-06AB60C5C3A1",
+      "subject_id": "SUBJ-9FDE6DAB64C8",
+      "document_page": 166,
+      "locator_class": "principal",
+      "status": "found",
+      "evidence_ids": [
+        "EVID-C500FEE65001"
+      ]
+    },
+    {
+      "treatment_id": "TREAT-0AF2DB55A753",
+      "subject_id": "SUBJ-6D5AB9581B8F",
+      "document_page": 161,
+      "locator_class": "principal",
+      "status": "found",
+      "evidence_ids": [
+        "EVID-9E6BE717960F"
+      ]
+    },
+    {
+      "treatment_id": "TREAT-0AF4132D5A5F",
+      "subject_id": "SUBJ-117E475F3A49",
+      "document_page": 172,
+      "locator_class": "synthesis_or_conclusion",
+      "status": "missed",
+      "evidence_ids": [
+        "EVID-A8A9434EAFC5"
+      ]
+    },
+    {
+      "treatment_id": "TREAT-0B4E787575BA",
+      "subject_id": "SUBJ-2B9A6E773BA7",
+      "document_page": 172,
+      "locator_class": "principal",
+      "status": "found",
+      "evidence_ids": [
+        "EVID-D6825C7CC4D3"
+      ]
+    },
+    {
+      "treatment_id": "TREAT-0C04EEDA5722",
+      "subject_id": "SUBJ-239317129A85",
+      "document_page": 170,
+      "locator_class": "principal",
+      "status": "found",
+      "evidence_ids": [
+        "EVID-86DC3F498E72"
+      ]
+    },
+    {
+      "treatment_id": "TREAT-0C3954B64164",
+      "subject_id": "SUBJ-3C08182FE07C",
+      "document_page": 167,
+      "locator_class": "principal",
+      "status": "found",
+      "evidence_ids": [
+        "EVID-212DE69A64A3"
+      ]
+    },
+    {
+      "treatment_id": "TREAT-0F92E95005D3",
+      "subject_id": "SUBJ-033162B6FE3D",
+      "document_page": 163,
+      "locator_class": "principal",
+      "status": "found",
+      "evidence_ids": [
+        "EVID-9EB7C2068FEB"
+      ]
+    },
+    {
+      "treatment_id": "TREAT-11C0FC4A82BC",
+      "subject_id": "SUBJ-78830C16A72A",
+      "document_page": 169,
+      "locator_class": "supporting",
+      "status": "found",
+      "evidence_ids": [
+        "EVID-909E3EF54953"
+      ]
+    },
+    {
+      "treatment_id": "TREAT-12163B32F72E",
+      "subject_id": "SUBJ-94E13DCE336F",
+      "document_page": 165,
+      "locator_class": "principal",
+      "status": "found",
+      "evidence_ids": [
+        "EVID-B9AD3BD8375D"
+      ]
+    },
+    {
+      "treatment_id": "TREAT-16E23B3B4D34",
+      "subject_id": "SUBJ-920CDB6B52F7",
+      "document_page": 168,
+      "locator_class": "principal",
+      "status": "found",
+      "evidence_ids": [
+        "EVID-F498537CBF39"
+      ]
+    },
+    {
+      "treatment_id": "TREAT-17FAC76F4828",
+      "subject_id": "SUBJ-3E39BC650D56",
+      "document_page": 162,
+      "locator_class": "principal",
+      "status": "found",
+      "evidence_ids": [
+        "EVID-CB080A3AF430"
+      ]
+    },
+    {
+      "treatment_id": "TREAT-1AB1A841FB27",
+      "subject_id": "SUBJ-F80219EBE645",
+      "document_page": 168,
+      "locator_class": "principal",
+      "status": "found",
+      "evidence_ids": [
+        "EVID-7DAFA00F3071"
+      ]
+    },
+    {
+      "treatment_id": "TREAT-1F1AA0222173",
+      "subject_id": "SUBJ-3A079E90BC4C",
+      "document_page": 171,
+      "locator_class": "principal",
+      "status": "found",
+      "evidence_ids": [
+        "EVID-2B9769FD0E15"
+      ]
+    },
+    {
+      "treatment_id": "TREAT-20F4C89E36F5",
+      "subject_id": "SUBJ-B058F52EB86F",
+      "document_page": 164,
+      "locator_class": "principal",
+      "status": "found",
+      "evidence_ids": [
+        "EVID-B7B2299698B0"
+      ]
+    },
+    {
+      "treatment_id": "TREAT-23610B504732",
+      "subject_id": "SUBJ-F6FA2285C425",
+      "document_page": 161,
+      "locator_class": "principal",
+      "status": "found",
+      "evidence_ids": [
+        "EVID-0CF1388B6E76"
+      ]
+    },
+    {
+      "treatment_id": "TREAT-237BB6777C95",
+      "subject_id": "SUBJ-6D53877CB4B9",
+      "document_page": 166,
+      "locator_class": "synthesis_or_conclusion",
+      "status": "found",
+      "evidence_ids": [
+        "EVID-45D9BC90FAB5"
+      ]
+    },
+    {
+      "treatment_id": "TREAT-27682056C3B0",
+      "subject_id": "SUBJ-6D5AB9581B8F",
+      "document_page": 210,
+      "locator_class": "supporting",
+      "status": "found",
+      "evidence_ids": [
+        "EVID-E7F288499185"
+      ]
+    },
+    {
+      "treatment_id": "TREAT-2A0535FD54F8",
+      "subject_id": "SUBJ-33255E30F13D",
+      "document_page": 161,
+      "locator_class": "principal",
+      "status": "found",
+      "evidence_ids": [
+        "EVID-B30F4100BF85"
+      ]
+    },
+    {
+      "treatment_id": "TREAT-2A5C665D0FA5",
+      "subject_id": "SUBJ-66D9F55CEE66",
+      "document_page": 159,
+      "locator_class": "supporting",
+      "status": "found",
+      "evidence_ids": [
+        "EVID-4D46C7EF27E7"
+      ]
+    },
+    {
+      "treatment_id": "TREAT-2D54C9A13A20",
+      "subject_id": "SUBJ-535EE5EA3C98",
+      "document_page": 168,
+      "locator_class": "principal",
+      "status": "found",
+      "evidence_ids": [
+        "EVID-F6B9927BB647"
+      ]
+    },
+    {
+      "treatment_id": "TREAT-31A8546C2752",
+      "subject_id": "SUBJ-6D5AB9581B8F",
+      "document_page": 211,
+      "locator_class": "supporting",
+      "status": "found",
+      "evidence_ids": [
+        "EVID-351713124858"
+      ]
+    },
+    {
+      "treatment_id": "TREAT-3573902FBE4D",
+      "subject_id": "SUBJ-6D5AB9581B8F",
+      "document_page": 218,
+      "locator_class": "synthesis_or_conclusion",
+      "status": "found",
+      "evidence_ids": [
+        "EVID-D23644FD6513"
+      ]
+    },
+    {
+      "treatment_id": "TREAT-39A04F86A198",
+      "subject_id": "SUBJ-8EB14BCD5F20",
+      "document_page": 165,
+      "locator_class": "principal",
+      "status": "found",
+      "evidence_ids": [
+        "EVID-9E40FC926E1B"
+      ]
+    },
+    {
+      "treatment_id": "TREAT-40449E58B7DC",
+      "subject_id": "SUBJ-6D5AB9581B8F",
+      "document_page": 213,
+      "locator_class": "supporting",
+      "status": "found",
+      "evidence_ids": [
+        "EVID-E6CFF6881636"
+      ]
+    },
+    {
+      "treatment_id": "TREAT-40461EF5AA20",
+      "subject_id": "SUBJ-8EB418BD0B69",
+      "document_page": 163,
+      "locator_class": "principal",
+      "status": "found",
+      "evidence_ids": [
+        "EVID-CCF2B7873758"
+      ]
+    },
+    {
+      "treatment_id": "TREAT-41B41CEB2841",
+      "subject_id": "SUBJ-F80219EBE645",
+      "document_page": 167,
+      "locator_class": "principal",
+      "status": "found",
+      "evidence_ids": [
+        "EVID-6F7BD5638EB7"
+      ]
+    },
+    {
+      "treatment_id": "TREAT-41CFC95AA830",
+      "subject_id": "SUBJ-117E475F3A49",
+      "document_page": 166,
+      "locator_class": "principal",
+      "status": "found",
+      "evidence_ids": [
+        "EVID-1B91B19AC1A3"
+      ]
+    },
+    {
+      "treatment_id": "TREAT-4258EA864FC8",
+      "subject_id": "SUBJ-2B34BDE4AEC3",
+      "document_page": 166,
+      "locator_class": "supporting",
+      "status": "found",
+      "evidence_ids": [
+        "EVID-4AC201CE1175"
+      ]
+    },
+    {
+      "treatment_id": "TREAT-437BBEA85B2D",
+      "subject_id": "SUBJ-8EB14BCD5F20",
+      "document_page": 166,
+      "locator_class": "supporting",
+      "status": "found",
+      "evidence_ids": [
+        "EVID-7F913B5D8273"
+      ]
+    },
+    {
+      "treatment_id": "TREAT-467E18206659",
+      "subject_id": "SUBJ-2B33232A5CAB",
+      "document_page": 173,
+      "locator_class": "principal",
+      "status": "found",
+      "evidence_ids": [
+        "EVID-32A052E039B3"
+      ]
+    },
+    {
+      "treatment_id": "TREAT-4B7F80687933",
+      "subject_id": "SUBJ-C1E2782B867D",
+      "document_page": 172,
+      "locator_class": "principal",
+      "status": "found",
+      "evidence_ids": [
+        "EVID-3657E9D22B41"
+      ]
+    },
+    {
+      "treatment_id": "TREAT-53482B6117BA",
+      "subject_id": "SUBJ-D35E8AB6FAE2",
+      "document_page": 160,
+      "locator_class": "principal",
+      "status": "found",
+      "evidence_ids": [
+        "EVID-537C992991D6"
+      ]
+    },
+    {
+      "treatment_id": "TREAT-56CB3D743995",
+      "subject_id": "SUBJ-6D53877CB4B9",
+      "document_page": 165,
+      "locator_class": "principal",
+      "status": "found",
+      "evidence_ids": [
+        "EVID-6FDFB2E181F6"
+      ]
+    },
+    {
+      "treatment_id": "TREAT-5EAF74FB7699",
+      "subject_id": "SUBJ-85D1D73F9909",
+      "document_page": 172,
+      "locator_class": "principal",
+      "status": "found",
+      "evidence_ids": [
+        "EVID-C4B626D54F70"
+      ]
+    },
+    {
+      "treatment_id": "TREAT-632A1E05071F",
+      "subject_id": "SUBJ-6D5AB9581B8F",
+      "document_page": 172,
+      "locator_class": "supporting",
+      "status": "found",
+      "evidence_ids": [
+        "EVID-246BAB9AF253"
+      ]
+    },
+    {
+      "treatment_id": "TREAT-6F494C185C1E",
+      "subject_id": "SUBJ-2B34BDE4AEC3",
+      "document_page": 171,
+      "locator_class": "principal",
+      "status": "found",
+      "evidence_ids": [
+        "EVID-DC09D568C4CF"
+      ]
+    },
+    {
+      "treatment_id": "TREAT-72EFCC4C5BBC",
+      "subject_id": "SUBJ-860E8231099C",
+      "document_page": 172,
+      "locator_class": "principal",
+      "status": "found",
+      "evidence_ids": [
+        "EVID-50095884387B"
+      ]
+    },
+    {
+      "treatment_id": "TREAT-74D04913EFC6",
+      "subject_id": "SUBJ-1866BE569CCB",
+      "document_page": 163,
+      "locator_class": "principal",
+      "status": "found",
+      "evidence_ids": [
+        "EVID-1D43AD75A64E"
+      ]
+    },
+    {
+      "treatment_id": "TREAT-764E2DEDA607",
+      "subject_id": "SUBJ-8C256029A9B7",
+      "document_page": 164,
+      "locator_class": "supporting",
+      "status": "found",
+      "evidence_ids": [
+        "EVID-6D21AC84AD36"
+      ]
+    },
+    {
+      "treatment_id": "TREAT-7725E71BDB27",
+      "subject_id": "SUBJ-B3361A88EC5F",
+      "document_page": 167,
+      "locator_class": "principal",
+      "status": "found",
+      "evidence_ids": [
+        "EVID-2085871F0075"
+      ]
+    },
+    {
+      "treatment_id": "TREAT-7C97349D8E7F",
+      "subject_id": "SUBJ-0C6ED66FEFDA",
+      "document_page": 163,
+      "locator_class": "principal",
+      "status": "found",
+      "evidence_ids": [
+        "EVID-C76357E07429"
+      ]
+    },
+    {
+      "treatment_id": "TREAT-7D53FD0CDF97",
+      "subject_id": "SUBJ-B3361A88EC5F",
+      "document_page": 168,
+      "locator_class": "supporting",
+      "status": "found",
+      "evidence_ids": [
+        "EVID-7951E7C34C57"
+      ]
+    },
+    {
+      "treatment_id": "TREAT-80EFB0A98F2F",
+      "subject_id": "SUBJ-0B4202108EF8",
+      "document_page": 162,
+      "locator_class": "principal",
+      "status": "found",
+      "evidence_ids": [
+        "EVID-66C9784C9CA0"
+      ]
+    },
+    {
+      "treatment_id": "TREAT-836E5ABE2EE5",
+      "subject_id": "SUBJ-6D258BB86487",
+      "document_page": 170,
+      "locator_class": "synthesis_or_conclusion",
+      "status": "found",
+      "evidence_ids": [
+        "EVID-E46673E081F7"
+      ]
+    },
+    {
+      "treatment_id": "TREAT-859DCBCDCA0F",
+      "subject_id": "SUBJ-A513146CACAF",
+      "document_page": 170,
+      "locator_class": "supporting",
+      "status": "found",
+      "evidence_ids": [
+        "EVID-A4105869D20B"
+      ]
+    },
+    {
+      "treatment_id": "TREAT-86161EB1E60A",
+      "subject_id": "SUBJ-0C6ED66FEFDA",
+      "document_page": 164,
+      "locator_class": "principal",
+      "status": "found",
+      "evidence_ids": [
+        "EVID-ADBC037BF784"
+      ]
+    },
+    {
+      "treatment_id": "TREAT-870CF05F796F",
+      "subject_id": "SUBJ-CB4AC85E0D26",
+      "document_page": 159,
+      "locator_class": "principal",
+      "status": "found",
+      "evidence_ids": [
+        "EVID-12391A1D9056"
+      ]
+    },
+    {
+      "treatment_id": "TREAT-8877639E0465",
+      "subject_id": "SUBJ-27A42E0D6BFC",
+      "document_page": 171,
+      "locator_class": "supporting",
+      "status": "found",
+      "evidence_ids": [
+        "EVID-935DA029E8E9"
+      ]
+    },
+    {
+      "treatment_id": "TREAT-9532BE8B9C04",
+      "subject_id": "SUBJ-500829B491E2",
+      "document_page": 171,
+      "locator_class": "principal",
+      "status": "found",
+      "evidence_ids": [
+        "EVID-E5B15E3203A8"
+      ]
+    },
+    {
+      "treatment_id": "TREAT-9545DAC4DB8A",
+      "subject_id": "SUBJ-F813578DDB86",
+      "document_page": 172,
+      "locator_class": "principal",
+      "status": "missed",
+      "evidence_ids": [
+        "EVID-8813E56B4AFA"
+      ]
+    },
+    {
+      "treatment_id": "TREAT-9E1D0A82599F",
+      "subject_id": "SUBJ-F65ECC5BD7ED",
+      "document_page": 161,
+      "locator_class": "principal",
+      "status": "found",
+      "evidence_ids": [
+        "EVID-BFD88894BBB8"
+      ]
+    },
+    {
+      "treatment_id": "TREAT-A437F7C7A5BE",
+      "subject_id": "SUBJ-6D258BB86487",
+      "document_page": 168,
+      "locator_class": "supporting",
+      "status": "found",
+      "evidence_ids": [
+        "EVID-96DACB14650F"
+      ]
+    },
+    {
+      "treatment_id": "TREAT-A4AB4E3E0DD6",
+      "subject_id": "SUBJ-6AE1514813E6",
+      "document_page": 171,
+      "locator_class": "principal",
+      "status": "found",
+      "evidence_ids": [
+        "EVID-34F414248282"
+      ]
+    },
+    {
+      "treatment_id": "TREAT-A7628A85705F",
+      "subject_id": "SUBJ-3C08182FE07C",
+      "document_page": 166,
+      "locator_class": "principal",
+      "status": "found",
+      "evidence_ids": [
+        "EVID-420B7406C6AC"
+      ]
+    },
+    {
+      "treatment_id": "TREAT-A804EF3A20A8",
+      "subject_id": "SUBJ-C6F3C427C89B",
+      "document_page": 165,
+      "locator_class": "synthesis_or_conclusion",
+      "status": "found",
+      "evidence_ids": [
+        "EVID-9E802B68F873"
+      ]
+    },
+    {
+      "treatment_id": "TREAT-A87220C6CE5F",
+      "subject_id": "SUBJ-033162B6FE3D",
+      "document_page": 162,
+      "locator_class": "principal",
+      "status": "found",
+      "evidence_ids": [
+        "EVID-913E492E1E24"
+      ]
+    },
+    {
+      "treatment_id": "TREAT-A988A5AAABA6",
+      "subject_id": "SUBJ-E738A1D7D6F6",
+      "document_page": 159,
+      "locator_class": "principal",
+      "status": "found",
+      "evidence_ids": [
+        "EVID-872AE988B761"
+      ]
+    },
+    {
+      "treatment_id": "TREAT-AADAA13A788C",
+      "subject_id": "SUBJ-3A079E90BC4C",
+      "document_page": 173,
+      "locator_class": "supporting",
+      "status": "found",
+      "evidence_ids": [
+        "EVID-727CA181B84D"
+      ]
+    },
+    {
+      "treatment_id": "TREAT-AB4E73B13DF3",
+      "subject_id": "SUBJ-2B9A6E773BA7",
+      "document_page": 173,
+      "locator_class": "principal",
+      "status": "missed",
+      "evidence_ids": [
+        "EVID-AD22F3CE7248"
+      ]
+    },
+    {
+      "treatment_id": "TREAT-AB9541765295",
+      "subject_id": "SUBJ-F65ECC5BD7ED",
+      "document_page": 162,
+      "locator_class": "supporting",
+      "status": "found",
+      "evidence_ids": [
+        "EVID-733CB0D5B372"
+      ]
+    },
+    {
+      "treatment_id": "TREAT-AE30C49A2339",
+      "subject_id": "SUBJ-860E8231099C",
+      "document_page": 160,
+      "locator_class": "supporting",
+      "status": "found",
+      "evidence_ids": [
+        "EVID-3128B0A4E05C"
+      ]
+    },
+    {
+      "treatment_id": "TREAT-B42F2C4FE934",
+      "subject_id": "SUBJ-D59F0BE16D19",
+      "document_page": 160,
+      "locator_class": "principal",
+      "status": "missed",
+      "evidence_ids": [
+        "EVID-4BE396E23053"
+      ]
+    },
+    {
+      "treatment_id": "TREAT-BA0CA392EB28",
+      "subject_id": "SUBJ-117E475F3A49",
+      "document_page": 170,
+      "locator_class": "supporting",
+      "status": "found",
+      "evidence_ids": [
+        "EVID-CED40288E21F"
+      ]
+    },
+    {
+      "treatment_id": "TREAT-BD43DED05DC2",
+      "subject_id": "SUBJ-78830C16A72A",
+      "document_page": 170,
+      "locator_class": "principal",
+      "status": "found",
+      "evidence_ids": [
+        "EVID-B4D05553C3D9"
+      ]
+    },
+    {
+      "treatment_id": "TREAT-C3170E20A1CE",
+      "subject_id": "SUBJ-0B4202108EF8",
+      "document_page": 164,
+      "locator_class": "synthesis_or_conclusion",
+      "status": "found",
+      "evidence_ids": [
+        "EVID-FB29D8E2B477"
+      ]
+    },
+    {
+      "treatment_id": "TREAT-C3F3094AB801",
+      "subject_id": "SUBJ-81574B45F9DA",
+      "document_page": 166,
+      "locator_class": "principal",
+      "status": "found",
+      "evidence_ids": [
+        "EVID-A3CCEE8B31FE"
+      ]
+    },
+    {
+      "treatment_id": "TREAT-C43B927A12A1",
+      "subject_id": "SUBJ-85D1D73F9909",
+      "document_page": 171,
+      "locator_class": "supporting",
+      "status": "found",
+      "evidence_ids": [
+        "EVID-D8F12B77C471"
+      ]
+    },
+    {
+      "treatment_id": "TREAT-CAA2577A38E7",
+      "subject_id": "SUBJ-6D258BB86487",
+      "document_page": 169,
+      "locator_class": "principal",
+      "status": "found",
+      "evidence_ids": [
+        "EVID-4DA457673562"
+      ]
+    },
+    {
+      "treatment_id": "TREAT-D21925A44954",
+      "subject_id": "SUBJ-68A74EF1F846",
+      "document_page": 171,
+      "locator_class": "principal",
+      "status": "found",
+      "evidence_ids": [
+        "EVID-72B30E1A4792"
+      ]
+    },
+    {
+      "treatment_id": "TREAT-DA55CE806C9E",
+      "subject_id": "SUBJ-120DFE62BCE8",
+      "document_page": 171,
+      "locator_class": "principal",
+      "status": "found",
+      "evidence_ids": [
+        "EVID-4A110EA73F22"
+      ]
+    },
+    {
+      "treatment_id": "TREAT-DE9B2C33C7AD",
+      "subject_id": "SUBJ-C6F3C427C89B",
+      "document_page": 164,
+      "locator_class": "principal",
+      "status": "found",
+      "evidence_ids": [
+        "EVID-FCC1EEE656DF"
+      ]
+    },
+    {
+      "treatment_id": "TREAT-DE9C5A4AC06B",
+      "subject_id": "SUBJ-D35E8AB6FAE2",
+      "document_page": 161,
+      "locator_class": "supporting",
+      "status": "found",
+      "evidence_ids": [
+        "EVID-3890D8C75F11"
+      ]
+    },
+    {
+      "treatment_id": "TREAT-E0CFD6CE00CD",
+      "subject_id": "SUBJ-CB4AC85E0D26",
+      "document_page": 160,
+      "locator_class": "principal",
+      "status": "found",
+      "evidence_ids": [
+        "EVID-EDDC65014FFF"
+      ]
+    },
+    {
+      "treatment_id": "TREAT-E24B963A48F3",
+      "subject_id": "SUBJ-59704A89DC09",
+      "document_page": 173,
+      "locator_class": "principal",
+      "status": "found",
+      "evidence_ids": [
+        "EVID-25CD381253ED"
+      ]
+    },
+    {
+      "treatment_id": "TREAT-E3196250D3E9",
+      "subject_id": "SUBJ-120DFE62BCE8",
+      "document_page": 172,
+      "locator_class": "synthesis_or_conclusion",
+      "status": "found",
+      "evidence_ids": [
+        "EVID-35A773442BDD"
+      ]
+    },
+    {
+      "treatment_id": "TREAT-E486DD7635B1",
+      "subject_id": "SUBJ-A513146CACAF",
+      "document_page": 169,
+      "locator_class": "principal",
+      "status": "found",
+      "evidence_ids": [
+        "EVID-B9BE8BB34A8D"
+      ]
+    },
+    {
+      "treatment_id": "TREAT-E4ED37C2E0D1",
+      "subject_id": "SUBJ-860E8231099C",
+      "document_page": 417,
+      "locator_class": "principal",
+      "status": "missed",
+      "evidence_ids": [
+        "EVID-B484DAF4199A"
+      ]
+    },
+    {
+      "treatment_id": "TREAT-E5C079BEF0BE",
+      "subject_id": "SUBJ-8C256029A9B7",
+      "document_page": 163,
+      "locator_class": "principal",
+      "status": "found",
+      "evidence_ids": [
+        "EVID-ACB658502AD1"
+      ]
+    },
+    {
+      "treatment_id": "TREAT-E6F00C94D3F4",
+      "subject_id": "SUBJ-1866BE569CCB",
+      "document_page": 164,
+      "locator_class": "synthesis_or_conclusion",
+      "status": "found",
+      "evidence_ids": [
+        "EVID-F37C58653BF8"
+      ]
+    },
+    {
+      "treatment_id": "TREAT-F2BCF4713174",
+      "subject_id": "SUBJ-9CC88CADE007",
+      "document_page": 165,
+      "locator_class": "principal",
+      "status": "found",
+      "evidence_ids": [
+        "EVID-CBE505DED8CE"
+      ]
+    },
+    {
+      "treatment_id": "TREAT-F5FE4E66D200",
+      "subject_id": "SUBJ-CB4AC85E0D26",
+      "document_page": 164,
+      "locator_class": "supporting",
+      "status": "found",
+      "evidence_ids": [
+        "EVID-97AED4B80718"
+      ]
+    },
+    {
+      "treatment_id": "TREAT-F62462DAE74A",
+      "subject_id": "SUBJ-BFD96E101903",
+      "document_page": 164,
+      "locator_class": "principal",
+      "status": "found",
+      "evidence_ids": [
+        "EVID-C570D54C2E09"
+      ]
+    },
+    {
+      "treatment_id": "TREAT-F704087BCF84",
+      "subject_id": "SUBJ-66D9F55CEE66",
+      "document_page": 162,
+      "locator_class": "principal",
+      "status": "found",
+      "evidence_ids": [
+        "EVID-3918A8FE7826"
+      ]
+    },
+    {
+      "treatment_id": "TREAT-F779BC8F43CD",
+      "subject_id": "SUBJ-27A42E0D6BFC",
+      "document_page": 170,
+      "locator_class": "principal",
+      "status": "found",
+      "evidence_ids": [
+        "EVID-65A169F573DA"
+      ]
+    }
+  ],
+  "completion": {
+    "expected": 49,
+    "judged": 49,
+    "unique": true,
+    "complete": true
+  },
+  "reader_task_completion": {
+    "expected": 14,
+    "judged": 14,
+    "unique": true,
+    "complete": true
+  },
+  "treatment_completion": {
+    "expected": 85,
+    "judged": 85,
+    "unique": true,
+    "complete": true
+  },
+  "dependency_defects": []
+}
