@@ -1,0 +1,58 @@
+{
+  "schema_version": "missing-access-audit-integration-public-v1",
+  "evaluation_id": "oxford-history-french-revolution-2002-indexerlabs-truncated",
+  "candidate_id": "oxford-history-french-revolution-2002-original-published-index",
+  "audit_kind": "missing_access",
+  "status": "integrated_partial",
+  "stage_status": "in_progress",
+  "integrated_at": "2026-08-26T02:20:56Z",
+  "base_branch": "main",
+  "worker_base_commit": "9fdd17616318784cd5dcb534320e9c74ff20cedd",
+  "integrated_chunks": [
+    {
+      "chunk_id": "CHUNK-001",
+      "pull_request": 19,
+      "pull_request_url": "https://github.com/jcamden/subject-index-evaluation-oxford-history-french-revolution-2002-original-published-index/pull/19",
+      "head_branch": "missing-access-audit/chunk-001",
+      "head_commit": "c46f5cfea95a9f1d2bf8ed3273dd15964087cad2",
+      "merge_commit": "1385e7945e73fe76d5e633106a9ca21f0831aae0",
+      "public_proposal_path": "candidate/missing-access-audits/missing-access-audit.CHUNK-001.v1.json",
+      "public_proposal_sha256": "e308a75e51dead7189e7077b5e766af2d1b2063d0c66992f86a543ddde98f054",
+      "private_artifact_sha256": "e308a75e51dead7189e7077b5e766af2d1b2063d0c66992f86a543ddde98f054"
+    }
+  ],
+  "missing_chunk_ids": [
+    "CHUNK-002",
+    "CHUNK-003",
+    "CHUNK-004",
+    "CHUNK-005",
+    "CHUNK-006",
+    "CHUNK-007",
+    "CHUNK-008",
+    "CHUNK-009",
+    "CHUNK-010",
+    "CHUNK-011",
+    "CHUNK-012",
+    "CHUNK-013",
+    "CHUNK-014",
+    "CHUNK-015",
+    "CHUNK-016",
+    "CHUNK-017"
+  ],
+  "coverage": {
+    "expected_subjects": 1366,
+    "accepted_subjects": 120,
+    "expected_reader_tasks": 1026,
+    "accepted_reader_tasks": 124,
+    "expected_treatments": 3210,
+    "accepted_treatments": 217,
+    "duplicate_judgments": 0,
+    "foreign_judgments": 0
+  },
+  "benchmark_repository_modified": false,
+  "public_safety": {
+    "private_payloads_included": false,
+    "private_paths_included": false,
+    "result": "passed"
+  }
+}
