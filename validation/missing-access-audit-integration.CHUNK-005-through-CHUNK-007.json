@@ -1,0 +1,151 @@
+{
+  "schema_version": "missing-access-batch-integration-v1",
+  "integration_id": "MABI-B538EE3BB18B",
+  "integration_sha256": "76157c9118908745002ecf9893670e906e662edde31b7f2666c3323ac0d3c80c",
+  "audit_kind": "missing_access",
+  "status": "integrated_partial",
+  "integrated_at": "2026-08-26T21:51:45Z",
+  "evaluation_id": "oxford-history-french-revolution-2002-indexerlabs-truncated",
+  "candidate_id": "oxford-history-french-revolution-2002-original-published-index",
+  "candidate_project": "jcamden/subject-index-evaluation-oxford-history-french-revolution-2002-original-published-index",
+  "base_branch": "main",
+  "identities": {
+    "source_sha256": "5f89aa2592218983c594278bfd86cc1e4b74be1dd6dd8aac5c2610a48fa34047",
+    "candidate_sha256": "1d43fe7fb158b352393c6e2f14843aae9ae23ccfca1f61c6783307432b0a9d09",
+    "benchmark_sha256": "b925797fcab50b2008ad5974590e323f772e5ea7013efa84ce7606007439aeb3",
+    "benchmark_lock_sha256": "16e26f3d50da64fb211aba44940425ccbb20dcfa74e6e5202986b36cc9344ea8",
+    "policy_sha256": "914a7d7042d3f2d2e6cb40686faca331e6a5b029060027bfa769cc8b512c2e9a",
+    "page_map_sha256": "452602deebdae19f8e35c589f2ff2a7a0b9fc955d268b14f760391b0043e9653",
+    "chunk_manifest_sha256": "5fc5450386114fdeb19838f54d3f1662c3d6dec81d4729c73f4f7ec0cb341a6f",
+    "normalized_candidate_file_sha256": "7b29d7716339038848e2b1b0ec17220ae1867cb95941f0f06a84488cd486ed79",
+    "item_inventory_file_sha256": "3e9c2b20d49486398bd57bfa31f5d1da1743498b47d0b9e46e42f096b56b9934",
+    "missing_access_ownership_sha256": "372841a07992cf86ae6dc72fa395c474556df860f714063aa9c7d358404eb1a0",
+    "locator_audit_set_sha256": "f840e60dbee9e50f08c11dd0c4c314f5a84d4c7006d188c1c74eff4ad2b3a1f4"
+  },
+  "selected_workers": [
+    {
+      "pull_request": 25,
+      "pull_request_url": "https://github.com/jcamden/subject-index-evaluation-oxford-history-french-revolution-2002-original-published-index/pull/25",
+      "chunk_id": "CHUNK-005",
+      "receipt_sha256": "2a850d3096f03925622e64ce9d79888913c254cd6c420f82225092a7970a61b6",
+      "recovery_sha256": "be8676b572a9947c5a4c5b6d450f435aede945a85b675ea470f062ad372ec02d",
+      "public_report_sha256": "42f734933dab9850f7394d0066ad794af165c7026aa76b3506f09ceaefd2ced7",
+      "private_artifact_sha256": "42f734933dab9850f7394d0066ad794af165c7026aa76b3506f09ceaefd2ced7",
+      "open_evidence_sha256": "882fb61a943112c52c6764723ab33cbea06481fceedf4d0090048085f912b536",
+      "merge_evidence_sha256": "6d8a63c88a0cbebc7d7ea66b64728952dbb2a0cd2236d4e0fc3de1fb97c89422",
+      "head_commit": "20408f0d34636a178f9127aafe2a3a8805a07858",
+      "merge_commit": "87bbb9793f3ce0885f5ba7338c6e06c041ff9260",
+      "canonical_path": "candidate/oxford-history-french-revolution-2002-original-published-index/missing-access-audits/missing-access-audit.CHUNK-005.v1.json"
+    },
+    {
+      "pull_request": 23,
+      "pull_request_url": "https://github.com/jcamden/subject-index-evaluation-oxford-history-french-revolution-2002-original-published-index/pull/23",
+      "chunk_id": "CHUNK-006",
+      "receipt_sha256": "be05d055eea83de25a73695bf3b876c431c92d15945dc8920e365cdccb6bf23f",
+      "recovery_sha256": "a6161fe70cb00c925093e0b86f82fa750b296617b0dda9f17a6406b9d36f2fdd",
+      "public_report_sha256": "b754ff8491c991ff2b6b8893d82058adbe76af05f75263f9e426bdc63dc92e3c",
+      "private_artifact_sha256": "b754ff8491c991ff2b6b8893d82058adbe76af05f75263f9e426bdc63dc92e3c",
+      "open_evidence_sha256": "ed2cbac9b2ba86bfaf9e8bda3fca8abf3df8ed7010ae3ae2c0369d84e904e85f",
+      "merge_evidence_sha256": "24e1308d21611768fe58d352ed14b178a848b30dab97051fe3f294b5f4ae2418",
+      "head_commit": "8c11f461d635fb71cc44a36605edb6bdd7d3820c",
+      "merge_commit": "95eed46864f205b74911a4b26fffa0d01c9f4508",
+      "canonical_path": "candidate/oxford-history-french-revolution-2002-original-published-index/missing-access-audits/missing-access-audit.CHUNK-006.v1.json"
+    },
+    {
+      "pull_request": 24,
+      "pull_request_url": "https://github.com/jcamden/subject-index-evaluation-oxford-history-french-revolution-2002-original-published-index/pull/24",
+      "chunk_id": "CHUNK-007",
+      "receipt_sha256": "91d2cd2d375cbc11556a6814c836bfec3e13d9d82ae47ac22785edc0300b167f",
+      "recovery_sha256": "735e3d90bdbfc196738927f07ac1c8f9355c1d20959d9203481b2b47295aab12",
+      "public_report_sha256": "4d9662495fc1bde1f809587958b01092ee75df7c1594bd7bef4fdb144ca5857a",
+      "private_artifact_sha256": "4d9662495fc1bde1f809587958b01092ee75df7c1594bd7bef4fdb144ca5857a",
+      "open_evidence_sha256": "1d47189f18a0978fd8d5283ff0e7a4ff882d810c721f68c441095cbef7ae362b",
+      "merge_evidence_sha256": "8acae221ac72bf3a227fc3e3e1f7f8e65f7909e3bf4fa0c97e63b45914251035",
+      "head_commit": "9c10bfb6a14531c501113741a802dc80b8357467",
+      "merge_commit": "f0013fbc1e79b4d6d11686baa6970f9607a1f42d",
+      "canonical_path": "candidate/oxford-history-french-revolution-2002-original-published-index/missing-access-audits/missing-access-audit.CHUNK-007.v1.json"
+    }
+  ],
+  "coverage": {
+    "expected_chunk_ids": [
+      "CHUNK-001",
+      "CHUNK-002",
+      "CHUNK-003",
+      "CHUNK-004",
+      "CHUNK-005",
+      "CHUNK-006",
+      "CHUNK-007",
+      "CHUNK-008",
+      "CHUNK-009",
+      "CHUNK-010",
+      "CHUNK-011",
+      "CHUNK-012",
+      "CHUNK-013",
+      "CHUNK-014",
+      "CHUNK-015",
+      "CHUNK-016",
+      "CHUNK-017"
+    ],
+    "previously_integrated_chunk_ids": [
+      "CHUNK-001",
+      "CHUNK-002",
+      "CHUNK-003",
+      "CHUNK-004"
+    ],
+    "selected_chunk_ids": [
+      "CHUNK-005",
+      "CHUNK-006",
+      "CHUNK-007"
+    ],
+    "active_chunk_ids": [
+      "CHUNK-001",
+      "CHUNK-002",
+      "CHUNK-003",
+      "CHUNK-004",
+      "CHUNK-005",
+      "CHUNK-006",
+      "CHUNK-007"
+    ],
+    "missing_chunk_ids": [
+      "CHUNK-008",
+      "CHUNK-009",
+      "CHUNK-010",
+      "CHUNK-011",
+      "CHUNK-012",
+      "CHUNK-013",
+      "CHUNK-014",
+      "CHUNK-015",
+      "CHUNK-016",
+      "CHUNK-017"
+    ],
+    "expected_subjects": 1366,
+    "accepted_subjects": 607,
+    "expected_reader_tasks": 1026,
+    "accepted_reader_tasks": 408,
+    "expected_treatments": 3210,
+    "accepted_treatments": 1443,
+    "duplicate_judgments": 0,
+    "foreign_judgments": 0
+  },
+  "transaction_order": [
+    "validate_selected_batch",
+    "verify_merged_pull_requests",
+    "materialize_private_artifacts",
+    "write_integration_provenance",
+    "update_manifest",
+    "update_state_last",
+    "validate_canonical_evaluation",
+    "create_cumulative_checkpoint",
+    "commit_shared_control_once"
+  ],
+  "manifest_before_sha256": "600e9aa05f23b009563517c34526ffbbaa81a7ea7b0de75c8de5f9fc3d2580fa",
+  "manifest_after_sha256": "63970c1087b083041b4d66a0c74142b5150fb0e1d519b2421e14b3d3da6f0840",
+  "state_before_sha256": "6b5606c852c2c3c89768cebfa061544c0fc091b7e06dbda8deff777eae25d2e1",
+  "state_after_sha256": "8003d5bfab930e36dece1f18a90efca2f6f07bd8a9bc986767dec535569a8942",
+  "stage_status": "in_progress",
+  "checkpoint": {
+    "path": "exports/missing-access-audit-wave-CHUNK-005-through-CHUNK-007-private.zip",
+    "sha256": "5187e1db87eb8e8d75a1cdf3cd7c3886f3c175a430f15a42a7418ea14b248818"
+  },
+  "benchmark_repository_modified": false
+}
