@@ -1,0 +1,4289 @@
+{
+  "schema_version": "subject-index-web-report-v3",
+  "report_id": "REPORT-OXFORD-HISTORY-FRENCH-REVOLUTION-2002-INDEXERLABS-TRUNCATED-OXFORD-HISTORY-FRENCH-REVOLUTION-2002-ORIGINAL-PUBLISHED-INDEX-V1",
+  "generated_at": "2026-08-27T12:27:25Z",
+  "headline": "69.5/100 — major reconstruction required",
+  "summary": "Against the supplied 425 body pages, this delivered index is useful in places but not publication-ready; its 69.5/100 score and seven failed standard gates require major reconstruction.",
+  "grade": {
+    "score": 69.5,
+    "maximum": 100,
+    "label": "Weak finished index; major reconstruction required."
+  },
+  "publication_readiness": {
+    "failed_gate_count": 7,
+    "failed_gate_ids": [
+      "GATE-SYSTEMIC-UNSUPPORTED",
+      "GATE-CENTRAL-OMISSION",
+      "GATE-STANCE",
+      "GATE-COMPOUND",
+      "GATE-SEE-SUBSTITUTION",
+      "GATE-CROSS-REFERENCE",
+      "GATE-CLUTTER"
+    ],
+    "passed_gate_count": 6,
+    "passed_gate_ids": [
+      "GATE-SCOPE-LOCATOR",
+      "GATE-DEPTH",
+      "GATE-GROUNDING",
+      "GATE-UNINSPECTABLE",
+      "GATE-SOURCE-SPAN",
+      "GATE-STRUCTURE"
+    ],
+    "score_does_not_override_gates": true,
+    "status": "not_publication_ready"
+  },
+  "scorecard": [
+    {
+      "dimension_id": "meaningful_coverage",
+      "evidence_ids": [
+        "MISSING-ACCESS-SET-BDBB51482887",
+        "SUBJ-04661509BFF9",
+        "SUBJ-18AE67659255",
+        "SUBJ-5B7555CE2FD8",
+        "SUBJ-79F8290570D7",
+        "SUBJ-912AF76A45C9",
+        "SUBJ-9216E0E5FA9D",
+        "SUBJ-A2A7299F7165",
+        "SUBJ-A6AE69CE5BCB",
+        "SUBJ-B3F5D2BA17B5",
+        "SUBJ-BC41E0A881DB",
+        "SUBJ-F6AB55B20EC3",
+        "SUBJ-FCEC284F9F3A"
+      ],
+      "label": "Meaningful coverage",
+      "points": 14.0,
+      "rating": 3.5,
+      "rationale": "Weighted benchmark access is 49.8% complete, 40.1% partial, and 10.1% missing; 12 of 155 essential subjects are missing.",
+      "weight": 20,
+      "display_order": 1,
+      "question": "Does it include what matters?",
+      "maximum_points": 20
+    },
+    {
+      "dimension_id": "editorial_selectivity",
+      "evidence_ids": [
+        "LOCATOR-AUDIT-SET-CE3277A02326",
+        "DEFECT-147449ABAEF9",
+        "LOC-97ABEA16D2D4",
+        "LOC-9BE36BCA9141",
+        "LOC-6755A0004CE0",
+        "LOC-F32D7ADEDD1D",
+        "LOC-23EFA497890A",
+        "LOC-80048D076477",
+        "LOC-72BCDEDF1FEE",
+        "LOC-6A7C6067C7E7",
+        "LOC-DD60F23CEC61",
+        "LOC-724C6CA63BC5",
+        "LOC-D9AA8AD8498A",
+        "LOC-B94CB8AB7A7F",
+        "LOC-224F29FED470",
+        "LOC-7F4FD513E849",
+        "LOC-99AC5E8808F1",
+        "LOC-9E5254F8DA14",
+        "LOC-2260DEBE9193"
+      ],
+      "label": "Editorial selectivity",
+      "points": 10.0,
+      "rating": 3.3333,
+      "rationale": "Of 5,338 locators, 4,643 are fully supported, 232 partially supported, and 463 unsupported; 235 attribution/example/citation-clutter locators occur across all 17 chapters. The frozen density fit is 3.0/5.",
+      "subscores": {
+        "density_fit_rating": 3.0,
+        "density_points_out_of_5": 3.0,
+        "substantive_points_out_of_10": 7.0,
+        "substantive_selectivity_rating": 3.5
+      },
+      "weight": 15,
+      "display_order": 2,
+      "question": "Does it leave out what does not belong?",
+      "maximum_points": 15
+    },
+    {
+      "dimension_id": "conceptual_stance_fidelity",
+      "evidence_ids": [
+        "DEFECT-0B25E702C3BE",
+        "DEFECT-CC86E1CF5D6C",
+        "DEFECT-D46CFFA23B43"
+      ],
+      "label": "Conceptual and stance fidelity",
+      "points": 12.0,
+      "rating": 4.0,
+      "rationale": "Conceptual/stance review passes 1,852 of 1,904 nodes, but records 37 major issues, 5 failures, and three explicit major stance defects.",
+      "weight": 15,
+      "display_order": 3,
+      "question": "Does it represent the book accurately?",
+      "maximum_points": 15
+    },
+    {
+      "dimension_id": "page_reference_reliability",
+      "evidence_ids": [
+        "LOCATOR-AUDIT-SET-CE3277A02326",
+        "MISSING-ACCESS-SET-BDBB51482887",
+        "LOC-97ABEA16D2D4",
+        "LOC-9BE36BCA9141",
+        "LOC-0A3777CEF8BB",
+        "LOC-F32D7ADEDD1D",
+        "LOC-23EFA497890A",
+        "LOC-7B58953ED8C3",
+        "LOC-72BCDEDF1FEE",
+        "LOC-E71768C23D6E",
+        "LOC-DD60F23CEC61",
+        "LOC-5C7D66E81600",
+        "LOC-D9AA8AD8498A",
+        "LOC-B94CB8AB7A7F",
+        "LOC-224F29FED470",
+        "LOC-E0E648FAC69D",
+        "LOC-A6F7F12DEE54",
+        "LOC-9E5254F8DA14",
+        "LOC-7D566EB81E4F"
+      ],
+      "label": "Page-reference reliability",
+      "points": 17.5,
+      "rating": 3.5,
+      "rationale": "The strict supported-locator rate is 87.0% and treatment recall is 92.9%; 463 unsupported assignments occur in every chapter.",
+      "weight": 25,
+      "display_order": 4,
+      "question": "Does it point to the right pages?",
+      "maximum_points": 25
+    },
+    {
+      "dimension_id": "findability_navigation",
+      "evidence_ids": [
+        "DEFECT-403D037A4060",
+        "XREF-6E6F54660707",
+        "DEFECT-50EF877CB81B",
+        "XREF-9A63B6DC42BB",
+        "DEFECT-44C39D39514C",
+        "XREF-95955B1B092D",
+        "DEFECT-C78C6F0ECC3A",
+        "SUBJ-30CAE18651DF"
+      ],
+      "label": "Findability and navigation",
+      "points": 12.0,
+      "rating": 3.0,
+      "rationale": "Only 500 of 1,026 reader tasks fully succeed, while 443 partly succeed and 83 fail; 16 nodes have at least 15 undivided locators and 3 of 16 cross-references are unsupported.",
+      "weight": 20,
+      "display_order": 5,
+      "question": "Can readers find things efficiently?",
+      "maximum_points": 20
+    },
+    {
+      "dimension_id": "mechanics_consistency",
+      "evidence_ids": [
+        "DEFECT-20AAEDFB88D5",
+        "DEFECT-521C63D6F2B6",
+        "DEFECT-5E4FAC76CDCE",
+        "DEFECT-77C89EB29200",
+        "DEFECT-CCD97E8D54E8"
+      ],
+      "label": "Mechanics and consistency",
+      "points": 4.0,
+      "rating": 4.0,
+      "rationale": "All locators resolve, but 14 visible digit-for-accent substitutions, one redundant page assignment, one out-of-order sequence, and localized name/reference defects require correction.",
+      "weight": 5,
+      "display_order": 6,
+      "question": "Is it professionally consistent?",
+      "maximum_points": 5
+    }
+  ],
+  "key_metrics": [
+    {
+      "metric_id": "weighted_concept_access_partial_credit",
+      "label": "Weighted concept access (partial credit)",
+      "measurement_state": "measured",
+      "value": 0.698322,
+      "display_value": "69.8%",
+      "denominator_weight": 2801,
+      "complete_weight": 1394,
+      "partial_weight": 1124,
+      "credit_rule": "complete=1.0; partial=0.5; missing=0.0",
+      "evidence_ids": [
+        "MISSING-ACCESS-SET-BDBB51482887"
+      ]
+    },
+    {
+      "metric_id": "essential_concept_miss_rate",
+      "label": "Essential subjects missing",
+      "measurement_state": "measured",
+      "numerator": 12,
+      "denominator": 155,
+      "value": 0.077419,
+      "display_value": "7.7%",
+      "evidence_ids": [
+        "SUBJ-04661509BFF9",
+        "SUBJ-18AE67659255",
+        "SUBJ-5B7555CE2FD8",
+        "SUBJ-79F8290570D7",
+        "SUBJ-912AF76A45C9",
+        "SUBJ-9216E0E5FA9D",
+        "SUBJ-A2A7299F7165",
+        "SUBJ-A6AE69CE5BCB",
+        "SUBJ-B3F5D2BA17B5",
+        "SUBJ-BC41E0A881DB",
+        "SUBJ-F6AB55B20EC3",
+        "SUBJ-FCEC284F9F3A"
+      ]
+    },
+    {
+      "metric_id": "strict_supported_locator_rate",
+      "label": "Locators fully supported",
+      "measurement_state": "measured",
+      "numerator": 4643,
+      "denominator": 5338,
+      "value": 0.869801,
+      "display_value": "87.0%",
+      "evidence_ids": [
+        "LOCATOR-AUDIT-SET-CE3277A02326"
+      ]
+    },
+    {
+      "metric_id": "valid_entry_precision_at_least_partial",
+      "label": "Locators at least partially supported",
+      "measurement_state": "measured",
+      "numerator": 4875,
+      "denominator": 5338,
+      "value": 0.913263,
+      "display_value": "91.3%",
+      "evidence_ids": [
+        "LOCATOR-AUDIT-SET-CE3277A02326"
+      ]
+    },
+    {
+      "metric_id": "locator_recall",
+      "label": "Expected treatment pages found",
+      "measurement_state": "measured",
+      "numerator": 2981,
+      "denominator": 3210,
+      "value": 0.92866,
+      "display_value": "92.9%",
+      "evidence_ids": [
+        "MISSING-ACCESS-SET-BDBB51482887"
+      ]
+    },
+    {
+      "metric_id": "direct_subject_access",
+      "label": "Frozen subjects with direct access",
+      "measurement_state": "measured",
+      "numerator": 1226,
+      "denominator": 1366,
+      "value": 0.897511,
+      "display_value": "89.8%",
+      "evidence_ids": [
+        "MISSING-ACCESS-SET-BDBB51482887"
+      ]
+    },
+    {
+      "metric_id": "reader_task_strict_success",
+      "label": "Reader tasks fully successful",
+      "measurement_state": "measured",
+      "numerator": 500,
+      "denominator": 1026,
+      "value": 0.487329,
+      "display_value": "48.7%",
+      "partial_credit_value": 0.703216,
+      "evidence_ids": [
+        "MISSING-ACCESS-SET-BDBB51482887"
+      ]
+    },
+    {
+      "metric_id": "cross_reference_validity",
+      "label": "Cross-references supported",
+      "measurement_state": "measured",
+      "numerator": 13,
+      "denominator": 16,
+      "value": 0.8125,
+      "display_value": "81.2%",
+      "evidence_ids": [
+        "XREF-0ACD2D5DAC9E",
+        "XREF-112DBAA74C15",
+        "XREF-257ADA69D14E",
+        "XREF-341E6EF27F31",
+        "XREF-526F94D1B2AA",
+        "XREF-5493E32901C0",
+        "XREF-6E6F54660707",
+        "XREF-895A75AA88E5",
+        "XREF-9176203EDC03",
+        "XREF-95955B1B092D",
+        "XREF-9A63B6DC42BB",
+        "XREF-ACD53D617FB0",
+        "XREF-C388AE30ACD3",
+        "XREF-D7D610BB5988",
+        "XREF-DFDE0CF10E75",
+        "XREF-E2AC8E8C6B66"
+      ]
+    }
+  ],
+  "density": {
+    "headline": "Density fit is 3.0/5; heading-path proliferation appears throughout the book.",
+    "calibration_disclosure": "Targets are 8 locator-bearing heading paths and 20 locator occurrences per 1,000 indexable source words, measured by chapter as permissive calibration rather than quotas or hard ceilings.",
+    "measurement_level": "chapter_or_approved_intellectual_unit",
+    "targets": [
+      {
+        "broad_tolerance_band": [
+          4.0,
+          12.0
+        ],
+        "metric_id": "locator_bearing_heading_paths_per_1000_source_words",
+        "target": 8.0,
+        "target_band": [
+          6.0,
+          10.0
+        ],
+        "weight": 0.5
+      },
+      {
+        "broad_tolerance_band": [
+          10.0,
+          30.0
+        ],
+        "metric_id": "locator_occurrences_per_1000_source_words",
+        "target": 20.0,
+        "target_band": [
+          15.0,
+          25.0
+        ],
+        "weight": 0.5
+      }
+    ],
+    "chapter_measurements": [
+      {
+        "calibration_counts": {
+          "locator_bearing_heading_paths": 158.22,
+          "locator_occurrences": 395.56
+        },
+        "chunk_id": "CHUNK-001",
+        "indexable_source_words": 19778,
+        "locator_bearing_heading_paths": 241,
+        "locator_occurrences": 442,
+        "metric_results": [
+          {
+            "band": "above_acceptable",
+            "broad_tolerance_band": [
+              4.0,
+              12.0
+            ],
+            "count": 241,
+            "distance_outside_broad_tolerance": 0.015438,
+            "fit_rating": 3.0,
+            "metric_id": "locator_bearing_heading_paths_per_1000_source_words",
+            "target": 8.0,
+            "target_band": [
+              6.0,
+              10.0
+            ],
+            "value_per_1000_words": 12.1853,
+            "weight": 0.5
+          },
+          {
+            "band": "target",
+            "broad_tolerance_band": [
+              10.0,
+              30.0
+            ],
+            "count": 442,
+            "distance_outside_broad_tolerance": 0.0,
+            "fit_rating": 5.0,
+            "metric_id": "locator_occurrences_per_1000_source_words",
+            "target": 20.0,
+            "target_band": [
+              15.0,
+              25.0
+            ],
+            "value_per_1000_words": 22.3481,
+            "weight": 0.5
+          }
+        ],
+        "source_unit_label": "Chapter 1: France under Louis XVI",
+        "unit_fit_rating": 4.0,
+        "unit_fit_rating_unrounded": 4.0
+      },
+      {
+        "calibration_counts": {
+          "locator_bearing_heading_paths": 80.7,
+          "locator_occurrences": 201.76
+        },
+        "chunk_id": "CHUNK-002",
+        "indexable_source_words": 10088,
+        "locator_bearing_heading_paths": 150,
+        "locator_occurrences": 244,
+        "metric_results": [
+          {
+            "band": "above_acceptable",
+            "broad_tolerance_band": [
+              4.0,
+              12.0
+            ],
+            "count": 150,
+            "distance_outside_broad_tolerance": 0.239096,
+            "fit_rating": 3.0,
+            "metric_id": "locator_bearing_heading_paths_per_1000_source_words",
+            "target": 8.0,
+            "target_band": [
+              6.0,
+              10.0
+            ],
+            "value_per_1000_words": 14.8692,
+            "weight": 0.5
+          },
+          {
+            "band": "target",
+            "broad_tolerance_band": [
+              10.0,
+              30.0
+            ],
+            "count": 244,
+            "distance_outside_broad_tolerance": 0.0,
+            "fit_rating": 5.0,
+            "metric_id": "locator_occurrences_per_1000_source_words",
+            "target": 20.0,
+            "target_band": [
+              15.0,
+              25.0
+            ],
+            "value_per_1000_words": 24.1872,
+            "weight": 0.5
+          }
+        ],
+        "source_unit_label": "Chapter 2: Enlightened Opinion",
+        "unit_fit_rating": 4.0,
+        "unit_fit_rating_unrounded": 4.0
+      },
+      {
+        "calibration_counts": {
+          "locator_bearing_heading_paths": 72.72,
+          "locator_occurrences": 181.8
+        },
+        "chunk_id": "CHUNK-003",
+        "indexable_source_words": 9090,
+        "locator_bearing_heading_paths": 91,
+        "locator_occurrences": 192,
+        "metric_results": [
+          {
+            "band": "broad_tolerance",
+            "broad_tolerance_band": [
+              4.0,
+              12.0
+            ],
+            "count": 91,
+            "distance_outside_broad_tolerance": 0.0,
+            "fit_rating": 4.0,
+            "metric_id": "locator_bearing_heading_paths_per_1000_source_words",
+            "target": 8.0,
+            "target_band": [
+              6.0,
+              10.0
+            ],
+            "value_per_1000_words": 10.011,
+            "weight": 0.5
+          },
+          {
+            "band": "target",
+            "broad_tolerance_band": [
+              10.0,
+              30.0
+            ],
+            "count": 192,
+            "distance_outside_broad_tolerance": 0.0,
+            "fit_rating": 5.0,
+            "metric_id": "locator_occurrences_per_1000_source_words",
+            "target": 20.0,
+            "target_band": [
+              15.0,
+              25.0
+            ],
+            "value_per_1000_words": 21.1221,
+            "weight": 0.5
+          }
+        ],
+        "source_unit_label": "3. Crisis and Collapse, 1776-1788",
+        "unit_fit_rating": 4.5,
+        "unit_fit_rating_unrounded": 4.5
+      },
+      {
+        "calibration_counts": {
+          "locator_bearing_heading_paths": 95.9,
+          "locator_occurrences": 239.74
+        },
+        "chunk_id": "CHUNK-004",
+        "indexable_source_words": 11987,
+        "locator_bearing_heading_paths": 141,
+        "locator_occurrences": 289,
+        "metric_results": [
+          {
+            "band": "broad_tolerance",
+            "broad_tolerance_band": [
+              4.0,
+              12.0
+            ],
+            "count": 141,
+            "distance_outside_broad_tolerance": 0.0,
+            "fit_rating": 4.0,
+            "metric_id": "locator_bearing_heading_paths_per_1000_source_words",
+            "target": 8.0,
+            "target_band": [
+              6.0,
+              10.0
+            ],
+            "value_per_1000_words": 11.7627,
+            "weight": 0.5
+          },
+          {
+            "band": "target",
+            "broad_tolerance_band": [
+              10.0,
+              30.0
+            ],
+            "count": 289,
+            "distance_outside_broad_tolerance": 0.0,
+            "fit_rating": 5.0,
+            "metric_id": "locator_occurrences_per_1000_source_words",
+            "target": 20.0,
+            "target_band": [
+              15.0,
+              25.0
+            ],
+            "value_per_1000_words": 24.1095,
+            "weight": 0.5
+          }
+        ],
+        "source_unit_label": "Chapter 4: The Estates-General, September 1788-July 1789",
+        "unit_fit_rating": 4.5,
+        "unit_fit_rating_unrounded": 4.5
+      },
+      {
+        "calibration_counts": {
+          "locator_bearing_heading_paths": 83.07,
+          "locator_occurrences": 207.68
+        },
+        "chunk_id": "CHUNK-005",
+        "indexable_source_words": 10384,
+        "locator_bearing_heading_paths": 197,
+        "locator_occurrences": 306,
+        "metric_results": [
+          {
+            "band": "above_acceptable",
+            "broad_tolerance_band": [
+              4.0,
+              12.0
+            ],
+            "count": 197,
+            "distance_outside_broad_tolerance": 0.580958,
+            "fit_rating": 1.0,
+            "metric_id": "locator_bearing_heading_paths_per_1000_source_words",
+            "target": 8.0,
+            "target_band": [
+              6.0,
+              10.0
+            ],
+            "value_per_1000_words": 18.9715,
+            "weight": 0.5
+          },
+          {
+            "band": "broad_tolerance",
+            "broad_tolerance_band": [
+              10.0,
+              30.0
+            ],
+            "count": 306,
+            "distance_outside_broad_tolerance": 0.0,
+            "fit_rating": 4.0,
+            "metric_id": "locator_occurrences_per_1000_source_words",
+            "target": 20.0,
+            "target_band": [
+              15.0,
+              25.0
+            ],
+            "value_per_1000_words": 29.4684,
+            "weight": 0.5
+          }
+        ],
+        "source_unit_label": "5. The Principles of 1789 and the Reform of France",
+        "unit_fit_rating": 2.5,
+        "unit_fit_rating_unrounded": 2.5
+      },
+      {
+        "calibration_counts": {
+          "locator_bearing_heading_paths": 82.85,
+          "locator_occurrences": 207.12
+        },
+        "chunk_id": "CHUNK-006",
+        "indexable_source_words": 10356,
+        "locator_bearing_heading_paths": 162,
+        "locator_occurrences": 298,
+        "metric_results": [
+          {
+            "band": "above_acceptable",
+            "broad_tolerance_band": [
+              4.0,
+              12.0
+            ],
+            "count": 162,
+            "distance_outside_broad_tolerance": 0.303592,
+            "fit_rating": 2.0,
+            "metric_id": "locator_bearing_heading_paths_per_1000_source_words",
+            "target": 8.0,
+            "target_band": [
+              6.0,
+              10.0
+            ],
+            "value_per_1000_words": 15.6431,
+            "weight": 0.5
+          },
+          {
+            "band": "broad_tolerance",
+            "broad_tolerance_band": [
+              10.0,
+              30.0
+            ],
+            "count": 298,
+            "distance_outside_broad_tolerance": 0.0,
+            "fit_rating": 4.0,
+            "metric_id": "locator_occurrences_per_1000_source_words",
+            "target": 20.0,
+            "target_band": [
+              15.0,
+              25.0
+            ],
+            "value_per_1000_words": 28.7756,
+            "weight": 0.5
+          }
+        ],
+        "source_unit_label": "Chapter 6; The Breakdown of the Revolutionary Consensus, 1790–1791",
+        "unit_fit_rating": 3.0,
+        "unit_fit_rating_unrounded": 3.0
+      },
+      {
+        "calibration_counts": {
+          "locator_bearing_heading_paths": 52.49,
+          "locator_occurrences": 131.22
+        },
+        "chunk_id": "CHUNK-007",
+        "indexable_source_words": 6561,
+        "locator_bearing_heading_paths": 112,
+        "locator_occurrences": 174,
+        "metric_results": [
+          {
+            "band": "above_acceptable",
+            "broad_tolerance_band": [
+              4.0,
+              12.0
+            ],
+            "count": 112,
+            "distance_outside_broad_tolerance": 0.422547,
+            "fit_rating": 2.0,
+            "metric_id": "locator_bearing_heading_paths_per_1000_source_words",
+            "target": 8.0,
+            "target_band": [
+              6.0,
+              10.0
+            ],
+            "value_per_1000_words": 17.0706,
+            "weight": 0.5
+          },
+          {
+            "band": "broad_tolerance",
+            "broad_tolerance_band": [
+              10.0,
+              30.0
+            ],
+            "count": 174,
+            "distance_outside_broad_tolerance": 0.0,
+            "fit_rating": 4.0,
+            "metric_id": "locator_occurrences_per_1000_source_words",
+            "target": 20.0,
+            "target_band": [
+              15.0,
+              25.0
+            ],
+            "value_per_1000_words": 26.5203,
+            "weight": 0.5
+          }
+        ],
+        "source_unit_label": "7. Europe and the Revolution, 1788-1791",
+        "unit_fit_rating": 3.0,
+        "unit_fit_rating_unrounded": 3.0
+      },
+      {
+        "calibration_counts": {
+          "locator_bearing_heading_paths": 87.27,
+          "locator_occurrences": 218.18
+        },
+        "chunk_id": "CHUNK-008",
+        "indexable_source_words": 10909,
+        "locator_bearing_heading_paths": 171,
+        "locator_occurrences": 277,
+        "metric_results": [
+          {
+            "band": "above_acceptable",
+            "broad_tolerance_band": [
+              4.0,
+              12.0
+            ],
+            "count": 171,
+            "distance_outside_broad_tolerance": 0.306261,
+            "fit_rating": 2.0,
+            "metric_id": "locator_bearing_heading_paths_per_1000_source_words",
+            "target": 8.0,
+            "target_band": [
+              6.0,
+              10.0
+            ],
+            "value_per_1000_words": 15.6751,
+            "weight": 0.5
+          },
+          {
+            "band": "broad_tolerance",
+            "broad_tolerance_band": [
+              10.0,
+              30.0
+            ],
+            "count": 277,
+            "distance_outside_broad_tolerance": 0.0,
+            "fit_rating": 4.0,
+            "metric_id": "locator_occurrences_per_1000_source_words",
+            "target": 20.0,
+            "target_band": [
+              15.0,
+              25.0
+            ],
+            "value_per_1000_words": 25.3919,
+            "weight": 0.5
+          }
+        ],
+        "source_unit_label": "Chapter 8: The Republican Revolution, October 1791-January 1793",
+        "unit_fit_rating": 3.0,
+        "unit_fit_rating_unrounded": 3.0
+      },
+      {
+        "calibration_counts": {
+          "locator_bearing_heading_paths": 84.3,
+          "locator_occurrences": 210.74
+        },
+        "chunk_id": "CHUNK-009",
+        "indexable_source_words": 10537,
+        "locator_bearing_heading_paths": 212,
+        "locator_occurrences": 392,
+        "metric_results": [
+          {
+            "band": "above_acceptable",
+            "broad_tolerance_band": [
+              4.0,
+              12.0
+            ],
+            "count": 212,
+            "distance_outside_broad_tolerance": 0.676632,
+            "fit_rating": 1.0,
+            "metric_id": "locator_bearing_heading_paths_per_1000_source_words",
+            "target": 8.0,
+            "target_band": [
+              6.0,
+              10.0
+            ],
+            "value_per_1000_words": 20.1196,
+            "weight": 0.5
+          },
+          {
+            "band": "above_acceptable",
+            "broad_tolerance_band": [
+              10.0,
+              30.0
+            ],
+            "count": 392,
+            "distance_outside_broad_tolerance": 0.240075,
+            "fit_rating": 3.0,
+            "metric_id": "locator_occurrences_per_1000_source_words",
+            "target": 20.0,
+            "target_band": [
+              15.0,
+              25.0
+            ],
+            "value_per_1000_words": 37.2022,
+            "weight": 0.5
+          }
+        ],
+        "source_unit_label": "9. War against Europe, 1792-1797",
+        "unit_fit_rating": 2.0,
+        "unit_fit_rating_unrounded": 2.0
+      },
+      {
+        "calibration_counts": {
+          "locator_bearing_heading_paths": 97.54,
+          "locator_occurrences": 243.84
+        },
+        "chunk_id": "CHUNK-010",
+        "indexable_source_words": 12192,
+        "locator_bearing_heading_paths": 197,
+        "locator_occurrences": 348,
+        "metric_results": [
+          {
+            "band": "above_acceptable",
+            "broad_tolerance_band": [
+              4.0,
+              12.0
+            ],
+            "count": 197,
+            "distance_outside_broad_tolerance": 0.346511,
+            "fit_rating": 2.0,
+            "metric_id": "locator_bearing_heading_paths_per_1000_source_words",
+            "target": 8.0,
+            "target_band": [
+              6.0,
+              10.0
+            ],
+            "value_per_1000_words": 16.1581,
+            "weight": 0.5
+          },
+          {
+            "band": "broad_tolerance",
+            "broad_tolerance_band": [
+              10.0,
+              30.0
+            ],
+            "count": 348,
+            "distance_outside_broad_tolerance": 0.0,
+            "fit_rating": 4.0,
+            "metric_id": "locator_occurrences_per_1000_source_words",
+            "target": 20.0,
+            "target_band": [
+              15.0,
+              25.0
+            ],
+            "value_per_1000_words": 28.5433,
+            "weight": 0.5
+          }
+        ],
+        "source_unit_label": "10. The Revolt of the Provinces",
+        "unit_fit_rating": 3.0,
+        "unit_fit_rating_unrounded": 3.0
+      },
+      {
+        "calibration_counts": {
+          "locator_bearing_heading_paths": 92.97,
+          "locator_occurrences": 232.42
+        },
+        "chunk_id": "CHUNK-011",
+        "indexable_source_words": 11621,
+        "locator_bearing_heading_paths": 199,
+        "locator_occurrences": 381,
+        "metric_results": [
+          {
+            "band": "above_acceptable",
+            "broad_tolerance_band": [
+              4.0,
+              12.0
+            ],
+            "count": 199,
+            "distance_outside_broad_tolerance": 0.427014,
+            "fit_rating": 2.0,
+            "metric_id": "locator_bearing_heading_paths_per_1000_source_words",
+            "target": 8.0,
+            "target_band": [
+              6.0,
+              10.0
+            ],
+            "value_per_1000_words": 17.1242,
+            "weight": 0.5
+          },
+          {
+            "band": "above_acceptable",
+            "broad_tolerance_band": [
+              10.0,
+              30.0
+            ],
+            "count": 381,
+            "distance_outside_broad_tolerance": 0.092849,
+            "fit_rating": 3.0,
+            "metric_id": "locator_occurrences_per_1000_source_words",
+            "target": 20.0,
+            "target_band": [
+              15.0,
+              25.0
+            ],
+            "value_per_1000_words": 32.7855,
+            "weight": 0.5
+          }
+        ],
+        "source_unit_label": "11. Government by Terror, 1793–1794",
+        "unit_fit_rating": 2.5,
+        "unit_fit_rating_unrounded": 2.5
+      },
+      {
+        "calibration_counts": {
+          "locator_bearing_heading_paths": 92.82,
+          "locator_occurrences": 232.06
+        },
+        "chunk_id": "CHUNK-012",
+        "indexable_source_words": 11603,
+        "locator_bearing_heading_paths": 182,
+        "locator_occurrences": 319,
+        "metric_results": [
+          {
+            "band": "above_acceptable",
+            "broad_tolerance_band": [
+              4.0,
+              12.0
+            ],
+            "count": 182,
+            "distance_outside_broad_tolerance": 0.307133,
+            "fit_rating": 2.0,
+            "metric_id": "locator_bearing_heading_paths_per_1000_source_words",
+            "target": 8.0,
+            "target_band": [
+              6.0,
+              10.0
+            ],
+            "value_per_1000_words": 15.6856,
+            "weight": 0.5
+          },
+          {
+            "band": "broad_tolerance",
+            "broad_tolerance_band": [
+              10.0,
+              30.0
+            ],
+            "count": 319,
+            "distance_outside_broad_tolerance": 0.0,
+            "fit_rating": 4.0,
+            "metric_id": "locator_occurrences_per_1000_source_words",
+            "target": 20.0,
+            "target_band": [
+              15.0,
+              25.0
+            ],
+            "value_per_1000_words": 27.4929,
+            "weight": 0.5
+          }
+        ],
+        "source_unit_label": "Chapter 12; Thermidor, 1794-1795",
+        "unit_fit_rating": 3.0,
+        "unit_fit_rating_unrounded": 3.0
+      },
+      {
+        "calibration_counts": {
+          "locator_bearing_heading_paths": 78.48,
+          "locator_occurrences": 196.2
+        },
+        "chunk_id": "CHUNK-013",
+        "indexable_source_words": 9810,
+        "locator_bearing_heading_paths": 138,
+        "locator_occurrences": 274,
+        "metric_results": [
+          {
+            "band": "above_acceptable",
+            "broad_tolerance_band": [
+              4.0,
+              12.0
+            ],
+            "count": 138,
+            "distance_outside_broad_tolerance": 0.172273,
+            "fit_rating": 3.0,
+            "metric_id": "locator_bearing_heading_paths_per_1000_source_words",
+            "target": 8.0,
+            "target_band": [
+              6.0,
+              10.0
+            ],
+            "value_per_1000_words": 14.0673,
+            "weight": 0.5
+          },
+          {
+            "band": "broad_tolerance",
+            "broad_tolerance_band": [
+              10.0,
+              30.0
+            ],
+            "count": 274,
+            "distance_outside_broad_tolerance": 0.0,
+            "fit_rating": 4.0,
+            "metric_id": "locator_occurrences_per_1000_source_words",
+            "target": 20.0,
+            "target_band": [
+              15.0,
+              25.0
+            ],
+            "value_per_1000_words": 27.9307,
+            "weight": 0.5
+          }
+        ],
+        "source_unit_label": "13. Counter-Revolution, 1789–1795",
+        "unit_fit_rating": 3.5,
+        "unit_fit_rating_unrounded": 3.5
+      },
+      {
+        "calibration_counts": {
+          "locator_bearing_heading_paths": 86.69,
+          "locator_occurrences": 216.72
+        },
+        "chunk_id": "CHUNK-014",
+        "indexable_source_words": 10836,
+        "locator_bearing_heading_paths": 181,
+        "locator_occurrences": 301,
+        "metric_results": [
+          {
+            "band": "above_acceptable",
+            "broad_tolerance_band": [
+              4.0,
+              12.0
+            ],
+            "count": 181,
+            "distance_outside_broad_tolerance": 0.391965,
+            "fit_rating": 2.0,
+            "metric_id": "locator_bearing_heading_paths_per_1000_source_words",
+            "target": 8.0,
+            "target_band": [
+              6.0,
+              10.0
+            ],
+            "value_per_1000_words": 16.7036,
+            "weight": 0.5
+          },
+          {
+            "band": "broad_tolerance",
+            "broad_tolerance_band": [
+              10.0,
+              30.0
+            ],
+            "count": 301,
+            "distance_outside_broad_tolerance": 0.0,
+            "fit_rating": 4.0,
+            "metric_id": "locator_occurrences_per_1000_source_words",
+            "target": 20.0,
+            "target_band": [
+              15.0,
+              25.0
+            ],
+            "value_per_1000_words": 27.7778,
+            "weight": 0.5
+          }
+        ],
+        "source_unit_label": "Chapter 14: The Directory, 1795–1799",
+        "unit_fit_rating": 3.0,
+        "unit_fit_rating_unrounded": 3.0
+      },
+      {
+        "calibration_counts": {
+          "locator_bearing_heading_paths": 101.91,
+          "locator_occurrences": 254.78
+        },
+        "chunk_id": "CHUNK-015",
+        "indexable_source_words": 12739,
+        "locator_bearing_heading_paths": 183,
+        "locator_occurrences": 362,
+        "metric_results": [
+          {
+            "band": "above_acceptable",
+            "broad_tolerance_band": [
+              4.0,
+              12.0
+            ],
+            "count": 183,
+            "distance_outside_broad_tolerance": 0.197111,
+            "fit_rating": 3.0,
+            "metric_id": "locator_bearing_heading_paths_per_1000_source_words",
+            "target": 8.0,
+            "target_band": [
+              6.0,
+              10.0
+            ],
+            "value_per_1000_words": 14.3653,
+            "weight": 0.5
+          },
+          {
+            "band": "broad_tolerance",
+            "broad_tolerance_band": [
+              10.0,
+              30.0
+            ],
+            "count": 362,
+            "distance_outside_broad_tolerance": 0.0,
+            "fit_rating": 4.0,
+            "metric_id": "locator_occurrences_per_1000_source_words",
+            "target": 20.0,
+            "target_band": [
+              15.0,
+              25.0
+            ],
+            "value_per_1000_words": 28.4167,
+            "weight": 0.5
+          }
+        ],
+        "source_unit_label": "15. Occupied Europe, 1794-1799",
+        "unit_fit_rating": 3.5,
+        "unit_fit_rating_unrounded": 3.5
+      },
+      {
+        "calibration_counts": {
+          "locator_bearing_heading_paths": 82.06,
+          "locator_occurrences": 205.16
+        },
+        "chunk_id": "CHUNK-016",
+        "indexable_source_words": 10258,
+        "locator_bearing_heading_paths": 188,
+        "locator_occurrences": 314,
+        "metric_results": [
+          {
+            "band": "above_acceptable",
+            "broad_tolerance_band": [
+              4.0,
+              12.0
+            ],
+            "count": 188,
+            "distance_outside_broad_tolerance": 0.527263,
+            "fit_rating": 1.0,
+            "metric_id": "locator_bearing_heading_paths_per_1000_source_words",
+            "target": 8.0,
+            "target_band": [
+              6.0,
+              10.0
+            ],
+            "value_per_1000_words": 18.3272,
+            "weight": 0.5
+          },
+          {
+            "band": "above_acceptable",
+            "broad_tolerance_band": [
+              10.0,
+              30.0
+            ],
+            "count": 314,
+            "distance_outside_broad_tolerance": 0.020342,
+            "fit_rating": 3.0,
+            "metric_id": "locator_occurrences_per_1000_source_words",
+            "target": 20.0,
+            "target_band": [
+              15.0,
+              25.0
+            ],
+            "value_per_1000_words": 30.6103,
+            "weight": 0.5
+          }
+        ],
+        "source_unit_label": "16. An End to Revolution, 1799-1802",
+        "unit_fit_rating": 2.0,
+        "unit_fit_rating_unrounded": 2.0
+      },
+      {
+        "calibration_counts": {
+          "locator_bearing_heading_paths": 127.75,
+          "locator_occurrences": 319.38
+        },
+        "chunk_id": "CHUNK-017",
+        "indexable_source_words": 15969,
+        "locator_bearing_heading_paths": 318,
+        "locator_occurrences": 425,
+        "metric_results": [
+          {
+            "band": "above_acceptable",
+            "broad_tolerance_band": [
+              4.0,
+              12.0
+            ],
+            "count": 318,
+            "distance_outside_broad_tolerance": 0.659465,
+            "fit_rating": 1.0,
+            "metric_id": "locator_bearing_heading_paths_per_1000_source_words",
+            "target": 8.0,
+            "target_band": [
+              6.0,
+              10.0
+            ],
+            "value_per_1000_words": 19.9136,
+            "weight": 0.5
+          },
+          {
+            "band": "broad_tolerance",
+            "broad_tolerance_band": [
+              10.0,
+              30.0
+            ],
+            "count": 425,
+            "distance_outside_broad_tolerance": 0.0,
+            "fit_rating": 4.0,
+            "metric_id": "locator_occurrences_per_1000_source_words",
+            "target": 20.0,
+            "target_band": [
+              15.0,
+              25.0
+            ],
+            "value_per_1000_words": 26.6141,
+            "weight": 0.5
+          }
+        ],
+        "source_unit_label": "17. The Revolution in Perspective",
+        "unit_fit_rating": 2.5,
+        "unit_fit_rating_unrounded": 2.5
+      }
+    ],
+    "fit_rating": 3.0,
+    "fit_rating_unrounded": 3.169342,
+    "points_contributed": 3.0,
+    "maximum_points": 5,
+    "aggregation": "indexable_source_word_weighted_mean",
+    "indexable_source_words": 194718,
+    "distribution_findings": [
+      {
+        "affected_chunk_ids": [
+          "CHUNK-001",
+          "CHUNK-002",
+          "CHUNK-003",
+          "CHUNK-004",
+          "CHUNK-005",
+          "CHUNK-006",
+          "CHUNK-007",
+          "CHUNK-008",
+          "CHUNK-009",
+          "CHUNK-010",
+          "CHUNK-011",
+          "CHUNK-012",
+          "CHUNK-013",
+          "CHUNK-014",
+          "CHUNK-015",
+          "CHUNK-016",
+          "CHUNK-017"
+        ],
+        "evidence_ids": [
+          "DEFECT-147449ABAEF9"
+        ],
+        "finding_id": "DENSITY-PATH-PROLIFERATION",
+        "severity": "major",
+        "summary": "All 17 chapters exceed the 6–10 target band for locator-bearing paths; 15 exceed the 4–12 broad tolerance band."
+      },
+      {
+        "affected_chunk_ids": [
+          "CHUNK-009",
+          "CHUNK-011",
+          "CHUNK-016"
+        ],
+        "evidence_ids": [
+          "DEFECT-147449ABAEF9"
+        ],
+        "finding_id": "DENSITY-LOCATOR-DISTRIBUTION",
+        "severity": "minor",
+        "summary": "Locator-occurrence density is within the target band in 4 chapters and the broad tolerance band in 10 more; only CHUNK-009, CHUNK-011, and CHUNK-016 exceed the broad band."
+      },
+      {
+        "evidence_ids": [
+          "DEFECT-147449ABAEF9"
+        ],
+        "finding_id": "DENSITY-STRUCTURAL-SHAPE",
+        "severity": "major",
+        "summary": "Across 194,718 indexable words, the chapter-level sum is 3,063 path appearances and 5,338 locator occurrences (15.73 and 27.41 per 1,000 words), showing many short paths rather than proportionate expansion of page evidence."
+      }
+    ],
+    "interpretation_guardrail": "These are permissive framework calibration points, not quotas, minimums, hard ceilings, or universal professional requirements."
+  },
+  "gate_status": {
+    "status": "not_publication_ready",
+    "headline": "Not publication-ready: 7 of 13 standard gates failed.",
+    "passed_count": 6,
+    "failed_count": 7,
+    "score_does_not_override_gates": true,
+    "failed_gate_ids": [
+      "GATE-SYSTEMIC-UNSUPPORTED",
+      "GATE-CENTRAL-OMISSION",
+      "GATE-STANCE",
+      "GATE-COMPOUND",
+      "GATE-SEE-SUBSTITUTION",
+      "GATE-CROSS-REFERENCE",
+      "GATE-CLUTTER"
+    ],
+    "passed_gate_ids": [
+      "GATE-SCOPE-LOCATOR",
+      "GATE-DEPTH",
+      "GATE-GROUNDING",
+      "GATE-UNINSPECTABLE",
+      "GATE-SOURCE-SPAN",
+      "GATE-STRUCTURE"
+    ],
+    "gates": [
+      {
+        "applicable": true,
+        "description": "fabricated, nonexistent, or out-of-scope locator",
+        "evidence_ids": [
+          "PAGE-MAP-452602DEEBDA",
+          "LOCATOR-INVENTORY-COMPLETE"
+        ],
+        "finding": "All 5,338 atomic locators resolve to existing, in-scope labels 1-425; none is fabricated, nonexistent, or out of scope.",
+        "gate_id": "GATE-SCOPE-LOCATOR",
+        "metrics": {
+          "out_of_scope": 0,
+          "resolved": 5338,
+          "unresolved": 0
+        },
+        "standard": true,
+        "status": "pass"
+      },
+      {
+        "applicable": true,
+        "description": "systematic incidental or unsupported locator pattern",
+        "evidence_ids": [
+          "LOC-97ABEA16D2D4",
+          "LOC-9BE36BCA9141",
+          "LOC-0A3777CEF8BB",
+          "LOC-F32D7ADEDD1D",
+          "LOC-23EFA497890A",
+          "LOC-7B58953ED8C3",
+          "LOC-72BCDEDF1FEE",
+          "LOC-E71768C23D6E",
+          "LOC-DD60F23CEC61",
+          "LOC-5C7D66E81600",
+          "LOC-D9AA8AD8498A",
+          "LOC-B94CB8AB7A7F",
+          "LOC-224F29FED470",
+          "LOC-E0E648FAC69D",
+          "LOC-A6F7F12DEE54",
+          "LOC-9E5254F8DA14",
+          "LOC-7D566EB81E4F"
+        ],
+        "finding": "The full audit finds 463 unsupported assignments (8.67%) distributed across every one of the 17 chapters.",
+        "gate_id": "GATE-SYSTEMIC-UNSUPPORTED",
+        "metrics": {
+          "affected_chunks": 17,
+          "rate": 0.086737,
+          "total": 5338,
+          "unsupported": 463
+        },
+        "standard": true,
+        "status": "fail"
+      },
+      {
+        "applicable": true,
+        "description": "central subject or conclusion materially omitted",
+        "evidence_ids": [
+          "SUBJ-04661509BFF9",
+          "SUBJ-18AE67659255",
+          "SUBJ-5B7555CE2FD8",
+          "SUBJ-79F8290570D7",
+          "SUBJ-912AF76A45C9",
+          "SUBJ-9216E0E5FA9D",
+          "SUBJ-A2A7299F7165",
+          "SUBJ-A6AE69CE5BCB",
+          "SUBJ-B3F5D2BA17B5",
+          "SUBJ-BC41E0A881DB",
+          "SUBJ-F6AB55B20EC3",
+          "SUBJ-FCEC284F9F3A"
+        ],
+        "finding": "Twelve of 155 frozen essential subjects are missing, so central material is materially omitted.",
+        "gate_id": "GATE-CENTRAL-OMISSION",
+        "metrics": {
+          "essential_missing": 12,
+          "essential_total": 155,
+          "miss_rate": 0.077419
+        },
+        "standard": true,
+        "status": "fail"
+      },
+      {
+        "applicable": true,
+        "description": "heading reverses or seriously misrepresents source stance",
+        "evidence_ids": [
+          "DEFECT-0B25E702C3BE",
+          "DEFECT-CC86E1CF5D6C",
+          "DEFECT-D46CFFA23B43"
+        ],
+        "finding": "Three structure defects are explicitly classified as major stance failures, and the full node review records additional major conceptual failures.",
+        "gate_id": "GATE-STANCE",
+        "metrics": {
+          "major_stance_defects": 3
+        },
+        "standard": true,
+        "status": "fail"
+      },
+      {
+        "applicable": true,
+        "description": "compound heading locators support only separate components",
+        "evidence_ids": [
+          "DEFECT-422B1AF61225",
+          "NODE-31E3F4E4209A",
+          "PATH-D022A1D9BF5A",
+          "LOC-26B5B4241BBA"
+        ],
+        "finding": "One major compound-heading defect has locators that do not support the combined relationship expressed by the complete path.",
+        "gate_id": "GATE-COMPOUND",
+        "metrics": {
+          "major_compound_defects": 1
+        },
+        "standard": true,
+        "status": "fail"
+      },
+      {
+        "applicable": true,
+        "description": "see source replaces a warranted substantive entry",
+        "evidence_ids": [
+          "XREF-95955B1B092D",
+          "DEFECT-C78C6F0ECC3A",
+          "SUBJ-30CAE18651DF"
+        ],
+        "finding": "The serfdom see-reference substitutes broad targets that do not retrieve the frozen subject treatment for the alternate lookup term.",
+        "gate_id": "GATE-SEE-SUBSTITUTION",
+        "metrics": {
+          "invalid_substitutive_see_references": 1
+        },
+        "standard": true,
+        "status": "fail"
+      },
+      {
+        "applicable": true,
+        "description": "unresolved, self-referential, circular, or chained cross-reference",
+        "evidence_ids": [
+          "XREF-6E6F54660707",
+          "DEFECT-50EF877CB81B",
+          "XREF-9A63B6DC42BB",
+          "DEFECT-44C39D39514C"
+        ],
+        "finding": "Two see-also references terminate at unresolved displayed targets; graph review finds no self-reference, cycle, or chained see reference.",
+        "gate_id": "GATE-CROSS-REFERENCE",
+        "metrics": {
+          "chained_see": 0,
+          "cycles": 0,
+          "self_references": 0,
+          "unresolved_targets": 2
+        },
+        "standard": true,
+        "status": "fail"
+      },
+      {
+        "applicable": true,
+        "description": "third-level heading",
+        "evidence_ids": [
+          "NODE-INVENTORY-COMPLETE"
+        ],
+        "finding": "All 1,904 heading nodes are at level one or two; no third-level headings occur.",
+        "gate_id": "GATE-DEPTH",
+        "metrics": {
+          "heading_nodes": 1904,
+          "third_level_nodes": 0
+        },
+        "standard": true,
+        "status": "pass"
+      },
+      {
+        "applicable": true,
+        "description": "systematic named-entity, example, or citation clutter",
+        "evidence_ids": [
+          "LOC-97ABEA16D2D4",
+          "LOC-9BE36BCA9141",
+          "LOC-6755A0004CE0",
+          "LOC-F32D7ADEDD1D",
+          "LOC-23EFA497890A",
+          "LOC-80048D076477",
+          "LOC-72BCDEDF1FEE",
+          "LOC-6A7C6067C7E7",
+          "LOC-DD60F23CEC61",
+          "LOC-724C6CA63BC5",
+          "LOC-D9AA8AD8498A",
+          "LOC-B94CB8AB7A7F",
+          "LOC-224F29FED470",
+          "LOC-7F4FD513E849",
+          "LOC-99AC5E8808F1",
+          "LOC-9E5254F8DA14",
+          "LOC-2260DEBE9193"
+        ],
+        "finding": "The full locator audit records 235 attribution-only or incidental-example access points across all 17 chapters, a systematic clutter pattern.",
+        "gate_id": "GATE-CLUTTER",
+        "metrics": {
+          "affected_chunks": 17,
+          "clutter_locators": 235,
+          "rate": 0.044024,
+          "total": 5338
+        },
+        "standard": true,
+        "status": "fail"
+      },
+      {
+        "applicable": true,
+        "description": "critical or major unresolved grounding",
+        "evidence_ids": [
+          "DEFECT-CHUNK004-LOC-48367D5505DB",
+          "DEFECT-CHUNK004-LOC-7BBAEA5AB101",
+          "DEFECT-CHUNK004-LOC-42F23D35903C",
+          "DEFECT-CHUNK004-LOC-3BCC09FE22B7",
+          "DEFECT-CHUNK004-LOC-0FCD80C93653",
+          "DEFECT-CHUNK004-LOC-9A3C9F35B085",
+          "DEFECT-CHUNK006-LOC-80048D076477"
+        ],
+        "finding": "No critical or major grounding item remains unresolved. Seven localized, high-confidence locator/benchmark dependency conflicts were retained without reinterpretation and disclosed for centralized adjudication.",
+        "gate_id": "GATE-GROUNDING",
+        "metrics": {
+          "critical_unresolved": 0,
+          "disclosed_dependency_conflicts": 7,
+          "major_unresolved": 0
+        },
+        "standard": true,
+        "status": "pass"
+      },
+      {
+        "applicable": true,
+        "description": "more than 1% of in-scope locator assignments uninspectable without a frozen alternative tolerance",
+        "evidence_ids": [
+          "LOCATOR-AUDIT-SET-CE3277A02326"
+        ],
+        "finding": "All 5,338 assignments were inspectable; the uninspectable rate is 0%, below the frozen 1% tolerance.",
+        "gate_id": "GATE-UNINSPECTABLE",
+        "metrics": {
+          "rate": 0.0,
+          "tolerance": 0.01,
+          "total": 5338,
+          "uninspectable": 0
+        },
+        "standard": true,
+        "status": "pass"
+      },
+      {
+        "applicable": true,
+        "description": "wrong source span",
+        "evidence_ids": [
+          "PAGE-MAP-452602DEEBDA",
+          "CHUNK-MANIFEST-5FC545038611"
+        ],
+        "finding": "The frozen page map and 17-chapter manifest cover supplied document pages 1-425 exactly once, and every candidate locator resolves within that span.",
+        "gate_id": "GATE-SOURCE-SPAN",
+        "metrics": {
+          "document_page_span": [
+            1,
+            425
+          ],
+          "owned_pages": 425,
+          "resolved_locators": 5338
+        },
+        "standard": true,
+        "status": "pass"
+      },
+      {
+        "applicable": true,
+        "description": "structurally invalid or incomplete output",
+        "evidence_ids": [
+          "NODE-INVENTORY-COMPLETE",
+          "LOCATOR-INVENTORY-COMPLETE",
+          "ART-084C66CEE96F"
+        ],
+        "finding": "The canonical outputs are structurally complete: 1,904/1,904 nodes, 16/16 references, 5,338/5,338 locators, and 1,366/1,366 benchmark subjects are present and uniquely graded.",
+        "gate_id": "GATE-STRUCTURE",
+        "metrics": {
+          "cross_references": 16,
+          "locators": 5338,
+          "nodes": 1904,
+          "subjects": 1366
+        },
+        "standard": true,
+        "status": "pass"
+      }
+    ]
+  },
+  "strengths": [
+    {
+      "strength_id": "STRENGTH-SUPPORTED-LOCATORS",
+      "title": "Most cited pages are substantively supported",
+      "summary": "The frozen audit marks 4,643 of 5,338 atomic locators fully supported, with another 232 partially supported.",
+      "metrics": {
+        "supported": 4643,
+        "partially_supported": 232,
+        "total": 5338,
+        "strict_supported_rate": 0.869801
+      },
+      "evidence_ids": [
+        "LOCATOR-AUDIT-SET-CE3277A02326"
+      ]
+    },
+    {
+      "strength_id": "STRENGTH-DIRECT-ACCESS",
+      "title": "Most frozen subjects have direct access",
+      "summary": "The frozen missing-access ledger records direct access for 1,226 of 1,366 scored benchmark subjects, although confirmed omissions remain outside this structure stage.",
+      "metrics": {
+        "direct_access_subjects": 1226,
+        "total_subjects": 1366,
+        "direct_access_rate": 0.897511
+      },
+      "evidence_ids": [
+        "MISSING-ACCESS-SET-BDBB51482887"
+      ]
+    },
+    {
+      "strength_id": "STRENGTH-COMPLETE-TWO-LEVEL-HIERARCHY",
+      "title": "The delivered hierarchy is mechanically complete",
+      "summary": "All 1,904 heading nodes are preserved in a one- or two-level hierarchy; there are no forbidden third-level headings, empty records, duplicate paths, or unresolved locators.",
+      "metrics": {
+        "heading_nodes": 1904,
+        "third_level_nodes": 0,
+        "unresolved_locators": 0
+      },
+      "evidence_ids": [
+        "NODE-INVENTORY-COMPLETE",
+        "LOCATOR-INVENTORY-COMPLETE"
+      ]
+    },
+    {
+      "strength_id": "STRENGTH-REFERENCE-GRAPH",
+      "title": "Most cross-references work and the graph has no cycles",
+      "summary": "Thirteen of sixteen cross-references are supported, and deterministic graph review finds no self-reference, cycle, or chained see reference.",
+      "metrics": {
+        "supported": 13,
+        "total": 16,
+        "self_references": 0,
+        "cycles": 0,
+        "chained_see": 0
+      },
+      "evidence_ids": [
+        "XREF-0ACD2D5DAC9E",
+        "XREF-112DBAA74C15",
+        "XREF-257ADA69D14E",
+        "XREF-341E6EF27F31",
+        "XREF-526F94D1B2AA",
+        "XREF-5493E32901C0",
+        "XREF-895A75AA88E5",
+        "XREF-9176203EDC03",
+        "XREF-ACD53D617FB0",
+        "XREF-C388AE30ACD3",
+        "XREF-D7D610BB5988",
+        "XREF-DFDE0CF10E75",
+        "XREF-E2AC8E8C6B66"
+      ]
+    },
+    {
+      "strength_id": "STRENGTH-LOCATOR-MECHANICS",
+      "title": "Every locator resolves to the frozen page span",
+      "summary": "All 5,338 atomic locators resolve through the frozen page map; the audit isolates the one redundant page assignment and one out-of-order locator sequence rather than treating them as mapping failures.",
+      "metrics": {
+        "resolved": 5338,
+        "unresolved": 0,
+        "out_of_scope": 0
+      },
+      "evidence_ids": [
+        "PAGE-MAP-452602DEEBDA",
+        "LOCATOR-INVENTORY-COMPLETE"
+      ]
+    }
+  ],
+  "defects": [
+    {
+      "defect_id": "REPORT-GATE-SYSTEMIC-UNSUPPORTED",
+      "gate_id": "GATE-SYSTEMIC-UNSUPPORTED",
+      "title": "Systematic incidental or unsupported locator pattern",
+      "severity": "publication_readiness_gate",
+      "summary": "The full audit finds 463 unsupported assignments (8.67%) distributed across every one of the 17 chapters.",
+      "metrics": {
+        "affected_chunks": 17,
+        "rate": 0.086737,
+        "total": 5338,
+        "unsupported": 463
+      },
+      "impact": "This failed applicable standard gate prevents an unqualified publication-ready conclusion.",
+      "evidence_ids": [
+        "LOC-97ABEA16D2D4",
+        "LOC-9BE36BCA9141",
+        "LOC-0A3777CEF8BB",
+        "LOC-F32D7ADEDD1D",
+        "LOC-23EFA497890A",
+        "LOC-7B58953ED8C3",
+        "LOC-72BCDEDF1FEE",
+        "LOC-E71768C23D6E",
+        "LOC-DD60F23CEC61",
+        "LOC-5C7D66E81600",
+        "LOC-D9AA8AD8498A",
+        "LOC-B94CB8AB7A7F",
+        "LOC-224F29FED470",
+        "LOC-E0E648FAC69D",
+        "LOC-A6F7F12DEE54",
+        "LOC-9E5254F8DA14",
+        "LOC-7D566EB81E4F"
+      ]
+    },
+    {
+      "defect_id": "REPORT-GATE-CENTRAL-OMISSION",
+      "gate_id": "GATE-CENTRAL-OMISSION",
+      "title": "Central subject or conclusion materially omitted",
+      "severity": "publication_readiness_gate",
+      "summary": "Twelve of 155 frozen essential subjects are missing, so central material is materially omitted.",
+      "metrics": {
+        "essential_missing": 12,
+        "essential_total": 155,
+        "miss_rate": 0.077419
+      },
+      "impact": "This failed applicable standard gate prevents an unqualified publication-ready conclusion.",
+      "evidence_ids": [
+        "SUBJ-04661509BFF9",
+        "SUBJ-18AE67659255",
+        "SUBJ-5B7555CE2FD8",
+        "SUBJ-79F8290570D7",
+        "SUBJ-912AF76A45C9",
+        "SUBJ-9216E0E5FA9D",
+        "SUBJ-A2A7299F7165",
+        "SUBJ-A6AE69CE5BCB",
+        "SUBJ-B3F5D2BA17B5",
+        "SUBJ-BC41E0A881DB",
+        "SUBJ-F6AB55B20EC3",
+        "SUBJ-FCEC284F9F3A"
+      ]
+    },
+    {
+      "defect_id": "REPORT-GATE-STANCE",
+      "gate_id": "GATE-STANCE",
+      "title": "Heading reverses or seriously misrepresents source stance",
+      "severity": "publication_readiness_gate",
+      "summary": "Three structure defects are explicitly classified as major stance failures, and the full node review records additional major conceptual failures.",
+      "metrics": {
+        "major_stance_defects": 3
+      },
+      "impact": "This failed applicable standard gate prevents an unqualified publication-ready conclusion.",
+      "evidence_ids": [
+        "DEFECT-0B25E702C3BE",
+        "DEFECT-CC86E1CF5D6C",
+        "DEFECT-D46CFFA23B43"
+      ]
+    },
+    {
+      "defect_id": "REPORT-GATE-COMPOUND",
+      "gate_id": "GATE-COMPOUND",
+      "title": "Compound heading locators support only separate components",
+      "severity": "publication_readiness_gate",
+      "summary": "One major compound-heading defect has locators that do not support the combined relationship expressed by the complete path.",
+      "metrics": {
+        "major_compound_defects": 1
+      },
+      "impact": "This failed applicable standard gate prevents an unqualified publication-ready conclusion.",
+      "evidence_ids": [
+        "DEFECT-422B1AF61225",
+        "NODE-31E3F4E4209A",
+        "PATH-D022A1D9BF5A",
+        "LOC-26B5B4241BBA"
+      ]
+    },
+    {
+      "defect_id": "REPORT-GATE-SEE-SUBSTITUTION",
+      "gate_id": "GATE-SEE-SUBSTITUTION",
+      "title": "See source replaces a warranted substantive entry",
+      "severity": "publication_readiness_gate",
+      "summary": "The serfdom see-reference substitutes broad targets that do not retrieve the frozen subject treatment for the alternate lookup term.",
+      "metrics": {
+        "invalid_substitutive_see_references": 1
+      },
+      "impact": "This failed applicable standard gate prevents an unqualified publication-ready conclusion.",
+      "evidence_ids": [
+        "XREF-95955B1B092D",
+        "DEFECT-C78C6F0ECC3A",
+        "SUBJ-30CAE18651DF"
+      ]
+    },
+    {
+      "defect_id": "REPORT-GATE-CROSS-REFERENCE",
+      "gate_id": "GATE-CROSS-REFERENCE",
+      "title": "Unresolved, self-referential, circular, or chained cross-reference",
+      "severity": "publication_readiness_gate",
+      "summary": "Two see-also references terminate at unresolved displayed targets; graph review finds no self-reference, cycle, or chained see reference.",
+      "metrics": {
+        "chained_see": 0,
+        "cycles": 0,
+        "self_references": 0,
+        "unresolved_targets": 2
+      },
+      "impact": "This failed applicable standard gate prevents an unqualified publication-ready conclusion.",
+      "evidence_ids": [
+        "XREF-6E6F54660707",
+        "DEFECT-50EF877CB81B",
+        "XREF-9A63B6DC42BB",
+        "DEFECT-44C39D39514C"
+      ]
+    },
+    {
+      "defect_id": "REPORT-GATE-CLUTTER",
+      "gate_id": "GATE-CLUTTER",
+      "title": "Systematic named-entity, example, or citation clutter",
+      "severity": "publication_readiness_gate",
+      "summary": "The full locator audit records 235 attribution-only or incidental-example access points across all 17 chapters, a systematic clutter pattern.",
+      "metrics": {
+        "affected_chunks": 17,
+        "clutter_locators": 235,
+        "rate": 0.044024,
+        "total": 5338
+      },
+      "impact": "This failed applicable standard gate prevents an unqualified publication-ready conclusion.",
+      "evidence_ids": [
+        "LOC-97ABEA16D2D4",
+        "LOC-9BE36BCA9141",
+        "LOC-6755A0004CE0",
+        "LOC-F32D7ADEDD1D",
+        "LOC-23EFA497890A",
+        "LOC-80048D076477",
+        "LOC-72BCDEDF1FEE",
+        "LOC-6A7C6067C7E7",
+        "LOC-DD60F23CEC61",
+        "LOC-724C6CA63BC5",
+        "LOC-D9AA8AD8498A",
+        "LOC-B94CB8AB7A7F",
+        "LOC-224F29FED470",
+        "LOC-7F4FD513E849",
+        "LOC-99AC5E8808F1",
+        "LOC-9E5254F8DA14",
+        "LOC-2260DEBE9193"
+      ]
+    },
+    {
+      "defect_id": "DEFECT-147449ABAEF9",
+      "title": "Heading-path density is excessive and uneven",
+      "severity": "major",
+      "summary": "Locator-bearing heading-path density exceeds the target band in every chapter and the broad tolerance band in fifteen of seventeen chapters; locator-occurrence density is materially less extreme, indicating proliferated short access paths rather than uniform locator overload.",
+      "metrics": {
+        "density_fit_rating": 3.0,
+        "path_metric_band_counts": {
+          "above_acceptable": 15,
+          "broad_tolerance": 2
+        },
+        "locator_metric_band_counts": {
+          "target": 4,
+          "broad_tolerance": 10,
+          "above_acceptable": 3
+        }
+      },
+      "impact": "The index proliferates short access paths across chapters, reducing editorial selectivity and coherence.",
+      "evidence_ids": [
+        "DEFECT-147449ABAEF9"
+      ]
+    },
+    {
+      "defect_id": "DEFECT-403D037A4060",
+      "title": "Long undivided locator strings slow navigation",
+      "severity": "major",
+      "summary": "Sixteen locator-bearing nodes retain undivided strings of 15–36 atomic references, materially slowing discrimination among distinct treatments.",
+      "metrics": {
+        "minimum_locator_occurrences": 15,
+        "affected_nodes": 16
+      },
+      "impact": "Readers must scan long page strings without conceptual subdivisions that distinguish different treatments.",
+      "evidence_ids": [
+        "DEFECT-403D037A4060"
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "example_id": "EXAMPLE-STRENGTH-SUPPORTED-LOCATOR",
+      "polarity": "strength",
+      "category": "page_reference_reliability",
+      "title": "A cited page substantively supports its complete heading path",
+      "source_paraphrase": "The page substantively treats the access point \"clergy > Civil Constitution of the\" in its account of Civil Constitution election provisions, limits on papal authority, and the responses of the Pope, king, and bishops.",
+      "candidate_display": {
+        "heading_path": [
+          "clergy",
+          "Civil Constitution of the"
+        ],
+        "locator": "141",
+        "rendered": "clergy — Civil Constitution of the, 141"
+      },
+      "judgment": {
+        "status": "supported",
+        "treatment_class": "substantive",
+        "confidence": "high",
+        "grade": {
+          "score": 100.0,
+          "rating": 5.0,
+          "band": "excellent",
+          "color_token": "grade_excellent",
+          "status": "passes"
+        }
+      },
+      "popover": {
+        "title": "Locator 141",
+        "summary": "The page substantively treats the access point \"clergy > Civil Constitution of the\" in its account of Civil Constitution election provisions, limits on papal authority, and the responses of the Pope, king, and bishops.",
+        "grade": {
+          "score": 100.0,
+          "rating": 5.0,
+          "band": "excellent",
+          "color_token": "grade_excellent",
+          "status": "passes"
+        },
+        "grade_scope": "one_complete_heading_path_and_source_page_assignment",
+        "confidence": "high",
+        "factors": [
+          {
+            "factor_id": "locator_support",
+            "label": "Page support",
+            "status": "supported",
+            "score": 100.0,
+            "severity": "none",
+            "applied_cap": null,
+            "explanation": "The page substantively treats the access point \"clergy > Civil Constitution of the\" in its account of Civil Constitution election provisions, limits on papal authority, and the responses of the Pope, king, and bishops.",
+            "error_codes": [],
+            "evidence_ids": [
+              "LOC-00A357077BE5"
+            ]
+          },
+          {
+            "factor_id": "treatment_class",
+            "label": "Treatment class",
+            "status": "substantive",
+            "score": 100.0,
+            "explanation": "Whether the cited page gives substantive treatment rather than a passing, attribution-only, citation-only, or incidental occurrence.",
+            "evidence_ids": [
+              "LOC-00A357077BE5"
+            ]
+          },
+          {
+            "factor_id": "mapping",
+            "label": "Page mapping",
+            "status": "resolved",
+            "score": null,
+            "explanation": "Whether the displayed locator resolves to exactly one source page.",
+            "evidence_ids": []
+          },
+          {
+            "factor_id": "confidence",
+            "label": "Audit confidence",
+            "status": "high",
+            "score": null,
+            "explanation": "Confidence in the source-grounded judgment; confidence does not change the grade.",
+            "evidence_ids": []
+          }
+        ],
+        "evidence_ids": [
+          "LOC-00A357077BE5"
+        ],
+        "navigation": {
+          "path_id": "PATH-1640B9DE29CA",
+          "node_ids": [
+            "NODE-9CCDC719EB8C",
+            "NODE-1790C89C1D60"
+          ]
+        }
+      },
+      "selection_basis": "High-confidence example from the dominant fully supported, substantive locator class.",
+      "evidence_ids": [
+        "LOC-00A357077BE5"
+      ]
+    },
+    {
+      "example_id": "EXAMPLE-STRENGTH-ESSENTIAL-SUBJECT",
+      "polarity": "strength",
+      "category": "meaningful_coverage",
+      "title": "An essential source subject receives complete, intuitive access",
+      "source_paraphrase": "Assembly of Notables of 1787: A handpicked elite assembly convened to legitimize fiscal reform instead exposed the financial crisis, challenged the government's evidence and authority, and amplified calls for national representation.",
+      "candidate_display": {
+        "heading_path": [
+          "Assembly of Notables"
+        ],
+        "rendered": "Assembly of Notables"
+      },
+      "judgment": {
+        "status": "complete",
+        "priority": "essential",
+        "confidence": "high",
+        "grade": {
+          "score": 100.0,
+          "rating": 5.0,
+          "band": "excellent",
+          "color_token": "grade_excellent",
+          "status": "passes"
+        }
+      },
+      "popover": {
+        "title": "Source subject SUBJ-3AB3152807AE",
+        "summary": "Measures whether the independently discovered source subject has useful access in the candidate.",
+        "grade": {
+          "score": 100.0,
+          "rating": 5.0,
+          "band": "excellent",
+          "color_token": "grade_excellent",
+          "status": "passes"
+        },
+        "grade_scope": "access_to_one_frozen_source_subject",
+        "confidence": "high",
+        "factors": [
+          {
+            "factor_id": "concept_coverage",
+            "label": "Meaningful coverage",
+            "status": "complete",
+            "score": 100.0,
+            "explanation": "Coverage is judged from the frozen source benchmark, not discovered from the candidate.",
+            "evidence_ids": [
+              "SUBJ-3AB3152807AE"
+            ]
+          }
+        ],
+        "evidence_ids": [
+          "SUBJ-3AB3152807AE"
+        ],
+        "navigation": {
+          "matched_path_ids": [
+            "PATH-7DBCBDCF0B3F"
+          ]
+        }
+      },
+      "selection_basis": "High-confidence complete coverage of an essential frozen subject through one directly matching path.",
+      "evidence_ids": [
+        "SUBJ-3AB3152807AE"
+      ]
+    },
+    {
+      "example_id": "EXAMPLE-STRENGTH-CROSS-REFERENCE",
+      "polarity": "strength",
+      "category": "findability_navigation",
+      "title": "A see-also reference usefully extends navigation",
+      "source_paraphrase": "The source and target are distinct indexed concepts, and the resolvable target materially extends navigation.",
+      "candidate_display": {
+        "source_heading": "papacy",
+        "reference_type": "see also",
+        "target_display": "Leo X; Pius VI; Pius VII",
+        "rendered": "papacy; see also Leo X; Pius VI; Pius VII"
+      },
+      "judgment": {
+        "status": "supported",
+        "confidence": "high",
+        "grade": {
+          "score": 100.0,
+          "rating": 5.0,
+          "band": "excellent",
+          "color_token": "grade_excellent",
+          "status": "passes"
+        }
+      },
+      "popover": {
+        "title": "see also Leo X; Pius VI; Pius VII",
+        "summary": "The source and target are distinct indexed concepts, and the resolvable target materially extends navigation.",
+        "grade": {
+          "score": 100.0,
+          "rating": 5.0,
+          "band": "excellent",
+          "color_token": "grade_excellent",
+          "status": "passes"
+        },
+        "grade_scope": "one_cross_reference_relationship",
+        "confidence": "high",
+        "factors": [
+          {
+            "factor_id": "cross_reference_validity",
+            "label": "Cross-reference validity",
+            "status": "supported",
+            "score": 100.0,
+            "severity_caps": [],
+            "applied_cap": null,
+            "explanation": "The source and target are distinct indexed concepts, and the resolvable target materially extends navigation.",
+            "evidence_ids": [
+              "XREF-0ACD2D5DAC9E",
+              "PATH-F64B81DE4926",
+              "NODE-69A63372E6D1",
+              "NODE-D56A45CCAA72",
+              "NODE-4C895FD00FE8",
+              "NODE-1EEF29E93670"
+            ]
+          }
+        ],
+        "evidence_ids": [
+          "XREF-0ACD2D5DAC9E",
+          "PATH-F64B81DE4926",
+          "NODE-69A63372E6D1",
+          "NODE-D56A45CCAA72",
+          "NODE-4C895FD00FE8",
+          "NODE-1EEF29E93670"
+        ],
+        "navigation": {
+          "source_path_id": "PATH-F64B81DE4926",
+          "source_node_id": "NODE-69A63372E6D1",
+          "target_path_id": null
+        }
+      },
+      "selection_basis": "One of the thirteen supported cross-references, selected to show useful related access rather than a failure case.",
+      "evidence_ids": [
+        "XREF-0ACD2D5DAC9E",
+        "PATH-F64B81DE4926",
+        "NODE-69A63372E6D1",
+        "NODE-D56A45CCAA72",
+        "NODE-4C895FD00FE8",
+        "NODE-1EEF29E93670"
+      ]
+    },
+    {
+      "example_id": "EXAMPLE-DEFECT-INCIDENTAL-LOCATOR",
+      "polarity": "defect",
+      "category": "editorial_selectivity",
+      "title": "An incidental example is indexed as if it received treatment",
+      "source_paraphrase": "The city is only one item in a list of provincial parlements involved in clashes; it receives no independent treatment.",
+      "candidate_display": {
+        "heading_path": [
+          "Besançon"
+        ],
+        "locator": "38",
+        "rendered": "Besançon, 38"
+      },
+      "judgment": {
+        "status": "unsupported",
+        "treatment_class": "incidental_example",
+        "error_codes": [
+          "SEL",
+          "LOC_POS"
+        ],
+        "confidence": "high",
+        "grade": {
+          "score": 0.0,
+          "rating": 0.0,
+          "band": "poor",
+          "color_token": "grade_poor",
+          "status": "fails"
+        }
+      },
+      "popover": {
+        "title": "Locator 38",
+        "summary": "The city is only one item in a list of provincial parlements involved in clashes; it receives no independent treatment.",
+        "grade": {
+          "score": 0.0,
+          "rating": 0.0,
+          "band": "poor",
+          "color_token": "grade_poor",
+          "status": "fails"
+        },
+        "grade_scope": "one_complete_heading_path_and_source_page_assignment",
+        "confidence": "high",
+        "factors": [
+          {
+            "factor_id": "locator_support",
+            "label": "Page support",
+            "status": "unsupported",
+            "score": 0.0,
+            "severity": "minor",
+            "applied_cap": null,
+            "explanation": "The city is only one item in a list of provincial parlements involved in clashes; it receives no independent treatment.",
+            "error_codes": [
+              "SEL",
+              "LOC_POS"
+            ],
+            "evidence_ids": [
+              "LOC-97ABEA16D2D4"
+            ]
+          },
+          {
+            "factor_id": "treatment_class",
+            "label": "Treatment class",
+            "status": "incidental_example",
+            "score": 0.0,
+            "explanation": "Whether the cited page gives substantive treatment rather than a passing, attribution-only, citation-only, or incidental occurrence.",
+            "evidence_ids": [
+              "LOC-97ABEA16D2D4"
+            ]
+          },
+          {
+            "factor_id": "mapping",
+            "label": "Page mapping",
+            "status": "resolved",
+            "score": null,
+            "explanation": "Whether the displayed locator resolves to exactly one source page.",
+            "evidence_ids": []
+          },
+          {
+            "factor_id": "confidence",
+            "label": "Audit confidence",
+            "status": "high",
+            "score": null,
+            "explanation": "Confidence in the source-grounded judgment; confidence does not change the grade.",
+            "evidence_ids": []
+          }
+        ],
+        "evidence_ids": [
+          "LOC-97ABEA16D2D4"
+        ],
+        "navigation": {
+          "path_id": "PATH-F02E15765BC6",
+          "node_ids": [
+            "NODE-EFFBD7433095"
+          ]
+        }
+      },
+      "selection_basis": "Preselected gate evidence from the systematic unsupported/clutter pattern spanning all seventeen chapters.",
+      "evidence_ids": [
+        "LOC-97ABEA16D2D4"
+      ]
+    },
+    {
+      "example_id": "EXAMPLE-DEFECT-ESSENTIAL-OMISSION",
+      "polarity": "defect",
+      "category": "meaningful_coverage",
+      "title": "An essential source subject has no adequate access route",
+      "source_paraphrase": "Great Terror and its social profile: Executions surged in Paris during June and July 1794, with nobles, clergy, and wealthy bourgeois victims appearing at unusually high rates. Doyle argues that the changed pattern brought the Terror closer to social discrimination, but qualifies this by allowing that many victims may also have engaged in subversive activity.",
+      "candidate_display": {
+        "status": "no_adequate_access_route",
+        "related_but_insufficient_paths": [
+          {
+            "path_id": "PATH-32BDDC87ABA1",
+            "heading_path": [
+              "Fleurus, battle of (1793)"
+            ]
+          },
+          {
+            "path_id": "PATH-A708E98F1301",
+            "heading_path": [
+              "Terror",
+              "Revolutionary Tribunal"
+            ]
+          },
+          {
+            "path_id": "PATH-AE966A59A029",
+            "heading_path": [
+              "Revolutionary Tribunal"
+            ]
+          }
+        ]
+      },
+      "judgment": {
+        "status": "missing",
+        "priority": "essential",
+        "confidence": "high",
+        "grade": {
+          "score": 0.0,
+          "rating": 0.0,
+          "band": "poor",
+          "color_token": "grade_poor",
+          "status": "fails"
+        }
+      },
+      "popover": {
+        "title": "Source subject SUBJ-04661509BFF9",
+        "summary": "Measures whether the independently discovered source subject has useful access in the candidate.",
+        "grade": {
+          "score": 0.0,
+          "rating": 0.0,
+          "band": "poor",
+          "color_token": "grade_poor",
+          "status": "fails"
+        },
+        "grade_scope": "access_to_one_frozen_source_subject",
+        "confidence": "high",
+        "factors": [
+          {
+            "factor_id": "concept_coverage",
+            "label": "Meaningful coverage",
+            "status": "missing",
+            "score": 0.0,
+            "explanation": "Coverage is judged from the frozen source benchmark, not discovered from the candidate.",
+            "evidence_ids": [
+              "SUBJ-04661509BFF9"
+            ]
+          }
+        ],
+        "evidence_ids": [
+          "SUBJ-04661509BFF9"
+        ],
+        "navigation": {
+          "matched_path_ids": [
+            "PATH-32BDDC87ABA1",
+            "PATH-A708E98F1301",
+            "PATH-AE966A59A029"
+          ]
+        }
+      },
+      "selection_basis": "The first frozen essential-subject ID listed by the failed central-omission gate; one of twelve missing essential subjects.",
+      "evidence_ids": [
+        "SUBJ-04661509BFF9"
+      ]
+    },
+    {
+      "example_id": "EXAMPLE-DEFECT-COMPOUND-PATH",
+      "polarity": "defect",
+      "category": "conceptual_stance_fidelity",
+      "title": "A page supports separate components but not the asserted relationship",
+      "source_paraphrase": "The page treats the Chiffon as a refractory political party and separately mentions attacks on nonjuring priests; it does not establish the Chiffon as a subdivision of refractory priests.",
+      "candidate_display": {
+        "heading_path": [
+          "refractory priests",
+          "Chiffon"
+        ],
+        "locator": "182",
+        "rendered": "refractory priests — Chiffon, 182"
+      },
+      "judgment": {
+        "status": "unsupported",
+        "severity": "major",
+        "error_codes": [
+          "CMP",
+          "SUB"
+        ],
+        "confidence": "high",
+        "grade": {
+          "score": 0.0,
+          "rating": 0.0,
+          "band": "poor",
+          "color_token": "grade_poor",
+          "status": "fails"
+        }
+      },
+      "popover": {
+        "title": "Locator 182",
+        "summary": "The page treats the Chiffon as a refractory political party and separately mentions attacks on nonjuring priests; it does not establish the Chiffon as a subdivision of refractory priests.",
+        "grade": {
+          "score": 0.0,
+          "rating": 0.0,
+          "band": "poor",
+          "color_token": "grade_poor",
+          "status": "fails"
+        },
+        "grade_scope": "one_complete_heading_path_and_source_page_assignment",
+        "confidence": "high",
+        "factors": [
+          {
+            "factor_id": "locator_support",
+            "label": "Page support",
+            "status": "unsupported",
+            "score": 0.0,
+            "severity": "major",
+            "applied_cap": null,
+            "explanation": "The page treats the Chiffon as a refractory political party and separately mentions attacks on nonjuring priests; it does not establish the Chiffon as a subdivision of refractory priests.",
+            "error_codes": [
+              "CMP",
+              "SUB"
+            ],
+            "evidence_ids": [
+              "LOC-26B5B4241BBA"
+            ]
+          },
+          {
+            "factor_id": "treatment_class",
+            "label": "Treatment class",
+            "status": "mixed",
+            "score": 70.0,
+            "explanation": "Whether the cited page gives substantive treatment rather than a passing, attribution-only, citation-only, or incidental occurrence.",
+            "evidence_ids": [
+              "LOC-26B5B4241BBA"
+            ]
+          },
+          {
+            "factor_id": "mapping",
+            "label": "Page mapping",
+            "status": "resolved",
+            "score": null,
+            "explanation": "Whether the displayed locator resolves to exactly one source page.",
+            "evidence_ids": []
+          },
+          {
+            "factor_id": "confidence",
+            "label": "Audit confidence",
+            "status": "high",
+            "score": null,
+            "explanation": "Confidence in the source-grounded judgment; confidence does not change the grade.",
+            "evidence_ids": []
+          }
+        ],
+        "evidence_ids": [
+          "LOC-26B5B4241BBA"
+        ],
+        "navigation": {
+          "path_id": "PATH-D022A1D9BF5A",
+          "node_ids": [
+            "NODE-5DE7549A4CC6",
+            "NODE-31E3F4E4209A"
+          ]
+        }
+      },
+      "selection_basis": "The single major compound-heading failure identified by the applicable critical gate.",
+      "evidence_ids": [
+        "DEFECT-422B1AF61225",
+        "LOC-26B5B4241BBA"
+      ]
+    },
+    {
+      "example_id": "EXAMPLE-DEFECT-SEE-SUBSTITUTION",
+      "polarity": "defect",
+      "category": "findability_navigation",
+      "title": "A see reference substitutes broad targets for warranted access",
+      "source_paraphrase": "Serfdom is not synonymous with either broad target, and the targets do not retrieve the benchmark treatment for which this alternate lookup term is needed.",
+      "candidate_display": {
+        "source_heading": "serfdom",
+        "reference_type": "see",
+        "target_display": "feudalism; peasants",
+        "rendered": "serfdom; see feudalism; peasants"
+      },
+      "judgment": {
+        "status": "unsupported",
+        "confidence": "high",
+        "grade": {
+          "score": 0.0,
+          "rating": 0.0,
+          "band": "poor",
+          "color_token": "grade_poor",
+          "status": "fails"
+        }
+      },
+      "popover": {
+        "title": "see feudalism; peasants",
+        "summary": "Serfdom is not synonymous with either broad target, and the targets do not retrieve the benchmark treatment for which this alternate lookup term is needed.",
+        "grade": {
+          "score": 0.0,
+          "rating": 0.0,
+          "band": "poor",
+          "color_token": "grade_poor",
+          "status": "fails"
+        },
+        "grade_scope": "one_cross_reference_relationship",
+        "confidence": "high",
+        "factors": [
+          {
+            "factor_id": "cross_reference_validity",
+            "label": "Cross-reference validity",
+            "status": "unsupported",
+            "score": 0.0,
+            "severity_caps": [
+              {
+                "defect_id": "DEFECT-C78C6F0ECC3A",
+                "severity": "minor",
+                "maximum_score": 85.0,
+                "summary": "Serfdom is not synonymous with either broad target, and the targets do not retrieve the benchmark treatment for which this alternate lookup term is needed."
+              }
+            ],
+            "applied_cap": 85.0,
+            "explanation": "Serfdom is not synonymous with either broad target, and the targets do not retrieve the benchmark treatment for which this alternate lookup term is needed.",
+            "evidence_ids": [
+              "XREF-95955B1B092D",
+              "PATH-A96BA998AD6B",
+              "NODE-51B9E01DBA87",
+              "NODE-6AA1F6EEE8AC",
+              "NODE-F73CD065C43A",
+              "SUBJ-30CAE18651DF",
+              "EVID-C036FF4E4CEA",
+              "DEFECT-C78C6F0ECC3A"
+            ]
+          }
+        ],
+        "evidence_ids": [
+          "XREF-95955B1B092D",
+          "PATH-A96BA998AD6B",
+          "NODE-51B9E01DBA87",
+          "NODE-6AA1F6EEE8AC",
+          "NODE-F73CD065C43A",
+          "SUBJ-30CAE18651DF",
+          "EVID-C036FF4E4CEA",
+          "DEFECT-C78C6F0ECC3A"
+        ],
+        "navigation": {
+          "source_path_id": "PATH-A96BA998AD6B",
+          "source_node_id": "NODE-51B9E01DBA87",
+          "target_path_id": null
+        }
+      },
+      "selection_basis": "The only cross-reference identified by the failed substitutive-see gate.",
+      "evidence_ids": [
+        "XREF-95955B1B092D",
+        "PATH-A96BA998AD6B",
+        "NODE-51B9E01DBA87",
+        "NODE-6AA1F6EEE8AC",
+        "NODE-F73CD065C43A",
+        "SUBJ-30CAE18651DF",
+        "EVID-C036FF4E4CEA",
+        "DEFECT-C78C6F0ECC3A"
+      ]
+    },
+    {
+      "example_id": "EXAMPLE-DEFECT-UNDIVIDED-PATH",
+      "polarity": "defect",
+      "category": "findability_navigation",
+      "title": "A long undivided entry slows discrimination among treatments",
+      "source_paraphrase": "Sixteen locator-bearing nodes retain undivided strings of 15–36 atomic references, materially slowing discrimination among distinct treatments.",
+      "candidate_display": {
+        "heading_path": [
+          "Austria",
+          "war with France"
+        ],
+        "locator_count": 17,
+        "rendered": "Austria — war with France"
+      },
+      "judgment": {
+        "status": "needs_revision",
+        "confidence": "high",
+        "grade": {
+          "score": 69.39,
+          "rating": 3.47,
+          "band": "weak",
+          "color_token": "grade_weak",
+          "status": "needs_revision"
+        },
+        "findability_factor": {
+          "dimension_id": "findability_navigation",
+          "score": 55.0,
+          "weight": 20.0,
+          "measurement_status": "measured",
+          "severity_caps": [
+            {
+              "defect_id": "DEFECT-403D037A4060",
+              "severity": "major",
+              "maximum_score": 55.0,
+              "summary": "Sixteen locator-bearing nodes retain undivided strings of 15–36 atomic references, materially slowing discrimination among distinct treatments."
+            }
+          ],
+          "applied_cap": 55.0,
+          "summary": "Heading-node architecture and any cross-reference judgment associated with this path, with applicable defect caps.",
+          "evidence_ids": [
+            "NODE-26820A88DAFB",
+            "NODE-EDD64729225A",
+            "DEFECT-403D037A4060"
+          ]
+        }
+      },
+      "popover": {
+        "title": "Austria — war with France",
+        "summary": "Diagnostic grade for the complete heading path as delivered, including its measured locators and path-specific audit findings.",
+        "grade": {
+          "score": 69.39,
+          "rating": 3.47,
+          "band": "weak",
+          "color_token": "grade_weak",
+          "status": "needs_revision"
+        },
+        "grade_scope": "complete_heading_path_as_delivered",
+        "confidence": "high",
+        "factors": [
+          {
+            "factor_id": "meaningful_coverage",
+            "label": "Meaningful Coverage",
+            "status": "measured",
+            "score": 36.67,
+            "weight": 20.0,
+            "severity_caps": [],
+            "applied_cap": null,
+            "explanation": "Priority-weighted coverage of 10 frozen source subject(s) explicitly matched to this path. This factor is reweighted only when it is not applicable or not measured; it is never treated as zero.",
+            "evidence_ids": [
+              "SUBJ-34CA7BB7B259",
+              "SUBJ-3AFA4C3AC1F8",
+              "SUBJ-436C9DE0A283",
+              "SUBJ-47788E58F460",
+              "SUBJ-4B6409CC6AB9",
+              "SUBJ-509199493B59",
+              "SUBJ-8BD33A443E4E",
+              "SUBJ-A038CCDE96B2",
+              "SUBJ-AFBD4BEAFD3A",
+              "SUBJ-CAB0E0E6A10A"
+            ]
+          },
+          {
+            "factor_id": "editorial_selectivity",
+            "label": "Editorial Selectivity",
+            "status": "measured",
+            "score": 78.82,
+            "weight": 10.0,
+            "severity_caps": [],
+            "applied_cap": null,
+            "explanation": "Mean substantive-treatment classification for 17 measured locator(s). This factor is reweighted only when it is not applicable or not measured; it is never treated as zero.",
+            "evidence_ids": [
+              "LOC-B26207D5AD3D",
+              "LOC-030EFF87FA40",
+              "LOC-A8109422DAD1",
+              "LOC-9E2580BA638F",
+              "LOC-AA5DE94D10B8",
+              "LOC-8BE4CE0E89EB",
+              "LOC-74D3E6FF1760",
+              "LOC-C0CFFDC75062",
+              "LOC-F90D0BD0B58A",
+              "LOC-5974A285E037",
+              "LOC-817E981C1823",
+              "LOC-89B834A117CB",
+              "LOC-CE7C49D3926F",
+              "LOC-0C278BED73AD",
+              "LOC-541EDACC2FDF",
+              "LOC-D52B69DC8F55",
+              "LOC-51668F5F29ED"
+            ]
+          },
+          {
+            "factor_id": "conceptual_stance_fidelity",
+            "label": "Conceptual Stance Fidelity",
+            "status": "measured",
+            "score": 100.0,
+            "weight": 15.0,
+            "severity_caps": [],
+            "applied_cap": null,
+            "explanation": "Conceptual and stance judgments for every heading node in the complete path, with applicable defect caps. This factor is reweighted only when it is not applicable or not measured; it is never treated as zero.",
+            "evidence_ids": [
+              "NODE-26820A88DAFB",
+              "NODE-EDD64729225A"
+            ]
+          },
+          {
+            "factor_id": "page_reference_reliability",
+            "label": "Page Reference Reliability",
+            "status": "measured",
+            "score": 78.82,
+            "weight": 25.0,
+            "severity_caps": [],
+            "applied_cap": null,
+            "explanation": "Mean diagnostic grade for 17 measured locator(s) attached to this path. This factor is reweighted only when it is not applicable or not measured; it is never treated as zero.",
+            "evidence_ids": [
+              "LOC-B26207D5AD3D",
+              "LOC-030EFF87FA40",
+              "LOC-A8109422DAD1",
+              "LOC-9E2580BA638F",
+              "LOC-AA5DE94D10B8",
+              "LOC-8BE4CE0E89EB",
+              "LOC-74D3E6FF1760",
+              "LOC-C0CFFDC75062",
+              "LOC-F90D0BD0B58A",
+              "LOC-5974A285E037",
+              "LOC-817E981C1823",
+              "LOC-89B834A117CB",
+              "LOC-CE7C49D3926F",
+              "LOC-0C278BED73AD",
+              "LOC-541EDACC2FDF",
+              "LOC-D52B69DC8F55",
+              "LOC-51668F5F29ED"
+            ]
+          },
+          {
+            "factor_id": "findability_navigation",
+            "label": "Findability Navigation",
+            "status": "measured",
+            "score": 55.0,
+            "weight": 20.0,
+            "severity_caps": [
+              {
+                "defect_id": "DEFECT-403D037A4060",
+                "severity": "major",
+                "maximum_score": 55.0,
+                "summary": "Sixteen locator-bearing nodes retain undivided strings of 15–36 atomic references, materially slowing discrimination among distinct treatments."
+              }
+            ],
+            "applied_cap": 55.0,
+            "explanation": "Heading-node architecture and any cross-reference judgment associated with this path, with applicable defect caps. This factor is reweighted only when it is not applicable or not measured; it is never treated as zero.",
+            "evidence_ids": [
+              "NODE-26820A88DAFB",
+              "NODE-EDD64729225A",
+              "DEFECT-403D037A4060"
+            ]
+          },
+          {
+            "factor_id": "mechanics_consistency",
+            "label": "Mechanics Consistency",
+            "status": "measured",
+            "score": 100.0,
+            "weight": 5.0,
+            "severity_caps": [],
+            "applied_cap": null,
+            "explanation": "Mechanical judgments for every heading node in the path, with applicable defect caps. This factor is reweighted only when it is not applicable or not measured; it is never treated as zero.",
+            "evidence_ids": [
+              "NODE-26820A88DAFB",
+              "NODE-EDD64729225A"
+            ]
+          }
+        ],
+        "evidence_ids": [
+          "DEFECT-403D037A4060",
+          "LOC-030EFF87FA40",
+          "LOC-0C278BED73AD",
+          "LOC-51668F5F29ED",
+          "LOC-541EDACC2FDF",
+          "LOC-5974A285E037",
+          "LOC-74D3E6FF1760",
+          "LOC-817E981C1823",
+          "LOC-89B834A117CB",
+          "LOC-8BE4CE0E89EB",
+          "LOC-9E2580BA638F",
+          "LOC-A8109422DAD1",
+          "LOC-AA5DE94D10B8",
+          "LOC-B26207D5AD3D",
+          "LOC-C0CFFDC75062",
+          "LOC-CE7C49D3926F",
+          "LOC-D52B69DC8F55",
+          "LOC-F90D0BD0B58A"
+        ],
+        "navigation": {
+          "path_id": "PATH-8125A4936EFA",
+          "node_ids": [
+            "NODE-26820A88DAFB",
+            "NODE-EDD64729225A"
+          ],
+          "locator_ids": [
+            "LOC-B26207D5AD3D",
+            "LOC-030EFF87FA40",
+            "LOC-A8109422DAD1",
+            "LOC-9E2580BA638F",
+            "LOC-AA5DE94D10B8",
+            "LOC-8BE4CE0E89EB",
+            "LOC-74D3E6FF1760",
+            "LOC-C0CFFDC75062",
+            "LOC-F90D0BD0B58A",
+            "LOC-5974A285E037",
+            "LOC-817E981C1823",
+            "LOC-89B834A117CB",
+            "LOC-CE7C49D3926F",
+            "LOC-0C278BED73AD",
+            "LOC-541EDACC2FDF",
+            "LOC-D52B69DC8F55",
+            "LOC-51668F5F29ED"
+          ],
+          "reference_ids": []
+        }
+      },
+      "selection_basis": "First path listed by the frozen major defect affecting sixteen entries with fifteen to thirty-six atomic locators.",
+      "evidence_ids": [
+        "DEFECT-403D037A4060",
+        "PATH-8125A4936EFA"
+      ]
+    }
+  ],
+  "representative_example_policy": {
+    "selection_basis": "Examples were selected from frozen item assessments by predefined categories and gate/recurring-pattern evidence, not by embarrassment value.",
+    "strength_examples": 3,
+    "defect_examples": 5,
+    "balanced": true,
+    "judgment_source": "frozen_item_assessments_and_structure_audit_only"
+  },
+  "item_grade_index": {
+    "artifact_path": "candidate/oxford-history-french-revolution-2002-original-published-index/item-assessments.json",
+    "sha256": "4422dc6234d78d35b25c390cc7dfc5c64ef85e5e44edb65d74ef265b8bb3a2c1",
+    "byte_length": 45205197,
+    "schema_version": "subject-index-item-assessments-v1",
+    "grading_policy": "subject-index-item-grading-v1",
+    "audit_mode": "full",
+    "scope_complete": true,
+    "grade_disclosure": "Item grades are diagnostic display summaries derived from frozen evidence. They do not add to or replace the six-dimension 100-point rubric. Not-measured items are neutral, not failures.",
+    "summary": {
+      "locators": {
+        "total": 5338,
+        "graded": 5338,
+        "not_measured": 0,
+        "bands": {
+          "excellent": 4643,
+          "strong": 0,
+          "mixed": 232,
+          "weak": 0,
+          "poor": 463,
+          "not_measured": 0
+        }
+      },
+      "paths": {
+        "total": 1904,
+        "graded": 1904,
+        "not_measured": 0,
+        "bands": {
+          "excellent": 1478,
+          "strong": 211,
+          "mixed": 109,
+          "weak": 29,
+          "poor": 77,
+          "not_measured": 0
+        }
+      },
+      "heading_nodes": {
+        "total": 1904,
+        "graded": 1904,
+        "not_measured": 0,
+        "bands": {
+          "excellent": 1831,
+          "strong": 24,
+          "mixed": 23,
+          "weak": 18,
+          "poor": 8,
+          "not_measured": 0
+        }
+      },
+      "cross_references": {
+        "total": 16,
+        "graded": 16,
+        "not_measured": 0,
+        "bands": {
+          "excellent": 13,
+          "strong": 0,
+          "mixed": 0,
+          "weak": 0,
+          "poor": 3,
+          "not_measured": 0
+        }
+      },
+      "source_subjects": {
+        "total": 1366,
+        "graded": 1366,
+        "not_measured": 0,
+        "bands": {
+          "excellent": 699,
+          "strong": 0,
+          "mixed": 527,
+          "weak": 0,
+          "poor": 140,
+          "not_measured": 0
+        }
+      }
+    },
+    "color_legend": [
+      {
+        "band": "excellent",
+        "minimum_score": 90,
+        "color_token": "grade_excellent"
+      },
+      {
+        "band": "strong",
+        "minimum_score": 80,
+        "color_token": "grade_strong"
+      },
+      {
+        "band": "mixed",
+        "minimum_score": 70,
+        "color_token": "grade_mixed"
+      },
+      {
+        "band": "weak",
+        "minimum_score": 60,
+        "color_token": "grade_weak"
+      },
+      {
+        "band": "poor",
+        "minimum_score": 0,
+        "color_token": "grade_poor"
+      },
+      {
+        "band": "not_measured",
+        "minimum_score": null,
+        "color_token": "grade_neutral"
+      }
+    ],
+    "interaction": {
+      "color_source": "grade.color_token",
+      "popover_source": "popover",
+      "not_measured_behavior": "neutral_not_failure"
+    },
+    "accessibility": {
+      "triggers": [
+        "hover",
+        "keyboard_focus",
+        "touch"
+      ],
+      "color_redundancy": "Pair every semantic color with its text band label or an icon.",
+      "focus_behavior": "Every colored item must expose the same popover on keyboard focus that it exposes on hover or touch.",
+      "neutral_behavior": "Not-measured and uninspectable items use the neutral token and must not be presented as failures."
+    }
+  },
+  "scope": {
+    "audit_mode": "full",
+    "complete": true,
+    "index_type": "subject_index",
+    "intended_readership": "scholarly",
+    "source": {
+      "title": "The Oxford History of the French Revolution (2002 edition; IndexerLabs-derived PDF missing front matter and endnotes)",
+      "edition": "2002",
+      "sha256": "5f89aa2592218983c594278bfd86cc1e4b74be1dd6dd8aac5c2610a48fa34047",
+      "document_page_span": [
+        1,
+        425
+      ],
+      "included": "Supplied body pages 1–425.",
+      "excluded_or_unavailable": "Front matter, notes/endnotes, bibliography, and the publisher index were absent from the supplied source and excluded under the frozen policy."
+    },
+    "candidate": {
+      "authoritative_copy_fidelity": "not_independently_verified",
+      "candidate_id": "oxford-history-french-revolution-2002-original-published-index",
+      "candidate_index_pages": 25,
+      "delivered_filename": "Original_Oxford.pdf",
+      "label": "Original published index (delivered IndexerLabs/ReportLab representation)",
+      "sha256": "1d43fe7fb158b352393c6e2f14843aae9ae23ccfca1f61c6783307432b0a9d09"
+    },
+    "denominators": {
+      "audit_mode_neutral_not_measured_items": 0,
+      "chapter_units": 17,
+      "complete": true,
+      "cross_references_expected": 16,
+      "cross_references_judged": 16,
+      "heading_nodes_expected": 1904,
+      "heading_nodes_judged": 1904,
+      "locators_expected": 5338,
+      "locators_judged": 5338,
+      "mode": "full",
+      "reader_tasks_expected": 1026,
+      "reader_tasks_judged": 1026,
+      "source_document_page_span": [
+        1,
+        425
+      ],
+      "source_pages": 425,
+      "subjects_expected": 1366,
+      "subjects_judged": 1366,
+      "treatments_expected": 3210,
+      "treatments_judged": 3210
+    }
+  },
+  "provenance": {
+    "derivation_mode": "display_only_from_frozen_inputs",
+    "rescore_performed": false,
+    "audit_judgment_modified": false,
+    "item_assessment_modified": false,
+    "gate_result_modified": false,
+    "evaluation_result": {
+      "artifact_path": "candidate/oxford-history-french-revolution-2002-original-published-index/evaluation-result.json",
+      "sha256": "b05c49b0b05079a45c00c099f2e2bd671a935fef7b047c9264531ca22c1e2161",
+      "generated_at": "2026-08-27T08:49:26Z"
+    },
+    "item_assessments": {
+      "artifact_path": "candidate/oxford-history-french-revolution-2002-original-published-index/item-assessments.json",
+      "sha256": "4422dc6234d78d35b25c390cc7dfc5c64ef85e5e44edb65d74ef265b8bb3a2c1",
+      "byte_length": 45205197
+    },
+    "structure_audit": {
+      "artifact_path": "candidate/oxford-history-french-revolution-2002-original-published-index/structure-audit.json",
+      "sha256": "1b52d62ae663902827599d8e795db39a841e8706c1ba65107a40aed60d8caddb"
+    },
+    "source_benchmark": {
+      "artifact_path": "source/source-benchmark.v3.json",
+      "file_sha256": "34a399cda8ca9f1b07b9fa0ddad36ac4f5073ef12d8b12df42fb023818508b27",
+      "canonical_sha256": "b925797fcab50b2008ad5974590e323f772e5ea7013efa84ce7606007439aeb3",
+      "candidate_blindness": "preserved"
+    },
+    "frozen_inputs": {
+      "benchmark_file_sha256": "34a399cda8ca9f1b07b9fa0ddad36ac4f5073ef12d8b12df42fb023818508b27",
+      "benchmark_sha256": "b925797fcab50b2008ad5974590e323f772e5ea7013efa84ce7606007439aeb3",
+      "candidate_ref_file_sha256": "9f5764a7e9e46dae78d8acea568aa96fb00bd428e9a2ca386bc3c3675569f08a",
+      "chunk_manifest_file_sha256": "5287f421e1e7be03444c2681beb1e1d63d5d103a96ab770565e32411956ce396",
+      "chunk_manifest_sha256": "5fc5450386114fdeb19838f54d3f1662c3d6dec81d4729c73f4f7ec0cb341a6f",
+      "item_inventory_file_sha256": "3e9c2b20d49486398bd57bfa31f5d1da1743498b47d0b9e46e42f096b56b9934",
+      "locator_audit_set_sha256": "ce3277a02326112ea94614d61808c9d2d4112a62aad11d2d193c28c1a6c7790f",
+      "missing_access_audit_set_sha256": "bdbb51482887892d21281e84911cc51e24e6d4286a4257115e8cdcc48436c085",
+      "normalized_candidate_file_sha256": "7b29d7716339038848e2b1b0ec17220ae1867cb95941f0f06a84488cd486ed79",
+      "page_map_file_sha256": "dbc3ac1a4a7ea04403639dd9f41cdf79eebf1b8486d4ff65f799d05730fc8b0d",
+      "page_map_sha256": "452602deebdae19f8e35c589f2ff2a7a0b9fc955d268b14f760391b0043e9653",
+      "policy_file_sha256": "bfb5ec9ab45b6719b8a36fa09f50dfb8d8c18b3f209bd153501173182695ac62",
+      "policy_sha256": "914a7d7042d3f2d2e6cb40686faca331e6a5b029060027bfa769cc8b512c2e9a",
+      "rubric_version": "subject-index-rubric-v4",
+      "scorecard_calculation_file_sha256": "fe9c96a9792666c219e0a15aba3cb38ead31c8f8e8a40fc9ca91c51c51f44c16",
+      "source_edition": "2002",
+      "source_sha256": "5f89aa2592218983c594278bfd86cc1e4b74be1dd6dd8aac5c2610a48fa34047",
+      "structure_audit_file_sha256": "1b52d62ae663902827599d8e795db39a841e8706c1ba65107a40aed60d8caddb"
+    },
+    "candidate_provenance": {
+      "candidate_bytes": {
+        "status": "verified",
+        "rationale": "The uniquely resolved Library file Original_Oxford.pdf is 75,567 bytes and matches the required SHA-256 exactly.",
+        "evidence": [
+          "Library filename Original_Oxford.pdf resolved to one file.",
+          "SHA-256 1d43fe7fb158b352393c6e2f14843aae9ae23ccfca1f61c6783307432b0a9d09.",
+          "Byte length 75567."
+        ]
+      },
+      "internal_pdf_completeness": {
+        "status": "verified",
+        "rationale": "The PDF opens without repair or encryption, contains 25 nonempty pages, and presents a continuous internal index sequence.",
+        "evidence": [
+          "PDF parser reports 25 pages and no encryption.",
+          "All 25 pages contain embedded index text.",
+          "Displayed page sequence is internally continuous from the unnumbered first index page through page 25."
+        ]
+      },
+      "structural_continuity": {
+        "status": "verified",
+        "rationale": "The delivered two-column index proceeds continuously from Aachen through Ysabeau with no observed missing internal page or alphabetical break.",
+        "evidence": [
+          "Full 25-page visual sequence inspected.",
+          "Two-column reading order is present on every page.",
+          "Apparent alphabetical coverage is Aachen through Ysabeau."
+        ]
+      },
+      "source_edition_compatibility": {
+        "status": "verified",
+        "rationale": "The delivered candidate is identified for William Doyle's 2002 edition and its index locator system is compatible with the frozen 425-page source edition identity; this does not establish entry-for-entry fidelity to an OUP copy.",
+        "evidence": [
+          "Canonical source identity is William Doyle, The Oxford History of the French Revolution, 2002 edition.",
+          "Frozen source page-map labels are strings 1 through 425.",
+          "No contrary edition evidence appears in the delivered candidate."
+        ]
+      },
+      "locator_page_map_compatibility": {
+        "status": "verified",
+        "rationale": "Complete mechanical parsing and expansion resolved every displayed locator through the frozen ordered page map, with all resolved labels within the single main-text mapping segment.",
+        "evidence": [
+          "Frozen page-map labels are strings 1 through 425.",
+          "All 4,462 displayed locator records expanded to 5,338 atomic assignments.",
+          "Unresolved, reversed, cross-segment, malformed, or ambiguous locator count is zero."
+        ]
+      },
+      "authoritative_copy_fidelity": {
+        "status": "not_independently_verified",
+        "rationale": "No authoritative OUP comparison copy was available for entry-for-entry inspection. The file is an IndexerLabs-distributed, ReportLab-rendered representation, not an original OUP scan.",
+        "evidence": [
+          "PDF producer is ReportLab PDF Library - (opensource).",
+          "The file is a reconstructed representation distributed through IndexerLabs.",
+          "Rendered pages visibly contain fourteen digit-for-accent substitutions on pages 12-13; these delivered forms were preserved rather than silently repaired.",
+          "No authoritative printed or scanned OUP index was inspected."
+        ],
+        "claimed_original_publisher_pdf": false
+      }
+    },
+    "publication_profile": "public_evaluation_artifacts"
+  },
+  "methodology": {
+    "expandable": true,
+    "presentation_layers": [
+      {
+        "layer": 1,
+        "title": "Overall result",
+        "content": "Score, interpretation, publication-readiness status, and concise conclusion."
+      },
+      {
+        "layer": 2,
+        "title": "Six quality questions",
+        "content": "The six weighted dimensions in plain language."
+      },
+      {
+        "layer": 3,
+        "title": "Supporting evidence",
+        "content": "Measured rates, chapter density, strengths, defects, gates, and representative examples.",
+        "expandable": true
+      },
+      {
+        "layer": 4,
+        "title": "Full methodology",
+        "content": "Scope, frozen identities, criteria, uncertainty, item grading, and limitations.",
+        "expandable": true
+      }
+    ],
+    "evaluation_sequence": [
+      {
+        "step": 1,
+        "title": "Establish source and scope",
+        "description": "Verify the exact edition, map source page labels to supplied document pages, and freeze eligible matter and chapter ownership."
+      },
+      {
+        "step": 2,
+        "title": "Discover source subjects candidate-blind",
+        "description": "Identify substantively treated concepts, arguments, relationships, distinctions, and reader needs from the source before candidate judgment."
+      },
+      {
+        "step": 3,
+        "title": "Synthesize, independently review, and freeze the benchmark",
+        "description": "Reconcile chapter discoveries, conduct fresh candidate-blind QA over every required benchmark item, then freeze the source denominator and hashes."
+      },
+      {
+        "step": 4,
+        "title": "Audit in both directions",
+        "description": "Test every candidate path/page assignment against the source, then test every frozen source subject and treatment against the candidate."
+      },
+      {
+        "step": 5,
+        "title": "Audit the index as a navigation system",
+        "description": "Judge hierarchy, terminology, cross-references, coherence, mechanics, distribution, and chapter-level density before deterministic scoring."
+      }
+    ],
+    "audit_directions": [
+      {
+        "direction": "index_to_source",
+        "question": "Does each proposed complete heading path and cited page belong?",
+        "measures": [
+          "locator support",
+          "editorial selectivity",
+          "conceptual fidelity"
+        ]
+      },
+      {
+        "direction": "source_to_index",
+        "question": "Can readers retrieve every frozen substantive source subject and treatment?",
+        "measures": [
+          "concept coverage",
+          "locator recall",
+          "reader-task success"
+        ]
+      },
+      {
+        "direction": "whole_index",
+        "question": "Do individually defensible records form a coherent navigation system?",
+        "measures": [
+          "hierarchy",
+          "direct access",
+          "cross-references",
+          "coherence",
+          "mechanics",
+          "density distribution"
+        ]
+      }
+    ],
+    "score_meaning": {
+      "total_is_percent_correct": false,
+      "total_is_weighted_quality_summary": true,
+      "rubric_version": "subject-index-rubric-v4",
+      "interpretation_bands": [
+        {
+          "minimum": 90,
+          "maximum": 100,
+          "label": "Excellent finished index; potentially near publication-ready after full review"
+        },
+        {
+          "minimum": 80,
+          "maximum_exclusive": 90,
+          "label": "Strong index; meaningful editorial review still needed"
+        },
+        {
+          "minimum": 70,
+          "maximum_exclusive": 80,
+          "label": "Useful foundation; substantial revision required"
+        },
+        {
+          "minimum": 60,
+          "maximum_exclusive": 70,
+          "label": "Weak finished index; major reconstruction required"
+        },
+        {
+          "minimum": 0,
+          "maximum_exclusive": 60,
+          "label": "Poor reader access; not suitable as delivered"
+        }
+      ],
+      "gate_rule": "A failed applicable critical gate limits publication-readiness claims without changing the arithmetic score."
+    },
+    "density_policy": {
+      "targets": [
+        {
+          "broad_tolerance_band": [
+            4.0,
+            12.0
+          ],
+          "metric_id": "locator_bearing_heading_paths_per_1000_source_words",
+          "target": 8.0,
+          "target_band": [
+            6.0,
+            10.0
+          ],
+          "weight": 0.5
+        },
+        {
+          "broad_tolerance_band": [
+            10.0,
+            30.0
+          ],
+          "metric_id": "locator_occurrences_per_1000_source_words",
+          "target": 20.0,
+          "target_band": [
+            15.0,
+            25.0
+          ],
+          "weight": 0.5
+        }
+      ],
+      "measurement_level": "chapter_or_approved_intellectual_unit",
+      "aggregation": "indexable_source_word_weighted_mean",
+      "maximum_score_contribution": 5,
+      "disclosure": "Targets are 8 locator-bearing heading paths and 20 locator occurrences per 1,000 indexable source words, measured by chapter as permissive calibration rather than quotas or hard ceilings."
+    },
+    "item_grading": {
+      "policy": "subject-index-item-grading-v1",
+      "diagnostic_not_additive": true,
+      "item_types": [
+        "locator",
+        "complete_path",
+        "heading_node",
+        "cross_reference",
+        "source_subject"
+      ],
+      "popover_contract": "Every item exposes grade scope, confidence, factors, weights or caps, public-safe explanations, navigation IDs, and evidence IDs.",
+      "neutral_rule": "Uninspectable and not-measured items are neutral, not failures."
+    },
+    "detailed_criteria": [
+      {
+        "criterion_id": "scope_compliance",
+        "title": "Scope compliance",
+        "questions": [
+          "Does the audit use only approved, indexable source matter?",
+          "Are substantive body text and inspectable eligible notes, captions, quotations, and tables handled consistently?",
+          "Are bibliographies, navigation lists, running furniture, proof material, excluded back matter, and other indexes excluded?",
+          "Are mixed pages and unavailable matter disclosed rather than silently scored?"
+        ]
+      },
+      {
+        "criterion_id": "substantive_coverage",
+        "title": "Substantive coverage",
+        "questions": [
+          "Are principal and independently useful subsidiary subjects findable?",
+          "Are arguments, findings, causes, consequences, comparisons, distinctions, methods, synthesis, and conclusions represented?",
+          "Are important one-off concepts preserved even when they are not frequent terms?",
+          "Are principal, supporting, and conclusion-level treatment pages represented proportionately?"
+        ]
+      },
+      {
+        "criterion_id": "editorial_selectivity",
+        "title": "Editorial selectivity",
+        "questions": [
+          "Does every locator-bearing path represent substantive treatment?",
+          "Are passing mentions, citation-only names, attribution-only scholars, and incidental entities excluded?",
+          "Are examples indexed independently only when sustained, analytically important, or useful to retrieve?",
+          "Does the index avoid concordance-like repetition, redundant access, trivial subdivisions, and material density mismatch?"
+        ]
+      },
+      {
+        "criterion_id": "conceptual_stance_fidelity",
+        "title": "Conceptual and stance fidelity",
+        "questions": [
+          "Does each heading accurately describe the source?",
+          "Are supported, proposed, possible, questioned, qualified, rejected, inconclusive, and reported claims distinguished?",
+          "Are different subjects, periods, senses, scopes, explanations, and findings kept distinct?",
+          "Do broad or compound headings avoid claiming more than every cited page supports?"
+        ]
+      },
+      {
+        "criterion_id": "heading_access_architecture",
+        "title": "Heading and access architecture",
+        "questions": [
+          "Are headings concise, specific, reader-oriented, and independently searchable?",
+          "Are synonyms consolidated and materially different senses distinguished?",
+          "Does each path remain within the permitted two-level hierarchy?",
+          "Do subdivisions express useful concepts rather than merely page or section divisions?",
+          "Are important subjects given intuitive direct or valid cross-referenced access rather than buried beneath vague umbrellas?"
+        ]
+      },
+      {
+        "criterion_id": "locator_quality",
+        "title": "Locator quality",
+        "questions": [
+          "Does each cited page substantively support the complete heading path?",
+          "Are principal, continuation, comparison, synthesis, and conclusion pages included?",
+          "Is every page in a displayed range evaluated independently?",
+          "Are locators valid, unique, ordered, and resolved to indexable source pages?"
+        ]
+      },
+      {
+        "criterion_id": "compound_heading_scope",
+        "title": "Compound-heading scope",
+        "questions": [
+          "Does every locator support every component asserted by a compound heading?",
+          "Have component-specific locators been combined under an unsupported relationship?",
+          "Are distinct treatments split when needed without losing stance, chronology, scope, or explanation?"
+        ]
+      },
+      {
+        "criterion_id": "cross_references",
+        "title": "Cross-references",
+        "questions": [
+          "Does each see reference represent a plausible equivalent access term?",
+          "Does each see-also reference connect distinct indexed subjects usefully?",
+          "Does every target resolve exactly or deterministically?",
+          "Are self-references, cycles, chained see references, misleading links, and excessive reference webs absent?"
+        ]
+      },
+      {
+        "criterion_id": "whole_index_coherence",
+        "title": "Whole-index coherence",
+        "questions": [
+          "Is one reader concept kept from fragmenting across competing headings?",
+          "Are parallel subjects organized and worded consistently?",
+          "Does the index balance specificity with coherent grouping?",
+          "Is coverage proportionate rather than dominated by repeated terminology, names, or examples?"
+        ]
+      },
+      {
+        "criterion_id": "mechanical_validity",
+        "title": "Mechanical validity",
+        "questions": [
+          "Does every page-bearing entry have one unique permitted path and at least one valid locator?",
+          "Are duplicate paths and locator occurrences removed and page references ordered?",
+          "Are cross-reference types and targets valid and deduplicated?",
+          "Are empty entries, invalid records, and third-level headings absent?",
+          "Does the completed result conform to the required schemas?"
+        ]
+      }
+    ],
+    "uncertainty_policy": "Record uncertainty explicitly; adjudicate every critical, major, and uncertain item; exclude uninspectable locators from precision denominators and disclose them.",
+    "evidence_policy": "Public display uses concise paraphrases and stable evidence IDs; exact or extended source text remains outside the public payload."
+  },
+  "comparability": {
+    "comparison_key": {
+      "audit_mode": "full",
+      "benchmark_sha256": "b925797fcab50b2008ad5974590e323f772e5ea7013efa84ce7606007439aeb3",
+      "chunk_manifest_sha256": "5fc5450386114fdeb19838f54d3f1662c3d6dec81d4729c73f4f7ec0cb341a6f",
+      "evaluation_policy_sha256": "914a7d7042d3f2d2e6cb40686faca331e6a5b029060027bfa769cc8b512c2e9a",
+      "inclusion_policy_profile": "subject-index-standard-policy-v1",
+      "intended_readership": "scholarly",
+      "page_map_sha256": "452602deebdae19f8e35c589f2ff2a7a0b9fc955d268b14f760391b0043e9653",
+      "rubric_version": "subject-index-rubric-v4",
+      "source_document_page_span": [
+        1,
+        425
+      ],
+      "source_edition": "2002",
+      "source_sha256": "5f89aa2592218983c594278bfd86cc1e4b74be1dd6dd8aac5c2610a48fa34047",
+      "standard_policy_sha256": "59c528cf2b30b883fe0a73c9426cc3ed0467352109750839df7c8dfd9ca72f60",
+      "uncertainty_policy": "Record uncertainty explicitly; adjudicate every critical, major, and uncertain item; exclude uninspectable locators from precision denominators and disclose them.",
+      "uninspectable_locator_rate_tolerance": 0.01
+    },
+    "comparison_key_sha256": "47cb85bfe78545a3038c5369833bffc86e3088b3c6d3aada0849ed4946fef72d",
+    "status": "standalone",
+    "rule": "Another candidate is directly comparable only when every frozen comparison-key field matches."
+  },
+  "disclosures": [
+    "The 69.5/100 total is a weighted quality summary, not a percentage correct.",
+    "Publication-readiness gates are reported separately and are not hidden arithmetic penalties.",
+    "The source benchmark was discovered, independently reviewed, and frozen with candidate blindness preserved; no competing index was treated as ground truth.",
+    "The audit is full and complete for the supplied 425 body pages and the delivered 25-page candidate representation.",
+    "Item grades are diagnostic display summaries derived from frozen evidence. They do not add to or replace the six-dimension 100-point rubric. Not-measured items are neutral, not failures.",
+    "Targets are 8 locator-bearing heading paths and 20 locator occurrences per 1,000 indexable source words, measured by chapter as permissive calibration rather than quotas or hard ceilings.",
+    "Colors are semantic tokens supplied by each item grade and must always be paired with a text label or icon; keyboard focus and touch expose the same popover as hover.",
+    "Representative examples use public-safe paraphrases and frozen evidence IDs rather than extended source quotation."
+  ],
+  "limitations": [
+    "The supplied source contains document pages 1-425 of the body only; front matter, notes/endnotes, bibliography, and the publisher index were absent and therefore excluded under the frozen policy.",
+    "The delivered candidate is an IndexerLabs-distributed, ReportLab-rendered representation, not an independently verified authoritative OUP scan; delivered OCR/encoding defects were preserved and scored.",
+    "Seven localized, high-confidence conflicts between frozen benchmark treatment classifications and canonical locator judgments were retained without reinterpretation and disclosed for centralized adjudication; none was classified as critical or major unresolved grounding.",
+    "Density targets are this framework's permissive standardized calibration values, not universal professional quotas or hard limits."
+  ],
+  "evidence_index": {
+    "artifact_catalog": [
+      {
+        "role": "frozen_evaluation_result",
+        "artifact_path": "candidate/oxford-history-french-revolution-2002-original-published-index/evaluation-result.json",
+        "sha256": "b05c49b0b05079a45c00c099f2e2bd671a935fef7b047c9264531ca22c1e2161"
+      },
+      {
+        "role": "frozen_item_assessments",
+        "artifact_path": "candidate/oxford-history-french-revolution-2002-original-published-index/item-assessments.json",
+        "sha256": "4422dc6234d78d35b25c390cc7dfc5c64ef85e5e44edb65d74ef265b8bb3a2c1"
+      },
+      {
+        "role": "frozen_structure_audit",
+        "artifact_path": "candidate/oxford-history-french-revolution-2002-original-published-index/structure-audit.json",
+        "sha256": "1b52d62ae663902827599d8e795db39a841e8706c1ba65107a40aed60d8caddb"
+      },
+      {
+        "role": "frozen_item_inventory",
+        "artifact_path": "candidate/oxford-history-french-revolution-2002-original-published-index/item-inventory.v2.json",
+        "sha256": "3e9c2b20d49486398bd57bfa31f5d1da1743498b47d0b9e46e42f096b56b9934"
+      },
+      {
+        "role": "frozen_source_benchmark",
+        "artifact_path": "source/source-benchmark.v3.json",
+        "sha256": "34a399cda8ca9f1b07b9fa0ddad36ac4f5073ef12d8b12df42fb023818508b27",
+        "canonical_sha256": "b925797fcab50b2008ad5974590e323f772e5ea7013efa84ce7606007439aeb3"
+      },
+      {
+        "role": "frozen_policy",
+        "artifact_path": "source/evaluation-policy.v2.json",
+        "sha256": "bfb5ec9ab45b6719b8a36fa09f50dfb8d8c18b3f209bd153501173182695ac62",
+        "canonical_sha256": "914a7d7042d3f2d2e6cb40686faca331e6a5b029060027bfa769cc8b512c2e9a"
+      },
+      {
+        "role": "frozen_page_map",
+        "artifact_path": "source/page-map.json",
+        "sha256": "dbc3ac1a4a7ea04403639dd9f41cdf79eebf1b8486d4ff65f799d05730fc8b0d",
+        "canonical_sha256": "452602deebdae19f8e35c589f2ff2a7a0b9fc955d268b14f760391b0043e9653"
+      },
+      {
+        "role": "frozen_chunk_manifest",
+        "artifact_path": "source/chunk-manifest.json",
+        "sha256": "5287f421e1e7be03444c2681beb1e1d63d5d103a96ab770565e32411956ce396",
+        "canonical_sha256": "5fc5450386114fdeb19838f54d3f1662c3d6dec81d4729c73f4f7ec0cb341a6f"
+      },
+      {
+        "role": "canonical_locator_audit_set",
+        "artifact_path_pattern": "candidate/oxford-history-french-revolution-2002-original-published-index/locator-audits/locator-audit.*.v1.json",
+        "set_sha256": "ce3277a02326112ea94614d61808c9d2d4112a62aad11d2d193c28c1a6c7790f"
+      },
+      {
+        "role": "canonical_missing_access_audit_set",
+        "artifact_path_pattern": "candidate/oxford-history-french-revolution-2002-original-published-index/missing-access-audits/missing-access-audit.*.v1.json",
+        "set_sha256": "bdbb51482887892d21281e84911cc51e24e6d4286a4257115e8cdcc48436c085"
+      }
+    ],
+    "referenced_id_count": 126,
+    "referenced_ids": [
+      "ART-084C66CEE96F",
+      "CHUNK-MANIFEST-5FC545038611",
+      "DEFECT-0B25E702C3BE",
+      "DEFECT-147449ABAEF9",
+      "DEFECT-20AAEDFB88D5",
+      "DEFECT-403D037A4060",
+      "DEFECT-422B1AF61225",
+      "DEFECT-44C39D39514C",
+      "DEFECT-50EF877CB81B",
+      "DEFECT-521C63D6F2B6",
+      "DEFECT-5E4FAC76CDCE",
+      "DEFECT-77C89EB29200",
+      "DEFECT-C78C6F0ECC3A",
+      "DEFECT-CC86E1CF5D6C",
+      "DEFECT-CCD97E8D54E8",
+      "DEFECT-CHUNK004-LOC-0FCD80C93653",
+      "DEFECT-CHUNK004-LOC-3BCC09FE22B7",
+      "DEFECT-CHUNK004-LOC-42F23D35903C",
+      "DEFECT-CHUNK004-LOC-48367D5505DB",
+      "DEFECT-CHUNK004-LOC-7BBAEA5AB101",
+      "DEFECT-CHUNK004-LOC-9A3C9F35B085",
+      "DEFECT-CHUNK006-LOC-80048D076477",
+      "DEFECT-D46CFFA23B43",
+      "EVID-C036FF4E4CEA",
+      "LOC-00A357077BE5",
+      "LOC-030EFF87FA40",
+      "LOC-0A3777CEF8BB",
+      "LOC-0C278BED73AD",
+      "LOC-224F29FED470",
+      "LOC-2260DEBE9193",
+      "LOC-23EFA497890A",
+      "LOC-26B5B4241BBA",
+      "LOC-51668F5F29ED",
+      "LOC-541EDACC2FDF",
+      "LOC-5974A285E037",
+      "LOC-5C7D66E81600",
+      "LOC-6755A0004CE0",
+      "LOC-6A7C6067C7E7",
+      "LOC-724C6CA63BC5",
+      "LOC-72BCDEDF1FEE",
+      "LOC-74D3E6FF1760",
+      "LOC-7B58953ED8C3",
+      "LOC-7D566EB81E4F",
+      "LOC-7F4FD513E849",
+      "LOC-80048D076477",
+      "LOC-817E981C1823",
+      "LOC-89B834A117CB",
+      "LOC-8BE4CE0E89EB",
+      "LOC-97ABEA16D2D4",
+      "LOC-99AC5E8808F1",
+      "LOC-9BE36BCA9141",
+      "LOC-9E2580BA638F",
+      "LOC-9E5254F8DA14",
+      "LOC-A6F7F12DEE54",
+      "LOC-A8109422DAD1",
+      "LOC-AA5DE94D10B8",
+      "LOC-B26207D5AD3D",
+      "LOC-B94CB8AB7A7F",
+      "LOC-C0CFFDC75062",
+      "LOC-CE7C49D3926F",
+      "LOC-D52B69DC8F55",
+      "LOC-D9AA8AD8498A",
+      "LOC-DD60F23CEC61",
+      "LOC-E0E648FAC69D",
+      "LOC-E71768C23D6E",
+      "LOC-F32D7ADEDD1D",
+      "LOC-F90D0BD0B58A",
+      "LOCATOR-AUDIT-SET-CE3277A02326",
+      "LOCATOR-INVENTORY-COMPLETE",
+      "MISSING-ACCESS-SET-BDBB51482887",
+      "NODE-1EEF29E93670",
+      "NODE-26820A88DAFB",
+      "NODE-31E3F4E4209A",
+      "NODE-4C895FD00FE8",
+      "NODE-51B9E01DBA87",
+      "NODE-69A63372E6D1",
+      "NODE-6AA1F6EEE8AC",
+      "NODE-D56A45CCAA72",
+      "NODE-EDD64729225A",
+      "NODE-F73CD065C43A",
+      "NODE-INVENTORY-COMPLETE",
+      "PAGE-MAP-452602DEEBDA",
+      "PATH-8125A4936EFA",
+      "PATH-A96BA998AD6B",
+      "PATH-D022A1D9BF5A",
+      "PATH-F64B81DE4926",
+      "SUBJ-04661509BFF9",
+      "SUBJ-18AE67659255",
+      "SUBJ-30CAE18651DF",
+      "SUBJ-34CA7BB7B259",
+      "SUBJ-3AB3152807AE",
+      "SUBJ-3AFA4C3AC1F8",
+      "SUBJ-436C9DE0A283",
+      "SUBJ-47788E58F460",
+      "SUBJ-4B6409CC6AB9",
+      "SUBJ-509199493B59",
+      "SUBJ-5B7555CE2FD8",
+      "SUBJ-79F8290570D7",
+      "SUBJ-8BD33A443E4E",
+      "SUBJ-912AF76A45C9",
+      "SUBJ-9216E0E5FA9D",
+      "SUBJ-A038CCDE96B2",
+      "SUBJ-A2A7299F7165",
+      "SUBJ-A6AE69CE5BCB",
+      "SUBJ-AFBD4BEAFD3A",
+      "SUBJ-B3F5D2BA17B5",
+      "SUBJ-BC41E0A881DB",
+      "SUBJ-CAB0E0E6A10A",
+      "SUBJ-F6AB55B20EC3",
+      "SUBJ-FCEC284F9F3A",
+      "XREF-0ACD2D5DAC9E",
+      "XREF-112DBAA74C15",
+      "XREF-257ADA69D14E",
+      "XREF-341E6EF27F31",
+      "XREF-526F94D1B2AA",
+      "XREF-5493E32901C0",
+      "XREF-6E6F54660707",
+      "XREF-895A75AA88E5",
+      "XREF-9176203EDC03",
+      "XREF-95955B1B092D",
+      "XREF-9A63B6DC42BB",
+      "XREF-ACD53D617FB0",
+      "XREF-C388AE30ACD3",
+      "XREF-D7D610BB5988",
+      "XREF-DFDE0CF10E75",
+      "XREF-E2AC8E8C6B66"
+    ],
+    "routes": [
+      {
+        "evidence_id": "ART-084C66CEE96F",
+        "artifact_path": "artifact-manifest.json",
+        "collection": "artifacts",
+        "key": "artifact_id"
+      },
+      {
+        "evidence_id": "CHUNK-MANIFEST-5FC545038611",
+        "artifact_path": "source/chunk-manifest.json",
+        "collection": "chunks",
+        "key": "chunk_id"
+      },
+      {
+        "evidence_id": "DEFECT-0B25E702C3BE",
+        "artifact_path": "candidate/oxford-history-french-revolution-2002-original-published-index/structure-audit.json",
+        "collection": "defects",
+        "key": "defect_id"
+      },
+      {
+        "evidence_id": "DEFECT-147449ABAEF9",
+        "artifact_path": "candidate/oxford-history-french-revolution-2002-original-published-index/structure-audit.json",
+        "collection": "defects",
+        "key": "defect_id"
+      },
+      {
+        "evidence_id": "DEFECT-20AAEDFB88D5",
+        "artifact_path": "candidate/oxford-history-french-revolution-2002-original-published-index/structure-audit.json",
+        "collection": "defects",
+        "key": "defect_id"
+      },
+      {
+        "evidence_id": "DEFECT-403D037A4060",
+        "artifact_path": "candidate/oxford-history-french-revolution-2002-original-published-index/structure-audit.json",
+        "collection": "defects",
+        "key": "defect_id"
+      },
+      {
+        "evidence_id": "DEFECT-422B1AF61225",
+        "artifact_path": "candidate/oxford-history-french-revolution-2002-original-published-index/structure-audit.json",
+        "collection": "defects",
+        "key": "defect_id"
+      },
+      {
+        "evidence_id": "DEFECT-44C39D39514C",
+        "artifact_path": "candidate/oxford-history-french-revolution-2002-original-published-index/structure-audit.json",
+        "collection": "defects",
+        "key": "defect_id"
+      },
+      {
+        "evidence_id": "DEFECT-50EF877CB81B",
+        "artifact_path": "candidate/oxford-history-french-revolution-2002-original-published-index/structure-audit.json",
+        "collection": "defects",
+        "key": "defect_id"
+      },
+      {
+        "evidence_id": "DEFECT-521C63D6F2B6",
+        "artifact_path": "candidate/oxford-history-french-revolution-2002-original-published-index/structure-audit.json",
+        "collection": "defects",
+        "key": "defect_id"
+      },
+      {
+        "evidence_id": "DEFECT-5E4FAC76CDCE",
+        "artifact_path": "candidate/oxford-history-french-revolution-2002-original-published-index/structure-audit.json",
+        "collection": "defects",
+        "key": "defect_id"
+      },
+      {
+        "evidence_id": "DEFECT-77C89EB29200",
+        "artifact_path": "candidate/oxford-history-french-revolution-2002-original-published-index/structure-audit.json",
+        "collection": "defects",
+        "key": "defect_id"
+      },
+      {
+        "evidence_id": "DEFECT-C78C6F0ECC3A",
+        "artifact_path": "candidate/oxford-history-french-revolution-2002-original-published-index/structure-audit.json",
+        "collection": "defects",
+        "key": "defect_id"
+      },
+      {
+        "evidence_id": "DEFECT-CC86E1CF5D6C",
+        "artifact_path": "candidate/oxford-history-french-revolution-2002-original-published-index/structure-audit.json",
+        "collection": "defects",
+        "key": "defect_id"
+      },
+      {
+        "evidence_id": "DEFECT-CCD97E8D54E8",
+        "artifact_path": "candidate/oxford-history-french-revolution-2002-original-published-index/structure-audit.json",
+        "collection": "defects",
+        "key": "defect_id"
+      },
+      {
+        "evidence_id": "DEFECT-CHUNK004-LOC-0FCD80C93653",
+        "artifact_path_patterns": [
+          "candidate/oxford-history-french-revolution-2002-original-published-index/locator-audits/locator-audit.*.v1.json",
+          "candidate/oxford-history-french-revolution-2002-original-published-index/missing-access-audits/missing-access-audit.*.v1.json"
+        ],
+        "key": "defect_id"
+      },
+      {
+        "evidence_id": "DEFECT-CHUNK004-LOC-3BCC09FE22B7",
+        "artifact_path_patterns": [
+          "candidate/oxford-history-french-revolution-2002-original-published-index/locator-audits/locator-audit.*.v1.json",
+          "candidate/oxford-history-french-revolution-2002-original-published-index/missing-access-audits/missing-access-audit.*.v1.json"
+        ],
+        "key": "defect_id"
+      },
+      {
+        "evidence_id": "DEFECT-CHUNK004-LOC-42F23D35903C",
+        "artifact_path_patterns": [
+          "candidate/oxford-history-french-revolution-2002-original-published-index/locator-audits/locator-audit.*.v1.json",
+          "candidate/oxford-history-french-revolution-2002-original-published-index/missing-access-audits/missing-access-audit.*.v1.json"
+        ],
+        "key": "defect_id"
+      },
+      {
+        "evidence_id": "DEFECT-CHUNK004-LOC-48367D5505DB",
+        "artifact_path_patterns": [
+          "candidate/oxford-history-french-revolution-2002-original-published-index/locator-audits/locator-audit.*.v1.json",
+          "candidate/oxford-history-french-revolution-2002-original-published-index/missing-access-audits/missing-access-audit.*.v1.json"
+        ],
+        "key": "defect_id"
+      },
+      {
+        "evidence_id": "DEFECT-CHUNK004-LOC-7BBAEA5AB101",
+        "artifact_path_patterns": [
+          "candidate/oxford-history-french-revolution-2002-original-published-index/locator-audits/locator-audit.*.v1.json",
+          "candidate/oxford-history-french-revolution-2002-original-published-index/missing-access-audits/missing-access-audit.*.v1.json"
+        ],
+        "key": "defect_id"
+      },
+      {
+        "evidence_id": "DEFECT-CHUNK004-LOC-9A3C9F35B085",
+        "artifact_path_patterns": [
+          "candidate/oxford-history-french-revolution-2002-original-published-index/locator-audits/locator-audit.*.v1.json",
+          "candidate/oxford-history-french-revolution-2002-original-published-index/missing-access-audits/missing-access-audit.*.v1.json"
+        ],
+        "key": "defect_id"
+      },
+      {
+        "evidence_id": "DEFECT-CHUNK006-LOC-80048D076477",
+        "artifact_path_patterns": [
+          "candidate/oxford-history-french-revolution-2002-original-published-index/locator-audits/locator-audit.*.v1.json",
+          "candidate/oxford-history-french-revolution-2002-original-published-index/missing-access-audits/missing-access-audit.*.v1.json"
+        ],
+        "key": "defect_id"
+      },
+      {
+        "evidence_id": "DEFECT-D46CFFA23B43",
+        "artifact_path": "candidate/oxford-history-french-revolution-2002-original-published-index/structure-audit.json",
+        "collection": "defects",
+        "key": "defect_id"
+      },
+      {
+        "evidence_id": "EVID-C036FF4E4CEA",
+        "artifact_path": "source/source-benchmark.v3.json",
+        "collection": "subjects[].evidence",
+        "key": "evidence_id"
+      },
+      {
+        "evidence_id": "LOC-00A357077BE5",
+        "artifact_path": "candidate/oxford-history-french-revolution-2002-original-published-index/item-assessments.json",
+        "collection": "locator_assessments",
+        "key": "locator_id"
+      },
+      {
+        "evidence_id": "LOC-030EFF87FA40",
+        "artifact_path": "candidate/oxford-history-french-revolution-2002-original-published-index/item-assessments.json",
+        "collection": "locator_assessments",
+        "key": "locator_id"
+      },
+      {
+        "evidence_id": "LOC-0A3777CEF8BB",
+        "artifact_path": "candidate/oxford-history-french-revolution-2002-original-published-index/item-assessments.json",
+        "collection": "locator_assessments",
+        "key": "locator_id"
+      },
+      {
+        "evidence_id": "LOC-0C278BED73AD",
+        "artifact_path": "candidate/oxford-history-french-revolution-2002-original-published-index/item-assessments.json",
+        "collection": "locator_assessments",
+        "key": "locator_id"
+      },
+      {
+        "evidence_id": "LOC-224F29FED470",
+        "artifact_path": "candidate/oxford-history-french-revolution-2002-original-published-index/item-assessments.json",
+        "collection": "locator_assessments",
+        "key": "locator_id"
+      },
+      {
+        "evidence_id": "LOC-2260DEBE9193",
+        "artifact_path": "candidate/oxford-history-french-revolution-2002-original-published-index/item-assessments.json",
+        "collection": "locator_assessments",
+        "key": "locator_id"
+      },
+      {
+        "evidence_id": "LOC-23EFA497890A",
+        "artifact_path": "candidate/oxford-history-french-revolution-2002-original-published-index/item-assessments.json",
+        "collection": "locator_assessments",
+        "key": "locator_id"
+      },
+      {
+        "evidence_id": "LOC-26B5B4241BBA",
+        "artifact_path": "candidate/oxford-history-french-revolution-2002-original-published-index/item-assessments.json",
+        "collection": "locator_assessments",
+        "key": "locator_id"
+      },
+      {
+        "evidence_id": "LOC-51668F5F29ED",
+        "artifact_path": "candidate/oxford-history-french-revolution-2002-original-published-index/item-assessments.json",
+        "collection": "locator_assessments",
+        "key": "locator_id"
+      },
+      {
+        "evidence_id": "LOC-541EDACC2FDF",
+        "artifact_path": "candidate/oxford-history-french-revolution-2002-original-published-index/item-assessments.json",
+        "collection": "locator_assessments",
+        "key": "locator_id"
+      },
+      {
+        "evidence_id": "LOC-5974A285E037",
+        "artifact_path": "candidate/oxford-history-french-revolution-2002-original-published-index/item-assessments.json",
+        "collection": "locator_assessments",
+        "key": "locator_id"
+      },
+      {
+        "evidence_id": "LOC-5C7D66E81600",
+        "artifact_path": "candidate/oxford-history-french-revolution-2002-original-published-index/item-assessments.json",
+        "collection": "locator_assessments",
+        "key": "locator_id"
+      },
+      {
+        "evidence_id": "LOC-6755A0004CE0",
+        "artifact_path": "candidate/oxford-history-french-revolution-2002-original-published-index/item-assessments.json",
+        "collection": "locator_assessments",
+        "key": "locator_id"
+      },
+      {
+        "evidence_id": "LOC-6A7C6067C7E7",
+        "artifact_path": "candidate/oxford-history-french-revolution-2002-original-published-index/item-assessments.json",
+        "collection": "locator_assessments",
+        "key": "locator_id"
+      },
+      {
+        "evidence_id": "LOC-724C6CA63BC5",
+        "artifact_path": "candidate/oxford-history-french-revolution-2002-original-published-index/item-assessments.json",
+        "collection": "locator_assessments",
+        "key": "locator_id"
+      },
+      {
+        "evidence_id": "LOC-72BCDEDF1FEE",
+        "artifact_path": "candidate/oxford-history-french-revolution-2002-original-published-index/item-assessments.json",
+        "collection": "locator_assessments",
+        "key": "locator_id"
+      },
+      {
+        "evidence_id": "LOC-74D3E6FF1760",
+        "artifact_path": "candidate/oxford-history-french-revolution-2002-original-published-index/item-assessments.json",
+        "collection": "locator_assessments",
+        "key": "locator_id"
+      },
+      {
+        "evidence_id": "LOC-7B58953ED8C3",
+        "artifact_path": "candidate/oxford-history-french-revolution-2002-original-published-index/item-assessments.json",
+        "collection": "locator_assessments",
+        "key": "locator_id"
+      },
+      {
+        "evidence_id": "LOC-7D566EB81E4F",
+        "artifact_path": "candidate/oxford-history-french-revolution-2002-original-published-index/item-assessments.json",
+        "collection": "locator_assessments",
+        "key": "locator_id"
+      },
+      {
+        "evidence_id": "LOC-7F4FD513E849",
+        "artifact_path": "candidate/oxford-history-french-revolution-2002-original-published-index/item-assessments.json",
+        "collection": "locator_assessments",
+        "key": "locator_id"
+      },
+      {
+        "evidence_id": "LOC-80048D076477",
+        "artifact_path": "candidate/oxford-history-french-revolution-2002-original-published-index/item-assessments.json",
+        "collection": "locator_assessments",
+        "key": "locator_id"
+      },
+      {
+        "evidence_id": "LOC-817E981C1823",
+        "artifact_path": "candidate/oxford-history-french-revolution-2002-original-published-index/item-assessments.json",
+        "collection": "locator_assessments",
+        "key": "locator_id"
+      },
+      {
+        "evidence_id": "LOC-89B834A117CB",
+        "artifact_path": "candidate/oxford-history-french-revolution-2002-original-published-index/item-assessments.json",
+        "collection": "locator_assessments",
+        "key": "locator_id"
+      },
+      {
+        "evidence_id": "LOC-8BE4CE0E89EB",
+        "artifact_path": "candidate/oxford-history-french-revolution-2002-original-published-index/item-assessments.json",
+        "collection": "locator_assessments",
+        "key": "locator_id"
+      },
+      {
+        "evidence_id": "LOC-97ABEA16D2D4",
+        "artifact_path": "candidate/oxford-history-french-revolution-2002-original-published-index/item-assessments.json",
+        "collection": "locator_assessments",
+        "key": "locator_id"
+      },
+      {
+        "evidence_id": "LOC-99AC5E8808F1",
+        "artifact_path": "candidate/oxford-history-french-revolution-2002-original-published-index/item-assessments.json",
+        "collection": "locator_assessments",
+        "key": "locator_id"
+      },
+      {
+        "evidence_id": "LOC-9BE36BCA9141",
+        "artifact_path": "candidate/oxford-history-french-revolution-2002-original-published-index/item-assessments.json",
+        "collection": "locator_assessments",
+        "key": "locator_id"
+      },
+      {
+        "evidence_id": "LOC-9E2580BA638F",
+        "artifact_path": "candidate/oxford-history-french-revolution-2002-original-published-index/item-assessments.json",
+        "collection": "locator_assessments",
+        "key": "locator_id"
+      },
+      {
+        "evidence_id": "LOC-9E5254F8DA14",
+        "artifact_path": "candidate/oxford-history-french-revolution-2002-original-published-index/item-assessments.json",
+        "collection": "locator_assessments",
+        "key": "locator_id"
+      },
+      {
+        "evidence_id": "LOC-A6F7F12DEE54",
+        "artifact_path": "candidate/oxford-history-french-revolution-2002-original-published-index/item-assessments.json",
+        "collection": "locator_assessments",
+        "key": "locator_id"
+      },
+      {
+        "evidence_id": "LOC-A8109422DAD1",
+        "artifact_path": "candidate/oxford-history-french-revolution-2002-original-published-index/item-assessments.json",
+        "collection": "locator_assessments",
+        "key": "locator_id"
+      },
+      {
+        "evidence_id": "LOC-AA5DE94D10B8",
+        "artifact_path": "candidate/oxford-history-french-revolution-2002-original-published-index/item-assessments.json",
+        "collection": "locator_assessments",
+        "key": "locator_id"
+      },
+      {
+        "evidence_id": "LOC-B26207D5AD3D",
+        "artifact_path": "candidate/oxford-history-french-revolution-2002-original-published-index/item-assessments.json",
+        "collection": "locator_assessments",
+        "key": "locator_id"
+      },
+      {
+        "evidence_id": "LOC-B94CB8AB7A7F",
+        "artifact_path": "candidate/oxford-history-french-revolution-2002-original-published-index/item-assessments.json",
+        "collection": "locator_assessments",
+        "key": "locator_id"
+      },
+      {
+        "evidence_id": "LOC-C0CFFDC75062",
+        "artifact_path": "candidate/oxford-history-french-revolution-2002-original-published-index/item-assessments.json",
+        "collection": "locator_assessments",
+        "key": "locator_id"
+      },
+      {
+        "evidence_id": "LOC-CE7C49D3926F",
+        "artifact_path": "candidate/oxford-history-french-revolution-2002-original-published-index/item-assessments.json",
+        "collection": "locator_assessments",
+        "key": "locator_id"
+      },
+      {
+        "evidence_id": "LOC-D52B69DC8F55",
+        "artifact_path": "candidate/oxford-history-french-revolution-2002-original-published-index/item-assessments.json",
+        "collection": "locator_assessments",
+        "key": "locator_id"
+      },
+      {
+        "evidence_id": "LOC-D9AA8AD8498A",
+        "artifact_path": "candidate/oxford-history-french-revolution-2002-original-published-index/item-assessments.json",
+        "collection": "locator_assessments",
+        "key": "locator_id"
+      },
+      {
+        "evidence_id": "LOC-DD60F23CEC61",
+        "artifact_path": "candidate/oxford-history-french-revolution-2002-original-published-index/item-assessments.json",
+        "collection": "locator_assessments",
+        "key": "locator_id"
+      },
+      {
+        "evidence_id": "LOC-E0E648FAC69D",
+        "artifact_path": "candidate/oxford-history-french-revolution-2002-original-published-index/item-assessments.json",
+        "collection": "locator_assessments",
+        "key": "locator_id"
+      },
+      {
+        "evidence_id": "LOC-E71768C23D6E",
+        "artifact_path": "candidate/oxford-history-french-revolution-2002-original-published-index/item-assessments.json",
+        "collection": "locator_assessments",
+        "key": "locator_id"
+      },
+      {
+        "evidence_id": "LOC-F32D7ADEDD1D",
+        "artifact_path": "candidate/oxford-history-french-revolution-2002-original-published-index/item-assessments.json",
+        "collection": "locator_assessments",
+        "key": "locator_id"
+      },
+      {
+        "evidence_id": "LOC-F90D0BD0B58A",
+        "artifact_path": "candidate/oxford-history-french-revolution-2002-original-published-index/item-assessments.json",
+        "collection": "locator_assessments",
+        "key": "locator_id"
+      },
+      {
+        "evidence_id": "LOCATOR-AUDIT-SET-CE3277A02326",
+        "artifact_path": "candidate/oxford-history-french-revolution-2002-original-published-index/evaluation-result.json",
+        "field": "provenance.locator_audit_set_sha256",
+        "artifact_path_pattern": "candidate/oxford-history-french-revolution-2002-original-published-index/locator-audits/locator-audit.*.v1.json"
+      },
+      {
+        "evidence_id": "LOCATOR-INVENTORY-COMPLETE",
+        "artifact_path": "candidate/oxford-history-french-revolution-2002-original-published-index/item-inventory.v2.json"
+      },
+      {
+        "evidence_id": "MISSING-ACCESS-SET-BDBB51482887",
+        "artifact_path": "candidate/oxford-history-french-revolution-2002-original-published-index/evaluation-result.json",
+        "field": "provenance.missing_access_audit_set_sha256",
+        "artifact_path_pattern": "candidate/oxford-history-french-revolution-2002-original-published-index/missing-access-audits/missing-access-audit.*.v1.json"
+      },
+      {
+        "evidence_id": "NODE-1EEF29E93670",
+        "artifact_path": "candidate/oxford-history-french-revolution-2002-original-published-index/item-assessments.json",
+        "collection": "heading_node_assessments",
+        "key": "node_id"
+      },
+      {
+        "evidence_id": "NODE-26820A88DAFB",
+        "artifact_path": "candidate/oxford-history-french-revolution-2002-original-published-index/item-assessments.json",
+        "collection": "heading_node_assessments",
+        "key": "node_id"
+      },
+      {
+        "evidence_id": "NODE-31E3F4E4209A",
+        "artifact_path": "candidate/oxford-history-french-revolution-2002-original-published-index/item-assessments.json",
+        "collection": "heading_node_assessments",
+        "key": "node_id"
+      },
+      {
+        "evidence_id": "NODE-4C895FD00FE8",
+        "artifact_path": "candidate/oxford-history-french-revolution-2002-original-published-index/item-assessments.json",
+        "collection": "heading_node_assessments",
+        "key": "node_id"
+      },
+      {
+        "evidence_id": "NODE-51B9E01DBA87",
+        "artifact_path": "candidate/oxford-history-french-revolution-2002-original-published-index/item-assessments.json",
+        "collection": "heading_node_assessments",
+        "key": "node_id"
+      },
+      {
+        "evidence_id": "NODE-69A63372E6D1",
+        "artifact_path": "candidate/oxford-history-french-revolution-2002-original-published-index/item-assessments.json",
+        "collection": "heading_node_assessments",
+        "key": "node_id"
+      },
+      {
+        "evidence_id": "NODE-6AA1F6EEE8AC",
+        "artifact_path": "candidate/oxford-history-french-revolution-2002-original-published-index/item-assessments.json",
+        "collection": "heading_node_assessments",
+        "key": "node_id"
+      },
+      {
+        "evidence_id": "NODE-D56A45CCAA72",
+        "artifact_path": "candidate/oxford-history-french-revolution-2002-original-published-index/item-assessments.json",
+        "collection": "heading_node_assessments",
+        "key": "node_id"
+      },
+      {
+        "evidence_id": "NODE-EDD64729225A",
+        "artifact_path": "candidate/oxford-history-french-revolution-2002-original-published-index/item-assessments.json",
+        "collection": "heading_node_assessments",
+        "key": "node_id"
+      },
+      {
+        "evidence_id": "NODE-F73CD065C43A",
+        "artifact_path": "candidate/oxford-history-french-revolution-2002-original-published-index/item-assessments.json",
+        "collection": "heading_node_assessments",
+        "key": "node_id"
+      },
+      {
+        "evidence_id": "NODE-INVENTORY-COMPLETE",
+        "artifact_path": "candidate/oxford-history-french-revolution-2002-original-published-index/item-assessments.json",
+        "collection": "heading_node_assessments",
+        "key": "node_id"
+      },
+      {
+        "evidence_id": "PAGE-MAP-452602DEEBDA",
+        "artifact_path": "source/page-map.json"
+      },
+      {
+        "evidence_id": "PATH-8125A4936EFA",
+        "artifact_path": "candidate/oxford-history-french-revolution-2002-original-published-index/item-assessments.json",
+        "collection": "path_assessments",
+        "key": "path_id"
+      },
+      {
+        "evidence_id": "PATH-A96BA998AD6B",
+        "artifact_path": "candidate/oxford-history-french-revolution-2002-original-published-index/item-assessments.json",
+        "collection": "path_assessments",
+        "key": "path_id"
+      },
+      {
+        "evidence_id": "PATH-D022A1D9BF5A",
+        "artifact_path": "candidate/oxford-history-french-revolution-2002-original-published-index/item-assessments.json",
+        "collection": "path_assessments",
+        "key": "path_id"
+      },
+      {
+        "evidence_id": "PATH-F64B81DE4926",
+        "artifact_path": "candidate/oxford-history-french-revolution-2002-original-published-index/item-assessments.json",
+        "collection": "path_assessments",
+        "key": "path_id"
+      },
+      {
+        "evidence_id": "SUBJ-04661509BFF9",
+        "artifact_path": "candidate/oxford-history-french-revolution-2002-original-published-index/item-assessments.json",
+        "collection": "source_subject_assessments",
+        "key": "subject_id",
+        "source_context_path": "source/source-benchmark.v3.json"
+      },
+      {
+        "evidence_id": "SUBJ-18AE67659255",
+        "artifact_path": "candidate/oxford-history-french-revolution-2002-original-published-index/item-assessments.json",
+        "collection": "source_subject_assessments",
+        "key": "subject_id",
+        "source_context_path": "source/source-benchmark.v3.json"
+      },
+      {
+        "evidence_id": "SUBJ-30CAE18651DF",
+        "artifact_path": "candidate/oxford-history-french-revolution-2002-original-published-index/item-assessments.json",
+        "collection": "source_subject_assessments",
+        "key": "subject_id",
+        "source_context_path": "source/source-benchmark.v3.json"
+      },
+      {
+        "evidence_id": "SUBJ-34CA7BB7B259",
+        "artifact_path": "candidate/oxford-history-french-revolution-2002-original-published-index/item-assessments.json",
+        "collection": "source_subject_assessments",
+        "key": "subject_id",
+        "source_context_path": "source/source-benchmark.v3.json"
+      },
+      {
+        "evidence_id": "SUBJ-3AB3152807AE",
+        "artifact_path": "candidate/oxford-history-french-revolution-2002-original-published-index/item-assessments.json",
+        "collection": "source_subject_assessments",
+        "key": "subject_id",
+        "source_context_path": "source/source-benchmark.v3.json"
+      },
+      {
+        "evidence_id": "SUBJ-3AFA4C3AC1F8",
+        "artifact_path": "candidate/oxford-history-french-revolution-2002-original-published-index/item-assessments.json",
+        "collection": "source_subject_assessments",
+        "key": "subject_id",
+        "source_context_path": "source/source-benchmark.v3.json"
+      },
+      {
+        "evidence_id": "SUBJ-436C9DE0A283",
+        "artifact_path": "candidate/oxford-history-french-revolution-2002-original-published-index/item-assessments.json",
+        "collection": "source_subject_assessments",
+        "key": "subject_id",
+        "source_context_path": "source/source-benchmark.v3.json"
+      },
+      {
+        "evidence_id": "SUBJ-47788E58F460",
+        "artifact_path": "candidate/oxford-history-french-revolution-2002-original-published-index/item-assessments.json",
+        "collection": "source_subject_assessments",
+        "key": "subject_id",
+        "source_context_path": "source/source-benchmark.v3.json"
+      },
+      {
+        "evidence_id": "SUBJ-4B6409CC6AB9",
+        "artifact_path": "candidate/oxford-history-french-revolution-2002-original-published-index/item-assessments.json",
+        "collection": "source_subject_assessments",
+        "key": "subject_id",
+        "source_context_path": "source/source-benchmark.v3.json"
+      },
+      {
+        "evidence_id": "SUBJ-509199493B59",
+        "artifact_path": "candidate/oxford-history-french-revolution-2002-original-published-index/item-assessments.json",
+        "collection": "source_subject_assessments",
+        "key": "subject_id",
+        "source_context_path": "source/source-benchmark.v3.json"
+      },
+      {
+        "evidence_id": "SUBJ-5B7555CE2FD8",
+        "artifact_path": "candidate/oxford-history-french-revolution-2002-original-published-index/item-assessments.json",
+        "collection": "source_subject_assessments",
+        "key": "subject_id",
+        "source_context_path": "source/source-benchmark.v3.json"
+      },
+      {
+        "evidence_id": "SUBJ-79F8290570D7",
+        "artifact_path": "candidate/oxford-history-french-revolution-2002-original-published-index/item-assessments.json",
+        "collection": "source_subject_assessments",
+        "key": "subject_id",
+        "source_context_path": "source/source-benchmark.v3.json"
+      },
+      {
+        "evidence_id": "SUBJ-8BD33A443E4E",
+        "artifact_path": "candidate/oxford-history-french-revolution-2002-original-published-index/item-assessments.json",
+        "collection": "source_subject_assessments",
+        "key": "subject_id",
+        "source_context_path": "source/source-benchmark.v3.json"
+      },
+      {
+        "evidence_id": "SUBJ-912AF76A45C9",
+        "artifact_path": "candidate/oxford-history-french-revolution-2002-original-published-index/item-assessments.json",
+        "collection": "source_subject_assessments",
+        "key": "subject_id",
+        "source_context_path": "source/source-benchmark.v3.json"
+      },
+      {
+        "evidence_id": "SUBJ-9216E0E5FA9D",
+        "artifact_path": "candidate/oxford-history-french-revolution-2002-original-published-index/item-assessments.json",
+        "collection": "source_subject_assessments",
+        "key": "subject_id",
+        "source_context_path": "source/source-benchmark.v3.json"
+      },
+      {
+        "evidence_id": "SUBJ-A038CCDE96B2",
+        "artifact_path": "candidate/oxford-history-french-revolution-2002-original-published-index/item-assessments.json",
+        "collection": "source_subject_assessments",
+        "key": "subject_id",
+        "source_context_path": "source/source-benchmark.v3.json"
+      },
+      {
+        "evidence_id": "SUBJ-A2A7299F7165",
+        "artifact_path": "candidate/oxford-history-french-revolution-2002-original-published-index/item-assessments.json",
+        "collection": "source_subject_assessments",
+        "key": "subject_id",
+        "source_context_path": "source/source-benchmark.v3.json"
+      },
+      {
+        "evidence_id": "SUBJ-A6AE69CE5BCB",
+        "artifact_path": "candidate/oxford-history-french-revolution-2002-original-published-index/item-assessments.json",
+        "collection": "source_subject_assessments",
+        "key": "subject_id",
+        "source_context_path": "source/source-benchmark.v3.json"
+      },
+      {
+        "evidence_id": "SUBJ-AFBD4BEAFD3A",
+        "artifact_path": "candidate/oxford-history-french-revolution-2002-original-published-index/item-assessments.json",
+        "collection": "source_subject_assessments",
+        "key": "subject_id",
+        "source_context_path": "source/source-benchmark.v3.json"
+      },
+      {
+        "evidence_id": "SUBJ-B3F5D2BA17B5",
+        "artifact_path": "candidate/oxford-history-french-revolution-2002-original-published-index/item-assessments.json",
+        "collection": "source_subject_assessments",
+        "key": "subject_id",
+        "source_context_path": "source/source-benchmark.v3.json"
+      },
+      {
+        "evidence_id": "SUBJ-BC41E0A881DB",
+        "artifact_path": "candidate/oxford-history-french-revolution-2002-original-published-index/item-assessments.json",
+        "collection": "source_subject_assessments",
+        "key": "subject_id",
+        "source_context_path": "source/source-benchmark.v3.json"
+      },
+      {
+        "evidence_id": "SUBJ-CAB0E0E6A10A",
+        "artifact_path": "candidate/oxford-history-french-revolution-2002-original-published-index/item-assessments.json",
+        "collection": "source_subject_assessments",
+        "key": "subject_id",
+        "source_context_path": "source/source-benchmark.v3.json"
+      },
+      {
+        "evidence_id": "SUBJ-F6AB55B20EC3",
+        "artifact_path": "candidate/oxford-history-french-revolution-2002-original-published-index/item-assessments.json",
+        "collection": "source_subject_assessments",
+        "key": "subject_id",
+        "source_context_path": "source/source-benchmark.v3.json"
+      },
+      {
+        "evidence_id": "SUBJ-FCEC284F9F3A",
+        "artifact_path": "candidate/oxford-history-french-revolution-2002-original-published-index/item-assessments.json",
+        "collection": "source_subject_assessments",
+        "key": "subject_id",
+        "source_context_path": "source/source-benchmark.v3.json"
+      },
+      {
+        "evidence_id": "XREF-0ACD2D5DAC9E",
+        "artifact_path": "candidate/oxford-history-french-revolution-2002-original-published-index/item-assessments.json",
+        "collection": "cross_reference_assessments",
+        "key": "reference_id"
+      },
+      {
+        "evidence_id": "XREF-112DBAA74C15",
+        "artifact_path": "candidate/oxford-history-french-revolution-2002-original-published-index/item-assessments.json",
+        "collection": "cross_reference_assessments",
+        "key": "reference_id"
+      },
+      {
+        "evidence_id": "XREF-257ADA69D14E",
+        "artifact_path": "candidate/oxford-history-french-revolution-2002-original-published-index/item-assessments.json",
+        "collection": "cross_reference_assessments",
+        "key": "reference_id"
+      },
+      {
+        "evidence_id": "XREF-341E6EF27F31",
+        "artifact_path": "candidate/oxford-history-french-revolution-2002-original-published-index/item-assessments.json",
+        "collection": "cross_reference_assessments",
+        "key": "reference_id"
+      },
+      {
+        "evidence_id": "XREF-526F94D1B2AA",
+        "artifact_path": "candidate/oxford-history-french-revolution-2002-original-published-index/item-assessments.json",
+        "collection": "cross_reference_assessments",
+        "key": "reference_id"
+      },
+      {
+        "evidence_id": "XREF-5493E32901C0",
+        "artifact_path": "candidate/oxford-history-french-revolution-2002-original-published-index/item-assessments.json",
+        "collection": "cross_reference_assessments",
+        "key": "reference_id"
+      },
+      {
+        "evidence_id": "XREF-6E6F54660707",
+        "artifact_path": "candidate/oxford-history-french-revolution-2002-original-published-index/item-assessments.json",
+        "collection": "cross_reference_assessments",
+        "key": "reference_id"
+      },
+      {
+        "evidence_id": "XREF-895A75AA88E5",
+        "artifact_path": "candidate/oxford-history-french-revolution-2002-original-published-index/item-assessments.json",
+        "collection": "cross_reference_assessments",
+        "key": "reference_id"
+      },
+      {
+        "evidence_id": "XREF-9176203EDC03",
+        "artifact_path": "candidate/oxford-history-french-revolution-2002-original-published-index/item-assessments.json",
+        "collection": "cross_reference_assessments",
+        "key": "reference_id"
+      },
+      {
+        "evidence_id": "XREF-95955B1B092D",
+        "artifact_path": "candidate/oxford-history-french-revolution-2002-original-published-index/item-assessments.json",
+        "collection": "cross_reference_assessments",
+        "key": "reference_id"
+      },
+      {
+        "evidence_id": "XREF-9A63B6DC42BB",
+        "artifact_path": "candidate/oxford-history-french-revolution-2002-original-published-index/item-assessments.json",
+        "collection": "cross_reference_assessments",
+        "key": "reference_id"
+      },
+      {
+        "evidence_id": "XREF-ACD53D617FB0",
+        "artifact_path": "candidate/oxford-history-french-revolution-2002-original-published-index/item-assessments.json",
+        "collection": "cross_reference_assessments",
+        "key": "reference_id"
+      },
+      {
+        "evidence_id": "XREF-C388AE30ACD3",
+        "artifact_path": "candidate/oxford-history-french-revolution-2002-original-published-index/item-assessments.json",
+        "collection": "cross_reference_assessments",
+        "key": "reference_id"
+      },
+      {
+        "evidence_id": "XREF-D7D610BB5988",
+        "artifact_path": "candidate/oxford-history-french-revolution-2002-original-published-index/item-assessments.json",
+        "collection": "cross_reference_assessments",
+        "key": "reference_id"
+      },
+      {
+        "evidence_id": "XREF-DFDE0CF10E75",
+        "artifact_path": "candidate/oxford-history-french-revolution-2002-original-published-index/item-assessments.json",
+        "collection": "cross_reference_assessments",
+        "key": "reference_id"
+      },
+      {
+        "evidence_id": "XREF-E2AC8E8C6B66",
+        "artifact_path": "candidate/oxford-history-french-revolution-2002-original-published-index/item-assessments.json",
+        "collection": "cross_reference_assessments",
+        "key": "reference_id"
+      }
+    ],
+    "resolution_disclosure": "Every displayed conclusion carries stable evidence IDs. Routes identify the frozen artifact and collection used for optional inspection; public views should resolve only fields authorized for disclosure."
+  }
+}
