@@ -1,0 +1,1835 @@
+{
+  "schema_version": "subject-index-v5-migration-supplement-v1",
+  "evaluation_id": "oxford-history-french-revolution-2002-indexerlabs-truncated",
+  "audit_mode": "full",
+  "structure_audit_sha256": "1b52d62ae663902827599d8e795db39a841e8706c1ba65107a40aed60d8caddb",
+  "historical_locator_audit_set_sha256": "ce3277a02326112ea94614d61808c9d2d4112a62aad11d2d193c28c1a6c7790f",
+  "historical_missing_access_audit_set_sha256": "bdbb51482887892d21281e84911cc51e24e6d4286a4257115e8cdcc48436c085",
+  "locator_audit_set_sha256": "f840e60dbee9e50f08c11dd0c4c314f5a84d4c7006d188c1c74eff4ad2b3a1f4",
+  "missing_access_audit_set_sha256": "1aa3ffa2439b790aa8db0f1afe30facc4051523c0fe9618d58fe93db269911b7",
+  "audit_set_reconciliation_basis": "same_frozen_files_rehashed_with_subject_index_canonical_audit_set_v1",
+  "scoring_context": {
+    "candidate_attempt": {
+      "status": "meaningful_attempt",
+      "evidence_ids": []
+    },
+    "cross_reference_applicability": {
+      "status": "applicable",
+      "basis_code": "delivered_references",
+      "delivered_reference_count": 16,
+      "warranted_reference_obligation_count": 0,
+      "warranted_reference_obligation_ids": [],
+      "reference_defect_ids": [
+        "DEFECT-44C39D39514C",
+        "DEFECT-50EF877CB81B",
+        "DEFECT-C78C6F0ECC3A"
+      ]
+    },
+    "optional_subject_scoring": [
+      {
+        "subject_id": "SUBJ-0283D4E62472",
+        "scored": true,
+        "benchmark_evidence_ids": [
+          "EVID-EE0C74EC5C10"
+        ]
+      },
+      {
+        "subject_id": "SUBJ-0A997B298125",
+        "scored": true,
+        "benchmark_evidence_ids": [
+          "EVID-7BB72F003E02"
+        ]
+      },
+      {
+        "subject_id": "SUBJ-0B8D29B04324",
+        "scored": true,
+        "benchmark_evidence_ids": [
+          "EVID-0A0866DC29E4"
+        ]
+      },
+      {
+        "subject_id": "SUBJ-1055B8DA9BB6",
+        "scored": true,
+        "benchmark_evidence_ids": [
+          "EVID-F51196424DF2"
+        ]
+      },
+      {
+        "subject_id": "SUBJ-1225808C2FB7",
+        "scored": true,
+        "benchmark_evidence_ids": [
+          "EVID-13FAA611B5B9"
+        ]
+      },
+      {
+        "subject_id": "SUBJ-163CA8A5FDF9",
+        "scored": true,
+        "benchmark_evidence_ids": [
+          "EVID-BA529834BE19",
+          "EVID-DA5C18AC1399"
+        ]
+      },
+      {
+        "subject_id": "SUBJ-218A99F44EB6",
+        "scored": true,
+        "benchmark_evidence_ids": [
+          "EVID-2A5CD0B5D20D"
+        ]
+      },
+      {
+        "subject_id": "SUBJ-22653DFF212A",
+        "scored": true,
+        "benchmark_evidence_ids": [
+          "EVID-62D82969B8AD"
+        ]
+      },
+      {
+        "subject_id": "SUBJ-2278AED28F92",
+        "scored": true,
+        "benchmark_evidence_ids": [
+          "EVID-BCB368DD706A"
+        ]
+      },
+      {
+        "subject_id": "SUBJ-23EAA42383A8",
+        "scored": true,
+        "benchmark_evidence_ids": [
+          "EVID-704707AB9F5E"
+        ]
+      },
+      {
+        "subject_id": "SUBJ-24C81D51A3C0",
+        "scored": true,
+        "benchmark_evidence_ids": [
+          "EVID-4E89540ABDC0"
+        ]
+      },
+      {
+        "subject_id": "SUBJ-2B7E70223A52",
+        "scored": true,
+        "benchmark_evidence_ids": [
+          "EVID-2DD36632D005",
+          "EVID-F6692771739A"
+        ]
+      },
+      {
+        "subject_id": "SUBJ-2BAED4835711",
+        "scored": true,
+        "benchmark_evidence_ids": [
+          "EVID-4539496B1766",
+          "EVID-7BDF4D3665C8",
+          "EVID-829EDC987211"
+        ]
+      },
+      {
+        "subject_id": "SUBJ-32E715776F49",
+        "scored": true,
+        "benchmark_evidence_ids": [
+          "EVID-D0FBF3193250"
+        ]
+      },
+      {
+        "subject_id": "SUBJ-345E397F8FFE",
+        "scored": true,
+        "benchmark_evidence_ids": [
+          "EVID-9EC6A84270D5"
+        ]
+      },
+      {
+        "subject_id": "SUBJ-35429570EC5C",
+        "scored": true,
+        "benchmark_evidence_ids": [
+          "EVID-AF892EB8046F"
+        ]
+      },
+      {
+        "subject_id": "SUBJ-36B5DAE3558C",
+        "scored": true,
+        "benchmark_evidence_ids": [
+          "EVID-B6BE690F3736"
+        ]
+      },
+      {
+        "subject_id": "SUBJ-3875017EB588",
+        "scored": true,
+        "benchmark_evidence_ids": [
+          "EVID-21F8F0E4BBF1",
+          "EVID-5ED9B417E8BF"
+        ]
+      },
+      {
+        "subject_id": "SUBJ-3C1CBF1748B5",
+        "scored": true,
+        "benchmark_evidence_ids": [
+          "EVID-472B464000C0"
+        ]
+      },
+      {
+        "subject_id": "SUBJ-3E28E383FAF4",
+        "scored": true,
+        "benchmark_evidence_ids": [
+          "EVID-AFBC1B567025"
+        ]
+      },
+      {
+        "subject_id": "SUBJ-3E39BC650D56",
+        "scored": true,
+        "benchmark_evidence_ids": [
+          "EVID-CB080A3AF430"
+        ]
+      },
+      {
+        "subject_id": "SUBJ-439FD434C8E4",
+        "scored": true,
+        "benchmark_evidence_ids": [
+          "EVID-93EAC6222840"
+        ]
+      },
+      {
+        "subject_id": "SUBJ-4416C0F15521",
+        "scored": true,
+        "benchmark_evidence_ids": [
+          "EVID-6BCC214D7B3B",
+          "EVID-ECBCA25B036F"
+        ]
+      },
+      {
+        "subject_id": "SUBJ-44E91CC8F640",
+        "scored": true,
+        "benchmark_evidence_ids": [
+          "EVID-365336F4C944"
+        ]
+      },
+      {
+        "subject_id": "SUBJ-44ED099B32AA",
+        "scored": true,
+        "benchmark_evidence_ids": [
+          "EVID-40FEDC609E75",
+          "EVID-E4E8BF438E49"
+        ]
+      },
+      {
+        "subject_id": "SUBJ-49EAEA29A16F",
+        "scored": true,
+        "benchmark_evidence_ids": [
+          "EVID-0DB63652AB74",
+          "EVID-3A8CEF532E24"
+        ]
+      },
+      {
+        "subject_id": "SUBJ-4EEB720548CB",
+        "scored": true,
+        "benchmark_evidence_ids": [
+          "EVID-74171E2A7D3E"
+        ]
+      },
+      {
+        "subject_id": "SUBJ-500829B491E2",
+        "scored": true,
+        "benchmark_evidence_ids": [
+          "EVID-E5B15E3203A8"
+        ]
+      },
+      {
+        "subject_id": "SUBJ-5291CCBF88D7",
+        "scored": true,
+        "benchmark_evidence_ids": [
+          "EVID-9C695C0B13D2",
+          "EVID-B64C58CCB184"
+        ]
+      },
+      {
+        "subject_id": "SUBJ-580EEC0DACF2",
+        "scored": true,
+        "benchmark_evidence_ids": [
+          "EVID-A984F032E56D"
+        ]
+      },
+      {
+        "subject_id": "SUBJ-59704A89DC09",
+        "scored": true,
+        "benchmark_evidence_ids": [
+          "EVID-25CD381253ED"
+        ]
+      },
+      {
+        "subject_id": "SUBJ-5B4E10CA0544",
+        "scored": true,
+        "benchmark_evidence_ids": [
+          "EVID-440A45D1130A"
+        ]
+      },
+      {
+        "subject_id": "SUBJ-61E0DDE63A90",
+        "scored": true,
+        "benchmark_evidence_ids": [
+          "EVID-E5160498F8C2"
+        ]
+      },
+      {
+        "subject_id": "SUBJ-653ECB3F81B4",
+        "scored": true,
+        "benchmark_evidence_ids": [
+          "EVID-9F0CF12F9568"
+        ]
+      },
+      {
+        "subject_id": "SUBJ-6801A2420D45",
+        "scored": true,
+        "benchmark_evidence_ids": [
+          "EVID-A3FF409A4D3A"
+        ]
+      },
+      {
+        "subject_id": "SUBJ-685E1518590F",
+        "scored": true,
+        "benchmark_evidence_ids": [
+          "EVID-0B7F9D860E6E"
+        ]
+      },
+      {
+        "subject_id": "SUBJ-68E6749C9CEC",
+        "scored": true,
+        "benchmark_evidence_ids": [
+          "EVID-9BAF0866865E"
+        ]
+      },
+      {
+        "subject_id": "SUBJ-697AF01E0441",
+        "scored": true,
+        "benchmark_evidence_ids": [
+          "EVID-9D2ADAEDD9CB"
+        ]
+      },
+      {
+        "subject_id": "SUBJ-6A5E7F24DAB3",
+        "scored": true,
+        "benchmark_evidence_ids": [
+          "EVID-89429426DB1C"
+        ]
+      },
+      {
+        "subject_id": "SUBJ-6AEBE51FBFDA",
+        "scored": true,
+        "benchmark_evidence_ids": [
+          "EVID-992CBB3A3B6B"
+        ]
+      },
+      {
+        "subject_id": "SUBJ-6BFAF4B0A3F1",
+        "scored": true,
+        "benchmark_evidence_ids": [
+          "EVID-37351938BDA9"
+        ]
+      },
+      {
+        "subject_id": "SUBJ-6D14246BD5DB",
+        "scored": true,
+        "benchmark_evidence_ids": [
+          "EVID-A0A91ABF176B"
+        ]
+      },
+      {
+        "subject_id": "SUBJ-6E7CC77115C6",
+        "scored": true,
+        "benchmark_evidence_ids": [
+          "EVID-A7E6E0493AC1"
+        ]
+      },
+      {
+        "subject_id": "SUBJ-71A0B8477157",
+        "scored": true,
+        "benchmark_evidence_ids": [
+          "EVID-A6A5C97448C7",
+          "EVID-CA888E83E74A",
+          "EVID-CDC4BA8D112F"
+        ]
+      },
+      {
+        "subject_id": "SUBJ-7794258FEAAA",
+        "scored": true,
+        "benchmark_evidence_ids": [
+          "EVID-0D55FE3E7485"
+        ]
+      },
+      {
+        "subject_id": "SUBJ-788AFAEA1E95",
+        "scored": true,
+        "benchmark_evidence_ids": [
+          "EVID-080DCE88CACC",
+          "EVID-2CE485317BF5"
+        ]
+      },
+      {
+        "subject_id": "SUBJ-79F5882E3DFD",
+        "scored": true,
+        "benchmark_evidence_ids": [
+          "EVID-92158A0DF389"
+        ]
+      },
+      {
+        "subject_id": "SUBJ-7CA7E20C34AB",
+        "scored": true,
+        "benchmark_evidence_ids": [
+          "EVID-84C09F2B527A"
+        ]
+      },
+      {
+        "subject_id": "SUBJ-7EE262BC99D9",
+        "scored": true,
+        "benchmark_evidence_ids": [
+          "EVID-56C13D78D50E"
+        ]
+      },
+      {
+        "subject_id": "SUBJ-8358DF32F380",
+        "scored": true,
+        "benchmark_evidence_ids": [
+          "EVID-14DC522829F8",
+          "EVID-F5595E4D252E"
+        ]
+      },
+      {
+        "subject_id": "SUBJ-850B852DD31C",
+        "scored": true,
+        "benchmark_evidence_ids": [
+          "EVID-71870AF14F63"
+        ]
+      },
+      {
+        "subject_id": "SUBJ-8E5FAA86A8CB",
+        "scored": true,
+        "benchmark_evidence_ids": [
+          "EVID-53859A5D9DA0"
+        ]
+      },
+      {
+        "subject_id": "SUBJ-8FF94C6FEAAC",
+        "scored": true,
+        "benchmark_evidence_ids": [
+          "EVID-7BF361C53F1C"
+        ]
+      },
+      {
+        "subject_id": "SUBJ-90E9736A8886",
+        "scored": true,
+        "benchmark_evidence_ids": [
+          "EVID-BAFE9CC2E92E",
+          "EVID-D18B23C10B42"
+        ]
+      },
+      {
+        "subject_id": "SUBJ-952F23C43B4D",
+        "scored": true,
+        "benchmark_evidence_ids": [
+          "EVID-55B9D63F354D",
+          "EVID-C81694F53476"
+        ]
+      },
+      {
+        "subject_id": "SUBJ-953E121B21F2",
+        "scored": true,
+        "benchmark_evidence_ids": [
+          "EVID-BCF4A94B272B"
+        ]
+      },
+      {
+        "subject_id": "SUBJ-95C2C73FD66C",
+        "scored": true,
+        "benchmark_evidence_ids": [
+          "EVID-1DD438B1D19B"
+        ]
+      },
+      {
+        "subject_id": "SUBJ-9C3804C3F2CC",
+        "scored": true,
+        "benchmark_evidence_ids": [
+          "EVID-CDBB9DFC2535"
+        ]
+      },
+      {
+        "subject_id": "SUBJ-9F7C2AE9DCF6",
+        "scored": true,
+        "benchmark_evidence_ids": [
+          "EVID-C6F3D0AFFC7D"
+        ]
+      },
+      {
+        "subject_id": "SUBJ-A42A4D3E8946",
+        "scored": true,
+        "benchmark_evidence_ids": [
+          "EVID-3B57AF57E077",
+          "EVID-D68C019EB73D"
+        ]
+      },
+      {
+        "subject_id": "SUBJ-A5202C62D52D",
+        "scored": true,
+        "benchmark_evidence_ids": [
+          "EVID-372D4D343379",
+          "EVID-ED1EFB964968"
+        ]
+      },
+      {
+        "subject_id": "SUBJ-A5A5326D21D2",
+        "scored": true,
+        "benchmark_evidence_ids": [
+          "EVID-8244B726B7EB"
+        ]
+      },
+      {
+        "subject_id": "SUBJ-A722951A6E72",
+        "scored": true,
+        "benchmark_evidence_ids": [
+          "EVID-94B65C6DA124",
+          "EVID-A09E9F3EE99A"
+        ]
+      },
+      {
+        "subject_id": "SUBJ-A787D6A59A44",
+        "scored": true,
+        "benchmark_evidence_ids": [
+          "EVID-BD2B178D2DA7"
+        ]
+      },
+      {
+        "subject_id": "SUBJ-A7C502BBBBAE",
+        "scored": true,
+        "benchmark_evidence_ids": [
+          "EVID-537DAF1FAADB"
+        ]
+      },
+      {
+        "subject_id": "SUBJ-AC5EDCF91165",
+        "scored": true,
+        "benchmark_evidence_ids": [
+          "EVID-D5375DF01D62"
+        ]
+      },
+      {
+        "subject_id": "SUBJ-C12949E4F2AB",
+        "scored": true,
+        "benchmark_evidence_ids": [
+          "EVID-8CB751FCFC6C"
+        ]
+      },
+      {
+        "subject_id": "SUBJ-C1E2782B867D",
+        "scored": true,
+        "benchmark_evidence_ids": [
+          "EVID-3657E9D22B41"
+        ]
+      },
+      {
+        "subject_id": "SUBJ-CD5A9944E320",
+        "scored": true,
+        "benchmark_evidence_ids": [
+          "EVID-7D971B06AEA8"
+        ]
+      },
+      {
+        "subject_id": "SUBJ-D192C543E6EA",
+        "scored": true,
+        "benchmark_evidence_ids": [
+          "EVID-6C66802ACFBB"
+        ]
+      },
+      {
+        "subject_id": "SUBJ-D68520EB58F3",
+        "scored": true,
+        "benchmark_evidence_ids": [
+          "EVID-8EDF4FFADC8B"
+        ]
+      },
+      {
+        "subject_id": "SUBJ-D791EE4202A9",
+        "scored": true,
+        "benchmark_evidence_ids": [
+          "EVID-A194275ECF56"
+        ]
+      },
+      {
+        "subject_id": "SUBJ-D91D4422F501",
+        "scored": true,
+        "benchmark_evidence_ids": [
+          "EVID-0E11538D9449"
+        ]
+      },
+      {
+        "subject_id": "SUBJ-DC1AA23B1322",
+        "scored": true,
+        "benchmark_evidence_ids": [
+          "EVID-1E70016943E8",
+          "EVID-A2E97EDB228A"
+        ]
+      },
+      {
+        "subject_id": "SUBJ-DD54290C4568",
+        "scored": true,
+        "benchmark_evidence_ids": [
+          "EVID-3D6AEEB699C4"
+        ]
+      },
+      {
+        "subject_id": "SUBJ-E02073DCCE88",
+        "scored": true,
+        "benchmark_evidence_ids": [
+          "EVID-5ED25766B0AE"
+        ]
+      },
+      {
+        "subject_id": "SUBJ-E48979B83669",
+        "scored": true,
+        "benchmark_evidence_ids": [
+          "EVID-69A7912C2D53"
+        ]
+      },
+      {
+        "subject_id": "SUBJ-E526A6721E07",
+        "scored": true,
+        "benchmark_evidence_ids": [
+          "EVID-2B9E12FAC0CA"
+        ]
+      },
+      {
+        "subject_id": "SUBJ-E5C44D7EE8FA",
+        "scored": true,
+        "benchmark_evidence_ids": [
+          "EVID-FC11A4B0068A"
+        ]
+      },
+      {
+        "subject_id": "SUBJ-E7E4971D0502",
+        "scored": true,
+        "benchmark_evidence_ids": [
+          "EVID-A802105B6C18"
+        ]
+      },
+      {
+        "subject_id": "SUBJ-EFC207E72AC2",
+        "scored": true,
+        "benchmark_evidence_ids": [
+          "EVID-8320D85BB178",
+          "EVID-E061A2BC2797"
+        ]
+      },
+      {
+        "subject_id": "SUBJ-F3097287E9CC",
+        "scored": true,
+        "benchmark_evidence_ids": [
+          "EVID-281E7C9F3E72"
+        ]
+      },
+      {
+        "subject_id": "SUBJ-F536E42DCBBF",
+        "scored": true,
+        "benchmark_evidence_ids": [
+          "EVID-8F9241160B89"
+        ]
+      },
+      {
+        "subject_id": "SUBJ-F6FA2285C425",
+        "scored": true,
+        "benchmark_evidence_ids": [
+          "EVID-0CF1388B6E76"
+        ]
+      },
+      {
+        "subject_id": "SUBJ-F721E0D94AFF",
+        "scored": true,
+        "benchmark_evidence_ids": [
+          "EVID-E5805B84ABF7"
+        ]
+      },
+      {
+        "subject_id": "SUBJ-F77D0B8E25E6",
+        "scored": true,
+        "benchmark_evidence_ids": [
+          "EVID-41E5541FCABD"
+        ]
+      }
+    ],
+    "node_component_applicability": [],
+    "defects": [
+      {
+        "defect_id": "DEFECT-0B25E702C3BE",
+        "code": "STA",
+        "dimension_owner": "conceptual_stance_fidelity",
+        "severity": "major",
+        "severity_basis": "materially_misleading",
+        "retrieval_consequence": "misleads",
+        "defect_kind": "stance_reversal",
+        "affected_item_ids": [
+          "NODE-D27BC16C244E"
+        ],
+        "affected_source_sections": [],
+        "affected_structural_sections": [
+          "NODE-D1A56177A3DD"
+        ],
+        "root_cause_family": "historical-defect-0b25e702c3be",
+        "affected_count": 1,
+        "applicable_count": 1904,
+        "affected_rate": "0.000525",
+        "source_section_denominator": 17,
+        "source_section_rate": "0",
+        "structural_section_denominator": 1066,
+        "structural_section_rate": "0.000938",
+        "high_priority_access_destroyed": false
+      },
+      {
+        "defect_id": "DEFECT-0D4FDD6C4B93",
+        "code": "CON",
+        "dimension_owner": "conceptual_stance_fidelity",
+        "severity": "major",
+        "severity_basis": "materially_misleading",
+        "retrieval_consequence": "misleads",
+        "defect_kind": "generic",
+        "affected_item_ids": [
+          "NODE-7246D22FBE43"
+        ],
+        "affected_source_sections": [],
+        "affected_structural_sections": [
+          "NODE-D1B4995AD44A"
+        ],
+        "root_cause_family": "historical-defect-0d4fdd6c4b93",
+        "affected_count": 1,
+        "applicable_count": 1904,
+        "affected_rate": "0.000525",
+        "source_section_denominator": 17,
+        "source_section_rate": "0",
+        "structural_section_denominator": 1066,
+        "structural_section_rate": "0.000938",
+        "high_priority_access_destroyed": false
+      },
+      {
+        "defect_id": "DEFECT-177CAC9F9C37",
+        "code": "CON",
+        "dimension_owner": "conceptual_stance_fidelity",
+        "severity": "major",
+        "severity_basis": "materially_misleading",
+        "retrieval_consequence": "misleads",
+        "defect_kind": "generic",
+        "affected_item_ids": [
+          "NODE-709DE23C9112"
+        ],
+        "affected_source_sections": [],
+        "affected_structural_sections": [
+          "NODE-709DE23C9112"
+        ],
+        "root_cause_family": "historical-defect-177cac9f9c37",
+        "affected_count": 1,
+        "applicable_count": 1904,
+        "affected_rate": "0.000525",
+        "source_section_denominator": 17,
+        "source_section_rate": "0",
+        "structural_section_denominator": 1066,
+        "structural_section_rate": "0.000938",
+        "high_priority_access_destroyed": false
+      },
+      {
+        "defect_id": "DEFECT-1A54507FA1EF",
+        "code": "CON",
+        "dimension_owner": "conceptual_stance_fidelity",
+        "severity": "major",
+        "severity_basis": "materially_misleading",
+        "retrieval_consequence": "misleads",
+        "defect_kind": "generic",
+        "affected_item_ids": [
+          "NODE-B9104C1E76A9"
+        ],
+        "affected_source_sections": [],
+        "affected_structural_sections": [
+          "NODE-B9104C1E76A9"
+        ],
+        "root_cause_family": "historical-defect-1a54507fa1ef",
+        "affected_count": 1,
+        "applicable_count": 1904,
+        "affected_rate": "0.000525",
+        "source_section_denominator": 17,
+        "source_section_rate": "0",
+        "structural_section_denominator": 1066,
+        "structural_section_rate": "0.000938",
+        "high_priority_access_destroyed": false
+      },
+      {
+        "defect_id": "DEFECT-260EB16F814D",
+        "code": "CON",
+        "dimension_owner": "conceptual_stance_fidelity",
+        "severity": "major",
+        "severity_basis": "materially_misleading",
+        "retrieval_consequence": "misleads",
+        "defect_kind": "generic",
+        "affected_item_ids": [
+          "NODE-DD7675F9AF8F"
+        ],
+        "affected_source_sections": [],
+        "affected_structural_sections": [
+          "NODE-DD7675F9AF8F"
+        ],
+        "root_cause_family": "historical-defect-260eb16f814d",
+        "affected_count": 1,
+        "applicable_count": 1904,
+        "affected_rate": "0.000525",
+        "source_section_denominator": 17,
+        "source_section_rate": "0",
+        "structural_section_denominator": 1066,
+        "structural_section_rate": "0.000938",
+        "high_priority_access_destroyed": false
+      },
+      {
+        "defect_id": "DEFECT-2876CFF97B4B",
+        "code": "CON",
+        "dimension_owner": "conceptual_stance_fidelity",
+        "severity": "major",
+        "severity_basis": "materially_misleading",
+        "retrieval_consequence": "misleads",
+        "defect_kind": "generic",
+        "affected_item_ids": [
+          "NODE-5818EA13D2B9"
+        ],
+        "affected_source_sections": [],
+        "affected_structural_sections": [
+          "NODE-5818EA13D2B9"
+        ],
+        "root_cause_family": "historical-defect-2876cff97b4b",
+        "affected_count": 1,
+        "applicable_count": 1904,
+        "affected_rate": "0.000525",
+        "source_section_denominator": 17,
+        "source_section_rate": "0",
+        "structural_section_denominator": 1066,
+        "structural_section_rate": "0.000938",
+        "high_priority_access_destroyed": false
+      },
+      {
+        "defect_id": "DEFECT-39F1CA646164",
+        "code": "CON",
+        "dimension_owner": "conceptual_stance_fidelity",
+        "severity": "major",
+        "severity_basis": "materially_misleading",
+        "retrieval_consequence": "misleads",
+        "defect_kind": "generic",
+        "affected_item_ids": [
+          "NODE-55D57721896D"
+        ],
+        "affected_source_sections": [],
+        "affected_structural_sections": [
+          "NODE-55D57721896D"
+        ],
+        "root_cause_family": "historical-defect-39f1ca646164",
+        "affected_count": 1,
+        "applicable_count": 1904,
+        "affected_rate": "0.000525",
+        "source_section_denominator": 17,
+        "source_section_rate": "0",
+        "structural_section_denominator": 1066,
+        "structural_section_rate": "0.000938",
+        "high_priority_access_destroyed": false
+      },
+      {
+        "defect_id": "DEFECT-3A451C6F5693",
+        "code": "CON",
+        "dimension_owner": "conceptual_stance_fidelity",
+        "severity": "major",
+        "severity_basis": "materially_misleading",
+        "retrieval_consequence": "misleads",
+        "defect_kind": "generic",
+        "affected_item_ids": [
+          "NODE-F67410E28904"
+        ],
+        "affected_source_sections": [],
+        "affected_structural_sections": [
+          "NODE-F67410E28904"
+        ],
+        "root_cause_family": "historical-defect-3a451c6f5693",
+        "affected_count": 1,
+        "applicable_count": 1904,
+        "affected_rate": "0.000525",
+        "source_section_denominator": 17,
+        "source_section_rate": "0",
+        "structural_section_denominator": 1066,
+        "structural_section_rate": "0.000938",
+        "high_priority_access_destroyed": false
+      },
+      {
+        "defect_id": "DEFECT-3B8D20BDB623",
+        "code": "CON",
+        "dimension_owner": "conceptual_stance_fidelity",
+        "severity": "major",
+        "severity_basis": "materially_misleading",
+        "retrieval_consequence": "misleads",
+        "defect_kind": "generic",
+        "affected_item_ids": [
+          "NODE-58A9D8B43D0C"
+        ],
+        "affected_source_sections": [],
+        "affected_structural_sections": [
+          "NODE-582F09B9DB2D"
+        ],
+        "root_cause_family": "historical-defect-3b8d20bdb623",
+        "affected_count": 1,
+        "applicable_count": 1904,
+        "affected_rate": "0.000525",
+        "source_section_denominator": 17,
+        "source_section_rate": "0",
+        "structural_section_denominator": 1066,
+        "structural_section_rate": "0.000938",
+        "high_priority_access_destroyed": false
+      },
+      {
+        "defect_id": "DEFECT-41924CE8EEE3",
+        "code": "CON",
+        "dimension_owner": "conceptual_stance_fidelity",
+        "severity": "major",
+        "severity_basis": "materially_misleading",
+        "retrieval_consequence": "misleads",
+        "defect_kind": "generic",
+        "affected_item_ids": [
+          "NODE-33047D522FEE"
+        ],
+        "affected_source_sections": [],
+        "affected_structural_sections": [
+          "NODE-33047D522FEE"
+        ],
+        "root_cause_family": "historical-defect-41924ce8eee3",
+        "affected_count": 1,
+        "applicable_count": 1904,
+        "affected_rate": "0.000525",
+        "source_section_denominator": 17,
+        "source_section_rate": "0",
+        "structural_section_denominator": 1066,
+        "structural_section_rate": "0.000938",
+        "high_priority_access_destroyed": false
+      },
+      {
+        "defect_id": "DEFECT-422B1AF61225",
+        "code": "CMP",
+        "dimension_owner": "conceptual_stance_fidelity",
+        "severity": "major",
+        "severity_basis": "materially_misleading",
+        "retrieval_consequence": "misleads",
+        "defect_kind": "misleading_relationship",
+        "affected_item_ids": [
+          "NODE-31E3F4E4209A"
+        ],
+        "affected_source_sections": [],
+        "affected_structural_sections": [
+          "NODE-5DE7549A4CC6"
+        ],
+        "root_cause_family": "historical-defect-422b1af61225",
+        "affected_count": 1,
+        "applicable_count": 1904,
+        "affected_rate": "0.000525",
+        "source_section_denominator": 17,
+        "source_section_rate": "0",
+        "structural_section_denominator": 1066,
+        "structural_section_rate": "0.000938",
+        "high_priority_access_destroyed": false
+      },
+      {
+        "defect_id": "DEFECT-44C39D39514C",
+        "code": "XRF",
+        "dimension_owner": "findability_navigation",
+        "severity": "major",
+        "severity_basis": "blocked_retrieval",
+        "retrieval_consequence": "blocks",
+        "defect_kind": "unsupported_reference",
+        "affected_item_ids": [
+          "XREF-9A63B6DC42BB"
+        ],
+        "affected_source_sections": [],
+        "affected_structural_sections": [
+          "NODE-1233C7E79FAA",
+          "NODE-C6CE3A4C7AF6"
+        ],
+        "root_cause_family": "unresolved_reference_xref-9a63b6dc42bb",
+        "affected_count": 1,
+        "applicable_count": 16,
+        "affected_rate": "0.0625",
+        "source_section_denominator": 17,
+        "source_section_rate": "0",
+        "structural_section_denominator": 1066,
+        "structural_section_rate": "0.001876",
+        "high_priority_access_destroyed": false
+      },
+      {
+        "defect_id": "DEFECT-48D33CCAB714",
+        "code": "CON",
+        "dimension_owner": "conceptual_stance_fidelity",
+        "severity": "major",
+        "severity_basis": "materially_misleading",
+        "retrieval_consequence": "misleads",
+        "defect_kind": "generic",
+        "affected_item_ids": [
+          "NODE-96FE1414BDE8"
+        ],
+        "affected_source_sections": [],
+        "affected_structural_sections": [
+          "NODE-DAB630661D58"
+        ],
+        "root_cause_family": "historical-defect-48d33ccab714",
+        "affected_count": 1,
+        "applicable_count": 1904,
+        "affected_rate": "0.000525",
+        "source_section_denominator": 17,
+        "source_section_rate": "0",
+        "structural_section_denominator": 1066,
+        "structural_section_rate": "0.000938",
+        "high_priority_access_destroyed": false
+      },
+      {
+        "defect_id": "DEFECT-4AACF0DBE2C6",
+        "code": "CON",
+        "dimension_owner": "conceptual_stance_fidelity",
+        "severity": "major",
+        "severity_basis": "materially_misleading",
+        "retrieval_consequence": "misleads",
+        "defect_kind": "generic",
+        "affected_item_ids": [
+          "NODE-6A681F892C95"
+        ],
+        "affected_source_sections": [],
+        "affected_structural_sections": [
+          "NODE-6A681F892C95"
+        ],
+        "root_cause_family": "historical-defect-4aacf0dbe2c6",
+        "affected_count": 1,
+        "applicable_count": 1904,
+        "affected_rate": "0.000525",
+        "source_section_denominator": 17,
+        "source_section_rate": "0",
+        "structural_section_denominator": 1066,
+        "structural_section_rate": "0.000938",
+        "high_priority_access_destroyed": false
+      },
+      {
+        "defect_id": "DEFECT-50EF877CB81B",
+        "code": "XRF",
+        "dimension_owner": "findability_navigation",
+        "severity": "major",
+        "severity_basis": "blocked_retrieval",
+        "retrieval_consequence": "blocks",
+        "defect_kind": "unsupported_reference",
+        "affected_item_ids": [
+          "XREF-6E6F54660707"
+        ],
+        "affected_source_sections": [],
+        "affected_structural_sections": [
+          "NODE-A520DD605A20"
+        ],
+        "root_cause_family": "unresolved_reference_xref-6e6f54660707",
+        "affected_count": 1,
+        "applicable_count": 16,
+        "affected_rate": "0.0625",
+        "source_section_denominator": 17,
+        "source_section_rate": "0",
+        "structural_section_denominator": 1066,
+        "structural_section_rate": "0.000938",
+        "high_priority_access_destroyed": false
+      },
+      {
+        "defect_id": "DEFECT-56D56B464DC0",
+        "code": "CON",
+        "dimension_owner": "conceptual_stance_fidelity",
+        "severity": "major",
+        "severity_basis": "materially_misleading",
+        "retrieval_consequence": "misleads",
+        "defect_kind": "generic",
+        "affected_item_ids": [
+          "NODE-FCF6A692F753"
+        ],
+        "affected_source_sections": [],
+        "affected_structural_sections": [
+          "NODE-6EB03AF713C2"
+        ],
+        "root_cause_family": "historical-defect-56d56b464dc0",
+        "affected_count": 1,
+        "applicable_count": 1904,
+        "affected_rate": "0.000525",
+        "source_section_denominator": 17,
+        "source_section_rate": "0",
+        "structural_section_denominator": 1066,
+        "structural_section_rate": "0.000938",
+        "high_priority_access_destroyed": false
+      },
+      {
+        "defect_id": "DEFECT-5DC1BB3EEEEB",
+        "code": "CON",
+        "dimension_owner": "conceptual_stance_fidelity",
+        "severity": "major",
+        "severity_basis": "materially_misleading",
+        "retrieval_consequence": "misleads",
+        "defect_kind": "generic",
+        "affected_item_ids": [
+          "NODE-2424A4C28F25"
+        ],
+        "affected_source_sections": [],
+        "affected_structural_sections": [
+          "NODE-2424A4C28F25"
+        ],
+        "root_cause_family": "historical-defect-5dc1bb3eeeeb",
+        "affected_count": 1,
+        "applicable_count": 1904,
+        "affected_rate": "0.000525",
+        "source_section_denominator": 17,
+        "source_section_rate": "0",
+        "structural_section_denominator": 1066,
+        "structural_section_rate": "0.000938",
+        "high_priority_access_destroyed": false
+      },
+      {
+        "defect_id": "DEFECT-5E4FAC76CDCE",
+        "code": "MEC",
+        "dimension_owner": "mechanics_consistency",
+        "severity": "major",
+        "severity_basis": "blocked_retrieval",
+        "retrieval_consequence": "blocks",
+        "defect_kind": "representation_corruption",
+        "affected_item_ids": [
+          "NODE-1233C7E79FAA",
+          "NODE-1641E4FD4B44",
+          "NODE-2424A4C28F25",
+          "NODE-33047D522FEE",
+          "NODE-367FC46D5C72",
+          "NODE-680872D8E4EF",
+          "NODE-7F548C32E062",
+          "NODE-811B50B6DF90",
+          "NODE-84D205EE3593",
+          "NODE-894E2872B253",
+          "NODE-A137505DA3E5",
+          "NODE-A86D09652F29",
+          "NODE-DD7675F9AF8F",
+          "NODE-E9AB8D11D630"
+        ],
+        "affected_source_sections": [],
+        "affected_structural_sections": [
+          "NODE-1233C7E79FAA",
+          "NODE-2424A4C28F25",
+          "NODE-33047D522FEE",
+          "NODE-367FC46D5C72",
+          "NODE-680872D8E4EF",
+          "NODE-7F548C32E062",
+          "NODE-811B50B6DF90",
+          "NODE-894E2872B253",
+          "NODE-A137505DA3E5",
+          "NODE-A86D09652F29",
+          "NODE-C3068C3AAF4E",
+          "NODE-CBEEEBD3AB0B",
+          "NODE-DD7675F9AF8F",
+          "NODE-E9AB8D11D630"
+        ],
+        "root_cause_family": "digit_for_accent_substitution",
+        "affected_count": 14,
+        "applicable_count": 1904,
+        "affected_rate": "0.007353",
+        "source_section_denominator": 17,
+        "source_section_rate": "0",
+        "structural_section_denominator": 1066,
+        "structural_section_rate": "0.013133",
+        "high_priority_access_destroyed": false
+      },
+      {
+        "defect_id": "DEFECT-69A0D998A0D6",
+        "code": "CON",
+        "dimension_owner": "conceptual_stance_fidelity",
+        "severity": "major",
+        "severity_basis": "materially_misleading",
+        "retrieval_consequence": "misleads",
+        "defect_kind": "generic",
+        "affected_item_ids": [
+          "NODE-ADA95142CBDD"
+        ],
+        "affected_source_sections": [],
+        "affected_structural_sections": [
+          "NODE-ADA95142CBDD"
+        ],
+        "root_cause_family": "historical-defect-69a0d998a0d6",
+        "affected_count": 1,
+        "applicable_count": 1904,
+        "affected_rate": "0.000525",
+        "source_section_denominator": 17,
+        "source_section_rate": "0",
+        "structural_section_denominator": 1066,
+        "structural_section_rate": "0.000938",
+        "high_priority_access_destroyed": false
+      },
+      {
+        "defect_id": "DEFECT-6E9D33AFCB93",
+        "code": "CON",
+        "dimension_owner": "conceptual_stance_fidelity",
+        "severity": "major",
+        "severity_basis": "materially_misleading",
+        "retrieval_consequence": "misleads",
+        "defect_kind": "generic",
+        "affected_item_ids": [
+          "NODE-653E8FFED46E"
+        ],
+        "affected_source_sections": [],
+        "affected_structural_sections": [
+          "NODE-653E8FFED46E"
+        ],
+        "root_cause_family": "historical-defect-6e9d33afcb93",
+        "affected_count": 1,
+        "applicable_count": 1904,
+        "affected_rate": "0.000525",
+        "source_section_denominator": 17,
+        "source_section_rate": "0",
+        "structural_section_denominator": 1066,
+        "structural_section_rate": "0.000938",
+        "high_priority_access_destroyed": false
+      },
+      {
+        "defect_id": "DEFECT-6FEA74AC2D57",
+        "code": "CON",
+        "dimension_owner": "conceptual_stance_fidelity",
+        "severity": "major",
+        "severity_basis": "materially_misleading",
+        "retrieval_consequence": "misleads",
+        "defect_kind": "generic",
+        "affected_item_ids": [
+          "NODE-3128912A4732"
+        ],
+        "affected_source_sections": [],
+        "affected_structural_sections": [
+          "NODE-3128912A4732"
+        ],
+        "root_cause_family": "historical-defect-6fea74ac2d57",
+        "affected_count": 1,
+        "applicable_count": 1904,
+        "affected_rate": "0.000525",
+        "source_section_denominator": 17,
+        "source_section_rate": "0",
+        "structural_section_denominator": 1066,
+        "structural_section_rate": "0.000938",
+        "high_priority_access_destroyed": false
+      },
+      {
+        "defect_id": "DEFECT-77BF9C7E529A",
+        "code": "CON",
+        "dimension_owner": "conceptual_stance_fidelity",
+        "severity": "major",
+        "severity_basis": "materially_misleading",
+        "retrieval_consequence": "misleads",
+        "defect_kind": "generic",
+        "affected_item_ids": [
+          "NODE-3C901144548C"
+        ],
+        "affected_source_sections": [],
+        "affected_structural_sections": [
+          "NODE-3C901144548C"
+        ],
+        "root_cause_family": "historical-defect-77bf9c7e529a",
+        "affected_count": 1,
+        "applicable_count": 1904,
+        "affected_rate": "0.000525",
+        "source_section_denominator": 17,
+        "source_section_rate": "0",
+        "structural_section_denominator": 1066,
+        "structural_section_rate": "0.000938",
+        "high_priority_access_destroyed": false
+      },
+      {
+        "defect_id": "DEFECT-7A787E2A97A3",
+        "code": "CON",
+        "dimension_owner": "conceptual_stance_fidelity",
+        "severity": "major",
+        "severity_basis": "materially_misleading",
+        "retrieval_consequence": "misleads",
+        "defect_kind": "generic",
+        "affected_item_ids": [
+          "NODE-2846E8762D3D"
+        ],
+        "affected_source_sections": [],
+        "affected_structural_sections": [
+          "NODE-D1B4995AD44A"
+        ],
+        "root_cause_family": "historical-defect-7a787e2a97a3",
+        "affected_count": 1,
+        "applicable_count": 1904,
+        "affected_rate": "0.000525",
+        "source_section_denominator": 17,
+        "source_section_rate": "0",
+        "structural_section_denominator": 1066,
+        "structural_section_rate": "0.000938",
+        "high_priority_access_destroyed": false
+      },
+      {
+        "defect_id": "DEFECT-7EE66DEDC4A3",
+        "code": "CON",
+        "dimension_owner": "conceptual_stance_fidelity",
+        "severity": "major",
+        "severity_basis": "materially_misleading",
+        "retrieval_consequence": "misleads",
+        "defect_kind": "generic",
+        "affected_item_ids": [
+          "NODE-8C2C6698A889"
+        ],
+        "affected_source_sections": [],
+        "affected_structural_sections": [
+          "NODE-8C2C6698A889"
+        ],
+        "root_cause_family": "historical-defect-7ee66dedc4a3",
+        "affected_count": 1,
+        "applicable_count": 1904,
+        "affected_rate": "0.000525",
+        "source_section_denominator": 17,
+        "source_section_rate": "0",
+        "structural_section_denominator": 1066,
+        "structural_section_rate": "0.000938",
+        "high_priority_access_destroyed": false
+      },
+      {
+        "defect_id": "DEFECT-8408955E0BC9",
+        "code": "CON",
+        "dimension_owner": "conceptual_stance_fidelity",
+        "severity": "major",
+        "severity_basis": "materially_misleading",
+        "retrieval_consequence": "misleads",
+        "defect_kind": "generic",
+        "affected_item_ids": [
+          "NODE-85D4066BA286"
+        ],
+        "affected_source_sections": [],
+        "affected_structural_sections": [
+          "NODE-872D71C131DC"
+        ],
+        "root_cause_family": "historical-defect-8408955e0bc9",
+        "affected_count": 1,
+        "applicable_count": 1904,
+        "affected_rate": "0.000525",
+        "source_section_denominator": 17,
+        "source_section_rate": "0",
+        "structural_section_denominator": 1066,
+        "structural_section_rate": "0.000938",
+        "high_priority_access_destroyed": false
+      },
+      {
+        "defect_id": "DEFECT-863BE8157AB9",
+        "code": "CON",
+        "dimension_owner": "conceptual_stance_fidelity",
+        "severity": "major",
+        "severity_basis": "materially_misleading",
+        "retrieval_consequence": "misleads",
+        "defect_kind": "generic",
+        "affected_item_ids": [
+          "NODE-7C740C31A3DD"
+        ],
+        "affected_source_sections": [],
+        "affected_structural_sections": [
+          "NODE-6BDF2C120B88"
+        ],
+        "root_cause_family": "historical-defect-863be8157ab9",
+        "affected_count": 1,
+        "applicable_count": 1904,
+        "affected_rate": "0.000525",
+        "source_section_denominator": 17,
+        "source_section_rate": "0",
+        "structural_section_denominator": 1066,
+        "structural_section_rate": "0.000938",
+        "high_priority_access_destroyed": false
+      },
+      {
+        "defect_id": "DEFECT-8F4BAA50CC69",
+        "code": "CON",
+        "dimension_owner": "conceptual_stance_fidelity",
+        "severity": "major",
+        "severity_basis": "materially_misleading",
+        "retrieval_consequence": "misleads",
+        "defect_kind": "generic",
+        "affected_item_ids": [
+          "NODE-11B72395CD19"
+        ],
+        "affected_source_sections": [],
+        "affected_structural_sections": [
+          "NODE-D1B4995AD44A"
+        ],
+        "root_cause_family": "historical-defect-8f4baa50cc69",
+        "affected_count": 1,
+        "applicable_count": 1904,
+        "affected_rate": "0.000525",
+        "source_section_denominator": 17,
+        "source_section_rate": "0",
+        "structural_section_denominator": 1066,
+        "structural_section_rate": "0.000938",
+        "high_priority_access_destroyed": false
+      },
+      {
+        "defect_id": "DEFECT-9669E86FFAB4",
+        "code": "CON",
+        "dimension_owner": "conceptual_stance_fidelity",
+        "severity": "major",
+        "severity_basis": "materially_misleading",
+        "retrieval_consequence": "misleads",
+        "defect_kind": "generic",
+        "affected_item_ids": [
+          "NODE-2D2655519B99"
+        ],
+        "affected_source_sections": [],
+        "affected_structural_sections": [
+          "NODE-9269A92A9513"
+        ],
+        "root_cause_family": "historical-defect-9669e86ffab4",
+        "affected_count": 1,
+        "applicable_count": 1904,
+        "affected_rate": "0.000525",
+        "source_section_denominator": 17,
+        "source_section_rate": "0",
+        "structural_section_denominator": 1066,
+        "structural_section_rate": "0.000938",
+        "high_priority_access_destroyed": false
+      },
+      {
+        "defect_id": "DEFECT-9FC8B358FEE5",
+        "code": "CON",
+        "dimension_owner": "conceptual_stance_fidelity",
+        "severity": "major",
+        "severity_basis": "materially_misleading",
+        "retrieval_consequence": "misleads",
+        "defect_kind": "generic",
+        "affected_item_ids": [
+          "NODE-BF87277EC43B"
+        ],
+        "affected_source_sections": [],
+        "affected_structural_sections": [
+          "NODE-911A90FDFD1A"
+        ],
+        "root_cause_family": "historical-defect-9fc8b358fee5",
+        "affected_count": 1,
+        "applicable_count": 1904,
+        "affected_rate": "0.000525",
+        "source_section_denominator": 17,
+        "source_section_rate": "0",
+        "structural_section_denominator": 1066,
+        "structural_section_rate": "0.000938",
+        "high_priority_access_destroyed": false
+      },
+      {
+        "defect_id": "DEFECT-A71820FEC312",
+        "code": "CON",
+        "dimension_owner": "conceptual_stance_fidelity",
+        "severity": "major",
+        "severity_basis": "materially_misleading",
+        "retrieval_consequence": "misleads",
+        "defect_kind": "generic",
+        "affected_item_ids": [
+          "NODE-350640308393"
+        ],
+        "affected_source_sections": [],
+        "affected_structural_sections": [
+          "NODE-350640308393"
+        ],
+        "root_cause_family": "historical-defect-a71820fec312",
+        "affected_count": 1,
+        "applicable_count": 1904,
+        "affected_rate": "0.000525",
+        "source_section_denominator": 17,
+        "source_section_rate": "0",
+        "structural_section_denominator": 1066,
+        "structural_section_rate": "0.000938",
+        "high_priority_access_destroyed": false
+      },
+      {
+        "defect_id": "DEFECT-BE0424DE187A",
+        "code": "CON",
+        "dimension_owner": "conceptual_stance_fidelity",
+        "severity": "major",
+        "severity_basis": "materially_misleading",
+        "retrieval_consequence": "misleads",
+        "defect_kind": "generic",
+        "affected_item_ids": [
+          "NODE-B8417B869D9F"
+        ],
+        "affected_source_sections": [],
+        "affected_structural_sections": [
+          "NODE-B8417B869D9F"
+        ],
+        "root_cause_family": "historical-defect-be0424de187a",
+        "affected_count": 1,
+        "applicable_count": 1904,
+        "affected_rate": "0.000525",
+        "source_section_denominator": 17,
+        "source_section_rate": "0",
+        "structural_section_denominator": 1066,
+        "structural_section_rate": "0.000938",
+        "high_priority_access_destroyed": false
+      },
+      {
+        "defect_id": "DEFECT-C49007E7E180",
+        "code": "CON",
+        "dimension_owner": "conceptual_stance_fidelity",
+        "severity": "major",
+        "severity_basis": "materially_misleading",
+        "retrieval_consequence": "misleads",
+        "defect_kind": "generic",
+        "affected_item_ids": [
+          "NODE-808DEB9A2949"
+        ],
+        "affected_source_sections": [],
+        "affected_structural_sections": [
+          "NODE-356DCDA13018"
+        ],
+        "root_cause_family": "historical-defect-c49007e7e180",
+        "affected_count": 1,
+        "applicable_count": 1904,
+        "affected_rate": "0.000525",
+        "source_section_denominator": 17,
+        "source_section_rate": "0",
+        "structural_section_denominator": 1066,
+        "structural_section_rate": "0.000938",
+        "high_priority_access_destroyed": false
+      },
+      {
+        "defect_id": "DEFECT-C78C6F0ECC3A",
+        "code": "XRF",
+        "dimension_owner": "findability_navigation",
+        "severity": "major",
+        "severity_basis": "blocked_retrieval",
+        "retrieval_consequence": "blocks",
+        "defect_kind": "substitutive_see",
+        "affected_item_ids": [
+          "SUBJ-30CAE18651DF"
+        ],
+        "affected_source_sections": [],
+        "affected_structural_sections": [
+          "NODE-51B9E01DBA87",
+          "NODE-6AA1F6EEE8AC",
+          "NODE-F73CD065C43A"
+        ],
+        "root_cause_family": "substitutive_see_serfdom",
+        "affected_count": 1,
+        "applicable_count": 1366,
+        "affected_rate": "0.000732",
+        "source_section_denominator": 17,
+        "source_section_rate": "0",
+        "structural_section_denominator": 1066,
+        "structural_section_rate": "0.002814",
+        "high_priority_access_destroyed": true
+      },
+      {
+        "defect_id": "DEFECT-CC86E1CF5D6C",
+        "code": "STA",
+        "dimension_owner": "conceptual_stance_fidelity",
+        "severity": "major",
+        "severity_basis": "materially_misleading",
+        "retrieval_consequence": "misleads",
+        "defect_kind": "stance_reversal",
+        "affected_item_ids": [
+          "NODE-A92C26FD878B"
+        ],
+        "affected_source_sections": [],
+        "affected_structural_sections": [
+          "NODE-0DCB39ED965D"
+        ],
+        "root_cause_family": "historical-defect-cc86e1cf5d6c",
+        "affected_count": 1,
+        "applicable_count": 1904,
+        "affected_rate": "0.000525",
+        "source_section_denominator": 17,
+        "source_section_rate": "0",
+        "structural_section_denominator": 1066,
+        "structural_section_rate": "0.000938",
+        "high_priority_access_destroyed": false
+      },
+      {
+        "defect_id": "DEFECT-CD3C2076320B",
+        "code": "CON",
+        "dimension_owner": "conceptual_stance_fidelity",
+        "severity": "major",
+        "severity_basis": "materially_misleading",
+        "retrieval_consequence": "misleads",
+        "defect_kind": "generic",
+        "affected_item_ids": [
+          "NODE-84D205EE3593"
+        ],
+        "affected_source_sections": [],
+        "affected_structural_sections": [
+          "NODE-C3068C3AAF4E"
+        ],
+        "root_cause_family": "historical-defect-cd3c2076320b",
+        "affected_count": 1,
+        "applicable_count": 1904,
+        "affected_rate": "0.000525",
+        "source_section_denominator": 17,
+        "source_section_rate": "0",
+        "structural_section_denominator": 1066,
+        "structural_section_rate": "0.000938",
+        "high_priority_access_destroyed": false
+      },
+      {
+        "defect_id": "DEFECT-CF748BB0823A",
+        "code": "CON",
+        "dimension_owner": "conceptual_stance_fidelity",
+        "severity": "major",
+        "severity_basis": "materially_misleading",
+        "retrieval_consequence": "misleads",
+        "defect_kind": "generic",
+        "affected_item_ids": [
+          "NODE-72A83393F07D"
+        ],
+        "affected_source_sections": [],
+        "affected_structural_sections": [
+          "NODE-72A83393F07D"
+        ],
+        "root_cause_family": "historical-defect-cf748bb0823a",
+        "affected_count": 1,
+        "applicable_count": 1904,
+        "affected_rate": "0.000525",
+        "source_section_denominator": 17,
+        "source_section_rate": "0",
+        "structural_section_denominator": 1066,
+        "structural_section_rate": "0.000938",
+        "high_priority_access_destroyed": false
+      },
+      {
+        "defect_id": "DEFECT-D46CFFA23B43",
+        "code": "STA",
+        "dimension_owner": "conceptual_stance_fidelity",
+        "severity": "major",
+        "severity_basis": "materially_misleading",
+        "retrieval_consequence": "misleads",
+        "defect_kind": "stance_reversal",
+        "affected_item_ids": [
+          "NODE-6B8B43E45D91"
+        ],
+        "affected_source_sections": [],
+        "affected_structural_sections": [
+          "NODE-AC34C6C6F8D3"
+        ],
+        "root_cause_family": "historical-defect-d46cffa23b43",
+        "affected_count": 1,
+        "applicable_count": 1904,
+        "affected_rate": "0.000525",
+        "source_section_denominator": 17,
+        "source_section_rate": "0",
+        "structural_section_denominator": 1066,
+        "structural_section_rate": "0.000938",
+        "high_priority_access_destroyed": false
+      },
+      {
+        "defect_id": "DEFECT-D8CFA8C8F9D9",
+        "code": "CON",
+        "dimension_owner": "conceptual_stance_fidelity",
+        "severity": "major",
+        "severity_basis": "materially_misleading",
+        "retrieval_consequence": "misleads",
+        "defect_kind": "generic",
+        "affected_item_ids": [
+          "NODE-B6585A3F7A88"
+        ],
+        "affected_source_sections": [],
+        "affected_structural_sections": [
+          "NODE-4133FFED7144"
+        ],
+        "root_cause_family": "historical-defect-d8cfa8c8f9d9",
+        "affected_count": 1,
+        "applicable_count": 1904,
+        "affected_rate": "0.000525",
+        "source_section_denominator": 17,
+        "source_section_rate": "0",
+        "structural_section_denominator": 1066,
+        "structural_section_rate": "0.000938",
+        "high_priority_access_destroyed": false
+      },
+      {
+        "defect_id": "DEFECT-E024BFCEE8CC",
+        "code": "CON",
+        "dimension_owner": "conceptual_stance_fidelity",
+        "severity": "major",
+        "severity_basis": "materially_misleading",
+        "retrieval_consequence": "misleads",
+        "defect_kind": "generic",
+        "affected_item_ids": [
+          "NODE-74CB22EB95E7"
+        ],
+        "affected_source_sections": [],
+        "affected_structural_sections": [
+          "NODE-74CB22EB95E7"
+        ],
+        "root_cause_family": "historical-defect-e024bfcee8cc",
+        "affected_count": 1,
+        "applicable_count": 1904,
+        "affected_rate": "0.000525",
+        "source_section_denominator": 17,
+        "source_section_rate": "0",
+        "structural_section_denominator": 1066,
+        "structural_section_rate": "0.000938",
+        "high_priority_access_destroyed": false
+      },
+      {
+        "defect_id": "DEFECT-E7763D3D67F0",
+        "code": "CON",
+        "dimension_owner": "conceptual_stance_fidelity",
+        "severity": "major",
+        "severity_basis": "materially_misleading",
+        "retrieval_consequence": "misleads",
+        "defect_kind": "generic",
+        "affected_item_ids": [
+          "NODE-F4A06CFD689E"
+        ],
+        "affected_source_sections": [],
+        "affected_structural_sections": [
+          "NODE-F4A06CFD689E"
+        ],
+        "root_cause_family": "historical-defect-e7763d3d67f0",
+        "affected_count": 1,
+        "applicable_count": 1904,
+        "affected_rate": "0.000525",
+        "source_section_denominator": 17,
+        "source_section_rate": "0",
+        "structural_section_denominator": 1066,
+        "structural_section_rate": "0.000938",
+        "high_priority_access_destroyed": false
+      },
+      {
+        "defect_id": "DEFECT-ED2D805AC125",
+        "code": "CON",
+        "dimension_owner": "conceptual_stance_fidelity",
+        "severity": "major",
+        "severity_basis": "materially_misleading",
+        "retrieval_consequence": "misleads",
+        "defect_kind": "generic",
+        "affected_item_ids": [
+          "NODE-071ACA2D6408"
+        ],
+        "affected_source_sections": [],
+        "affected_structural_sections": [
+          "NODE-071ACA2D6408"
+        ],
+        "root_cause_family": "historical-defect-ed2d805ac125",
+        "affected_count": 1,
+        "applicable_count": 1904,
+        "affected_rate": "0.000525",
+        "source_section_denominator": 17,
+        "source_section_rate": "0",
+        "structural_section_denominator": 1066,
+        "structural_section_rate": "0.000938",
+        "high_priority_access_destroyed": false
+      },
+      {
+        "defect_id": "DEFECT-F2790FB9AD08",
+        "code": "CON",
+        "dimension_owner": "conceptual_stance_fidelity",
+        "severity": "major",
+        "severity_basis": "materially_misleading",
+        "retrieval_consequence": "misleads",
+        "defect_kind": "generic",
+        "affected_item_ids": [
+          "NODE-7F548C32E062"
+        ],
+        "affected_source_sections": [],
+        "affected_structural_sections": [
+          "NODE-7F548C32E062"
+        ],
+        "root_cause_family": "historical-defect-f2790fb9ad08",
+        "affected_count": 1,
+        "applicable_count": 1904,
+        "affected_rate": "0.000525",
+        "source_section_denominator": 17,
+        "source_section_rate": "0",
+        "structural_section_denominator": 1066,
+        "structural_section_rate": "0.000938",
+        "high_priority_access_destroyed": false
+      },
+      {
+        "defect_id": "DEFECT-F6E512517570",
+        "code": "CON",
+        "dimension_owner": "conceptual_stance_fidelity",
+        "severity": "major",
+        "severity_basis": "materially_misleading",
+        "retrieval_consequence": "misleads",
+        "defect_kind": "generic",
+        "affected_item_ids": [
+          "NODE-6B167299A04A"
+        ],
+        "affected_source_sections": [],
+        "affected_structural_sections": [
+          "NODE-9CCDC719EB8C"
+        ],
+        "root_cause_family": "historical-defect-f6e512517570",
+        "affected_count": 1,
+        "applicable_count": 1904,
+        "affected_rate": "0.000525",
+        "source_section_denominator": 17,
+        "source_section_rate": "0",
+        "structural_section_denominator": 1066,
+        "structural_section_rate": "0.000938",
+        "high_priority_access_destroyed": false
+      },
+      {
+        "defect_id": "DEFECT-F6F12B357B19",
+        "code": "CON",
+        "dimension_owner": "conceptual_stance_fidelity",
+        "severity": "major",
+        "severity_basis": "materially_misleading",
+        "retrieval_consequence": "misleads",
+        "defect_kind": "generic",
+        "affected_item_ids": [
+          "NODE-1A9FD5E52464"
+        ],
+        "affected_source_sections": [],
+        "affected_structural_sections": [
+          "NODE-6BDF2C120B88"
+        ],
+        "root_cause_family": "historical-defect-f6f12b357b19",
+        "affected_count": 1,
+        "applicable_count": 1904,
+        "affected_rate": "0.000525",
+        "source_section_denominator": 17,
+        "source_section_rate": "0",
+        "structural_section_denominator": 1066,
+        "structural_section_rate": "0.000938",
+        "high_priority_access_destroyed": false
+      },
+      {
+        "defect_id": "DEFECT-F77697CFAF2F",
+        "code": "CON",
+        "dimension_owner": "conceptual_stance_fidelity",
+        "severity": "major",
+        "severity_basis": "materially_misleading",
+        "retrieval_consequence": "misleads",
+        "defect_kind": "generic",
+        "affected_item_ids": [
+          "NODE-BE834BFDA8F3"
+        ],
+        "affected_source_sections": [],
+        "affected_structural_sections": [
+          "NODE-0DCB39ED965D"
+        ],
+        "root_cause_family": "historical-defect-f77697cfaf2f",
+        "affected_count": 1,
+        "applicable_count": 1904,
+        "affected_rate": "0.000525",
+        "source_section_denominator": 17,
+        "source_section_rate": "0",
+        "structural_section_denominator": 1066,
+        "structural_section_rate": "0.000938",
+        "high_priority_access_destroyed": false
+      },
+      {
+        "defect_id": "DEFECT-F8FC023E0058",
+        "code": "CON",
+        "dimension_owner": "conceptual_stance_fidelity",
+        "severity": "major",
+        "severity_basis": "materially_misleading",
+        "retrieval_consequence": "misleads",
+        "defect_kind": "generic",
+        "affected_item_ids": [
+          "NODE-F817F1F47492"
+        ],
+        "affected_source_sections": [],
+        "affected_structural_sections": [
+          "NODE-9269A92A9513"
+        ],
+        "root_cause_family": "historical-defect-f8fc023e0058",
+        "affected_count": 1,
+        "applicable_count": 1904,
+        "affected_rate": "0.000525",
+        "source_section_denominator": 17,
+        "source_section_rate": "0",
+        "structural_section_denominator": 1066,
+        "structural_section_rate": "0.000938",
+        "high_priority_access_destroyed": false
+      }
+    ]
+  }
+}

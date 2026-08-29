@@ -1,0 +1,1385 @@
+{
+  "schema_version": "subject-index-score-migration-v2",
+  "evaluation_id": "oxford-history-french-revolution-2002-indexerlabs-truncated",
+  "migration_timestamp": "2026-08-29T05:00:04Z",
+  "tool": {
+    "name": "dimension_score_cli.py",
+    "version": "dimension-score-cli-v5.1.0"
+  },
+  "methodology": {
+    "repository": "https://github.com/jcamden/evaluate-subject-index",
+    "commit_sha": "31066101892d30aab83ea8963ecd717605215678",
+    "previous_rubric_version": "subject-index-rubric-v4",
+    "migrated_rubric_version": "subject-index-rubric-v5",
+    "calculation_profile": "subject-index-dimension-calculation-v1"
+  },
+  "from": {
+    "rubric_version": "subject-index-rubric-v4",
+    "result_schema_version": "subject-index-evaluation-result-v5",
+    "historical_result_path": "../evaluation-result.json",
+    "historical_result_sha256": "b05c49b0b05079a45c00c099f2e2bd671a935fef7b047c9264531ca22c1e2161",
+    "total_score": 69.5,
+    "scorecard": [
+      {
+        "dimension_id": "meaningful_coverage",
+        "rating": 3.5,
+        "points": 14
+      },
+      {
+        "dimension_id": "editorial_selectivity",
+        "rating": 3.3333,
+        "points": 10
+      },
+      {
+        "dimension_id": "conceptual_stance_fidelity",
+        "rating": 4,
+        "points": 12
+      },
+      {
+        "dimension_id": "page_reference_reliability",
+        "rating": 3.5,
+        "points": 17.5
+      },
+      {
+        "dimension_id": "findability_navigation",
+        "rating": 3,
+        "points": 12
+      },
+      {
+        "dimension_id": "mechanics_consistency",
+        "rating": 4,
+        "points": 4
+      }
+    ]
+  },
+  "to": {
+    "rubric_version": "subject-index-rubric-v5",
+    "calculation_profile": "subject-index-dimension-calculation-v1",
+    "calculation_schema_version": "subject-index-dimension-calculations-v1",
+    "target_result_schema_version": "subject-index-evaluation-result-v6",
+    "calculation_path": "dimension-calculations.v1.json",
+    "calculation_file_sha256": "0132673307f8f0476cd8f2b18cc6f31809bf32a301a65ab099a5fb942e68b73e",
+    "calculation_canonical_sha256": "d06f2a7b7e7803d97a09798ff62b0547e9b2eb772499613628f07bca455d6412",
+    "total_score": 72.5,
+    "scorecard": [
+      {
+        "dimension_id": "meaningful_coverage",
+        "rating": 3.5,
+        "points": 14
+      },
+      {
+        "dimension_id": "editorial_selectivity",
+        "rating": 3.6667,
+        "points": 11
+      },
+      {
+        "dimension_id": "conceptual_stance_fidelity",
+        "rating": 4,
+        "points": 12
+      },
+      {
+        "dimension_id": "page_reference_reliability",
+        "rating": 3.5,
+        "points": 17.5
+      },
+      {
+        "dimension_id": "findability_navigation",
+        "rating": 3.5,
+        "points": 14
+      },
+      {
+        "dimension_id": "mechanics_consistency",
+        "rating": 4,
+        "points": 4
+      }
+    ]
+  },
+  "total_delta": 3,
+  "dimension_comparison": [
+    {
+      "dimension_id": "meaningful_coverage",
+      "previous": {
+        "dimension_id": "meaningful_coverage",
+        "rating": 3.5,
+        "points": 14
+      },
+      "migrated": {
+        "dimension_id": "meaningful_coverage",
+        "rating": 3.5,
+        "points": 14
+      },
+      "rating_delta": 0,
+      "points_delta": 0
+    },
+    {
+      "dimension_id": "editorial_selectivity",
+      "previous": {
+        "dimension_id": "editorial_selectivity",
+        "rating": 3.3333,
+        "points": 10
+      },
+      "migrated": {
+        "dimension_id": "editorial_selectivity",
+        "rating": 3.6667,
+        "points": 11
+      },
+      "rating_delta": 0.3334,
+      "points_delta": 1
+    },
+    {
+      "dimension_id": "conceptual_stance_fidelity",
+      "previous": {
+        "dimension_id": "conceptual_stance_fidelity",
+        "rating": 4,
+        "points": 12
+      },
+      "migrated": {
+        "dimension_id": "conceptual_stance_fidelity",
+        "rating": 4,
+        "points": 12
+      },
+      "rating_delta": 0,
+      "points_delta": 0
+    },
+    {
+      "dimension_id": "page_reference_reliability",
+      "previous": {
+        "dimension_id": "page_reference_reliability",
+        "rating": 3.5,
+        "points": 17.5
+      },
+      "migrated": {
+        "dimension_id": "page_reference_reliability",
+        "rating": 3.5,
+        "points": 17.5
+      },
+      "rating_delta": 0,
+      "points_delta": 0
+    },
+    {
+      "dimension_id": "findability_navigation",
+      "previous": {
+        "dimension_id": "findability_navigation",
+        "rating": 3,
+        "points": 12
+      },
+      "migrated": {
+        "dimension_id": "findability_navigation",
+        "rating": 3.5,
+        "points": 14
+      },
+      "rating_delta": 0.5,
+      "points_delta": 2
+    },
+    {
+      "dimension_id": "mechanics_consistency",
+      "previous": {
+        "dimension_id": "mechanics_consistency",
+        "rating": 4,
+        "points": 4
+      },
+      "migrated": {
+        "dimension_id": "mechanics_consistency",
+        "rating": 4,
+        "points": 4
+      },
+      "rating_delta": 0,
+      "points_delta": 0
+    }
+  ],
+  "input_ledgers": [
+    {
+      "role": "locator_audit[0]",
+      "path": "../locator-audits/locator-audit.CHUNK-001.v1.json",
+      "sha256": "d66591194f56481dc978bd768ca48f85c6840692ded12f873d9917a6ed6892a3",
+      "schema_version": "locator-audit-v1"
+    },
+    {
+      "role": "locator_audit[1]",
+      "path": "../locator-audits/locator-audit.CHUNK-002.v1.json",
+      "sha256": "b187e66b0e3129de46973e0fa50d5ce81e90ab4ff1992ce1ca2d2cf0cb96674e",
+      "schema_version": "locator-audit-v1"
+    },
+    {
+      "role": "locator_audit[2]",
+      "path": "../locator-audits/locator-audit.CHUNK-003.v1.json",
+      "sha256": "f846efe0db7fc515a8f5f7f5fcad92fdb2f0c66cd0d52712f07c3a928f756186",
+      "schema_version": "locator-audit-v1"
+    },
+    {
+      "role": "locator_audit[3]",
+      "path": "../locator-audits/locator-audit.CHUNK-004.v1.json",
+      "sha256": "9f75154ec074094e2a2d3368a819da489e99f00f96eb9b7c8c2f452f3edcda6d",
+      "schema_version": "locator-audit-v1"
+    },
+    {
+      "role": "locator_audit[4]",
+      "path": "../locator-audits/locator-audit.CHUNK-005.v1.json",
+      "sha256": "65b6fde2dbf00a58f9280c0547abbd48a3052b2ff167695499b3fcf6cecf2b1d",
+      "schema_version": "locator-audit-v1"
+    },
+    {
+      "role": "locator_audit[5]",
+      "path": "../locator-audits/locator-audit.CHUNK-006.v1.json",
+      "sha256": "35b9c5a38333976ea80957ac0523c0bb7a46841d53b72266ca417d568a4b6f01",
+      "schema_version": "locator-audit-v1"
+    },
+    {
+      "role": "locator_audit[6]",
+      "path": "../locator-audits/locator-audit.CHUNK-007.v1.json",
+      "sha256": "3b55c61c4feca84e74f025d39b5af1f41b63ca1dc4c57b4f254d32624f7f583c",
+      "schema_version": "locator-audit-v1"
+    },
+    {
+      "role": "locator_audit[7]",
+      "path": "../locator-audits/locator-audit.CHUNK-008.v1.json",
+      "sha256": "7f2efe45090b4e41ff4022a1aca2c391bdc20395cf6561743416e73ac5794220",
+      "schema_version": "locator-audit-v1"
+    },
+    {
+      "role": "locator_audit[8]",
+      "path": "../locator-audits/locator-audit.CHUNK-009.v1.json",
+      "sha256": "bef81ecae72df941c189a733f92b6d7092fe6fa612e4d0a87fd40f2961844c90",
+      "schema_version": "locator-audit-v1"
+    },
+    {
+      "role": "locator_audit[9]",
+      "path": "../locator-audits/locator-audit.CHUNK-010.v1.json",
+      "sha256": "dc03eca223c12890653e29201a1b0131143d6dd3a1de5afd113015c8f096d67a",
+      "schema_version": "locator-audit-v1"
+    },
+    {
+      "role": "locator_audit[10]",
+      "path": "../locator-audits/locator-audit.CHUNK-011.v1.json",
+      "sha256": "7de1fbc85177567f2a7fb51bfdf3d7fc73402bcbf7551c83d46211558bf357ca",
+      "schema_version": "locator-audit-v1"
+    },
+    {
+      "role": "locator_audit[11]",
+      "path": "../locator-audits/locator-audit.CHUNK-012.v1.json",
+      "sha256": "ce35848a1385c0a44072614d9ad18568a69778cc451985a9e56d9968035c4820",
+      "schema_version": "locator-audit-v1"
+    },
+    {
+      "role": "locator_audit[12]",
+      "path": "../locator-audits/locator-audit.CHUNK-013.v1.json",
+      "sha256": "4f0b4c108b3527946766d9c44ae7ef8fcf4fe3b6b5462398d5d8e46a810ab19f",
+      "schema_version": "locator-audit-v1"
+    },
+    {
+      "role": "locator_audit[13]",
+      "path": "../locator-audits/locator-audit.CHUNK-014.v1.json",
+      "sha256": "22954bb2c6288e76ad8d8da3ce93f9b2934540224ada5d070dc6b53a5237161a",
+      "schema_version": "locator-audit-v1"
+    },
+    {
+      "role": "locator_audit[14]",
+      "path": "../locator-audits/locator-audit.CHUNK-015.v1.json",
+      "sha256": "8e290836c0110df40d0937faf2294181608a0795a7639ef2365dce949c2b4ec3",
+      "schema_version": "locator-audit-v1"
+    },
+    {
+      "role": "locator_audit[15]",
+      "path": "../locator-audits/locator-audit.CHUNK-016.v1.json",
+      "sha256": "a74b21d11abecd12041e92e3172b3cfc7980071ca4f5a7e1d5016666be24baa9",
+      "schema_version": "locator-audit-v1"
+    },
+    {
+      "role": "locator_audit[16]",
+      "path": "../locator-audits/locator-audit.CHUNK-017.v1.json",
+      "sha256": "32f48b0c04aa00aaaa377ca21b4a5f0052404e55643bdc6b61a1ffc94487e19c",
+      "schema_version": "locator-audit-v1"
+    },
+    {
+      "role": "missing_access_audit[0]",
+      "path": "../missing-access-audits/missing-access-audit.CHUNK-001.v1.json",
+      "sha256": "e308a75e51dead7189e7077b5e766af2d1b2063d0c66992f86a543ddde98f054",
+      "schema_version": "missing-access-audit-v1"
+    },
+    {
+      "role": "missing_access_audit[1]",
+      "path": "../missing-access-audits/missing-access-audit.CHUNK-002.v1.json",
+      "sha256": "5a321cb247d189d6e0e93b5da20eecd311795fc52b2d9eeb4ad282681e2aabc4",
+      "schema_version": "missing-access-audit-v1"
+    },
+    {
+      "role": "missing_access_audit[2]",
+      "path": "../missing-access-audits/missing-access-audit.CHUNK-003.v1.json",
+      "sha256": "696e5494554bea45d0db37e5c1d38d9cb36f8c02b19042be2b8b1a825e2b4c9e",
+      "schema_version": "missing-access-audit-v1"
+    },
+    {
+      "role": "missing_access_audit[3]",
+      "path": "../missing-access-audits/missing-access-audit.CHUNK-004.v1.json",
+      "sha256": "bd4e12ffcf015f09ada2fa9fc25bf7864d5426fd95932b8cdc225b5876aa5a56",
+      "schema_version": "missing-access-audit-v1"
+    },
+    {
+      "role": "missing_access_audit[4]",
+      "path": "../missing-access-audits/missing-access-audit.CHUNK-005.v1.json",
+      "sha256": "42f734933dab9850f7394d0066ad794af165c7026aa76b3506f09ceaefd2ced7",
+      "schema_version": "missing-access-audit-v1"
+    },
+    {
+      "role": "missing_access_audit[5]",
+      "path": "../missing-access-audits/missing-access-audit.CHUNK-006.v1.json",
+      "sha256": "b754ff8491c991ff2b6b8893d82058adbe76af05f75263f9e426bdc63dc92e3c",
+      "schema_version": "missing-access-audit-v1"
+    },
+    {
+      "role": "missing_access_audit[6]",
+      "path": "../missing-access-audits/missing-access-audit.CHUNK-007.v1.json",
+      "sha256": "4d9662495fc1bde1f809587958b01092ee75df7c1594bd7bef4fdb144ca5857a",
+      "schema_version": "missing-access-audit-v1"
+    },
+    {
+      "role": "missing_access_audit[7]",
+      "path": "../missing-access-audits/missing-access-audit.CHUNK-008.v1.json",
+      "sha256": "d30cbea03bc5db787745d10138949250c19b5d2ae09781452acb092298b54b71",
+      "schema_version": "missing-access-audit-v1"
+    },
+    {
+      "role": "missing_access_audit[8]",
+      "path": "../missing-access-audits/missing-access-audit.CHUNK-009.v1.json",
+      "sha256": "20904f8b847a8dba58b81d1e4abf57c26db5249f696a494da57bfefc9bd7fd4d",
+      "schema_version": "missing-access-audit-v1"
+    },
+    {
+      "role": "missing_access_audit[9]",
+      "path": "../missing-access-audits/missing-access-audit.CHUNK-010.v1.json",
+      "sha256": "dc549d4cd8920e58c19db6a216d17277d25b4656e4eddd0267252b93966e1e94",
+      "schema_version": "missing-access-audit-v1"
+    },
+    {
+      "role": "missing_access_audit[10]",
+      "path": "../missing-access-audits/missing-access-audit.CHUNK-011.v1.json",
+      "sha256": "c8aecffe3720c02268fbab172023bf54763242125ae33dde60058e00ef25538e",
+      "schema_version": "missing-access-audit-v1"
+    },
+    {
+      "role": "missing_access_audit[11]",
+      "path": "../missing-access-audits/missing-access-audit.CHUNK-012.v1.json",
+      "sha256": "2f74050e3d02521ea2abf18e8fcfc53a73178cc6feb35c227bb6d1bbf4c19438",
+      "schema_version": "missing-access-audit-v1"
+    },
+    {
+      "role": "missing_access_audit[12]",
+      "path": "../missing-access-audits/missing-access-audit.CHUNK-013.v1.json",
+      "sha256": "ac043de54830b2f50097e2b29d7a70e35d5f3a45da300f0d481f77c608dfe416",
+      "schema_version": "missing-access-audit-v1"
+    },
+    {
+      "role": "missing_access_audit[13]",
+      "path": "../missing-access-audits/missing-access-audit.CHUNK-014.v1.json",
+      "sha256": "d0d7cb3c207f013b3ca98bc551771a6c6771fa2a0ac927611cf15d7bc7f04cbe",
+      "schema_version": "missing-access-audit-v1"
+    },
+    {
+      "role": "missing_access_audit[14]",
+      "path": "../missing-access-audits/missing-access-audit.CHUNK-015.v1.json",
+      "sha256": "5439e2d2d6119ae98c0c56b85c20c63fdeaf2abd162d460bbf6ec34542f5de9a",
+      "schema_version": "missing-access-audit-v1"
+    },
+    {
+      "role": "missing_access_audit[15]",
+      "path": "../missing-access-audits/missing-access-audit.CHUNK-016.v1.json",
+      "sha256": "49cabb90e89c56a1b3055314c4fbbff3d3d5ef48ec8eca4781ff1f7259a878e2",
+      "schema_version": "missing-access-audit-v1"
+    },
+    {
+      "role": "missing_access_audit[16]",
+      "path": "../missing-access-audits/missing-access-audit.CHUNK-017.v1.json",
+      "sha256": "91435fe286aad6fc165d1d175c8220840b399402ce5d662e151e1d96bcf1bafb",
+      "schema_version": "missing-access-audit-v1"
+    },
+    {
+      "role": "structure_audit",
+      "path": "../structure-audit.json",
+      "sha256": "1b52d62ae663902827599d8e795db39a841e8706c1ba65107a40aed60d8caddb",
+      "schema_version": "structure-audit-v3"
+    },
+    {
+      "role": "chunk_manifest",
+      "path": "../../source/chunk-manifest.json",
+      "sha256": "5287f421e1e7be03444c2681beb1e1d63d5d103a96ab770565e32411956ce396",
+      "schema_version": "chunk-manifest-v1"
+    },
+    {
+      "role": "migration_supplement",
+      "path": "v5-migration-supplement.v1.json",
+      "sha256": "093cc1d810ad54ae73de914801db5d5c16f0ca2d72f6cf6ec56cf1d2d6ef2ebf",
+      "schema_version": "subject-index-v5-migration-supplement-v1"
+    }
+  ],
+  "input_lineage": [
+    {
+      "role": "historical_v4_result",
+      "path": "../evaluation-result.json",
+      "sha256": "b05c49b0b05079a45c00c099f2e2bd671a935fef7b047c9264531ca22c1e2161",
+      "disposition": "unchanged"
+    },
+    {
+      "role": "dimension_calculation_input",
+      "path": "dimension-calculation-input.v1.json",
+      "sha256": "f4a78e58b3e48a8fd3ef1e07d05c7acae251f577e232b5a4b3d51e201866ac12",
+      "disposition": "unchanged"
+    },
+    {
+      "role": "locator_audit[0]",
+      "path": "../locator-audits/locator-audit.CHUNK-001.v1.json",
+      "sha256": "d66591194f56481dc978bd768ca48f85c6840692ded12f873d9917a6ed6892a3",
+      "disposition": "unchanged"
+    },
+    {
+      "role": "locator_audit[1]",
+      "path": "../locator-audits/locator-audit.CHUNK-002.v1.json",
+      "sha256": "b187e66b0e3129de46973e0fa50d5ce81e90ab4ff1992ce1ca2d2cf0cb96674e",
+      "disposition": "unchanged"
+    },
+    {
+      "role": "locator_audit[2]",
+      "path": "../locator-audits/locator-audit.CHUNK-003.v1.json",
+      "sha256": "f846efe0db7fc515a8f5f7f5fcad92fdb2f0c66cd0d52712f07c3a928f756186",
+      "disposition": "unchanged"
+    },
+    {
+      "role": "locator_audit[3]",
+      "path": "../locator-audits/locator-audit.CHUNK-004.v1.json",
+      "sha256": "9f75154ec074094e2a2d3368a819da489e99f00f96eb9b7c8c2f452f3edcda6d",
+      "disposition": "unchanged"
+    },
+    {
+      "role": "locator_audit[4]",
+      "path": "../locator-audits/locator-audit.CHUNK-005.v1.json",
+      "sha256": "65b6fde2dbf00a58f9280c0547abbd48a3052b2ff167695499b3fcf6cecf2b1d",
+      "disposition": "unchanged"
+    },
+    {
+      "role": "locator_audit[5]",
+      "path": "../locator-audits/locator-audit.CHUNK-006.v1.json",
+      "sha256": "35b9c5a38333976ea80957ac0523c0bb7a46841d53b72266ca417d568a4b6f01",
+      "disposition": "unchanged"
+    },
+    {
+      "role": "locator_audit[6]",
+      "path": "../locator-audits/locator-audit.CHUNK-007.v1.json",
+      "sha256": "3b55c61c4feca84e74f025d39b5af1f41b63ca1dc4c57b4f254d32624f7f583c",
+      "disposition": "unchanged"
+    },
+    {
+      "role": "locator_audit[7]",
+      "path": "../locator-audits/locator-audit.CHUNK-008.v1.json",
+      "sha256": "7f2efe45090b4e41ff4022a1aca2c391bdc20395cf6561743416e73ac5794220",
+      "disposition": "unchanged"
+    },
+    {
+      "role": "locator_audit[8]",
+      "path": "../locator-audits/locator-audit.CHUNK-009.v1.json",
+      "sha256": "bef81ecae72df941c189a733f92b6d7092fe6fa612e4d0a87fd40f2961844c90",
+      "disposition": "unchanged"
+    },
+    {
+      "role": "locator_audit[9]",
+      "path": "../locator-audits/locator-audit.CHUNK-010.v1.json",
+      "sha256": "dc03eca223c12890653e29201a1b0131143d6dd3a1de5afd113015c8f096d67a",
+      "disposition": "unchanged"
+    },
+    {
+      "role": "locator_audit[10]",
+      "path": "../locator-audits/locator-audit.CHUNK-011.v1.json",
+      "sha256": "7de1fbc85177567f2a7fb51bfdf3d7fc73402bcbf7551c83d46211558bf357ca",
+      "disposition": "unchanged"
+    },
+    {
+      "role": "locator_audit[11]",
+      "path": "../locator-audits/locator-audit.CHUNK-012.v1.json",
+      "sha256": "ce35848a1385c0a44072614d9ad18568a69778cc451985a9e56d9968035c4820",
+      "disposition": "unchanged"
+    },
+    {
+      "role": "locator_audit[12]",
+      "path": "../locator-audits/locator-audit.CHUNK-013.v1.json",
+      "sha256": "4f0b4c108b3527946766d9c44ae7ef8fcf4fe3b6b5462398d5d8e46a810ab19f",
+      "disposition": "unchanged"
+    },
+    {
+      "role": "locator_audit[13]",
+      "path": "../locator-audits/locator-audit.CHUNK-014.v1.json",
+      "sha256": "22954bb2c6288e76ad8d8da3ce93f9b2934540224ada5d070dc6b53a5237161a",
+      "disposition": "unchanged"
+    },
+    {
+      "role": "locator_audit[14]",
+      "path": "../locator-audits/locator-audit.CHUNK-015.v1.json",
+      "sha256": "8e290836c0110df40d0937faf2294181608a0795a7639ef2365dce949c2b4ec3",
+      "disposition": "unchanged"
+    },
+    {
+      "role": "locator_audit[15]",
+      "path": "../locator-audits/locator-audit.CHUNK-016.v1.json",
+      "sha256": "a74b21d11abecd12041e92e3172b3cfc7980071ca4f5a7e1d5016666be24baa9",
+      "disposition": "unchanged"
+    },
+    {
+      "role": "locator_audit[16]",
+      "path": "../locator-audits/locator-audit.CHUNK-017.v1.json",
+      "sha256": "32f48b0c04aa00aaaa377ca21b4a5f0052404e55643bdc6b61a1ffc94487e19c",
+      "disposition": "unchanged"
+    },
+    {
+      "role": "missing_access_audit[0]",
+      "path": "../missing-access-audits/missing-access-audit.CHUNK-001.v1.json",
+      "sha256": "e308a75e51dead7189e7077b5e766af2d1b2063d0c66992f86a543ddde98f054",
+      "disposition": "unchanged"
+    },
+    {
+      "role": "missing_access_audit[1]",
+      "path": "../missing-access-audits/missing-access-audit.CHUNK-002.v1.json",
+      "sha256": "5a321cb247d189d6e0e93b5da20eecd311795fc52b2d9eeb4ad282681e2aabc4",
+      "disposition": "unchanged"
+    },
+    {
+      "role": "missing_access_audit[2]",
+      "path": "../missing-access-audits/missing-access-audit.CHUNK-003.v1.json",
+      "sha256": "696e5494554bea45d0db37e5c1d38d9cb36f8c02b19042be2b8b1a825e2b4c9e",
+      "disposition": "unchanged"
+    },
+    {
+      "role": "missing_access_audit[3]",
+      "path": "../missing-access-audits/missing-access-audit.CHUNK-004.v1.json",
+      "sha256": "bd4e12ffcf015f09ada2fa9fc25bf7864d5426fd95932b8cdc225b5876aa5a56",
+      "disposition": "unchanged"
+    },
+    {
+      "role": "missing_access_audit[4]",
+      "path": "../missing-access-audits/missing-access-audit.CHUNK-005.v1.json",
+      "sha256": "42f734933dab9850f7394d0066ad794af165c7026aa76b3506f09ceaefd2ced7",
+      "disposition": "unchanged"
+    },
+    {
+      "role": "missing_access_audit[5]",
+      "path": "../missing-access-audits/missing-access-audit.CHUNK-006.v1.json",
+      "sha256": "b754ff8491c991ff2b6b8893d82058adbe76af05f75263f9e426bdc63dc92e3c",
+      "disposition": "unchanged"
+    },
+    {
+      "role": "missing_access_audit[6]",
+      "path": "../missing-access-audits/missing-access-audit.CHUNK-007.v1.json",
+      "sha256": "4d9662495fc1bde1f809587958b01092ee75df7c1594bd7bef4fdb144ca5857a",
+      "disposition": "unchanged"
+    },
+    {
+      "role": "missing_access_audit[7]",
+      "path": "../missing-access-audits/missing-access-audit.CHUNK-008.v1.json",
+      "sha256": "d30cbea03bc5db787745d10138949250c19b5d2ae09781452acb092298b54b71",
+      "disposition": "unchanged"
+    },
+    {
+      "role": "missing_access_audit[8]",
+      "path": "../missing-access-audits/missing-access-audit.CHUNK-009.v1.json",
+      "sha256": "20904f8b847a8dba58b81d1e4abf57c26db5249f696a494da57bfefc9bd7fd4d",
+      "disposition": "unchanged"
+    },
+    {
+      "role": "missing_access_audit[9]",
+      "path": "../missing-access-audits/missing-access-audit.CHUNK-010.v1.json",
+      "sha256": "dc549d4cd8920e58c19db6a216d17277d25b4656e4eddd0267252b93966e1e94",
+      "disposition": "unchanged"
+    },
+    {
+      "role": "missing_access_audit[10]",
+      "path": "../missing-access-audits/missing-access-audit.CHUNK-011.v1.json",
+      "sha256": "c8aecffe3720c02268fbab172023bf54763242125ae33dde60058e00ef25538e",
+      "disposition": "unchanged"
+    },
+    {
+      "role": "missing_access_audit[11]",
+      "path": "../missing-access-audits/missing-access-audit.CHUNK-012.v1.json",
+      "sha256": "2f74050e3d02521ea2abf18e8fcfc53a73178cc6feb35c227bb6d1bbf4c19438",
+      "disposition": "unchanged"
+    },
+    {
+      "role": "missing_access_audit[12]",
+      "path": "../missing-access-audits/missing-access-audit.CHUNK-013.v1.json",
+      "sha256": "ac043de54830b2f50097e2b29d7a70e35d5f3a45da300f0d481f77c608dfe416",
+      "disposition": "unchanged"
+    },
+    {
+      "role": "missing_access_audit[13]",
+      "path": "../missing-access-audits/missing-access-audit.CHUNK-014.v1.json",
+      "sha256": "d0d7cb3c207f013b3ca98bc551771a6c6771fa2a0ac927611cf15d7bc7f04cbe",
+      "disposition": "unchanged"
+    },
+    {
+      "role": "missing_access_audit[14]",
+      "path": "../missing-access-audits/missing-access-audit.CHUNK-015.v1.json",
+      "sha256": "5439e2d2d6119ae98c0c56b85c20c63fdeaf2abd162d460bbf6ec34542f5de9a",
+      "disposition": "unchanged"
+    },
+    {
+      "role": "missing_access_audit[15]",
+      "path": "../missing-access-audits/missing-access-audit.CHUNK-016.v1.json",
+      "sha256": "49cabb90e89c56a1b3055314c4fbbff3d3d5ef48ec8eca4781ff1f7259a878e2",
+      "disposition": "unchanged"
+    },
+    {
+      "role": "missing_access_audit[16]",
+      "path": "../missing-access-audits/missing-access-audit.CHUNK-017.v1.json",
+      "sha256": "91435fe286aad6fc165d1d175c8220840b399402ce5d662e151e1d96bcf1bafb",
+      "disposition": "unchanged"
+    },
+    {
+      "role": "structure_audit",
+      "path": "../structure-audit.json",
+      "sha256": "1b52d62ae663902827599d8e795db39a841e8706c1ba65107a40aed60d8caddb",
+      "disposition": "unchanged"
+    },
+    {
+      "role": "chunk_manifest",
+      "path": "../../source/chunk-manifest.json",
+      "sha256": "5287f421e1e7be03444c2681beb1e1d63d5d103a96ab770565e32411956ce396",
+      "disposition": "unchanged"
+    },
+    {
+      "role": "migration_supplement",
+      "path": "v5-migration-supplement.v1.json",
+      "sha256": "093cc1d810ad54ae73de914801db5d5c16f0ca2d72f6cf6ec56cf1d2d6ef2ebf",
+      "disposition": "unchanged"
+    },
+    {
+      "role": "representation_adjustment_provenance[0]",
+      "path": "../representation-adjustment/correction-causal-ledger.v1.json",
+      "sha256": "1b06021fd4d2185094780da97bfbefbfe17eaf59ae849cbbc277e7f1bc99f20b",
+      "disposition": "unchanged"
+    },
+    {
+      "role": "representation_adjustment_provenance[1]",
+      "path": "../representation-adjustment/character-fidelity-audit.v1.json",
+      "sha256": "bee81248c0361684f723bb11c4568ee7786c2866b00544645da0c48b8e7ec7ec",
+      "disposition": "unchanged"
+    },
+    {
+      "role": "representation_adjustment_provenance[2]",
+      "path": "../../validation/representation-adjustment-validation-receipt.v1.json",
+      "sha256": "2dde71f7a165732e74bca860389c9f229deded05b3764cb6d401f043f3426ea8",
+      "disposition": "unchanged"
+    },
+    {
+      "role": "v5_dimension_calculations",
+      "path": "dimension-calculations.v1.json",
+      "sha256": "0132673307f8f0476cd8f2b18cc6f31809bf32a301a65ab099a5fb942e68b73e",
+      "disposition": "deterministically_derived",
+      "derived_from_roles": [
+        "historical_v4_result",
+        "dimension_calculation_input",
+        "locator_audit[0]",
+        "locator_audit[1]",
+        "locator_audit[2]",
+        "locator_audit[3]",
+        "locator_audit[4]",
+        "locator_audit[5]",
+        "locator_audit[6]",
+        "locator_audit[7]",
+        "locator_audit[8]",
+        "locator_audit[9]",
+        "locator_audit[10]",
+        "locator_audit[11]",
+        "locator_audit[12]",
+        "locator_audit[13]",
+        "locator_audit[14]",
+        "locator_audit[15]",
+        "locator_audit[16]",
+        "missing_access_audit[0]",
+        "missing_access_audit[1]",
+        "missing_access_audit[2]",
+        "missing_access_audit[3]",
+        "missing_access_audit[4]",
+        "missing_access_audit[5]",
+        "missing_access_audit[6]",
+        "missing_access_audit[7]",
+        "missing_access_audit[8]",
+        "missing_access_audit[9]",
+        "missing_access_audit[10]",
+        "missing_access_audit[11]",
+        "missing_access_audit[12]",
+        "missing_access_audit[13]",
+        "missing_access_audit[14]",
+        "missing_access_audit[15]",
+        "missing_access_audit[16]",
+        "structure_audit",
+        "chunk_manifest",
+        "migration_supplement"
+      ]
+    }
+  ],
+  "input_ledgers_mutated": false,
+  "historical_result_mutated": false,
+  "representation_adjustment": {
+    "status": "separate_evidentiary_correction",
+    "causal_attribution": "not_a_v5_methodology_effect",
+    "provenance_artifacts": [
+      {
+        "role": "representation_adjustment_provenance[0]",
+        "path": "../representation-adjustment/correction-causal-ledger.v1.json",
+        "sha256": "1b06021fd4d2185094780da97bfbefbfe17eaf59ae849cbbc277e7f1bc99f20b",
+        "schema_version": "subject-index-character-fidelity-correction-ledger-v1"
+      },
+      {
+        "role": "representation_adjustment_provenance[1]",
+        "path": "../representation-adjustment/character-fidelity-audit.v1.json",
+        "sha256": "bee81248c0361684f723bb11c4568ee7786c2866b00544645da0c48b8e7ec7ec",
+        "schema_version": "subject-index-character-fidelity-audit-v1"
+      },
+      {
+        "role": "representation_adjustment_provenance[2]",
+        "path": "../../validation/representation-adjustment-validation-receipt.v1.json",
+        "sha256": "2dde71f7a165732e74bca860389c9f229deded05b3764cb6d401f043f3426ea8",
+        "schema_version": "subject-index-representation-adjustment-validation-v1"
+      }
+    ]
+  },
+  "gate_preservation": {
+    "policy_or_evidence_changed": false,
+    "identity_checks": {
+      "candidate_sha256": {
+        "historical": "1d43fe7fb158b352393c6e2f14843aae9ae23ccfca1f61c6783307432b0a9d09",
+        "current": "1d43fe7fb158b352393c6e2f14843aae9ae23ccfca1f61c6783307432b0a9d09",
+        "equal": true,
+        "evidence_equivalent": true,
+        "comparison_basis": "direct_sha256_or_value_equality"
+      },
+      "source_sha256": {
+        "historical": "5f89aa2592218983c594278bfd86cc1e4b74be1dd6dd8aac5c2610a48fa34047",
+        "current": "5f89aa2592218983c594278bfd86cc1e4b74be1dd6dd8aac5c2610a48fa34047",
+        "equal": true,
+        "evidence_equivalent": true,
+        "comparison_basis": "direct_sha256_or_value_equality"
+      },
+      "benchmark_sha256": {
+        "historical": "b925797fcab50b2008ad5974590e323f772e5ea7013efa84ce7606007439aeb3",
+        "current": "b925797fcab50b2008ad5974590e323f772e5ea7013efa84ce7606007439aeb3",
+        "equal": true,
+        "evidence_equivalent": true,
+        "comparison_basis": "direct_sha256_or_value_equality"
+      },
+      "policy_sha256": {
+        "historical": "914a7d7042d3f2d2e6cb40686faca331e6a5b029060027bfa769cc8b512c2e9a",
+        "current": "914a7d7042d3f2d2e6cb40686faca331e6a5b029060027bfa769cc8b512c2e9a",
+        "equal": true,
+        "evidence_equivalent": true,
+        "comparison_basis": "direct_sha256_or_value_equality"
+      },
+      "page_map_sha256": {
+        "historical": "452602deebdae19f8e35c589f2ff2a7a0b9fc955d268b14f760391b0043e9653",
+        "current": "452602deebdae19f8e35c589f2ff2a7a0b9fc955d268b14f760391b0043e9653",
+        "equal": true,
+        "evidence_equivalent": true,
+        "comparison_basis": "direct_sha256_or_value_equality"
+      },
+      "chunk_manifest_sha256": {
+        "historical": "5fc5450386114fdeb19838f54d3f1662c3d6dec81d4729c73f4f7ec0cb341a6f",
+        "current": "5fc5450386114fdeb19838f54d3f1662c3d6dec81d4729c73f4f7ec0cb341a6f",
+        "equal": true,
+        "evidence_equivalent": true,
+        "comparison_basis": "direct_sha256_or_value_equality"
+      },
+      "normalized_candidate_file_sha256": {
+        "historical": "7b29d7716339038848e2b1b0ec17220ae1867cb95941f0f06a84488cd486ed79",
+        "current": "7b29d7716339038848e2b1b0ec17220ae1867cb95941f0f06a84488cd486ed79",
+        "equal": true,
+        "evidence_equivalent": true,
+        "comparison_basis": "direct_sha256_or_value_equality"
+      },
+      "item_inventory_file_sha256": {
+        "historical": "3e9c2b20d49486398bd57bfa31f5d1da1743498b47d0b9e46e42f096b56b9934",
+        "current": "3e9c2b20d49486398bd57bfa31f5d1da1743498b47d0b9e46e42f096b56b9934",
+        "equal": true,
+        "evidence_equivalent": true,
+        "comparison_basis": "direct_sha256_or_value_equality"
+      },
+      "structure_audit_file_sha256": {
+        "historical": "1b52d62ae663902827599d8e795db39a841e8706c1ba65107a40aed60d8caddb",
+        "current": "1b52d62ae663902827599d8e795db39a841e8706c1ba65107a40aed60d8caddb",
+        "equal": true,
+        "evidence_equivalent": true,
+        "comparison_basis": "direct_sha256_or_value_equality"
+      },
+      "audit_mode": {
+        "historical": "full",
+        "current": "full",
+        "equal": true,
+        "evidence_equivalent": true,
+        "comparison_basis": "direct_sha256_or_value_equality"
+      },
+      "locator_audit_set_sha256": {
+        "historical": "ce3277a02326112ea94614d61808c9d2d4112a62aad11d2d193c28c1a6c7790f",
+        "current": "f840e60dbee9e50f08c11dd0c4c314f5a84d4c7006d188c1c74eff4ad2b3a1f4",
+        "equal": false,
+        "evidence_equivalent": true,
+        "comparison_basis": "hash_bound_migration_supplement_reconciliation"
+      },
+      "missing_access_audit_set_sha256": {
+        "historical": "bdbb51482887892d21281e84911cc51e24e6d4286a4257115e8cdcc48436c085",
+        "current": "1aa3ffa2439b790aa8db0f1afe30facc4051523c0fe9618d58fe93db269911b7",
+        "equal": false,
+        "evidence_equivalent": true,
+        "comparison_basis": "hash_bound_migration_supplement_reconciliation"
+      }
+    },
+    "frozen_gate_evidence_inputs_sha256": "9deff8ae2dbbc8c00ab46d56cf3ae874588f8c57caec982599b9cf477a5f371e",
+    "historical_gate_outcomes_sha256": "5b225446664e5627119c233602ddbd909829022db1e0cfd9087fbb5d6bc120c3",
+    "preserved_gate_outcomes_sha256": "5b225446664e5627119c233602ddbd909829022db1e0cfd9087fbb5d6bc120c3",
+    "historical_outcomes": [
+      {
+        "applicable": true,
+        "description": "fabricated, nonexistent, or out-of-scope locator",
+        "evidence_ids": [
+          "PAGE-MAP-452602DEEBDA",
+          "LOCATOR-INVENTORY-COMPLETE"
+        ],
+        "finding": "All 5,338 atomic locators resolve to existing, in-scope labels 1-425; none is fabricated, nonexistent, or out of scope.",
+        "gate_id": "GATE-SCOPE-LOCATOR",
+        "metrics": {
+          "out_of_scope": 0,
+          "resolved": 5338,
+          "unresolved": 0
+        },
+        "standard": true,
+        "status": "pass"
+      },
+      {
+        "applicable": true,
+        "description": "systematic incidental or unsupported locator pattern",
+        "evidence_ids": [
+          "LOC-97ABEA16D2D4",
+          "LOC-9BE36BCA9141",
+          "LOC-0A3777CEF8BB",
+          "LOC-F32D7ADEDD1D",
+          "LOC-23EFA497890A",
+          "LOC-7B58953ED8C3",
+          "LOC-72BCDEDF1FEE",
+          "LOC-E71768C23D6E",
+          "LOC-DD60F23CEC61",
+          "LOC-5C7D66E81600",
+          "LOC-D9AA8AD8498A",
+          "LOC-B94CB8AB7A7F",
+          "LOC-224F29FED470",
+          "LOC-E0E648FAC69D",
+          "LOC-A6F7F12DEE54",
+          "LOC-9E5254F8DA14",
+          "LOC-7D566EB81E4F"
+        ],
+        "finding": "The full audit finds 463 unsupported assignments (8.67%) distributed across every one of the 17 chapters.",
+        "gate_id": "GATE-SYSTEMIC-UNSUPPORTED",
+        "metrics": {
+          "affected_chunks": 17,
+          "rate": 0.086737,
+          "total": 5338,
+          "unsupported": 463
+        },
+        "standard": true,
+        "status": "fail"
+      },
+      {
+        "applicable": true,
+        "description": "central subject or conclusion materially omitted",
+        "evidence_ids": [
+          "SUBJ-04661509BFF9",
+          "SUBJ-18AE67659255",
+          "SUBJ-5B7555CE2FD8",
+          "SUBJ-79F8290570D7",
+          "SUBJ-912AF76A45C9",
+          "SUBJ-9216E0E5FA9D",
+          "SUBJ-A2A7299F7165",
+          "SUBJ-A6AE69CE5BCB",
+          "SUBJ-B3F5D2BA17B5",
+          "SUBJ-BC41E0A881DB",
+          "SUBJ-F6AB55B20EC3",
+          "SUBJ-FCEC284F9F3A"
+        ],
+        "finding": "Twelve of 155 frozen essential subjects are missing, so central material is materially omitted.",
+        "gate_id": "GATE-CENTRAL-OMISSION",
+        "metrics": {
+          "essential_missing": 12,
+          "essential_total": 155,
+          "miss_rate": 0.077419
+        },
+        "standard": true,
+        "status": "fail"
+      },
+      {
+        "applicable": true,
+        "description": "heading reverses or seriously misrepresents source stance",
+        "evidence_ids": [
+          "DEFECT-0B25E702C3BE",
+          "DEFECT-CC86E1CF5D6C",
+          "DEFECT-D46CFFA23B43"
+        ],
+        "finding": "Three structure defects are explicitly classified as major stance failures, and the full node review records additional major conceptual failures.",
+        "gate_id": "GATE-STANCE",
+        "metrics": {
+          "major_stance_defects": 3
+        },
+        "standard": true,
+        "status": "fail"
+      },
+      {
+        "applicable": true,
+        "description": "compound heading locators support only separate components",
+        "evidence_ids": [
+          "DEFECT-422B1AF61225",
+          "NODE-31E3F4E4209A",
+          "PATH-D022A1D9BF5A",
+          "LOC-26B5B4241BBA"
+        ],
+        "finding": "One major compound-heading defect has locators that do not support the combined relationship expressed by the complete path.",
+        "gate_id": "GATE-COMPOUND",
+        "metrics": {
+          "major_compound_defects": 1
+        },
+        "standard": true,
+        "status": "fail"
+      },
+      {
+        "applicable": true,
+        "description": "see source replaces a warranted substantive entry",
+        "evidence_ids": [
+          "XREF-95955B1B092D",
+          "DEFECT-C78C6F0ECC3A",
+          "SUBJ-30CAE18651DF"
+        ],
+        "finding": "The serfdom see-reference substitutes broad targets that do not retrieve the frozen subject treatment for the alternate lookup term.",
+        "gate_id": "GATE-SEE-SUBSTITUTION",
+        "metrics": {
+          "invalid_substitutive_see_references": 1
+        },
+        "standard": true,
+        "status": "fail"
+      },
+      {
+        "applicable": true,
+        "description": "unresolved, self-referential, circular, or chained cross-reference",
+        "evidence_ids": [
+          "XREF-6E6F54660707",
+          "DEFECT-50EF877CB81B",
+          "XREF-9A63B6DC42BB",
+          "DEFECT-44C39D39514C"
+        ],
+        "finding": "Two see-also references terminate at unresolved displayed targets; graph review finds no self-reference, cycle, or chained see reference.",
+        "gate_id": "GATE-CROSS-REFERENCE",
+        "metrics": {
+          "chained_see": 0,
+          "cycles": 0,
+          "self_references": 0,
+          "unresolved_targets": 2
+        },
+        "standard": true,
+        "status": "fail"
+      },
+      {
+        "applicable": true,
+        "description": "third-level heading",
+        "evidence_ids": [
+          "NODE-INVENTORY-COMPLETE"
+        ],
+        "finding": "All 1,904 heading nodes are at level one or two; no third-level headings occur.",
+        "gate_id": "GATE-DEPTH",
+        "metrics": {
+          "heading_nodes": 1904,
+          "third_level_nodes": 0
+        },
+        "standard": true,
+        "status": "pass"
+      },
+      {
+        "applicable": true,
+        "description": "systematic named-entity, example, or citation clutter",
+        "evidence_ids": [
+          "LOC-97ABEA16D2D4",
+          "LOC-9BE36BCA9141",
+          "LOC-6755A0004CE0",
+          "LOC-F32D7ADEDD1D",
+          "LOC-23EFA497890A",
+          "LOC-80048D076477",
+          "LOC-72BCDEDF1FEE",
+          "LOC-6A7C6067C7E7",
+          "LOC-DD60F23CEC61",
+          "LOC-724C6CA63BC5",
+          "LOC-D9AA8AD8498A",
+          "LOC-B94CB8AB7A7F",
+          "LOC-224F29FED470",
+          "LOC-7F4FD513E849",
+          "LOC-99AC5E8808F1",
+          "LOC-9E5254F8DA14",
+          "LOC-2260DEBE9193"
+        ],
+        "finding": "The full locator audit records 235 attribution-only or incidental-example access points across all 17 chapters, a systematic clutter pattern.",
+        "gate_id": "GATE-CLUTTER",
+        "metrics": {
+          "affected_chunks": 17,
+          "clutter_locators": 235,
+          "rate": 0.044024,
+          "total": 5338
+        },
+        "standard": true,
+        "status": "fail"
+      },
+      {
+        "applicable": true,
+        "description": "critical or major unresolved grounding",
+        "evidence_ids": [
+          "DEFECT-CHUNK004-LOC-48367D5505DB",
+          "DEFECT-CHUNK004-LOC-7BBAEA5AB101",
+          "DEFECT-CHUNK004-LOC-42F23D35903C",
+          "DEFECT-CHUNK004-LOC-3BCC09FE22B7",
+          "DEFECT-CHUNK004-LOC-0FCD80C93653",
+          "DEFECT-CHUNK004-LOC-9A3C9F35B085",
+          "DEFECT-CHUNK006-LOC-80048D076477"
+        ],
+        "finding": "No critical or major grounding item remains unresolved. Seven localized, high-confidence locator/benchmark dependency conflicts were retained without reinterpretation and disclosed for centralized adjudication.",
+        "gate_id": "GATE-GROUNDING",
+        "metrics": {
+          "critical_unresolved": 0,
+          "disclosed_dependency_conflicts": 7,
+          "major_unresolved": 0
+        },
+        "standard": true,
+        "status": "pass"
+      },
+      {
+        "applicable": true,
+        "description": "more than 1% of in-scope locator assignments uninspectable without a frozen alternative tolerance",
+        "evidence_ids": [
+          "LOCATOR-AUDIT-SET-CE3277A02326"
+        ],
+        "finding": "All 5,338 assignments were inspectable; the uninspectable rate is 0%, below the frozen 1% tolerance.",
+        "gate_id": "GATE-UNINSPECTABLE",
+        "metrics": {
+          "rate": 0.0,
+          "tolerance": 0.01,
+          "total": 5338,
+          "uninspectable": 0
+        },
+        "standard": true,
+        "status": "pass"
+      },
+      {
+        "applicable": true,
+        "description": "wrong source span",
+        "evidence_ids": [
+          "PAGE-MAP-452602DEEBDA",
+          "CHUNK-MANIFEST-5FC545038611"
+        ],
+        "finding": "The frozen page map and 17-chapter manifest cover supplied document pages 1-425 exactly once, and every candidate locator resolves within that span.",
+        "gate_id": "GATE-SOURCE-SPAN",
+        "metrics": {
+          "document_page_span": [
+            1,
+            425
+          ],
+          "owned_pages": 425,
+          "resolved_locators": 5338
+        },
+        "standard": true,
+        "status": "pass"
+      },
+      {
+        "applicable": true,
+        "description": "structurally invalid or incomplete output",
+        "evidence_ids": [
+          "NODE-INVENTORY-COMPLETE",
+          "LOCATOR-INVENTORY-COMPLETE",
+          "ART-084C66CEE96F"
+        ],
+        "finding": "The canonical outputs are structurally complete: 1,904/1,904 nodes, 16/16 references, 5,338/5,338 locators, and 1,366/1,366 benchmark subjects are present and uniquely graded.",
+        "gate_id": "GATE-STRUCTURE",
+        "metrics": {
+          "cross_references": 16,
+          "locators": 5338,
+          "nodes": 1904,
+          "subjects": 1366
+        },
+        "standard": true,
+        "status": "pass"
+      }
+    ],
+    "preserved_outcomes": [
+      {
+        "applicable": true,
+        "description": "fabricated, nonexistent, or out-of-scope locator",
+        "evidence_ids": [
+          "PAGE-MAP-452602DEEBDA",
+          "LOCATOR-INVENTORY-COMPLETE"
+        ],
+        "finding": "All 5,338 atomic locators resolve to existing, in-scope labels 1-425; none is fabricated, nonexistent, or out of scope.",
+        "gate_id": "GATE-SCOPE-LOCATOR",
+        "metrics": {
+          "out_of_scope": 0,
+          "resolved": 5338,
+          "unresolved": 0
+        },
+        "standard": true,
+        "status": "pass"
+      },
+      {
+        "applicable": true,
+        "description": "systematic incidental or unsupported locator pattern",
+        "evidence_ids": [
+          "LOC-97ABEA16D2D4",
+          "LOC-9BE36BCA9141",
+          "LOC-0A3777CEF8BB",
+          "LOC-F32D7ADEDD1D",
+          "LOC-23EFA497890A",
+          "LOC-7B58953ED8C3",
+          "LOC-72BCDEDF1FEE",
+          "LOC-E71768C23D6E",
+          "LOC-DD60F23CEC61",
+          "LOC-5C7D66E81600",
+          "LOC-D9AA8AD8498A",
+          "LOC-B94CB8AB7A7F",
+          "LOC-224F29FED470",
+          "LOC-E0E648FAC69D",
+          "LOC-A6F7F12DEE54",
+          "LOC-9E5254F8DA14",
+          "LOC-7D566EB81E4F"
+        ],
+        "finding": "The full audit finds 463 unsupported assignments (8.67%) distributed across every one of the 17 chapters.",
+        "gate_id": "GATE-SYSTEMIC-UNSUPPORTED",
+        "metrics": {
+          "affected_chunks": 17,
+          "rate": 0.086737,
+          "total": 5338,
+          "unsupported": 463
+        },
+        "standard": true,
+        "status": "fail"
+      },
+      {
+        "applicable": true,
+        "description": "central subject or conclusion materially omitted",
+        "evidence_ids": [
+          "SUBJ-04661509BFF9",
+          "SUBJ-18AE67659255",
+          "SUBJ-5B7555CE2FD8",
+          "SUBJ-79F8290570D7",
+          "SUBJ-912AF76A45C9",
+          "SUBJ-9216E0E5FA9D",
+          "SUBJ-A2A7299F7165",
+          "SUBJ-A6AE69CE5BCB",
+          "SUBJ-B3F5D2BA17B5",
+          "SUBJ-BC41E0A881DB",
+          "SUBJ-F6AB55B20EC3",
+          "SUBJ-FCEC284F9F3A"
+        ],
+        "finding": "Twelve of 155 frozen essential subjects are missing, so central material is materially omitted.",
+        "gate_id": "GATE-CENTRAL-OMISSION",
+        "metrics": {
+          "essential_missing": 12,
+          "essential_total": 155,
+          "miss_rate": 0.077419
+        },
+        "standard": true,
+        "status": "fail"
+      },
+      {
+        "applicable": true,
+        "description": "heading reverses or seriously misrepresents source stance",
+        "evidence_ids": [
+          "DEFECT-0B25E702C3BE",
+          "DEFECT-CC86E1CF5D6C",
+          "DEFECT-D46CFFA23B43"
+        ],
+        "finding": "Three structure defects are explicitly classified as major stance failures, and the full node review records additional major conceptual failures.",
+        "gate_id": "GATE-STANCE",
+        "metrics": {
+          "major_stance_defects": 3
+        },
+        "standard": true,
+        "status": "fail"
+      },
+      {
+        "applicable": true,
+        "description": "compound heading locators support only separate components",
+        "evidence_ids": [
+          "DEFECT-422B1AF61225",
+          "NODE-31E3F4E4209A",
+          "PATH-D022A1D9BF5A",
+          "LOC-26B5B4241BBA"
+        ],
+        "finding": "One major compound-heading defect has locators that do not support the combined relationship expressed by the complete path.",
+        "gate_id": "GATE-COMPOUND",
+        "metrics": {
+          "major_compound_defects": 1
+        },
+        "standard": true,
+        "status": "fail"
+      },
+      {
+        "applicable": true,
+        "description": "see source replaces a warranted substantive entry",
+        "evidence_ids": [
+          "XREF-95955B1B092D",
+          "DEFECT-C78C6F0ECC3A",
+          "SUBJ-30CAE18651DF"
+        ],
+        "finding": "The serfdom see-reference substitutes broad targets that do not retrieve the frozen subject treatment for the alternate lookup term.",
+        "gate_id": "GATE-SEE-SUBSTITUTION",
+        "metrics": {
+          "invalid_substitutive_see_references": 1
+        },
+        "standard": true,
+        "status": "fail"
+      },
+      {
+        "applicable": true,
+        "description": "unresolved, self-referential, circular, or chained cross-reference",
+        "evidence_ids": [
+          "XREF-6E6F54660707",
+          "DEFECT-50EF877CB81B",
+          "XREF-9A63B6DC42BB",
+          "DEFECT-44C39D39514C"
+        ],
+        "finding": "Two see-also references terminate at unresolved displayed targets; graph review finds no self-reference, cycle, or chained see reference.",
+        "gate_id": "GATE-CROSS-REFERENCE",
+        "metrics": {
+          "chained_see": 0,
+          "cycles": 0,
+          "self_references": 0,
+          "unresolved_targets": 2
+        },
+        "standard": true,
+        "status": "fail"
+      },
+      {
+        "applicable": true,
+        "description": "third-level heading",
+        "evidence_ids": [
+          "NODE-INVENTORY-COMPLETE"
+        ],
+        "finding": "All 1,904 heading nodes are at level one or two; no third-level headings occur.",
+        "gate_id": "GATE-DEPTH",
+        "metrics": {
+          "heading_nodes": 1904,
+          "third_level_nodes": 0
+        },
+        "standard": true,
+        "status": "pass"
+      },
+      {
+        "applicable": true,
+        "description": "systematic named-entity, example, or citation clutter",
+        "evidence_ids": [
+          "LOC-97ABEA16D2D4",
+          "LOC-9BE36BCA9141",
+          "LOC-6755A0004CE0",
+          "LOC-F32D7ADEDD1D",
+          "LOC-23EFA497890A",
+          "LOC-80048D076477",
+          "LOC-72BCDEDF1FEE",
+          "LOC-6A7C6067C7E7",
+          "LOC-DD60F23CEC61",
+          "LOC-724C6CA63BC5",
+          "LOC-D9AA8AD8498A",
+          "LOC-B94CB8AB7A7F",
+          "LOC-224F29FED470",
+          "LOC-7F4FD513E849",
+          "LOC-99AC5E8808F1",
+          "LOC-9E5254F8DA14",
+          "LOC-2260DEBE9193"
+        ],
+        "finding": "The full locator audit records 235 attribution-only or incidental-example access points across all 17 chapters, a systematic clutter pattern.",
+        "gate_id": "GATE-CLUTTER",
+        "metrics": {
+          "affected_chunks": 17,
+          "clutter_locators": 235,
+          "rate": 0.044024,
+          "total": 5338
+        },
+        "standard": true,
+        "status": "fail"
+      },
+      {
+        "applicable": true,
+        "description": "critical or major unresolved grounding",
+        "evidence_ids": [
+          "DEFECT-CHUNK004-LOC-48367D5505DB",
+          "DEFECT-CHUNK004-LOC-7BBAEA5AB101",
+          "DEFECT-CHUNK004-LOC-42F23D35903C",
+          "DEFECT-CHUNK004-LOC-3BCC09FE22B7",
+          "DEFECT-CHUNK004-LOC-0FCD80C93653",
+          "DEFECT-CHUNK004-LOC-9A3C9F35B085",
+          "DEFECT-CHUNK006-LOC-80048D076477"
+        ],
+        "finding": "No critical or major grounding item remains unresolved. Seven localized, high-confidence locator/benchmark dependency conflicts were retained without reinterpretation and disclosed for centralized adjudication.",
+        "gate_id": "GATE-GROUNDING",
+        "metrics": {
+          "critical_unresolved": 0,
+          "disclosed_dependency_conflicts": 7,
+          "major_unresolved": 0
+        },
+        "standard": true,
+        "status": "pass"
+      },
+      {
+        "applicable": true,
+        "description": "more than 1% of in-scope locator assignments uninspectable without a frozen alternative tolerance",
+        "evidence_ids": [
+          "LOCATOR-AUDIT-SET-CE3277A02326"
+        ],
+        "finding": "All 5,338 assignments were inspectable; the uninspectable rate is 0%, below the frozen 1% tolerance.",
+        "gate_id": "GATE-UNINSPECTABLE",
+        "metrics": {
+          "rate": 0.0,
+          "tolerance": 0.01,
+          "total": 5338,
+          "uninspectable": 0
+        },
+        "standard": true,
+        "status": "pass"
+      },
+      {
+        "applicable": true,
+        "description": "wrong source span",
+        "evidence_ids": [
+          "PAGE-MAP-452602DEEBDA",
+          "CHUNK-MANIFEST-5FC545038611"
+        ],
+        "finding": "The frozen page map and 17-chapter manifest cover supplied document pages 1-425 exactly once, and every candidate locator resolves within that span.",
+        "gate_id": "GATE-SOURCE-SPAN",
+        "metrics": {
+          "document_page_span": [
+            1,
+            425
+          ],
+          "owned_pages": 425,
+          "resolved_locators": 5338
+        },
+        "standard": true,
+        "status": "pass"
+      },
+      {
+        "applicable": true,
+        "description": "structurally invalid or incomplete output",
+        "evidence_ids": [
+          "NODE-INVENTORY-COMPLETE",
+          "LOCATOR-INVENTORY-COMPLETE",
+          "ART-084C66CEE96F"
+        ],
+        "finding": "The canonical outputs are structurally complete: 1,904/1,904 nodes, 16/16 references, 5,338/5,338 locators, and 1,366/1,366 benchmark subjects are present and uniquely graded.",
+        "gate_id": "GATE-STRUCTURE",
+        "metrics": {
+          "cross_references": 16,
+          "locators": 5338,
+          "nodes": 1904,
+          "subjects": 1366
+        },
+        "standard": true,
+        "status": "pass"
+      }
+    ],
+    "outcomes_equal": true,
+    "outcomes_action": "preserve_identically"
+  },
+  "comparability": "v4_and_v5_totals_are_not_directly_comparable",
+  "migration_sha256": "b342e54333a7e660c3b626d93c839f001a9bb663e1fc335ec087dd162ca546a4"
+}

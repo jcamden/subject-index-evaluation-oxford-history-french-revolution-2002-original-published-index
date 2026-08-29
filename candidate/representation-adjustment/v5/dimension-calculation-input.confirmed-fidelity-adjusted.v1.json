@@ -1,0 +1,155 @@
+{
+  "schema_version": "subject-index-dimension-calculation-input-v1",
+  "evaluation_id": "oxford-history-french-revolution-2002-indexerlabs-truncated",
+  "audit_mode": "full",
+  "inputs": {
+    "chunk_manifest": {
+      "path": "../../../source/chunk-manifest.json",
+      "sha256": "5287f421e1e7be03444c2681beb1e1d63d5d103a96ab770565e32411956ce396"
+    },
+    "locator_audits": [
+      {
+        "path": "../../locator-audits/locator-audit.CHUNK-001.v1.json",
+        "sha256": "d66591194f56481dc978bd768ca48f85c6840692ded12f873d9917a6ed6892a3"
+      },
+      {
+        "path": "../../locator-audits/locator-audit.CHUNK-002.v1.json",
+        "sha256": "b187e66b0e3129de46973e0fa50d5ce81e90ab4ff1992ce1ca2d2cf0cb96674e"
+      },
+      {
+        "path": "../../locator-audits/locator-audit.CHUNK-003.v1.json",
+        "sha256": "f846efe0db7fc515a8f5f7f5fcad92fdb2f0c66cd0d52712f07c3a928f756186"
+      },
+      {
+        "path": "../../locator-audits/locator-audit.CHUNK-004.v1.json",
+        "sha256": "9f75154ec074094e2a2d3368a819da489e99f00f96eb9b7c8c2f452f3edcda6d"
+      },
+      {
+        "path": "../../locator-audits/locator-audit.CHUNK-005.v1.json",
+        "sha256": "65b6fde2dbf00a58f9280c0547abbd48a3052b2ff167695499b3fcf6cecf2b1d"
+      },
+      {
+        "path": "../../locator-audits/locator-audit.CHUNK-006.v1.json",
+        "sha256": "35b9c5a38333976ea80957ac0523c0bb7a46841d53b72266ca417d568a4b6f01"
+      },
+      {
+        "path": "../../locator-audits/locator-audit.CHUNK-007.v1.json",
+        "sha256": "3b55c61c4feca84e74f025d39b5af1f41b63ca1dc4c57b4f254d32624f7f583c"
+      },
+      {
+        "path": "../../locator-audits/locator-audit.CHUNK-008.v1.json",
+        "sha256": "7f2efe45090b4e41ff4022a1aca2c391bdc20395cf6561743416e73ac5794220"
+      },
+      {
+        "path": "../../locator-audits/locator-audit.CHUNK-009.v1.json",
+        "sha256": "bef81ecae72df941c189a733f92b6d7092fe6fa612e4d0a87fd40f2961844c90"
+      },
+      {
+        "path": "../../locator-audits/locator-audit.CHUNK-010.v1.json",
+        "sha256": "dc03eca223c12890653e29201a1b0131143d6dd3a1de5afd113015c8f096d67a"
+      },
+      {
+        "path": "../../locator-audits/locator-audit.CHUNK-011.v1.json",
+        "sha256": "7de1fbc85177567f2a7fb51bfdf3d7fc73402bcbf7551c83d46211558bf357ca"
+      },
+      {
+        "path": "../../locator-audits/locator-audit.CHUNK-012.v1.json",
+        "sha256": "ce35848a1385c0a44072614d9ad18568a69778cc451985a9e56d9968035c4820"
+      },
+      {
+        "path": "../../locator-audits/locator-audit.CHUNK-013.v1.json",
+        "sha256": "4f0b4c108b3527946766d9c44ae7ef8fcf4fe3b6b5462398d5d8e46a810ab19f"
+      },
+      {
+        "path": "../../locator-audits/locator-audit.CHUNK-014.v1.json",
+        "sha256": "22954bb2c6288e76ad8d8da3ce93f9b2934540224ada5d070dc6b53a5237161a"
+      },
+      {
+        "path": "../../locator-audits/locator-audit.CHUNK-015.v1.json",
+        "sha256": "8e290836c0110df40d0937faf2294181608a0795a7639ef2365dce949c2b4ec3"
+      },
+      {
+        "path": "../../locator-audits/locator-audit.CHUNK-016.v1.json",
+        "sha256": "a74b21d11abecd12041e92e3172b3cfc7980071ca4f5a7e1d5016666be24baa9"
+      },
+      {
+        "path": "../../locator-audits/locator-audit.CHUNK-017.v1.json",
+        "sha256": "32f48b0c04aa00aaaa377ca21b4a5f0052404e55643bdc6b61a1ffc94487e19c"
+      }
+    ],
+    "missing_access_audits": [
+      {
+        "path": "../../missing-access-audits/missing-access-audit.CHUNK-001.v1.json",
+        "sha256": "e308a75e51dead7189e7077b5e766af2d1b2063d0c66992f86a543ddde98f054"
+      },
+      {
+        "path": "../../missing-access-audits/missing-access-audit.CHUNK-002.v1.json",
+        "sha256": "5a321cb247d189d6e0e93b5da20eecd311795fc52b2d9eeb4ad282681e2aabc4"
+      },
+      {
+        "path": "../../missing-access-audits/missing-access-audit.CHUNK-003.v1.json",
+        "sha256": "696e5494554bea45d0db37e5c1d38d9cb36f8c02b19042be2b8b1a825e2b4c9e"
+      },
+      {
+        "path": "../../missing-access-audits/missing-access-audit.CHUNK-004.v1.json",
+        "sha256": "bd4e12ffcf015f09ada2fa9fc25bf7864d5426fd95932b8cdc225b5876aa5a56"
+      },
+      {
+        "path": "../../missing-access-audits/missing-access-audit.CHUNK-005.v1.json",
+        "sha256": "42f734933dab9850f7394d0066ad794af165c7026aa76b3506f09ceaefd2ced7"
+      },
+      {
+        "path": "../../missing-access-audits/missing-access-audit.CHUNK-006.v1.json",
+        "sha256": "b754ff8491c991ff2b6b8893d82058adbe76af05f75263f9e426bdc63dc92e3c"
+      },
+      {
+        "path": "../../missing-access-audits/missing-access-audit.CHUNK-007.v1.json",
+        "sha256": "4d9662495fc1bde1f809587958b01092ee75df7c1594bd7bef4fdb144ca5857a"
+      },
+      {
+        "path": "../../missing-access-audits/missing-access-audit.CHUNK-008.v1.json",
+        "sha256": "d30cbea03bc5db787745d10138949250c19b5d2ae09781452acb092298b54b71"
+      },
+      {
+        "path": "../../missing-access-audits/missing-access-audit.CHUNK-009.v1.json",
+        "sha256": "20904f8b847a8dba58b81d1e4abf57c26db5249f696a494da57bfefc9bd7fd4d"
+      },
+      {
+        "path": "../../missing-access-audits/missing-access-audit.CHUNK-010.v1.json",
+        "sha256": "dc549d4cd8920e58c19db6a216d17277d25b4656e4eddd0267252b93966e1e94"
+      },
+      {
+        "path": "../../missing-access-audits/missing-access-audit.CHUNK-011.v1.json",
+        "sha256": "c8aecffe3720c02268fbab172023bf54763242125ae33dde60058e00ef25538e"
+      },
+      {
+        "path": "../../missing-access-audits/missing-access-audit.CHUNK-012.v1.json",
+        "sha256": "2f74050e3d02521ea2abf18e8fcfc53a73178cc6feb35c227bb6d1bbf4c19438"
+      },
+      {
+        "path": "../../missing-access-audits/missing-access-audit.CHUNK-013.v1.json",
+        "sha256": "ac043de54830b2f50097e2b29d7a70e35d5f3a45da300f0d481f77c608dfe416"
+      },
+      {
+        "path": "../../missing-access-audits/missing-access-audit.CHUNK-014.v1.json",
+        "sha256": "d0d7cb3c207f013b3ca98bc551771a6c6771fa2a0ac927611cf15d7bc7f04cbe"
+      },
+      {
+        "path": "../../missing-access-audits/missing-access-audit.CHUNK-015.v1.json",
+        "sha256": "5439e2d2d6119ae98c0c56b85c20c63fdeaf2abd162d460bbf6ec34542f5de9a"
+      },
+      {
+        "path": "../../missing-access-audits/missing-access-audit.CHUNK-016.v1.json",
+        "sha256": "49cabb90e89c56a1b3055314c4fbbff3d3d5ef48ec8eca4781ff1f7259a878e2"
+      },
+      {
+        "path": "../../missing-access-audits/missing-access-audit.CHUNK-017.v1.json",
+        "sha256": "91435fe286aad6fc165d1d175c8220840b399402ce5d662e151e1d96bcf1bafb"
+      }
+    ],
+    "structure_audit": {
+      "path": "structure-audit.confirmed-fidelity-adjusted.v4.json",
+      "sha256": "0b6c66a714c2aaf22487f3f13b6ed240f89876faa06eb341dcc50497064337cf"
+    }
+  }
+}
