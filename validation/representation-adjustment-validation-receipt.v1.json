@@ -1,0 +1,313 @@
+{
+  "schema_version": "subject-index-representation-adjustment-validation-v1",
+  "evaluation_id": "oxford-history-french-revolution-2002-indexerlabs-truncated",
+  "candidate_id": "oxford-history-french-revolution-2002-original-published-index",
+  "created_at": "2026-08-27T14:27:27Z",
+  "input_checkpoint_validation": {
+    "filename": "oxford-history-french-revolution-2002-score-index-cumulative-fidelity-v2-portable.zip",
+    "expected_sha256": "9753fce908b01ebb87286f21c238a2eefdc34822257e5ee1bf3f2bdf53ddcf38",
+    "actual_sha256": "9753fce908b01ebb87286f21c238a2eefdc34822257e5ee1bf3f2bdf53ddcf38",
+    "expected_byte_length": 10770132,
+    "actual_byte_length": 10770132,
+    "identity_match": true,
+    "verified_before_import": true,
+    "bundle_schema_version": "subject-index-bundle-v1",
+    "bundle_profile": "portable",
+    "declared_included_member_count": 249,
+    "validated_included_member_count": 249,
+    "member_set_exact": true,
+    "all_declared_member_hashes_valid": true,
+    "declared_exclusions": [
+      {
+        "path": "exports/oxford-2002-benchmark-qa-v4-portable.zip",
+        "reason": "export_artifact_not_nested"
+      },
+      {
+        "path": "source/chunks/CHUNK-001.pages.json",
+        "reason": "restricted_by_portable_profile"
+      },
+      {
+        "path": "source/chunks/CHUNK-001.pdf",
+        "reason": "restricted_by_portable_profile"
+      },
+      {
+        "path": "source/chunks/CHUNK-002.pages.json",
+        "reason": "restricted_by_portable_profile"
+      },
+      {
+        "path": "source/chunks/CHUNK-002.pdf",
+        "reason": "restricted_by_portable_profile"
+      },
+      {
+        "path": "source/chunks/CHUNK-003.pages.json",
+        "reason": "restricted_by_portable_profile"
+      },
+      {
+        "path": "source/chunks/CHUNK-003.pdf",
+        "reason": "restricted_by_portable_profile"
+      },
+      {
+        "path": "source/chunks/CHUNK-004.pages.json",
+        "reason": "restricted_by_portable_profile"
+      },
+      {
+        "path": "source/chunks/CHUNK-004.pdf",
+        "reason": "restricted_by_portable_profile"
+      },
+      {
+        "path": "source/chunks/CHUNK-005.pages.json",
+        "reason": "restricted_by_portable_profile"
+      },
+      {
+        "path": "source/chunks/CHUNK-005.pdf",
+        "reason": "restricted_by_portable_profile"
+      },
+      {
+        "path": "source/chunks/CHUNK-006.pages.json",
+        "reason": "restricted_by_portable_profile"
+      },
+      {
+        "path": "source/chunks/CHUNK-006.pdf",
+        "reason": "restricted_by_portable_profile"
+      },
+      {
+        "path": "source/chunks/CHUNK-007.pages.json",
+        "reason": "restricted_by_portable_profile"
+      },
+      {
+        "path": "source/chunks/CHUNK-007.pdf",
+        "reason": "restricted_by_portable_profile"
+      },
+      {
+        "path": "source/chunks/CHUNK-008.pages.json",
+        "reason": "restricted_by_portable_profile"
+      },
+      {
+        "path": "source/chunks/CHUNK-008.pdf",
+        "reason": "restricted_by_portable_profile"
+      },
+      {
+        "path": "source/chunks/CHUNK-009.pages.json",
+        "reason": "restricted_by_portable_profile"
+      },
+      {
+        "path": "source/chunks/CHUNK-009.pdf",
+        "reason": "restricted_by_portable_profile"
+      },
+      {
+        "path": "source/chunks/CHUNK-010.pages.json",
+        "reason": "restricted_by_portable_profile"
+      },
+      {
+        "path": "source/chunks/CHUNK-010.pdf",
+        "reason": "restricted_by_portable_profile"
+      },
+      {
+        "path": "source/chunks/CHUNK-011.pages.json",
+        "reason": "restricted_by_portable_profile"
+      },
+      {
+        "path": "source/chunks/CHUNK-011.pdf",
+        "reason": "restricted_by_portable_profile"
+      },
+      {
+        "path": "source/chunks/CHUNK-012.pages.json",
+        "reason": "restricted_by_portable_profile"
+      },
+      {
+        "path": "source/chunks/CHUNK-012.pdf",
+        "reason": "restricted_by_portable_profile"
+      },
+      {
+        "path": "source/chunks/CHUNK-013.pages.json",
+        "reason": "restricted_by_portable_profile"
+      },
+      {
+        "path": "source/chunks/CHUNK-013.pdf",
+        "reason": "restricted_by_portable_profile"
+      },
+      {
+        "path": "source/chunks/CHUNK-014.pages.json",
+        "reason": "restricted_by_portable_profile"
+      },
+      {
+        "path": "source/chunks/CHUNK-014.pdf",
+        "reason": "restricted_by_portable_profile"
+      },
+      {
+        "path": "source/chunks/CHUNK-015.pages.json",
+        "reason": "restricted_by_portable_profile"
+      },
+      {
+        "path": "source/chunks/CHUNK-015.pdf",
+        "reason": "restricted_by_portable_profile"
+      },
+      {
+        "path": "source/chunks/CHUNK-016.pages.json",
+        "reason": "restricted_by_portable_profile"
+      },
+      {
+        "path": "source/chunks/CHUNK-016.pdf",
+        "reason": "restricted_by_portable_profile"
+      },
+      {
+        "path": "source/chunks/CHUNK-017.pages.json",
+        "reason": "restricted_by_portable_profile"
+      },
+      {
+        "path": "source/chunks/CHUNK-017.pdf",
+        "reason": "restricted_by_portable_profile"
+      }
+    ]
+  },
+  "canonical_evaluation_validation": {
+    "evaluation_id_match": true,
+    "candidate_id_match": true,
+    "state_schema_version": "subject-index-evaluation-state-v4",
+    "candidate_records": 1904,
+    "heading_nodes": 1904,
+    "cross_references": 16,
+    "canonical_state_validation_at_import": "passed_with_only_expected_portable-profile_inaccessible-artifact_warnings"
+  },
+  "frozen_artifact_preservation": {
+    "all_unchanged": true,
+    "checks": [
+      {
+        "path": "candidate/oxford-history-french-revolution-2002-original-published-index/candidate-index.v2.json",
+        "expected_sha256": "7b29d7716339038848e2b1b0ec17220ae1867cb95941f0f06a84488cd486ed79",
+        "actual_sha256": "7b29d7716339038848e2b1b0ec17220ae1867cb95941f0f06a84488cd486ed79",
+        "unchanged": true
+      },
+      {
+        "path": "candidate/oxford-history-french-revolution-2002-original-published-index/structure-audit.json",
+        "expected_sha256": "1b52d62ae663902827599d8e795db39a841e8706c1ba65107a40aed60d8caddb",
+        "actual_sha256": "1b52d62ae663902827599d8e795db39a841e8706c1ba65107a40aed60d8caddb",
+        "unchanged": true
+      },
+      {
+        "path": "candidate/oxford-history-french-revolution-2002-original-published-index/item-assessments.json",
+        "expected_sha256": "4422dc6234d78d35b25c390cc7dfc5c64ef85e5e44edb65d74ef265b8bb3a2c1",
+        "actual_sha256": "4422dc6234d78d35b25c390cc7dfc5c64ef85e5e44edb65d74ef265b8bb3a2c1",
+        "unchanged": true
+      },
+      {
+        "path": "candidate/oxford-history-french-revolution-2002-original-published-index/evaluation-result.json",
+        "expected_sha256": "b05c49b0b05079a45c00c099f2e2bd671a935fef7b047c9264531ca22c1e2161",
+        "actual_sha256": "b05c49b0b05079a45c00c099f2e2bd671a935fef7b047c9264531ca22c1e2161",
+        "unchanged": true
+      }
+    ],
+    "original_web_report_payload_present": false,
+    "original_web_report_payload_modified": false
+  },
+  "complete_record_audit_validation": {
+    "expected_records": 1904,
+    "reviewed_records": 1904,
+    "record_ids_exact": true,
+    "all_records_have_scan_results": true
+  },
+  "deterministic_arithmetic_validation": {
+    "utility": "current installed Evaluate Subject Index scripts/score_cli.py scorecard",
+    "confirmed_total": 70.5,
+    "publisher_favorable_total": 70.5,
+    "confirmed_arithmetic_check": true,
+    "publisher_favorable_arithmetic_check": true,
+    "item_grading_utility": "current installed Evaluate Subject Index scripts/item_grade_cli.py build-assessments",
+    "unaffected_item_checks": {
+      "confirmed-fidelity-adjusted-v1": {
+        "locator_assessments": {
+          "count": 5338,
+          "unchanged": true
+        },
+        "source_subject_assessments": {
+          "count": 1366,
+          "unchanged": true
+        }
+      },
+      "publisher-favorable-upper-bound-v1": {
+        "locator_assessments": {
+          "count": 5338,
+          "unchanged": true
+        },
+        "source_subject_assessments": {
+          "count": 1366,
+          "unchanged": true
+        }
+      }
+    }
+  },
+  "cross_reference_validation": {
+    "levée_reference_id": "XREF-9A63B6DC42BB",
+    "levée_adjusted_judgment": "supported",
+    "levée_adjusted_target_node_id": "NODE-1233C7E79FAA",
+    "remaining_unresolved_reference_id": "XREF-6E6F54660707",
+    "remaining_unresolved_target": "individual regiments",
+    "standard_cross_reference_gate": "fail"
+  },
+  "supplementary_artifacts": [
+    {
+      "path": "candidate/oxford-history-french-revolution-2002-original-published-index/representation-adjustment/character-fidelity-audit.v1.json",
+      "sha256": "bee81248c0361684f723bb11c4568ee7786c2866b00544645da0c48b8e7ec7ec",
+      "byte_length": 1440061,
+      "json_valid": true
+    },
+    {
+      "path": "candidate/oxford-history-french-revolution-2002-original-published-index/representation-adjustment/correction-causal-ledger.v1.json",
+      "sha256": "1b06021fd4d2185094780da97bfbefbfe17eaf59ae849cbbc277e7f1bc99f20b",
+      "byte_length": 1708745,
+      "json_valid": true
+    },
+    {
+      "path": "candidate/oxford-history-french-revolution-2002-original-published-index/representation-adjustment/adjusted-item-assessments.confirmed.v1.json",
+      "sha256": "175dae0c067265b9fa372734471deb3bb9bbb3608c797751ed6dd7e430bcb4d3",
+      "byte_length": 45175810,
+      "json_valid": true
+    },
+    {
+      "path": "candidate/oxford-history-french-revolution-2002-original-published-index/representation-adjustment/adjusted-item-assessments.publisher-favorable.v1.json",
+      "sha256": "3331923830eb2ef4b32c45839f2923d0883507aa84e44f6adc1ada465eb67f47",
+      "byte_length": 45172732,
+      "json_valid": true
+    },
+    {
+      "path": "candidate/oxford-history-french-revolution-2002-original-published-index/representation-adjustment/evaluation-result.confirmed-fidelity-adjusted.v1.json",
+      "sha256": "76ff46fcfb95480e0bc9d978008e623180c3967c15f2a2eda37d0a137cd2b76c",
+      "byte_length": 116740,
+      "json_valid": true
+    },
+    {
+      "path": "candidate/oxford-history-french-revolution-2002-original-published-index/representation-adjustment/evaluation-result.publisher-favorable-upper-bound.v1.json",
+      "sha256": "ffe1842ab29628da11e223399a810582ae27289816f3354aecce7c5470fc214b",
+      "byte_length": 121152,
+      "json_valid": true
+    },
+    {
+      "path": "candidate/oxford-history-french-revolution-2002-original-published-index/representation-adjustment/web-report-representation-adjustment.v1.json",
+      "sha256": "9134f2f3ec44ba17981145c51d4f49b687746d3115fc65894fac3c52777713a8",
+      "byte_length": 22145,
+      "json_valid": true
+    },
+    {
+      "path": "validation/representation-adjusted-scorecard.confirmed.v1.json",
+      "sha256": "63594426265f8358299d17a98c3ba7defb192aa8525d9a061f28ef88ebb75167",
+      "byte_length": 1051,
+      "json_valid": true
+    },
+    {
+      "path": "validation/representation-adjusted-scorecard.publisher-favorable.v1.json",
+      "sha256": "63594426265f8358299d17a98c3ba7defb192aa8525d9a061f28ef88ebb75167",
+      "byte_length": 1051,
+      "json_valid": true
+    }
+  ],
+  "score_implications": {
+    "observed": 69.5,
+    "confirmed_adjusted": 70.5,
+    "publisher_favorable": 70.5,
+    "confirmed_delta": 1.0,
+    "publisher_favorable_delta": 1.0,
+    "failed_gate_count_each_view": 7,
+    "publication_readiness_each_view": "not_publication_ready"
+  },
+  "all_checks_pass": true
+}

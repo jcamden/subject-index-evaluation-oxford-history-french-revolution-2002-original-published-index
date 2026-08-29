@@ -1,0 +1,752 @@
+{
+  "schema_version": "subject-index-score-migration-validation-v1",
+  "validation_timestamp": "2026-08-29T05:06:40Z",
+  "tool": {
+    "name": "dimension_score_cli.py",
+    "version": "dimension-score-cli-v5.1.0"
+  },
+  "methodology": {
+    "repository": "https://github.com/jcamden/evaluate-subject-index",
+    "commit_sha": "31066101892d30aab83ea8963ecd717605215678"
+  },
+  "evaluation_id": "oxford-history-french-revolution-2002-indexerlabs-truncated",
+  "artifacts": {
+    "historical_result": {
+      "schema_version": "subject-index-evaluation-result-v5",
+      "path": "../evaluation-result.json",
+      "sha256": "b05c49b0b05079a45c00c099f2e2bd671a935fef7b047c9264531ca22c1e2161"
+    },
+    "dimension_calculations": {
+      "schema_version": "subject-index-dimension-calculations-v1",
+      "path": "dimension-calculations.v1.json",
+      "sha256": "0132673307f8f0476cd8f2b18cc6f31809bf32a301a65ab099a5fb942e68b73e",
+      "canonical_sha256": "d06f2a7b7e7803d97a09798ff62b0547e9b2eb772499613628f07bca455d6412"
+    },
+    "migration_record": {
+      "schema_version": "subject-index-score-migration-v2",
+      "path": "score-migration.v2.json",
+      "sha256": "9c9f1bfaf9b010e9e34676bd75c0bfa537f5b62829d4ac293f4da8d5d5c2d51b",
+      "canonical_sha256": "b342e54333a7e660c3b626d93c839f001a9bb663e1fc335ec087dd162ca546a4"
+    },
+    "evaluation_result": {
+      "schema_version": "subject-index-evaluation-result-v6",
+      "path": "evaluation-result.v6.json",
+      "sha256": "06ebce3f3787b782c3c057475d121084c7c47cca41cbc0292aaeee491f333a96"
+    },
+    "web_report": {
+      "schema_version": "subject-index-web-report-v4",
+      "path": "web-report.v4.json",
+      "sha256": "79ab3beb62ca4fbf6ff1e033ecb455440928f74086119130bbe16d43a46b7930"
+    }
+  },
+  "totals": {
+    "delta": 3,
+    "migrated": 72.5,
+    "previous": 69.5
+  },
+  "dimension_comparison": [
+    {
+      "dimension_id": "meaningful_coverage",
+      "migrated": {
+        "dimension_id": "meaningful_coverage",
+        "points": 14,
+        "rating": 3.5
+      },
+      "points_delta": 0,
+      "previous": {
+        "dimension_id": "meaningful_coverage",
+        "points": 14,
+        "rating": 3.5
+      },
+      "rating_delta": 0
+    },
+    {
+      "dimension_id": "editorial_selectivity",
+      "migrated": {
+        "dimension_id": "editorial_selectivity",
+        "points": 11,
+        "rating": 3.6667
+      },
+      "points_delta": 1,
+      "previous": {
+        "dimension_id": "editorial_selectivity",
+        "points": 10,
+        "rating": 3.3333
+      },
+      "rating_delta": 0.3334
+    },
+    {
+      "dimension_id": "conceptual_stance_fidelity",
+      "migrated": {
+        "dimension_id": "conceptual_stance_fidelity",
+        "points": 12,
+        "rating": 4
+      },
+      "points_delta": 0,
+      "previous": {
+        "dimension_id": "conceptual_stance_fidelity",
+        "points": 12,
+        "rating": 4
+      },
+      "rating_delta": 0
+    },
+    {
+      "dimension_id": "page_reference_reliability",
+      "migrated": {
+        "dimension_id": "page_reference_reliability",
+        "points": 17.5,
+        "rating": 3.5
+      },
+      "points_delta": 0,
+      "previous": {
+        "dimension_id": "page_reference_reliability",
+        "points": 17.5,
+        "rating": 3.5
+      },
+      "rating_delta": 0
+    },
+    {
+      "dimension_id": "findability_navigation",
+      "migrated": {
+        "dimension_id": "findability_navigation",
+        "points": 14,
+        "rating": 3.5
+      },
+      "points_delta": 2,
+      "previous": {
+        "dimension_id": "findability_navigation",
+        "points": 12,
+        "rating": 3
+      },
+      "rating_delta": 0.5
+    },
+    {
+      "dimension_id": "mechanics_consistency",
+      "migrated": {
+        "dimension_id": "mechanics_consistency",
+        "points": 4,
+        "rating": 4
+      },
+      "points_delta": 0,
+      "previous": {
+        "dimension_id": "mechanics_consistency",
+        "points": 4,
+        "rating": 4
+      },
+      "rating_delta": 0
+    }
+  ],
+  "gate_comparison": {
+    "historical_outcomes_sha256": "5b225446664e5627119c233602ddbd909829022db1e0cfd9087fbb5d6bc120c3",
+    "migrated_outcomes_sha256": "5b225446664e5627119c233602ddbd909829022db1e0cfd9087fbb5d6bc120c3",
+    "historical_outcomes": [
+      {
+        "applicable": true,
+        "description": "fabricated, nonexistent, or out-of-scope locator",
+        "evidence_ids": [
+          "PAGE-MAP-452602DEEBDA",
+          "LOCATOR-INVENTORY-COMPLETE"
+        ],
+        "finding": "All 5,338 atomic locators resolve to existing, in-scope labels 1-425; none is fabricated, nonexistent, or out of scope.",
+        "gate_id": "GATE-SCOPE-LOCATOR",
+        "metrics": {
+          "out_of_scope": 0,
+          "resolved": 5338,
+          "unresolved": 0
+        },
+        "standard": true,
+        "status": "pass"
+      },
+      {
+        "applicable": true,
+        "description": "systematic incidental or unsupported locator pattern",
+        "evidence_ids": [
+          "LOC-97ABEA16D2D4",
+          "LOC-9BE36BCA9141",
+          "LOC-0A3777CEF8BB",
+          "LOC-F32D7ADEDD1D",
+          "LOC-23EFA497890A",
+          "LOC-7B58953ED8C3",
+          "LOC-72BCDEDF1FEE",
+          "LOC-E71768C23D6E",
+          "LOC-DD60F23CEC61",
+          "LOC-5C7D66E81600",
+          "LOC-D9AA8AD8498A",
+          "LOC-B94CB8AB7A7F",
+          "LOC-224F29FED470",
+          "LOC-E0E648FAC69D",
+          "LOC-A6F7F12DEE54",
+          "LOC-9E5254F8DA14",
+          "LOC-7D566EB81E4F"
+        ],
+        "finding": "The full audit finds 463 unsupported assignments (8.67%) distributed across every one of the 17 chapters.",
+        "gate_id": "GATE-SYSTEMIC-UNSUPPORTED",
+        "metrics": {
+          "affected_chunks": 17,
+          "rate": 0.086737,
+          "total": 5338,
+          "unsupported": 463
+        },
+        "standard": true,
+        "status": "fail"
+      },
+      {
+        "applicable": true,
+        "description": "central subject or conclusion materially omitted",
+        "evidence_ids": [
+          "SUBJ-04661509BFF9",
+          "SUBJ-18AE67659255",
+          "SUBJ-5B7555CE2FD8",
+          "SUBJ-79F8290570D7",
+          "SUBJ-912AF76A45C9",
+          "SUBJ-9216E0E5FA9D",
+          "SUBJ-A2A7299F7165",
+          "SUBJ-A6AE69CE5BCB",
+          "SUBJ-B3F5D2BA17B5",
+          "SUBJ-BC41E0A881DB",
+          "SUBJ-F6AB55B20EC3",
+          "SUBJ-FCEC284F9F3A"
+        ],
+        "finding": "Twelve of 155 frozen essential subjects are missing, so central material is materially omitted.",
+        "gate_id": "GATE-CENTRAL-OMISSION",
+        "metrics": {
+          "essential_missing": 12,
+          "essential_total": 155,
+          "miss_rate": 0.077419
+        },
+        "standard": true,
+        "status": "fail"
+      },
+      {
+        "applicable": true,
+        "description": "heading reverses or seriously misrepresents source stance",
+        "evidence_ids": [
+          "DEFECT-0B25E702C3BE",
+          "DEFECT-CC86E1CF5D6C",
+          "DEFECT-D46CFFA23B43"
+        ],
+        "finding": "Three structure defects are explicitly classified as major stance failures, and the full node review records additional major conceptual failures.",
+        "gate_id": "GATE-STANCE",
+        "metrics": {
+          "major_stance_defects": 3
+        },
+        "standard": true,
+        "status": "fail"
+      },
+      {
+        "applicable": true,
+        "description": "compound heading locators support only separate components",
+        "evidence_ids": [
+          "DEFECT-422B1AF61225",
+          "NODE-31E3F4E4209A",
+          "PATH-D022A1D9BF5A",
+          "LOC-26B5B4241BBA"
+        ],
+        "finding": "One major compound-heading defect has locators that do not support the combined relationship expressed by the complete path.",
+        "gate_id": "GATE-COMPOUND",
+        "metrics": {
+          "major_compound_defects": 1
+        },
+        "standard": true,
+        "status": "fail"
+      },
+      {
+        "applicable": true,
+        "description": "see source replaces a warranted substantive entry",
+        "evidence_ids": [
+          "XREF-95955B1B092D",
+          "DEFECT-C78C6F0ECC3A",
+          "SUBJ-30CAE18651DF"
+        ],
+        "finding": "The serfdom see-reference substitutes broad targets that do not retrieve the frozen subject treatment for the alternate lookup term.",
+        "gate_id": "GATE-SEE-SUBSTITUTION",
+        "metrics": {
+          "invalid_substitutive_see_references": 1
+        },
+        "standard": true,
+        "status": "fail"
+      },
+      {
+        "applicable": true,
+        "description": "unresolved, self-referential, circular, or chained cross-reference",
+        "evidence_ids": [
+          "XREF-6E6F54660707",
+          "DEFECT-50EF877CB81B",
+          "XREF-9A63B6DC42BB",
+          "DEFECT-44C39D39514C"
+        ],
+        "finding": "Two see-also references terminate at unresolved displayed targets; graph review finds no self-reference, cycle, or chained see reference.",
+        "gate_id": "GATE-CROSS-REFERENCE",
+        "metrics": {
+          "chained_see": 0,
+          "cycles": 0,
+          "self_references": 0,
+          "unresolved_targets": 2
+        },
+        "standard": true,
+        "status": "fail"
+      },
+      {
+        "applicable": true,
+        "description": "third-level heading",
+        "evidence_ids": [
+          "NODE-INVENTORY-COMPLETE"
+        ],
+        "finding": "All 1,904 heading nodes are at level one or two; no third-level headings occur.",
+        "gate_id": "GATE-DEPTH",
+        "metrics": {
+          "heading_nodes": 1904,
+          "third_level_nodes": 0
+        },
+        "standard": true,
+        "status": "pass"
+      },
+      {
+        "applicable": true,
+        "description": "systematic named-entity, example, or citation clutter",
+        "evidence_ids": [
+          "LOC-97ABEA16D2D4",
+          "LOC-9BE36BCA9141",
+          "LOC-6755A0004CE0",
+          "LOC-F32D7ADEDD1D",
+          "LOC-23EFA497890A",
+          "LOC-80048D076477",
+          "LOC-72BCDEDF1FEE",
+          "LOC-6A7C6067C7E7",
+          "LOC-DD60F23CEC61",
+          "LOC-724C6CA63BC5",
+          "LOC-D9AA8AD8498A",
+          "LOC-B94CB8AB7A7F",
+          "LOC-224F29FED470",
+          "LOC-7F4FD513E849",
+          "LOC-99AC5E8808F1",
+          "LOC-9E5254F8DA14",
+          "LOC-2260DEBE9193"
+        ],
+        "finding": "The full locator audit records 235 attribution-only or incidental-example access points across all 17 chapters, a systematic clutter pattern.",
+        "gate_id": "GATE-CLUTTER",
+        "metrics": {
+          "affected_chunks": 17,
+          "clutter_locators": 235,
+          "rate": 0.044024,
+          "total": 5338
+        },
+        "standard": true,
+        "status": "fail"
+      },
+      {
+        "applicable": true,
+        "description": "critical or major unresolved grounding",
+        "evidence_ids": [
+          "DEFECT-CHUNK004-LOC-48367D5505DB",
+          "DEFECT-CHUNK004-LOC-7BBAEA5AB101",
+          "DEFECT-CHUNK004-LOC-42F23D35903C",
+          "DEFECT-CHUNK004-LOC-3BCC09FE22B7",
+          "DEFECT-CHUNK004-LOC-0FCD80C93653",
+          "DEFECT-CHUNK004-LOC-9A3C9F35B085",
+          "DEFECT-CHUNK006-LOC-80048D076477"
+        ],
+        "finding": "No critical or major grounding item remains unresolved. Seven localized, high-confidence locator/benchmark dependency conflicts were retained without reinterpretation and disclosed for centralized adjudication.",
+        "gate_id": "GATE-GROUNDING",
+        "metrics": {
+          "critical_unresolved": 0,
+          "disclosed_dependency_conflicts": 7,
+          "major_unresolved": 0
+        },
+        "standard": true,
+        "status": "pass"
+      },
+      {
+        "applicable": true,
+        "description": "more than 1% of in-scope locator assignments uninspectable without a frozen alternative tolerance",
+        "evidence_ids": [
+          "LOCATOR-AUDIT-SET-CE3277A02326"
+        ],
+        "finding": "All 5,338 assignments were inspectable; the uninspectable rate is 0%, below the frozen 1% tolerance.",
+        "gate_id": "GATE-UNINSPECTABLE",
+        "metrics": {
+          "rate": 0.0,
+          "tolerance": 0.01,
+          "total": 5338,
+          "uninspectable": 0
+        },
+        "standard": true,
+        "status": "pass"
+      },
+      {
+        "applicable": true,
+        "description": "wrong source span",
+        "evidence_ids": [
+          "PAGE-MAP-452602DEEBDA",
+          "CHUNK-MANIFEST-5FC545038611"
+        ],
+        "finding": "The frozen page map and 17-chapter manifest cover supplied document pages 1-425 exactly once, and every candidate locator resolves within that span.",
+        "gate_id": "GATE-SOURCE-SPAN",
+        "metrics": {
+          "document_page_span": [
+            1,
+            425
+          ],
+          "owned_pages": 425,
+          "resolved_locators": 5338
+        },
+        "standard": true,
+        "status": "pass"
+      },
+      {
+        "applicable": true,
+        "description": "structurally invalid or incomplete output",
+        "evidence_ids": [
+          "NODE-INVENTORY-COMPLETE",
+          "LOCATOR-INVENTORY-COMPLETE",
+          "ART-084C66CEE96F"
+        ],
+        "finding": "The canonical outputs are structurally complete: 1,904/1,904 nodes, 16/16 references, 5,338/5,338 locators, and 1,366/1,366 benchmark subjects are present and uniquely graded.",
+        "gate_id": "GATE-STRUCTURE",
+        "metrics": {
+          "cross_references": 16,
+          "locators": 5338,
+          "nodes": 1904,
+          "subjects": 1366
+        },
+        "standard": true,
+        "status": "pass"
+      }
+    ],
+    "migrated_outcomes": [
+      {
+        "applicable": true,
+        "description": "fabricated, nonexistent, or out-of-scope locator",
+        "evidence_ids": [
+          "PAGE-MAP-452602DEEBDA",
+          "LOCATOR-INVENTORY-COMPLETE"
+        ],
+        "finding": "All 5,338 atomic locators resolve to existing, in-scope labels 1-425; none is fabricated, nonexistent, or out of scope.",
+        "gate_id": "GATE-SCOPE-LOCATOR",
+        "metrics": {
+          "out_of_scope": 0,
+          "resolved": 5338,
+          "unresolved": 0
+        },
+        "standard": true,
+        "status": "pass"
+      },
+      {
+        "applicable": true,
+        "description": "systematic incidental or unsupported locator pattern",
+        "evidence_ids": [
+          "LOC-97ABEA16D2D4",
+          "LOC-9BE36BCA9141",
+          "LOC-0A3777CEF8BB",
+          "LOC-F32D7ADEDD1D",
+          "LOC-23EFA497890A",
+          "LOC-7B58953ED8C3",
+          "LOC-72BCDEDF1FEE",
+          "LOC-E71768C23D6E",
+          "LOC-DD60F23CEC61",
+          "LOC-5C7D66E81600",
+          "LOC-D9AA8AD8498A",
+          "LOC-B94CB8AB7A7F",
+          "LOC-224F29FED470",
+          "LOC-E0E648FAC69D",
+          "LOC-A6F7F12DEE54",
+          "LOC-9E5254F8DA14",
+          "LOC-7D566EB81E4F"
+        ],
+        "finding": "The full audit finds 463 unsupported assignments (8.67%) distributed across every one of the 17 chapters.",
+        "gate_id": "GATE-SYSTEMIC-UNSUPPORTED",
+        "metrics": {
+          "affected_chunks": 17,
+          "rate": 0.086737,
+          "total": 5338,
+          "unsupported": 463
+        },
+        "standard": true,
+        "status": "fail"
+      },
+      {
+        "applicable": true,
+        "description": "central subject or conclusion materially omitted",
+        "evidence_ids": [
+          "SUBJ-04661509BFF9",
+          "SUBJ-18AE67659255",
+          "SUBJ-5B7555CE2FD8",
+          "SUBJ-79F8290570D7",
+          "SUBJ-912AF76A45C9",
+          "SUBJ-9216E0E5FA9D",
+          "SUBJ-A2A7299F7165",
+          "SUBJ-A6AE69CE5BCB",
+          "SUBJ-B3F5D2BA17B5",
+          "SUBJ-BC41E0A881DB",
+          "SUBJ-F6AB55B20EC3",
+          "SUBJ-FCEC284F9F3A"
+        ],
+        "finding": "Twelve of 155 frozen essential subjects are missing, so central material is materially omitted.",
+        "gate_id": "GATE-CENTRAL-OMISSION",
+        "metrics": {
+          "essential_missing": 12,
+          "essential_total": 155,
+          "miss_rate": 0.077419
+        },
+        "standard": true,
+        "status": "fail"
+      },
+      {
+        "applicable": true,
+        "description": "heading reverses or seriously misrepresents source stance",
+        "evidence_ids": [
+          "DEFECT-0B25E702C3BE",
+          "DEFECT-CC86E1CF5D6C",
+          "DEFECT-D46CFFA23B43"
+        ],
+        "finding": "Three structure defects are explicitly classified as major stance failures, and the full node review records additional major conceptual failures.",
+        "gate_id": "GATE-STANCE",
+        "metrics": {
+          "major_stance_defects": 3
+        },
+        "standard": true,
+        "status": "fail"
+      },
+      {
+        "applicable": true,
+        "description": "compound heading locators support only separate components",
+        "evidence_ids": [
+          "DEFECT-422B1AF61225",
+          "NODE-31E3F4E4209A",
+          "PATH-D022A1D9BF5A",
+          "LOC-26B5B4241BBA"
+        ],
+        "finding": "One major compound-heading defect has locators that do not support the combined relationship expressed by the complete path.",
+        "gate_id": "GATE-COMPOUND",
+        "metrics": {
+          "major_compound_defects": 1
+        },
+        "standard": true,
+        "status": "fail"
+      },
+      {
+        "applicable": true,
+        "description": "see source replaces a warranted substantive entry",
+        "evidence_ids": [
+          "XREF-95955B1B092D",
+          "DEFECT-C78C6F0ECC3A",
+          "SUBJ-30CAE18651DF"
+        ],
+        "finding": "The serfdom see-reference substitutes broad targets that do not retrieve the frozen subject treatment for the alternate lookup term.",
+        "gate_id": "GATE-SEE-SUBSTITUTION",
+        "metrics": {
+          "invalid_substitutive_see_references": 1
+        },
+        "standard": true,
+        "status": "fail"
+      },
+      {
+        "applicable": true,
+        "description": "unresolved, self-referential, circular, or chained cross-reference",
+        "evidence_ids": [
+          "XREF-6E6F54660707",
+          "DEFECT-50EF877CB81B",
+          "XREF-9A63B6DC42BB",
+          "DEFECT-44C39D39514C"
+        ],
+        "finding": "Two see-also references terminate at unresolved displayed targets; graph review finds no self-reference, cycle, or chained see reference.",
+        "gate_id": "GATE-CROSS-REFERENCE",
+        "metrics": {
+          "chained_see": 0,
+          "cycles": 0,
+          "self_references": 0,
+          "unresolved_targets": 2
+        },
+        "standard": true,
+        "status": "fail"
+      },
+      {
+        "applicable": true,
+        "description": "third-level heading",
+        "evidence_ids": [
+          "NODE-INVENTORY-COMPLETE"
+        ],
+        "finding": "All 1,904 heading nodes are at level one or two; no third-level headings occur.",
+        "gate_id": "GATE-DEPTH",
+        "metrics": {
+          "heading_nodes": 1904,
+          "third_level_nodes": 0
+        },
+        "standard": true,
+        "status": "pass"
+      },
+      {
+        "applicable": true,
+        "description": "systematic named-entity, example, or citation clutter",
+        "evidence_ids": [
+          "LOC-97ABEA16D2D4",
+          "LOC-9BE36BCA9141",
+          "LOC-6755A0004CE0",
+          "LOC-F32D7ADEDD1D",
+          "LOC-23EFA497890A",
+          "LOC-80048D076477",
+          "LOC-72BCDEDF1FEE",
+          "LOC-6A7C6067C7E7",
+          "LOC-DD60F23CEC61",
+          "LOC-724C6CA63BC5",
+          "LOC-D9AA8AD8498A",
+          "LOC-B94CB8AB7A7F",
+          "LOC-224F29FED470",
+          "LOC-7F4FD513E849",
+          "LOC-99AC5E8808F1",
+          "LOC-9E5254F8DA14",
+          "LOC-2260DEBE9193"
+        ],
+        "finding": "The full locator audit records 235 attribution-only or incidental-example access points across all 17 chapters, a systematic clutter pattern.",
+        "gate_id": "GATE-CLUTTER",
+        "metrics": {
+          "affected_chunks": 17,
+          "clutter_locators": 235,
+          "rate": 0.044024,
+          "total": 5338
+        },
+        "standard": true,
+        "status": "fail"
+      },
+      {
+        "applicable": true,
+        "description": "critical or major unresolved grounding",
+        "evidence_ids": [
+          "DEFECT-CHUNK004-LOC-48367D5505DB",
+          "DEFECT-CHUNK004-LOC-7BBAEA5AB101",
+          "DEFECT-CHUNK004-LOC-42F23D35903C",
+          "DEFECT-CHUNK004-LOC-3BCC09FE22B7",
+          "DEFECT-CHUNK004-LOC-0FCD80C93653",
+          "DEFECT-CHUNK004-LOC-9A3C9F35B085",
+          "DEFECT-CHUNK006-LOC-80048D076477"
+        ],
+        "finding": "No critical or major grounding item remains unresolved. Seven localized, high-confidence locator/benchmark dependency conflicts were retained without reinterpretation and disclosed for centralized adjudication.",
+        "gate_id": "GATE-GROUNDING",
+        "metrics": {
+          "critical_unresolved": 0,
+          "disclosed_dependency_conflicts": 7,
+          "major_unresolved": 0
+        },
+        "standard": true,
+        "status": "pass"
+      },
+      {
+        "applicable": true,
+        "description": "more than 1% of in-scope locator assignments uninspectable without a frozen alternative tolerance",
+        "evidence_ids": [
+          "LOCATOR-AUDIT-SET-CE3277A02326"
+        ],
+        "finding": "All 5,338 assignments were inspectable; the uninspectable rate is 0%, below the frozen 1% tolerance.",
+        "gate_id": "GATE-UNINSPECTABLE",
+        "metrics": {
+          "rate": 0.0,
+          "tolerance": 0.01,
+          "total": 5338,
+          "uninspectable": 0
+        },
+        "standard": true,
+        "status": "pass"
+      },
+      {
+        "applicable": true,
+        "description": "wrong source span",
+        "evidence_ids": [
+          "PAGE-MAP-452602DEEBDA",
+          "CHUNK-MANIFEST-5FC545038611"
+        ],
+        "finding": "The frozen page map and 17-chapter manifest cover supplied document pages 1-425 exactly once, and every candidate locator resolves within that span.",
+        "gate_id": "GATE-SOURCE-SPAN",
+        "metrics": {
+          "document_page_span": [
+            1,
+            425
+          ],
+          "owned_pages": 425,
+          "resolved_locators": 5338
+        },
+        "standard": true,
+        "status": "pass"
+      },
+      {
+        "applicable": true,
+        "description": "structurally invalid or incomplete output",
+        "evidence_ids": [
+          "NODE-INVENTORY-COMPLETE",
+          "LOCATOR-INVENTORY-COMPLETE",
+          "ART-084C66CEE96F"
+        ],
+        "finding": "The canonical outputs are structurally complete: 1,904/1,904 nodes, 16/16 references, 5,338/5,338 locators, and 1,366/1,366 benchmark subjects are present and uniquely graded.",
+        "gate_id": "GATE-STRUCTURE",
+        "metrics": {
+          "cross_references": 16,
+          "locators": 5338,
+          "nodes": 1904,
+          "subjects": 1366
+        },
+        "standard": true,
+        "status": "pass"
+      }
+    ],
+    "outcomes_equal": true
+  },
+  "score_views": {
+    "adjustment_status": "separate_evidentiary_correction",
+    "primary_view_id": "canonical_as_delivered",
+    "views": [
+      {
+        "calculation": {
+          "artifact_path": "dimension-calculations.v1.json",
+          "calculation_profile": "subject-index-dimension-calculation-v1",
+          "calculation_sha256": "d06f2a7b7e7803d97a09798ff62b0547e9b2eb772499613628f07bca455d6412",
+          "rubric_version": "subject-index-rubric-v5",
+          "schema_version": "subject-index-dimension-calculations-v1",
+          "sha256": "0132673307f8f0476cd8f2b18cc6f31809bf32a301a65ab099a5fb942e68b73e"
+        },
+        "causal_attribution": "primary_observed_result",
+        "label": "Canonical / as delivered",
+        "maximum": 100,
+        "provenance_artifacts": [],
+        "score": 72.5,
+        "view_id": "canonical_as_delivered",
+        "view_kind": "observed"
+      },
+      {
+        "calculation": {
+          "artifact_path": "../representation-adjustment/v5/dimension-calculations.confirmed-fidelity-adjusted.v1.json",
+          "calculation_profile": "subject-index-dimension-calculation-v1",
+          "calculation_sha256": "69200f5cc18416498942cf01f3975b739fd18f78ccbda953dd736cd4d4711e08",
+          "rubric_version": "subject-index-rubric-v5",
+          "schema_version": "subject-index-dimension-calculations-v1",
+          "sha256": "5b12150ea9c1e8180b62bb91b971604970d0157e714ae86a217e4e8bff1c0ad2"
+        },
+        "causal_attribution": "separate_evidentiary_correction_not_methodology_effect",
+        "label": "Representation-adjusted counterfactual",
+        "maximum": 100,
+        "provenance_artifacts": [
+          {
+            "artifact_path": "../representation-adjustment/correction-causal-ledger.v1.json",
+            "role": "representation_adjustment_provenance[0]",
+            "schema_version": "subject-index-character-fidelity-correction-ledger-v1",
+            "sha256": "1b06021fd4d2185094780da97bfbefbfe17eaf59ae849cbbc277e7f1bc99f20b"
+          },
+          {
+            "artifact_path": "../representation-adjustment/character-fidelity-audit.v1.json",
+            "role": "representation_adjustment_provenance[1]",
+            "schema_version": "subject-index-character-fidelity-audit-v1",
+            "sha256": "bee81248c0361684f723bb11c4568ee7786c2866b00544645da0c48b8e7ec7ec"
+          },
+          {
+            "artifact_path": "../../validation/representation-adjustment-validation-receipt.v1.json",
+            "role": "representation_adjustment_provenance[2]",
+            "schema_version": "subject-index-representation-adjustment-validation-v1",
+            "sha256": "2dde71f7a165732e74bca860389c9f229deded05b3764cb6d401f043f3426ea8"
+          }
+        ],
+        "score": 73.5,
+        "view_id": "representation_adjusted",
+        "view_kind": "counterfactual"
+      }
+    ]
+  },
+  "validation_sha256": "af9b6149a9215ff0301a29c570e710195d3659ea581ec3356939e5431d29bad6"
+}
