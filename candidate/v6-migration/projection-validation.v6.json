@@ -1,0 +1,18 @@
+{
+  "command": "validate-v6-projections",
+  "ok": true,
+  "evaluation_id": "oxford-history-french-revolution-2002-indexerlabs-truncated",
+  "calculation_file_sha256": "7a325df4d367250b5f397f49bbfd0f3f88af0af10fa21c0ad1fe72369b040b9e",
+  "calculation_sha256": "ebfc54e1d34951be714ee11a0b20325ef1b1e71dad36c0cfac162eaa3da1999a",
+  "result_file_sha256": "2e006ecd38670789062c42249e10c92099074c04425be303c434d98ba04a4204",
+  "web_report_file_sha256": "609c73f71cf00d0fb14e9b6da51d9ed26d2516b03853c0d0f8f2776e90c18def",
+  "item_assessments_file_sha256": "c0ab9d7401cd2d3fd1ee0a37ca1a8611094f89254104c9848a1f535148d47130",
+  "strict_precision_reported": true,
+  "weighted_precision_reported": true,
+  "score_views_validated": 2,
+  "counterfactual_score_views_validated": [
+    "representation_adjusted"
+  ],
+  "gate_projection_unchanged": true,
+  "migration_validated": true
+}

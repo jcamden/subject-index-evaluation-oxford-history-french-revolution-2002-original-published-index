@@ -1,0 +1,2079 @@
+{
+  "schema_version": "subject-index-v7-architecture-review-supplement-v1",
+  "supplement_id": "ARCHSUP-06E912036761",
+  "evaluation_id": "oxford-history-french-revolution-2002-indexerlabs-truncated",
+  "audit_mode": "full",
+  "bindings": {
+    "candidate_sha256": "1d43fe7fb158b352393c6e2f14843aae9ae23ccfca1f61c6783307432b0a9d09",
+    "v6_dimension_calculation_input_file_sha256": "f4a78e58b3e48a8fd3ef1e07d05c7acae251f577e232b5a4b3d51e201866ac12",
+    "normalized_candidate_file_sha256": "7b29d7716339038848e2b1b0ec17220ae1867cb95941f0f06a84488cd486ed79",
+    "item_inventory_file_sha256": "3e9c2b20d49486398bd57bfa31f5d1da1743498b47d0b9e46e42f096b56b9934",
+    "historical_structure_audit_file_sha256": "1b52d62ae663902827599d8e795db39a841e8706c1ba65107a40aed60d8caddb"
+  },
+  "review_scope": {
+    "rule_id": "STRUCT-V7-EXACT-UNRESOLVED-TRIGGER-SET",
+    "path_ids": [
+      "PATH-015B84804D5C",
+      "PATH-020B5DE179B8",
+      "PATH-03BF8D12E9EC",
+      "PATH-048D2A20C0A8",
+      "PATH-05A563039813",
+      "PATH-085850AB249C",
+      "PATH-0B659203C1CA",
+      "PATH-0C4B8A4B90D4",
+      "PATH-0D042406A09F",
+      "PATH-147035609EC4",
+      "PATH-18754890DD4A",
+      "PATH-1AF3FFE17D49",
+      "PATH-1EDAB90021E4",
+      "PATH-1F187639AA01",
+      "PATH-1F7AE1AB0CA6",
+      "PATH-202B9D53C9CC",
+      "PATH-251FBD6FB4CE",
+      "PATH-26704D6AB01B",
+      "PATH-28EBC1FD413E",
+      "PATH-298E580668B4",
+      "PATH-2B4083238575",
+      "PATH-2BFCFED9D789",
+      "PATH-30E850E1F5C7",
+      "PATH-33C6B51DC018",
+      "PATH-34CA79D09839",
+      "PATH-39C4247B5F5E",
+      "PATH-3C16555789F9",
+      "PATH-3E67415FF147",
+      "PATH-3F97A6F51C6A",
+      "PATH-4130DDE11598",
+      "PATH-41C637F203C5",
+      "PATH-421C2D6ED3A4",
+      "PATH-426FE06880BA",
+      "PATH-441265595FC7",
+      "PATH-442A99AA1646",
+      "PATH-44AA07FCFEEC",
+      "PATH-47B1A64943F3",
+      "PATH-4A5F1130A3BF",
+      "PATH-4ADDBCB02556",
+      "PATH-4B40E9C6EC0B",
+      "PATH-534C000D4104",
+      "PATH-54AEF22A3562",
+      "PATH-552900D360AD",
+      "PATH-557E3BC2AF25",
+      "PATH-5ED2D1679D7B",
+      "PATH-6215F8C40CB6",
+      "PATH-6401E0D5EB71",
+      "PATH-6463FE53D8A1",
+      "PATH-654C2D0047EB",
+      "PATH-667AA5ED00F2",
+      "PATH-66AE149141A5",
+      "PATH-66FDB3B96F14",
+      "PATH-69F2A871B0D7",
+      "PATH-6B24340DA525",
+      "PATH-6DA4943E5CF7",
+      "PATH-6E3D08FE9B60",
+      "PATH-6EBFC223E016",
+      "PATH-6FF815FC081F",
+      "PATH-7561EC39238F",
+      "PATH-79736721E844",
+      "PATH-7C37B1A01846",
+      "PATH-7DABAF35010C",
+      "PATH-80810BD7161F",
+      "PATH-8083609B3800",
+      "PATH-8125A4936EFA",
+      "PATH-82A78F09E718",
+      "PATH-82A8FB36E55A",
+      "PATH-851E896AC36D",
+      "PATH-8786378A53FF",
+      "PATH-8D0E49285790",
+      "PATH-8E160FF113B4",
+      "PATH-900CD7E2C854",
+      "PATH-922FB1DC060B",
+      "PATH-92DDE59E11CF",
+      "PATH-94F0FB7DD912",
+      "PATH-954194725EB3",
+      "PATH-97B76C85D03D",
+      "PATH-98113ED43C16",
+      "PATH-9B6FCB33D458",
+      "PATH-9BDC8975B704",
+      "PATH-9DAD25BDADC6",
+      "PATH-9F63E6E6CAA3",
+      "PATH-9FBD8438AF5E",
+      "PATH-A102C716B7A5",
+      "PATH-A5E9E1CAC7E9",
+      "PATH-A69F47A885C2",
+      "PATH-A8E5811B35A3",
+      "PATH-AB74661A8463",
+      "PATH-AC444CE6F16A",
+      "PATH-AC950631E211",
+      "PATH-AD19D6EB5724",
+      "PATH-AED848C695DC",
+      "PATH-B73A0B404A97",
+      "PATH-B8C37207EB22",
+      "PATH-C0F910B7BE5B",
+      "PATH-C127C0819611",
+      "PATH-CC03D52ED5BD",
+      "PATH-CCC8DE4629C8",
+      "PATH-CD8E5EB11DCC",
+      "PATH-CE8BE3440B19",
+      "PATH-D0C59788488A",
+      "PATH-D264C948106B",
+      "PATH-D294B7C27870",
+      "PATH-D410183D21B3",
+      "PATH-D4DE0760B63B",
+      "PATH-D7DDAE461A20",
+      "PATH-DC1D91816BAA",
+      "PATH-DC985E762618",
+      "PATH-DDAA54ACFB03",
+      "PATH-DED3EDE9926B",
+      "PATH-DFB65E1D92CC",
+      "PATH-E5BB43AFD121",
+      "PATH-E5D22C80BED9",
+      "PATH-E6D80FA73D7D",
+      "PATH-E7FEBC4FDAA1",
+      "PATH-E8336842FB82",
+      "PATH-E892666BDD66",
+      "PATH-E974D8CEB13D",
+      "PATH-EC070E7DDD89",
+      "PATH-ED1829254634",
+      "PATH-EF31D9628D64",
+      "PATH-EF9EA9EF0C12",
+      "PATH-F25346E78436",
+      "PATH-F5597A3AA659",
+      "PATH-F69C3FE6ACD3",
+      "PATH-FB1138A91995",
+      "PATH-FDB57A937F7A",
+      "PATH-FF155CCE7A48"
+    ]
+  },
+  "decisions": [
+    {
+      "review_id": "ARCHREV-015B84804D5C",
+      "path_id": "PATH-015B84804D5C",
+      "review_status": "reviewed_no_defect",
+      "conceptually_distinguishable_treatments": false,
+      "meaningful_subheadings_or_access_routes": false,
+      "material_scanning_or_retrieval_impairment": false,
+      "subdivision_is_conceptual_not_trivial": false,
+      "evidence_ids": [
+        "PATH-015B84804D5C",
+        "REC-329D22131A34",
+        "NODE-BBE7D297A86B"
+      ],
+      "defect_ids": []
+    },
+    {
+      "review_id": "ARCHREV-020B5DE179B8",
+      "path_id": "PATH-020B5DE179B8",
+      "review_status": "reviewed_no_defect",
+      "conceptually_distinguishable_treatments": false,
+      "meaningful_subheadings_or_access_routes": false,
+      "material_scanning_or_retrieval_impairment": false,
+      "subdivision_is_conceptual_not_trivial": false,
+      "evidence_ids": [
+        "PATH-020B5DE179B8",
+        "REC-AFB066E4F5A2",
+        "NODE-B425E4215C6C"
+      ],
+      "defect_ids": []
+    },
+    {
+      "review_id": "ARCHREV-03BF8D12E9EC",
+      "path_id": "PATH-03BF8D12E9EC",
+      "review_status": "reviewed_no_defect",
+      "conceptually_distinguishable_treatments": false,
+      "meaningful_subheadings_or_access_routes": false,
+      "material_scanning_or_retrieval_impairment": false,
+      "subdivision_is_conceptual_not_trivial": false,
+      "evidence_ids": [
+        "PATH-03BF8D12E9EC",
+        "REC-FAE868B3E78B",
+        "NODE-E22FDD010C2A"
+      ],
+      "defect_ids": []
+    },
+    {
+      "review_id": "ARCHREV-048D2A20C0A8",
+      "path_id": "PATH-048D2A20C0A8",
+      "review_status": "reviewed_no_defect",
+      "conceptually_distinguishable_treatments": false,
+      "meaningful_subheadings_or_access_routes": false,
+      "material_scanning_or_retrieval_impairment": false,
+      "subdivision_is_conceptual_not_trivial": false,
+      "evidence_ids": [
+        "PATH-048D2A20C0A8",
+        "REC-13AC6029734E",
+        "NODE-CDA2AD568E14"
+      ],
+      "defect_ids": []
+    },
+    {
+      "review_id": "ARCHREV-05A563039813",
+      "path_id": "PATH-05A563039813",
+      "review_status": "reviewed_no_defect",
+      "conceptually_distinguishable_treatments": true,
+      "meaningful_subheadings_or_access_routes": true,
+      "material_scanning_or_retrieval_impairment": false,
+      "subdivision_is_conceptual_not_trivial": true,
+      "evidence_ids": [
+        "PATH-05A563039813",
+        "REC-5C9462D32892",
+        "NODE-5FF0D834EF40"
+      ],
+      "defect_ids": []
+    },
+    {
+      "review_id": "ARCHREV-085850AB249C",
+      "path_id": "PATH-085850AB249C",
+      "review_status": "reviewed_no_defect",
+      "conceptually_distinguishable_treatments": true,
+      "meaningful_subheadings_or_access_routes": true,
+      "material_scanning_or_retrieval_impairment": false,
+      "subdivision_is_conceptual_not_trivial": true,
+      "evidence_ids": [
+        "PATH-085850AB249C",
+        "REC-14CF970A8389",
+        "NODE-D1A56177A3DD"
+      ],
+      "defect_ids": []
+    },
+    {
+      "review_id": "ARCHREV-0B659203C1CA",
+      "path_id": "PATH-0B659203C1CA",
+      "review_status": "reviewed_no_defect",
+      "conceptually_distinguishable_treatments": false,
+      "meaningful_subheadings_or_access_routes": false,
+      "material_scanning_or_retrieval_impairment": false,
+      "subdivision_is_conceptual_not_trivial": false,
+      "evidence_ids": [
+        "PATH-0B659203C1CA",
+        "REC-2AB85B172DD7",
+        "NODE-BD36EC0BDF92"
+      ],
+      "defect_ids": []
+    },
+    {
+      "review_id": "ARCHREV-0C4B8A4B90D4",
+      "path_id": "PATH-0C4B8A4B90D4",
+      "review_status": "reviewed_no_defect",
+      "conceptually_distinguishable_treatments": false,
+      "meaningful_subheadings_or_access_routes": false,
+      "material_scanning_or_retrieval_impairment": false,
+      "subdivision_is_conceptual_not_trivial": false,
+      "evidence_ids": [
+        "PATH-0C4B8A4B90D4",
+        "REC-67BF6E22580C",
+        "NODE-C5ADEF9A0FB5"
+      ],
+      "defect_ids": []
+    },
+    {
+      "review_id": "ARCHREV-0D042406A09F",
+      "path_id": "PATH-0D042406A09F",
+      "review_status": "reviewed_no_defect",
+      "conceptually_distinguishable_treatments": true,
+      "meaningful_subheadings_or_access_routes": true,
+      "material_scanning_or_retrieval_impairment": false,
+      "subdivision_is_conceptual_not_trivial": true,
+      "evidence_ids": [
+        "PATH-0D042406A09F",
+        "REC-415E89F22924",
+        "NODE-52AE5DEF181A"
+      ],
+      "defect_ids": []
+    },
+    {
+      "review_id": "ARCHREV-147035609EC4",
+      "path_id": "PATH-147035609EC4",
+      "review_status": "reviewed_no_defect",
+      "conceptually_distinguishable_treatments": true,
+      "meaningful_subheadings_or_access_routes": true,
+      "material_scanning_or_retrieval_impairment": false,
+      "subdivision_is_conceptual_not_trivial": true,
+      "evidence_ids": [
+        "PATH-147035609EC4",
+        "REC-038EE5135BF9",
+        "NODE-BBFA7F84AC78"
+      ],
+      "defect_ids": []
+    },
+    {
+      "review_id": "ARCHREV-18754890DD4A",
+      "path_id": "PATH-18754890DD4A",
+      "review_status": "reviewed_no_defect",
+      "conceptually_distinguishable_treatments": false,
+      "meaningful_subheadings_or_access_routes": false,
+      "material_scanning_or_retrieval_impairment": false,
+      "subdivision_is_conceptual_not_trivial": false,
+      "evidence_ids": [
+        "PATH-18754890DD4A",
+        "REC-03A336386297",
+        "NODE-FBD4309DABD4"
+      ],
+      "defect_ids": []
+    },
+    {
+      "review_id": "ARCHREV-1AF3FFE17D49",
+      "path_id": "PATH-1AF3FFE17D49",
+      "review_status": "reviewed_no_defect",
+      "conceptually_distinguishable_treatments": false,
+      "meaningful_subheadings_or_access_routes": false,
+      "material_scanning_or_retrieval_impairment": false,
+      "subdivision_is_conceptual_not_trivial": false,
+      "evidence_ids": [
+        "PATH-1AF3FFE17D49",
+        "REC-0D6E81F5BF3F",
+        "NODE-7300C98DDBD2"
+      ],
+      "defect_ids": []
+    },
+    {
+      "review_id": "ARCHREV-1EDAB90021E4",
+      "path_id": "PATH-1EDAB90021E4",
+      "review_status": "reviewed_no_defect",
+      "conceptually_distinguishable_treatments": true,
+      "meaningful_subheadings_or_access_routes": true,
+      "material_scanning_or_retrieval_impairment": false,
+      "subdivision_is_conceptual_not_trivial": true,
+      "evidence_ids": [
+        "PATH-1EDAB90021E4",
+        "REC-3B09E0B98CAD",
+        "NODE-5DE7549A4CC6"
+      ],
+      "defect_ids": []
+    },
+    {
+      "review_id": "ARCHREV-1F187639AA01",
+      "path_id": "PATH-1F187639AA01",
+      "review_status": "reviewed_no_defect",
+      "conceptually_distinguishable_treatments": false,
+      "meaningful_subheadings_or_access_routes": false,
+      "material_scanning_or_retrieval_impairment": false,
+      "subdivision_is_conceptual_not_trivial": false,
+      "evidence_ids": [
+        "PATH-1F187639AA01",
+        "REC-542DF395B49E",
+        "NODE-1A74756A9363"
+      ],
+      "defect_ids": []
+    },
+    {
+      "review_id": "ARCHREV-1F7AE1AB0CA6",
+      "path_id": "PATH-1F7AE1AB0CA6",
+      "review_status": "reviewed_no_defect",
+      "conceptually_distinguishable_treatments": false,
+      "meaningful_subheadings_or_access_routes": false,
+      "material_scanning_or_retrieval_impairment": false,
+      "subdivision_is_conceptual_not_trivial": false,
+      "evidence_ids": [
+        "PATH-1F7AE1AB0CA6",
+        "REC-749C1F3AE2FA",
+        "NODE-112FF5FDB716"
+      ],
+      "defect_ids": []
+    },
+    {
+      "review_id": "ARCHREV-202B9D53C9CC",
+      "path_id": "PATH-202B9D53C9CC",
+      "review_status": "reviewed_no_defect",
+      "conceptually_distinguishable_treatments": false,
+      "meaningful_subheadings_or_access_routes": false,
+      "material_scanning_or_retrieval_impairment": false,
+      "subdivision_is_conceptual_not_trivial": false,
+      "evidence_ids": [
+        "PATH-202B9D53C9CC",
+        "REC-D820879DF7F5",
+        "NODE-FDD1C4A2EF84"
+      ],
+      "defect_ids": []
+    },
+    {
+      "review_id": "ARCHREV-251FBD6FB4CE",
+      "path_id": "PATH-251FBD6FB4CE",
+      "review_status": "reviewed_no_defect",
+      "conceptually_distinguishable_treatments": false,
+      "meaningful_subheadings_or_access_routes": false,
+      "material_scanning_or_retrieval_impairment": false,
+      "subdivision_is_conceptual_not_trivial": false,
+      "evidence_ids": [
+        "PATH-251FBD6FB4CE",
+        "REC-4AFEC89BECF4",
+        "NODE-B36FF0F153EA"
+      ],
+      "defect_ids": []
+    },
+    {
+      "review_id": "ARCHREV-26704D6AB01B",
+      "path_id": "PATH-26704D6AB01B",
+      "review_status": "reviewed_no_defect",
+      "conceptually_distinguishable_treatments": false,
+      "meaningful_subheadings_or_access_routes": false,
+      "material_scanning_or_retrieval_impairment": false,
+      "subdivision_is_conceptual_not_trivial": false,
+      "evidence_ids": [
+        "PATH-26704D6AB01B",
+        "REC-84B3662B92FA",
+        "NODE-1233C7E79FAA"
+      ],
+      "defect_ids": []
+    },
+    {
+      "review_id": "ARCHREV-28EBC1FD413E",
+      "path_id": "PATH-28EBC1FD413E",
+      "review_status": "reviewed_no_defect",
+      "conceptually_distinguishable_treatments": false,
+      "meaningful_subheadings_or_access_routes": false,
+      "material_scanning_or_retrieval_impairment": false,
+      "subdivision_is_conceptual_not_trivial": false,
+      "evidence_ids": [
+        "PATH-28EBC1FD413E",
+        "REC-2EED2C8295FA",
+        "NODE-38B8ABA1892A"
+      ],
+      "defect_ids": []
+    },
+    {
+      "review_id": "ARCHREV-298E580668B4",
+      "path_id": "PATH-298E580668B4",
+      "review_status": "reviewed_no_defect",
+      "conceptually_distinguishable_treatments": false,
+      "meaningful_subheadings_or_access_routes": false,
+      "material_scanning_or_retrieval_impairment": false,
+      "subdivision_is_conceptual_not_trivial": false,
+      "evidence_ids": [
+        "PATH-298E580668B4",
+        "REC-3603BB7B0BBE",
+        "NODE-B57E7E50B7CB"
+      ],
+      "defect_ids": []
+    },
+    {
+      "review_id": "ARCHREV-2B4083238575",
+      "path_id": "PATH-2B4083238575",
+      "review_status": "reviewed_no_defect",
+      "conceptually_distinguishable_treatments": true,
+      "meaningful_subheadings_or_access_routes": true,
+      "material_scanning_or_retrieval_impairment": false,
+      "subdivision_is_conceptual_not_trivial": true,
+      "evidence_ids": [
+        "PATH-2B4083238575",
+        "REC-FF25BECAC71A",
+        "NODE-18F493943023"
+      ],
+      "defect_ids": []
+    },
+    {
+      "review_id": "ARCHREV-2BFCFED9D789",
+      "path_id": "PATH-2BFCFED9D789",
+      "review_status": "reviewed_no_defect",
+      "conceptually_distinguishable_treatments": false,
+      "meaningful_subheadings_or_access_routes": false,
+      "material_scanning_or_retrieval_impairment": false,
+      "subdivision_is_conceptual_not_trivial": false,
+      "evidence_ids": [
+        "PATH-2BFCFED9D789",
+        "REC-3503E2BC7FEE",
+        "NODE-6580CFCA31B7"
+      ],
+      "defect_ids": []
+    },
+    {
+      "review_id": "ARCHREV-30E850E1F5C7",
+      "path_id": "PATH-30E850E1F5C7",
+      "review_status": "reviewed_no_defect",
+      "conceptually_distinguishable_treatments": false,
+      "meaningful_subheadings_or_access_routes": false,
+      "material_scanning_or_retrieval_impairment": false,
+      "subdivision_is_conceptual_not_trivial": false,
+      "evidence_ids": [
+        "PATH-30E850E1F5C7",
+        "REC-B3E4BFC60305",
+        "NODE-3CBEA2E13A30"
+      ],
+      "defect_ids": []
+    },
+    {
+      "review_id": "ARCHREV-33C6B51DC018",
+      "path_id": "PATH-33C6B51DC018",
+      "review_status": "reviewed_no_defect",
+      "conceptually_distinguishable_treatments": false,
+      "meaningful_subheadings_or_access_routes": false,
+      "material_scanning_or_retrieval_impairment": false,
+      "subdivision_is_conceptual_not_trivial": false,
+      "evidence_ids": [
+        "PATH-33C6B51DC018",
+        "REC-2FDDBE0CA338",
+        "NODE-A7A56ADB56A5"
+      ],
+      "defect_ids": []
+    },
+    {
+      "review_id": "ARCHREV-34CA79D09839",
+      "path_id": "PATH-34CA79D09839",
+      "review_status": "reviewed_no_defect",
+      "conceptually_distinguishable_treatments": false,
+      "meaningful_subheadings_or_access_routes": false,
+      "material_scanning_or_retrieval_impairment": false,
+      "subdivision_is_conceptual_not_trivial": false,
+      "evidence_ids": [
+        "PATH-34CA79D09839",
+        "REC-69F7896C3E99",
+        "NODE-9A25F4A35C18"
+      ],
+      "defect_ids": []
+    },
+    {
+      "review_id": "ARCHREV-39C4247B5F5E",
+      "path_id": "PATH-39C4247B5F5E",
+      "review_status": "reviewed_no_defect",
+      "conceptually_distinguishable_treatments": false,
+      "meaningful_subheadings_or_access_routes": false,
+      "material_scanning_or_retrieval_impairment": false,
+      "subdivision_is_conceptual_not_trivial": false,
+      "evidence_ids": [
+        "PATH-39C4247B5F5E",
+        "REC-D3C92EBD26DC",
+        "NODE-94A912CBD1A4"
+      ],
+      "defect_ids": []
+    },
+    {
+      "review_id": "ARCHREV-3C16555789F9",
+      "path_id": "PATH-3C16555789F9",
+      "review_status": "reviewed_no_defect",
+      "conceptually_distinguishable_treatments": false,
+      "meaningful_subheadings_or_access_routes": false,
+      "material_scanning_or_retrieval_impairment": false,
+      "subdivision_is_conceptual_not_trivial": false,
+      "evidence_ids": [
+        "PATH-3C16555789F9",
+        "REC-9BE71E6EAD09",
+        "NODE-81234EBAA9A8"
+      ],
+      "defect_ids": []
+    },
+    {
+      "review_id": "ARCHREV-3E67415FF147",
+      "path_id": "PATH-3E67415FF147",
+      "review_status": "reviewed_no_defect",
+      "conceptually_distinguishable_treatments": false,
+      "meaningful_subheadings_or_access_routes": false,
+      "material_scanning_or_retrieval_impairment": false,
+      "subdivision_is_conceptual_not_trivial": false,
+      "evidence_ids": [
+        "PATH-3E67415FF147",
+        "REC-1B449F0FBAEA",
+        "NODE-6F0D1E6241EB"
+      ],
+      "defect_ids": []
+    },
+    {
+      "review_id": "ARCHREV-3F97A6F51C6A",
+      "path_id": "PATH-3F97A6F51C6A",
+      "review_status": "reviewed_no_defect",
+      "conceptually_distinguishable_treatments": true,
+      "meaningful_subheadings_or_access_routes": true,
+      "material_scanning_or_retrieval_impairment": false,
+      "subdivision_is_conceptual_not_trivial": true,
+      "evidence_ids": [
+        "PATH-3F97A6F51C6A",
+        "REC-80C622946E18",
+        "NODE-98773880C4CE"
+      ],
+      "defect_ids": []
+    },
+    {
+      "review_id": "ARCHREV-4130DDE11598",
+      "path_id": "PATH-4130DDE11598",
+      "review_status": "reviewed_no_defect",
+      "conceptually_distinguishable_treatments": false,
+      "meaningful_subheadings_or_access_routes": false,
+      "material_scanning_or_retrieval_impairment": false,
+      "subdivision_is_conceptual_not_trivial": false,
+      "evidence_ids": [
+        "PATH-4130DDE11598",
+        "REC-D711D8DA03D3",
+        "NODE-11B72395CD19"
+      ],
+      "defect_ids": []
+    },
+    {
+      "review_id": "ARCHREV-41C637F203C5",
+      "path_id": "PATH-41C637F203C5",
+      "review_status": "reviewed_no_defect",
+      "conceptually_distinguishable_treatments": false,
+      "meaningful_subheadings_or_access_routes": false,
+      "material_scanning_or_retrieval_impairment": false,
+      "subdivision_is_conceptual_not_trivial": false,
+      "evidence_ids": [
+        "PATH-41C637F203C5",
+        "REC-7D380B4EC236",
+        "NODE-CB05346BEC23"
+      ],
+      "defect_ids": []
+    },
+    {
+      "review_id": "ARCHREV-421C2D6ED3A4",
+      "path_id": "PATH-421C2D6ED3A4",
+      "review_status": "reviewed_no_defect",
+      "conceptually_distinguishable_treatments": false,
+      "meaningful_subheadings_or_access_routes": false,
+      "material_scanning_or_retrieval_impairment": false,
+      "subdivision_is_conceptual_not_trivial": false,
+      "evidence_ids": [
+        "PATH-421C2D6ED3A4",
+        "REC-A82CDA78CA71",
+        "NODE-7E3A27A03299"
+      ],
+      "defect_ids": []
+    },
+    {
+      "review_id": "ARCHREV-426FE06880BA",
+      "path_id": "PATH-426FE06880BA",
+      "review_status": "reviewed_no_defect",
+      "conceptually_distinguishable_treatments": true,
+      "meaningful_subheadings_or_access_routes": true,
+      "material_scanning_or_retrieval_impairment": false,
+      "subdivision_is_conceptual_not_trivial": true,
+      "evidence_ids": [
+        "PATH-426FE06880BA",
+        "REC-E49330284516",
+        "NODE-7FE3FC6BC8A0"
+      ],
+      "defect_ids": []
+    },
+    {
+      "review_id": "ARCHREV-441265595FC7",
+      "path_id": "PATH-441265595FC7",
+      "review_status": "reviewed_no_defect",
+      "conceptually_distinguishable_treatments": false,
+      "meaningful_subheadings_or_access_routes": false,
+      "material_scanning_or_retrieval_impairment": false,
+      "subdivision_is_conceptual_not_trivial": false,
+      "evidence_ids": [
+        "PATH-441265595FC7",
+        "REC-68DBA4EE467F",
+        "NODE-CA1BDBBD248E"
+      ],
+      "defect_ids": []
+    },
+    {
+      "review_id": "ARCHREV-442A99AA1646",
+      "path_id": "PATH-442A99AA1646",
+      "review_status": "reviewed_no_defect",
+      "conceptually_distinguishable_treatments": false,
+      "meaningful_subheadings_or_access_routes": false,
+      "material_scanning_or_retrieval_impairment": false,
+      "subdivision_is_conceptual_not_trivial": false,
+      "evidence_ids": [
+        "PATH-442A99AA1646",
+        "REC-E1CE2924BB0C",
+        "NODE-EFCC415458E2"
+      ],
+      "defect_ids": []
+    },
+    {
+      "review_id": "ARCHREV-44AA07FCFEEC",
+      "path_id": "PATH-44AA07FCFEEC",
+      "review_status": "reviewed_no_defect",
+      "conceptually_distinguishable_treatments": false,
+      "meaningful_subheadings_or_access_routes": false,
+      "material_scanning_or_retrieval_impairment": false,
+      "subdivision_is_conceptual_not_trivial": false,
+      "evidence_ids": [
+        "PATH-44AA07FCFEEC",
+        "REC-A7ECFE3F7809",
+        "NODE-2BC39D8EBF44"
+      ],
+      "defect_ids": []
+    },
+    {
+      "review_id": "ARCHREV-47B1A64943F3",
+      "path_id": "PATH-47B1A64943F3",
+      "review_status": "reviewed_no_defect",
+      "conceptually_distinguishable_treatments": false,
+      "meaningful_subheadings_or_access_routes": false,
+      "material_scanning_or_retrieval_impairment": false,
+      "subdivision_is_conceptual_not_trivial": false,
+      "evidence_ids": [
+        "PATH-47B1A64943F3",
+        "REC-4DB0C50D4C3D",
+        "NODE-4ADA4E1CF6E0"
+      ],
+      "defect_ids": []
+    },
+    {
+      "review_id": "ARCHREV-4A5F1130A3BF",
+      "path_id": "PATH-4A5F1130A3BF",
+      "review_status": "reviewed_no_defect",
+      "conceptually_distinguishable_treatments": false,
+      "meaningful_subheadings_or_access_routes": false,
+      "material_scanning_or_retrieval_impairment": false,
+      "subdivision_is_conceptual_not_trivial": false,
+      "evidence_ids": [
+        "PATH-4A5F1130A3BF",
+        "REC-3B1BDA7E335A",
+        "NODE-02916217AE87"
+      ],
+      "defect_ids": []
+    },
+    {
+      "review_id": "ARCHREV-4ADDBCB02556",
+      "path_id": "PATH-4ADDBCB02556",
+      "review_status": "reviewed_no_defect",
+      "conceptually_distinguishable_treatments": false,
+      "meaningful_subheadings_or_access_routes": false,
+      "material_scanning_or_retrieval_impairment": false,
+      "subdivision_is_conceptual_not_trivial": false,
+      "evidence_ids": [
+        "PATH-4ADDBCB02556",
+        "REC-F1CBC2D72E3E",
+        "NODE-BD57DB8BD154"
+      ],
+      "defect_ids": []
+    },
+    {
+      "review_id": "ARCHREV-4B40E9C6EC0B",
+      "path_id": "PATH-4B40E9C6EC0B",
+      "review_status": "reviewed_no_defect",
+      "conceptually_distinguishable_treatments": false,
+      "meaningful_subheadings_or_access_routes": false,
+      "material_scanning_or_retrieval_impairment": false,
+      "subdivision_is_conceptual_not_trivial": false,
+      "evidence_ids": [
+        "PATH-4B40E9C6EC0B",
+        "REC-92F2FB2D7873",
+        "NODE-A1E96EB123C8"
+      ],
+      "defect_ids": []
+    },
+    {
+      "review_id": "ARCHREV-534C000D4104",
+      "path_id": "PATH-534C000D4104",
+      "review_status": "reviewed_no_defect",
+      "conceptually_distinguishable_treatments": false,
+      "meaningful_subheadings_or_access_routes": false,
+      "material_scanning_or_retrieval_impairment": false,
+      "subdivision_is_conceptual_not_trivial": false,
+      "evidence_ids": [
+        "PATH-534C000D4104",
+        "REC-94750796BE07",
+        "NODE-82D0F1FCC1FA"
+      ],
+      "defect_ids": []
+    },
+    {
+      "review_id": "ARCHREV-54AEF22A3562",
+      "path_id": "PATH-54AEF22A3562",
+      "review_status": "reviewed_no_defect",
+      "conceptually_distinguishable_treatments": false,
+      "meaningful_subheadings_or_access_routes": false,
+      "material_scanning_or_retrieval_impairment": false,
+      "subdivision_is_conceptual_not_trivial": false,
+      "evidence_ids": [
+        "PATH-54AEF22A3562",
+        "REC-6D8AD7EC2554",
+        "NODE-DA16D470370B"
+      ],
+      "defect_ids": []
+    },
+    {
+      "review_id": "ARCHREV-552900D360AD",
+      "path_id": "PATH-552900D360AD",
+      "review_status": "reviewed_no_defect",
+      "conceptually_distinguishable_treatments": false,
+      "meaningful_subheadings_or_access_routes": false,
+      "material_scanning_or_retrieval_impairment": false,
+      "subdivision_is_conceptual_not_trivial": false,
+      "evidence_ids": [
+        "PATH-552900D360AD",
+        "REC-86F7F5A3BE30",
+        "NODE-D5DF924A7AFB"
+      ],
+      "defect_ids": []
+    },
+    {
+      "review_id": "ARCHREV-557E3BC2AF25",
+      "path_id": "PATH-557E3BC2AF25",
+      "review_status": "reviewed_no_defect",
+      "conceptually_distinguishable_treatments": false,
+      "meaningful_subheadings_or_access_routes": false,
+      "material_scanning_or_retrieval_impairment": false,
+      "subdivision_is_conceptual_not_trivial": false,
+      "evidence_ids": [
+        "PATH-557E3BC2AF25",
+        "REC-0B09F8B94571",
+        "NODE-139AAAD4D66A"
+      ],
+      "defect_ids": []
+    },
+    {
+      "review_id": "ARCHREV-5ED2D1679D7B",
+      "path_id": "PATH-5ED2D1679D7B",
+      "review_status": "reviewed_no_defect",
+      "conceptually_distinguishable_treatments": true,
+      "meaningful_subheadings_or_access_routes": true,
+      "material_scanning_or_retrieval_impairment": false,
+      "subdivision_is_conceptual_not_trivial": true,
+      "evidence_ids": [
+        "PATH-5ED2D1679D7B",
+        "REC-A9EBC5E1282F",
+        "NODE-8CDB7BB2FAB2"
+      ],
+      "defect_ids": []
+    },
+    {
+      "review_id": "ARCHREV-6215F8C40CB6",
+      "path_id": "PATH-6215F8C40CB6",
+      "review_status": "reviewed_no_defect",
+      "conceptually_distinguishable_treatments": false,
+      "meaningful_subheadings_or_access_routes": false,
+      "material_scanning_or_retrieval_impairment": false,
+      "subdivision_is_conceptual_not_trivial": false,
+      "evidence_ids": [
+        "PATH-6215F8C40CB6",
+        "REC-FE91E09DF7A7",
+        "NODE-0D300BA0C5AE"
+      ],
+      "defect_ids": []
+    },
+    {
+      "review_id": "ARCHREV-6401E0D5EB71",
+      "path_id": "PATH-6401E0D5EB71",
+      "review_status": "reviewed_no_defect",
+      "conceptually_distinguishable_treatments": false,
+      "meaningful_subheadings_or_access_routes": false,
+      "material_scanning_or_retrieval_impairment": false,
+      "subdivision_is_conceptual_not_trivial": false,
+      "evidence_ids": [
+        "PATH-6401E0D5EB71",
+        "REC-2B982CC542C2",
+        "NODE-C5C3C7C2B2E3"
+      ],
+      "defect_ids": []
+    },
+    {
+      "review_id": "ARCHREV-6463FE53D8A1",
+      "path_id": "PATH-6463FE53D8A1",
+      "review_status": "reviewed_no_defect",
+      "conceptually_distinguishable_treatments": false,
+      "meaningful_subheadings_or_access_routes": false,
+      "material_scanning_or_retrieval_impairment": false,
+      "subdivision_is_conceptual_not_trivial": false,
+      "evidence_ids": [
+        "PATH-6463FE53D8A1",
+        "REC-7DFC2CFE4142",
+        "NODE-4E19B901F94D"
+      ],
+      "defect_ids": []
+    },
+    {
+      "review_id": "ARCHREV-654C2D0047EB",
+      "path_id": "PATH-654C2D0047EB",
+      "review_status": "reviewed_no_defect",
+      "conceptually_distinguishable_treatments": false,
+      "meaningful_subheadings_or_access_routes": false,
+      "material_scanning_or_retrieval_impairment": false,
+      "subdivision_is_conceptual_not_trivial": false,
+      "evidence_ids": [
+        "PATH-654C2D0047EB",
+        "REC-D542E9F63D8F",
+        "NODE-40281D60AC8E"
+      ],
+      "defect_ids": []
+    },
+    {
+      "review_id": "ARCHREV-667AA5ED00F2",
+      "path_id": "PATH-667AA5ED00F2",
+      "review_status": "reviewed_no_defect",
+      "conceptually_distinguishable_treatments": false,
+      "meaningful_subheadings_or_access_routes": false,
+      "material_scanning_or_retrieval_impairment": false,
+      "subdivision_is_conceptual_not_trivial": false,
+      "evidence_ids": [
+        "PATH-667AA5ED00F2",
+        "REC-43D91438EAAA",
+        "NODE-84B5351EC423"
+      ],
+      "defect_ids": []
+    },
+    {
+      "review_id": "ARCHREV-66AE149141A5",
+      "path_id": "PATH-66AE149141A5",
+      "review_status": "reviewed_no_defect",
+      "conceptually_distinguishable_treatments": false,
+      "meaningful_subheadings_or_access_routes": false,
+      "material_scanning_or_retrieval_impairment": false,
+      "subdivision_is_conceptual_not_trivial": false,
+      "evidence_ids": [
+        "PATH-66AE149141A5",
+        "REC-FB9F39DB3349",
+        "NODE-42E01F7CA576"
+      ],
+      "defect_ids": []
+    },
+    {
+      "review_id": "ARCHREV-66FDB3B96F14",
+      "path_id": "PATH-66FDB3B96F14",
+      "review_status": "reviewed_no_defect",
+      "conceptually_distinguishable_treatments": true,
+      "meaningful_subheadings_or_access_routes": true,
+      "material_scanning_or_retrieval_impairment": false,
+      "subdivision_is_conceptual_not_trivial": true,
+      "evidence_ids": [
+        "PATH-66FDB3B96F14",
+        "REC-B13B58E4629D",
+        "NODE-0DD9DB448D78"
+      ],
+      "defect_ids": []
+    },
+    {
+      "review_id": "ARCHREV-69F2A871B0D7",
+      "path_id": "PATH-69F2A871B0D7",
+      "review_status": "reviewed_no_defect",
+      "conceptually_distinguishable_treatments": false,
+      "meaningful_subheadings_or_access_routes": false,
+      "material_scanning_or_retrieval_impairment": false,
+      "subdivision_is_conceptual_not_trivial": false,
+      "evidence_ids": [
+        "PATH-69F2A871B0D7",
+        "REC-4FE7095978AB",
+        "NODE-811B50B6DF90"
+      ],
+      "defect_ids": []
+    },
+    {
+      "review_id": "ARCHREV-6B24340DA525",
+      "path_id": "PATH-6B24340DA525",
+      "review_status": "reviewed_no_defect",
+      "conceptually_distinguishable_treatments": false,
+      "meaningful_subheadings_or_access_routes": false,
+      "material_scanning_or_retrieval_impairment": false,
+      "subdivision_is_conceptual_not_trivial": false,
+      "evidence_ids": [
+        "PATH-6B24340DA525",
+        "REC-78CFC6E95DEC",
+        "NODE-11739F459FC0"
+      ],
+      "defect_ids": []
+    },
+    {
+      "review_id": "ARCHREV-6DA4943E5CF7",
+      "path_id": "PATH-6DA4943E5CF7",
+      "review_status": "reviewed_no_defect",
+      "conceptually_distinguishable_treatments": false,
+      "meaningful_subheadings_or_access_routes": false,
+      "material_scanning_or_retrieval_impairment": false,
+      "subdivision_is_conceptual_not_trivial": false,
+      "evidence_ids": [
+        "PATH-6DA4943E5CF7",
+        "REC-19CC890560B3",
+        "NODE-AAAEF09BA975"
+      ],
+      "defect_ids": []
+    },
+    {
+      "review_id": "ARCHREV-6E3D08FE9B60",
+      "path_id": "PATH-6E3D08FE9B60",
+      "review_status": "reviewed_no_defect",
+      "conceptually_distinguishable_treatments": false,
+      "meaningful_subheadings_or_access_routes": false,
+      "material_scanning_or_retrieval_impairment": false,
+      "subdivision_is_conceptual_not_trivial": false,
+      "evidence_ids": [
+        "PATH-6E3D08FE9B60",
+        "REC-94D0B60D2EF9",
+        "NODE-774D30E43E0A"
+      ],
+      "defect_ids": []
+    },
+    {
+      "review_id": "ARCHREV-6EBFC223E016",
+      "path_id": "PATH-6EBFC223E016",
+      "review_status": "reviewed_no_defect",
+      "conceptually_distinguishable_treatments": false,
+      "meaningful_subheadings_or_access_routes": false,
+      "material_scanning_or_retrieval_impairment": false,
+      "subdivision_is_conceptual_not_trivial": false,
+      "evidence_ids": [
+        "PATH-6EBFC223E016",
+        "REC-7444962A2954",
+        "NODE-880ED5BA7742"
+      ],
+      "defect_ids": []
+    },
+    {
+      "review_id": "ARCHREV-6FF815FC081F",
+      "path_id": "PATH-6FF815FC081F",
+      "review_status": "reviewed_no_defect",
+      "conceptually_distinguishable_treatments": false,
+      "meaningful_subheadings_or_access_routes": false,
+      "material_scanning_or_retrieval_impairment": false,
+      "subdivision_is_conceptual_not_trivial": false,
+      "evidence_ids": [
+        "PATH-6FF815FC081F",
+        "REC-88FC5AD729D1",
+        "NODE-5E9084F45CDF"
+      ],
+      "defect_ids": []
+    },
+    {
+      "review_id": "ARCHREV-7561EC39238F",
+      "path_id": "PATH-7561EC39238F",
+      "review_status": "reviewed_no_defect",
+      "conceptually_distinguishable_treatments": false,
+      "meaningful_subheadings_or_access_routes": false,
+      "material_scanning_or_retrieval_impairment": false,
+      "subdivision_is_conceptual_not_trivial": false,
+      "evidence_ids": [
+        "PATH-7561EC39238F",
+        "REC-0B7DD68A934E",
+        "NODE-4E63AE211AE7"
+      ],
+      "defect_ids": []
+    },
+    {
+      "review_id": "ARCHREV-79736721E844",
+      "path_id": "PATH-79736721E844",
+      "review_status": "reviewed_no_defect",
+      "conceptually_distinguishable_treatments": false,
+      "meaningful_subheadings_or_access_routes": false,
+      "material_scanning_or_retrieval_impairment": false,
+      "subdivision_is_conceptual_not_trivial": false,
+      "evidence_ids": [
+        "PATH-79736721E844",
+        "REC-C0B537F8262C",
+        "NODE-3F32511EE02B"
+      ],
+      "defect_ids": []
+    },
+    {
+      "review_id": "ARCHREV-7C37B1A01846",
+      "path_id": "PATH-7C37B1A01846",
+      "review_status": "reviewed_no_defect",
+      "conceptually_distinguishable_treatments": false,
+      "meaningful_subheadings_or_access_routes": false,
+      "material_scanning_or_retrieval_impairment": false,
+      "subdivision_is_conceptual_not_trivial": false,
+      "evidence_ids": [
+        "PATH-7C37B1A01846",
+        "REC-4A6FD9B08BB7",
+        "NODE-2FAF36867447"
+      ],
+      "defect_ids": []
+    },
+    {
+      "review_id": "ARCHREV-7DABAF35010C",
+      "path_id": "PATH-7DABAF35010C",
+      "review_status": "reviewed_no_defect",
+      "conceptually_distinguishable_treatments": false,
+      "meaningful_subheadings_or_access_routes": false,
+      "material_scanning_or_retrieval_impairment": false,
+      "subdivision_is_conceptual_not_trivial": false,
+      "evidence_ids": [
+        "PATH-7DABAF35010C",
+        "REC-C528477396FF",
+        "NODE-AA846328E16A"
+      ],
+      "defect_ids": []
+    },
+    {
+      "review_id": "ARCHREV-80810BD7161F",
+      "path_id": "PATH-80810BD7161F",
+      "review_status": "reviewed_no_defect",
+      "conceptually_distinguishable_treatments": false,
+      "meaningful_subheadings_or_access_routes": false,
+      "material_scanning_or_retrieval_impairment": false,
+      "subdivision_is_conceptual_not_trivial": false,
+      "evidence_ids": [
+        "PATH-80810BD7161F",
+        "REC-2C8EB2FE24BE",
+        "NODE-4764A9A9CD71"
+      ],
+      "defect_ids": []
+    },
+    {
+      "review_id": "ARCHREV-8083609B3800",
+      "path_id": "PATH-8083609B3800",
+      "review_status": "reviewed_no_defect",
+      "conceptually_distinguishable_treatments": false,
+      "meaningful_subheadings_or_access_routes": false,
+      "material_scanning_or_retrieval_impairment": false,
+      "subdivision_is_conceptual_not_trivial": false,
+      "evidence_ids": [
+        "PATH-8083609B3800",
+        "REC-6076A77AA2E5",
+        "NODE-9BB12CDDD9AC"
+      ],
+      "defect_ids": []
+    },
+    {
+      "review_id": "ARCHREV-8125A4936EFA",
+      "path_id": "PATH-8125A4936EFA",
+      "review_status": "reviewed_no_defect",
+      "conceptually_distinguishable_treatments": false,
+      "meaningful_subheadings_or_access_routes": false,
+      "material_scanning_or_retrieval_impairment": false,
+      "subdivision_is_conceptual_not_trivial": false,
+      "evidence_ids": [
+        "PATH-8125A4936EFA",
+        "REC-35AE643C7EF5",
+        "NODE-EDD64729225A"
+      ],
+      "defect_ids": []
+    },
+    {
+      "review_id": "ARCHREV-82A78F09E718",
+      "path_id": "PATH-82A78F09E718",
+      "review_status": "reviewed_no_defect",
+      "conceptually_distinguishable_treatments": false,
+      "meaningful_subheadings_or_access_routes": false,
+      "material_scanning_or_retrieval_impairment": false,
+      "subdivision_is_conceptual_not_trivial": false,
+      "evidence_ids": [
+        "PATH-82A78F09E718",
+        "REC-8FEA3E62DF95",
+        "NODE-5FFA0F3F286F"
+      ],
+      "defect_ids": []
+    },
+    {
+      "review_id": "ARCHREV-82A8FB36E55A",
+      "path_id": "PATH-82A8FB36E55A",
+      "review_status": "reviewed_no_defect",
+      "conceptually_distinguishable_treatments": false,
+      "meaningful_subheadings_or_access_routes": false,
+      "material_scanning_or_retrieval_impairment": false,
+      "subdivision_is_conceptual_not_trivial": false,
+      "evidence_ids": [
+        "PATH-82A8FB36E55A",
+        "REC-E9228CE1BF81",
+        "NODE-E7378A3139EB"
+      ],
+      "defect_ids": []
+    },
+    {
+      "review_id": "ARCHREV-851E896AC36D",
+      "path_id": "PATH-851E896AC36D",
+      "review_status": "reviewed_no_defect",
+      "conceptually_distinguishable_treatments": true,
+      "meaningful_subheadings_or_access_routes": true,
+      "material_scanning_or_retrieval_impairment": false,
+      "subdivision_is_conceptual_not_trivial": true,
+      "evidence_ids": [
+        "PATH-851E896AC36D",
+        "REC-57DD24188898",
+        "NODE-AC34C6C6F8D3"
+      ],
+      "defect_ids": []
+    },
+    {
+      "review_id": "ARCHREV-8786378A53FF",
+      "path_id": "PATH-8786378A53FF",
+      "review_status": "reviewed_no_defect",
+      "conceptually_distinguishable_treatments": true,
+      "meaningful_subheadings_or_access_routes": true,
+      "material_scanning_or_retrieval_impairment": false,
+      "subdivision_is_conceptual_not_trivial": true,
+      "evidence_ids": [
+        "PATH-8786378A53FF",
+        "REC-0C1F73F9BA00",
+        "NODE-59C3362A712F"
+      ],
+      "defect_ids": []
+    },
+    {
+      "review_id": "ARCHREV-8D0E49285790",
+      "path_id": "PATH-8D0E49285790",
+      "review_status": "reviewed_no_defect",
+      "conceptually_distinguishable_treatments": false,
+      "meaningful_subheadings_or_access_routes": false,
+      "material_scanning_or_retrieval_impairment": false,
+      "subdivision_is_conceptual_not_trivial": false,
+      "evidence_ids": [
+        "PATH-8D0E49285790",
+        "REC-3D89A040FDA0",
+        "NODE-54D7500EB7DF"
+      ],
+      "defect_ids": []
+    },
+    {
+      "review_id": "ARCHREV-8E160FF113B4",
+      "path_id": "PATH-8E160FF113B4",
+      "review_status": "reviewed_no_defect",
+      "conceptually_distinguishable_treatments": false,
+      "meaningful_subheadings_or_access_routes": false,
+      "material_scanning_or_retrieval_impairment": false,
+      "subdivision_is_conceptual_not_trivial": false,
+      "evidence_ids": [
+        "PATH-8E160FF113B4",
+        "REC-9D42F136C4FD",
+        "NODE-63F55141C4BB"
+      ],
+      "defect_ids": []
+    },
+    {
+      "review_id": "ARCHREV-900CD7E2C854",
+      "path_id": "PATH-900CD7E2C854",
+      "review_status": "reviewed_no_defect",
+      "conceptually_distinguishable_treatments": false,
+      "meaningful_subheadings_or_access_routes": false,
+      "material_scanning_or_retrieval_impairment": false,
+      "subdivision_is_conceptual_not_trivial": false,
+      "evidence_ids": [
+        "PATH-900CD7E2C854",
+        "REC-348392FEDA35",
+        "NODE-9D92376D2833"
+      ],
+      "defect_ids": []
+    },
+    {
+      "review_id": "ARCHREV-922FB1DC060B",
+      "path_id": "PATH-922FB1DC060B",
+      "review_status": "reviewed_no_defect",
+      "conceptually_distinguishable_treatments": false,
+      "meaningful_subheadings_or_access_routes": false,
+      "material_scanning_or_retrieval_impairment": false,
+      "subdivision_is_conceptual_not_trivial": false,
+      "evidence_ids": [
+        "PATH-922FB1DC060B",
+        "REC-E163C0B589AB",
+        "NODE-DD7D5BBDF647"
+      ],
+      "defect_ids": []
+    },
+    {
+      "review_id": "ARCHREV-92DDE59E11CF",
+      "path_id": "PATH-92DDE59E11CF",
+      "review_status": "reviewed_no_defect",
+      "conceptually_distinguishable_treatments": false,
+      "meaningful_subheadings_or_access_routes": false,
+      "material_scanning_or_retrieval_impairment": false,
+      "subdivision_is_conceptual_not_trivial": false,
+      "evidence_ids": [
+        "PATH-92DDE59E11CF",
+        "REC-B8F7431ED598",
+        "NODE-D421F16EB35B"
+      ],
+      "defect_ids": []
+    },
+    {
+      "review_id": "ARCHREV-94F0FB7DD912",
+      "path_id": "PATH-94F0FB7DD912",
+      "review_status": "reviewed_no_defect",
+      "conceptually_distinguishable_treatments": false,
+      "meaningful_subheadings_or_access_routes": false,
+      "material_scanning_or_retrieval_impairment": false,
+      "subdivision_is_conceptual_not_trivial": false,
+      "evidence_ids": [
+        "PATH-94F0FB7DD912",
+        "REC-3FE49FA012F2",
+        "NODE-FB186A17F8F5"
+      ],
+      "defect_ids": []
+    },
+    {
+      "review_id": "ARCHREV-954194725EB3",
+      "path_id": "PATH-954194725EB3",
+      "review_status": "reviewed_no_defect",
+      "conceptually_distinguishable_treatments": false,
+      "meaningful_subheadings_or_access_routes": false,
+      "material_scanning_or_retrieval_impairment": false,
+      "subdivision_is_conceptual_not_trivial": false,
+      "evidence_ids": [
+        "PATH-954194725EB3",
+        "REC-E0737A7807B2",
+        "NODE-AE573E471A06"
+      ],
+      "defect_ids": []
+    },
+    {
+      "review_id": "ARCHREV-97B76C85D03D",
+      "path_id": "PATH-97B76C85D03D",
+      "review_status": "reviewed_no_defect",
+      "conceptually_distinguishable_treatments": false,
+      "meaningful_subheadings_or_access_routes": false,
+      "material_scanning_or_retrieval_impairment": false,
+      "subdivision_is_conceptual_not_trivial": false,
+      "evidence_ids": [
+        "PATH-97B76C85D03D",
+        "REC-C1252DA3C207",
+        "NODE-DEEFB5026A6E"
+      ],
+      "defect_ids": []
+    },
+    {
+      "review_id": "ARCHREV-98113ED43C16",
+      "path_id": "PATH-98113ED43C16",
+      "review_status": "reviewed_no_defect",
+      "conceptually_distinguishable_treatments": true,
+      "meaningful_subheadings_or_access_routes": true,
+      "material_scanning_or_retrieval_impairment": false,
+      "subdivision_is_conceptual_not_trivial": true,
+      "evidence_ids": [
+        "PATH-98113ED43C16",
+        "REC-7D070B68C24F",
+        "NODE-23EFC7A65B8F"
+      ],
+      "defect_ids": []
+    },
+    {
+      "review_id": "ARCHREV-9B6FCB33D458",
+      "path_id": "PATH-9B6FCB33D458",
+      "review_status": "reviewed_no_defect",
+      "conceptually_distinguishable_treatments": false,
+      "meaningful_subheadings_or_access_routes": false,
+      "material_scanning_or_retrieval_impairment": false,
+      "subdivision_is_conceptual_not_trivial": false,
+      "evidence_ids": [
+        "PATH-9B6FCB33D458",
+        "REC-F41279231658",
+        "NODE-0C14260840DA"
+      ],
+      "defect_ids": []
+    },
+    {
+      "review_id": "ARCHREV-9BDC8975B704",
+      "path_id": "PATH-9BDC8975B704",
+      "review_status": "reviewed_no_defect",
+      "conceptually_distinguishable_treatments": false,
+      "meaningful_subheadings_or_access_routes": false,
+      "material_scanning_or_retrieval_impairment": false,
+      "subdivision_is_conceptual_not_trivial": false,
+      "evidence_ids": [
+        "PATH-9BDC8975B704",
+        "REC-31450C65F6A6",
+        "NODE-7CAE1DD84E62"
+      ],
+      "defect_ids": []
+    },
+    {
+      "review_id": "ARCHREV-9DAD25BDADC6",
+      "path_id": "PATH-9DAD25BDADC6",
+      "review_status": "reviewed_no_defect",
+      "conceptually_distinguishable_treatments": false,
+      "meaningful_subheadings_or_access_routes": false,
+      "material_scanning_or_retrieval_impairment": false,
+      "subdivision_is_conceptual_not_trivial": false,
+      "evidence_ids": [
+        "PATH-9DAD25BDADC6",
+        "REC-05CB77F040E0",
+        "NODE-76B00230857A"
+      ],
+      "defect_ids": []
+    },
+    {
+      "review_id": "ARCHREV-9F63E6E6CAA3",
+      "path_id": "PATH-9F63E6E6CAA3",
+      "review_status": "reviewed_no_defect",
+      "conceptually_distinguishable_treatments": false,
+      "meaningful_subheadings_or_access_routes": false,
+      "material_scanning_or_retrieval_impairment": false,
+      "subdivision_is_conceptual_not_trivial": false,
+      "evidence_ids": [
+        "PATH-9F63E6E6CAA3",
+        "REC-012C293AD9CD",
+        "NODE-AF74465FDDCE"
+      ],
+      "defect_ids": []
+    },
+    {
+      "review_id": "ARCHREV-9FBD8438AF5E",
+      "path_id": "PATH-9FBD8438AF5E",
+      "review_status": "reviewed_no_defect",
+      "conceptually_distinguishable_treatments": true,
+      "meaningful_subheadings_or_access_routes": true,
+      "material_scanning_or_retrieval_impairment": false,
+      "subdivision_is_conceptual_not_trivial": true,
+      "evidence_ids": [
+        "PATH-9FBD8438AF5E",
+        "REC-B73DA40A8958",
+        "NODE-F9229B9D4B92"
+      ],
+      "defect_ids": []
+    },
+    {
+      "review_id": "ARCHREV-A102C716B7A5",
+      "path_id": "PATH-A102C716B7A5",
+      "review_status": "reviewed_no_defect",
+      "conceptually_distinguishable_treatments": true,
+      "meaningful_subheadings_or_access_routes": true,
+      "material_scanning_or_retrieval_impairment": false,
+      "subdivision_is_conceptual_not_trivial": true,
+      "evidence_ids": [
+        "PATH-A102C716B7A5",
+        "REC-54E2AC406AFF",
+        "NODE-F217C30AE573"
+      ],
+      "defect_ids": []
+    },
+    {
+      "review_id": "ARCHREV-A5E9E1CAC7E9",
+      "path_id": "PATH-A5E9E1CAC7E9",
+      "review_status": "reviewed_no_defect",
+      "conceptually_distinguishable_treatments": false,
+      "meaningful_subheadings_or_access_routes": false,
+      "material_scanning_or_retrieval_impairment": false,
+      "subdivision_is_conceptual_not_trivial": false,
+      "evidence_ids": [
+        "PATH-A5E9E1CAC7E9",
+        "REC-7DF667E77B94",
+        "NODE-EFE71C36A384"
+      ],
+      "defect_ids": []
+    },
+    {
+      "review_id": "ARCHREV-A69F47A885C2",
+      "path_id": "PATH-A69F47A885C2",
+      "review_status": "reviewed_no_defect",
+      "conceptually_distinguishable_treatments": false,
+      "meaningful_subheadings_or_access_routes": false,
+      "material_scanning_or_retrieval_impairment": false,
+      "subdivision_is_conceptual_not_trivial": false,
+      "evidence_ids": [
+        "PATH-A69F47A885C2",
+        "REC-44968ADAF8DE",
+        "NODE-ECCDDD65D6E3"
+      ],
+      "defect_ids": []
+    },
+    {
+      "review_id": "ARCHREV-A8E5811B35A3",
+      "path_id": "PATH-A8E5811B35A3",
+      "review_status": "reviewed_no_defect",
+      "conceptually_distinguishable_treatments": false,
+      "meaningful_subheadings_or_access_routes": false,
+      "material_scanning_or_retrieval_impairment": false,
+      "subdivision_is_conceptual_not_trivial": false,
+      "evidence_ids": [
+        "PATH-A8E5811B35A3",
+        "REC-629A262CC604",
+        "NODE-760C4B2739A0"
+      ],
+      "defect_ids": []
+    },
+    {
+      "review_id": "ARCHREV-AB74661A8463",
+      "path_id": "PATH-AB74661A8463",
+      "review_status": "reviewed_no_defect",
+      "conceptually_distinguishable_treatments": false,
+      "meaningful_subheadings_or_access_routes": false,
+      "material_scanning_or_retrieval_impairment": false,
+      "subdivision_is_conceptual_not_trivial": false,
+      "evidence_ids": [
+        "PATH-AB74661A8463",
+        "REC-FD9F8ABD9631",
+        "NODE-19452BE400DC"
+      ],
+      "defect_ids": []
+    },
+    {
+      "review_id": "ARCHREV-AC444CE6F16A",
+      "path_id": "PATH-AC444CE6F16A",
+      "review_status": "reviewed_no_defect",
+      "conceptually_distinguishable_treatments": false,
+      "meaningful_subheadings_or_access_routes": false,
+      "material_scanning_or_retrieval_impairment": false,
+      "subdivision_is_conceptual_not_trivial": false,
+      "evidence_ids": [
+        "PATH-AC444CE6F16A",
+        "REC-0233381D11F2",
+        "NODE-3C549C9848F6"
+      ],
+      "defect_ids": []
+    },
+    {
+      "review_id": "ARCHREV-AC950631E211",
+      "path_id": "PATH-AC950631E211",
+      "review_status": "reviewed_no_defect",
+      "conceptually_distinguishable_treatments": true,
+      "meaningful_subheadings_or_access_routes": true,
+      "material_scanning_or_retrieval_impairment": false,
+      "subdivision_is_conceptual_not_trivial": true,
+      "evidence_ids": [
+        "PATH-AC950631E211",
+        "REC-D6C7563C8161",
+        "NODE-0E943B9CD896"
+      ],
+      "defect_ids": []
+    },
+    {
+      "review_id": "ARCHREV-AD19D6EB5724",
+      "path_id": "PATH-AD19D6EB5724",
+      "review_status": "reviewed_no_defect",
+      "conceptually_distinguishable_treatments": false,
+      "meaningful_subheadings_or_access_routes": false,
+      "material_scanning_or_retrieval_impairment": false,
+      "subdivision_is_conceptual_not_trivial": false,
+      "evidence_ids": [
+        "PATH-AD19D6EB5724",
+        "REC-E8A7BF3E51FF",
+        "NODE-D7FCADB63323"
+      ],
+      "defect_ids": []
+    },
+    {
+      "review_id": "ARCHREV-AED848C695DC",
+      "path_id": "PATH-AED848C695DC",
+      "review_status": "reviewed_no_defect",
+      "conceptually_distinguishable_treatments": false,
+      "meaningful_subheadings_or_access_routes": false,
+      "material_scanning_or_retrieval_impairment": false,
+      "subdivision_is_conceptual_not_trivial": false,
+      "evidence_ids": [
+        "PATH-AED848C695DC",
+        "REC-77C795090CE5",
+        "NODE-0EDADE3F0E27"
+      ],
+      "defect_ids": []
+    },
+    {
+      "review_id": "ARCHREV-B73A0B404A97",
+      "path_id": "PATH-B73A0B404A97",
+      "review_status": "reviewed_no_defect",
+      "conceptually_distinguishable_treatments": false,
+      "meaningful_subheadings_or_access_routes": false,
+      "material_scanning_or_retrieval_impairment": false,
+      "subdivision_is_conceptual_not_trivial": false,
+      "evidence_ids": [
+        "PATH-B73A0B404A97",
+        "REC-E64995CFB4BE",
+        "NODE-6757FFD5DB54"
+      ],
+      "defect_ids": []
+    },
+    {
+      "review_id": "ARCHREV-B8C37207EB22",
+      "path_id": "PATH-B8C37207EB22",
+      "review_status": "reviewed_no_defect",
+      "conceptually_distinguishable_treatments": true,
+      "meaningful_subheadings_or_access_routes": true,
+      "material_scanning_or_retrieval_impairment": false,
+      "subdivision_is_conceptual_not_trivial": true,
+      "evidence_ids": [
+        "PATH-B8C37207EB22",
+        "REC-E1F1D79B7C6C",
+        "NODE-C018721119CB"
+      ],
+      "defect_ids": []
+    },
+    {
+      "review_id": "ARCHREV-C0F910B7BE5B",
+      "path_id": "PATH-C0F910B7BE5B",
+      "review_status": "reviewed_no_defect",
+      "conceptually_distinguishable_treatments": false,
+      "meaningful_subheadings_or_access_routes": false,
+      "material_scanning_or_retrieval_impairment": false,
+      "subdivision_is_conceptual_not_trivial": false,
+      "evidence_ids": [
+        "PATH-C0F910B7BE5B",
+        "REC-CAA5D82DFD05",
+        "NODE-0F1AC7E1E4E6"
+      ],
+      "defect_ids": []
+    },
+    {
+      "review_id": "ARCHREV-C127C0819611",
+      "path_id": "PATH-C127C0819611",
+      "review_status": "reviewed_no_defect",
+      "conceptually_distinguishable_treatments": false,
+      "meaningful_subheadings_or_access_routes": false,
+      "material_scanning_or_retrieval_impairment": false,
+      "subdivision_is_conceptual_not_trivial": false,
+      "evidence_ids": [
+        "PATH-C127C0819611",
+        "REC-C46A09DB7E72",
+        "NODE-DA903F303B3E"
+      ],
+      "defect_ids": []
+    },
+    {
+      "review_id": "ARCHREV-CC03D52ED5BD",
+      "path_id": "PATH-CC03D52ED5BD",
+      "review_status": "reviewed_no_defect",
+      "conceptually_distinguishable_treatments": false,
+      "meaningful_subheadings_or_access_routes": false,
+      "material_scanning_or_retrieval_impairment": false,
+      "subdivision_is_conceptual_not_trivial": false,
+      "evidence_ids": [
+        "PATH-CC03D52ED5BD",
+        "REC-211C2DE0B018",
+        "NODE-7CF705C3E688"
+      ],
+      "defect_ids": []
+    },
+    {
+      "review_id": "ARCHREV-CCC8DE4629C8",
+      "path_id": "PATH-CCC8DE4629C8",
+      "review_status": "reviewed_no_defect",
+      "conceptually_distinguishable_treatments": true,
+      "meaningful_subheadings_or_access_routes": true,
+      "material_scanning_or_retrieval_impairment": false,
+      "subdivision_is_conceptual_not_trivial": true,
+      "evidence_ids": [
+        "PATH-CCC8DE4629C8",
+        "REC-3D51FFE2B03C",
+        "NODE-5D320E9E0C14"
+      ],
+      "defect_ids": []
+    },
+    {
+      "review_id": "ARCHREV-CD8E5EB11DCC",
+      "path_id": "PATH-CD8E5EB11DCC",
+      "review_status": "reviewed_no_defect",
+      "conceptually_distinguishable_treatments": false,
+      "meaningful_subheadings_or_access_routes": false,
+      "material_scanning_or_retrieval_impairment": false,
+      "subdivision_is_conceptual_not_trivial": false,
+      "evidence_ids": [
+        "PATH-CD8E5EB11DCC",
+        "REC-B38CC540D36C",
+        "NODE-0987E98930E8"
+      ],
+      "defect_ids": []
+    },
+    {
+      "review_id": "ARCHREV-CE8BE3440B19",
+      "path_id": "PATH-CE8BE3440B19",
+      "review_status": "reviewed_no_defect",
+      "conceptually_distinguishable_treatments": false,
+      "meaningful_subheadings_or_access_routes": false,
+      "material_scanning_or_retrieval_impairment": false,
+      "subdivision_is_conceptual_not_trivial": false,
+      "evidence_ids": [
+        "PATH-CE8BE3440B19",
+        "REC-ACAF3A5D5244",
+        "NODE-A40327407F24"
+      ],
+      "defect_ids": []
+    },
+    {
+      "review_id": "ARCHREV-D0C59788488A",
+      "path_id": "PATH-D0C59788488A",
+      "review_status": "reviewed_no_defect",
+      "conceptually_distinguishable_treatments": false,
+      "meaningful_subheadings_or_access_routes": false,
+      "material_scanning_or_retrieval_impairment": false,
+      "subdivision_is_conceptual_not_trivial": false,
+      "evidence_ids": [
+        "PATH-D0C59788488A",
+        "REC-881BB16CCE7A",
+        "NODE-491252FC2232"
+      ],
+      "defect_ids": []
+    },
+    {
+      "review_id": "ARCHREV-D264C948106B",
+      "path_id": "PATH-D264C948106B",
+      "review_status": "reviewed_no_defect",
+      "conceptually_distinguishable_treatments": false,
+      "meaningful_subheadings_or_access_routes": false,
+      "material_scanning_or_retrieval_impairment": false,
+      "subdivision_is_conceptual_not_trivial": false,
+      "evidence_ids": [
+        "PATH-D264C948106B",
+        "REC-1EF0A81C0978",
+        "NODE-98224A5F9C0D"
+      ],
+      "defect_ids": []
+    },
+    {
+      "review_id": "ARCHREV-D294B7C27870",
+      "path_id": "PATH-D294B7C27870",
+      "review_status": "reviewed_no_defect",
+      "conceptually_distinguishable_treatments": true,
+      "meaningful_subheadings_or_access_routes": true,
+      "material_scanning_or_retrieval_impairment": false,
+      "subdivision_is_conceptual_not_trivial": true,
+      "evidence_ids": [
+        "PATH-D294B7C27870",
+        "REC-1C92A0D024B0",
+        "NODE-911A90FDFD1A"
+      ],
+      "defect_ids": []
+    },
+    {
+      "review_id": "ARCHREV-D410183D21B3",
+      "path_id": "PATH-D410183D21B3",
+      "review_status": "reviewed_no_defect",
+      "conceptually_distinguishable_treatments": true,
+      "meaningful_subheadings_or_access_routes": true,
+      "material_scanning_or_retrieval_impairment": false,
+      "subdivision_is_conceptual_not_trivial": true,
+      "evidence_ids": [
+        "PATH-D410183D21B3",
+        "REC-BC662F0EE0A4",
+        "NODE-76E212090364"
+      ],
+      "defect_ids": []
+    },
+    {
+      "review_id": "ARCHREV-D4DE0760B63B",
+      "path_id": "PATH-D4DE0760B63B",
+      "review_status": "reviewed_no_defect",
+      "conceptually_distinguishable_treatments": false,
+      "meaningful_subheadings_or_access_routes": false,
+      "material_scanning_or_retrieval_impairment": false,
+      "subdivision_is_conceptual_not_trivial": false,
+      "evidence_ids": [
+        "PATH-D4DE0760B63B",
+        "REC-57A94F0808F2",
+        "NODE-41C2A05C4D97"
+      ],
+      "defect_ids": []
+    },
+    {
+      "review_id": "ARCHREV-D7DDAE461A20",
+      "path_id": "PATH-D7DDAE461A20",
+      "review_status": "reviewed_no_defect",
+      "conceptually_distinguishable_treatments": true,
+      "meaningful_subheadings_or_access_routes": true,
+      "material_scanning_or_retrieval_impairment": false,
+      "subdivision_is_conceptual_not_trivial": true,
+      "evidence_ids": [
+        "PATH-D7DDAE461A20",
+        "REC-5DA952201D5F",
+        "NODE-BD439A7C0E0C"
+      ],
+      "defect_ids": []
+    },
+    {
+      "review_id": "ARCHREV-DC1D91816BAA",
+      "path_id": "PATH-DC1D91816BAA",
+      "review_status": "reviewed_no_defect",
+      "conceptually_distinguishable_treatments": false,
+      "meaningful_subheadings_or_access_routes": false,
+      "material_scanning_or_retrieval_impairment": false,
+      "subdivision_is_conceptual_not_trivial": false,
+      "evidence_ids": [
+        "PATH-DC1D91816BAA",
+        "REC-BDF2EAA2F8A9",
+        "NODE-99F2A7B85066"
+      ],
+      "defect_ids": []
+    },
+    {
+      "review_id": "ARCHREV-DC985E762618",
+      "path_id": "PATH-DC985E762618",
+      "review_status": "reviewed_no_defect",
+      "conceptually_distinguishable_treatments": false,
+      "meaningful_subheadings_or_access_routes": false,
+      "material_scanning_or_retrieval_impairment": false,
+      "subdivision_is_conceptual_not_trivial": false,
+      "evidence_ids": [
+        "PATH-DC985E762618",
+        "REC-E334A410C36F",
+        "NODE-D75E81349A31"
+      ],
+      "defect_ids": []
+    },
+    {
+      "review_id": "ARCHREV-DDAA54ACFB03",
+      "path_id": "PATH-DDAA54ACFB03",
+      "review_status": "reviewed_no_defect",
+      "conceptually_distinguishable_treatments": false,
+      "meaningful_subheadings_or_access_routes": false,
+      "material_scanning_or_retrieval_impairment": false,
+      "subdivision_is_conceptual_not_trivial": false,
+      "evidence_ids": [
+        "PATH-DDAA54ACFB03",
+        "REC-2750A5A3AEEF",
+        "NODE-2994DF83734C"
+      ],
+      "defect_ids": []
+    },
+    {
+      "review_id": "ARCHREV-DED3EDE9926B",
+      "path_id": "PATH-DED3EDE9926B",
+      "review_status": "reviewed_no_defect",
+      "conceptually_distinguishable_treatments": false,
+      "meaningful_subheadings_or_access_routes": false,
+      "material_scanning_or_retrieval_impairment": false,
+      "subdivision_is_conceptual_not_trivial": false,
+      "evidence_ids": [
+        "PATH-DED3EDE9926B",
+        "REC-DD39A96B8712",
+        "NODE-FD29DEBEDD8E"
+      ],
+      "defect_ids": []
+    },
+    {
+      "review_id": "ARCHREV-DFB65E1D92CC",
+      "path_id": "PATH-DFB65E1D92CC",
+      "review_status": "reviewed_no_defect",
+      "conceptually_distinguishable_treatments": false,
+      "meaningful_subheadings_or_access_routes": false,
+      "material_scanning_or_retrieval_impairment": false,
+      "subdivision_is_conceptual_not_trivial": false,
+      "evidence_ids": [
+        "PATH-DFB65E1D92CC",
+        "REC-C8BAA3911D17",
+        "NODE-9118C1ED1693"
+      ],
+      "defect_ids": []
+    },
+    {
+      "review_id": "ARCHREV-E5BB43AFD121",
+      "path_id": "PATH-E5BB43AFD121",
+      "review_status": "reviewed_no_defect",
+      "conceptually_distinguishable_treatments": false,
+      "meaningful_subheadings_or_access_routes": false,
+      "material_scanning_or_retrieval_impairment": false,
+      "subdivision_is_conceptual_not_trivial": false,
+      "evidence_ids": [
+        "PATH-E5BB43AFD121",
+        "REC-F7C96A793B0C",
+        "NODE-160DBF2B298E"
+      ],
+      "defect_ids": []
+    },
+    {
+      "review_id": "ARCHREV-E5D22C80BED9",
+      "path_id": "PATH-E5D22C80BED9",
+      "review_status": "reviewed_no_defect",
+      "conceptually_distinguishable_treatments": false,
+      "meaningful_subheadings_or_access_routes": false,
+      "material_scanning_or_retrieval_impairment": false,
+      "subdivision_is_conceptual_not_trivial": false,
+      "evidence_ids": [
+        "PATH-E5D22C80BED9",
+        "REC-08851865C66F",
+        "NODE-7C09D79D5371"
+      ],
+      "defect_ids": []
+    },
+    {
+      "review_id": "ARCHREV-E6D80FA73D7D",
+      "path_id": "PATH-E6D80FA73D7D",
+      "review_status": "reviewed_no_defect",
+      "conceptually_distinguishable_treatments": true,
+      "meaningful_subheadings_or_access_routes": true,
+      "material_scanning_or_retrieval_impairment": false,
+      "subdivision_is_conceptual_not_trivial": true,
+      "evidence_ids": [
+        "PATH-E6D80FA73D7D",
+        "REC-D3107E1F50BD",
+        "NODE-CF1B060D4F51"
+      ],
+      "defect_ids": []
+    },
+    {
+      "review_id": "ARCHREV-E7FEBC4FDAA1",
+      "path_id": "PATH-E7FEBC4FDAA1",
+      "review_status": "reviewed_no_defect",
+      "conceptually_distinguishable_treatments": false,
+      "meaningful_subheadings_or_access_routes": false,
+      "material_scanning_or_retrieval_impairment": false,
+      "subdivision_is_conceptual_not_trivial": false,
+      "evidence_ids": [
+        "PATH-E7FEBC4FDAA1",
+        "REC-AF8DC5C54407",
+        "NODE-AB426DB17AED"
+      ],
+      "defect_ids": []
+    },
+    {
+      "review_id": "ARCHREV-E8336842FB82",
+      "path_id": "PATH-E8336842FB82",
+      "review_status": "reviewed_no_defect",
+      "conceptually_distinguishable_treatments": false,
+      "meaningful_subheadings_or_access_routes": false,
+      "material_scanning_or_retrieval_impairment": false,
+      "subdivision_is_conceptual_not_trivial": false,
+      "evidence_ids": [
+        "PATH-E8336842FB82",
+        "REC-EA04DC3B5115",
+        "NODE-82F0749B8BD7"
+      ],
+      "defect_ids": []
+    },
+    {
+      "review_id": "ARCHREV-E892666BDD66",
+      "path_id": "PATH-E892666BDD66",
+      "review_status": "reviewed_no_defect",
+      "conceptually_distinguishable_treatments": false,
+      "meaningful_subheadings_or_access_routes": false,
+      "material_scanning_or_retrieval_impairment": false,
+      "subdivision_is_conceptual_not_trivial": false,
+      "evidence_ids": [
+        "PATH-E892666BDD66",
+        "REC-FCEE4B19FBA6",
+        "NODE-2CF943C1C222"
+      ],
+      "defect_ids": []
+    },
+    {
+      "review_id": "ARCHREV-E974D8CEB13D",
+      "path_id": "PATH-E974D8CEB13D",
+      "review_status": "reviewed_no_defect",
+      "conceptually_distinguishable_treatments": true,
+      "meaningful_subheadings_or_access_routes": true,
+      "material_scanning_or_retrieval_impairment": false,
+      "subdivision_is_conceptual_not_trivial": true,
+      "evidence_ids": [
+        "PATH-E974D8CEB13D",
+        "REC-06F423203AC1",
+        "NODE-F73CD065C43A"
+      ],
+      "defect_ids": []
+    },
+    {
+      "review_id": "ARCHREV-EC070E7DDD89",
+      "path_id": "PATH-EC070E7DDD89",
+      "review_status": "reviewed_no_defect",
+      "conceptually_distinguishable_treatments": false,
+      "meaningful_subheadings_or_access_routes": false,
+      "material_scanning_or_retrieval_impairment": false,
+      "subdivision_is_conceptual_not_trivial": false,
+      "evidence_ids": [
+        "PATH-EC070E7DDD89",
+        "REC-0D19C91FA690",
+        "NODE-0F4F8E266894"
+      ],
+      "defect_ids": []
+    },
+    {
+      "review_id": "ARCHREV-ED1829254634",
+      "path_id": "PATH-ED1829254634",
+      "review_status": "reviewed_no_defect",
+      "conceptually_distinguishable_treatments": false,
+      "meaningful_subheadings_or_access_routes": false,
+      "material_scanning_or_retrieval_impairment": false,
+      "subdivision_is_conceptual_not_trivial": false,
+      "evidence_ids": [
+        "PATH-ED1829254634",
+        "REC-7F9BFFF73938",
+        "NODE-C144F3E0E077"
+      ],
+      "defect_ids": []
+    },
+    {
+      "review_id": "ARCHREV-EF31D9628D64",
+      "path_id": "PATH-EF31D9628D64",
+      "review_status": "reviewed_no_defect",
+      "conceptually_distinguishable_treatments": false,
+      "meaningful_subheadings_or_access_routes": false,
+      "material_scanning_or_retrieval_impairment": false,
+      "subdivision_is_conceptual_not_trivial": false,
+      "evidence_ids": [
+        "PATH-EF31D9628D64",
+        "REC-45D85B81F0E7",
+        "NODE-3107DECE0CF7"
+      ],
+      "defect_ids": []
+    },
+    {
+      "review_id": "ARCHREV-EF9EA9EF0C12",
+      "path_id": "PATH-EF9EA9EF0C12",
+      "review_status": "reviewed_no_defect",
+      "conceptually_distinguishable_treatments": false,
+      "meaningful_subheadings_or_access_routes": false,
+      "material_scanning_or_retrieval_impairment": false,
+      "subdivision_is_conceptual_not_trivial": false,
+      "evidence_ids": [
+        "PATH-EF9EA9EF0C12",
+        "REC-20BC19F0E5AE",
+        "NODE-4C895FD00FE8"
+      ],
+      "defect_ids": []
+    },
+    {
+      "review_id": "ARCHREV-F25346E78436",
+      "path_id": "PATH-F25346E78436",
+      "review_status": "reviewed_no_defect",
+      "conceptually_distinguishable_treatments": false,
+      "meaningful_subheadings_or_access_routes": false,
+      "material_scanning_or_retrieval_impairment": false,
+      "subdivision_is_conceptual_not_trivial": false,
+      "evidence_ids": [
+        "PATH-F25346E78436",
+        "REC-64612E0A6CC6",
+        "NODE-BCD8B79B936D"
+      ],
+      "defect_ids": []
+    },
+    {
+      "review_id": "ARCHREV-F5597A3AA659",
+      "path_id": "PATH-F5597A3AA659",
+      "review_status": "reviewed_no_defect",
+      "conceptually_distinguishable_treatments": false,
+      "meaningful_subheadings_or_access_routes": false,
+      "material_scanning_or_retrieval_impairment": false,
+      "subdivision_is_conceptual_not_trivial": false,
+      "evidence_ids": [
+        "PATH-F5597A3AA659",
+        "REC-1D067297CC33",
+        "NODE-5F195DD639BB"
+      ],
+      "defect_ids": []
+    },
+    {
+      "review_id": "ARCHREV-F69C3FE6ACD3",
+      "path_id": "PATH-F69C3FE6ACD3",
+      "review_status": "reviewed_no_defect",
+      "conceptually_distinguishable_treatments": false,
+      "meaningful_subheadings_or_access_routes": false,
+      "material_scanning_or_retrieval_impairment": false,
+      "subdivision_is_conceptual_not_trivial": false,
+      "evidence_ids": [
+        "PATH-F69C3FE6ACD3",
+        "REC-30B2B03A1229",
+        "NODE-534A0F8548EB"
+      ],
+      "defect_ids": []
+    },
+    {
+      "review_id": "ARCHREV-FB1138A91995",
+      "path_id": "PATH-FB1138A91995",
+      "review_status": "reviewed_no_defect",
+      "conceptually_distinguishable_treatments": false,
+      "meaningful_subheadings_or_access_routes": false,
+      "material_scanning_or_retrieval_impairment": false,
+      "subdivision_is_conceptual_not_trivial": false,
+      "evidence_ids": [
+        "PATH-FB1138A91995",
+        "REC-FCAAB384628D",
+        "NODE-54D8BD00A052"
+      ],
+      "defect_ids": []
+    },
+    {
+      "review_id": "ARCHREV-FDB57A937F7A",
+      "path_id": "PATH-FDB57A937F7A",
+      "review_status": "reviewed_no_defect",
+      "conceptually_distinguishable_treatments": true,
+      "meaningful_subheadings_or_access_routes": true,
+      "material_scanning_or_retrieval_impairment": false,
+      "subdivision_is_conceptual_not_trivial": true,
+      "evidence_ids": [
+        "PATH-FDB57A937F7A",
+        "REC-ECB6CDAAF850",
+        "NODE-B2F690E7E246"
+      ],
+      "defect_ids": []
+    },
+    {
+      "review_id": "ARCHREV-FF155CCE7A48",
+      "path_id": "PATH-FF155CCE7A48",
+      "review_status": "reviewed_no_defect",
+      "conceptually_distinguishable_treatments": false,
+      "meaningful_subheadings_or_access_routes": false,
+      "material_scanning_or_retrieval_impairment": false,
+      "subdivision_is_conceptual_not_trivial": false,
+      "evidence_ids": [
+        "PATH-FF155CCE7A48",
+        "REC-7F8DD9335A68",
+        "NODE-1F039D5296DD"
+      ],
+      "defect_ids": []
+    }
+  ],
+  "provenance": {
+    "authorization_scope": "supplemental_architecture_review_only",
+    "structured_architecture_evidence_only": true,
+    "source_pages_reopened": false,
+    "locator_support_reopened": false,
+    "missing_access_reopened": false,
+    "unrelated_structure_judgments_reopened": false,
+    "display_prose_used_for_grouping": false,
+    "historical_artifacts_modified": false
+  },
+  "supplement_sha256": "3456bd251c8e1bf069365545e866e35b7e48040337df6d9fd1a7b8d8004dff99"
+}
