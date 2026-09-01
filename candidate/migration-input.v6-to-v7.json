@@ -1,0 +1,87 @@
+{
+  "schema_version": "subject-index-v6-to-v7-migration-input-v1",
+  "methodology": {
+    "repository": "https://github.com/jcamden/evaluate-subject-index",
+    "base_commit": "f8a1e7ceca36b93885c31b51c3680da51e99d12c",
+    "implementation_commit": "df9112d036105213da74a4cc8f8f3f2a3ad26784"
+  },
+  "repository_state": {
+    "evaluation_repository": "https://github.com/jcamden/subject-index-evaluation-oxford-history-french-revolution-2002-original-published-index",
+    "evaluation_base_commit": "0ffeca1f1a767546ddcf51c107ab62ae244ebf89",
+    "benchmark_repository": "https://github.com/jcamden/subject-index-benchmark-oxford-history-french-revolution-2002",
+    "benchmark_head_commit": "435679329cecd5facbead2b837380a8a9b9f697b",
+    "frozen_benchmark_commit": "98dbffd0ca171b5b7db76dbe1b2b5d5265ccacab",
+    "frozen_benchmark_sha256": "b925797fcab50b2008ad5974590e323f772e5ea7013efa84ce7606007439aeb3"
+  },
+  "canonical": {
+    "dimension_calculation_input": {
+      "path": "v5-migration/dimension-calculation-input.v1.json",
+      "sha256": "f4a78e58b3e48a8fd3ef1e07d05c7acae251f577e232b5a4b3d51e201866ac12"
+    },
+    "normalized_candidate": {
+      "path": "candidate-index.v2.json",
+      "sha256": "7b29d7716339038848e2b1b0ec17220ae1867cb95941f0f06a84488cd486ed79"
+    },
+    "item_inventory": {
+      "path": "item-inventory.v2.json",
+      "sha256": "3e9c2b20d49486398bd57bfa31f5d1da1743498b47d0b9e46e42f096b56b9934"
+    },
+    "v6_calculation": {
+      "path": "v6-migration/dimension-calculations.v6.json",
+      "sha256": "7a325df4d367250b5f397f49bbfd0f3f88af0af10fa21c0ad1fe72369b040b9e"
+    },
+    "v6_evaluation_result": {
+      "path": "v6-migration/evaluation-result.v7.json",
+      "sha256": "2e006ecd38670789062c42249e10c92099074c04425be303c434d98ba04a4204"
+    },
+    "v6_item_assessments": {
+      "path": "v6-migration/item-assessments.v3.json",
+      "sha256": "c0ab9d7401cd2d3fd1ee0a37ca1a8611094f89254104c9848a1f535148d47130"
+    },
+    "v6_web_report": {
+      "path": "v6-migration/web-report.v5.json",
+      "sha256": "609c73f71cf00d0fb14e9b6da51d9ed26d2516b03853c0d0f8f2776e90c18def"
+    },
+    "v6_projection_metadata": {
+      "path": "v6-migration/projection-metadata.v6.json",
+      "sha256": "ded1b2fbd307927a3d4ddb499f2402bb4aba6b4fe71734ddcc6f26dfc6db344e"
+    },
+    "supplemental_architecture_review": {
+      "path": "v7-migration-inputs/supplemental-architecture-review.canonical.v7.json",
+      "sha256": "e9f0f8ddd17af906a4dee8cc8cbddb5aca1ef9c1df86d2f5bb535e8eae6f50c9"
+    },
+    "locator_fit_supplement": {
+      "path": "v7-migration-inputs/locator-fit-supplement.canonical.v7.json",
+      "sha256": "28513b20b45f2f1c68c67aeaaca5683789b5892c8c8d5c07d87645d622aec5f6"
+    }
+  },
+  "counterfactuals": [
+    {
+      "view_id": "representation_adjusted",
+      "dimension_calculation_input": {
+        "path": "representation-adjustment/v5/dimension-calculation-input.confirmed-fidelity-adjusted.v1.json",
+        "sha256": "7f207d946287d59b74ada05891247f780d01aad7eb8f76f5a7fa796298e7d93c"
+      },
+      "normalized_candidate": {
+        "path": "candidate-index.v2.json",
+        "sha256": "7b29d7716339038848e2b1b0ec17220ae1867cb95941f0f06a84488cd486ed79"
+      },
+      "item_inventory": {
+        "path": "item-inventory.v2.json",
+        "sha256": "3e9c2b20d49486398bd57bfa31f5d1da1743498b47d0b9e46e42f096b56b9934"
+      },
+      "v6_calculation": {
+        "path": "v6-migration/score-views/representation-adjusted/dimension-calculations.v6.json",
+        "sha256": "d7262e977827817c660576d8481b7192363ca02dad1eeefdc453fea23551d2ba"
+      },
+      "supplemental_architecture_review": {
+        "path": "v7-migration-inputs/supplemental-architecture-review.representation-adjusted.v7.json",
+        "sha256": "85576e514bfd7e5df12ecbcd28810ac0a9401212faa232cf21f310b5c91523eb"
+      },
+      "locator_fit_supplement": {
+        "path": "v7-migration-inputs/locator-fit-supplement.representation-adjusted.v7.json",
+        "sha256": "eb972aa2f5fcf53ec7fa1c4ba062c00e3041e8177ce67c3e64a969e4d17495f6"
+      }
+    }
+  ]
+}

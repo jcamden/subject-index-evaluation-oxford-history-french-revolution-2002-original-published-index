@@ -1,0 +1,3946 @@
+{
+  "schema_version": "subject-index-v7-locator-fit-supplement-v1",
+  "supplement_id": "FITSUP-E5F9D1FF777E",
+  "evaluation_id": "oxford-history-french-revolution-2002-indexerlabs-truncated",
+  "candidate_identity": {
+    "candidate_id": "oxford-history-french-revolution-2002-original-published-index",
+    "candidate_sha256": "1d43fe7fb158b352393c6e2f14843aae9ae23ccfca1f61c6783307432b0a9d09"
+  },
+  "audit_mode": "full",
+  "bindings": {
+    "v6_dimension_calculation_input_file_sha256": "7f207d946287d59b74ada05891247f780d01aad7eb8f76f5a7fa796298e7d93c",
+    "normalized_candidate_file_sha256": "7b29d7716339038848e2b1b0ec17220ae1867cb95941f0f06a84488cd486ed79",
+    "item_inventory_file_sha256": "3e9c2b20d49486398bd57bfa31f5d1da1743498b47d0b9e46e42f096b56b9934",
+    "historical_v6_calculation_file_sha256": "d7262e977827817c660576d8481b7192363ca02dad1eeefdc453fea23551d2ba",
+    "historical_v6_calculation_sha256": "422862ba3d3ca92dfceac3e44282983c0cfb780ffd232776748ddca4726aa7ca",
+    "locator_audit_artifacts": [
+      {
+        "role": "locator_audit[0]",
+        "schema_version": "locator-audit-v1",
+        "file_sha256": "d66591194f56481dc978bd768ca48f85c6840692ded12f873d9917a6ed6892a3"
+      },
+      {
+        "role": "locator_audit[10]",
+        "schema_version": "locator-audit-v1",
+        "file_sha256": "7de1fbc85177567f2a7fb51bfdf3d7fc73402bcbf7551c83d46211558bf357ca"
+      },
+      {
+        "role": "locator_audit[11]",
+        "schema_version": "locator-audit-v1",
+        "file_sha256": "ce35848a1385c0a44072614d9ad18568a69778cc451985a9e56d9968035c4820"
+      },
+      {
+        "role": "locator_audit[12]",
+        "schema_version": "locator-audit-v1",
+        "file_sha256": "4f0b4c108b3527946766d9c44ae7ef8fcf4fe3b6b5462398d5d8e46a810ab19f"
+      },
+      {
+        "role": "locator_audit[13]",
+        "schema_version": "locator-audit-v1",
+        "file_sha256": "22954bb2c6288e76ad8d8da3ce93f9b2934540224ada5d070dc6b53a5237161a"
+      },
+      {
+        "role": "locator_audit[14]",
+        "schema_version": "locator-audit-v1",
+        "file_sha256": "8e290836c0110df40d0937faf2294181608a0795a7639ef2365dce949c2b4ec3"
+      },
+      {
+        "role": "locator_audit[15]",
+        "schema_version": "locator-audit-v1",
+        "file_sha256": "a74b21d11abecd12041e92e3172b3cfc7980071ca4f5a7e1d5016666be24baa9"
+      },
+      {
+        "role": "locator_audit[16]",
+        "schema_version": "locator-audit-v1",
+        "file_sha256": "32f48b0c04aa00aaaa377ca21b4a5f0052404e55643bdc6b61a1ffc94487e19c"
+      },
+      {
+        "role": "locator_audit[1]",
+        "schema_version": "locator-audit-v1",
+        "file_sha256": "b187e66b0e3129de46973e0fa50d5ce81e90ab4ff1992ce1ca2d2cf0cb96674e"
+      },
+      {
+        "role": "locator_audit[2]",
+        "schema_version": "locator-audit-v1",
+        "file_sha256": "f846efe0db7fc515a8f5f7f5fcad92fdb2f0c66cd0d52712f07c3a928f756186"
+      },
+      {
+        "role": "locator_audit[3]",
+        "schema_version": "locator-audit-v1",
+        "file_sha256": "9f75154ec074094e2a2d3368a819da489e99f00f96eb9b7c8c2f452f3edcda6d"
+      },
+      {
+        "role": "locator_audit[4]",
+        "schema_version": "locator-audit-v1",
+        "file_sha256": "65b6fde2dbf00a58f9280c0547abbd48a3052b2ff167695499b3fcf6cecf2b1d"
+      },
+      {
+        "role": "locator_audit[5]",
+        "schema_version": "locator-audit-v1",
+        "file_sha256": "35b9c5a38333976ea80957ac0523c0bb7a46841d53b72266ca417d568a4b6f01"
+      },
+      {
+        "role": "locator_audit[6]",
+        "schema_version": "locator-audit-v1",
+        "file_sha256": "3b55c61c4feca84e74f025d39b5af1f41b63ca1dc4c57b4f254d32624f7f583c"
+      },
+      {
+        "role": "locator_audit[7]",
+        "schema_version": "locator-audit-v1",
+        "file_sha256": "7f2efe45090b4e41ff4022a1aca2c391bdc20395cf6561743416e73ac5794220"
+      },
+      {
+        "role": "locator_audit[8]",
+        "schema_version": "locator-audit-v1",
+        "file_sha256": "bef81ecae72df941c189a733f92b6d7092fe6fa612e4d0a87fd40f2961844c90"
+      },
+      {
+        "role": "locator_audit[9]",
+        "schema_version": "locator-audit-v1",
+        "file_sha256": "dc03eca223c12890653e29201a1b0131143d6dd3a1de5afd113015c8f096d67a"
+      }
+    ],
+    "missing_access_audit_artifacts": [
+      {
+        "role": "missing_access_audit[0]",
+        "schema_version": "missing-access-audit-v1",
+        "file_sha256": "e308a75e51dead7189e7077b5e766af2d1b2063d0c66992f86a543ddde98f054"
+      },
+      {
+        "role": "missing_access_audit[10]",
+        "schema_version": "missing-access-audit-v1",
+        "file_sha256": "c8aecffe3720c02268fbab172023bf54763242125ae33dde60058e00ef25538e"
+      },
+      {
+        "role": "missing_access_audit[11]",
+        "schema_version": "missing-access-audit-v1",
+        "file_sha256": "2f74050e3d02521ea2abf18e8fcfc53a73178cc6feb35c227bb6d1bbf4c19438"
+      },
+      {
+        "role": "missing_access_audit[12]",
+        "schema_version": "missing-access-audit-v1",
+        "file_sha256": "ac043de54830b2f50097e2b29d7a70e35d5f3a45da300f0d481f77c608dfe416"
+      },
+      {
+        "role": "missing_access_audit[13]",
+        "schema_version": "missing-access-audit-v1",
+        "file_sha256": "d0d7cb3c207f013b3ca98bc551771a6c6771fa2a0ac927611cf15d7bc7f04cbe"
+      },
+      {
+        "role": "missing_access_audit[14]",
+        "schema_version": "missing-access-audit-v1",
+        "file_sha256": "5439e2d2d6119ae98c0c56b85c20c63fdeaf2abd162d460bbf6ec34542f5de9a"
+      },
+      {
+        "role": "missing_access_audit[15]",
+        "schema_version": "missing-access-audit-v1",
+        "file_sha256": "49cabb90e89c56a1b3055314c4fbbff3d3d5ef48ec8eca4781ff1f7259a878e2"
+      },
+      {
+        "role": "missing_access_audit[16]",
+        "schema_version": "missing-access-audit-v1",
+        "file_sha256": "91435fe286aad6fc165d1d175c8220840b399402ce5d662e151e1d96bcf1bafb"
+      },
+      {
+        "role": "missing_access_audit[1]",
+        "schema_version": "missing-access-audit-v1",
+        "file_sha256": "5a321cb247d189d6e0e93b5da20eecd311795fc52b2d9eeb4ad282681e2aabc4"
+      },
+      {
+        "role": "missing_access_audit[2]",
+        "schema_version": "missing-access-audit-v1",
+        "file_sha256": "696e5494554bea45d0db37e5c1d38d9cb36f8c02b19042be2b8b1a825e2b4c9e"
+      },
+      {
+        "role": "missing_access_audit[3]",
+        "schema_version": "missing-access-audit-v1",
+        "file_sha256": "bd4e12ffcf015f09ada2fa9fc25bf7864d5426fd95932b8cdc225b5876aa5a56"
+      },
+      {
+        "role": "missing_access_audit[4]",
+        "schema_version": "missing-access-audit-v1",
+        "file_sha256": "42f734933dab9850f7394d0066ad794af165c7026aa76b3506f09ceaefd2ced7"
+      },
+      {
+        "role": "missing_access_audit[5]",
+        "schema_version": "missing-access-audit-v1",
+        "file_sha256": "b754ff8491c991ff2b6b8893d82058adbe76af05f75263f9e426bdc63dc92e3c"
+      },
+      {
+        "role": "missing_access_audit[6]",
+        "schema_version": "missing-access-audit-v1",
+        "file_sha256": "4d9662495fc1bde1f809587958b01092ee75df7c1594bd7bef4fdb144ca5857a"
+      },
+      {
+        "role": "missing_access_audit[7]",
+        "schema_version": "missing-access-audit-v1",
+        "file_sha256": "d30cbea03bc5db787745d10138949250c19b5d2ae09781452acb092298b54b71"
+      },
+      {
+        "role": "missing_access_audit[8]",
+        "schema_version": "missing-access-audit-v1",
+        "file_sha256": "20904f8b847a8dba58b81d1e4abf57c26db5249f696a494da57bfefc9bd7fd4d"
+      },
+      {
+        "role": "missing_access_audit[9]",
+        "schema_version": "missing-access-audit-v1",
+        "file_sha256": "dc549d4cd8920e58c19db6a216d17277d25b4656e4eddd0267252b93966e1e94"
+      }
+    ],
+    "historical_structure_audit": {
+      "role": "structure_audit",
+      "schema_version": "structure-audit-v4",
+      "file_sha256": "0b6c66a714c2aaf22487f3f13b6ed240f89876faa06eb341dcc50497064337cf"
+    },
+    "chunk_manifest": {
+      "role": "chunk_manifest",
+      "schema_version": "chunk-manifest-v1",
+      "file_sha256": "5287f421e1e7be03444c2681beb1e1d63d5d103a96ab770565e32411956ce396"
+    },
+    "migration_supplement": null,
+    "representation_correction_provenance_artifacts": [
+      {
+        "role": "representation_adjustment_provenance[0]",
+        "schema_version": "subject-index-character-fidelity-correction-ledger-v1",
+        "file_sha256": "1b06021fd4d2185094780da97bfbefbfe17eaf59ae849cbbc277e7f1bc99f20b"
+      },
+      {
+        "role": "representation_adjustment_provenance[1]",
+        "schema_version": "subject-index-character-fidelity-audit-v1",
+        "file_sha256": "bee81248c0361684f723bb11c4568ee7786c2866b00544645da0c48b8e7ec7ec"
+      },
+      {
+        "role": "representation_adjustment_provenance[2]",
+        "schema_version": "subject-index-representation-adjustment-validation-v1",
+        "file_sha256": "2dde71f7a165732e74bca860389c9f229deded05b3764cb6d401f043f3426ea8"
+      }
+    ],
+    "calculation_input_artifact_set_sha256": "06d9c067733786a0ffdc62517ebe62a5783b8b5b87a3da5331b6431f2aa02cd2"
+  },
+  "scope": {
+    "rule_id": "FIT-V7-EXACT-UNRESOLVED-LOCATOR-SET-V1",
+    "unresolved_locator_ids": [
+      "LOC-01EA5A60C89E",
+      "LOC-0462BC90426F",
+      "LOC-04714DFA081E",
+      "LOC-04FF1F472B53",
+      "LOC-05017B075FF9",
+      "LOC-05DB7160D3CC",
+      "LOC-060C7213A4E2",
+      "LOC-063E50250F3C",
+      "LOC-068714414480",
+      "LOC-06A25D9C9139",
+      "LOC-08AEFD5B0524",
+      "LOC-08F5D7091751",
+      "LOC-0909C67F76D4",
+      "LOC-0951F366DED3",
+      "LOC-0986BB976A0C",
+      "LOC-0A1029912FAD",
+      "LOC-0A18218D9F34",
+      "LOC-0F2413A7A0BB",
+      "LOC-0F5B4C147A6D",
+      "LOC-0FCD80C93653",
+      "LOC-10717FBEFB4F",
+      "LOC-1127A55EC700",
+      "LOC-1304E5DD012B",
+      "LOC-13BA12F1EDDE",
+      "LOC-141282E04891",
+      "LOC-14B80B30EDAB",
+      "LOC-14B8BD175AF9",
+      "LOC-1623F510AFA3",
+      "LOC-1693D266D76C",
+      "LOC-17B00B2FADC8",
+      "LOC-18FF21A9C6C4",
+      "LOC-1930376F734E",
+      "LOC-19357BD95E9C",
+      "LOC-1989B266491F",
+      "LOC-19C9C9515F68",
+      "LOC-1C75C6F1EB20",
+      "LOC-1CCA2581B150",
+      "LOC-1DBCCEAE8CB3",
+      "LOC-1E594D400D43",
+      "LOC-1EAE01485F57",
+      "LOC-1F766B697A25",
+      "LOC-2100CDE3704F",
+      "LOC-216D8A8FA00F",
+      "LOC-218BBA5FE761",
+      "LOC-21CA5EA0DBDE",
+      "LOC-224C084BBCE7",
+      "LOC-224F29FED470",
+      "LOC-239399F4BDD1",
+      "LOC-23B24EA5AC86",
+      "LOC-23EFA497890A",
+      "LOC-251356577E3E",
+      "LOC-2523F382DA9C",
+      "LOC-28496F778125",
+      "LOC-29B32CD908E9",
+      "LOC-2A4F7D3556AD",
+      "LOC-2B6F398FA40C",
+      "LOC-2CB10252894F",
+      "LOC-2D4C7CAC8F11",
+      "LOC-3002F6030E64",
+      "LOC-32EF4D6DB1E6",
+      "LOC-32F83A63ABFE",
+      "LOC-33B3429C340F",
+      "LOC-346A62C0A1A0",
+      "LOC-34F2FCD47E0D",
+      "LOC-3773DC26A347",
+      "LOC-37D150FC791F",
+      "LOC-37E0C26630AA",
+      "LOC-38210BF974B4",
+      "LOC-3993ECD75BFD",
+      "LOC-39F9D0154D31",
+      "LOC-3A347EEBB97D",
+      "LOC-3ABFC1608E22",
+      "LOC-3BCC09FE22B7",
+      "LOC-3E46C0ACAA8A",
+      "LOC-3FD3D1CB498F",
+      "LOC-40365291D7C3",
+      "LOC-411FB0087C02",
+      "LOC-42F23D35903C",
+      "LOC-43445FAC7701",
+      "LOC-43EAB6339AF8",
+      "LOC-4469EB1D832A",
+      "LOC-45D04CDF8582",
+      "LOC-48367D5505DB",
+      "LOC-4ACA70E4E669",
+      "LOC-4C9769C6E521",
+      "LOC-4D01135D04ED",
+      "LOC-4D5C6EDBDBA7",
+      "LOC-4D6B4F63D37D",
+      "LOC-4F938EB97850",
+      "LOC-4FB11DEF73BD",
+      "LOC-509AEE2DE490",
+      "LOC-51ECF3BE3C05",
+      "LOC-521A406D39E6",
+      "LOC-5242FC932E5B",
+      "LOC-52D65480EF2E",
+      "LOC-5479759BD0F5",
+      "LOC-54A534636BC1",
+      "LOC-5760E0C43F01",
+      "LOC-57AC788CE38D",
+      "LOC-583E009736F8",
+      "LOC-5976CF27CC94",
+      "LOC-5A63C2514175",
+      "LOC-5B1898FFAF49",
+      "LOC-5BE0630C899D",
+      "LOC-5D645C3C4539",
+      "LOC-5D7B10F02742",
+      "LOC-5EB52737A699",
+      "LOC-5EBA8EED849C",
+      "LOC-5FBBD0417700",
+      "LOC-603D804E239F",
+      "LOC-60F70AAF6AE2",
+      "LOC-61000669A07B",
+      "LOC-6126FD3D7869",
+      "LOC-621F0C15C2CC",
+      "LOC-622B61A24230",
+      "LOC-6473CF66DF34",
+      "LOC-65752D13D520",
+      "LOC-6608CA7EE24C",
+      "LOC-660BE7E01F4A",
+      "LOC-6677332B19DA",
+      "LOC-66F10890A142",
+      "LOC-670B08BF4F23",
+      "LOC-6755A0004CE0",
+      "LOC-686782B10B30",
+      "LOC-688374501B35",
+      "LOC-68D6DD58FE0F",
+      "LOC-6984A885A859",
+      "LOC-6A6AA0C87A36",
+      "LOC-6A7C6067C7E7",
+      "LOC-6AB41C3FFBA2",
+      "LOC-6C80BDB9A2C4",
+      "LOC-6DC668E610C3",
+      "LOC-6E7A70C1FE0F",
+      "LOC-6F531053DEFD",
+      "LOC-6F5F5D3049E1",
+      "LOC-6FF8729EE071",
+      "LOC-7085CCC22D38",
+      "LOC-71F468A6DB2B",
+      "LOC-72134B5DDEA1",
+      "LOC-72BCDEDF1FEE",
+      "LOC-7397EF440E2E",
+      "LOC-73BD5F84885F",
+      "LOC-74625807035E",
+      "LOC-75460F2E0C5C",
+      "LOC-755790278A95",
+      "LOC-76CA320B0993",
+      "LOC-7701F9B95B87",
+      "LOC-7B37E593314A",
+      "LOC-7B58953ED8C3",
+      "LOC-7BBAEA5AB101",
+      "LOC-7D566EB81E4F",
+      "LOC-7DFDAEED0D80",
+      "LOC-7F4FD513E849",
+      "LOC-80048D076477",
+      "LOC-807D7CACACF6",
+      "LOC-81D1B964462A",
+      "LOC-85735D4E1B15",
+      "LOC-857E706A4693",
+      "LOC-8A8464B15473",
+      "LOC-8B4E2623A160",
+      "LOC-8BBED4DFB08A",
+      "LOC-8C182096FD2A",
+      "LOC-8C4C8B44E86E",
+      "LOC-8CD598646C35",
+      "LOC-8D0D70F17DB9",
+      "LOC-8EBD4E34DB41",
+      "LOC-904A159A295E",
+      "LOC-90A978F4319E",
+      "LOC-9123166AF68B",
+      "LOC-921A7851EBA3",
+      "LOC-93247632C353",
+      "LOC-93578D1E740D",
+      "LOC-9449CF1E6B36",
+      "LOC-94BD9399B66A",
+      "LOC-956320533A37",
+      "LOC-961257D84593",
+      "LOC-966944711726",
+      "LOC-97ABEA16D2D4",
+      "LOC-99AC5E8808F1",
+      "LOC-99D701374FBB",
+      "LOC-99E521EFDAB0",
+      "LOC-99EAEBA4F398",
+      "LOC-9A3C9F35B085",
+      "LOC-9AC198E4F6B4",
+      "LOC-9AEC4D3EB34B",
+      "LOC-9BE36BCA9141",
+      "LOC-9CEE5A2E40C2",
+      "LOC-9CFE37E4BAB8",
+      "LOC-9D6A7E9FC998",
+      "LOC-9E5254F8DA14",
+      "LOC-9EB02C4F6B09",
+      "LOC-9EB77E1E1CC0",
+      "LOC-9FC0336C681B",
+      "LOC-A075AFB6BDBB",
+      "LOC-A1A1DE62B444",
+      "LOC-A2E0D8C93922",
+      "LOC-A3C3FE6FDE6F",
+      "LOC-A471DD6D982E",
+      "LOC-A48B280B90F7",
+      "LOC-A51005E5AE3B",
+      "LOC-A96A09943513",
+      "LOC-AAC1916F9002",
+      "LOC-AB74A8C01F1F",
+      "LOC-AC146AFDE445",
+      "LOC-AC476753B51D",
+      "LOC-AEA585409450",
+      "LOC-B0096256C691",
+      "LOC-B1251AB3A243",
+      "LOC-B18D9ABC2641",
+      "LOC-B21FBC1DECD7",
+      "LOC-B26EB19A3889",
+      "LOC-B2AE1E482464",
+      "LOC-B32738B16770",
+      "LOC-B33A86BC887F",
+      "LOC-B3D03802BD60",
+      "LOC-B5382F6FB452",
+      "LOC-B6D571D3433D",
+      "LOC-B7370DBB1808",
+      "LOC-B7431717DDB9",
+      "LOC-B89BFF60BE5D",
+      "LOC-B94CB8AB7A7F",
+      "LOC-B9A8EEC0E9D6",
+      "LOC-B9EFBFE7BAE6",
+      "LOC-BAE4F13E7689",
+      "LOC-BB7C00CA6587",
+      "LOC-BCA0F94C3309",
+      "LOC-BEE5D6A3CA03",
+      "LOC-C40F9F41DBB6",
+      "LOC-C43F66821C95",
+      "LOC-C49DEB8D00B2",
+      "LOC-C51DCC00B5B5",
+      "LOC-C6844659F2D8",
+      "LOC-C6B9212DF6F8",
+      "LOC-C6BD76FACC2D",
+      "LOC-C75001C54495",
+      "LOC-C80B1F624B64",
+      "LOC-C9C2E28A4E8B",
+      "LOC-CADD3785FAA2",
+      "LOC-CC24124AB37B",
+      "LOC-CD965890ECF1",
+      "LOC-CDAFCB2445D9",
+      "LOC-CE38D18FB0A8",
+      "LOC-CE560A894C38",
+      "LOC-CF983630A519",
+      "LOC-CFDBC95440DD",
+      "LOC-D0C90CDC858C",
+      "LOC-D1062C9C53AE",
+      "LOC-D1C39238D33C",
+      "LOC-D2DD6A83C753",
+      "LOC-D32E575D9F6C",
+      "LOC-D3518DE967D1",
+      "LOC-D3612D8B628C",
+      "LOC-D38AC34F65EB",
+      "LOC-D3D04B48E1B3",
+      "LOC-D3DC492CC427",
+      "LOC-D4F1A35A9AD9",
+      "LOC-D574AA35D722",
+      "LOC-D5A7AD8EABB2",
+      "LOC-D5D8CF028EFF",
+      "LOC-D702F8E55748",
+      "LOC-D7496A1B7CF3",
+      "LOC-D76F7AB8B889",
+      "LOC-D9AA8AD8498A",
+      "LOC-D9B49398AB87",
+      "LOC-DA0C2ED841CF",
+      "LOC-DD60F23CEC61",
+      "LOC-DD6DAF851CA5",
+      "LOC-DD7A5ACDAD27",
+      "LOC-DEA32824EDE2",
+      "LOC-DFF178C404C1",
+      "LOC-DFFB4A25AD92",
+      "LOC-E4612D875085",
+      "LOC-E468BA2F327D",
+      "LOC-E4CF1F102AE9",
+      "LOC-E4E09172278B",
+      "LOC-E54E9FA386BB",
+      "LOC-E71768C23D6E",
+      "LOC-E9568A2326F0",
+      "LOC-EA3A911B2CA0",
+      "LOC-EA8C14D069E5",
+      "LOC-EABEE4131D60",
+      "LOC-EADA05986518",
+      "LOC-EB8537C36B7B",
+      "LOC-ED27C3FBED2A",
+      "LOC-EF85C3E30766",
+      "LOC-F0E0C4167FD7",
+      "LOC-F0FD828847E2",
+      "LOC-F10AA513CDA9",
+      "LOC-F18D84FA6908",
+      "LOC-F1A0ADE42B6A",
+      "LOC-F2605EC03618",
+      "LOC-F32D7ADEDD1D",
+      "LOC-F332F88AC651",
+      "LOC-F711322DD9A5",
+      "LOC-F751EB77EAF8",
+      "LOC-F7E35FD72DD7",
+      "LOC-F8785613BACE",
+      "LOC-F88BCAD9F9DD",
+      "LOC-F93B554D89C9",
+      "LOC-FA147DCAA9DA",
+      "LOC-FA80CE7A724A",
+      "LOC-FB1CC30504C1",
+      "LOC-FBD6EB2B85A2",
+      "LOC-FD93E415F8A7",
+      "LOC-FE0DDCE0A16C",
+      "LOC-FE8BC6D04FB6",
+      "LOC-FF72E1AE2693",
+      "LOC-FFD707A4A0C0"
+    ],
+    "unresolved_set_sha256": "9dc3aa84eb218865d3e347314473a0f1415512e5e334aa451c1787e3abefcfa9"
+  },
+  "decisions": [
+    {
+      "decision_id": "FITDEC-FCF8573B3AA6",
+      "locator_id": "LOC-01EA5A60C89E",
+      "path_id": "PATH-9988D5A37BCC",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK004-PAGE-099",
+        "LOC-01EA5A60C89E",
+        "PATH-9988D5A37BCC"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-0131DD989E92",
+      "locator_id": "LOC-0462BC90426F",
+      "path_id": "PATH-1ACC17B09F21",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK008-PAGE-194",
+        "LOC-0462BC90426F",
+        "PATH-1ACC17B09F21"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-1CF029FC574F",
+      "locator_id": "LOC-04714DFA081E",
+      "path_id": "PATH-954194725EB3",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK012-PAGE-284",
+        "LOC-04714DFA081E",
+        "PATH-954194725EB3"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-A8410146A8D5",
+      "locator_id": "LOC-04FF1F472B53",
+      "path_id": "PATH-30E850E1F5C7",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-04FF1F472B53",
+        "LOC-04FF1F472B53",
+        "PATH-30E850E1F5C7"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-C56919A90277",
+      "locator_id": "LOC-05017B075FF9",
+      "path_id": "PATH-2B4083238575",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK012-PAGE-293",
+        "LOC-05017B075FF9",
+        "PATH-2B4083238575"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-9BF1B683FC84",
+      "locator_id": "LOC-05DB7160D3CC",
+      "path_id": "PATH-8CA98B726A45",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK012-PAGE-277",
+        "LOC-05DB7160D3CC",
+        "PATH-8CA98B726A45"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-4FBE5C1973F1",
+      "locator_id": "LOC-060C7213A4E2",
+      "path_id": "PATH-34C2E78B07A5",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK006-060C7213A4E2",
+        "LOC-060C7213A4E2",
+        "PATH-34C2E78B07A5"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-76BF6DB8A377",
+      "locator_id": "LOC-063E50250F3C",
+      "path_id": "PATH-E27737D9296F",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK012-PAGE-278",
+        "LOC-063E50250F3C",
+        "PATH-E27737D9296F"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-4BE73514E1CE",
+      "locator_id": "LOC-068714414480",
+      "path_id": "PATH-E67B9967AC33",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-068714414480",
+        "LOC-068714414480",
+        "PATH-E67B9967AC33"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-3B8E4B74552C",
+      "locator_id": "LOC-06A25D9C9139",
+      "path_id": "PATH-6F90BB3C6A42",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK013-06A25D9C9139",
+        "LOC-06A25D9C9139",
+        "PATH-6F90BB3C6A42"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-A6CB8B056AD3",
+      "locator_id": "LOC-08AEFD5B0524",
+      "path_id": "PATH-8F5D2A4D405A",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-08AEFD5B0524",
+        "LOC-08AEFD5B0524",
+        "PATH-8F5D2A4D405A"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-4D722E6CBFCE",
+      "locator_id": "LOC-08F5D7091751",
+      "path_id": "PATH-8B9A20D140D8",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK013-08F5D7091751",
+        "LOC-08F5D7091751",
+        "PATH-8B9A20D140D8"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-BD3C8A29B32C",
+      "locator_id": "LOC-0909C67F76D4",
+      "path_id": "PATH-C9D44ED81A45",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-161",
+        "LOC-0909C67F76D4",
+        "PATH-C9D44ED81A45"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-8D3A82FD35E1",
+      "locator_id": "LOC-0951F366DED3",
+      "path_id": "PATH-7AB23AB81734",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-0951F366DED3",
+        "LOC-0951F366DED3",
+        "PATH-7AB23AB81734"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-8284FE2A9668",
+      "locator_id": "LOC-0986BB976A0C",
+      "path_id": "PATH-E892666BDD66",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK014-PAGE-320",
+        "LOC-0986BB976A0C",
+        "PATH-E892666BDD66"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-5A0079FC2731",
+      "locator_id": "LOC-0A1029912FAD",
+      "path_id": "PATH-E6D80FA73D7D",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-160",
+        "LOC-0A1029912FAD",
+        "PATH-E6D80FA73D7D"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-9A8AE98C69FF",
+      "locator_id": "LOC-0A18218D9F34",
+      "path_id": "PATH-C65CCA616433",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK006-0A18218D9F34",
+        "LOC-0A18218D9F34",
+        "PATH-C65CCA616433"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-CF5ABFF23564",
+      "locator_id": "LOC-0F2413A7A0BB",
+      "path_id": "PATH-831DDA3CF6EC",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-160",
+        "LOC-0F2413A7A0BB",
+        "PATH-831DDA3CF6EC"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-5BFCFF947676",
+      "locator_id": "LOC-0F5B4C147A6D",
+      "path_id": "PATH-BFC131975B0D",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-160",
+        "LOC-0F5B4C147A6D",
+        "PATH-BFC131975B0D"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-92F3EDE78766",
+      "locator_id": "LOC-0FCD80C93653",
+      "path_id": "PATH-DED3EDE9926B",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK004-PAGE-099",
+        "LOC-0FCD80C93653",
+        "PATH-DED3EDE9926B"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-AFE78A6B91BC",
+      "locator_id": "LOC-10717FBEFB4F",
+      "path_id": "PATH-606EAF67E169",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-10717FBEFB4F",
+        "LOC-10717FBEFB4F",
+        "PATH-606EAF67E169"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-781A422CE586",
+      "locator_id": "LOC-1127A55EC700",
+      "path_id": "PATH-CCC8DE4629C8",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-1127A55EC700",
+        "LOC-1127A55EC700",
+        "PATH-CCC8DE4629C8"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-290BFA640D05",
+      "locator_id": "LOC-1304E5DD012B",
+      "path_id": "PATH-AC950631E211",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK008-PAGE-192",
+        "LOC-1304E5DD012B",
+        "PATH-AC950631E211"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-8CC24C46557A",
+      "locator_id": "LOC-13BA12F1EDDE",
+      "path_id": "PATH-780026ABB41B",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-13BA12F1EDDE",
+        "LOC-13BA12F1EDDE",
+        "PATH-780026ABB41B"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-D72B6EA970ED",
+      "locator_id": "LOC-141282E04891",
+      "path_id": "PATH-92DDE59E11CF",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK012-PAGE-281",
+        "LOC-141282E04891",
+        "PATH-92DDE59E11CF"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-0872F1DC1C51",
+      "locator_id": "LOC-14B80B30EDAB",
+      "path_id": "PATH-3B36AD2B9C84",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK013-14B80B30EDAB",
+        "LOC-14B80B30EDAB",
+        "PATH-3B36AD2B9C84"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-8E243E005D0B",
+      "locator_id": "LOC-14B8BD175AF9",
+      "path_id": "PATH-2A7E4CBA5322",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK012-PAGE-288",
+        "LOC-14B8BD175AF9",
+        "PATH-2A7E4CBA5322"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-70FF2C0F5D1B",
+      "locator_id": "LOC-1623F510AFA3",
+      "path_id": "PATH-1F187639AA01",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-170",
+        "LOC-1623F510AFA3",
+        "PATH-1F187639AA01"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-0AFDB9E2DFEA",
+      "locator_id": "LOC-1693D266D76C",
+      "path_id": "PATH-33C6B51DC018",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-1693D266D76C",
+        "LOC-1693D266D76C",
+        "PATH-33C6B51DC018"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-BFCF8CC29FBA",
+      "locator_id": "LOC-17B00B2FADC8",
+      "path_id": "PATH-B307444F4ADC",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-17B00B2FADC8",
+        "LOC-17B00B2FADC8",
+        "PATH-B307444F4ADC"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-090C0CF443CB",
+      "locator_id": "LOC-18FF21A9C6C4",
+      "path_id": "PATH-D8534A61FB82",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK004-PAGE-111",
+        "LOC-18FF21A9C6C4",
+        "PATH-D8534A61FB82"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-B9F7D14513BA",
+      "locator_id": "LOC-1930376F734E",
+      "path_id": "PATH-1F6BC0A9B44A",
+      "fit_category": "no_fit",
+      "evidence_ids": [
+        "EVID-CHUNK014-PAGE-320",
+        "LOC-1930376F734E",
+        "PATH-1F6BC0A9B44A"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-1800DE925D65",
+      "locator_id": "LOC-19357BD95E9C",
+      "path_id": "PATH-557E3BC2AF25",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK-015-P0361",
+        "LOC-19357BD95E9C",
+        "PATH-557E3BC2AF25"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-D8F56BDB4F21",
+      "locator_id": "LOC-1989B266491F",
+      "path_id": "PATH-97B76C85D03D",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK008-PAGE-179",
+        "LOC-1989B266491F",
+        "PATH-97B76C85D03D"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-B3595DA78644",
+      "locator_id": "LOC-19C9C9515F68",
+      "path_id": "PATH-8D8C13939F06",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK004-PAGE-101",
+        "LOC-19C9C9515F68",
+        "PATH-8D8C13939F06"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-B38E14FA87CE",
+      "locator_id": "LOC-1C75C6F1EB20",
+      "path_id": "PATH-4AE792EB0791",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK012-PAGE-286",
+        "LOC-1C75C6F1EB20",
+        "PATH-4AE792EB0791"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-7B608E291AD8",
+      "locator_id": "LOC-1CCA2581B150",
+      "path_id": "PATH-7BF94AD9C1A8",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-164",
+        "LOC-1CCA2581B150",
+        "PATH-7BF94AD9C1A8"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-8238D2DE1EEC",
+      "locator_id": "LOC-1DBCCEAE8CB3",
+      "path_id": "PATH-014B7F4D88E4",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK006-1DBCCEAE8CB3",
+        "LOC-1DBCCEAE8CB3",
+        "PATH-014B7F4D88E4"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-7D430109EBB0",
+      "locator_id": "LOC-1E594D400D43",
+      "path_id": "PATH-A90064459EFC",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK004-PAGE-109",
+        "LOC-1E594D400D43",
+        "PATH-A90064459EFC"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-77484AF376E6",
+      "locator_id": "LOC-1EAE01485F57",
+      "path_id": "PATH-92DDE59E11CF",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK012-PAGE-275",
+        "LOC-1EAE01485F57",
+        "PATH-92DDE59E11CF"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-08F0EA115C82",
+      "locator_id": "LOC-1F766B697A25",
+      "path_id": "PATH-1ACC17B09F21",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-1F766B697A25",
+        "LOC-1F766B697A25",
+        "PATH-1ACC17B09F21"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-D2B6513FE017",
+      "locator_id": "LOC-2100CDE3704F",
+      "path_id": "PATH-1ACC17B09F21",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK009-PAGE-212",
+        "LOC-2100CDE3704F",
+        "PATH-1ACC17B09F21"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-E04D883B0164",
+      "locator_id": "LOC-216D8A8FA00F",
+      "path_id": "PATH-66AE149141A5",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK009-PAGE-215",
+        "LOC-216D8A8FA00F",
+        "PATH-66AE149141A5"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-78A35CBB3A7F",
+      "locator_id": "LOC-218BBA5FE761",
+      "path_id": "PATH-74AD42E5EFD6",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-218BBA5FE761",
+        "LOC-218BBA5FE761",
+        "PATH-74AD42E5EFD6"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-2A16988ECDF7",
+      "locator_id": "LOC-21CA5EA0DBDE",
+      "path_id": "PATH-29091A30D98A",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK014-PAGE-322",
+        "LOC-21CA5EA0DBDE",
+        "PATH-29091A30D98A"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-FEC78EFBE38E",
+      "locator_id": "LOC-224C084BBCE7",
+      "path_id": "PATH-497E30431A66",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK001-P012",
+        "LOC-224C084BBCE7",
+        "PATH-497E30431A66"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-B244F1E19F17",
+      "locator_id": "LOC-224F29FED470",
+      "path_id": "PATH-CCC8DE4629C8",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK013-224F29FED470",
+        "LOC-224F29FED470",
+        "PATH-CCC8DE4629C8"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-B3B799DD868E",
+      "locator_id": "LOC-239399F4BDD1",
+      "path_id": "PATH-FBD71C9622B8",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK012-PAGE-273",
+        "LOC-239399F4BDD1",
+        "PATH-FBD71C9622B8"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-E1C67AD59DDB",
+      "locator_id": "LOC-23B24EA5AC86",
+      "path_id": "PATH-BE11CCA3666E",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK009-PAGE-211",
+        "LOC-23B24EA5AC86",
+        "PATH-BE11CCA3666E"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-5CC2E8B2ECB6",
+      "locator_id": "LOC-23EFA497890A",
+      "path_id": "PATH-C4A0E17E137E",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-23EFA497890A",
+        "LOC-23EFA497890A",
+        "PATH-C4A0E17E137E"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-19E780080B83",
+      "locator_id": "LOC-251356577E3E",
+      "path_id": "PATH-18754890DD4A",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK-015-P0348",
+        "LOC-251356577E3E",
+        "PATH-18754890DD4A"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-925DE5A999F6",
+      "locator_id": "LOC-2523F382DA9C",
+      "path_id": "PATH-954194725EB3",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK004-PAGE-110",
+        "LOC-2523F382DA9C",
+        "PATH-954194725EB3"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-9BA278594435",
+      "locator_id": "LOC-28496F778125",
+      "path_id": "PATH-200A29A9A980",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK017-28496F778125",
+        "LOC-28496F778125",
+        "PATH-200A29A9A980"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-E5DF07B2CD64",
+      "locator_id": "LOC-29B32CD908E9",
+      "path_id": "PATH-9D22F2857381",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-29B32CD908E9",
+        "LOC-29B32CD908E9",
+        "PATH-9D22F2857381"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-E47CC5D469CB",
+      "locator_id": "LOC-2A4F7D3556AD",
+      "path_id": "PATH-552900D360AD",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK014-PAGE-334",
+        "LOC-2A4F7D3556AD",
+        "PATH-552900D360AD"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-6E015FB9F54B",
+      "locator_id": "LOC-2B6F398FA40C",
+      "path_id": "PATH-552900D360AD",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK014-PAGE-322",
+        "LOC-2B6F398FA40C",
+        "PATH-552900D360AD"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-52C8F1D450F6",
+      "locator_id": "LOC-2CB10252894F",
+      "path_id": "PATH-1890DC0E8AD3",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-160",
+        "LOC-2CB10252894F",
+        "PATH-1890DC0E8AD3"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-AB19306481EA",
+      "locator_id": "LOC-2D4C7CAC8F11",
+      "path_id": "PATH-6EBFC223E016",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK008-PAGE-183",
+        "LOC-2D4C7CAC8F11",
+        "PATH-6EBFC223E016"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-4A745F482BEA",
+      "locator_id": "LOC-3002F6030E64",
+      "path_id": "PATH-F02E15765BC6",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-3002F6030E64",
+        "LOC-3002F6030E64",
+        "PATH-F02E15765BC6"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-60622F6D9895",
+      "locator_id": "LOC-32EF4D6DB1E6",
+      "path_id": "PATH-86944F607B5E",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK009-PAGE-211",
+        "LOC-32EF4D6DB1E6",
+        "PATH-86944F607B5E"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-356E4FBC0268",
+      "locator_id": "LOC-32F83A63ABFE",
+      "path_id": "PATH-CD2FE947634A",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK017-32F83A63ABFE",
+        "LOC-32F83A63ABFE",
+        "PATH-CD2FE947634A"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-9CAC0811EF29",
+      "locator_id": "LOC-33B3429C340F",
+      "path_id": "PATH-5554EDB93725",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-33B3429C340F",
+        "LOC-33B3429C340F",
+        "PATH-5554EDB93725"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-CC4C4C215654",
+      "locator_id": "LOC-346A62C0A1A0",
+      "path_id": "PATH-6E96191E0AA2",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK009-PAGE-201",
+        "LOC-346A62C0A1A0",
+        "PATH-6E96191E0AA2"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-64179ED04F44",
+      "locator_id": "LOC-34F2FCD47E0D",
+      "path_id": "PATH-559E65828040",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK012-PAGE-290",
+        "LOC-34F2FCD47E0D",
+        "PATH-559E65828040"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-1E4017302C55",
+      "locator_id": "LOC-3773DC26A347",
+      "path_id": "PATH-66AE149141A5",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-3773DC26A347",
+        "LOC-3773DC26A347",
+        "PATH-66AE149141A5"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-2DA9563F999D",
+      "locator_id": "LOC-37D150FC791F",
+      "path_id": "PATH-1ACC17B09F21",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK012-PAGE-285",
+        "LOC-37D150FC791F",
+        "PATH-1ACC17B09F21"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-24C4D9A4A063",
+      "locator_id": "LOC-37E0C26630AA",
+      "path_id": "PATH-D94E205CCC18",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK012-PAGE-276",
+        "LOC-37E0C26630AA",
+        "PATH-D94E205CCC18"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-B856C3B6471E",
+      "locator_id": "LOC-38210BF974B4",
+      "path_id": "PATH-A27550103D44",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK009-PAGE-211",
+        "LOC-38210BF974B4",
+        "PATH-A27550103D44"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-09985E4C2DC5",
+      "locator_id": "LOC-3993ECD75BFD",
+      "path_id": "PATH-C0F910B7BE5B",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK006-3993ECD75BFD",
+        "LOC-3993ECD75BFD",
+        "PATH-C0F910B7BE5B"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-626DB07348A5",
+      "locator_id": "LOC-39F9D0154D31",
+      "path_id": "PATH-667AA5ED00F2",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK013-39F9D0154D31",
+        "LOC-39F9D0154D31",
+        "PATH-667AA5ED00F2"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-3645A53617D4",
+      "locator_id": "LOC-3A347EEBB97D",
+      "path_id": "PATH-E372F5FC7859",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK014-PAGE-322",
+        "LOC-3A347EEBB97D",
+        "PATH-E372F5FC7859"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-6602DA0F388E",
+      "locator_id": "LOC-3ABFC1608E22",
+      "path_id": "PATH-5ED2D1679D7B",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-3ABFC1608E22",
+        "LOC-3ABFC1608E22",
+        "PATH-5ED2D1679D7B"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-1DA95C4657DC",
+      "locator_id": "LOC-3BCC09FE22B7",
+      "path_id": "PATH-922FB1DC060B",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK004-PAGE-101",
+        "LOC-3BCC09FE22B7",
+        "PATH-922FB1DC060B"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-06737AC09F44",
+      "locator_id": "LOC-3E46C0ACAA8A",
+      "path_id": "PATH-3AA9D396B9ED",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-160",
+        "LOC-3E46C0ACAA8A",
+        "PATH-3AA9D396B9ED"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-E0B905015455",
+      "locator_id": "LOC-3FD3D1CB498F",
+      "path_id": "PATH-9FBD8438AF5E",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK001-P002",
+        "LOC-3FD3D1CB498F",
+        "PATH-9FBD8438AF5E"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-EBBA3B17FDCB",
+      "locator_id": "LOC-40365291D7C3",
+      "path_id": "PATH-0F0B07EE295C",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK012-PAGE-281",
+        "LOC-40365291D7C3",
+        "PATH-0F0B07EE295C"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-8CEDA995E6A3",
+      "locator_id": "LOC-411FB0087C02",
+      "path_id": "PATH-CA99F1176E5B",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-411FB0087C02",
+        "LOC-411FB0087C02",
+        "PATH-CA99F1176E5B"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-868407D4A0E8",
+      "locator_id": "LOC-42F23D35903C",
+      "path_id": "PATH-97B76C85D03D",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK004-PAGE-101",
+        "LOC-42F23D35903C",
+        "PATH-97B76C85D03D"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-EE502B5D81C6",
+      "locator_id": "LOC-43445FAC7701",
+      "path_id": "PATH-654C2D0047EB",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK-015-P0341",
+        "LOC-43445FAC7701",
+        "PATH-654C2D0047EB"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-046D3A6BBA64",
+      "locator_id": "LOC-43EAB6339AF8",
+      "path_id": "PATH-80810BD7161F",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK009-PAGE-206",
+        "LOC-43EAB6339AF8",
+        "PATH-80810BD7161F"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-55982AEAE25A",
+      "locator_id": "LOC-4469EB1D832A",
+      "path_id": "PATH-FDB57A937F7A",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK-015-P0367",
+        "LOC-4469EB1D832A",
+        "PATH-FDB57A937F7A"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-9083CFFDCD2F",
+      "locator_id": "LOC-45D04CDF8582",
+      "path_id": "PATH-4B40E9C6EC0B",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK017-45D04CDF8582",
+        "LOC-45D04CDF8582",
+        "PATH-4B40E9C6EC0B"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-B0AE1766EE08",
+      "locator_id": "LOC-48367D5505DB",
+      "path_id": "PATH-048D2A20C0A8",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK004-PAGE-101",
+        "LOC-48367D5505DB",
+        "PATH-048D2A20C0A8"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-B812518EA062",
+      "locator_id": "LOC-4ACA70E4E669",
+      "path_id": "PATH-5B9B09B294D4",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-4ACA70E4E669",
+        "LOC-4ACA70E4E669",
+        "PATH-5B9B09B294D4"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-322DC422740E",
+      "locator_id": "LOC-4C9769C6E521",
+      "path_id": "PATH-5ED2D1679D7B",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK006-4C9769C6E521",
+        "LOC-4C9769C6E521",
+        "PATH-5ED2D1679D7B"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-0748412E73EA",
+      "locator_id": "LOC-4D01135D04ED",
+      "path_id": "PATH-07FDD304AB62",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK006-4D01135D04ED",
+        "LOC-4D01135D04ED",
+        "PATH-07FDD304AB62"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-419DEDDD7B9A",
+      "locator_id": "LOC-4D5C6EDBDBA7",
+      "path_id": "PATH-77162DD94164",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-4D5C6EDBDBA7",
+        "LOC-4D5C6EDBDBA7",
+        "PATH-77162DD94164"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-C8965E6C5A25",
+      "locator_id": "LOC-4D6B4F63D37D",
+      "path_id": "PATH-A1CE8D2608F3",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK008-PAGE-178",
+        "LOC-4D6B4F63D37D",
+        "PATH-A1CE8D2608F3"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-84A0CA436399",
+      "locator_id": "LOC-4F938EB97850",
+      "path_id": "PATH-202B9D53C9CC",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK012-PAGE-287",
+        "LOC-4F938EB97850",
+        "PATH-202B9D53C9CC"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-4A352531BEEF",
+      "locator_id": "LOC-4FB11DEF73BD",
+      "path_id": "PATH-685C701227EB",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK012-PAGE-277",
+        "LOC-4FB11DEF73BD",
+        "PATH-685C701227EB"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-437A8465A08E",
+      "locator_id": "LOC-509AEE2DE490",
+      "path_id": "PATH-2AE98113357B",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK017-509AEE2DE490",
+        "LOC-509AEE2DE490",
+        "PATH-2AE98113357B"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-C635BC18AC5D",
+      "locator_id": "LOC-51ECF3BE3C05",
+      "path_id": "PATH-55171B94F4F1",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK013-51ECF3BE3C05",
+        "LOC-51ECF3BE3C05",
+        "PATH-55171B94F4F1"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-D798DB7B4CD1",
+      "locator_id": "LOC-521A406D39E6",
+      "path_id": "PATH-4F493F8048F1",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-070",
+        "LOC-521A406D39E6",
+        "PATH-4F493F8048F1"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-6A978246E3A8",
+      "locator_id": "LOC-5242FC932E5B",
+      "path_id": "PATH-4ABA1882572A",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-5242FC932E5B",
+        "LOC-5242FC932E5B",
+        "PATH-4ABA1882572A"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-3400AC5EBAF5",
+      "locator_id": "LOC-52D65480EF2E",
+      "path_id": "PATH-0769AC7FF378",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK017-52D65480EF2E",
+        "LOC-52D65480EF2E",
+        "PATH-0769AC7FF378"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-A290200AA581",
+      "locator_id": "LOC-5479759BD0F5",
+      "path_id": "PATH-B541DCFA0BFE",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK009-PAGE-211",
+        "LOC-5479759BD0F5",
+        "PATH-B541DCFA0BFE"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-039B93853F9E",
+      "locator_id": "LOC-54A534636BC1",
+      "path_id": "PATH-AC444CE6F16A",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK006-54A534636BC1",
+        "LOC-54A534636BC1",
+        "PATH-AC444CE6F16A"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-F5056691A037",
+      "locator_id": "LOC-5760E0C43F01",
+      "path_id": "PATH-020B5DE179B8",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK006-5760E0C43F01",
+        "LOC-5760E0C43F01",
+        "PATH-020B5DE179B8"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-3341F6FA8457",
+      "locator_id": "LOC-57AC788CE38D",
+      "path_id": "PATH-BD392515A6B1",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK012-PAGE-276",
+        "LOC-57AC788CE38D",
+        "PATH-BD392515A6B1"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-1102A3A1A1DE",
+      "locator_id": "LOC-583E009736F8",
+      "path_id": "PATH-3C4335E9478F",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK012-PAGE-292",
+        "LOC-583E009736F8",
+        "PATH-3C4335E9478F"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-42C7DE7EBF13",
+      "locator_id": "LOC-5976CF27CC94",
+      "path_id": "PATH-3B8DA3D3332D",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK017-5976CF27CC94",
+        "LOC-5976CF27CC94",
+        "PATH-3B8DA3D3332D"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-B0609662D501",
+      "locator_id": "LOC-5A63C2514175",
+      "path_id": "PATH-796A39F706DD",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK-015-P0361",
+        "LOC-5A63C2514175",
+        "PATH-796A39F706DD"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-1B2B4488ACA3",
+      "locator_id": "LOC-5B1898FFAF49",
+      "path_id": "PATH-CC03D52ED5BD",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK014-PAGE-325",
+        "LOC-5B1898FFAF49",
+        "PATH-CC03D52ED5BD"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-EFF7CD6F6A8F",
+      "locator_id": "LOC-5BE0630C899D",
+      "path_id": "PATH-D8FB7E157EAB",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK013-5BE0630C899D",
+        "LOC-5BE0630C899D",
+        "PATH-D8FB7E157EAB"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-781366D9F554",
+      "locator_id": "LOC-5D645C3C4539",
+      "path_id": "PATH-A4AB89409293",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK012-PAGE-290",
+        "LOC-5D645C3C4539",
+        "PATH-A4AB89409293"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-745A7E9C0CD7",
+      "locator_id": "LOC-5D7B10F02742",
+      "path_id": "PATH-A806498E791B",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK008-PAGE-178",
+        "LOC-5D7B10F02742",
+        "PATH-A806498E791B"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-0EB12CBC19AF",
+      "locator_id": "LOC-5EB52737A699",
+      "path_id": "PATH-087E35DA55DE",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK011-5EB52737A699",
+        "LOC-5EB52737A699",
+        "PATH-087E35DA55DE"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-F0C38EB5E5F9",
+      "locator_id": "LOC-5EBA8EED849C",
+      "path_id": "PATH-92DDE59E11CF",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK012-PAGE-274",
+        "LOC-5EBA8EED849C",
+        "PATH-92DDE59E11CF"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-6AC6472E08A5",
+      "locator_id": "LOC-5FBBD0417700",
+      "path_id": "PATH-2640FDCEBB83",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK011-5FBBD0417700",
+        "LOC-5FBBD0417700",
+        "PATH-2640FDCEBB83"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-F39761E75D1B",
+      "locator_id": "LOC-603D804E239F",
+      "path_id": "PATH-9BDC8975B704",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK012-PAGE-291",
+        "LOC-603D804E239F",
+        "PATH-9BDC8975B704"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-2CD635822290",
+      "locator_id": "LOC-60F70AAF6AE2",
+      "path_id": "PATH-9E7FE182ABCC",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-160",
+        "LOC-60F70AAF6AE2",
+        "PATH-9E7FE182ABCC"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-63ABF44A7AE7",
+      "locator_id": "LOC-61000669A07B",
+      "path_id": "PATH-92DDE59E11CF",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK011-61000669A07B",
+        "LOC-61000669A07B",
+        "PATH-92DDE59E11CF"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-23FC62A5C645",
+      "locator_id": "LOC-6126FD3D7869",
+      "path_id": "PATH-5C1A40C32124",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK008-PAGE-183",
+        "LOC-6126FD3D7869",
+        "PATH-5C1A40C32124"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-905CAB8755ED",
+      "locator_id": "LOC-621F0C15C2CC",
+      "path_id": "PATH-40EC13A8CB1B",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-621F0C15C2CC",
+        "LOC-621F0C15C2CC",
+        "PATH-40EC13A8CB1B"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-E98062DC8A8F",
+      "locator_id": "LOC-622B61A24230",
+      "path_id": "PATH-27E988B16E16",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-622B61A24230",
+        "LOC-622B61A24230",
+        "PATH-27E988B16E16"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-B324A7FAC861",
+      "locator_id": "LOC-6473CF66DF34",
+      "path_id": "PATH-202B9D53C9CC",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-6473CF66DF34",
+        "LOC-6473CF66DF34",
+        "PATH-202B9D53C9CC"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-CD5EBA1FC8E1",
+      "locator_id": "LOC-65752D13D520",
+      "path_id": "PATH-F493FF0625A7",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK001-P032",
+        "LOC-65752D13D520",
+        "PATH-F493FF0625A7"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-10BC35108DDC",
+      "locator_id": "LOC-6608CA7EE24C",
+      "path_id": "PATH-69F2A871B0D7",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK004-PAGE-093",
+        "LOC-6608CA7EE24C",
+        "PATH-69F2A871B0D7"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-3031E45A9518",
+      "locator_id": "LOC-660BE7E01F4A",
+      "path_id": "PATH-8E160FF113B4",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK011-660BE7E01F4A",
+        "LOC-660BE7E01F4A",
+        "PATH-8E160FF113B4"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-A46D1773B478",
+      "locator_id": "LOC-6677332B19DA",
+      "path_id": "PATH-07FDD304AB62",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-6677332B19DA",
+        "LOC-6677332B19DA",
+        "PATH-07FDD304AB62"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-9BCF68F481E0",
+      "locator_id": "LOC-66F10890A142",
+      "path_id": "PATH-F25346E78436",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK001-P030",
+        "LOC-66F10890A142",
+        "PATH-F25346E78436"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-7AB59EC5D55E",
+      "locator_id": "LOC-670B08BF4F23",
+      "path_id": "PATH-302F9BA2B288",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK017-670B08BF4F23",
+        "LOC-670B08BF4F23",
+        "PATH-302F9BA2B288"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-9568C3867763",
+      "locator_id": "LOC-6755A0004CE0",
+      "path_id": "PATH-D7CE643AC3CC",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-070",
+        "LOC-6755A0004CE0",
+        "PATH-D7CE643AC3CC"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-2C585F64233A",
+      "locator_id": "LOC-686782B10B30",
+      "path_id": "PATH-18754890DD4A",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK009-PAGE-215",
+        "LOC-686782B10B30",
+        "PATH-18754890DD4A"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-29CC90A2AF7B",
+      "locator_id": "LOC-688374501B35",
+      "path_id": "PATH-84FFFF87B539",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK012-PAGE-274",
+        "LOC-688374501B35",
+        "PATH-84FFFF87B539"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-8CE26CA26F0B",
+      "locator_id": "LOC-68D6DD58FE0F",
+      "path_id": "PATH-251FBD6FB4CE",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK012-PAGE-278",
+        "LOC-68D6DD58FE0F",
+        "PATH-251FBD6FB4CE"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-01555AA92005",
+      "locator_id": "LOC-6984A885A859",
+      "path_id": "PATH-6DA4943E5CF7",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK-015-P0346",
+        "LOC-6984A885A859",
+        "PATH-6DA4943E5CF7"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-33408DC8680B",
+      "locator_id": "LOC-6A6AA0C87A36",
+      "path_id": "PATH-3E67415FF147",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-6A6AA0C87A36",
+        "LOC-6A6AA0C87A36",
+        "PATH-3E67415FF147"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-58C109807405",
+      "locator_id": "LOC-6A7C6067C7E7",
+      "path_id": "PATH-E88130753519",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK008-PAGE-174",
+        "LOC-6A7C6067C7E7",
+        "PATH-E88130753519"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-9FF9900E886B",
+      "locator_id": "LOC-6AB41C3FFBA2",
+      "path_id": "PATH-D9E08B7471CD",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-6AB41C3FFBA2",
+        "LOC-6AB41C3FFBA2",
+        "PATH-D9E08B7471CD"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-9ADED1C46124",
+      "locator_id": "LOC-6C80BDB9A2C4",
+      "path_id": "PATH-D4DE0760B63B",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK011-6C80BDB9A2C4",
+        "LOC-6C80BDB9A2C4",
+        "PATH-D4DE0760B63B"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-C081B789CEA3",
+      "locator_id": "LOC-6DC668E610C3",
+      "path_id": "PATH-CC03D52ED5BD",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK017-6DC668E610C3",
+        "LOC-6DC668E610C3",
+        "PATH-CC03D52ED5BD"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-27AF53F15E87",
+      "locator_id": "LOC-6E7A70C1FE0F",
+      "path_id": "PATH-3050AFF4E283",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-6E7A70C1FE0F",
+        "LOC-6E7A70C1FE0F",
+        "PATH-3050AFF4E283"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-426F01711970",
+      "locator_id": "LOC-6F531053DEFD",
+      "path_id": "PATH-0D042406A09F",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-168",
+        "LOC-6F531053DEFD",
+        "PATH-0D042406A09F"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-E531392A846D",
+      "locator_id": "LOC-6F5F5D3049E1",
+      "path_id": "PATH-922FB1DC060B",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK008-PAGE-176",
+        "LOC-6F5F5D3049E1",
+        "PATH-922FB1DC060B"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-EE6E2CAEB033",
+      "locator_id": "LOC-6FF8729EE071",
+      "path_id": "PATH-917DAB1F546D",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK017-6FF8729EE071",
+        "LOC-6FF8729EE071",
+        "PATH-917DAB1F546D"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-4A87F8F51CB4",
+      "locator_id": "LOC-7085CCC22D38",
+      "path_id": "PATH-9698F486DCD5",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK017-7085CCC22D38",
+        "LOC-7085CCC22D38",
+        "PATH-9698F486DCD5"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-A5400B50D11A",
+      "locator_id": "LOC-71F468A6DB2B",
+      "path_id": "PATH-270D693E1772",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-71F468A6DB2B",
+        "LOC-71F468A6DB2B",
+        "PATH-270D693E1772"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-E898010F30AE",
+      "locator_id": "LOC-72134B5DDEA1",
+      "path_id": "PATH-33C6B51DC018",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK-015-P0356",
+        "LOC-72134B5DDEA1",
+        "PATH-33C6B51DC018"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-C41BA18296AB",
+      "locator_id": "LOC-72BCDEDF1FEE",
+      "path_id": "PATH-0E9B854C5942",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-171",
+        "LOC-72BCDEDF1FEE",
+        "PATH-0E9B854C5942"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-BBE79A93F79A",
+      "locator_id": "LOC-7397EF440E2E",
+      "path_id": "PATH-FF8EA55835A7",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK008-PAGE-174",
+        "LOC-7397EF440E2E",
+        "PATH-FF8EA55835A7"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-6C7DA473FEDC",
+      "locator_id": "LOC-73BD5F84885F",
+      "path_id": "PATH-C0F910B7BE5B",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK001-P038",
+        "LOC-73BD5F84885F",
+        "PATH-C0F910B7BE5B"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-B13DC1FEC61D",
+      "locator_id": "LOC-74625807035E",
+      "path_id": "PATH-80810BD7161F",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK011-74625807035E",
+        "LOC-74625807035E",
+        "PATH-80810BD7161F"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-3ECA5312AF21",
+      "locator_id": "LOC-75460F2E0C5C",
+      "path_id": "PATH-3E67415FF147",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK017-75460F2E0C5C",
+        "LOC-75460F2E0C5C",
+        "PATH-3E67415FF147"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-F206F34997BD",
+      "locator_id": "LOC-755790278A95",
+      "path_id": "PATH-A8E5811B35A3",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK006-755790278A95",
+        "LOC-755790278A95",
+        "PATH-A8E5811B35A3"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-FFCE8EA3DC25",
+      "locator_id": "LOC-76CA320B0993",
+      "path_id": "PATH-9F8F4E1C4297",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK017-76CA320B0993",
+        "LOC-76CA320B0993",
+        "PATH-9F8F4E1C4297"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-50FF482C3E64",
+      "locator_id": "LOC-7701F9B95B87",
+      "path_id": "PATH-557E3BC2AF25",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK009-PAGE-219",
+        "LOC-7701F9B95B87",
+        "PATH-557E3BC2AF25"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-0F4FCA184371",
+      "locator_id": "LOC-7B37E593314A",
+      "path_id": "PATH-8786378A53FF",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-7B37E593314A",
+        "LOC-7B37E593314A",
+        "PATH-8786378A53FF"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-391B170395E8",
+      "locator_id": "LOC-7B58953ED8C3",
+      "path_id": "PATH-AC950631E211",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK006-7B58953ED8C3",
+        "LOC-7B58953ED8C3",
+        "PATH-AC950631E211"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-59C8C1D3F82F",
+      "locator_id": "LOC-7BBAEA5AB101",
+      "path_id": "PATH-2DE86224CBE8",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK004-PAGE-101",
+        "LOC-7BBAEA5AB101",
+        "PATH-2DE86224CBE8"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-A556C1D1E7A5",
+      "locator_id": "LOC-7D566EB81E4F",
+      "path_id": "PATH-578CD6F939E6",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK017-7D566EB81E4F",
+        "LOC-7D566EB81E4F",
+        "PATH-578CD6F939E6"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-3E7A763EC549",
+      "locator_id": "LOC-7DFDAEED0D80",
+      "path_id": "PATH-E7FEBC4FDAA1",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK012-PAGE-290",
+        "LOC-7DFDAEED0D80",
+        "PATH-E7FEBC4FDAA1"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-F22CE58E18EE",
+      "locator_id": "LOC-7F4FD513E849",
+      "path_id": "PATH-33C6B51DC018",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK014-PAGE-336",
+        "LOC-7F4FD513E849",
+        "PATH-33C6B51DC018"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-D39B8D49AF55",
+      "locator_id": "LOC-80048D076477",
+      "path_id": "PATH-97B76C85D03D",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK006-80048D076477",
+        "LOC-80048D076477",
+        "PATH-97B76C85D03D"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-96CA8512ECB8",
+      "locator_id": "LOC-807D7CACACF6",
+      "path_id": "PATH-63E370CBFF90",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK017-807D7CACACF6",
+        "LOC-807D7CACACF6",
+        "PATH-63E370CBFF90"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-47486EA9AA9B",
+      "locator_id": "LOC-81D1B964462A",
+      "path_id": "PATH-9655564F02E0",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK012-PAGE-284",
+        "LOC-81D1B964462A",
+        "PATH-9655564F02E0"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-538182E3964B",
+      "locator_id": "LOC-85735D4E1B15",
+      "path_id": "PATH-83BD1E22F8EE",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK004-PAGE-090",
+        "LOC-85735D4E1B15",
+        "PATH-83BD1E22F8EE"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-A95FE2569E10",
+      "locator_id": "LOC-857E706A4693",
+      "path_id": "PATH-3B2B0283730E",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK012-PAGE-290",
+        "LOC-857E706A4693",
+        "PATH-3B2B0283730E"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-798073A3005D",
+      "locator_id": "LOC-8A8464B15473",
+      "path_id": "PATH-86944F607B5E",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK009-PAGE-202",
+        "LOC-8A8464B15473",
+        "PATH-86944F607B5E"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-B2A4A08CAC9D",
+      "locator_id": "LOC-8B4E2623A160",
+      "path_id": "PATH-442A99AA1646",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK011-8B4E2623A160",
+        "LOC-8B4E2623A160",
+        "PATH-442A99AA1646"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-C517CB4C50D9",
+      "locator_id": "LOC-8BBED4DFB08A",
+      "path_id": "PATH-405BEADBB750",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK008-PAGE-194",
+        "LOC-8BBED4DFB08A",
+        "PATH-405BEADBB750"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-6BF37E71FAD5",
+      "locator_id": "LOC-8C182096FD2A",
+      "path_id": "PATH-A5C24B2A63CC",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK004-PAGE-109",
+        "LOC-8C182096FD2A",
+        "PATH-A5C24B2A63CC"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-79AC854F2607",
+      "locator_id": "LOC-8C4C8B44E86E",
+      "path_id": "PATH-16C26D7C73A2",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-8C4C8B44E86E",
+        "LOC-8C4C8B44E86E",
+        "PATH-16C26D7C73A2"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-C35CCC70AEC7",
+      "locator_id": "LOC-8CD598646C35",
+      "path_id": "PATH-6D9691ADA287",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-8CD598646C35",
+        "LOC-8CD598646C35",
+        "PATH-6D9691ADA287"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-EA8359F72824",
+      "locator_id": "LOC-8D0D70F17DB9",
+      "path_id": "PATH-A56914697965",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK001-P043",
+        "LOC-8D0D70F17DB9",
+        "PATH-A56914697965"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-1D0CF9ACC0D5",
+      "locator_id": "LOC-8EBD4E34DB41",
+      "path_id": "PATH-DC1D91816BAA",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK-015-P0351",
+        "LOC-8EBD4E34DB41",
+        "PATH-DC1D91816BAA"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-F8563E4AF524",
+      "locator_id": "LOC-904A159A295E",
+      "path_id": "PATH-4BB1C08E0FA9",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK014-PAGE-336",
+        "LOC-904A159A295E",
+        "PATH-4BB1C08E0FA9"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-576C8932EB13",
+      "locator_id": "LOC-90A978F4319E",
+      "path_id": "PATH-FF8EA55835A7",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK004-PAGE-090",
+        "LOC-90A978F4319E",
+        "PATH-FF8EA55835A7"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-0A8070A0457C",
+      "locator_id": "LOC-9123166AF68B",
+      "path_id": "PATH-D294B7C27870",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK008-PAGE-196",
+        "LOC-9123166AF68B",
+        "PATH-D294B7C27870"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-781239DAAD9A",
+      "locator_id": "LOC-921A7851EBA3",
+      "path_id": "PATH-6BA2E27B30AC",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-921A7851EBA3",
+        "LOC-921A7851EBA3",
+        "PATH-6BA2E27B30AC"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-A72BBC531C59",
+      "locator_id": "LOC-93247632C353",
+      "path_id": "PATH-9062BDBE8E8E",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK017-93247632C353",
+        "LOC-93247632C353",
+        "PATH-9062BDBE8E8E"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-1A6A00D48CCE",
+      "locator_id": "LOC-93578D1E740D",
+      "path_id": "PATH-B4537DBFD922",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-93578D1E740D",
+        "LOC-93578D1E740D",
+        "PATH-B4537DBFD922"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-08B35A08B008",
+      "locator_id": "LOC-9449CF1E6B36",
+      "path_id": "PATH-6D9691ADA287",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK013-9449CF1E6B36",
+        "LOC-9449CF1E6B36",
+        "PATH-6D9691ADA287"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-1A4411508EEA",
+      "locator_id": "LOC-94BD9399B66A",
+      "path_id": "PATH-A9696B929132",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-072",
+        "LOC-94BD9399B66A",
+        "PATH-A9696B929132"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-134907312798",
+      "locator_id": "LOC-956320533A37",
+      "path_id": "PATH-CC03D52ED5BD",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK-015-P0344",
+        "LOC-956320533A37",
+        "PATH-CC03D52ED5BD"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-6829A6EAFB5D",
+      "locator_id": "LOC-961257D84593",
+      "path_id": "PATH-82C44A952241",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK008-PAGE-178",
+        "LOC-961257D84593",
+        "PATH-82C44A952241"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-751A34A5A46E",
+      "locator_id": "LOC-966944711726",
+      "path_id": "PATH-CD2FE947634A",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK011-966944711726",
+        "LOC-966944711726",
+        "PATH-CD2FE947634A"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-DD0130E18827",
+      "locator_id": "LOC-97ABEA16D2D4",
+      "path_id": "PATH-F02E15765BC6",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK001-P038",
+        "LOC-97ABEA16D2D4",
+        "PATH-F02E15765BC6"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-8926DAEC2B0F",
+      "locator_id": "LOC-99AC5E8808F1",
+      "path_id": "PATH-33C6B51DC018",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK-015-P0344",
+        "LOC-99AC5E8808F1",
+        "PATH-33C6B51DC018"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-8A32F2F1B0AC",
+      "locator_id": "LOC-99D701374FBB",
+      "path_id": "PATH-63E370CBFF90",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK011-99D701374FBB",
+        "LOC-99D701374FBB",
+        "PATH-63E370CBFF90"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-A4ABBE33328C",
+      "locator_id": "LOC-99E521EFDAB0",
+      "path_id": "PATH-4B370C127043",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-99E521EFDAB0",
+        "LOC-99E521EFDAB0",
+        "PATH-4B370C127043"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-157803ADFFB4",
+      "locator_id": "LOC-99EAEBA4F398",
+      "path_id": "PATH-3C16555789F9",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-159",
+        "LOC-99EAEBA4F398",
+        "PATH-3C16555789F9"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-8B874E960174",
+      "locator_id": "LOC-9A3C9F35B085",
+      "path_id": "PATH-DED3EDE9926B",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK004-PAGE-104",
+        "LOC-9A3C9F35B085",
+        "PATH-DED3EDE9926B"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-F0FC495C377B",
+      "locator_id": "LOC-9AC198E4F6B4",
+      "path_id": "PATH-D4DE0760B63B",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-9AC198E4F6B4",
+        "LOC-9AC198E4F6B4",
+        "PATH-D4DE0760B63B"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-D2B17709E5E3",
+      "locator_id": "LOC-9AEC4D3EB34B",
+      "path_id": "PATH-33C6B51DC018",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-9AEC4D3EB34B",
+        "LOC-9AEC4D3EB34B",
+        "PATH-33C6B51DC018"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-54AD3168CA36",
+      "locator_id": "LOC-9BE36BCA9141",
+      "path_id": "PATH-31F3416D7872",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-9BE36BCA9141",
+        "LOC-9BE36BCA9141",
+        "PATH-31F3416D7872"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-F23D31EB2A26",
+      "locator_id": "LOC-9CEE5A2E40C2",
+      "path_id": "PATH-9CDA44DF8C5C",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK013-9CEE5A2E40C2",
+        "LOC-9CEE5A2E40C2",
+        "PATH-9CDA44DF8C5C"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-6B9299D9A506",
+      "locator_id": "LOC-9CFE37E4BAB8",
+      "path_id": "PATH-34CA79D09839",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK004-PAGE-094",
+        "LOC-9CFE37E4BAB8",
+        "PATH-34CA79D09839"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-9586593FFC89",
+      "locator_id": "LOC-9D6A7E9FC998",
+      "path_id": "PATH-CC03D52ED5BD",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-169",
+        "LOC-9D6A7E9FC998",
+        "PATH-CC03D52ED5BD"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-1C76D18011B7",
+      "locator_id": "LOC-9E5254F8DA14",
+      "path_id": "PATH-33C6B51DC018",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-9E5254F8DA14",
+        "LOC-9E5254F8DA14",
+        "PATH-33C6B51DC018"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-9F4E5C6D2A1F",
+      "locator_id": "LOC-9EB02C4F6B09",
+      "path_id": "PATH-3E67415FF147",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-077",
+        "LOC-9EB02C4F6B09",
+        "PATH-3E67415FF147"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-697734001AED",
+      "locator_id": "LOC-9EB77E1E1CC0",
+      "path_id": "PATH-9B6FCB33D458",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK011-9EB77E1E1CC0",
+        "LOC-9EB77E1E1CC0",
+        "PATH-9B6FCB33D458"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-AE48D83D1D5D",
+      "locator_id": "LOC-9FC0336C681B",
+      "path_id": "PATH-A194CD4E59D5",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-9FC0336C681B",
+        "LOC-9FC0336C681B",
+        "PATH-A194CD4E59D5"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-6113C52CC375",
+      "locator_id": "LOC-A075AFB6BDBB",
+      "path_id": "PATH-4A5F1130A3BF",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK001-P002",
+        "LOC-A075AFB6BDBB",
+        "PATH-4A5F1130A3BF"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-4F2212237696",
+      "locator_id": "LOC-A1A1DE62B444",
+      "path_id": "PATH-E88130753519",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-A1A1DE62B444",
+        "LOC-A1A1DE62B444",
+        "PATH-E88130753519"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-E2BA969081B5",
+      "locator_id": "LOC-A2E0D8C93922",
+      "path_id": "PATH-251FBD6FB4CE",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-A2E0D8C93922",
+        "LOC-A2E0D8C93922",
+        "PATH-251FBD6FB4CE"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-85BC55DA6687",
+      "locator_id": "LOC-A3C3FE6FDE6F",
+      "path_id": "PATH-2A291F2A758C",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-A3C3FE6FDE6F",
+        "LOC-A3C3FE6FDE6F",
+        "PATH-2A291F2A758C"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-868E6F46C539",
+      "locator_id": "LOC-A471DD6D982E",
+      "path_id": "PATH-6FF815FC081F",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK012-PAGE-275",
+        "LOC-A471DD6D982E",
+        "PATH-6FF815FC081F"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-CD3C95CA56D1",
+      "locator_id": "LOC-A48B280B90F7",
+      "path_id": "PATH-917DAB1F546D",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK017-A48B280B90F7",
+        "LOC-A48B280B90F7",
+        "PATH-917DAB1F546D"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-18C8E33A2B77",
+      "locator_id": "LOC-A51005E5AE3B",
+      "path_id": "PATH-147035609EC4",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK009-PAGE-202",
+        "LOC-A51005E5AE3B",
+        "PATH-147035609EC4"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-B203F06D7119",
+      "locator_id": "LOC-A96A09943513",
+      "path_id": "PATH-1CC1EE4E4B23",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-A96A09943513",
+        "LOC-A96A09943513",
+        "PATH-1CC1EE4E4B23"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-BFA29F175B58",
+      "locator_id": "LOC-AAC1916F9002",
+      "path_id": "PATH-685C701227EB",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK012-PAGE-278",
+        "LOC-AAC1916F9002",
+        "PATH-685C701227EB"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-C519344B1C2E",
+      "locator_id": "LOC-AB74A8C01F1F",
+      "path_id": "PATH-D2D9335568D6",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK017-AB74A8C01F1F",
+        "LOC-AB74A8C01F1F",
+        "PATH-D2D9335568D6"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-488E2F22A136",
+      "locator_id": "LOC-AC146AFDE445",
+      "path_id": "PATH-7AB23AB81734",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-AC146AFDE445",
+        "LOC-AC146AFDE445",
+        "PATH-7AB23AB81734"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-98E53DE14169",
+      "locator_id": "LOC-AC476753B51D",
+      "path_id": "PATH-3C92B63372B9",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK004-PAGE-100",
+        "LOC-AC476753B51D",
+        "PATH-3C92B63372B9"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-348060C273F6",
+      "locator_id": "LOC-AEA585409450",
+      "path_id": "PATH-D91EE6FF5294",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK017-AEA585409450",
+        "LOC-AEA585409450",
+        "PATH-D91EE6FF5294"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-F4FF3114890F",
+      "locator_id": "LOC-B0096256C691",
+      "path_id": "PATH-251FBD6FB4CE",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-B0096256C691",
+        "LOC-B0096256C691",
+        "PATH-251FBD6FB4CE"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-81698A0F3345",
+      "locator_id": "LOC-B1251AB3A243",
+      "path_id": "PATH-258CF1AF8209",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-B1251AB3A243",
+        "LOC-B1251AB3A243",
+        "PATH-258CF1AF8209"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-29294C3B3090",
+      "locator_id": "LOC-B18D9ABC2641",
+      "path_id": "PATH-B8C37207EB22",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-B18D9ABC2641",
+        "LOC-B18D9ABC2641",
+        "PATH-B8C37207EB22"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-D7AFDE633DC6",
+      "locator_id": "LOC-B21FBC1DECD7",
+      "path_id": "PATH-E6D80FA73D7D",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK012-PAGE-293",
+        "LOC-B21FBC1DECD7",
+        "PATH-E6D80FA73D7D"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-DDF3D27F4056",
+      "locator_id": "LOC-B26EB19A3889",
+      "path_id": "PATH-9FBD8438AF5E",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK008-PAGE-174",
+        "LOC-B26EB19A3889",
+        "PATH-9FBD8438AF5E"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-329B9FB8D9AB",
+      "locator_id": "LOC-B2AE1E482464",
+      "path_id": "PATH-048D2A20C0A8",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK013-B2AE1E482464",
+        "LOC-B2AE1E482464",
+        "PATH-048D2A20C0A8"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-BF7A42771140",
+      "locator_id": "LOC-B32738B16770",
+      "path_id": "PATH-D2D9335568D6",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK009-PAGE-215",
+        "LOC-B32738B16770",
+        "PATH-D2D9335568D6"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-A69E7C287DE6",
+      "locator_id": "LOC-B33A86BC887F",
+      "path_id": "PATH-7336148D84EF",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK012-PAGE-293",
+        "LOC-B33A86BC887F",
+        "PATH-7336148D84EF"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-08CE88E8E08A",
+      "locator_id": "LOC-B3D03802BD60",
+      "path_id": "PATH-3CA5E2F8F5DC",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK017-B3D03802BD60",
+        "LOC-B3D03802BD60",
+        "PATH-3CA5E2F8F5DC"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-6A2A71FC88D6",
+      "locator_id": "LOC-B5382F6FB452",
+      "path_id": "PATH-D7CE643AC3CC",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK008-PAGE-176",
+        "LOC-B5382F6FB452",
+        "PATH-D7CE643AC3CC"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-8334A2CA3047",
+      "locator_id": "LOC-B6D571D3433D",
+      "path_id": "PATH-B541DCFA0BFE",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK009-PAGE-202",
+        "LOC-B6D571D3433D",
+        "PATH-B541DCFA0BFE"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-704E08D02603",
+      "locator_id": "LOC-B7370DBB1808",
+      "path_id": "PATH-18754890DD4A",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK009-PAGE-204",
+        "LOC-B7370DBB1808",
+        "PATH-18754890DD4A"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-314764029FFE",
+      "locator_id": "LOC-B7431717DDB9",
+      "path_id": "PATH-3E67415FF147",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK004-PAGE-108",
+        "LOC-B7431717DDB9",
+        "PATH-3E67415FF147"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-9EDBC427737A",
+      "locator_id": "LOC-B89BFF60BE5D",
+      "path_id": "PATH-78C2067EB617",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK017-B89BFF60BE5D",
+        "LOC-B89BFF60BE5D",
+        "PATH-78C2067EB617"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-43290970C911",
+      "locator_id": "LOC-B94CB8AB7A7F",
+      "path_id": "PATH-2A8C85FBE63D",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK012-PAGE-277",
+        "LOC-B94CB8AB7A7F",
+        "PATH-2A8C85FBE63D"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-0B1EB1273283",
+      "locator_id": "LOC-B9A8EEC0E9D6",
+      "path_id": "PATH-8DDBD40E5A9B",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK004-PAGE-100",
+        "LOC-B9A8EEC0E9D6",
+        "PATH-8DDBD40E5A9B"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-9ADA79CEDF05",
+      "locator_id": "LOC-B9EFBFE7BAE6",
+      "path_id": "PATH-8F1DB8E4A413",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK017-B9EFBFE7BAE6",
+        "LOC-B9EFBFE7BAE6",
+        "PATH-8F1DB8E4A413"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-27151FADC547",
+      "locator_id": "LOC-BAE4F13E7689",
+      "path_id": "PATH-FF36F7453B39",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-BAE4F13E7689",
+        "LOC-BAE4F13E7689",
+        "PATH-FF36F7453B39"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-585C80C48CBE",
+      "locator_id": "LOC-BB7C00CA6587",
+      "path_id": "PATH-A5C24B2A63CC",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK017-BB7C00CA6587",
+        "LOC-BB7C00CA6587",
+        "PATH-A5C24B2A63CC"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-07E8FDF28EC5",
+      "locator_id": "LOC-BCA0F94C3309",
+      "path_id": "PATH-7AB23AB81734",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-BCA0F94C3309",
+        "LOC-BCA0F94C3309",
+        "PATH-7AB23AB81734"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-376671EB6D53",
+      "locator_id": "LOC-BEE5D6A3CA03",
+      "path_id": "PATH-4CD23D3662EF",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-BEE5D6A3CA03",
+        "LOC-BEE5D6A3CA03",
+        "PATH-4CD23D3662EF"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-8F98FC766370",
+      "locator_id": "LOC-C40F9F41DBB6",
+      "path_id": "PATH-000CA1A10DD0",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-C40F9F41DBB6",
+        "LOC-C40F9F41DBB6",
+        "PATH-000CA1A10DD0"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-919998517DBF",
+      "locator_id": "LOC-C43F66821C95",
+      "path_id": "PATH-CC03D52ED5BD",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK014-PAGE-323",
+        "LOC-C43F66821C95",
+        "PATH-CC03D52ED5BD"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-0EBA585A5BA5",
+      "locator_id": "LOC-C49DEB8D00B2",
+      "path_id": "PATH-E892666BDD66",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK014-PAGE-319",
+        "LOC-C49DEB8D00B2",
+        "PATH-E892666BDD66"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-1396D58A1A7F",
+      "locator_id": "LOC-C51DCC00B5B5",
+      "path_id": "PATH-024BBAFED2F5",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK012-PAGE-286",
+        "LOC-C51DCC00B5B5",
+        "PATH-024BBAFED2F5"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-32F19545678C",
+      "locator_id": "LOC-C6844659F2D8",
+      "path_id": "PATH-BF035DB433DF",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK004-PAGE-099",
+        "LOC-C6844659F2D8",
+        "PATH-BF035DB433DF"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-8727F7F0AD5A",
+      "locator_id": "LOC-C6B9212DF6F8",
+      "path_id": "PATH-83BD1E22F8EE",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK003-PAGE-071",
+        "LOC-C6B9212DF6F8",
+        "PATH-83BD1E22F8EE"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-C57A4517ADA1",
+      "locator_id": "LOC-C6BD76FACC2D",
+      "path_id": "PATH-F8B5D803731B",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK-015-P0344",
+        "LOC-C6BD76FACC2D",
+        "PATH-F8B5D803731B"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-8B44ED149EDB",
+      "locator_id": "LOC-C75001C54495",
+      "path_id": "PATH-69F2A871B0D7",
+      "fit_category": "no_fit",
+      "evidence_ids": [
+        "EVID-CHUNK004-PAGE-089",
+        "LOC-C75001C54495",
+        "PATH-69F2A871B0D7"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-266543FD0F79",
+      "locator_id": "LOC-C80B1F624B64",
+      "path_id": "PATH-9B6FCB33D458",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK012-PAGE-290",
+        "LOC-C80B1F624B64",
+        "PATH-9B6FCB33D458"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-642BF81332A9",
+      "locator_id": "LOC-C9C2E28A4E8B",
+      "path_id": "PATH-12F0C77D7159",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-C9C2E28A4E8B",
+        "LOC-C9C2E28A4E8B",
+        "PATH-12F0C77D7159"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-09674253567F",
+      "locator_id": "LOC-CADD3785FAA2",
+      "path_id": "PATH-4FBE466770D4",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-172",
+        "LOC-CADD3785FAA2",
+        "PATH-4FBE466770D4"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-3F5815080335",
+      "locator_id": "LOC-CC24124AB37B",
+      "path_id": "PATH-724BE6D70258",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK017-CC24124AB37B",
+        "LOC-CC24124AB37B",
+        "PATH-724BE6D70258"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-ED1E8B8A82C1",
+      "locator_id": "LOC-CD965890ECF1",
+      "path_id": "PATH-215848208AAD",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK013-CD965890ECF1",
+        "LOC-CD965890ECF1",
+        "PATH-215848208AAD"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-E5E371F11E6F",
+      "locator_id": "LOC-CDAFCB2445D9",
+      "path_id": "PATH-CD741F3640D6",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK017-CDAFCB2445D9",
+        "LOC-CDAFCB2445D9",
+        "PATH-CD741F3640D6"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-AA70B312BC15",
+      "locator_id": "LOC-CE38D18FB0A8",
+      "path_id": "PATH-CD2FE947634A",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK014-PAGE-323",
+        "LOC-CE38D18FB0A8",
+        "PATH-CD2FE947634A"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-A51C3B1790EE",
+      "locator_id": "LOC-CE560A894C38",
+      "path_id": "PATH-9B371C8833FA",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK-015-P0361",
+        "LOC-CE560A894C38",
+        "PATH-9B371C8833FA"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-6446C2211946",
+      "locator_id": "LOC-CF983630A519",
+      "path_id": "PATH-D4DE0760B63B",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK001-P038",
+        "LOC-CF983630A519",
+        "PATH-D4DE0760B63B"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-6A704BAFC4AF",
+      "locator_id": "LOC-CFDBC95440DD",
+      "path_id": "PATH-34CA79D09839",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK013-CFDBC95440DD",
+        "LOC-CFDBC95440DD",
+        "PATH-34CA79D09839"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-33ED4CD6572B",
+      "locator_id": "LOC-D0C90CDC858C",
+      "path_id": "PATH-77E89A7631DA",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK009-PAGE-207",
+        "LOC-D0C90CDC858C",
+        "PATH-77E89A7631DA"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-DBE0BF2C2856",
+      "locator_id": "LOC-D1062C9C53AE",
+      "path_id": "PATH-3FE95BB9D264",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK006-D1062C9C53AE",
+        "LOC-D1062C9C53AE",
+        "PATH-3FE95BB9D264"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-0267BC0D1A48",
+      "locator_id": "LOC-D1C39238D33C",
+      "path_id": "PATH-3E67415FF147",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK017-D1C39238D33C",
+        "LOC-D1C39238D33C",
+        "PATH-3E67415FF147"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-7A54E3F06F18",
+      "locator_id": "LOC-D2DD6A83C753",
+      "path_id": "PATH-654C2D0047EB",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK-015-P0342",
+        "LOC-D2DD6A83C753",
+        "PATH-654C2D0047EB"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-AC31C024A062",
+      "locator_id": "LOC-D32E575D9F6C",
+      "path_id": "PATH-1CC1EE4E4B23",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-160",
+        "LOC-D32E575D9F6C",
+        "PATH-1CC1EE4E4B23"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-9537052C513A",
+      "locator_id": "LOC-D3518DE967D1",
+      "path_id": "PATH-11B10C404FC4",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK008-PAGE-179",
+        "LOC-D3518DE967D1",
+        "PATH-11B10C404FC4"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-4D33344819CF",
+      "locator_id": "LOC-D3612D8B628C",
+      "path_id": "PATH-6E997F2A326C",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-D3612D8B628C",
+        "LOC-D3612D8B628C",
+        "PATH-6E997F2A326C"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-DE13D8E47780",
+      "locator_id": "LOC-D38AC34F65EB",
+      "path_id": "PATH-23152F4A7C31",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK017-D38AC34F65EB",
+        "LOC-D38AC34F65EB",
+        "PATH-23152F4A7C31"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-B7D8483C0CF6",
+      "locator_id": "LOC-D3D04B48E1B3",
+      "path_id": "PATH-E5D22C80BED9",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK008-PAGE-178",
+        "LOC-D3D04B48E1B3",
+        "PATH-E5D22C80BED9"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-8ADE401C8625",
+      "locator_id": "LOC-D3DC492CC427",
+      "path_id": "PATH-E5BB43AFD121",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK012-PAGE-293",
+        "LOC-D3DC492CC427",
+        "PATH-E5BB43AFD121"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-01200DC615E9",
+      "locator_id": "LOC-D4F1A35A9AD9",
+      "path_id": "PATH-2306482F9A81",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK017-D4F1A35A9AD9",
+        "LOC-D4F1A35A9AD9",
+        "PATH-2306482F9A81"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-8E26C75A33EB",
+      "locator_id": "LOC-D574AA35D722",
+      "path_id": "PATH-7C0293B2BD4C",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK001-P002",
+        "LOC-D574AA35D722",
+        "PATH-7C0293B2BD4C"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-C6A319EF92FF",
+      "locator_id": "LOC-D5A7AD8EABB2",
+      "path_id": "PATH-9BDC8975B704",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK012-PAGE-289",
+        "LOC-D5A7AD8EABB2",
+        "PATH-9BDC8975B704"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-404AEC85AFFD",
+      "locator_id": "LOC-D5D8CF028EFF",
+      "path_id": "PATH-0B659203C1CA",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK-015-P0349",
+        "LOC-D5D8CF028EFF",
+        "PATH-0B659203C1CA"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-FE5E11EE523F",
+      "locator_id": "LOC-D702F8E55748",
+      "path_id": "PATH-A86F3B89E4C1",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK011-D702F8E55748",
+        "LOC-D702F8E55748",
+        "PATH-A86F3B89E4C1"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-2C4ACA8D428D",
+      "locator_id": "LOC-D7496A1B7CF3",
+      "path_id": "PATH-2AA9D4E0982F",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK008-PAGE-182",
+        "LOC-D7496A1B7CF3",
+        "PATH-2AA9D4E0982F"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-2DAD90D31BA6",
+      "locator_id": "LOC-D76F7AB8B889",
+      "path_id": "PATH-5C1A40C32124",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK008-PAGE-174",
+        "LOC-D76F7AB8B889",
+        "PATH-5C1A40C32124"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-87F2E610C85B",
+      "locator_id": "LOC-D9AA8AD8498A",
+      "path_id": "PATH-442A99AA1646",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK011-D9AA8AD8498A",
+        "LOC-D9AA8AD8498A",
+        "PATH-442A99AA1646"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-4B11778872C4",
+      "locator_id": "LOC-D9B49398AB87",
+      "path_id": "PATH-4A5F1130A3BF",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-D9B49398AB87",
+        "LOC-D9B49398AB87",
+        "PATH-4A5F1130A3BF"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-B28378DBE8F9",
+      "locator_id": "LOC-DA0C2ED841CF",
+      "path_id": "PATH-845393952CAF",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-DA0C2ED841CF",
+        "LOC-DA0C2ED841CF",
+        "PATH-845393952CAF"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-C09788E9D586",
+      "locator_id": "LOC-DD60F23CEC61",
+      "path_id": "PATH-8963DD0DFAC2",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK009-PAGE-213",
+        "LOC-DD60F23CEC61",
+        "PATH-8963DD0DFAC2"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-27D74DDCBC03",
+      "locator_id": "LOC-DD6DAF851CA5",
+      "path_id": "PATH-1B7A1399CCEB",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK-015-P0368",
+        "LOC-DD6DAF851CA5",
+        "PATH-1B7A1399CCEB"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-9F7B410423FD",
+      "locator_id": "LOC-DD7A5ACDAD27",
+      "path_id": "PATH-557E3BC2AF25",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK009-PAGE-202",
+        "LOC-DD7A5ACDAD27",
+        "PATH-557E3BC2AF25"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-C28A5EE9B2E4",
+      "locator_id": "LOC-DEA32824EDE2",
+      "path_id": "PATH-EF31D9628D64",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK009-PAGE-199",
+        "LOC-DEA32824EDE2",
+        "PATH-EF31D9628D64"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-CCCC7C4AA095",
+      "locator_id": "LOC-DFF178C404C1",
+      "path_id": "PATH-82A8FB36E55A",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK-015-P0350",
+        "LOC-DFF178C404C1",
+        "PATH-82A8FB36E55A"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-4D5B33551F50",
+      "locator_id": "LOC-DFFB4A25AD92",
+      "path_id": "PATH-D39B30B60422",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK001-P038",
+        "LOC-DFFB4A25AD92",
+        "PATH-D39B30B60422"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-B819A4EC899F",
+      "locator_id": "LOC-E4612D875085",
+      "path_id": "PATH-92DDE59E11CF",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK012-PAGE-280",
+        "LOC-E4612D875085",
+        "PATH-92DDE59E11CF"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-1A5CDB32DE88",
+      "locator_id": "LOC-E468BA2F327D",
+      "path_id": "PATH-8D97B7FB41C5",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK008-PAGE-183",
+        "LOC-E468BA2F327D",
+        "PATH-8D97B7FB41C5"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-4C2CDF7C99BA",
+      "locator_id": "LOC-E4CF1F102AE9",
+      "path_id": "PATH-AD19D6EB5724",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK-010-PAGE-224",
+        "LOC-E4CF1F102AE9",
+        "PATH-AD19D6EB5724"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-37B799CC4464",
+      "locator_id": "LOC-E4E09172278B",
+      "path_id": "PATH-A5E9E1CAC7E9",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK004-PAGE-090",
+        "LOC-E4E09172278B",
+        "PATH-A5E9E1CAC7E9"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-A191F5E6801C",
+      "locator_id": "LOC-E54E9FA386BB",
+      "path_id": "PATH-84FFFF87B539",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK012-PAGE-275",
+        "LOC-E54E9FA386BB",
+        "PATH-84FFFF87B539"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-5842DF7EE0F4",
+      "locator_id": "LOC-E71768C23D6E",
+      "path_id": "PATH-AC950631E211",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK008-PAGE-179",
+        "LOC-E71768C23D6E",
+        "PATH-AC950631E211"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-512630A2B1F5",
+      "locator_id": "LOC-E9568A2326F0",
+      "path_id": "PATH-202B9D53C9CC",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK012-PAGE-277",
+        "LOC-E9568A2326F0",
+        "PATH-202B9D53C9CC"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-CFF665CEC216",
+      "locator_id": "LOC-EA3A911B2CA0",
+      "path_id": "PATH-60638DC8C9A4",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-EA3A911B2CA0",
+        "LOC-EA3A911B2CA0",
+        "PATH-60638DC8C9A4"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-F21D429D1472",
+      "locator_id": "LOC-EA8C14D069E5",
+      "path_id": "PATH-1F187639AA01",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK008-PAGE-180",
+        "LOC-EA8C14D069E5",
+        "PATH-1F187639AA01"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-9EBDC32D5425",
+      "locator_id": "LOC-EABEE4131D60",
+      "path_id": "PATH-2AE98113357B",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK013-EABEE4131D60",
+        "LOC-EABEE4131D60",
+        "PATH-2AE98113357B"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-2F6F2A2E788F",
+      "locator_id": "LOC-EADA05986518",
+      "path_id": "PATH-A5E9E1CAC7E9",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK004-PAGE-093",
+        "LOC-EADA05986518",
+        "PATH-A5E9E1CAC7E9"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-33EB25273330",
+      "locator_id": "LOC-EB8537C36B7B",
+      "path_id": "PATH-D4DE0760B63B",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK011-EB8537C36B7B",
+        "LOC-EB8537C36B7B",
+        "PATH-D4DE0760B63B"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-4592B3AABDF9",
+      "locator_id": "LOC-ED27C3FBED2A",
+      "path_id": "PATH-D264C948106B",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-ED27C3FBED2A",
+        "LOC-ED27C3FBED2A",
+        "PATH-D264C948106B"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-356197F0AEF0",
+      "locator_id": "LOC-EF85C3E30766",
+      "path_id": "PATH-2B6502FE605D",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK006-EF85C3E30766",
+        "LOC-EF85C3E30766",
+        "PATH-2B6502FE605D"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-47BEFB9B13A8",
+      "locator_id": "LOC-F0E0C4167FD7",
+      "path_id": "PATH-8D8C13939F06",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK004-PAGE-090",
+        "LOC-F0E0C4167FD7",
+        "PATH-8D8C13939F06"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-74A35DC27A9B",
+      "locator_id": "LOC-F0FD828847E2",
+      "path_id": "PATH-DED3EDE9926B",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-F0FD828847E2",
+        "LOC-F0FD828847E2",
+        "PATH-DED3EDE9926B"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-A45767D64DE3",
+      "locator_id": "LOC-F10AA513CDA9",
+      "path_id": "PATH-31F3416D7872",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-F10AA513CDA9",
+        "LOC-F10AA513CDA9",
+        "PATH-31F3416D7872"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-4F6E0E1E54BC",
+      "locator_id": "LOC-F18D84FA6908",
+      "path_id": "PATH-200A29A9A980",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK004-PAGE-109",
+        "LOC-F18D84FA6908",
+        "PATH-200A29A9A980"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-2BF99A43EA29",
+      "locator_id": "LOC-F1A0ADE42B6A",
+      "path_id": "PATH-1EA435E08EE0",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK009-PAGE-218",
+        "LOC-F1A0ADE42B6A",
+        "PATH-1EA435E08EE0"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-8DCF5B8C3F0D",
+      "locator_id": "LOC-F2605EC03618",
+      "path_id": "PATH-4A5F1130A3BF",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-F2605EC03618",
+        "LOC-F2605EC03618",
+        "PATH-4A5F1130A3BF"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-F1BF43FA0378",
+      "locator_id": "LOC-F32D7ADEDD1D",
+      "path_id": "PATH-07F7FD465936",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK004-PAGE-109",
+        "LOC-F32D7ADEDD1D",
+        "PATH-07F7FD465936"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-8E7BD5C217FC",
+      "locator_id": "LOC-F332F88AC651",
+      "path_id": "PATH-048D2A20C0A8",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-F332F88AC651",
+        "LOC-F332F88AC651",
+        "PATH-048D2A20C0A8"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-5DD5AA21BE30",
+      "locator_id": "LOC-F711322DD9A5",
+      "path_id": "PATH-421C2D6ED3A4",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-F711322DD9A5",
+        "LOC-F711322DD9A5",
+        "PATH-421C2D6ED3A4"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-13A0FDE03969",
+      "locator_id": "LOC-F751EB77EAF8",
+      "path_id": "PATH-251FBD6FB4CE",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK012-PAGE-276",
+        "LOC-F751EB77EAF8",
+        "PATH-251FBD6FB4CE"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-132B671138E8",
+      "locator_id": "LOC-F7E35FD72DD7",
+      "path_id": "PATH-AF1511C17A2C",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK013-F7E35FD72DD7",
+        "LOC-F7E35FD72DD7",
+        "PATH-AF1511C17A2C"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-80CDFAB876BE",
+      "locator_id": "LOC-F8785613BACE",
+      "path_id": "PATH-34CA79D09839",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK004-PAGE-100",
+        "LOC-F8785613BACE",
+        "PATH-34CA79D09839"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-06F491F745FE",
+      "locator_id": "LOC-F88BCAD9F9DD",
+      "path_id": "PATH-CADB7ABC4EFD",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-F88BCAD9F9DD",
+        "LOC-F88BCAD9F9DD",
+        "PATH-CADB7ABC4EFD"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-B02F55289DD2",
+      "locator_id": "LOC-F93B554D89C9",
+      "path_id": "PATH-A90064459EFC",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-F93B554D89C9",
+        "LOC-F93B554D89C9",
+        "PATH-A90064459EFC"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-CCDE4BC918D9",
+      "locator_id": "LOC-FA147DCAA9DA",
+      "path_id": "PATH-12E8158E8BC9",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK009-PAGE-218",
+        "LOC-FA147DCAA9DA",
+        "PATH-12E8158E8BC9"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-5B8581331815",
+      "locator_id": "LOC-FA80CE7A724A",
+      "path_id": "PATH-D264C948106B",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK017-FA80CE7A724A",
+        "LOC-FA80CE7A724A",
+        "PATH-D264C948106B"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-DE4F0D0ABC14",
+      "locator_id": "LOC-FB1CC30504C1",
+      "path_id": "PATH-1F187639AA01",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK006-FB1CC30504C1",
+        "LOC-FB1CC30504C1",
+        "PATH-1F187639AA01"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-9192013C4DB8",
+      "locator_id": "LOC-FBD6EB2B85A2",
+      "path_id": "PATH-5A72BE786F4B",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK007-PAGE-160",
+        "LOC-FBD6EB2B85A2",
+        "PATH-5A72BE786F4B"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-65EE1D7B99A4",
+      "locator_id": "LOC-FD93E415F8A7",
+      "path_id": "PATH-A102C716B7A5",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK009-PAGE-206",
+        "LOC-FD93E415F8A7",
+        "PATH-A102C716B7A5"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-1881CB81F8FB",
+      "locator_id": "LOC-FE0DDCE0A16C",
+      "path_id": "PATH-2AA9D4E0982F",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK012-PAGE-286",
+        "LOC-FE0DDCE0A16C",
+        "PATH-2AA9D4E0982F"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-C4A11871E8D6",
+      "locator_id": "LOC-FE8BC6D04FB6",
+      "path_id": "PATH-369E238A2AD0",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-FE8BC6D04FB6",
+        "LOC-FE8BC6D04FB6",
+        "PATH-369E238A2AD0"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-E7AD322E485E",
+      "locator_id": "LOC-FF72E1AE2693",
+      "path_id": "PATH-5D8CB82E5642",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK012-PAGE-287",
+        "LOC-FF72E1AE2693",
+        "PATH-5D8CB82E5642"
+      ]
+    },
+    {
+      "decision_id": "FITDEC-AE2229775E8B",
+      "locator_id": "LOC-FFD707A4A0C0",
+      "path_id": "PATH-79CEB96E90B9",
+      "fit_category": "exact_fit",
+      "evidence_ids": [
+        "EVID-CHUNK008-PAGE-193",
+        "LOC-FFD707A4A0C0",
+        "PATH-79CEB96E90B9"
+      ]
+    }
+  ],
+  "provenance": {
+    "authorization_id": "AUTH-OXFORD-V7-COMPLETE-PATH-FIT-2026-08-31",
+    "authorization_scope": "supplemental_complete_path_fit_only",
+    "decision_origin": "separately_authorized_semantic_adjudication",
+    "supplement_transports_authorized_decisions_only": true,
+    "score_only_migration_inspected_source_pages": false,
+    "score_only_migration_used_prose": false,
+    "historical_artifacts_modified": false,
+    "page_treatment_modified": false,
+    "judgment_modified": false,
+    "treatment_class_modified": false,
+    "source_scope_status_modified": false,
+    "defects_modified": false,
+    "gates_modified": false,
+    "non_fit_dimensions_modified": false,
+    "numerical_fit_credit_supplied": false,
+    "combined_credit_supplied": false,
+    "grade_supplied": false,
+    "dimension_score_supplied": false,
+    "total_score_supplied": false
+  },
+  "supplement_sha256": "0fcc1642b0dc72d1017dde33051c11b973117ec3f8b2b71a4b8588ebec40704d"
+}
