@@ -1,0 +1,95 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "item-collection.schema.json",
+  "title": "Oxford published-index display item collection",
+  "description": "Public-safe display records projected from the canonical V7 item-assessment artifact in authoritative source-array order.",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "collection_id",
+    "item_kind",
+    "source_artifact",
+    "ordering",
+    "count",
+    "items",
+    "collection_sha256"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": {"const": "oxford-published-index-item-collection-v1"},
+    "collection_id": {"type": "string", "pattern": "^COLL-[A-Z_]+-[A-F0-9]{12}$"},
+    "item_kind": {
+      "enum": ["paths", "headings", "locators", "cross_references", "source_subjects"]
+    },
+    "source_artifact": {
+      "type": "object",
+      "required": ["artifact_path", "sha256", "schema_version"],
+      "additionalProperties": false,
+      "properties": {
+        "artifact_path": {"const": "candidate/v7-migration/item-assessments.v7.json"},
+        "sha256": {"$ref": "#/$defs/sha256"},
+        "schema_version": {"const": "subject-index-item-assessments-v4"}
+      }
+    },
+    "ordering": {
+      "type": "object",
+      "required": ["record_order", "defect_derived_arrays", "rhetorical_reordering"],
+      "additionalProperties": false,
+      "properties": {
+        "record_order": {"const": "authoritative_source_array_order"},
+        "defect_derived_arrays": {"const": "ITEM-PROJECTION-DEFECT-ID-ASC-V1"},
+        "rhetorical_reordering": {"const": false}
+      }
+    },
+    "count": {"type": "integer", "minimum": 0},
+    "items": {"type": "array", "items": {"$ref": "#/$defs/item"}},
+    "collection_sha256": {"$ref": "#/$defs/sha256"}
+  },
+  "$defs": {
+    "sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+    "grade": {
+      "type": "object",
+      "required": ["score", "band", "color_token"],
+      "properties": {
+        "score": {"type": ["number", "null"], "minimum": 0, "maximum": 100},
+        "band": {"type": "string", "minLength": 1},
+        "color_token": {
+          "enum": ["grade_excellent", "grade_strong", "grade_mixed", "grade_weak", "grade_poor", "grade_neutral"]
+        }
+      }
+    },
+    "item": {
+      "type": "object",
+      "required": [
+        "item_id",
+        "item_kind",
+        "source_order",
+        "label",
+        "grade",
+        "grade_scope",
+        "summary",
+        "factors",
+        "evidence_ids",
+        "navigation",
+        "detail"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "item_id": {"type": "string", "minLength": 1},
+        "item_kind": {
+          "enum": ["path", "heading", "locator", "cross_reference", "source_subject"]
+        },
+        "source_order": {"type": "integer", "minimum": 0},
+        "label": {"type": "string", "minLength": 1},
+        "grade": {"$ref": "#/$defs/grade"},
+        "grade_scope": {"type": "string", "minLength": 1},
+        "summary": {"type": "string", "minLength": 1},
+        "confidence": {"type": ["string", "number", "null"]},
+        "factors": {"type": "array", "items": {"type": "object"}},
+        "evidence_ids": {"type": "array", "items": {"type": "string"}},
+        "navigation": {"type": "object"},
+        "detail": {"type": "object"}
+      }
+    }
+  }
+}

@@ -1,0 +1,237 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <meta name="description" content="Public presentation of the frozen V7 evaluation of the original published index to The Oxford History of the French Revolution (2002).">
+  <title>Oxford French Revolution index evaluation</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to the evaluation</a>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="wordmark" href="#top" aria-label="Oxford index evaluation home">
+        <span class="wordmark-mark" aria-hidden="true">OI</span>
+        <span>Index evaluation</span>
+      </a>
+      <nav aria-label="Report sections">
+        <a href="#quality">Quality questions</a>
+        <a href="#gates">Gates</a>
+        <a href="#evidence">Supporting detail</a>
+        <a href="#method">Method</a>
+        <a href="#provenance">Provenance</a>
+      </nav>
+      <span class="data-state" id="dataState" role="status">Loading verified data…</span>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="top" aria-labelledby="reportTitle">
+      <div class="hero-inner">
+        <div class="hero-copy">
+          <p class="eyebrow">V7 · original published index · public projection</p>
+          <h1 id="reportTitle">The Oxford History of the French Revolution</h1>
+          <p class="subtitle" id="reportSubtitle">Loading evaluation identity…</p>
+          <p class="lede">A reader-facing view of a completed subject-index evaluation. The observed published index remains the primary result; a documented representation counterfactual is shown separately.</p>
+          <div class="identity-line">
+            <span class="verified-dot" aria-hidden="true"></span>
+            <span id="projectionIdentity">Checking projection binding…</span>
+          </div>
+        </div>
+
+        <div class="score-stack" aria-label="Evaluation scores">
+          <article class="score-card score-card-primary">
+            <p class="score-kicker">Primary observed evaluation</p>
+            <p class="score-value"><span id="canonicalScore">—</span><span class="score-denominator"> / 100</span></p>
+            <p class="score-label" id="canonicalLabel">Loading…</p>
+            <p class="score-note">Canonical, as delivered</p>
+          </article>
+          <article class="score-card score-card-secondary">
+            <div class="score-card-heading">
+              <p class="score-kicker">Secondary view</p>
+              <span class="pill pill-counterfactual">Counterfactual</span>
+            </div>
+            <p class="score-value score-value-small"><span id="adjustedScore">—</span><span class="score-denominator"> / 100</span></p>
+            <p class="score-label" id="adjustedLabel">Loading…</p>
+            <p class="score-note" id="adjustedNote">Representation assumptions only</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-intro" aria-labelledby="readingTitle">
+      <div class="section-heading compact-heading">
+        <p class="section-number">01</p>
+        <div>
+          <p class="eyebrow">Read the result</p>
+          <h2 id="readingTitle">One observed score, one bounded counterfactual</h2>
+        </div>
+      </div>
+      <div class="intro-grid">
+        <div class="prose-card prose-card-emphasis">
+          <h3>What is primary?</h3>
+          <p>The canonical view evaluates the published index as delivered. It is the observed evaluation and the score to lead with.</p>
+        </div>
+        <div class="prose-card">
+          <h3>What changes in the adjusted view?</h3>
+          <p id="counterfactualDescription">Loading the authoritative disclosure…</p>
+        </div>
+        <div class="prose-card">
+          <h3>What does not change?</h3>
+          <p>No judgment, methodology rule, weight, gate, threshold, or benchmark decision is changed by this display projection.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-tinted" id="quality" aria-labelledby="qualityTitle">
+      <div class="section-heading">
+        <p class="section-number">02</p>
+        <div>
+          <p class="eyebrow">Six quality questions</p>
+          <h2 id="qualityTitle">How the index performs</h2>
+          <p>Each card uses the current V7 reader-facing name and copies points, ratings, caps, and components from the frozen calculation artifact.</p>
+        </div>
+      </div>
+      <div class="view-toggle" role="group" aria-label="Dimension score view">
+        <button type="button" class="toggle-button is-active" data-view="primary" aria-pressed="true">Canonical</button>
+        <button type="button" class="toggle-button" data-view="secondary" aria-pressed="false">Adjusted counterfactual</button>
+      </div>
+      <div class="dimension-grid" id="dimensionGrid" aria-live="polite"></div>
+    </section>
+
+    <section class="section" id="gates" aria-labelledby="gatesTitle">
+      <div class="section-heading split-heading">
+        <div class="heading-lockup">
+          <p class="section-number">03</p>
+          <div>
+            <p class="eyebrow">Publication-readiness gates</p>
+            <h2 id="gatesTitle">Claim restrictions, shown separately</h2>
+            <p id="gateEffect">Loading gate disclosure…</p>
+          </div>
+        </div>
+        <div class="gate-totals" id="gateTotals" aria-label="Gate totals"></div>
+      </div>
+      <div class="gate-list" id="gateList"></div>
+    </section>
+
+    <section class="section section-dark" aria-labelledby="metricsTitle">
+      <div class="section-heading on-dark">
+        <p class="section-number">04</p>
+        <div>
+          <p class="eyebrow">Key measured signals</p>
+          <h2 id="metricsTitle">Locator reliability and index density</h2>
+          <p>These values are copied from the canonical V7 calculation; they are not recomputed in the browser.</p>
+        </div>
+      </div>
+      <div class="metric-grid" id="metricGrid"></div>
+    </section>
+
+    <section class="section" id="evidence" aria-labelledby="evidenceTitle">
+      <div class="section-heading">
+        <p class="section-number">05</p>
+        <div>
+          <p class="eyebrow">Supporting detail</p>
+          <h2 id="evidenceTitle">Follow the stable IDs</h2>
+          <p>Browse canonical public item assessments in their authoritative source-array order. Search and filters narrow that order; they never rerank it.</p>
+        </div>
+      </div>
+
+      <div class="grade-legend" id="gradeLegend" aria-label="Grade meanings"></div>
+      <p class="disclosure-note" id="gradeDisclosure"></p>
+
+      <div class="browser-shell">
+        <div class="browser-tabs" id="browserTabs" role="tablist" aria-label="Assessment types"></div>
+        <div class="browser-toolbar">
+          <label class="search-control">
+            <span>Search this assessment type</span>
+            <input id="itemSearch" type="search" placeholder="Label, stable ID, evidence ID…" autocomplete="off">
+          </label>
+          <label class="filter-control">
+            <span>Grade band</span>
+            <select id="gradeFilter">
+              <option value="all">All bands</option>
+            </select>
+          </label>
+        </div>
+        <div class="browser-status" id="browserStatus" role="status">Choose an assessment type to load its public records.</div>
+        <div class="item-list" id="itemList" role="tabpanel" tabindex="0"></div>
+        <div class="pagination" id="pagination" aria-label="Assessment pages"></div>
+      </div>
+    </section>
+
+    <section class="section section-tinted" id="method" aria-labelledby="methodTitle">
+      <div class="section-heading">
+        <p class="section-number">06</p>
+        <div>
+          <p class="eyebrow">Calculation disclosure</p>
+          <h2 id="methodTitle">What the numbers mean</h2>
+          <p>The projection explains the frozen rules; it performs no new score arithmetic.</p>
+        </div>
+      </div>
+      <div class="formula-feature">
+        <div class="formula-mark" aria-label="L equals the minimum of T and F">L = min(T, F)</div>
+        <div>
+          <h3>Locator credit uses two independent axes</h3>
+          <p>Treatment credit (T) and complete-path fit credit (F) are assessed independently. Combined locator credit is their minimum; the displayed locator grade is 100 × L.</p>
+        </div>
+      </div>
+      <div class="method-grid" id="methodGrid"></div>
+    </section>
+
+    <section class="section" id="provenance" aria-labelledby="provenanceTitle">
+      <div class="section-heading">
+        <p class="section-number">07</p>
+        <div>
+          <p class="eyebrow">Provenance</p>
+          <h2 id="provenanceTitle">Pinned, reconstructable, public</h2>
+          <p>Repository commits, tool identity, source hashes, receipt identity, renderer identity, and schema are exposed below.</p>
+        </div>
+      </div>
+      <div class="provenance-repos" id="repositoryCards"></div>
+      <details class="details-panel">
+        <summary>Authoritative artifact bindings</summary>
+        <div class="binding-list" id="artifactBindings"></div>
+      </details>
+      <details class="details-panel">
+        <summary>Projection identity and creation contract</summary>
+        <dl class="definition-grid" id="projectionContract"></dl>
+      </details>
+    </section>
+
+    <section class="section section-limitations" aria-labelledby="limitationsTitle">
+      <div class="section-heading compact-heading">
+        <p class="section-number">08</p>
+        <div>
+          <p class="eyebrow">Interpretation boundaries</p>
+          <h2 id="limitationsTitle">Limitations</h2>
+        </div>
+      </div>
+      <ul class="limitations-list" id="limitationsList"></ul>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>This is a deterministic display projection. The frozen V7 evaluation artifacts remain authoritative.</p>
+    <p id="footerIdentity"></p>
+  </footer>
+
+  <dialog class="item-dialog" id="itemDialog" aria-labelledby="dialogTitle">
+    <div class="dialog-header">
+      <div>
+        <p class="eyebrow" id="dialogKind">Assessment detail</p>
+        <h2 id="dialogTitle">Item</h2>
+      </div>
+      <button type="button" class="dialog-close" id="dialogClose" aria-label="Close assessment detail">×</button>
+    </div>
+    <div class="dialog-body" id="dialogBody"></div>
+  </dialog>
+
+  <noscript>
+    <div class="fatal-error">JavaScript is required to render the bound projection data. The JSON contracts remain directly inspectable in this directory.</div>
+  </noscript>
+</body>
+</html>

@@ -4,8 +4,8 @@ This repository evaluates candidate `oxford-history-french-revolution-2002-origi
 
 The candidate and source PDFs, full normalized index, item inventory, detailed QA ledger, recovery bundles, and other restricted preparation artifacts are intentionally excluded. Only schema-validated public-safe projections belong in this repository.
 
-## Representation-adjusted counterfactual
+## Current V7 result
 
-`candidate/representation-adjustment/representation-adjustment.diff.v1.json` is a compact public diff for the post-evaluation character-fidelity audit. It contains only corrected terms, affected node/path/cross-reference grades, score and gate deltas, aggregate audit counts, and provenance hashes. Unaffected candidate records and the complete adjusted item-assessment ledgers are not reproduced.
+The completed V7 migration is authoritative under `candidate/v7-migration/`. Its canonical, as-delivered result is the primary observed evaluation. The representation-adjusted result is a separate secondary counterfactual bound to the public representation-audit provenance; it does not replace the canonical result or change V7 methodology.
 
-The observed IndexerLabs reconstruction remains the default evaluation at 69.5/100. Both the confirmed-fidelity-adjusted and publisher-favorable estimates are 70.5/100; they are explicitly labeled estimates and do not replace the observed result.
+See [`web/v7-published-index/`](web/v7-published-index/) for the deterministic customer-facing projection, regeneration instructions, public-safety boundary, and direct bindings to the frozen evaluation artifacts.
