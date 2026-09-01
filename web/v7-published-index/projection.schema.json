@@ -1,0 +1,363 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "projection.schema.json",
+  "title": "Oxford published-index web projection",
+  "description": "Contract for the deterministic display-only projection of the frozen V7 evaluation.",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "projection_id",
+    "projection_role",
+    "authority_statement",
+    "title",
+    "subtitle",
+    "builder",
+    "repositories",
+    "primary_view",
+    "secondary_view",
+    "gate_status",
+    "key_metrics",
+    "item_grades",
+    "calculation_disclosure",
+    "provenance",
+    "limitations",
+    "public_safety",
+    "renderer_assets",
+    "projection_sha256"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": {"const": "oxford-published-index-web-projection-v1"},
+    "projection_id": {"type": "string", "pattern": "^OXFORD-V7-PUBLISHED-WEB-[A-F0-9]{12}$"},
+    "projection_role": {"const": "deterministic_display_only_projection"},
+    "authority_statement": {"type": "string", "minLength": 1},
+    "title": {"type": "string", "minLength": 1},
+    "subtitle": {"type": "string", "minLength": 1},
+    "builder": {"$ref": "#/$defs/builder"},
+    "repositories": {"$ref": "#/$defs/repositories"},
+    "primary_view": {"$ref": "#/$defs/primaryView"},
+    "secondary_view": {"$ref": "#/$defs/secondaryView"},
+    "gate_status": {"$ref": "#/$defs/gateStatus"},
+    "key_metrics": {"type": "object", "minProperties": 1},
+    "item_grades": {"$ref": "#/$defs/itemGrades"},
+    "calculation_disclosure": {"$ref": "#/$defs/calculationDisclosure"},
+    "provenance": {"$ref": "#/$defs/provenance"},
+    "limitations": {
+      "type": "array",
+      "minItems": 1,
+      "items": {"type": "string", "minLength": 1}
+    },
+    "public_safety": {"$ref": "#/$defs/publicSafety"},
+    "renderer_assets": {
+      "type": "array",
+      "minItems": 3,
+      "maxItems": 3,
+      "items": {"$ref": "#/$defs/fileBinding"}
+    },
+    "projection_sha256": {"$ref": "#/$defs/sha256"}
+  },
+  "$defs": {
+    "sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+    "gitCommit": {"type": "string", "pattern": "^[a-f0-9]{40}$"},
+    "score": {"type": "number", "minimum": 0, "maximum": 100},
+    "fileBinding": {
+      "type": "object",
+      "required": ["artifact_path", "sha256"],
+      "properties": {
+        "artifact_path": {"type": "string", "minLength": 1},
+        "sha256": {"$ref": "#/$defs/sha256"}
+      }
+    },
+    "builder": {
+      "type": "object",
+      "required": ["builder_id", "version", "source", "command", "ordering_rules", "timestamps"],
+      "properties": {
+        "builder_id": {"const": "oxford-v7-published-index-web-builder-v1"},
+        "version": {"type": "string", "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$"},
+        "source": {"$ref": "#/$defs/fileBinding"},
+        "command": {"type": "string", "minLength": 1},
+        "ordering_rules": {
+          "type": "array",
+          "contains": {"const": "ITEM-PROJECTION-DEFECT-ID-ASC-V1"}
+        },
+        "timestamps": {"const": "omitted_for_determinism"}
+      }
+    },
+    "repository": {
+      "type": "object",
+      "required": ["repository", "commit", "role", "url"],
+      "properties": {
+        "repository": {"type": "string", "minLength": 1},
+        "commit": {"$ref": "#/$defs/gitCommit"},
+        "role": {"type": "string", "minLength": 1},
+        "url": {"type": "string", "format": "uri"},
+        "tool_identity": {"type": "string"},
+        "customer_methodology_url": {"type": "string", "format": "uri"},
+        "frozen_benchmark_commit": {"$ref": "#/$defs/gitCommit"},
+        "frozen_benchmark_sha256": {"$ref": "#/$defs/sha256"}
+      }
+    },
+    "repositories": {
+      "type": "object",
+      "required": ["evaluation", "methodology", "benchmark"],
+      "additionalProperties": false,
+      "properties": {
+        "evaluation": {"$ref": "#/$defs/repository"},
+        "methodology": {"$ref": "#/$defs/repository"},
+        "benchmark": {"$ref": "#/$defs/repository"}
+      }
+    },
+    "dimension": {
+      "type": "object",
+      "required": [
+        "dimension_id",
+        "label",
+        "question",
+        "description",
+        "rating",
+        "rating_maximum",
+        "awarded_points",
+        "maximum_points",
+        "status",
+        "formula_id",
+        "components",
+        "cap_evaluations",
+        "gate_relationship"
+      ],
+      "properties": {
+        "dimension_id": {
+          "enum": [
+            "meaningful_coverage",
+            "editorial_selectivity",
+            "conceptual_stance_fidelity",
+            "page_reference_reliability",
+            "findability_navigation",
+            "mechanics_consistency"
+          ]
+        },
+        "label": {"type": "string", "minLength": 1},
+        "question": {"type": "string", "minLength": 1},
+        "description": {"type": "string", "minLength": 1},
+        "rating": {"type": "number", "minimum": 0, "maximum": 5},
+        "rating_maximum": {"const": 5},
+        "awarded_points": {"type": "number", "minimum": 0},
+        "maximum_points": {"type": "number", "exclusiveMinimum": 0},
+        "status": {"type": "string", "minLength": 1},
+        "formula_id": {"type": "string", "minLength": 1},
+        "components": {"type": "array", "items": {"type": "object"}},
+        "applied_cap": {"type": ["object", "null"]},
+        "cap_evaluations": {"type": "array", "items": {"type": "object"}},
+        "rounding": {"type": ["object", "null"]},
+        "gate_relationship": {"const": "separate_claim_restrictions_shown_in_gate_section"}
+      }
+    },
+    "viewBase": {
+      "type": "object",
+      "required": [
+        "view_id",
+        "role",
+        "label",
+        "score",
+        "maximum_score",
+        "dimensions",
+        "calculation",
+        "structure_locator_review",
+        "locator_fit_supplement"
+      ],
+      "properties": {
+        "view_id": {"type": "string"},
+        "role": {"type": "string"},
+        "label": {"type": "string"},
+        "score": {"$ref": "#/$defs/score"},
+        "maximum_score": {"const": 100},
+        "performance_label": {"type": "string"},
+        "description": {"type": "string"},
+        "dimensions": {
+          "type": "array",
+          "minItems": 6,
+          "maxItems": 6,
+          "items": {"$ref": "#/$defs/dimension"}
+        },
+        "calculation": {"type": "object"},
+        "structure_locator_review": {"type": "object"},
+        "locator_fit_supplement": {"type": "object"},
+        "provenance_artifacts": {"type": "array", "items": {"type": "object"}},
+        "gate_outcomes_equal_to_primary": {"type": "boolean"},
+        "item_detail_scope": {"type": "string"}
+      }
+    },
+    "primaryView": {
+      "allOf": [
+        {"$ref": "#/$defs/viewBase"},
+        {
+          "properties": {
+            "view_id": {"const": "canonical_as_delivered"},
+            "role": {"const": "primary_observed_evaluation"}
+          }
+        }
+      ]
+    },
+    "secondaryView": {
+      "allOf": [
+        {"$ref": "#/$defs/viewBase"},
+        {
+          "required": ["description", "gate_outcomes_equal_to_primary", "item_detail_scope"],
+          "properties": {
+            "view_id": {"const": "representation_adjusted"},
+            "role": {"const": "secondary_counterfactual_representation_view"},
+            "gate_outcomes_equal_to_primary": {"const": true},
+            "item_detail_scope": {"const": "canonical_item_assessments_only"}
+          }
+        }
+      ]
+    },
+    "gateStatus": {
+      "type": "object",
+      "required": ["used_in_score_arithmetic", "counts", "gates", "effect"],
+      "properties": {
+        "used_in_score_arithmetic": {"const": false},
+        "counts": {"type": "object", "additionalProperties": {"type": "integer", "minimum": 0}},
+        "gates": {"type": "array", "items": {"type": "object"}},
+        "effect": {"type": "string", "minLength": 1}
+      }
+    },
+    "collectionBinding": {
+      "type": "object",
+      "required": [
+        "item_kind",
+        "artifact_path",
+        "schema_version",
+        "sha256",
+        "collection_sha256",
+        "count",
+        "ordering"
+      ],
+      "properties": {
+        "item_kind": {"type": "string"},
+        "artifact_path": {"type": "string"},
+        "schema_version": {"const": "oxford-published-index-item-collection-v1"},
+        "sha256": {"$ref": "#/$defs/sha256"},
+        "collection_sha256": {"$ref": "#/$defs/sha256"},
+        "count": {"type": "integer", "minimum": 0},
+        "ordering": {"const": "authoritative_source_array_order"}
+      }
+    },
+    "itemGrades": {
+      "type": "object",
+      "required": [
+        "grading_policy",
+        "disclosure",
+        "color_legend",
+        "summary",
+        "collections",
+        "canonical_only",
+        "interaction"
+      ],
+      "properties": {
+        "grading_policy": {"type": "string"},
+        "disclosure": {"type": "string"},
+        "color_legend": {"type": "array", "items": {"type": "object"}},
+        "summary": {"type": "object"},
+        "collections": {
+          "type": "array",
+          "minItems": 5,
+          "maxItems": 5,
+          "items": {"$ref": "#/$defs/collectionBinding"}
+        },
+        "canonical_only": {"const": true},
+        "interaction": {"type": "object"}
+      }
+    },
+    "calculationDisclosure": {
+      "type": "object",
+      "required": [
+        "treatment_and_complete_path_fit_are_independent",
+        "combined_locator_credit",
+        "locator_grade",
+        "page_reference_reliability_source",
+        "diagnostic_grades_used_in_dimension_arithmetic",
+        "dimension_gates_and_caps",
+        "aggregate_score_source",
+        "displayed_locator_language"
+      ],
+      "properties": {
+        "treatment_and_complete_path_fit_are_independent": {"const": true},
+        "combined_locator_credit": {"const": "L = min(T,F)"},
+        "locator_grade": {"const": "100 × L"},
+        "page_reference_reliability_source": {"type": "string"},
+        "diagnostic_grades_used_in_dimension_arithmetic": {"const": false},
+        "dimension_gates_and_caps": {"type": "string"},
+        "aggregate_score_source": {"type": "string"},
+        "displayed_locator_language": {"type": "string"}
+      }
+    },
+    "sourceBinding": {
+      "type": "object",
+      "required": ["role", "artifact_path", "schema_version", "sha256", "size_bytes", "github_url"],
+      "properties": {
+        "role": {"type": "string"},
+        "artifact_path": {"type": "string"},
+        "schema_version": {"type": "string"},
+        "sha256": {"$ref": "#/$defs/sha256"},
+        "size_bytes": {"type": "integer", "minimum": 1},
+        "github_url": {"type": "string", "format": "uri"},
+        "self_hash": {
+          "type": "object",
+          "required": ["field", "value"],
+          "properties": {
+            "field": {"type": "string"},
+            "value": {"$ref": "#/$defs/sha256"}
+          }
+        }
+      }
+    },
+    "provenance": {
+      "type": "object",
+      "required": [
+        "source_artifacts",
+        "migration_id",
+        "migration_sha256",
+        "validation_receipt_id",
+        "validation_receipt_sha256",
+        "canonical_calculation_id",
+        "canonical_calculation_sha256",
+        "adjusted_calculation_id",
+        "adjusted_calculation_sha256",
+        "projection_metadata_id"
+      ],
+      "properties": {
+        "source_artifacts": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/sourceBinding"}},
+        "migration_id": {"type": "string"},
+        "migration_sha256": {"$ref": "#/$defs/sha256"},
+        "validation_receipt_id": {"type": "string"},
+        "validation_receipt_sha256": {"$ref": "#/$defs/sha256"},
+        "canonical_calculation_id": {"type": "string"},
+        "canonical_calculation_sha256": {"$ref": "#/$defs/sha256"},
+        "adjusted_calculation_id": {"type": "string"},
+        "adjusted_calculation_sha256": {"$ref": "#/$defs/sha256"},
+        "projection_metadata_id": {"$ref": "#/$defs/sha256"}
+      }
+    },
+    "publicSafety": {
+      "type": "object",
+      "required": [
+        "source_excerpts_included",
+        "restricted_files_included",
+        "external_runtime_dependencies",
+        "third_party_javascript",
+        "tracking_or_telemetry",
+        "absolute_paths",
+        "displayed_candidate_data_source"
+      ],
+      "properties": {
+        "source_excerpts_included": {"const": false},
+        "restricted_files_included": {"const": false},
+        "external_runtime_dependencies": {"const": false},
+        "third_party_javascript": {"const": false},
+        "tracking_or_telemetry": {"const": false},
+        "absolute_paths": {"const": false},
+        "displayed_candidate_data_source": {"type": "string", "minLength": 1}
+      }
+    }
+  }
+}
