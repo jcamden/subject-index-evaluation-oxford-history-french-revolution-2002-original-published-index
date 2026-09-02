@@ -9,7 +9,7 @@
     ],
     "source": {
       "artifact_path": "scripts/build_web_projection.py",
-      "sha256": "f4ecea420b7986343ee588b596c91d6a565d4cabe67683345270ef71e0967c97"
+      "sha256": "7f833b1af414b95cc7ce881bc97d4f7c0db2d24f1028f02024e18b6e47f19a5c"
     },
     "timestamps": "omitted_for_determinism",
     "version": "1.0.0"
@@ -4110,7 +4110,7 @@
   },
   "projection_id": "OXFORD-V7-PUBLISHED-WEB-2BBCCA6EA098",
   "projection_role": "deterministic_display_only_projection",
-  "projection_sha256": "b75d6d3ea96c14dfb289b6caa8254e7f6f6fe467dc3dad65d8db2109f74b685a",
+  "projection_sha256": "61541ef60938c516d33fceeb8d2e2ca63817ad35cda66b8570a685d3790c7037",
   "provenance": {
     "adjusted_calculation_id": "CALC-9F582A010696",
     "adjusted_calculation_sha256": "a2d3f7db48bc758719b604c9a66b57dba5a16aa9143c76119c14a0da4fc08006",
@@ -4122,7 +4122,7 @@
     "source_artifacts": [
       {
         "artifact_path": "candidate/v7-migration/dimension-calculations.v7.json",
-        "github_url": "https://github.com/jcamden/subject-index-evaluation-oxford-history-french-revolution-2002-original-published-index/blob/b0b201b0641ea2bec7b27c40ccc8f4c74d22c880/candidate/v7-migration/dimension-calculations.v7.json",
+        "github_url": "https://github.com/publication-intelligence/ohfr-2002-esi/blob/b0b201b0641ea2bec7b27c40ccc8f4c74d22c880/candidate/v7-migration/dimension-calculations.v7.json",
         "role": "canonical_calculation",
         "schema_version": "subject-index-dimension-calculations-v3",
         "self_hash": {
@@ -4134,7 +4134,7 @@
       },
       {
         "artifact_path": "candidate/v7-migration/evaluation-result.v7.json",
-        "github_url": "https://github.com/jcamden/subject-index-evaluation-oxford-history-french-revolution-2002-original-published-index/blob/b0b201b0641ea2bec7b27c40ccc8f4c74d22c880/candidate/v7-migration/evaluation-result.v7.json",
+        "github_url": "https://github.com/publication-intelligence/ohfr-2002-esi/blob/b0b201b0641ea2bec7b27c40ccc8f4c74d22c880/candidate/v7-migration/evaluation-result.v7.json",
         "role": "canonical_result",
         "schema_version": "subject-index-evaluation-result-v8",
         "sha256": "8da54b649a6d09e8f44e1da88bcf66b93b8f2cde6ec3389f6035c7eac86a5285",
@@ -4142,7 +4142,7 @@
       },
       {
         "artifact_path": "candidate/v7-migration/item-assessments.v7.json",
-        "github_url": "https://github.com/jcamden/subject-index-evaluation-oxford-history-french-revolution-2002-original-published-index/blob/b0b201b0641ea2bec7b27c40ccc8f4c74d22c880/candidate/v7-migration/item-assessments.v7.json",
+        "github_url": "https://github.com/publication-intelligence/ohfr-2002-esi/blob/b0b201b0641ea2bec7b27c40ccc8f4c74d22c880/candidate/v7-migration/item-assessments.v7.json",
         "role": "canonical_items",
         "schema_version": "subject-index-item-assessments-v4",
         "sha256": "1629c0e1ae85ffe77d828e614235ba6935535248ff6bdf28c82e54732aaad74a",
@@ -4150,7 +4150,7 @@
       },
       {
         "artifact_path": "candidate/v7-migration/projection-metadata.v7.json",
-        "github_url": "https://github.com/jcamden/subject-index-evaluation-oxford-history-french-revolution-2002-original-published-index/blob/b0b201b0641ea2bec7b27c40ccc8f4c74d22c880/candidate/v7-migration/projection-metadata.v7.json",
+        "github_url": "https://github.com/publication-intelligence/ohfr-2002-esi/blob/b0b201b0641ea2bec7b27c40ccc8f4c74d22c880/candidate/v7-migration/projection-metadata.v7.json",
         "role": "projection_metadata",
         "schema_version": "subject-index-v7-projection-metadata-v1",
         "self_hash": {
@@ -4162,7 +4162,7 @@
       },
       {
         "artifact_path": "candidate/v7-migration/score-migration.v6-to-v7.json",
-        "github_url": "https://github.com/jcamden/subject-index-evaluation-oxford-history-french-revolution-2002-original-published-index/blob/b0b201b0641ea2bec7b27c40ccc8f4c74d22c880/candidate/v7-migration/score-migration.v6-to-v7.json",
+        "github_url": "https://github.com/publication-intelligence/ohfr-2002-esi/blob/b0b201b0641ea2bec7b27c40ccc8f4c74d22c880/candidate/v7-migration/score-migration.v6-to-v7.json",
         "role": "migration_record",
         "schema_version": "subject-index-score-migration-v6-to-v7-v1",
         "self_hash": {
@@ -4174,7 +4174,7 @@
       },
       {
         "artifact_path": "candidate/v7-migration/structure-locator-review.v7.json",
-        "github_url": "https://github.com/jcamden/subject-index-evaluation-oxford-history-french-revolution-2002-original-published-index/blob/b0b201b0641ea2bec7b27c40ccc8f4c74d22c880/candidate/v7-migration/structure-locator-review.v7.json",
+        "github_url": "https://github.com/publication-intelligence/ohfr-2002-esi/blob/b0b201b0641ea2bec7b27c40ccc8f4c74d22c880/candidate/v7-migration/structure-locator-review.v7.json",
         "role": "canonical_structure_review",
         "schema_version": "subject-index-structure-locator-review-v1",
         "self_hash": {
@@ -4186,7 +4186,7 @@
       },
       {
         "artifact_path": "candidate/v7-migration/validation-receipt.v7.json",
-        "github_url": "https://github.com/jcamden/subject-index-evaluation-oxford-history-french-revolution-2002-original-published-index/blob/b0b201b0641ea2bec7b27c40ccc8f4c74d22c880/candidate/v7-migration/validation-receipt.v7.json",
+        "github_url": "https://github.com/publication-intelligence/ohfr-2002-esi/blob/b0b201b0641ea2bec7b27c40ccc8f4c74d22c880/candidate/v7-migration/validation-receipt.v7.json",
         "role": "validation_receipt",
         "schema_version": "subject-index-score-migration-v6-to-v7-validation-v1",
         "self_hash": {
@@ -4198,7 +4198,7 @@
       },
       {
         "artifact_path": "candidate/v7-migration/web-report.v7.json",
-        "github_url": "https://github.com/jcamden/subject-index-evaluation-oxford-history-french-revolution-2002-original-published-index/blob/b0b201b0641ea2bec7b27c40ccc8f4c74d22c880/candidate/v7-migration/web-report.v7.json",
+        "github_url": "https://github.com/publication-intelligence/ohfr-2002-esi/blob/b0b201b0641ea2bec7b27c40ccc8f4c74d22c880/candidate/v7-migration/web-report.v7.json",
         "role": "canonical_web_report",
         "schema_version": "subject-index-web-report-v6",
         "sha256": "19d0d2fb660bbf1ca8f6a3cc6c220925b06cbb98a0083535734f578827b9f102",
@@ -4206,7 +4206,7 @@
       },
       {
         "artifact_path": "candidate/v7-migration/score-views/representation_adjusted.dimension-calculations.v7.json",
-        "github_url": "https://github.com/jcamden/subject-index-evaluation-oxford-history-french-revolution-2002-original-published-index/blob/b0b201b0641ea2bec7b27c40ccc8f4c74d22c880/candidate/v7-migration/score-views/representation_adjusted.dimension-calculations.v7.json",
+        "github_url": "https://github.com/publication-intelligence/ohfr-2002-esi/blob/b0b201b0641ea2bec7b27c40ccc8f4c74d22c880/candidate/v7-migration/score-views/representation_adjusted.dimension-calculations.v7.json",
         "role": "adjusted_calculation",
         "schema_version": "subject-index-dimension-calculations-v3",
         "self_hash": {
@@ -4218,7 +4218,7 @@
       },
       {
         "artifact_path": "candidate/v7-migration/score-views/representation_adjusted.structure-locator-review.v7.json",
-        "github_url": "https://github.com/jcamden/subject-index-evaluation-oxford-history-french-revolution-2002-original-published-index/blob/b0b201b0641ea2bec7b27c40ccc8f4c74d22c880/candidate/v7-migration/score-views/representation_adjusted.structure-locator-review.v7.json",
+        "github_url": "https://github.com/publication-intelligence/ohfr-2002-esi/blob/b0b201b0641ea2bec7b27c40ccc8f4c74d22c880/candidate/v7-migration/score-views/representation_adjusted.structure-locator-review.v7.json",
         "role": "adjusted_structure_review",
         "schema_version": "subject-index-structure-locator-review-v1",
         "self_hash": {
@@ -4230,7 +4230,7 @@
       },
       {
         "artifact_path": "candidate/v7-migration-inputs/locator-fit-supplement.canonical.v7.json",
-        "github_url": "https://github.com/jcamden/subject-index-evaluation-oxford-history-french-revolution-2002-original-published-index/blob/b0b201b0641ea2bec7b27c40ccc8f4c74d22c880/candidate/v7-migration-inputs/locator-fit-supplement.canonical.v7.json",
+        "github_url": "https://github.com/publication-intelligence/ohfr-2002-esi/blob/b0b201b0641ea2bec7b27c40ccc8f4c74d22c880/candidate/v7-migration-inputs/locator-fit-supplement.canonical.v7.json",
         "role": "canonical_locator_fit_supplement",
         "schema_version": "subject-index-v7-locator-fit-supplement-v1",
         "self_hash": {
@@ -4242,7 +4242,7 @@
       },
       {
         "artifact_path": "candidate/v7-migration-inputs/locator-fit-supplement.representation-adjusted.v7.json",
-        "github_url": "https://github.com/jcamden/subject-index-evaluation-oxford-history-french-revolution-2002-original-published-index/blob/b0b201b0641ea2bec7b27c40ccc8f4c74d22c880/candidate/v7-migration-inputs/locator-fit-supplement.representation-adjusted.v7.json",
+        "github_url": "https://github.com/publication-intelligence/ohfr-2002-esi/blob/b0b201b0641ea2bec7b27c40ccc8f4c74d22c880/candidate/v7-migration-inputs/locator-fit-supplement.representation-adjusted.v7.json",
         "role": "adjusted_locator_fit_supplement",
         "schema_version": "subject-index-v7-locator-fit-supplement-v1",
         "self_hash": {
@@ -4254,7 +4254,7 @@
       },
       {
         "artifact_path": "candidate/v7-migration-inputs/supplemental-architecture-review.canonical.v7.json",
-        "github_url": "https://github.com/jcamden/subject-index-evaluation-oxford-history-french-revolution-2002-original-published-index/blob/b0b201b0641ea2bec7b27c40ccc8f4c74d22c880/candidate/v7-migration-inputs/supplemental-architecture-review.canonical.v7.json",
+        "github_url": "https://github.com/publication-intelligence/ohfr-2002-esi/blob/b0b201b0641ea2bec7b27c40ccc8f4c74d22c880/candidate/v7-migration-inputs/supplemental-architecture-review.canonical.v7.json",
         "role": "canonical_architecture_supplement",
         "schema_version": "subject-index-v7-architecture-review-supplement-v1",
         "self_hash": {
@@ -4266,7 +4266,7 @@
       },
       {
         "artifact_path": "candidate/v7-migration-inputs/supplemental-architecture-review.representation-adjusted.v7.json",
-        "github_url": "https://github.com/jcamden/subject-index-evaluation-oxford-history-french-revolution-2002-original-published-index/blob/b0b201b0641ea2bec7b27c40ccc8f4c74d22c880/candidate/v7-migration-inputs/supplemental-architecture-review.representation-adjusted.v7.json",
+        "github_url": "https://github.com/publication-intelligence/ohfr-2002-esi/blob/b0b201b0641ea2bec7b27c40ccc8f4c74d22c880/candidate/v7-migration-inputs/supplemental-architecture-review.representation-adjusted.v7.json",
         "role": "adjusted_architecture_supplement",
         "schema_version": "subject-index-v7-architecture-review-supplement-v1",
         "self_hash": {
@@ -4278,7 +4278,7 @@
       },
       {
         "artifact_path": "candidate/migration-input.v6-to-v7.json",
-        "github_url": "https://github.com/jcamden/subject-index-evaluation-oxford-history-french-revolution-2002-original-published-index/blob/b0b201b0641ea2bec7b27c40ccc8f4c74d22c880/candidate/migration-input.v6-to-v7.json",
+        "github_url": "https://github.com/publication-intelligence/ohfr-2002-esi/blob/b0b201b0641ea2bec7b27c40ccc8f4c74d22c880/candidate/migration-input.v6-to-v7.json",
         "role": "migration_input",
         "schema_version": "subject-index-v6-to-v7-migration-input-v1",
         "sha256": "5492d30593e5f9f10ad3aa8ea93c4870215b08739baae4664dba29864e309fc4",
@@ -4286,7 +4286,7 @@
       },
       {
         "artifact_path": "candidate/v6-migration/dimension-calculations.v6.json",
-        "github_url": "https://github.com/jcamden/subject-index-evaluation-oxford-history-french-revolution-2002-original-published-index/blob/b0b201b0641ea2bec7b27c40ccc8f4c74d22c880/candidate/v6-migration/dimension-calculations.v6.json",
+        "github_url": "https://github.com/publication-intelligence/ohfr-2002-esi/blob/b0b201b0641ea2bec7b27c40ccc8f4c74d22c880/candidate/v6-migration/dimension-calculations.v6.json",
         "role": "v6_calculation",
         "schema_version": "subject-index-dimension-calculations-v2",
         "self_hash": {
@@ -4298,7 +4298,7 @@
       },
       {
         "artifact_path": "candidate/v6-migration/evaluation-result.v7.json",
-        "github_url": "https://github.com/jcamden/subject-index-evaluation-oxford-history-french-revolution-2002-original-published-index/blob/b0b201b0641ea2bec7b27c40ccc8f4c74d22c880/candidate/v6-migration/evaluation-result.v7.json",
+        "github_url": "https://github.com/publication-intelligence/ohfr-2002-esi/blob/b0b201b0641ea2bec7b27c40ccc8f4c74d22c880/candidate/v6-migration/evaluation-result.v7.json",
         "role": "v6_result",
         "schema_version": "subject-index-evaluation-result-v7",
         "sha256": "2e006ecd38670789062c42249e10c92099074c04425be303c434d98ba04a4204",
@@ -4306,7 +4306,7 @@
       },
       {
         "artifact_path": "candidate/v6-migration/item-assessments.v3.json",
-        "github_url": "https://github.com/jcamden/subject-index-evaluation-oxford-history-french-revolution-2002-original-published-index/blob/b0b201b0641ea2bec7b27c40ccc8f4c74d22c880/candidate/v6-migration/item-assessments.v3.json",
+        "github_url": "https://github.com/publication-intelligence/ohfr-2002-esi/blob/b0b201b0641ea2bec7b27c40ccc8f4c74d22c880/candidate/v6-migration/item-assessments.v3.json",
         "role": "v6_items",
         "schema_version": "subject-index-item-assessments-v3",
         "sha256": "c0ab9d7401cd2d3fd1ee0a37ca1a8611094f89254104c9848a1f535148d47130",
@@ -4314,7 +4314,7 @@
       },
       {
         "artifact_path": "candidate/v6-migration/web-report.v5.json",
-        "github_url": "https://github.com/jcamden/subject-index-evaluation-oxford-history-french-revolution-2002-original-published-index/blob/b0b201b0641ea2bec7b27c40ccc8f4c74d22c880/candidate/v6-migration/web-report.v5.json",
+        "github_url": "https://github.com/publication-intelligence/ohfr-2002-esi/blob/b0b201b0641ea2bec7b27c40ccc8f4c74d22c880/candidate/v6-migration/web-report.v5.json",
         "role": "v6_web_report",
         "schema_version": "subject-index-web-report-v5",
         "sha256": "609c73f71cf00d0fb14e9b6da51d9ed26d2516b03853c0d0f8f2776e90c18def",
@@ -4322,7 +4322,7 @@
       },
       {
         "artifact_path": "candidate/v6-migration/projection-metadata.v6.json",
-        "github_url": "https://github.com/jcamden/subject-index-evaluation-oxford-history-french-revolution-2002-original-published-index/blob/b0b201b0641ea2bec7b27c40ccc8f4c74d22c880/candidate/v6-migration/projection-metadata.v6.json",
+        "github_url": "https://github.com/publication-intelligence/ohfr-2002-esi/blob/b0b201b0641ea2bec7b27c40ccc8f4c74d22c880/candidate/v6-migration/projection-metadata.v6.json",
         "role": "v6_projection_metadata",
         "schema_version": "subject-index-v6-projection-metadata-v1",
         "sha256": "ded1b2fbd307927a3d4ddb499f2402bb4aba6b4fe71734ddcc6f26dfc6db344e",
@@ -4330,7 +4330,7 @@
       },
       {
         "artifact_path": "candidate/representation-adjustment/correction-causal-ledger.v1.json",
-        "github_url": "https://github.com/jcamden/subject-index-evaluation-oxford-history-french-revolution-2002-original-published-index/blob/b0b201b0641ea2bec7b27c40ccc8f4c74d22c880/candidate/representation-adjustment/correction-causal-ledger.v1.json",
+        "github_url": "https://github.com/publication-intelligence/ohfr-2002-esi/blob/b0b201b0641ea2bec7b27c40ccc8f4c74d22c880/candidate/representation-adjustment/correction-causal-ledger.v1.json",
         "role": "representation_correction_ledger",
         "schema_version": "subject-index-character-fidelity-correction-ledger-v1",
         "sha256": "1b06021fd4d2185094780da97bfbefbfe17eaf59ae849cbbc277e7f1bc99f20b",
@@ -4338,7 +4338,7 @@
       },
       {
         "artifact_path": "candidate/representation-adjustment/character-fidelity-audit.v1.json",
-        "github_url": "https://github.com/jcamden/subject-index-evaluation-oxford-history-french-revolution-2002-original-published-index/blob/b0b201b0641ea2bec7b27c40ccc8f4c74d22c880/candidate/representation-adjustment/character-fidelity-audit.v1.json",
+        "github_url": "https://github.com/publication-intelligence/ohfr-2002-esi/blob/b0b201b0641ea2bec7b27c40ccc8f4c74d22c880/candidate/representation-adjustment/character-fidelity-audit.v1.json",
         "role": "representation_fidelity_audit",
         "schema_version": "subject-index-character-fidelity-audit-v1",
         "sha256": "bee81248c0361684f723bb11c4568ee7786c2866b00544645da0c48b8e7ec7ec",
@@ -4346,7 +4346,7 @@
       },
       {
         "artifact_path": "validation/representation-adjustment-validation-receipt.v1.json",
-        "github_url": "https://github.com/jcamden/subject-index-evaluation-oxford-history-french-revolution-2002-original-published-index/blob/b0b201b0641ea2bec7b27c40ccc8f4c74d22c880/validation/representation-adjustment-validation-receipt.v1.json",
+        "github_url": "https://github.com/publication-intelligence/ohfr-2002-esi/blob/b0b201b0641ea2bec7b27c40ccc8f4c74d22c880/validation/representation-adjustment-validation-receipt.v1.json",
         "role": "representation_validation_receipt",
         "schema_version": "subject-index-representation-adjustment-validation-v1",
         "sha256": "2dde71f7a165732e74bca860389c9f229deded05b3764cb6d401f043f3426ea8",
@@ -4384,23 +4384,23 @@
       "commit": "435679329cecd5facbead2b837380a8a9b9f697b",
       "frozen_benchmark_commit": "98dbffd0ca171b5b7db76dbe1b2b5d5265ccacab",
       "frozen_benchmark_sha256": "b925797fcab50b2008ad5974590e323f772e5ea7013efa84ce7606007439aeb3",
-      "repository": "jcamden/subject-index-benchmark-oxford-history-french-revolution-2002",
+      "repository": "publication-intelligence/ohfr-2002-esi-benchmark",
       "role": "benchmark_repository_and_frozen_evaluation_binding",
-      "url": "https://github.com/jcamden/subject-index-benchmark-oxford-history-french-revolution-2002/tree/435679329cecd5facbead2b837380a8a9b9f697b"
+      "url": "https://github.com/publication-intelligence/ohfr-2002-esi-benchmark/tree/435679329cecd5facbead2b837380a8a9b9f697b"
     },
     "evaluation": {
       "commit": "b0b201b0641ea2bec7b27c40ccc8f4c74d22c880",
-      "repository": "jcamden/subject-index-evaluation-oxford-history-french-revolution-2002-original-published-index",
+      "repository": "publication-intelligence/ohfr-2002-esi",
       "role": "authoritative_evaluation_source",
-      "url": "https://github.com/jcamden/subject-index-evaluation-oxford-history-french-revolution-2002-original-published-index/tree/b0b201b0641ea2bec7b27c40ccc8f4c74d22c880"
+      "url": "https://github.com/publication-intelligence/ohfr-2002-esi/tree/b0b201b0641ea2bec7b27c40ccc8f4c74d22c880"
     },
     "methodology": {
       "commit": "df9112d036105213da74a4cc8f8f3f2a3ad26784",
-      "customer_methodology_url": "https://github.com/jcamden/evaluate-subject-index/blob/df9112d036105213da74a4cc8f8f3f2a3ad26784/evaluate-subject-index/references/customer-methodology-v7.md",
-      "repository": "jcamden/evaluate-subject-index",
+      "customer_methodology_url": "https://github.com/publication-intelligence/evaluate-subject-index/blob/df9112d036105213da74a4cc8f8f3f2a3ad26784/evaluate-subject-index/references/customer-methodology-v7.md",
+      "repository": "publication-intelligence/evaluate-subject-index",
       "role": "frozen_v7_methodology",
       "tool_identity": "dimension-score-cli-v7.0.6",
-      "url": "https://github.com/jcamden/evaluate-subject-index/tree/df9112d036105213da74a4cc8f8f3f2a3ad26784"
+      "url": "https://github.com/publication-intelligence/evaluate-subject-index/tree/df9112d036105213da74a4cc8f8f3f2a3ad26784"
     }
   },
   "schema_version": "oxford-published-index-web-projection-v1",

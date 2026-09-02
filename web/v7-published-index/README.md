@@ -39,7 +39,7 @@ The builder binds all applicable merged public artifacts, including:
 - the public migration input and V6 projection chain; and
 - the public representation-audit provenance bound by the adjusted view.
 
-Methodology is pinned to [`df9112d036105213da74a4cc8f8f3f2a3ad26784`](https://github.com/jcamden/evaluate-subject-index/tree/df9112d036105213da74a4cc8f8f3f2a3ad26784), tool identity `dimension-score-cli-v7.0.6`. The builder reuses the methodology’s existing V7 schemas and display contracts; it introduces no methodology rule.
+Methodology is pinned to [`df9112d036105213da74a4cc8f8f3f2a3ad26784`](https://github.com/publication-intelligence/evaluate-subject-index/tree/df9112d036105213da74a4cc8f8f3f2a3ad26784), tool identity `dimension-score-cli-v7.0.6`. The builder reuses the methodology’s existing V7 schemas and display contracts; it introduces no methodology rule.
 
 ## Regenerate
 
