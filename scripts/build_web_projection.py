@@ -36,14 +36,9 @@ BUILDER_ID = "oxford-v7-published-index-web-builder-v1"
 BUILDER_VERSION = "1.0.0"
 ORDERING_RULE = "ITEM-PROJECTION-DEFECT-ID-ASC-V1"
 
-EVALUATION_REPOSITORY = (
-    "jcamden/subject-index-evaluation-oxford-history-french-revolution-2002-"
-    "original-published-index"
-)
-METHODOLOGY_REPOSITORY = "jcamden/evaluate-subject-index"
-BENCHMARK_REPOSITORY = (
-    "jcamden/subject-index-benchmark-oxford-history-french-revolution-2002"
-)
+EVALUATION_REPOSITORY = "publication-intelligence/ohfr-2002-esi"
+METHODOLOGY_REPOSITORY = "publication-intelligence/evaluate-subject-index"
+BENCHMARK_REPOSITORY = "publication-intelligence/ohfr-2002-esi-benchmark"
 
 EVALUATION_BASE_COMMIT = "b0b201b0641ea2bec7b27c40ccc8f4c74d22c880"
 METHODOLOGY_COMMIT = "df9112d036105213da74a4cc8f8f3f2a3ad26784"
